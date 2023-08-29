@@ -1,0 +1,39 @@
+name: Scrape latest data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+  - cron: '13,43 * * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v3
+    - name: Fetch latest emotes.json
+      run: |-
+        curl 'https://cdn.destiny.gg/emotes/emotes.json' | jq > emotes.json
+    - name: Fetch latest emotes.css
+      run: |-
+        curl --output emotes.css 'https://cdn.destiny.gg/emotes/emotes.css'
+    - name: Check if anything changed
+      id: change_check
+      run: echo "GIT_STATUS=$(git status --porcelain=v1 2>/dev/null | wc -l)" >> $GITHUB_OUTPUT
+    - name: Remove the old images folder
+      if: steps.change_check.outputs.GIT_STATUS != '0'
+      run: rm -rf images
+    - name: Fetch latest emote images
+      if: steps.change_check.outputs.GIT_STATUS != '0'
+      run: |-
+        jq -rj '.[] | .image[].url, " ", "images/theme_" + (.theme | tostring) + "/" + .prefix + "." + (.image[].name | split(".") | .[1]), "\n"' emotes.json | xargs -n2 sh -c 'curl --create-dirs -o $1 $0'
+    - name: Commit and push if it changed
+      if: steps.change_check.outputs.GIT_STATUS != '0'
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
