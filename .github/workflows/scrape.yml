@@ -21,9 +21,9 @@ jobs:
     - name: Check if anything changed
       id: change_check
       run: echo "GIT_STATUS=$(git status --porcelain=v1 2>/dev/null | wc -l)" >> $GITHUB_OUTPUT
-    - name: Remove the old images folder
+    - name: Remove the specific theme folders
       if: steps.change_check.outputs.GIT_STATUS != '0'
-      run: rm -rf images
+      run: jq -r '"images/theme_" + (.[].theme | tostring)' emotes.json | (xargs rm -r 2> /dev/null || true)
     - name: Fetch latest emote images
       if: steps.change_check.outputs.GIT_STATUS != '0'
       run: |-
