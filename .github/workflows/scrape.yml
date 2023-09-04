@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Fetch latest emotes.json
       run: |-
         curl 'https://cdn.destiny.gg/emotes/emotes.json' | jq > emotes.json
