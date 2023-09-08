@@ -14,10 +14,10 @@ jobs:
       uses: actions/checkout@v4
     - name: Fetch latest emotes.json
       run: |-
-        curl 'https://cdn.destiny.gg/emotes/emotes.json' | jq > emotes.json
+        curl "https://cdn.destiny.gg/emotes/emotes.json?_=$(date +%s)" | jq > emotes.json
     - name: Fetch latest emotes.css
       run: |-
-        curl --output emotes.css 'https://cdn.destiny.gg/emotes/emotes.css'
+        curl --output emotes.css "https://cdn.destiny.gg/emotes/emotes.css?_=$(date +%s)"
     - name: Check if anything changed
       id: change_check
       run: echo "GIT_STATUS=$(git status --porcelain=v1 2>/dev/null | wc -l)" >> $GITHUB_OUTPUT
