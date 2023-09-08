@@ -3464,7 +3464,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 .emote.gachiGASM:hover::after {
     animation: gachiGASM-anim-ba-hover 500ms infinite linear;
 }
-.emote.GIGACHAD{
+.emote.GIGACHAD {
   height: 32px;
   width: 29px;
   background-position: 0px; 
@@ -3472,39 +3472,41 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   animation: GIGACHAD-anim 1.5s ease-out 1;
   transition: all 1s;
 }
-[data-username="melina"] .emote.GIGACHAD {
-  height: 32px;
-  width: 40px;
-  background-position: -58px; 
-  background-repeat: no-repeat;
-  animation: GIGAMEL-anim 1.5s ease-out 1;
-  transition: all 1s;
-}
 .emote.GIGACHAD:hover {
   filter: brightness(1.45) drop-shadow(0px 0px 10px #FFFFFF80);
   transition: all .5s;
 }
-[data-username="melina"]:hover .emote.GIGACHAD {
-  filter: brightness(1.45) drop-shadow(0px 0px 10px #fb5b59);
-  transition: all .5s;
-}
+
+.msg-chat.msg-user:is([data-mentioned="melina"], [data-username="melina"]) .emote.GIGACHAD{
+    height: 32px;
+    width: 40px;
+    background-position: -58px;
+    background-repeat: no-repeat;
+    animation: GIGACHAD-GIGAMEL-anim 1.5s ease-out 1;
+    transition: all 1s; 
+  }
+
+.msg-chat.msg-user:is([data-mentioned="melina"], [data-username="melina"]):hover .emote.GIGACHAD{
+    filter: brightness(1.45) drop-shadow(0px 0px 10px #fb5b59);
+    transition: all .5s;
+  }
  
 @keyframes GIGACHAD-anim {
   0% { background-position: -29px 10px; }
-  100% { background-position: 0px; }
+  100% { background-position: 0px;}
 }
-@keyframes GIGAMEL-anim {   
+@keyframes GIGACHAD-GIGAMEL-anim {   
   0% { background-position: -109px 10px; }
   100% { background-position: -58px; }
 }
 @keyframes GIGACHAD-combo {
   20% { filter: hue-rotate(56deg) brightness(1.3) drop-shadow(0px 0px 15px #FF0000BB); transform: scale(1.05); }
 }
-@keyframes T5-anim {   
+@keyframes GIGACHAD-T5-anim {   
   0% { filter: brightness(1) hue-rotate(0deg) saturate(5) drop-shadow(0px 0px 10px #D436D200); }
   100% { filter: brightness(1) hue-rotate(-360deg) saturate(5) drop-shadow(0px 0px 10px #D436D200); }
 }
-@keyframes T5-hover-first-loop {   
+@keyframes GIGACHAD-T5-hover-first-loop {   
   0% { filter: brightness(1); }
   10% { filter: brightness(1.35) hue-rotate(0deg) saturate(5) drop-shadow(0px 0px 10px #ff0000); }
   30% { filter: brightness(1.35) hue-rotate(-60deg) saturate(5) drop-shadow(0px 0px 10px #ff8000); }
@@ -3513,7 +3515,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   90% { filter: brightness(1.35) hue-rotate(-240deg) saturate(5) drop-shadow(0px 0px 10px #8000ff); }
   100% { filter: brightness(1.35) hue-rotate(-360deg) saturate(5) drop-shadow(0px 0px 10px #ff0000); }
 }
-@keyframes T5-hover-infinite {   
+@keyframes GIGACHAD-T5-hover-infinite {   
   0% { filter: brightness(1.35) hue-rotate(0deg) saturate(5) drop-shadow(0px 0px 10px #ff0000); }
   20% { filter: brightness(1.35) hue-rotate(-60deg) saturate(5) drop-shadow(0px 0px 10px #ff8000); }
   40% { filter: brightness(1.35) hue-rotate(-120deg) saturate(5) drop-shadow(0px 0px 10px #00ff00); }
@@ -3526,36 +3528,37 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   animation: GIGACHAD-combo 1s 1;
 }
 /* flair colors */
-.msg-chat.msg-user:hover .user.flair42 ~ .text .emote.GIGACHAD{
+.msg-chat.msg-user:not([data-mentioned="melina"]):hover .user.flair42 ~ .text .emote.GIGACHAD {
   transition: all .5s;  
   animation: GIGACHAD-anim 1.5s ease-out 1, 
-    T5-anim 3s infinite linear, 
-    T5-hover-first-loop 3s 1 linear, 
-    T5-hover-infinite 3s 3s infinite linear;
+    GIGACHAD-T5-anim 3s infinite linear, 
+    GIGACHAD-T5-hover-first-loop 3s 1 linear, 
+    GIGACHAD-T5-hover-infinite 3s 3s infinite linear;
 }
-.msg-chat.msg-user:hover .user.flair8 ~ .text .emote.GIGACHAD{
+.msg-chat.msg-user:not([data-mentioned="melina"]):hover .user.flair8 ~ .text .emote.GIGACHAD {
   filter: brightness(1.35) hue-rotate(-54deg) saturate(5) drop-shadow(0px 0px 10px #D436D2A0);
   transition: all .5s;
 }
-.msg-chat.msg-user:hover .user.flair3 ~ .text .emote.GIGACHAD{
+.msg-chat.msg-user:not([data-mentioned="melina"]):hover .user.flair3 ~ .text .emote.GIGACHAD {
   filter: brightness(1.35) hue-rotate(103deg) saturate(5) drop-shadow(0px 0px 10px #7AD53DA0);
   transition: all .5s;
 }
-.msg-chat.msg-user:hover .user.flair1 ~ .text .emote.GIGACHAD {
+.msg-chat.msg-user:not([data-mentioned="melina"]):hover .user.flair1 ~ .text .emote.GIGACHAD {
   filter: brightness(1.35) hue-rotate(176deg) saturate(5) drop-shadow(0px 0px 10px #2ADDC8A0);
   transition: all .5s;
 }
 
-.msg-chat.msg-user .user.flair42 ~ .text .emote.GIGACHAD{ 
-  animation: GIGACHAD-anim 1.5s ease-out 1, T5-anim 3s infinite linear;
+.msg-chat.msg-user:not([data-mentioned="melina"]) .user.flair42 ~ .text .emote.GIGACHAD { 
+   transition: all .5s;
+   animation: GIGACHAD-anim 1.5s ease-out 1, GIGACHAD-T5-anim 3s infinite linear;
 }
-.msg-chat.msg-user .user.flair8 ~ .text .emote.GIGACHAD{ 
+.msg-chat.msg-user:not([data-mentioned="melina"]) .user.flair8 ~ .text .emote.GIGACHAD { 
   filter: brightness(1) hue-rotate(-54deg) saturate(5) drop-shadow(0px 0px 10px #D436D200);
 }
-.msg-chat.msg-user .user.flair3 ~ .text .emote.GIGACHAD{
+.msg-chat.msg-user:not([data-mentioned="melina"]) .user.flair3 ~ .text .emote.GIGACHAD {
   filter: brightness(1) hue-rotate(103deg) saturate(5) drop-shadow(0px 0px 10px #7AD53D00);
 }
-.msg-chat.msg-user .user.flair1 ~ .text .emote.GIGACHAD{
+.msg-chat.msg-user:not([data-mentioned="melina"]) .user.flair1 ~ .text .emote.GIGACHAD {
   filter: brightness(1) hue-rotate(176deg) saturate(5) drop-shadow(0px 0px 10px #2ADDC800);
 }
 @keyframes GODSTINY-anim {
