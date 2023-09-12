@@ -592,22 +592,6 @@
     ]
   },
   {
-    "prefix": "COOMER",
-    "creator": null,
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.83.1/emotes/5deeb1be854b5.png",
-        "name": "5deeb1be854b5.png",
-        "mime": "image/png",
-        "height": 28,
-        "width": 28
-      }
-    ]
-  },
-  {
     "prefix": "COOMfy",
     "creator": null,
     "twitch": false,
