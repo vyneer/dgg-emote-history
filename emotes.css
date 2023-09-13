@@ -331,6 +331,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.COOMER {
+    background-image: url("6500fc2adb95e.png");
+    height: 28px;
+    width: 1260px;
+}
+.msg-chat .emote.COOMER {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.COOMfy {
     background-image: url("624f1fad7a41d.png");
     height: 32px;
@@ -3014,6 +3023,103 @@
     animation: COGGERS-anim-b-hover-start 0.8s 1 linear, COGGERS-anim-b-hover 0.8s infinite linear 0.8s;
 }
 
+@keyframes COOMER-jail {
+    to {
+        background-position: -1232px;
+    }
+}
+
+@keyframes COOMER-jail-hover {
+    to {
+        background-position: -1232px;
+    }
+}
+
+.emote.COOMER {
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    animation: COOMER-anim 0.1s 25, COOMER-color 1.5s 1, COOMER-jail steps(44) 1.5s .5s forwards 1;
+    transition: filter 0.2s;
+}
+ 
+.emote.COOMER:hover {
+    animation: COOMER-anim-hover 0.1s infinite, COOMER-jail-hover steps(44) 1.5s 1 forwards; 
+    filter: grayscale(1) sepia(.3) saturate(60) hue-rotate(-50deg) brightness(1.8) drop-shadow(-13px 0px 10px rgba(255, 102, 187, 0.25)) drop-shadow(13px 0px 10px rgba(255, 102, 187, 0.25));
+}
+
+@keyframes COOMER-anim {
+
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+        transform: translate(0px, 0px);
+    }
+
+    12.5% {
+        transform: translate(1px, -.5px) rotate(-2deg);
+    }
+
+    62.5% {
+        transform: translate(-1px, .5px) rotate(2deg);
+    }
+
+    37.5% {
+        transform: translate(-.5px, 1px) rotate(-2deg);
+    }
+
+    87.5% {
+        transform: translate(.5px, -1px) rotate(2deg);
+    }
+}
+
+@keyframes COOMER-color {
+
+    0%,
+    100% {
+        filter: grayscale(0) sepia(0) saturate(1) hue-rotate(0deg) brightness(1) drop-shadow(0px 0px 0px rgba(255, 102, 187, 0)) drop-shadow(0px 0px 0px rgba(255, 102, 187, 0));
+    }
+
+    10%,
+    90% {
+        filter: grayscale(1) sepia(.15) saturate(10) hue-rotate(-50deg) brightness(1.3) drop-shadow(-5px 0px 6px rgba(255, 102, 187, 0.1)) drop-shadow(5px 0px 6px rgba(255, 102, 187, 0.1));
+    }
+
+    30%,
+    70% {
+        filter: grayscale(1) sepia(.3) saturate(60) hue-rotate(-50deg) brightness(1.8) drop-shadow(-13px 0px 10px rgba(255, 102, 187, 0.25)) drop-shadow(13px 0px 10px rgba(255, 102, 187, 0.25));
+    }
+}
+
+@keyframes COOMER-anim-hover {
+
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+        transform: translate(0px, 0px);
+    }
+
+    12.5% {
+        transform: translate(1px, -.5px) rotate(-2deg);
+    }
+
+    62.5% {
+        transform: translate(-1px, .5px) rotate(2deg);
+    }
+
+    37.5% {
+        transform: translate(-.5px, 1px) rotate(-2deg);
+    }
+
+    87.5% {
+        transform: translate(.5px, -1px) rotate(2deg);
+    }
+}
 @keyframes CROPSTINY-anim {
   0% { transform: scale(0.39) skew(0, 0); }
   10% { background-position: 0 5px;

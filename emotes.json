@@ -592,6 +592,22 @@
     ]
   },
   {
+    "prefix": "COOMER",
+    "creator": "FizzyLongstockings",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.83.1/emotes/6500fc2adb95e.png",
+        "name": "6500fc2adb95e.png",
+        "mime": "image/png",
+        "height": 28,
+        "width": 1260
+      }
+    ]
+  },
+  {
     "prefix": "COOMfy",
     "creator": null,
     "twitch": false,
