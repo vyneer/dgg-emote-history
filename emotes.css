@@ -1916,9 +1916,9 @@
     top: 7.5px;
 }
 .emote.WEOW {
-    background-image: url("64e72d8e13960.png");
+    background-image: url("650d44d5507aa.png");
     height: 28px;
-    width: 138px;
+    width: 278px;
 }
 .msg-chat .emote.WEOW {
     margin-top: -28px;
@@ -4858,55 +4858,402 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 .emote.GIGACHAD + .emote.UNLUCKY {
   animation: GIGALUCK-anim 1.5s ease-out 1;
 }
+/*
+    BASE
+*/
 .emote.WEOW {
-  height: 28px;
-  width: 28px;
-  background-position: 0; 
-  background-repeat: no-repeat;
-} 
+    height: 28px;
+    width: 28px;
+    background-position: 0;
+    background-repeat: no-repeat;
+}
+
 .emote.WEOW:hover {
-  filter: brightness(1.1) drop-shadow(0px 0px 3px #f7f7d7);;
-  transition: ease-out .4s;
+    filter: brightness(1.1) drop-shadow(0px 0px 3px #f7f7d7);
+    transition: ease-out .4s;
 }
 
-@keyframes WEOW-combo-BG {
-  70% { filter: brightness(1) drop-shadow(0px 0px 15px #ffeb9f); transform: scale(1.10); }
-}  
- 
-@keyframes WEOW-combo {
-  70% { filter: brightness(1.1) drop-shadow(0px 0px 5px #fec947); transform: scale(1.15); }
-} 
 
-.msg-chat.msg-emote .emote.WEOW {
-  animation: WEOW-combo 1.3s 1;
-  background-position: -28px; 
-  background-repeat: no-repeat;
-  width:82px;
-  height:28px;
-}
-.msg-chat.msg-emote .emote.WEOW:hover {
-  filter: brightness(1.1) drop-shadow(0px 0px 5px #fec947); transform: scale(1.15);
-  transition: ease-out .4s;
+/*
+    COMBO MILESTONES:
+
+    x5 
+    x10
+    x20
+    x30
+    x50
+*/
+.msg-chat.msg-emote[data-combo-group="x10"] .emote.WEOW {
+    background-position: -166px;
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    transform: scale(1.15);
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PUSLATE 3s infinite 1.2s linear;
 }
 
+.msg-chat.msg-emote[data-combo-group="x20"] .emote.WEOW,
+.msg-chat.msg-emote[data-combo-group="x30"] .emote.WEOW {
+    background-position: -28px;
+    background-repeat: no-repeat;
+    width: 82px;
+    height: 28px;
+    transform: scale(1.25);
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PUSLATE 5s infinite 1.2s linear;
+}
+
+.msg-chat.msg-emote[data-combo-group="x50"] .emote.WEOW {
+    background-position: -28px;
+    background-repeat: no-repeat;
+    width: 82px;
+    height: 28px;
+    transform: scale(1.25);
+}
+
+.msg-chat.msg-emote[data-combo-group="x50"] {
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PUSLATE 5s infinite 1.2s linear;
+}
+
+/*
+    USER SPECIFIC
+*/
 [data-username="righttobeararmslol"] .emote.WEOW {
-  height: 28px;
-  width: 28px;
-  background-position: -110px; 
-  background-repeat: no-repeat;
+    height: 28px;
+    width: 28px;
+    background-position: -110px;
+    background-repeat: no-repeat;
+}
+
+[data-username="bot"] .emote.WEOW {
+    height: 28px;
+    width: 28px;
+    background-position: -166px;
+    background-repeat: no-repeat;
 }
 
 /* 
-fec947
-ffeb9f
-f7f7d7 
-ffffff
-} */ 
-/*  
-.msg-chat.msg-emote:has(.text .emote.WEOW):has(.chat-combo.x5.combo-complete){
-  animation: WEOW-combo-BG 1.3s 1;
-}  
+    RARE VARIATIONS 
+
+    X = 10% = 10 messages avg
+    XX = 1% = 100 messages avg
+    XXX = 0.1% = 1,000 messages avg
+    XXXX = 0.01% = 10,000 messages avg
+    XXXXX = 0.001% = 100,000 messages avg
 */
+
+/* SILVER */
+.msg-chat.msg-user>time[data-unixtimestamp$="0"]~.text .emote.WEOW:first-of-type {
+    height: 28px;
+    width: 28px;
+    animation: RARE-SILVER 1.2s 1, RARE-SILVER-PUSLATE 2.5s infinite 1.2s linear;
+    filter: brightness(1) drop-shadow(0px 0px 3px #fcb9af);
+    transform: scale(1.05);
+    transition: all .5s ease-out;
+    background-position: -138px;
+    background-repeat: no-repeat;
+}
+
+/* GOLD */
+.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.WEOW:first-of-type {
+    height: 28px;
+    width: 28px;
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PUSLATE 1.2s infinite 1.2s linear;
+    filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #fec947);
+    transform: scale(1.10);
+    transition: all .5s ease-out;
+    background-position: -166px;
+    background-repeat: no-repeat;
+}
+
+/* PLATINUM */
+.msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text .emote.WEOW:first-of-type {
+    height: 28px;
+    width: 28px;
+    animation: RARE-PLATINUM 1.2s 1, RARE-PLATINUM-PUSLATE 1.2s infinite 1.2s linear;
+    filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #e891f1);
+    transform: scale(1.15);
+    transition: all .5s ease-out;
+    background-position: -194px;
+    background-repeat: no-repeat;
+}
+
+/* EMERALD */
+.msg-chat.msg-user>time[data-unixtimestamp$="6969"]~.text .emote.WEOW:first-of-type {
+    height: 28px;
+    width: 28px;
+    animation: RARE-EMERALD 1.2s 1, RARE-EMERALD-PUSLATE 1.2s infinite 1.2s linear;
+    filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #00ec5d);
+    transform: scale(1.20);
+    transition: all .5s ease-out;
+    background-position: -222px;
+    background-repeat: no-repeat;
+}
+
+/* DIAMOND */
+.msg-chat.msg-user>time[data-unixtimestamp$="42069"]~.text .emote.WEOW:first-of-type {
+    height: 28px;
+    width: 28px;
+    animation: RARE-DIAMOND 1.2s 1, RARE-DIAMOND-PUSLATE 1.2s infinite 1.2s linear;
+    filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #18e9fd);
+    transform: scale(1.25);
+    transition: all .5s ease-out;
+    background-position: -250px;
+    background-repeat: no-repeat;
+}
+
+/*
+    COMBO SIZE INCREASE 1-10
+*/
+.msg-chat.msg-emote[data-combo="2"] .emote.WEOW {
+    transform: scale(1.02);
+}
+
+.msg-chat.msg-emote[data-combo="3"] .emote.WEOW {
+    transform: scale(1.04);
+}
+
+.msg-chat.msg-emote[data-combo="4"] .emote.WEOW {
+    transform: scale(1.06);
+}
+
+.msg-chat.msg-emote[data-combo="5"] .emote.WEOW {
+    transform: scale(1.1);
+}
+
+.msg-chat.msg-emote[data-combo="6"] .emote.WEOW {
+    transform: scale(1.11);
+}
+
+.msg-chat.msg-emote[data-combo="7"] .emote.WEOW {
+    transform: scale(1.12);
+}
+
+.msg-chat.msg-emote[data-combo="8"] .emote.WEOW {
+    transform: scale(1.13);
+}
+
+.msg-chat.msg-emote[data-combo="9"] .emote.WEOW {
+    transform: scale(1.14);
+}
+
+.msg-chat.msg-emote[data-combo="10"] .emote.WEOW {
+    transform: scale(1.15);
+}
+
+/* 
+    ANIMATIONS 
+*/
+@keyframes RARE-SILVER {
+
+    30% {
+        filter: brightness(1) drop-shadow(0px 0px 15px #fcb9af);
+        transform: scale(1);
+    }
+
+    55% {
+        filter: brightness(1) drop-shadow(0px 0px 10px #fcb9af);
+        transform: scale(1.5);
+    }
+
+    100% {
+        filter: brightness(1) drop-shadow(0px 0px 3px #fcb9af);
+        transform: scale(1.05);
+    }
+}
+
+@keyframes RARE-SILVER-PUSLATE {
+    0% {
+        transform: scale(1.05) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fcb9af);
+    }
+
+    25% {
+        transform: scale(1.02) rotate(2deg);
+        filter: brightness(1) drop-shadow(0px 0px 1px #fcb9af);
+    }
+
+    75% {
+        transform: scale(1.07) rotate(-1deg);
+        filter: brightness(1) drop-shadow(0px 0px 3px #fcb9af);
+    }
+
+    100% {
+        transform: scale(1.05) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fcb9af);
+    }
+}
+
+@keyframes RARE-GOLD {
+
+    30% {
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 15px #fec947);
+        transform: scale(1);
+    }
+
+    55% {
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 10px #fec947);
+        transform: scale(1.5);
+    }
+
+    100% {
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #fec947);
+        transform: scale(1.10);
+    }
+}
+
+@keyframes RARE-GOLD-PUSLATE {
+    0% {
+        transform: scale(1.10) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #fec947);
+    }
+
+    25% {
+        transform: scale(1.05) rotate(2deg);
+        filter: brightness(1.15) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 4px #fec947);
+
+    }
+
+    75% {
+        transform: scale(1.2) rotate(-1deg);
+        filter: brightness(1.05) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 7px #fec947);
+
+    }
+
+    100% {
+        transform: scale(1.10) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #fec947);
+
+    }
+}
+
+@keyframes RARE-PLATINUM {
+
+    30% {
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 15px #e891f1);
+        transform: scale(1);
+    }
+
+    55% {
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 10px #e891f1);
+        transform: scale(1.5);
+    }
+
+    100% {
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #e891f1);
+        transform: scale(1.15);
+    }
+}
+
+@keyframes RARE-PLATINUM-PUSLATE {
+    0% {
+        transform: scale(1.15) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #e891f1);
+    }
+
+    25% {
+        transform: scale(1.10) rotate(2deg);
+        filter: brightness(1.15) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 4px #e891f1);
+
+    }
+
+    75% {
+        transform: scale(1.25) rotate(-1deg);
+        filter: brightness(1.05) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 7px #e891f1);
+
+    }
+
+    100% {
+        transform: scale(1.15) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #e891f1);
+
+    }
+}
+
+@keyframes RARE-EMERALD {
+
+    30% {
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 15px #00ec5d);
+        transform: scale(1);
+    }
+
+    55% {
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 10px #00ec5d);
+        transform: scale(1.5);
+    }
+
+    100% {
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #00ec5d);
+        transform: scale(1.20);
+    }
+}
+
+@keyframes RARE-EMERALD-PUSLATE {
+    0% {
+        transform: scale(1.20) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #00ec5d);
+    }
+
+    25% {
+        transform: scale(1.15) rotate(2deg);
+        filter: brightness(1.15) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 4px #00ec5d);
+
+    }
+
+    75% {
+        transform: scale(1.3) rotate(-1deg);
+        filter: brightness(1.05) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 7px #00ec5d);
+
+    }
+
+    100% {
+        transform: scale(1.20) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #00ec5d);
+
+    }
+}
+
+@keyframes RARE-DIAMOND {
+
+    30% {
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 15px #18e9fd);
+        transform: scale(1);
+    }
+
+    55% {
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 10px #18e9fd);
+        transform: scale(1.5);
+    }
+
+    100% {
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #18e9fd);
+        transform: scale(1.25);
+    }
+}
+
+@keyframes RARE-DIAMOND-PUSLATE {
+    0% {
+        transform: scale(1.25) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #18e9fd);
+    }
+
+    25% {
+        transform: scale(1.15) rotate(2deg);
+        filter: brightness(1.15) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 4px #18e9fd);
+
+    }
+
+    75% {
+        transform: scale(1.3) rotate(-1deg);
+        filter: brightness(1.05) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 7px #18e9fd);
+
+    }
+
+    100% {
+        transform: scale(1.25) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #18e9fd);
+
+    }
+}
 @keyframes widepeepoHappy-anim {
   0% {transform: scale3d(0.6, 1.15, 1);}
   30% {transform: scale3d(1.25, 0.75, 1);}
