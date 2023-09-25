@@ -4897,6 +4897,13 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
     background-repeat: no-repeat;
 }
 
+[data-username="destiny"] .emote.WEOW {
+    height: 28px;
+    width: 28px;
+    background-position: -166px;
+    background-repeat: no-repeat;
+}
+
 [data-username="tena"] .emote.WEOW {
     height: 28px;
     width: 28px;
