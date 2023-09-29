@@ -12,17 +12,24 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v4
+    - name: Get CDN URL and cache key
+      id: url_and_cache_key
+      run: |-
+        DGG_CHAT_HTML=$(curl -sSL "https://destiny.gg/embed/chat")
+        DGG_CDN=$(echo $DGG_CHAT_HTML | grep -oP '(?<=data-cdn=\").*?(?=\")')
+        DGG_CACHE_KEY=$(echo $DGG_CHAT_HTML | grep -oP '(?<=data-cache-key=\").*?(?=\")')
+        echo "DGG_CDN=$([[ -z "$DGG_CDN" ]] && echo 'https://cdn.destiny.gg' || echo $DGG_CDN)" | tee -a "$GITHUB_OUTPUT"
+        echo "DGG_CACHE_KEY=$([[ -z "$DGG_CACHE_KEY" ]] && echo '' || echo $DGG_CACHE_KEY)" | tee -a "$GITHUB_OUTPUT"
     - name: Fetch latest emotes.json
       run: |-
-        curl "https://cdn.destiny.gg/emotes/emotes.json?_=$(date +%s)" | jq > emotes.json
+        curl -sS "${{ steps.url_and_cache_key.outputs.DGG_CDN }}/emotes/emotes.json?_=${{ steps.url_and_cache_key.outputs.DGG_CACHE_KEY }}" | jq > emotes.json
     - name: Fetch latest emotes.css
       run: |-
-        curl --output emotes.css "https://cdn.destiny.gg/emotes/emotes.css?_=$(date +%s)"
+        curl -sS --output emotes.css "${{ steps.url_and_cache_key.outputs.DGG_CDN }}/emotes/emotes.css?_=${{ steps.url_and_cache_key.outputs.DGG_CACHE_KEY }}"
     - name: Check if anything changed
       id: change_check
       run: |-
-        git status --porcelain=v1 2>/dev/null
-        echo "GIT_STATUS=$(git status --porcelain=v1 2>/dev/null | wc -l)" >> $GITHUB_OUTPUT
+        echo "GIT_STATUS=$(git status --porcelain=v1 2>/dev/null | wc -l)" | tee -a "$GITHUB_OUTPUT"
     - name: Remove the specific theme folders
       if: steps.change_check.outputs.GIT_STATUS != '0'
       run: jq -r '"images/theme_" + (.[].theme | tostring)' emotes.json | (xargs rm -r 2> /dev/null || true)
