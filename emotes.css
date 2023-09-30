@@ -1934,9 +1934,9 @@
     top: 7.5px;
 }
 .emote.WICKED {
-    background-image: url("64575b37b97b0.png");
+    background-image: url("65179c869c618.png");
     height: 32px;
-    width: 38px;
+    width: 912px;
 }
 .msg-chat .emote.WICKED {
     margin-top: -32px;
@@ -4910,6 +4910,32 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
     background-position: 0;
     background-repeat: no-repeat;
     visibility: hidden;
+}
+.emote.WICKED {
+    width: 38px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    animation: WICKED-ANIM steps(23) .9s forwards 1;
+    filter: saturate(1.2);
+    transition: filter 0.2s;
+}
+
+.emote.WICKED:hover {
+    animation: WICKED-ANIM-HOVER steps(23) .9s forwards 1;
+    filter: saturate(1.5) brightness(1.25);
+}
+
+@keyframes WICKED-ANIM {
+    to {
+        background-position: -874px;
+    }
+}
+
+@keyframes WICKED-ANIM-HOVER {
+    to {
+        background-position: -874px;
+    }
 }
 @keyframes widepeepoHappy-anim {
   0% {transform: scale3d(0.6, 1.15, 1);}
