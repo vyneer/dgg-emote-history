@@ -35,7 +35,7 @@
     top: 8px;
 }
 .emote.ApeHands {
-    background-image: url("6519117f583e1.png");
+    background-image: url("6519241ea3d77.png");
     height: 32px;
     width: 43px;
 }
@@ -2148,7 +2148,10 @@
   animation: GIGAHANDS-anim 1.5s ease-out 1;
 }
 
-
+.chat-user+.emote.ApeHands,
+.emote.ApeHands:has(+.externallink) {
+  transform: scaleX(-1);
+}
 .emote.Askers {
     margin-top: -34px;
     top: 8.5px;
@@ -3304,7 +3307,7 @@
 .emote.dggL {
     height: 32px;
     width: 32px;
-    background-position: -32px;
+    background-position: -672px;
     background-repeat: no-repeat;
     /*filter: brightness(1.1) drop-shadow(0px 0px 2px #ffffff);*/
 }
@@ -3324,10 +3327,6 @@
     x30
     x50
 */
-.msg-chat.msg-emote[data-combo-group="x5"] .emote.dggL {
-    background-position: -672px;
-    background-repeat: no-repeat;
-}
 
 .msg-chat.msg-emote[data-combo-group="x10"] .emote.dggL {
     background-position: -672px;
