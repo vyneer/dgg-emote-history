@@ -3678,5 +3678,21 @@
         "width": 5280
       }
     ]
+  },
+  {
+    "prefix": "WEEWOO",
+    "creator": "",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/6519465c0ae7b.png",
+        "name": "6519465c0ae7b.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 33
+      }
+    ]
   }
 ]
