@@ -1809,17 +1809,17 @@
   },
   {
     "prefix": "NAHH",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/636184d7540f4.png",
-        "name": "636184d7540f4.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/651955aaea656.png",
+        "name": "651955aaea656.png",
         "mime": "image/png",
         "height": 32,
-        "width": 19
+        "width": 24
       }
     ]
   },
