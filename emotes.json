@@ -17,14 +17,14 @@
   },
   {
     "prefix": "AbaW",
-    "creator": null,
+    "creator": "cybervegan",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/636186b6d149f.png",
-        "name": "636186b6d149f.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/65196655ec1c9.png",
+        "name": "65196655ec1c9.png",
         "mime": "image/png",
         "height": 32,
         "width": 32

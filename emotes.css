@@ -8,7 +8,7 @@
     top: 8px;
 }
 .emote.AbaW {
-    background-image: url("636186b6d149f.png");
+    background-image: url("65196655ec1c9.png");
     height: 32px;
     width: 32px;
 }
@@ -5673,13 +5673,13 @@
     background-repeat: no-repeat;
     background-position: 0px;
     animation: WICKED-ANIM steps(24) .9s forwards 1;
-    filter: saturate(1.3);
+    filter: saturate(1.1);
     transition: filter 0.2s;
 }
 
 .emote.WICKED:hover {
     animation: WICKED-ANIM-HOVER steps(24) .9s forwards 1;
-    filter: saturate(1.5) brightness(1.25);
+    filter: saturate(1.35) brightness(1.25);
 }
 
 @keyframes WICKED-ANIM {
