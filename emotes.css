@@ -2427,9 +2427,29 @@
 .emote.REE + .emote.BLADE {
   filter: hue-rotate(135deg) saturate(3);
 }
-.emote.ApeHands + .emote.BLADE {
-  filter: invert(.95) saturate(0) brightness(2);
+/*
+.emote.ApeHands+.emote.BLADE {
+    filter: invert(.95) saturate(0) brightness(2);
+        filter: hue-rotate(40deg) saturate(5) invert(10) brightness(1);
+
+}*/
+
+.emote.ApeHands+.emote.BLADE {
+    filter: hue-rotate(40deg) saturate(5) grayscale(5) brightness(1);
 }
+
+.emote.nathanPepe+.emote.BLADE {
+    filter: invert(.95) saturate(1) brightness(2);
+}
+
+.emote.nathanYee+.emote.BLADE {
+    filter: grayscale(1) brightness(1) invert(1) sepia(1) saturate(6) hue-rotate(-180deg);
+}
+
+.emote.GIGACHAD+.emote.BLADE {
+    filter: hue-rotate(40deg) saturate(5) brightness(1);
+}
+
 /* rbg */
 @keyframes BLADE-rainbow {
   100% { filter: brightness(.95) sepia(1) saturate(3) hue-rotate(240deg); }
