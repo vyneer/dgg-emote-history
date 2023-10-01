@@ -485,9 +485,9 @@
     top: 7.5px;
 }
 .emote.dggL {
-    background-image: url("6519124009bd5.png");
+    background-image: url("65193333306cb.png");
     height: 32px;
-    width: 736px;
+    width: 768px;
 }
 .msg-chat .emote.dggL {
     margin-top: -32px;
@@ -2221,13 +2221,13 @@
 .emote.Aware {
   height: 32px;
   width: 32px;
-  animation: Aware-anim 1.5s steps(54) forwards;
+  animation: Aware-anim 2s steps(54) forwards;
 }
 
 .emote.Aware:hover {
   height: 32px;
   width: 32px;
-  animation: Aware-hover 1.5s steps(54) infinite;
+  animation: Aware-hover 2s steps(54) infinite;
 }
 
 @keyframes Aware-anim {
@@ -3498,6 +3498,12 @@
     background-position: -640px;
     background-repeat: no-repeat;
 }
+
+.msg-chat.msg-user>time[data-unixtimestamp$="51"]~.text .emote.dggL {
+    background-position: -736px;
+    background-repeat: no-repeat;
+}
+
 
 /*
     COMBO SIZE INCREASE 1-10
