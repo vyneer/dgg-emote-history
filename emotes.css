@@ -2192,6 +2192,41 @@
   .emote.Askers:hover {
     animation: Askers-hover 3.5s steps(100) infinite;
   }
+.emote.ASLAN {
+  height: 32px;
+  width: 32px;
+}
+
+.emote.ASLAN+.emote.ASLAN,
+.emote.ASLAN:nth-child(1),
+.emote.Clap+.emote.ASLAN,
+.emote.BLADE+.emote.ASLAN {
+  margin-right: -2px;
+  margin-left: 0;
+  transform: scaleX(-1);
+}
+
+.emote.ASLAN:only-child,
+.emote+.emote.ASLAN:last-of-type,
+.emote.ASLAN:last-of-type {
+  margin-right: 0;
+  transform: scaleX(1);
+}
+
+@keyframes GIGAPET-anim {
+  0% {
+    transform: translate(-28px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+} 
+
+.emote.GIGACHAD+.emote.ASLAN {
+  animation: GIGAPET-anim 1.5s ease-out 1;
+}
+
 .emote.ATAB {
     width: 40px;
     height: 30px;
