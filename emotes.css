@@ -2158,9 +2158,15 @@
 }
 
 .chat-user+.emote.ApeHands,
-.emote.ApeHands:has(+.externallink) {
+.emote.ApeHands:has(+.externallink),
+.emote.ApeHands:has(+.chat-user) {
   transform: scaleX(-1);
 }
+
+.chat-user+.emote.ApeHands:last-child {
+  transform: scaleX(1);
+}
+
 .emote.Askers {
     margin-top: -34px;
     top: 8.5px;
