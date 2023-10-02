@@ -2448,7 +2448,7 @@
     filter: invert(.95) saturate(1) brightness(2);
 }
 
-.emote.nathanYee+.emote.BLADE {
+.emote.BLADE:has(+.emote.nathanYee) {
     filter: grayscale(1) brightness(1) invert(1) sepia(1) saturate(6) hue-rotate(-180deg);
 }
 
