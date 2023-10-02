@@ -801,14 +801,14 @@
   },
   {
     "prefix": "DEATH",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/5d9c0d7fadf29.png",
-        "name": "5d9c0d7fadf29.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/600b6a3db1bfc.png",
+        "name": "600b6a3db1bfc.png",
         "mime": "image/png",
         "height": 32,
         "width": 30
