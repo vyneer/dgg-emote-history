@@ -3378,12 +3378,14 @@
     width: 32px;
     background-position: -672px;
     background-repeat: no-repeat;
-    /*filter: brightness(1.1) drop-shadow(0px 0px 2px #ffffff);*/
+    filter: brightness(1.1);
+    transition: ease-out .4s;
 }
 
 .emote.dggL:hover {
-    /*filter: brightness(1.2) drop-shadow(0px 0px 5px #ffffff);*/
+    filter: brightness(1.1) drop-shadow(0px 0px 2px #ffffff);
     transition: ease-out .4s;
+    transform: scale(1.3);
 }
 
 
@@ -3416,6 +3418,10 @@
     transform: scale(1.25);
 }
 
+.msg-chat.msg-emote[data-combo-group="x30"] {
+    animation: RARE-BRONZE 1.2s 1, RARE-BRONZE-PULSATE 5s infinite 1.2s linear;
+}
+
 .msg-chat.msg-emote[data-combo-group="x50"] {
     animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 5s infinite 1.2s linear;
 }
@@ -3423,19 +3429,21 @@
 /*
     USER SPECIFIC
 */
-.msg-chat.msg-user[data-username="righttobeararmslol"]>.text .emote.dggL.dggL{
+.msg-chat.msg-user[data-username="righttobeararmslol"]>.text .emote.dggL.dggL {
     background-position: -704px;
     background-repeat: no-repeat;
+    animation: none;
 }
 
-.msg-chat.msg-user[data-username="destiny"]>.text .emote.dggL.dggL{
+.msg-chat.msg-user[data-username="destiny"]>.text .emote.dggL.dggL {
     background-position: -672px;
     background-repeat: no-repeat;
+    animation: none;
 }
 
 /*
 [data-username="bot"] .emote.dggL,
-[data-username="cake"] .emote.dggL{
+[data-username="cake"] .emote.dggL {
     height: 28px;
     width: 28px;
     background-position: -166px;
@@ -3453,169 +3461,322 @@
 */
 
 /* X */
-.msg-chat.msg-user>time[data-unixtimestamp$="0"]~.text .emote.dggL{
+/* Vampire */
+.msg-chat.msg-user>time[data-unixtimestamp$="0"]~.text .emote.dggL {
     background-position: 0px;
     background-repeat: no-repeat;
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="1"]~.text .emote.dggL{
+/* Punished */
+.msg-chat.msg-user>time[data-unixtimestamp$="1"]~.text .emote.dggL {
     background-position: -32px;
     background-repeat: no-repeat;
-
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="2"]~.text .emote.dggL{
+/* Bateman */
+.msg-chat.msg-user>time[data-unixtimestamp$="2"]~.text .emote.dggL {
     background-position: -64px;
     background-repeat: no-repeat;
-
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="3"]~.text .emote.dggL{
+/* Devil */
+.msg-chat.msg-user>time[data-unixtimestamp$="3"]~.text .emote.dggL {
     background-position: -96px;
     background-repeat: no-repeat;
-
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="4"]~.text .emote.dggL{
+/* Zombie */
+.msg-chat.msg-user>time[data-unixtimestamp$="4"]~.text .emote.dggL {
     background-position: -128px;
     background-repeat: no-repeat;
-
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="5"]~.text .emote.dggL{
+/* Joker */
+.msg-chat.msg-user>time[data-unixtimestamp$="5"]~.text .emote.dggL {
     background-position: -160px;
     background-repeat: no-repeat;
-
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="6"]~.text .emote.dggL{
+/* Mummy */
+.msg-chat.msg-user>time[data-unixtimestamp$="6"]~.text .emote.dggL {
     background-position: -192px;
     background-repeat: no-repeat;
-
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="7"]~.text .emote.dggL{
+/* Toad */
+.msg-chat.msg-user>time[data-unixtimestamp$="7"]~.text .emote.dggL {
     background-position: -224px;
     background-repeat: no-repeat;
-
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="8"]~.text .emote.dggL{
+/* Bane */
+.msg-chat.msg-user>time[data-unixtimestamp$="8"]~.text .emote.dggL {
     background-position: -256px;
     background-repeat: no-repeat;
-
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="9"]~.text .emote.dggL{
+/* Scout */
+.msg-chat.msg-user>time[data-unixtimestamp$="9"]~.text .emote.dggL {
     background-position: -288px;
     background-repeat: no-repeat;
-
 }
 
 /* XX */
-.msg-chat.msg-user>time[data-unixtimestamp$="01"]~.text .emote.dggL{
+/* Tristana */
+.msg-chat.msg-user>time[data-unixtimestamp$="01"]~.text .emote.dggL {
     background-position: -320px;
     background-repeat: no-repeat;
+    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
 }
 
+.msg-chat.msg-user>time[data-unixtimestamp$="01"]~.text .emote.dggL:hover {
+    transition: ease-out .4s;
+    animation: none;
+    transform: scale(1.3);
+}
+
+/* Bee */
 .msg-chat.msg-user>time[data-unixtimestamp$="12"]~.text .emote.dggL {
     background-position: -352px;
     background-repeat: no-repeat;
+    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="23"]~.text .emote.dggL{
+.msg-chat.msg-user>time[data-unixtimestamp$="12"]~.text .emote.dggL:hover {
+    transition: ease-out .4s;
+    animation: none;
+    transform: scale(1.3);
+}
+
+/* Vivi */
+.msg-chat.msg-user>time[data-unixtimestamp$="23"]~.text .emote.dggL {
     background-position: -384px;
     background-repeat: no-repeat;
+    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="34"]~.text .emote.dggL{
+.msg-chat.msg-user>time[data-unixtimestamp$="23"]~.text .emote.dggL:hover {
+    transition: ease-out .4s;
+    animation: none;
+    transform: scale(1.3);
+}
+
+/* Ninja Turtle */
+.msg-chat.msg-user>time[data-unixtimestamp$="34"]~.text .emote.dggL {
     background-position: -416px;
     background-repeat: no-repeat;
+    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="45"]~.text .emote.dggL {
-    background-position: -448px;
-    background-repeat: no-repeat;
+.msg-chat.msg-user>time[data-unixtimestamp$="34"]~.text .emote.dggL:hover {
+    transition: ease-out .4s;
+    animation: none;
+    transform: scale(1.3);
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="56"]~.text .emote.dggL{
+/* Death Note */
+.msg-chat.msg-user>time[data-unixtimestamp$="56"]~.text .emote.dggL {
     background-position: -480px;
     background-repeat: no-repeat;
+    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.dggL{
+.msg-chat.msg-user>time[data-unixtimestamp$="56"]~.text .emote.dggL:hover {
+    transition: ease-out .4s;
+    animation: none;
+    transform: scale(1.3);
+}
+
+/* The Two-time */
+.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.dggL {
     background-position: -512px;
     background-repeat: no-repeat;
+    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="77"]~.text .emote.dggL{
-    background-position: -544px;
-    background-repeat: no-repeat;
+.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.dggL:hover {
+    transition: ease-out .4s;
+    animation: none;
+    transform: scale(1.3);
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="88"]~.text .emote.dggL{
+/* Lain */
+.msg-chat.msg-user>time[data-unixtimestamp$="88"]~.text .emote.dggL {
     background-position: -576px;
     background-repeat: no-repeat;
+    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="99"]~.text .emote.dggL{
+.msg-chat.msg-user>time[data-unixtimestamp$="88"]~.text .emote.dggL:hover {
+    transition: ease-out .4s;
+    animation: none;
+    transform: scale(1.3);
+}
+
+/* Shrek */
+.msg-chat.msg-user>time[data-unixtimestamp$="99"]~.text .emote.dggL {
     background-position: -608px;
     background-repeat: no-repeat;
+    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="10"]~.text .emote.dggL{
-    background-position: -640px;
-    background-repeat: no-repeat;
+.msg-chat.msg-user>time[data-unixtimestamp$="99"]~.text .emote.dggL:hover {
+    transition: ease-out .4s;
+    animation: none;
+    transform: scale(1.3);
 }
 
+/* Blue Coat */
 .msg-chat.msg-user>time[data-unixtimestamp$="51"]~.text .emote.dggL {
     background-position: -736px;
     background-repeat: no-repeat;
+    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
 }
 
+.msg-chat.msg-user>time[data-unixtimestamp$="51"]~.text .emote.dggL:hover {
+    transition: ease-out .4s;
+    animation: none;
+    transform: scale(1.3);
+}
+
+/* XXX */
+/* Mr. Bones */
+.msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text .emote.dggL {
+    background-position: -448px;
+    background-repeat: no-repeat;
+    transition: ease-out .4s;
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
+}
+
+.msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text .emote.dggL:hover {
+    transition: ease-out .4s;
+    animation: none;
+    transform: scale(1.3);
+}
+
+/* 😂👌 */
+.msg-chat.msg-user>time[data-unixtimestamp$="999"]~.text .emote.dggL {
+    background-position: -544px;
+    background-repeat: no-repeat;
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
+}
+
+.msg-chat.msg-user>time[data-unixtimestamp$="999"]~.text .emote.dggL:hover {
+    transition: ease-out .4s;
+    animation: none;
+    transform: scale(1.3);
+}
+
+/* Cocka */
+.msg-chat.msg-user>time[data-unixtimestamp$="666"]~.text .emote.dggL {
+    background-position: -640px;
+    background-repeat: no-repeat;
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
+}
+
+.msg-chat.msg-user>time[data-unixtimestamp$="666"]~.text .emote.dggL:hover {
+    transition: ease-out .4s;
+    animation: none;
+    transform: scale(1.3);
+}
+
+/* XXXX */
+/* GOLDEN COCKA */
+.msg-chat.msg-user>time[data-unixtimestamp$="6969"]~.text .emote.dggL {
+    background-position: -640px;
+    background-repeat: no-repeat;
+    filter: grayscale(1) sepia(.4) saturate(60) brightness(1.8) drop-shadow(-13px 0px 10px rgba(255, 153, 102, 0.25)) drop-shadow(13px 0px 10px rgba(255, 158, 102, 0.25));
+    animation: RARE-COCKA 1.2s 1, RARE-COCKA-PULSATE 1.2s infinite 1.2s linear;
+}
+
+.msg-chat.msg-user>time[data-unixtimestamp$="6969"]~.text .emote.dggL:hover {
+    transition: ease-out .4s;
+    animation: none;
+    transform: scale(1.3);
+}
 
 /*
     COMBO SIZE INCREASE 1-10
 */
-.msg-chat.msg-emote[data-combo="2"] .emote.dggL{
+.msg-chat.msg-emote[data-combo="2"] .emote.dggL {
     transform: scale(1.02);
 }
 
-.msg-chat.msg-emote[data-combo="3"] .emote.dggL{
+.msg-chat.msg-emote[data-combo="3"] .emote.dggL {
     transform: scale(1.04);
 }
 
-.msg-chat.msg-emote[data-combo="4"] .emote.dggL{
+.msg-chat.msg-emote[data-combo="4"] .emote.dggL {
     transform: scale(1.06);
 }
 
-.msg-chat.msg-emote[data-combo="5"] .emote.dggL{
+.msg-chat.msg-emote[data-combo="5"] .emote.dggL {
     transform: scale(1.1);
 }
 
-.msg-chat.msg-emote[data-combo="6"] .emote.dggL{
+.msg-chat.msg-emote[data-combo="6"] .emote.dggL {
     transform: scale(1.11);
 }
 
-.msg-chat.msg-emote[data-combo="7"] .emote.dggL{
+.msg-chat.msg-emote[data-combo="7"] .emote.dggL {
     transform: scale(1.12);
 }
 
-.msg-chat.msg-emote[data-combo="8"] .emote.dggL{
+.msg-chat.msg-emote[data-combo="8"] .emote.dggL {
     transform: scale(1.13);
 }
 
-.msg-chat.msg-emote[data-combo="9"] .emote.dggL{
+.msg-chat.msg-emote[data-combo="9"] .emote.dggL {
     transform: scale(1.14);
 }
 
-.msg-chat.msg-emote[data-combo="10"] .emote.dggL{
+.msg-chat.msg-emote[data-combo="10"] .emote.dggL {
     transform: scale(1.15);
 }
 
 /* 
     ANIMATIONS 
 */
+
+@keyframes RARE-BRONZE {
+
+    30% {
+        filter: brightness(1) drop-shadow(0px 0px 15px #fcb9af);
+        transform: scale(1);
+    }
+
+    55% {
+        filter: brightness(1) drop-shadow(0px 0px 10px #fcb9af);
+        transform: scale(1.5);
+    }
+
+    100% {
+        filter: brightness(1) drop-shadow(0px 0px 3px #fcb9af);
+        transform: scale(1.05);
+    }
+}
+
+@keyframes RARE-BRONZE-PULSATE {
+    0% {
+        transform: scale(1.05) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fcb9af);
+    }
+
+    25% {
+        transform: scale(1.02) rotate(2deg);
+        filter: brightness(1) drop-shadow(0px 0px 1px #fcb9af);
+    }
+
+    75% {
+        transform: scale(1.07) rotate(-1deg);
+        filter: brightness(1) drop-shadow(0px 0px 3px #fcb9af);
+    }
+
+    100% {
+        transform: scale(1.05) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fcb9af);
+    }
+}
 
 @keyframes RARE-GOLD {
 
@@ -3657,6 +3818,46 @@
         transform: scale(1.10) rotate(0deg);
         filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #fec947);
 
+    }
+}
+
+@keyframes RARE-COCKA {
+
+    30% {
+        filter: grayscale(1) sepia(.4) saturate(60) brightness(1.8) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 15px #fec947);
+        transform: scale(1);
+    }
+
+    55% {
+        filter: grayscale(1) sepia(.3) saturate(70) brightness(1.6) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 10px #fec947);
+        transform: scale(1.5);
+    }
+
+    100% {
+        filter: grayscale(1) sepia(.4) saturate(60) brightness(1.8) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #fec947);
+        transform: scale(1.25);
+    }
+}
+
+@keyframes RARE-COCKA-PULSATE {
+    0% {
+        transform: scale(1.25) rotate(0deg);
+        filter: grayscale(1) sepia(.4) saturate(60) brightness(1.8) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #fec947);
+    }
+
+    25% {
+        transform: scale(1.15) rotate(2deg);
+        filter: grayscale(1) sepia(.5) saturate(50) brightness(1.8) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 4px #fec947);
+    }
+
+    75% {
+        transform: scale(1.3) rotate(-1deg);
+        filter: grayscale(1) sepia(.3) saturate(65) brightness(1.6) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 7px #fec947);
+    }
+
+    100% {
+        transform: scale(1.25) rotate(0deg);
+        filter: grayscale(1) sepia(.4) saturate(60) brightness(1.8) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #fec947);
     }
 }
 /* Halloween version made by T9Parker */
