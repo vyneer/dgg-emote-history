@@ -241,14 +241,14 @@
   },
   {
     "prefix": "BINGQILIN",
-    "creator": null,
+    "creator": "cybervegan",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/616fd6d046091.png",
-        "name": "616fd6d046091.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/651cee64e2d59.png",
+        "name": "651cee64e2d59.png",
         "mime": "image/png",
         "height": 32,
         "width": 2880
@@ -3297,17 +3297,17 @@
   },
   {
     "prefix": "TeddyPepe",
-    "creator": null,
+    "creator": "cybervegan",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/5d9361927b092.png",
-        "name": "5d9361927b092.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/651cf4509afd4.png",
+        "name": "651cf4509afd4.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 31
+        "height": 34,
+        "width": 1152
       }
     ]
   },

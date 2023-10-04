@@ -134,7 +134,7 @@
     top: 7.5px;
 }
 .emote.BINGQILIN {
-    background-image: url("616fd6d046091.png");
+    background-image: url("651cee64e2d59.png");
     height: 32px;
     width: 2880px;
 }
@@ -1853,13 +1853,13 @@
     top: 8px;
 }
 .emote.TeddyPepe {
-    background-image: url("5d9361927b092.png");
-    height: 30px;
-    width: 31px;
+    background-image: url("651cf4509afd4.png");
+    height: 34px;
+    width: 1152px;
 }
 .msg-chat .emote.TeddyPepe {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.TF {
     background-image: url("5f77e7bf4471f.png");
@@ -2397,11 +2397,11 @@
 .emote.BINGQILIN {
   width: 32px;
   background-position: 32px; 
-  animation: BINGQILIN steps(90) 3s 1;
+  animation: BINGQILIN steps(90) 2.5s 4;
 }
 
 .emote.BINGQILIN:hover {
-  animation: BINGQILIN-hover steps(90) 3s infinite;
+  animation: BINGQILIN-hover steps(90) 2.5s infinite;
 }
 @keyframes BLADE {
   0% { background-position: 0px; }
@@ -5890,6 +5890,29 @@
 
 
 /* Halloween version made by T9Parker */
+.emote.TeddyPepe {
+    width: 48px;
+    height: 34px;
+    background-repeat: no-repeat;
+    animation: TeddyPepe-anim steps(23) 2.5s 1 forwards .3s;
+}
+
+.emote.TeddyPepe:hover {
+    animation: TeddyPepe-hover steps(23) 2.5s infinite;
+}
+
+
+@keyframes TeddyPepe-anim {
+    to {
+        background-position: -1104px;
+    }
+}
+
+@keyframes TeddyPepe-hover {
+    to {
+        background-position: -1104px;
+    }
+}
 /* Halloween version made by Igor */
 @keyframes TRUMPED-anim { 
   100% { background-position: -106px 0; }
