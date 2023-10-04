@@ -3694,21 +3694,5 @@
         "width": 33
       }
     ]
-  },
-  {
-    "prefix": "WHALES",
-    "creator": "",
-    "twitch": false,
-    "theme": 3,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/64e0275a0d295.png",
-        "name": "64e0275a0d295.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 59
-      }
-    ]
   }
 ]
