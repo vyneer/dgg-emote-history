@@ -353,17 +353,17 @@
   },
   {
     "prefix": "catJAM",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/5f9325d81e730.png",
-        "name": "5f9325d81e730.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/651d0035bfc34.png",
+        "name": "651d0035bfc34.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 7144
+        "height": 32,
+        "width": 6080
       }
     ]
   },

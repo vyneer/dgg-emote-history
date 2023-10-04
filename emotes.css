@@ -197,13 +197,13 @@
     top: 7.5px;
 }
 .emote.catJAM {
-    background-image: url("5f9325d81e730.png");
-    height: 30px;
-    width: 7144px;
+    background-image: url("651d0035bfc34.png");
+    height: 32px;
+    width: 6080px;
 }
 .msg-chat .emote.catJAM {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Chatting {
     background-image: url("65191515dc04e.png");
@@ -2622,18 +2622,25 @@
   animation: BoomerSippy-right-hover 1.5s 1, GIGASIP 1.5s 1 ease-out;
 }  
 @keyframes catJAM-anim {
-  100% { background-position: -7144px; }
+  100% {
+    background-position: -6080px;
+  }
 }
+
 @keyframes catJAM-hover {
-  100% { background-position: -7144px; }
+  100% {
+    background-position: -6080px;
+  }
 }
 
 .emote.catJAM {
-  width: 38px;
-  animation: catJAM-anim 2 steps(188) 6.5s;
+  width: 32px;
+  height: 32px;
+  animation: catJAM-anim 2 steps(190) 6.5s;
 }
+
 .emote.catJAM:hover {
-  animation: catJAM-hover infinite steps(188) 6.5s;
+  animation: catJAM-hover infinite steps(190) 6.5s;
 }
 /*
 #### AS OF 2023, FIREFOX STILL DOES NOT SUPPORT THE HAS() SELECTOR - THIS EMOTE WILL BEHAVE IN A SLIGHTLY INFERIOR WAY ON FIREFOX BROWSERS (USERS ARE ABLE TO MANUALLY ENABLE UNTIL FIREFOX PROVIDES FULL SUPPORT) ####
@@ -3047,6 +3054,7 @@
   width: 32px;
   height: 32px;
   animation: Clap-anim 350ms steps(3) 10 -150ms;
+  transform: translate(-2px, 4px);
 }
 
 .emote.Clap+.emote.Clap,
@@ -3054,13 +3062,19 @@
 .emote.RapThis+.emote.Clap,
 .emote.BLADE+.emote.Clap,
 .chat-user+.emote.Clap {
-  transform: scale(-1, 1);
+  transform: scale(-1, 1) translate(-2px, 4px);
+  
 }
 
 .emote.Clap:only-of-type,
 .emote+.emote.Clap:last-of-type,
 .emote.Clap:last-of-type {
-  transform: scale(1);
+  transform: scale(1) translate(-2px, 4px);
+}
+
+.emote.Clap:only-of-type,
+.chat-user+.emote.Clap {
+  transform: translate(0px, 0px);
 }
 
 .emote.Clap:hover {
@@ -3070,6 +3084,7 @@
 .emote.SOY+.emote.Clap {
   animation-duration: 150ms;
   animation-iteration-count: 26;
+  transform: scale(1) translate(-2px, 4px);
 }
 
 .emote.SOY+.emote.Clap:hover {
@@ -3079,6 +3094,7 @@
 .emote.Slugstiny+.emote.Clap {
   animation-duration: 1.2s;
   animation-delay: -500ms;
+  transform: scale(1) translate(-2px, 4px);
 }
 
 @keyframes Clap-anim2 {
@@ -3089,22 +3105,22 @@
 
 @keyframes GIGAClap-slide {
   0% {
-    transform: translate(-28px, 0);
+    transform: translate(-28px, 4);
   }
 
   100% {
-    transform: translate(0, 0);
+    transform: translate(-2px, 4px);
   }
 }
 
 .emote.GIGACHAD+.emote.Clap {
   animation: Clap-anim 600ms steps(3) 7 -150ms, GIGAClap-slide 1.5s ease-out 1;
+  transform: scale(1) translate(-2px, 4px);
 }
 
 .emote.GIGACHAD+.emote.Clap:hover {
   animation: Clap-hover 600ms steps(3) infinite -150ms, GIGAClap-slide 1.5s ease-out 1;
 }
-
 .emote.Clueless {
   filter: drop-shadow(0px 0px 1px #ffffff);
 }
