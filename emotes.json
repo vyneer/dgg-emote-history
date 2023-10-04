@@ -417,17 +417,17 @@
   },
   {
     "prefix": "Clap",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/5fcdbf43b5737.png",
-        "name": "5fcdbf43b5737.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/651cf8f8cd607.png",
+        "name": "651cf8f8cd607.png",
         "mime": "image/png",
         "height": 32,
-        "width": 44
+        "width": 96
       }
     ]
   },

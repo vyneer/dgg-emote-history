@@ -233,9 +233,9 @@
     top: 7.5px;
 }
 .emote.Clap {
-    background-image: url("5fcdbf43b5737.png");
+    background-image: url("651cf8f8cd607.png");
     height: 32px;
-    width: 44px;
+    width: 96px;
 }
 .msg-chat .emote.Clap {
     margin-top: -32px;
@@ -3032,51 +3032,79 @@
 
 /* Halloween version made by T9Parker */
 @keyframes Clap-anim {
-  100% { background-position: -44px; }
+  100% {
+    background-position: -96px;
+  }
 }
 
 @keyframes Clap-hover {
-  100% { background-position: -44px; }
+  100% {
+    background-position: -96px;
+  }
 }
 
 .emote.Clap {
-  width: 22px;
-  animation: Clap-anim 400ms steps(2) 10 -150ms;
-}
-.emote.Clap + .emote.Clap, .emote.Clap:nth-of-type(1), .emote.RapThis + .emote.Clap, .emote.BLADE + .emote.Clap, .chat-user + .emote.Clap {
-  transform: scale(-1, 1);
-}
-.emote.Clap:only-of-type, .emote + .emote.Clap:last-of-type, .emote.Clap:last-of-type {
-  transform: scale(1);
-}
-.emote.Clap:hover {
-  animation: Clap-hover 400ms steps(2) infinite;
+  width: 32px;
+  height: 32px;
+  animation: Clap-anim 350ms steps(3) 10 -150ms;
 }
 
-.emote.SOY + .emote.Clap {
+.emote.Clap+.emote.Clap,
+.emote.Clap:nth-of-type(1),
+.emote.RapThis+.emote.Clap,
+.emote.BLADE+.emote.Clap,
+.chat-user+.emote.Clap {
+  transform: scale(-1, 1);
+}
+
+.emote.Clap:only-of-type,
+.emote+.emote.Clap:last-of-type,
+.emote.Clap:last-of-type {
+  transform: scale(1);
+}
+
+.emote.Clap:hover {
+  animation: Clap-hover 400ms steps(3) infinite;
+}
+
+.emote.SOY+.emote.Clap {
   animation-duration: 150ms;
   animation-iteration-count: 26;
 }
-.emote.SOY + .emote.Clap:hover {
+
+.emote.SOY+.emote.Clap:hover {
   animation-iteration-count: infinite;
 }
 
-.emote.Slugstiny + .emote.Clap {
+.emote.Slugstiny+.emote.Clap {
   animation-duration: 1.2s;
   animation-delay: -500ms;
 }
 
 @keyframes Clap-anim2 {
-  100% { background-position: -44px; }
-}
-@keyframes GIGACLAP-slide {
-  0% { transform: translate(-28px, 0); }
-  100% { transform: translate(0, 0); }
+  100% {
+    background-position: -96px;
+  }
 }
 
-.emote.GIGACHAD + .emote.Clap {
-  animation: Clap-anim2 800ms steps(2) 7 -150ms, GIGACLAP-slide 1.5s ease-out 1; 
+@keyframes GIGAClap-slide {
+  0% {
+    transform: translate(-28px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
 }
+
+.emote.GIGACHAD+.emote.Clap {
+  animation: Clap-anim 600ms steps(3) 7 -150ms, GIGAClap-slide 1.5s ease-out 1;
+}
+
+.emote.GIGACHAD+.emote.Clap:hover {
+  animation: Clap-hover 600ms steps(3) infinite -150ms, GIGAClap-slide 1.5s ease-out 1;
+}
+
 .emote.Clueless {
   filter: drop-shadow(0px 0px 1px #ffffff);
 }
