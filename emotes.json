@@ -1985,17 +1985,17 @@
   },
   {
     "prefix": "nathanF",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/nathanF.png",
-        "name": "nathanF.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/6520762d123d9.png",
+        "name": "6520762d123d9.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 28
+        "height": 32,
+        "width": 32
       }
     ]
   },
