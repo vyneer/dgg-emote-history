@@ -2933,7 +2933,7 @@
 ### OTHERS - NO HANDS ###
 ## repeat emote selectors to raise priority - hacky but needed for now ##
 */
-.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting.Chatting.Chatting.Chatting,
+.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting.Chatting.Chatting.Chatting.Chatting,
 .emote.Chatting + .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting.Chatting.Chatting:last-of-type{
   background-position: -288px;
   animation:none;
