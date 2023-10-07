@@ -2145,17 +2145,17 @@
   },
   {
     "prefix": "nathanOOO",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/5e558e36bda2f.png",
-        "name": "5e558e36bda2f.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/6521c8c7d66a1.png",
+        "name": "6521c8c7d66a1.png",
         "mime": "image/png",
         "height": 32,
-        "width": 32
+        "width": 4608
       }
     ]
   },

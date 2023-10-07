@@ -1205,9 +1205,9 @@
     top: 7px;
 }
 .emote.nathanOOO {
-    background-image: url("5e558e36bda2f.png");
+    background-image: url("6521c8c7d66a1.png");
     height: 32px;
-    width: 32px;
+    width: 4608px;
 }
 .msg-chat .emote.nathanOOO {
     margin-top: -32px;
@@ -4864,6 +4864,30 @@
 }
 
 
+.emote.nathanOOO {
+  height: 32px;
+  width: 32px;
+  animation: nathanOOO-anim 3s steps(143) forwards 1;
+}
+
+.emote.nathanOOO:hover {
+  height: 32px;
+  width: 32px;
+  background: url(images/nathanOOO.png);
+  animation: nathanOOO-hover 3s steps(143) forwards 1;
+}
+
+@keyframes nathanOOO-anim {
+  to {
+    background-position: -4576px;
+  }
+}
+
+@keyframes nathanOOO-hover {
+  to {
+    background-position: -4576px;
+  }
+}
 @keyframes nathanPepe-anim {
     to {
         background-position: -7748px;
