@@ -1655,13 +1655,13 @@
     top: 8px;
 }
 .emote.POGGERS {
-    background-image: url("5d99288b765d4.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("5f9e8d17d1522.png");
+    height: 30px;
+    width: 30px;
 }
 .msg-chat .emote.POGGERS {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.POOTUBE {
     background-image: url("63debcb43cd84.png");
@@ -5622,7 +5622,6 @@
 .emote.PICNIC:hover {
     animation: PICNIC-anim-hover 350ms infinite;
 }
-/* Halloween version made by FFZ user mellen https://www.frankerfacez.com/emoticon/286451-POGGERS */
 @keyframes POTATO-anim {
   100% { background-position: -90px;}
 }

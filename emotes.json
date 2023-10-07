@@ -2947,15 +2947,15 @@
     "prefix": "POGGERS",
     "creator": null,
     "twitch": false,
-    "theme": 3,
+    "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/5d99288b765d4.png",
-        "name": "5d99288b765d4.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/5f9e8d17d1522.png",
+        "name": "5f9e8d17d1522.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 32
+        "height": 30,
+        "width": 30
       }
     ]
   },
