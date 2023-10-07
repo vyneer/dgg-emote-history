@@ -2961,17 +2961,17 @@
   },
   {
     "prefix": "POOTUBE",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/63debcb43cd84.png",
-        "name": "63debcb43cd84.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/6521e16a0a39f.png",
+        "name": "6521e16a0a39f.png",
         "mime": "image/png",
-        "height": 24,
-        "width": 24
+        "height": 32,
+        "width": 23
       }
     ]
   },
