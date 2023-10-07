@@ -2257,17 +2257,17 @@
   },
   {
     "prefix": "nathanThinking",
-    "creator": null,
+    "creator": "cybervegan",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/nathanThinking.png",
-        "name": "nathanThinking.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/6521cf3f4e6b5.png",
+        "name": "6521cf3f4e6b5.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 28
+        "height": 30,
+        "width": 33
       }
     ]
   },

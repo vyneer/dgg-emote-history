@@ -1268,13 +1268,13 @@
     top: 7px;
 }
 .emote.nathanThinking {
-    background-image: url("nathanThinking.png");
-    height: 28px;
-    width: 28px;
+    background-image: url("6521cf3f4e6b5.png");
+    height: 30px;
+    width: 33px;
 }
 .msg-chat .emote.nathanThinking {
-    margin-top: -28px;
-    top: 7px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.nathanTiny1 {
     background-image: url("5bd0bd1f207f0.png");
