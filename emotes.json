@@ -2145,7 +2145,7 @@
   },
   {
     "prefix": "nathanOOO",
-    "creator": "",
+    "creator": "tommyK ",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
@@ -2609,17 +2609,17 @@
   },
   {
     "prefix": "OneGuy",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/63bc38043976a.png",
-        "name": "63bc38043976a.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/6521013f2cc52.png",
+        "name": "6521013f2cc52.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 99
+        "height": 34,
+        "width": 115
       }
     ]
   },
