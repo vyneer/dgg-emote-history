@@ -2945,17 +2945,17 @@
   },
   {
     "prefix": "POGGERS",
-    "creator": null,
+    "creator": "cybervegan",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/5f9e8d17d1522.png",
-        "name": "5f9e8d17d1522.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/6520c628901b3.png",
+        "name": "6520c628901b3.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 32,
+        "width": 37
       }
     ]
   },
