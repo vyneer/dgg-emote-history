@@ -2017,7 +2017,7 @@
   },
   {
     "prefix": "nathanGG",
-    "creator": null,
+    "creator": "chest_dropkick ",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
@@ -2369,7 +2369,7 @@
   },
   {
     "prefix": "nathanWeeb",
-    "creator": null,
+    "creator": "chest_dropkick ",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
@@ -2465,7 +2465,7 @@
   },
   {
     "prefix": "NODDERS",
-    "creator": null,
+    "creator": "Jureon ",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
@@ -2497,7 +2497,7 @@
   },
   {
     "prefix": "NOPERS",
-    "creator": null,
+    "creator": "chest_dropkick ",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
@@ -2641,17 +2641,17 @@
   },
   {
     "prefix": "OverRustle",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.2/emotes/5f7ca2392c7e4.png",
-        "name": "5f7ca2392c7e4.png",
+        "url": "https://cdn.destiny.gg/2.84.2/emotes/6521ec5cd2078.png",
+        "name": "6521ec5cd2078.png",
         "mime": "image/png",
         "height": 32,
-        "width": 2448
+        "width": 45
       }
     ]
   },
@@ -2993,7 +2993,7 @@
   },
   {
     "prefix": "RapThis",
-    "creator": null,
+    "creator": "chest_dropkick ",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
