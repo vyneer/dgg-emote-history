@@ -6492,7 +6492,7 @@
 .emote.WEEWOO {
     background-position: 0px;
     background-repeat: no-repeat;
-    animation: WEEWOO-anim 1.5s ease-out 3;
+    animation: WEEWOO-anim 1.5s ease-out 1;
     transition: all 1s;
 }
 
