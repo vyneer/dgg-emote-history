@@ -791,7 +791,7 @@
     top: 8px;
 }
 .emote.INFESTINY {
-    background-image: url("5da6536005f6f.png");
+    background-image: url("65262e6e2fe51.png");
     height: 32px;
     width: 32px;
 }
@@ -4456,7 +4456,6 @@
     background-position: -1656px;
   }
 }
-/* Halloween version made by Vindelici */
 @keyframes JAMSTINY-anim {
   0% { transform: rotate(0deg); transform-origin: 50% 30px; }
   20% { transform: rotate(-35deg) translate(0, 0px); transform-origin: 50% 30px; }
