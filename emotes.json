@@ -1,7 +1,7 @@
 [
   {
     "prefix": "Abathur",
-    "creator": "",
+    "creator": "cybervegan",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
@@ -3217,17 +3217,17 @@
   },
   {
     "prefix": "SOY",
-    "creator": "Vindelici ",
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.4/emotes/615dfcf56d522.png",
-        "name": "615dfcf56d522.png",
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/65275c60c90f2.png",
+        "name": "65275c60c90f2.png",
         "mime": "image/png",
         "height": 32,
-        "width": 48
+        "width": 42
       }
     ]
   },
