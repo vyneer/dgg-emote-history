@@ -1691,13 +1691,13 @@
     top: 7px;
 }
 .emote.RaveDoge {
-    background-image: url("603e0f856ad93.png");
-    height: 34px;
-    width: 1350px;
+    background-image: url("6527c72c12be4.png");
+    height: 38px;
+    width: 2340px;
 }
 .msg-chat .emote.RaveDoge {
-    margin-top: -34px;
-    top: 8.5px;
+    margin-top: -38px;
+    top: 9.5px;
 }
 .emote.REE {
     background-image: url("5d93a91097fc9.png");
@@ -5756,22 +5756,25 @@
   transform: scale(1);
 }
 @keyframes RaveDoge-anim {
-  100% { background-position: -1350px; }
+  100% {
+    background-position: -2340px;
+  }
 }
 
 @keyframes RaveDoge-hover {
-  100% { background-position: -1350px; }
+  100% {
+    background-position: -2340px;
+  }
 }
 
 .emote.RaveDoge {
-  margin-left: -3px;
-  margin-right: -3px;
-  width: 50px;
-  animation: RaveDoge-anim 1.62s steps(27) 7 -.67s;
+  width: 45px;
+  height: 38px;
+  animation: RaveDoge-anim 10 steps(52) 3.5s -.67s;
 }
 
 .emote.RaveDoge:hover {
-  animation: RaveDoge-hover 1.62s steps(27) infinite;
+  animation: RaveDoge-hover infinite steps(52) 3.5s;
 }
 @keyframes REE-anim {
     from { left: 0; }
