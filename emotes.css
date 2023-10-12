@@ -1808,9 +1808,9 @@
     top: 7.5px;
 }
 .emote.SOY {
-    background-image: url("65275c60c90f2.png");
+    background-image: url("615dfcf56d522.png");
     height: 32px;
-    width: 42px;
+    width: 48px;
 }
 .msg-chat .emote.SOY {
     margin-top: -32px;
@@ -6008,6 +6008,8 @@
     animation: SoDoge-anim-hover 2s infinite;
 }
 /* Halloween version made by T9Parker */
+/* Halloween version made by Vindelici */
+
 /* Halloween animation made by BBDGG contributors */
 @keyframes spooky-opacity {
   0% {opacity: 0.6; top: 9px;}

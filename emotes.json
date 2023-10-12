@@ -3217,17 +3217,17 @@
   },
   {
     "prefix": "SOY",
-    "creator": "",
+    "creator": "Vindelici ",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.4/emotes/65275c60c90f2.png",
-        "name": "65275c60c90f2.png",
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/615dfcf56d522.png",
+        "name": "615dfcf56d522.png",
         "mime": "image/png",
         "height": 32,
-        "width": 42
+        "width": 48
       }
     ]
   },
