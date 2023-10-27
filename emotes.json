@@ -1713,17 +1713,17 @@
   },
   {
     "prefix": "MLADY",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.4/emotes/5d936234119b8.png",
-        "name": "5d936234119b8.png",
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/5e9e13c9431dc.png",
+        "name": "5e9e13c9431dc.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 32,
+        "width": 32
       }
     ]
   },

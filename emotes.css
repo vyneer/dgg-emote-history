@@ -962,13 +962,13 @@
     top: 9px;
 }
 .emote.MLADY {
-    background-image: url("5d936234119b8.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("5e9e13c9431dc.png");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.MLADY {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.MMMM {
     background-image: url("6156d74a61d0f.png");
@@ -4667,43 +4667,18 @@
   100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
 }
 @keyframes MLADY-anim {
-    0% {
-        transform: rotate(0deg);
-        transform-origin: 4px bottom;
-    }
-    30% {
-        transform: rotate(20deg);
-        transform-origin: 4px bottom;
-    }
-    80% {
-        transform: rotate(-10deg);
-        transform-origin: 4px bottom;
-    }
-    100% {
-        transform: rotate(0deg);
-        transform-origin: 4px bottom;
-    }
+    0%, 100% { transform: rotate(0deg); }
+    30% { transform: rotate(20deg); }
+    80% { transform: rotate(-10deg); }
 }
 @keyframes MLADY-anim-hover {
-    0% {
-        transform: rotate(0deg);
-        transform-origin: 4px bottom;
-    }
-    30% {
-        transform: rotate(20deg);
-        transform-origin: 4px bottom;
-    }
-    80% {
-        transform: rotate(-10deg);
-        transform-origin: 4px bottom;
-    }
-    100% {
-        transform: rotate(0deg);
-        transform-origin: 4px bottom;
-    }
+    0%, 100% { transform: rotate(0deg); }
+    30% { transform: rotate(20deg); }
+    80% { transform: rotate(-10deg); }
 }
 .emote.MLADY {
     animation: MLADY-anim 250ms 3;
+    transform-origin: 5% 90%;
 }
 .emote.MLADY:hover {
     animation: MLADY-anim-hover 250ms infinite;
