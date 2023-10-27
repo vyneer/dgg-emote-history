@@ -449,13 +449,13 @@
     top: 8px;
 }
 .emote.DEATH {
-    background-image: url("600b6a3db1bfc.png");
-    height: 32px;
-    width: 30px;
+    background-image: url("6090e31923c29.png");
+    height: 28px;
+    width: 28px;
 }
 .msg-chat .emote.DEATH {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.Depresstiny {
     background-image: url("5d9bcc1b8f155.png");
@@ -1915,6 +1915,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.WEEWOO {
+    background-image: url("6519465c0ae7b.png");
+    height: 30px;
+    width: 33px;
+}
+.msg-chat .emote.WEEWOO {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.WEOW {
     background-image: url("617fd8c1e86da.png");
     height: 32px;
@@ -2060,22 +2069,13 @@
     top: 8px;
 }
 .emote.TRIAD {
-    background-image: url("652119333e9d2.png");
+    background-image: url("615e03d872e9c.png");
     height: 34px;
     width: 5280px;
 }
 .msg-chat .emote.TRIAD {
     margin-top: -34px;
     top: 8.5px;
-}
-.emote.WEEWOO {
-    background-image: url("6519465c0ae7b.png");
-    height: 30px;
-    width: 33px;
-}
-.msg-chat .emote.WEEWOO {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.AMAZIN {
     width: 53px;
@@ -6084,6 +6084,104 @@
 }
 
 /* Halloween version made by Vindelici */
+.emote.WEEWOO {
+    background-position: 0px;
+    background-repeat: no-repeat;
+    animation: WEEWOO-anim 1.5s ease-out 1;
+    transition: all 1s;
+}
+
+.emote.WEEWOO:hover {
+    transition: all .5s;
+    animation: WEEWOO-hover 1.5s ease-out infinite;
+}
+
+
+@keyframes WEEWOO-anim {
+
+    0%,
+    100% {
+        opacity: 1
+    }
+
+    10% {
+        opacity: 0.5;
+        filter: hue-rotate(0deg)
+    }
+
+    11% {
+        filter: hue-rotate(170deg)
+    }
+
+    35% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0.2;
+        filter: hue-rotate(170deg)
+    }
+
+    51% {
+        filter: hue-rotate(310deg)
+    }
+
+    65% {
+        opacity: 1
+    }
+
+    90% {
+        opacity: 0.2;
+        filter: hue-rotate(310deg)
+    }
+
+    91% {
+        filter: hue-rotate(0deg)
+    }
+}
+
+@keyframes WEEWOO-hover {
+
+    0%,
+    100% {
+        opacity: 1
+    }
+
+    10% {
+        opacity: 0.5;
+        filter: hue-rotate(0deg)
+    }
+
+    11% {
+        filter: hue-rotate(170deg)
+    }
+
+    35% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0.2;
+        filter: hue-rotate(170deg)
+    }
+
+    51% {
+        filter: hue-rotate(310deg)
+    }
+
+    65% {
+        opacity: 1
+    }
+
+    90% {
+        opacity: 0.2;
+        filter: hue-rotate(310deg)
+    }
+
+    91% {
+        filter: hue-rotate(0deg)
+    }
+}
 .emote.WICKED {
     width: 70px;
     height: 32px;
@@ -6455,8 +6553,6 @@
     animation: YeeLaugh-anim-hover 200ms infinite;
 }
 /* Halloween version made by Gahhey */
-/* ✡️✡️✡️✡️✡️ SHALOM ✡️✡️✡️✡️✡️ */ 
-
 @keyframes TRIAD {
   0% { background-position: 0px; }
   100% { background-position: -5280px; }
@@ -6491,102 +6587,4 @@
 .emote.TRIAD:hover, .emote.LeRuse + .emote.TRIAD:hover {
   background-position: -1936px;
   animation: TRIAD-hover steps(19) 0.6333s infinite; 
-}
-.emote.WEEWOO {
-    background-position: 0px;
-    background-repeat: no-repeat;
-    animation: WEEWOO-anim 1.5s ease-out 1;
-    transition: all 1s;
-}
-
-.emote.WEEWOO:hover {
-    transition: all .5s;
-    animation: WEEWOO-hover 1.5s ease-out infinite;
-}
-
-
-@keyframes WEEWOO-anim {
-
-    0%,
-    100% {
-        opacity: 1
-    }
-
-    10% {
-        opacity: 0.5;
-        filter: hue-rotate(0deg)
-    }
-
-    11% {
-        filter: hue-rotate(170deg)
-    }
-
-    35% {
-        opacity: 1
-    }
-
-    50% {
-        opacity: 0.2;
-        filter: hue-rotate(170deg)
-    }
-
-    51% {
-        filter: hue-rotate(310deg)
-    }
-
-    65% {
-        opacity: 1
-    }
-
-    90% {
-        opacity: 0.2;
-        filter: hue-rotate(310deg)
-    }
-
-    91% {
-        filter: hue-rotate(0deg)
-    }
-}
-
-@keyframes WEEWOO-hover {
-
-    0%,
-    100% {
-        opacity: 1
-    }
-
-    10% {
-        opacity: 0.5;
-        filter: hue-rotate(0deg)
-    }
-
-    11% {
-        filter: hue-rotate(170deg)
-    }
-
-    35% {
-        opacity: 1
-    }
-
-    50% {
-        opacity: 0.2;
-        filter: hue-rotate(170deg)
-    }
-
-    51% {
-        filter: hue-rotate(310deg)
-    }
-
-    65% {
-        opacity: 1
-    }
-
-    90% {
-        opacity: 0.2;
-        filter: hue-rotate(310deg)
-    }
-
-    91% {
-        filter: hue-rotate(0deg)
-    }
 }
