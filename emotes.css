@@ -3463,11 +3463,11 @@
 }
 
 .msg-chat.msg-emote[data-combo-group="x30"] {
-    animation: RARE-BRONZE 1.2s 1, RARE-BRONZE-PULSATE 5s infinite 1.2s linear;
+    animation: RARE-BRONZE 1.2s 1, RARE-BRONZE-PULSATE 5s 15 1.2s linear;
 }
 
 .msg-chat.msg-emote[data-combo-group="x50"] {
-    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 5s infinite 1.2s linear;
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 5s 15 1.2s linear;
 }
 
 /*
@@ -3570,7 +3570,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="01"]~.text .emote.dggL {
     background-position: -320px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="01"]~.text .emote.dggL:hover {
@@ -3583,7 +3583,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="12"]~.text .emote.dggL {
     background-position: -352px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="12"]~.text .emote.dggL:hover {
@@ -3596,7 +3596,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="23"]~.text .emote.dggL {
     background-position: -384px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="23"]~.text .emote.dggL:hover {
@@ -3609,7 +3609,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="34"]~.text .emote.dggL {
     background-position: -416px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="34"]~.text .emote.dggL:hover {
@@ -3622,7 +3622,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="56"]~.text .emote.dggL {
     background-position: -480px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="56"]~.text .emote.dggL:hover {
@@ -3635,7 +3635,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.dggL {
     background-position: -512px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.dggL:hover {
@@ -3648,7 +3648,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="88"]~.text .emote.dggL {
     background-position: -576px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="88"]~.text .emote.dggL:hover {
@@ -3661,7 +3661,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="99"]~.text .emote.dggL {
     background-position: -608px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="99"]~.text .emote.dggL:hover {
@@ -3674,7 +3674,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="51"]~.text .emote.dggL {
     background-position: -736px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s infinite linear;
+    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="51"]~.text .emote.dggL:hover {
@@ -3689,7 +3689,7 @@
     background-position: -448px;
     background-repeat: no-repeat;
     transition: ease-out .4s;
-    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s 10 1.2s linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text .emote.dggL:hover {
@@ -3702,7 +3702,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="999"]~.text .emote.dggL {
     background-position: -544px;
     background-repeat: no-repeat;
-    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s 10 1.2s linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="999"]~.text .emote.dggL:hover {
@@ -3715,7 +3715,7 @@
 .msg-chat.msg-user>time[data-unixtimestamp$="666"]~.text .emote.dggL {
     background-position: -640px;
     background-repeat: no-repeat;
-    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
+    animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s 10 1.2s linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="666"]~.text .emote.dggL:hover {
@@ -3730,7 +3730,7 @@
     background-position: -640px;
     background-repeat: no-repeat;
     filter: grayscale(1) sepia(.4) saturate(60) brightness(1.8) drop-shadow(-13px 0px 10px rgba(255, 153, 102, 0.25)) drop-shadow(13px 0px 10px rgba(255, 158, 102, 0.25));
-    animation: RARE-COCKA 1.2s 1, RARE-COCKA-PULSATE 1.2s infinite 1.2s linear;
+    animation: RARE-COCKA 1.2s 1, RARE-COCKA-PULSATE 1.2s 15 1.2s linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="6969"]~.text .emote.dggL:hover {
