@@ -1121,17 +1121,17 @@
   },
   {
     "prefix": "FeelsWeirdMan",
-    "creator": null,
+    "creator": "Tanzooom (7tv)",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.4/emotes/5f7983711c0b4.png",
-        "name": "5f7983711c0b4.png",
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/653cb5aa041d1.png",
+        "name": "653cb5aa041d1.png",
         "mime": "image/png",
         "height": 32,
-        "width": 32
+        "width": 34
       }
     ]
   },
