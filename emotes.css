@@ -125,7 +125,7 @@
     top: 7.5px;
 }
 .emote.BibleThump {
-    background-image: url("5d9e364d81411.png");
+    background-image: url("653c9a372604d.png");
     height: 30px;
     width: 29px;
 }
@@ -872,13 +872,13 @@
     top: 7.5px;
 }
 .emote.LOVE {
-    background-image: url("5d9f615f6bcb6.png");
-    height: 30px;
-    width: 51px;
+    background-image: url("653c8e146b5ba.png");
+    height: 32px;
+    width: 54px;
 }
 .msg-chat .emote.LOVE {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.LUL {
     background-image: url("5da149c16af29.png");
@@ -890,7 +890,7 @@
     top: 7.5px;
 }
 .emote.LULW {
-    background-image: url("615dfce21804e.png");
+    background-image: url("653c952296d71.png");
     height: 32px;
     width: 28px;
 }
@@ -1088,13 +1088,13 @@
     top: 7px;
 }
 .emote.nathanDank {
-    background-image: url("nathanDank.png");
-    height: 28px;
-    width: 28px;
+    background-image: url("653c38ed8ab52.png");
+    height: 30px;
+    width: 37px;
 }
 .msg-chat .emote.nathanDank {
-    margin-top: -28px;
-    top: 7px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.nathanDerp {
     background-image: url("5bd45dec0ab38.png");
@@ -1338,6 +1338,15 @@
 .msg-chat .emote.nathanWeeb {
     margin-top: -28px;
     top: 7px;
+}
+.emote.nathanWoah {
+    background-image: url("653c31451be2d.png");
+    height: 34px;
+    width: 31px;
+}
+.msg-chat .emote.nathanWoah {
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.nathanYee {
     background-image: url("651913e9b55a2.png");
@@ -2059,6 +2068,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.Stare {
+    background-image: url("653c8f826375d.png");
+    height: 30px;
+    width: 35px;
+}
+.msg-chat .emote.Stare {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.STATUSQUO {
     background-image: url("5d9c09a78f991.jpg");
     height: 32px;
@@ -2354,9 +2372,6 @@
   0% { background-position: -600px; }
   100% { background-position: -1440px; }
 }
-/* Halloween version made by Emmia (v1) */
-/* Halloween version & animation made by Igor (v2) */
-
 @keyframes BibleThump-anim {
   0%, 100% {transform: scale(1) translate(0px, 0px); animation-timing-function: ease;}
   50% {transform: scale(1) translate(0px, 14px); animation-timing-function: ease-in;}
@@ -2375,8 +2390,8 @@
 	  line-height: initial;
     position: absolute;
     opacity: 0.6;
-    top: 17px;
-    left: 11px;
+    top: 10px;
+    left: 0px;
     width: 10px;
     height: 10px;
     transform-origin: 50% 0%;
@@ -4527,7 +4542,6 @@
 }
 /* Halloween version made by T9Parker (v1) */
 
-/* Halloween version made by T9Parker */
 @keyframes LOVE-anim {
     0% { top: -25px; }
     99% { top: 30px; }
@@ -4560,7 +4574,6 @@
     animation-delay: 0.25s;
 }
 /* Halloween version made by FFZ user Spyanide https://www.frankerfacez.com/emoticon/299734-LULUIGI */
-/* Halloween version made by Vindelici */
 .emote.MALARKEY {
   height: 34px;
   width: 32px;
