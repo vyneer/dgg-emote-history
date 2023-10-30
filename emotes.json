@@ -3264,6 +3264,22 @@
     ]
   },
   {
+    "prefix": "Stare",
+    "creator": "TrippyColour (7tv)",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/653c8f826375d.png",
+        "name": "653c8f826375d.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 35
+      }
+    ]
+  },
+  {
     "prefix": "SURPRISE",
     "creator": null,
     "twitch": false,
@@ -3676,22 +3692,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 32
-      }
-    ]
-  },
-  {
-    "prefix": "Stare",
-    "creator": "TrippyColour (7tv)",
-    "twitch": false,
-    "theme": 3,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.84.4/emotes/653c8f826375d.png",
-        "name": "653c8f826375d.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 35
       }
     ]
   },

@@ -1834,6 +1834,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.Stare {
+    background-image: url("653c8f826375d.png");
+    height: 30px;
+    width: 35px;
+}
+.msg-chat .emote.Stare {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.SURPRISE {
     background-image: url("5c2bbde674ef2.png");
     height: 30px;
@@ -2067,15 +2076,6 @@
 .msg-chat .emote.ZOOMER {
     margin-top: -32px;
     top: 8px;
-}
-.emote.Stare {
-    background-image: url("653c8f826375d.png");
-    height: 30px;
-    width: 35px;
-}
-.msg-chat .emote.Stare {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.STATUSQUO {
     background-image: url("5d9c09a78f991.jpg");
