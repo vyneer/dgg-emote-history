@@ -33,7 +33,7 @@
   },
   {
     "prefix": "AMAZIN",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
@@ -1329,7 +1329,7 @@
   },
   {
     "prefix": "haHAA",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
@@ -2913,7 +2913,7 @@
   },
   {
     "prefix": "PepoWant",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
