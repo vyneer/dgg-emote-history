@@ -3728,6 +3728,22 @@
     ]
   },
   {
+    "prefix": "gavSmash",
+    "creator": "",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/6541d474a2a5f.gif",
+        "name": "6541d474a2a5f.gif",
+        "mime": "image/gif",
+        "height": 30,
+        "width": 30
+      }
+    ]
+  },
+  {
     "prefix": "LULWCD",
     "creator": "",
     "twitch": false,
