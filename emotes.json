@@ -272,6 +272,22 @@
     ]
   },
   {
+    "prefix": "BLADE_v2",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/5f53d5e23237b.png",
+        "name": "5f53d5e23237b.png",
+        "mime": "image/png",
+        "height": 21,
+        "width": 50
+      }
+    ]
+  },
+  {
     "prefix": "Blesstiny",
     "creator": "Toblakai_ ",
     "twitch": false,
@@ -3728,6 +3744,22 @@
     ]
   },
   {
+    "prefix": "pp",
+    "creator": "",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/651cf643c01b7.png",
+        "name": "651cf643c01b7.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "STATUSQUO",
     "creator": "Gahhey ",
     "twitch": false,
@@ -3756,22 +3788,6 @@
         "mime": "image/png",
         "height": 34,
         "width": 5280
-      }
-    ]
-  },
-  {
-    "prefix": "woman",
-    "creator": "",
-    "twitch": false,
-    "theme": 3,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.84.4/emotes/65192e3d582a9.gif",
-        "name": "65192e3d582a9.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 32
       }
     ]
   }

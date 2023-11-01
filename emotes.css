@@ -2095,6 +2095,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.pp {
+    background-image: url("651cf643c01b7.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.pp {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.STATUSQUO {
     background-image: url("5d9c09a78f991.jpg");
     height: 32px;
@@ -2112,15 +2121,6 @@
 .msg-chat .emote.TRIAD {
     margin-top: -34px;
     top: 8.5px;
-}
-.emote.woman {
-    background-image: url("65192e3d582a9.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.woman {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.AMAZIN {
     width: 53px;
