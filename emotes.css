@@ -1834,15 +1834,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.Stare {
-    background-image: url("653f14543df40.png");
-    height: 32px;
-    width: 41px;
-}
-.msg-chat .emote.Stare {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.SURPRISE {
     background-image: url("5c2bbde674ef2.png");
     height: 30px;

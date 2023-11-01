@@ -3264,22 +3264,6 @@
     ]
   },
   {
-    "prefix": "Stare",
-    "creator": "cybervegan",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.84.4/emotes/653f14543df40.png",
-        "name": "653f14543df40.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 41
-      }
-    ]
-  },
-  {
     "prefix": "SURPRISE",
     "creator": null,
     "twitch": false,
