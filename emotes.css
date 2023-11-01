@@ -2095,6 +2095,15 @@
     margin-top: -31px;
     top: 7.75px;
 }
+.emote.gavSmash {
+    background-image: url("6541d474a2a5f.gif");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.gavSmash {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.LULWCD {
     background-image: url("6541d3b448d6e.png");
     height: 32px;
