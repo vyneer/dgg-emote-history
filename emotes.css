@@ -2077,6 +2077,24 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.BLADE_SABER {
+    background-image: url("5f80acd664b04.png");
+    height: 31px;
+    width: 84px;
+}
+.msg-chat .emote.BLADE_SABER {
+    margin-top: -31px;
+    top: 7.75px;
+}
+.emote.MLADY_COLD {
+    background-image: url("65418b4358370.png");
+    height: 32px;
+    width: 45px;
+}
+.msg-chat .emote.MLADY_COLD {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.STATUSQUO {
     background-image: url("5d9c09a78f991.jpg");
     height: 32px;
@@ -2094,6 +2112,15 @@
 .msg-chat .emote.TRIAD {
     margin-top: -34px;
     top: 8.5px;
+}
+.emote.woman {
+    background-image: url("65192e3d582a9.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.woman {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.AMAZIN {
     width: 53px;
@@ -6539,6 +6566,129 @@
 }
 .emote.YeeLaugh:hover {
     animation: YeeLaugh-anim-hover 200ms infinite;
+}
+/* Halloween version and animation made by Igor */
+.emote.Yoda1 + .emote.BLADE_SABER, .emote.YEE + .emote.BLADE_SABER, .emote.YEEHAW + .emote.BLADE_SABER {
+  filter: hue-rotate(-80deg) saturate(3) brightness(1.7);
+}
+.emote.HACKERMAN + .emote.BLADE_SABER, .emote.MALARKEY + .emote.BLADE_SABER, .emote.BERN + .emote.BLADE_SABER, .emote.catJAM + .emote.BLADE_SABER, .emote.YAM + .emote.BLADE_SABER, .emote.JAMSTINY + .emoteBLADE_SABER {
+  filter: hue-rotate(-191deg) brightness(0.85) saturate(5);
+}
+.emote.BasedGod + .emote.BLADE_SABER, .emote.LUL + .emote.BLADE_SABER {
+  filter: hue-rotate(80deg) saturate(6);
+}
+.emote.GODSTINY + .emote.BLADE_SABER, .emote.Slumlord + .emote.BLADE_SABER, .emote.ATAB + .emote.BLADE_SABER {
+  filter: hue-rotate(-131deg) saturate(5);
+}
+.emote.Wowee + .emote.BLADE_SABER, .emote.WOOF + .emote.BLADE_SABER {
+  filter: saturate(0) brightness(2);
+}
+.emote.FerretLOL + .emote.BLADE_SABER, .emote.widepeepoHappy + .emote.BLADE_SABER, .emote.Cutestiny + .emote.BLADE_SABER {
+  filter: hue-rotate(150deg) saturate(3) brightness(1.3);
+}
+@keyframes BLADE_SABER-anim {
+  0% { transform: translate(0, 0) rotate(360deg); transform-origin: -10% 100%; animation-timing-function: linear; }
+  10% { transform: translate(-5px, -5px) rotate(30deg); animation-timing-function: ease; }
+  15%, 25% { transform: translate(0, -15px) rotate(45deg); }
+  30% { transform: translate(-10px, -5px) rotate(20deg); }
+  35% { transform: translate(-5px, -5px) rotate(-10deg); }
+  38%, 50% { transform: translate(15px, -5px) rotate(-15deg); animation-timing-function: linear; }
+  61%, 63% { transform: translate(0px, -10px) rotate(-315deg); animation-timing-function: ease; }
+  68% { transform: translate(25px, -10px) rotate(-315deg); }
+  76% { transform: translate(28px, -10px) rotate(-315deg); }
+  82% { transform: translate(-10px, -10px) rotate(-315deg); }
+  90%, 100% { transform: translate(0, 0) rotate(-360deg); transform-origin: -10% 100%; }
+}
+@keyframes BLADE_SABER-anim2 {
+  0% { transform: scale(-1, 1) translate(-35px, 0) rotate(-367deg); transform-origin: 0% 100%; animation-timing-function: linear; }
+  10% { transform: scale(-1, 1) translate(-38px, -5px) rotate(-10deg); animation-timing-function: ease; }
+  15%, 25.0001% { transform: scale(-1, 1) translate(-33px, 5px) rotate(5deg); }
+  15.0001%, 25% { transform: scale(-1, 1) translate(-60px, 5px) rotate(5deg); }
+  30% { transform: scale(-1, 1) translate(-52px, -5px) rotate(20deg); }
+  35% { transform: scale(-1, 1) translate(-47px, -5px) rotate(-10deg); }
+  38%, 50.0001% { transform: scale(-1, 1) translate(-22px, -5px) rotate(-15deg); animation-timing-function: linear; }
+  38.0001%, 50% { transform: scale(-1, 1) translate(-49px, -5px) rotate(-15deg); animation-timing-function: linear; }
+  61%, 63% { transform: scale(-1, 1) translate(-32px, -20px) rotate(-320deg); animation-timing-function: ease-in-out; }
+  68% { transform: scale(-1, 1) translate(-7px, -22px) rotate(-320deg); }
+  76% { transform: scale(-1, 1) translate(-4px, -22.5px) rotate(-320deg); }
+  82% { transform: scale(-1, 1) translate(-37px, -20px) rotate(-320deg); }
+  90%, 100% { transform: scale(-1, 1) translate(-37px, 0) rotate(-367deg); transform-origin: 0% 100%; animation-timing-function: ease-in-out; }
+}
+@keyframes BLADE_SABER-anim3 {
+  0% { transform: scale(-1, 1) translate(-35px, 0) rotate(-367deg); transform-origin: 0% 100%; animation-timing-function: linear; }
+  10% { transform: scale(-1, 1) translate(-38px, -5px) rotate(-10deg); animation-timing-function: ease; }
+  15%, 25.0001% { transform: scale(-1, 1) translate(-38px, 5px) rotate(5deg); }
+  30% { transform: scale(-1, 1) translate(-52px, -5px) rotate(20deg); }
+  35% { transform: scale(-1, 1) translate(-47px, -5px) rotate(-10deg); }
+  38%, 50.0001% { transform: scale(-1, 1) translate(-27px, -5px) rotate(-15deg); animation-timing-function: linear; }
+  61%, 63% { transform: scale(-1, 1) translate(-32px, -20px) rotate(-320deg); animation-timing-function: ease-in-out; }
+  68% { transform: scale(-1, 1) translate(-7px, -22px) rotate(-320deg); }
+  76% { transform: scale(-1, 1) translate(-4px, -22.5px) rotate(-320deg); }
+  82% { transform: scale(-1, 1) translate(-37px, -20px) rotate(-320deg); }
+  90%, 100% { transform: scale(-1, 1) translate(-37px, 0) rotate(-367deg); transform-origin: 0% 100%; animation-timing-function: ease-in-out; }
+}
+@keyframes BLADE_SABER-anim-clash {
+  0%, 15%, 25.0001%, 38%, 50.0001%, 100% { background-position: 0px; width: 31px; margin-left: -6px; }
+  15.0001%, 25%, 38.0001%, 50% { background-position: 53px; width: 53px; margin-left: -28px; }
+  15%, 25.0001%, 38%, 50.0001% { filter: none; }
+  17.5%, 18.5%, 21.5%, 22.5%,  40.5%, 41.5%, 45%, 46.5%  { filter: brightness(0.7); }
+  15.001%, 17%, 19%, 21%, 23%, 25%,  38%, 40%, 42%, 44.5%, 47%, 50% { filter: brightness(1.5) saturate(2); }
+}
+.emote.BLADE_SABER {
+  padding-bottom: 0px;
+  width: 31px;
+  margin-left: 0;
+  margin-right: -6px;
+  animation: BLADE_SABER-open .3s 1 ease-in .001s, BLADE_SABER-anim 2.2s 1 ease .4s;
+}
+.emote.BLADE_SABER + .emote.BLADE_SABER, .emote.TRIAD + .emote.BLADE_SABER {
+  margin-left: -6px;
+  margin-right: 4px;
+  width: 31px;
+  transform-origin: 0 100%;
+  transform: scale(-1, 1) translate(-37px, 0) rotate(-7deg);
+  animation: BLADE_SABER-open .3s 1 ease-in .001s, BLADE_SABER-anim2 2.2s 1 ease .4s, BLADE_SABER-anim-clash 2.2s 1 ease .4s;
+}
+.emote.BLADE_SABER:first-of-type {
+  margin-left: -6px;
+  margin-right: 4px;
+  width: 31px;
+  transform-origin: 0 100%;
+  transform: scale(-1, 1) translate(-37px, 0) rotate(-7deg);
+  animation: BLADE_SABER-open .3s 1 ease-in .001s, BLADE_SABER-anim3 2.2s 1 ease .4s;
+}
+.emote + .emote.BLADE_SABER:last-of-type, .emote.BLADE_SABER:last-of-type {
+  width: 31px;
+  margin-left: 0;
+  margin-right: -6px;
+  transform-origin: 50% 100%;
+  transform: none;
+  animation: BLADE_SABER-open .3s 1 ease-in .001s, BLADE_SABER-anim 2.2s 1 ease .4s;
+}
+.emote.BLADE_SABER:hover, .emote.BLADE_SABER + .emote.BLADE_SABER:hover, .emote.BLADE_SABER:first-of-type:hover, .emote.BLADE_SABER:last-of-type:hover,  .emote.TRIAD + .emote.BLADE_SABER:hover {
+  animation: none;
+}
+
+@keyframes BLADE_SABER-open {
+  0%, 25% { clip-path: circle(20% at 0% 100%); }
+  100% { clip-path: circle(150% at 0% 100%); }
+}
+@keyframes MLADY_COLD-anim {
+    0%, 100% { transform: rotate(0deg); }
+    30% { transform: rotate(20deg); }
+    80% { transform: rotate(-10deg); }
+}
+@keyframes MLADY_COLD-anim-hover {
+    0%, 100% { transform: rotate(0deg); }
+    30% { transform: rotate(20deg); }
+    80% { transform: rotate(-10deg); }
+}
+.emote.MLADY_COLD {
+    animation: MLADY_COLD-anim 250ms 3;
+    transform-origin: 5% 90%;
+}
+.emote.MLADY_COLD:hover {
+    animation: MLADY_COLD-anim-hover 250ms infinite;
 }
 /* Halloween version made by Gahhey */
 @keyframes TRIAD {

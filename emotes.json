@@ -3696,6 +3696,38 @@
     ]
   },
   {
+    "prefix": "BLADE_SABER",
+    "creator": "Igor",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/5f80acd664b04.png",
+        "name": "5f80acd664b04.png",
+        "mime": "image/png",
+        "height": 31,
+        "width": 84
+      }
+    ]
+  },
+  {
+    "prefix": "MLADY_COLD",
+    "creator": "",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/65418b4358370.png",
+        "name": "65418b4358370.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 45
+      }
+    ]
+  },
+  {
     "prefix": "STATUSQUO",
     "creator": "Gahhey ",
     "twitch": false,
@@ -3724,6 +3756,22 @@
         "mime": "image/png",
         "height": 34,
         "width": 5280
+      }
+    ]
+  },
+  {
+    "prefix": "woman",
+    "creator": "",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/65192e3d582a9.gif",
+        "name": "65192e3d582a9.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
       }
     ]
   }
