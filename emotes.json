@@ -3248,6 +3248,22 @@
     ]
   },
   {
+    "prefix": "SoyPoint",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/6519241ea3d77.png",
+        "name": "6519241ea3d77.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 43
+      }
+    ]
+  },
+  {
     "prefix": "SpookerZ",
     "creator": null,
     "twitch": false,

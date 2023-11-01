@@ -1825,6 +1825,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.SoyPoint {
+    background-image: url("6519241ea3d77.png");
+    height: 32px;
+    width: 43px;
+}
+.msg-chat .emote.SoyPoint {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.SpookerZ {
     background-image: url("5c2bbddae0132.png");
     height: 30px;
@@ -4814,6 +4823,56 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 .emote.SNAP:hover::before {
   animation: SNAP-hover-before 2 150ms, SNAP-hover-before infinite 250ms 600ms;
 }
+.emote.SoyPoint {
+  height: 32px;
+  width: 43px;
+  filter: brightness(1.15);
+}
+
+.emote.SoyPoint+.emote.SoyPoint,
+.emote.SoyPoint:nth-child(1),
+.emote.Clap+.emote.SoyPoint,
+.emote.BLADE+.emote.SoyPoint{
+  margin-right: -2px;
+  margin-left: 0;
+  transform: scaleX(-1);
+}
+
+.emote.SoyPoint:only-child,
+.emote+.emote.SoyPoint:last-of-type,
+.emote.SoyPoint:last-of-type {
+  margin-right: 0;
+  transform: scaleX(1);
+}
+
+.emote.SoyPoint:only-child {
+  transform: scaleX(-1);
+}
+
+@keyframes GIGAHANDS-anim {
+  0% {
+    transform: translate(-28px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.emote.GIGACHAD+.emote.SoyPoint {
+  animation: GIGAHANDS-anim 1.5s ease-out 1;
+}
+
+.chat-user+.emote.SoyPoint,
+.emote.SoyPoint:has(+.externallink),
+.emote.SoyPoint:has(+.chat-user) {
+  transform: scaleX(-1);
+}
+
+.chat-user+.emote.SoyPoint:last-child {
+  transform: scaleX(1);
+}
+
 @keyframes SpookerZ-anim {
     0% { transform: translate(0px 0px); }
     25% { transform: translate(0px,4px) }
