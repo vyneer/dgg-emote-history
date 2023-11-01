@@ -151,6 +151,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.BLADE_v2 {
+    background-image: url("5f53d5e23237b.png");
+    height: 21px;
+    width: 50px;
+}
+.msg-chat .emote.BLADE_v2 {
+    margin-top: -21px;
+    top: 5.25px;
+}
 .emote.Blesstiny {
     background-image: url("5d992ba05bb49.png");
     height: 32px;
@@ -2086,6 +2095,15 @@
     margin-top: -31px;
     top: 7.75px;
 }
+.emote.LULWCD {
+    background-image: url("6541d3b448d6e.png");
+    height: 32px;
+    width: 28px;
+}
+.msg-chat .emote.LULWCD {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.MLADY_COLD {
     background-image: url("65418b4358370.png");
     height: 32px;
@@ -2546,6 +2564,64 @@
 }
 .emote.Kappa + .emote.BLADE:hover, .emote.OhKrappa + .emote.BLADE:hover, .emote.RaveDoge + .emote.BLADE:hover, .emote.DANKMEMES + .emote.BLADE:hover, .emote.Shroomstiny + .emote.BLADE:hover, .emote.DappaKappa + .emote.BLADE:hover,  .emote.nathanDank + .emote.BLADE:hover {
   animation: BLADE-hover steps(70) 3.5s  infinite, BLADE-rainbow-hover 0.85s linear 4;
+}
+/* made by Igor */
+@keyframes BLADE_v2-anim-swing {
+  0% { transform: translate(0, 5px) rotate(-26deg); }
+  30% { transform: translate(-3px, 15px) rotate(-6deg); }
+  80% { transform: translate(0px, -2px) rotate(-36deg); }
+  100% { transform: translate(0, 5px) rotate(-26deg); }
+}
+@keyframes BLADE_v2-anim-stab {
+  0%, 100% { transform: translate(0, 5px) rotate(-26deg); }
+  10% { transform: rotate(0deg) translate(0px, -5px); }
+  20% { transform: rotate(0deg) translate(0px, -5px); }
+  25% { transform: rotate(0deg) translate(18px, -5px); }
+  50% { transform: rotate(0deg) translate(20px, -5px); }
+  65% { transform: rotate(0deg) translate(16px, -5px); }
+  75% { transform: rotate(0deg) translate(-5px, -5px); }
+  93% { transform: rotate(0deg) translate(-5px, -5px); }
+}
+@keyframes BLADE_v2-anim-swing-hover {
+  0% { transform: translate(0, 5px) rotate(-26deg); }
+  30% { transform: translate(-3px, 15px) rotate(-6deg); }
+  80% { transform: translate(0px, -2px) rotate(-36deg); }
+  100% { transform: translate(0, 5px) rotate(-26deg); }
+}
+.emote.BLADE_v2 {
+  transform-origin: 0% 82%;
+  transform: translate(0, 5px) rotate(-26deg);
+  margin-left: -3px;
+  margin-right: -17px;
+  animation: BLADE_v2-anim-swing 0.25s 3, BLADE_v2-anim-stab 0.75s 1 0.75s linear;
+}
+.emote.BLADE_v2:hover {
+    animation: BLADE_v2-anim-swing-hover 0.25s infinite;
+}
+@keyframes BLADE_v2-before {
+  35%, 100% { transform: translate(60px, 4px) rotate(5deg) scale(.4, 0); opacity: 0;}
+  0%, 30% { transform: translate(60px, 4px) rotate(5deg) scale(.425, 1.5); opacity: .75;}
+}
+@keyframes BLADE_v2-hover-before {
+  35%, 100% { transform: translate(60px, 4px) rotate(5deg) scale(.4, 0); opacity: 0; }
+  0%, 30% { transform: translate(60px, 4px) rotate(5deg) scale(.425, 1.5); opacity: .75; }
+}
+.emote.BLADE_v2:before {
+  content: "🔥";
+  display: block;
+  font-style:normal;
+  text-indent: 0;
+  line-height: initial;
+  position: absolute;
+  font-size: 16px;
+  transform-origin: 50% 100%;
+  text-shadow: none;
+  opacity: 0;
+  filter: contrast(0.3) hue-rotate(-20deg) saturate(3) brightness(2.1) saturate(3);
+  animation: BLADE_v2-before 3 250ms;
+}
+.emote.BLADE_v2:hover:before {
+  animation: BLADE_v2-hover-before infinite 250ms;
 }
 /* Halloween version made by Toblakai_ */
 @keyframes Blesstiny-anim{

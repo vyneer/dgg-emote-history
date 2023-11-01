@@ -3728,6 +3728,22 @@
     ]
   },
   {
+    "prefix": "LULWCD",
+    "creator": "",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/6541d3b448d6e.png",
+        "name": "6541d3b448d6e.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 28
+      }
+    ]
+  },
+  {
     "prefix": "MLADY_COLD",
     "creator": "",
     "twitch": false,
