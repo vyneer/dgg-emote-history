@@ -225,14 +225,14 @@
   },
   {
     "prefix": "BibleThump",
-    "creator": null,
+    "creator": "Igor / cybervegan",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.84.4/emotes/5dbc28c9aaf11.png",
-        "name": "5dbc28c9aaf11.png",
+        "url": "https://cdn.destiny.gg/2.84.4/emotes/653c9a372604d.png",
+        "name": "653c9a372604d.png",
         "mime": "image/png",
         "height": 30,
         "width": 29

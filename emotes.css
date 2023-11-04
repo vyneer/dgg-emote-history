@@ -125,7 +125,7 @@
     top: 7.5px;
 }
 .emote.BibleThump {
-    background-image: url("5dbc28c9aaf11.png");
+    background-image: url("653c9a372604d.png");
     height: 30px;
     width: 29px;
 }
@@ -2297,16 +2297,14 @@
 .emote.BERN:hover {
     animation: BERN-shake-hover infinite 1.55s, BERN-anim-repeat1 1 steps(10) .5s, BERN-anim-repeat2 infinite steps(14) .7s .5s;
 }
-/* made by Igor (v2) */
-
 @keyframes BibleThump-anim {
-  0%, 100% {transform: scale(1) translate(0px, 0px); animation-timing-function: ease;}
-  50% {transform: scale(1) translate(0px, 14px); animation-timing-function: ease-in;}
+  0%, 100% {transform: scale(.9) translate(0px, 0px); animation-timing-function: ease;}
+  50% {transform: scale(.75) translate(0px, 14px); animation-timing-function: ease-in;}
   51% {transform: scale(0) translate(0px, 0px); animation-timing-function: ease-in;}
 }
 @keyframes BibleThump-anim-hover {
-  0%, 100% {transform: scale(1) translate(0px, 0px); animation-timing-function: ease-out;}
-  50% {transform: scale(1) translate(0px, 14px); animation-timing-function: ease-in;}
+  0%, 100% {transform: scale(.9) translate(0px, 0px); animation-timing-function: ease-out;}
+  50% {transform: scale(.75) translate(0px, 14px); animation-timing-function: ease-in;}
   51% {transform: scale(0) translate(0px, 0px); animation-timing-function: ease-in;}
 }
 .emote.BibleThump::before{
@@ -2317,8 +2315,8 @@
 	  line-height: initial;
     position: absolute;
     opacity: 0.6;
-    top: 17px;
-    left: 11px;
+    top: 10px;
+    left: 0px;
     width: 10px;
     height: 10px;
     transform-origin: 50% 0%;
