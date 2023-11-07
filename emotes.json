@@ -3552,22 +3552,6 @@
     ]
   },
   {
-    "prefix": "woman",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.84.4/emotes/65192e3d582a9.gif",
-        "name": "65192e3d582a9.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "WOOF",
     "creator": null,
     "twitch": false,

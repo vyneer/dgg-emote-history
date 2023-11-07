@@ -1996,15 +1996,6 @@
     margin-top: -23px;
     top: 5.75px;
 }
-.emote.woman {
-    background-image: url("65192e3d582a9.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.woman {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.WOOF {
     background-image: url("5f77ea04722e5.png");
     height: 31px;
