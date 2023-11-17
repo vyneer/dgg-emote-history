@@ -3864,12 +3864,12 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 .emote.HUH {
   height: 32px;
   width: 46px;
-  animation: HUH-anim 2.5s steps(36) 1 forwards;
+  animation: HUH-anim 2s steps(36) 1 forwards;
   filter: brightness(1.15);
 }
 
 .emote.HUH:hover {
-  animation: HUH-hover 2.5s steps(36) 1 forwards;
+  animation: HUH-hover 2s steps(36) 1 forwards;
 }
 
 @keyframes HUH-anim {
