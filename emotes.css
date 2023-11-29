@@ -1906,15 +1906,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.TRIAD {
-    background-image: url("5fc0682f0c354.png");
-    height: 35px;
-    width: 4200px;
-}
-.msg-chat .emote.TRIAD {
-    margin-top: -35px;
-    top: 8.75px;
-}
 .emote.triHarder {
     background-image: url("5d261f7e6b602.png");
     height: 30px;
@@ -4894,23 +4885,6 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 }
 .emote.SpookerZ:hover {
     animation: SpookerZ-anim-hover 250ms infinite;
-}
-@keyframes TRIAD-anim {
-  100% { background-position: -4200px; }
-}
-@keyframes TRIAD-hover {
-  100% { background-position: -4200px; }
-}
-.emote.TRIAD {
-  transform: translate(0, 3px);
-  margin-left: -4px; 
-  margin-right: -4px;
-  height: 35px;
-  width: 35px;
-  animation: TRIAD-anim 4s steps(120) 1 -.65s;
-}
-.emote.TRIAD:hover {
-  animation: TRIAD-hover 4s steps(120) infinite;
 }
 @keyframes GIGALUCK-anim {
   0% { transform: translate(-28px, 0); }
