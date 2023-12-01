@@ -2001,17 +2001,17 @@
   },
   {
     "prefix": "nathanFeels",
-    "creator": null,
+    "creator": "FizzyLongstockings ",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.86.1/emotes/5bd45ccae347b.png",
-        "name": "5bd45ccae347b.png",
+        "url": "https://cdn.destiny.gg/2.86.1/emotes/656a5a6771a35.png",
+        "name": "656a5a6771a35.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 28
+        "height": 32,
+        "width": 3360
       }
     ]
   },

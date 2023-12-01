@@ -1124,13 +1124,13 @@
     top: 7px;
 }
 .emote.nathanFeels {
-    background-image: url("5bd45ccae347b.png");
-    height: 28px;
-    width: 28px;
+    background-image: url("656a5a6771a35.png");
+    height: 32px;
+    width: 3360px;
 }
 .msg-chat .emote.nathanFeels {
-    margin-top: -28px;
-    top: 7px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.nathanGG {
     background-image: url("5eb83e6d3f994.png");
@@ -3687,6 +3687,30 @@
 .emote.Nappa:hover {
     animation: Nappa-anim-hover 750ms infinite;
 }
+@keyframes nathanFeels-anim {
+    to {
+        background-position: -3304px;
+    }
+}
+
+@keyframes nathanFeels-hover {
+    to {
+        background-position: -3304px;
+    }
+}
+ 
+.emote.nathanFeels {
+    width: 56px;
+    height: 32px;
+    filter: brightness(1.15);
+    animation: nathanFeels-anim steps(59) 1.5s 1 forwards .25s;
+}
+
+.emote.nathanFeels:hover {
+    animation: nathanFeels-hover steps(59) 1.5s 1 forwards;
+}
+
+
 .emote.NOOOO {
   height: 35px;
   width: 41px;
