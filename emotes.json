@@ -353,17 +353,17 @@
   },
   {
     "prefix": "catJAM",
-    "creator": "",
+    "creator": "Bakanowa (BTTV)",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.86.1/emotes/653c2ce73bbaf.png",
-        "name": "653c2ce73bbaf.png",
+        "url": "https://cdn.destiny.gg/2.86.1/emotes/656a4eed29193.png",
+        "name": "656a4eed29193.png",
         "mime": "image/png",
         "height": 30,
-        "width": 7144
+        "width": 4740
       }
     ]
   },
