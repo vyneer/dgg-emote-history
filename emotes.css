@@ -71,9 +71,9 @@
     top: 7.5px;
 }
 .emote.Aware {
-    background-image: url("643ce0a64d6bc.png");
+    background-image: url("656a493e53c2f.png");
     height: 32px;
-    width: 1152px;
+    width: 2030px;
 }
 .msg-chat .emote.Aware {
     margin-top: -32px;
@@ -242,9 +242,9 @@
     top: 7px;
 }
 .emote.Clueless {
-    background-image: url("643ce2d3843f0.png");
+    background-image: url("656a48f2a0438.png");
     height: 32px;
-    width: 36px;
+    width: 32px;
 }
 .msg-chat .emote.Clueless {
     margin-top: -32px;
@@ -2191,20 +2191,26 @@
 }
 .emote.Aware {
   height: 32px;
-  width: 36px;
-  animation: Aware-anim 1.3s steps(31) forwards;
+  width: 35px;
+  animation: Aware-anim 1.65s steps(57) forwards .35s;
 }
-.emote.Aware:hover {
+ 
+.emote.Aware:hover {  
   height: 32px;
-  width: 36px;
-  animation: Aware-hover 1.3s steps(31) forwards 1;
-}
+  width: 35px; 
+  animation: Aware-hover 1.65s steps(57) infinite;
+} 
 
 @keyframes Aware-anim {
-  to { background-position: -1116px; }
+  to {
+    background-position: -1995px;
+  }
 }
+
 @keyframes Aware-hover {
-  to { background-position: -1116px; }
+  to {
+    background-position: -1995px;
+  }
 }
 @keyframes AYAYA-anim {
     0% { transform: translate(0px, 0px); }

@@ -129,17 +129,17 @@
   },
   {
     "prefix": "Aware",
-    "creator": "",
+    "creator": "EsperDG (7tv)",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.86.1/emotes/643ce0a64d6bc.png",
-        "name": "643ce0a64d6bc.png",
+        "url": "https://cdn.destiny.gg/2.86.1/emotes/656a493e53c2f.png",
+        "name": "656a493e53c2f.png",
         "mime": "image/png",
         "height": 32,
-        "width": 1152
+        "width": 2030
       }
     ]
   },
@@ -433,17 +433,17 @@
   },
   {
     "prefix": "Clueless",
-    "creator": "",
+    "creator": "sunkhaskasis (7tv)",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.86.1/emotes/643ce2d3843f0.png",
-        "name": "643ce2d3843f0.png",
+        "url": "https://cdn.destiny.gg/2.86.1/emotes/656a48f2a0438.png",
+        "name": "656a48f2a0438.png",
         "mime": "image/png",
         "height": 32,
-        "width": 36
+        "width": 32
       }
     ]
   },
