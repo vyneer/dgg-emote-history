@@ -2387,12 +2387,12 @@
     "prefix": "nathanWoah",
     "creator": "cybervegan",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.86.1/emotes/653c31451be2d.png",
-        "name": "653c31451be2d.png",
+        "url": "https://cdn.destiny.gg/2.86.1/emotes/65698ef53f7d2.png",
+        "name": "65698ef53f7d2.png",
         "mime": "image/png",
         "height": 34,
         "width": 31
@@ -2625,17 +2625,17 @@
   },
   {
     "prefix": "OneGuy",
-    "creator": null,
+    "creator": "StrawWaffle",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.86.1/emotes/63bc38043976a.png",
-        "name": "63bc38043976a.png",
+        "url": "https://cdn.destiny.gg/2.86.1/emotes/656994284f98e.png",
+        "name": "656994284f98e.png",
         "mime": "image/png",
         "height": 30,
-        "width": 99
+        "width": 90
       }
     ]
   },
