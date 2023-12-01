@@ -257,14 +257,14 @@
   },
   {
     "prefix": "BLADE",
-    "creator": "",
+    "creator": "Igor ",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.86.1/emotes/644239e9c771c.png",
-        "name": "644239e9c771c.png",
+        "url": "https://cdn.destiny.gg/2.86.1/emotes/5de40b59e20ab.png",
+        "name": "5de40b59e20ab.png",
         "mime": "image/png",
         "height": 30,
         "width": 30
@@ -3705,22 +3705,6 @@
       {
         "url": "https://cdn.destiny.gg/2.86.1/emotes/5de17818daaf1.png",
         "name": "5de17818daaf1.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 30
-      }
-    ]
-  },
-  {
-    "prefix": "Blade",
-    "creator": "Igor ",
-    "twitch": false,
-    "theme": 2,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.86.1/emotes/5de40b59e20ab.png",
-        "name": "5de40b59e20ab.png",
         "mime": "image/png",
         "height": 30,
         "width": 30
