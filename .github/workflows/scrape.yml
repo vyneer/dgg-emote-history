@@ -36,7 +36,7 @@ jobs:
     - name: Fetch latest emote images
       if: steps.change_check.outputs.GIT_STATUS != '0'
       run: |-
-        jq -rj '.[] | .image[].url, " ", "images/theme_" + (.theme | tostring) + "/" + .prefix + "." + (.image[].name | split(".") | .[1]), "\n"' emotes.json | xargs -n2 sh -c 'curl --create-dirs -o $1 $0'
+        jq -rj '.[] | select(.image[].url != null) | .image[].url, " ", "images/theme_" + (.theme | tostring) + "/" + .prefix + "." + (.image[].name | split(".") | .[1]), "\n"' emotes.json | xargs -n2 sh -c 'curl --create-dirs -o $1 $0'
     - name: Commit and push if it changed
       if: steps.change_check.outputs.GIT_STATUS != '0'
       run: |-
