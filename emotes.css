@@ -2033,7 +2033,7 @@
     top: 8px;
 }
 .emote.YAP {
-    background-image: url("656c2b0aa47dc.png");
+    background-image: url("656c35d64cd6a.png");
     height: 32px;
     width: 352px;
 }
@@ -4775,26 +4775,25 @@
 }
 @keyframes YAP-anim {
   100% {
-    background-position: -352px;
+    background-position: -320px;
   }
 }
 
 @keyframes YAP-hover {
   100% {
-    background-position: -352px;
+    background-position: -320px;
   }
 }
 
 .emote.YAP {
   width: 32px;
   height: 32px;
-  animation: YAP-anim 30 steps(11) .55s;
-  filter: brightness(1.05);
-
+  animation: YAP-anim 30 steps(10) forwards .55s;
+  /*filter: brightness(1.05);*/
 }
 
 .emote.YAP:hover {
-  animation: YAP-hover infinite steps(11) .55s;
+  animation: YAP-hover infinite steps(10) forwards  .55s;
 }
 @keyframes YEEHAW-anim {
   0% { width: 100px; z-index: 3; background-position: -500px; margin-left: -50px; }
