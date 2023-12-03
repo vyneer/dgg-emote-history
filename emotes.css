@@ -2032,6 +2032,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.YAP {
+    background-image: url("656c2b0aa47dc.png");
+    height: 32px;
+    width: 352px;
+}
+.msg-chat .emote.YAP {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.YEE {
     background-image: url("5fc6379283054.png");
     height: 32px;
@@ -4763,6 +4772,29 @@
 .emote.YAM:hover {
     animation: YAM-anim-hover 333.3ms linear infinite,
     YAM-wave-hover 999.9ms 100ms linear infinite;
+}
+@keyframes YAP-anim {
+  100% {
+    background-position: -352px;
+  }
+}
+
+@keyframes YAP-hover {
+  100% {
+    background-position: -352px;
+  }
+}
+
+.emote.YAP {
+  width: 32px;
+  height: 32px;
+  animation: YAP-anim 30 steps(11) .55s;
+  filter: brightness(1.05);
+
+}
+
+.emote.YAP:hover {
+  animation: YAP-hover infinite steps(11) .55s;
 }
 @keyframes YEEHAW-anim {
   0% { width: 100px; z-index: 3; background-position: -500px; margin-left: -50px; }
