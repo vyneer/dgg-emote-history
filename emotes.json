@@ -1632,22 +1632,6 @@
     ]
   },
   {
-    "prefix": "melW",
-    "creator": "Fritz ",
-    "twitch": false,
-    "theme": 2,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.87.1/emotes/656987d2db7d6.png",
-        "name": "656987d2db7d6.png",
-        "mime": "image/png",
-        "height": 28,
-        "width": 28
-      }
-    ]
-  },
-  {
     "prefix": "Memegasm",
     "creator": null,
     "twitch": false,
