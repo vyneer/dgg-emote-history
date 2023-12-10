@@ -2945,17 +2945,17 @@
   },
   {
     "prefix": "POOTUBE",
-    "creator": "",
+    "creator": "cybervegan",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.87.1/emotes/653c2e3e247af.png",
-        "name": "653c2e3e247af.png",
+        "url": "https://cdn.destiny.gg/2.87.1/emotes/6576418ec8bf6.png",
+        "name": "6576418ec8bf6.png",
         "mime": "image/png",
-        "height": 24,
-        "width": 24
+        "height": 32,
+        "width": 60
       }
     ]
   },
@@ -3697,17 +3697,17 @@
   },
   {
     "prefix": "STATUSQUO",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.87.1/emotes/5de1780083db6.png",
-        "name": "5de1780083db6.png",
+        "url": "https://cdn.destiny.gg/2.87.1/emotes/657644d50b87c.png",
+        "name": "657644d50b87c.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 52
+        "height": 32,
+        "width": 46
       }
     ]
   },

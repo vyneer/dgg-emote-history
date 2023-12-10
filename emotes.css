@@ -1655,13 +1655,13 @@
     top: 7.5px;
 }
 .emote.POOTUBE {
-    background-image: url("653c2e3e247af.png");
-    height: 24px;
-    width: 24px;
+    background-image: url("6576418ec8bf6.png");
+    height: 32px;
+    width: 60px;
 }
 .msg-chat .emote.POOTUBE {
-    margin-top: -24px;
-    top: 6px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.POTATO {
     background-image: url("5de1839c8d2a8.png");
@@ -2078,13 +2078,13 @@
     top: 7.5px;
 }
 .emote.STATUSQUO {
-    background-image: url("5de1780083db6.png");
-    height: 28px;
-    width: 52px;
+    background-image: url("657644d50b87c.png");
+    height: 32px;
+    width: 46px;
 }
 .msg-chat .emote.STATUSQUO {
-    margin-top: -28px;
-    top: 7px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.TRIAD {
     background-image: url("61a9317791bec.png");
