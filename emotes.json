@@ -3219,12 +3219,12 @@
     "prefix": "SoyPoint",
     "creator": "cybervegan",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.87.1/emotes/6519241ea3d77.png",
-        "name": "6519241ea3d77.png",
+        "url": "https://cdn.destiny.gg/2.87.1/emotes/65763b66b31fc.png",
+        "name": "65763b66b31fc.png",
         "mime": "image/png",
         "height": 32,
         "width": 43
