@@ -3473,17 +3473,17 @@
   },
   {
     "prefix": "WICKED",
-    "creator": "MrGemzar / cybervegan",
+    "creator": "cybervegan",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.87.1/emotes/653c2e2999beb.png",
-        "name": "653c2e2999beb.png",
+        "url": "https://cdn.destiny.gg/2.87.1/emotes/6575ab5deed5a.png",
+        "name": "6575ab5deed5a.png",
         "mime": "image/png",
         "height": 32,
-        "width": 912
+        "width": 1152
       }
     ]
   },
