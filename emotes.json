@@ -1408,6 +1408,22 @@
     ]
   },
   {
+    "prefix": "INREALLIFE",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.87.1/emotes/6519110cb048e.png",
+        "name": "6519110cb048e.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 58
+      }
+    ]
+  },
+  {
     "prefix": "ITSRAWWW",
     "creator": "",
     "twitch": false,
