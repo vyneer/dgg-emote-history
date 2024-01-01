@@ -1888,6 +1888,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.TRIAD {
+    background-image: url("61a9317791bec.png");
+    height: 35px;
+    width: 4200px;
+}
+.msg-chat .emote.TRIAD {
+    margin-top: -35px;
+    top: 8.75px;
+}
 .emote.triHarder {
     background-image: url("5de411ea52bfd.png");
     height: 30px;
@@ -2085,15 +2094,6 @@
 .msg-chat .emote.STATUSQUO {
     margin-top: -28px;
     top: 7px;
-}
-.emote.TRIAD {
-    background-image: url("61a9317791bec.png");
-    height: 35px;
-    width: 4200px;
-}
-.msg-chat .emote.TRIAD {
-    margin-top: -35px;
-    top: 8.75px;
 }
 .emote.AMAZIN {
     transform: translate(0px, 4px);
@@ -4456,6 +4456,23 @@
 .emote.SpookerZ:hover {
     animation: SpookerZ-anim-hover 250ms infinite;
 }
+@keyframes TRIAD-anim {
+  100% { background-position: -4200px; }
+}
+@keyframes TRIAD-hover {
+  100% { background-position: -4200px; }
+}
+.emote.TRIAD {
+  transform: translate(0, 3px);
+  margin-left: -4px; 
+  margin-right: -4px;
+  height: 35px;
+  width: 35px;
+  animation: TRIAD-anim 4s steps(120) 1 -.65s;
+}
+.emote.TRIAD:hover {
+  animation: TRIAD-hover 4s steps(120) infinite;
+}
 @keyframes GIGALUCK-anim {
   0% { transform: translate(-28px, 0); }
   100% { transform: translate(0, 0); }
@@ -4821,21 +4838,4 @@
 }
 .emote.YeeLaugh:hover {
     animation: YeeLaugh-anim-hover 200ms infinite;
-}
-@keyframes TRIAD-anim {
-  100% { background-position: -4200px; }
-}
-@keyframes TRIAD-hover {
-  100% { background-position: -4200px; }
-}
-.emote.TRIAD {
-  transform: translate(0, 3px);
-  margin-left: -4px; 
-  margin-right: -4px;
-  height: 35px;
-  width: 35px;
-  animation: TRIAD-anim 4s steps(120) 1 -.65s;
-}
-.emote.TRIAD:hover {
-  animation: TRIAD-hover 4s steps(120) infinite;
 }

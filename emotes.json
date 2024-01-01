@@ -3360,6 +3360,22 @@
     ]
   },
   {
+    "prefix": "TRIAD",
+    "creator": "",
+    "twitch": false,
+    "theme": 2,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.88.0/emotes/61a9317791bec.png",
+        "name": "61a9317791bec.png",
+        "mime": "image/png",
+        "height": 35,
+        "width": 4200
+      }
+    ]
+  },
+  {
     "prefix": "triHarder",
     "creator": null,
     "twitch": false,
@@ -3708,22 +3724,6 @@
         "mime": "image/png",
         "height": 28,
         "width": 52
-      }
-    ]
-  },
-  {
-    "prefix": "TRIAD",
-    "creator": "",
-    "twitch": false,
-    "theme": 2,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.88.0/emotes/61a9317791bec.png",
-        "name": "61a9317791bec.png",
-        "mime": "image/png",
-        "height": 35,
-        "width": 4200
       }
     ]
   }
