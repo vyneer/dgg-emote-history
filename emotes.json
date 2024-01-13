@@ -1089,7 +1089,7 @@
   },
   {
     "prefix": "FeelsStrongMan",
-    "creator": "",
+    "creator": "Vindelici",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
@@ -1361,17 +1361,17 @@
   },
   {
     "prefix": "HmmStiny",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.89.1/emotes/5c2bbcc8ec75b.png",
-        "name": "5c2bbcc8ec75b.png",
+        "url": "https://cdn.destiny.gg/2.89.1/emotes/65a26733a11cb.png",
+        "name": "65a26733a11cb.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 33
+        "height": 40,
+        "width": 39
       }
     ]
   },

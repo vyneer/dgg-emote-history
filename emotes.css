@@ -764,13 +764,13 @@
     top: 6.25px;
 }
 .emote.HmmStiny {
-    background-image: url("5c2bbcc8ec75b.png");
-    height: 30px;
-    width: 33px;
+    background-image: url("65a26733a11cb.png");
+    height: 40px;
+    width: 39px;
 }
 .msg-chat .emote.HmmStiny {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -40px;
+    top: 10px;
 }
 .emote.HUH {
     background-image: url("651912afec4b0.png");
