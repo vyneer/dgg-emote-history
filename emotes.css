@@ -431,9 +431,9 @@
     top: 7.5px;
 }
 .emote.DCOLON {
-    background-image: url("65a263ac6b063.png");
+    background-image: url("6002196ce1fcd.png");
     height: 32px;
-    width: 34px;
+    width: 32px;
 }
 .msg-chat .emote.DCOLON {
     margin-top: -32px;
@@ -611,13 +611,13 @@
     top: 8px;
 }
 .emote.FeelsStrongMan {
-    background-image: url("615dfcec4e701.png");
-    height: 32px;
-    width: 49px;
+    background-image: url("6042d7a113ac4.png");
+    height: 28px;
+    width: 28px;
 }
 .msg-chat .emote.FeelsStrongMan {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.FeelsWeirdMan {
     background-image: url("5c64580edcbfc.png");
@@ -764,13 +764,13 @@
     top: 6.25px;
 }
 .emote.HmmStiny {
-    background-image: url("65a26733a11cb.png");
-    height: 40px;
-    width: 39px;
+    background-image: url("5c2bbcc8ec75b.png");
+    height: 30px;
+    width: 33px;
 }
 .msg-chat .emote.HmmStiny {
-    margin-top: -40px;
-    top: 10px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.HUH {
     background-image: url("651912afec4b0.png");
@@ -1466,9 +1466,9 @@
     top: 7.5px;
 }
 .emote.OOOO {
-    background-image: url("65a09e9ed57c4.gif");
+    background-image: url("5e75f1c3a21a1.png");
     height: 28px;
-    width: 28px;
+    width: 588px;
 }
 .msg-chat .emote.OOOO {
     margin-top: -28px;
@@ -1574,13 +1574,13 @@
     top: 7.5px;
 }
 .emote.PepoComfy {
-    background-image: url("65a2644db4ead.png");
-    height: 39px;
-    width: 39px;
+    background-image: url("5fad9970a3544.png");
+    height: 30px;
+    width: 32px;
 }
 .msg-chat .emote.PepoComfy {
-    margin-top: -39px;
-    top: 9.75px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.PepoG {
     background-image: url("5e371219bb105.png");
@@ -1826,9 +1826,9 @@
     top: 7.5px;
 }
 .emote.Stare {
-    background-image: url("65a263c86ec71.png");
+    background-image: url("65423c2ae0e84.png");
     height: 32px;
-    width: 32px;
+    width: 41px;
 }
 .msg-chat .emote.Stare {
     margin-top: -32px;
@@ -1988,9 +1988,9 @@
     top: 7.75px;
 }
 .emote.WooYeah {
-    background-image: url("65a2647180fdb.gif");
+    background-image: url("603cdf2fc0c2f.png");
     height: 32px;
-    width: 32px;
+    width: 704px;
 }
 .msg-chat .emote.WooYeah {
     margin-top: -32px;
@@ -4214,6 +4214,20 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 .msg-chat.msg-emote .emote.OBJECTION {
   animation: OBJECTION-combo ease-out .3s 1 -.125s;
 }
+.emote.OOOO{
+    width: 28px;
+    height: 28px;
+    animation: OOOO-anim 6 steps(21) 1.05s;
+}
+.emote.OOOO:hover {
+    animation: OOOO-anim-hover infinite steps(21) 1.05s;
+}
+@keyframes OOOO-anim {
+  100% { background-position: -588px; }
+}
+@keyframes OOOO-anim-hover {
+  100% { background-position: -588px; }
+}
 @keyframes OverRustle-anim {
     from { left: 0; }
     to { left: 3px; }
@@ -5097,6 +5111,24 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 }
 @keyframes WOOF-anim-hover {
   100% { background-position: 1020px; }
+}
+@keyframes WooYeah-anim {
+  100% { background-position: -704px; }
+}
+
+@keyframes WooYeah-hover {
+  100% { background-position: -704px; }
+}
+
+.emote.WooYeah {
+  width: 32px;
+  margin-left: -4px;
+  background-position: 0px;
+  animation: WooYeah-anim 1.76s steps(22) 6 -.27s;
+}
+
+.emote.WooYeah:hover {
+  animation: WooYeah-hover 1.76s steps(22) infinite;
 }
 .emote.YAM {
     margin-left: 4px;
