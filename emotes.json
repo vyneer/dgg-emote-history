@@ -32,6 +32,22 @@
     ]
   },
   {
+    "prefix": "ACKSHUALLY",
+    "creator": "Kiibo",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.89.1/emotes/65a4c5af3e8cb.png",
+        "name": "65a4c5af3e8cb.png",
+        "mime": "image/png",
+        "height": 33,
+        "width": 94
+      }
+    ]
+  },
+  {
     "prefix": "AMAZIN",
     "creator": null,
     "twitch": false,

@@ -16,6 +16,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.ACKSHUALLY {
+    background-image: url("65a4c5af3e8cb.png");
+    height: 33px;
+    width: 94px;
+}
+.msg-chat .emote.ACKSHUALLY {
+    margin-top: -33px;
+    top: 8.25px;
+}
 .emote.AMAZIN {
     background-image: url("5d2de6f9879d5.png");
     height: 26px;
@@ -2085,6 +2094,16 @@
 .msg-chat .emote.ZOOMER {
     margin-top: -32px;
     top: 8px;
+}
+.emote.ACKSHUALLY {
+    width: 47px;
+    height: 33px;
+    background-position: left center;
+}
+
+.msg-chat.msg-emote .emote.ACKSHUALLY {
+    background-position: right center;
+    transform: scale(1.1);
 }
 .emote.AMAZIN {
     transform: translate(0px, 4px);
