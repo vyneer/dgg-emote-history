@@ -2960,6 +2960,22 @@
     ]
   },
   {
+    "prefix": "pokiKick",
+    "creator": "SNIFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.90.3/emotes/65192d7e2f987.gif",
+        "name": "65192d7e2f987.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 61
+      }
+    ]
+  },
+  {
     "prefix": "POOTUBE",
     "creator": "",
     "twitch": false,
@@ -3532,6 +3548,22 @@
         "mime": "image/png",
         "height": 23,
         "width": 80
+      }
+    ]
+  },
+  {
+    "prefix": "woman",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.90.3/emotes/65d5bd8963fc9.gif",
+        "name": "65d5bd8963fc9.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
       }
     ]
   },
