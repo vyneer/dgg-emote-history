@@ -1663,15 +1663,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.pokiKick {
-    background-image: url("65192d7e2f987.gif");
-    height: 32px;
-    width: 61px;
-}
-.msg-chat .emote.pokiKick {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.POOTUBE {
     background-image: url("653c2e3e247af.png");
     height: 24px;
@@ -1995,15 +1986,6 @@
 .msg-chat .emote.widepeepoHappy {
     margin-top: -23px;
     top: 5.75px;
-}
-.emote.woman {
-    background-image: url("65d5bd8963fc9.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.woman {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.WOOF {
     background-image: url("5f77ea04722e5.png");
