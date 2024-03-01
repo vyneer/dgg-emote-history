@@ -3488,22 +3488,6 @@
     ]
   },
   {
-    "prefix": "WHALES",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.90.3/emotes/64e0275a0d295.png",
-        "name": "64e0275a0d295.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 59
-      }
-    ]
-  },
-  {
     "prefix": "WhoahDude",
     "creator": null,
     "twitch": false,
