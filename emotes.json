@@ -2960,22 +2960,6 @@
     ]
   },
   {
-    "prefix": "pokiKick",
-    "creator": "SNIFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.91.0/emotes/65192d7e2f987.gif",
-        "name": "65192d7e2f987.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 61
-      }
-    ]
-  },
-  {
     "prefix": "POOTUBE",
     "creator": "",
     "twitch": false,
