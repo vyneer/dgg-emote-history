@@ -1978,6 +1978,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.WideAmongUsGaySex {
+    background-image: url("65e9a5db6cb65.gif");
+    height: 32px;
+    width: 66px;
+}
+.msg-chat .emote.WideAmongUsGaySex {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.widepeepoHappy {
     background-image: url("65403119bb8fd.png");
     height: 23px;
