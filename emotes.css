@@ -2908,23 +2908,23 @@
 /*
 ### OTHERS - ONE HAND ###
 */
-.emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm) + .emote.Chatting,
-.emote.Chatting + .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm) + .emote.Chatting{
+.emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting,
+.emote.Chatting + .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting{
    animation: Chatting-anim-1hand .30s steps(4) 60 forwards;
 }
-.emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm)):nth-last-of-type(n+2):nth-last-of-type(-n+2),
-.emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm) + .emote.Chatting){
+.emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm)):nth-last-of-type(n+2):nth-last-of-type(-n+2),
+.emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting){
   animation: Chatting-anim-1hand .30s steps(4) 60 forwards;
 }
 /*
 ## HOVER ##
 */
-.emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm) + .emote.Chatting:hover,
-.emote.Chatting + .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm) + .emote.Chatting:hover{
+.emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting:hover,
+.emote.Chatting + .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting:hover{
    animation: Chatting-hover-1hand .30s steps(4) 60 forwards;
 }
-.emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm)):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
-.emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm) + .emote.Chatting):hover{
+.emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm)):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
+.emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting):hover{
   animation: Chatting-hover-1hand .30s steps(4) 60 forwards;
 }
 /*
@@ -2942,25 +2942,25 @@
 /*
 ### OTHERS - SLOWED DOWN ###
 */
-.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan) + .emote.Chatting,
-.emote.Chatting + .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan) + .emote.Chatting{
+.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting,
+.emote.Chatting + .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting{
   animation-duration: .8s;
   animation-iteration-count: 22.5;
 }
-.emote.Chatting:first-of-type:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan)):nth-last-of-type(n+2):nth-last-of-type(-n+2),
-.emote.Chatting:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan) + .emote.Chatting){
+.emote.Chatting:first-of-type:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm)):nth-last-of-type(n+2):nth-last-of-type(-n+2),
+.emote.Chatting:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting){
   animation-duration: .8s;
   animation-iteration-count: 22.5;
 }
 /*
 ## HOVER ##
 */
-.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan) + .emote.Chatting:hover,
-.emote.Chatting + .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan) + .emote.Chatting:hover{
+.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting:hover,
+.emote.Chatting + .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting:hover{
   animation-iteration-count: infinite;
 }
-.emote.Chatting:first-of-type:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan)):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
-.emote.Chatting:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan) + .emote.Chatting):hover{
+.emote.Chatting:first-of-type:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm)):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
+.emote.Chatting:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting):hover{
   animation-iteration-count: infinite;
 }
 /*
@@ -3224,6 +3224,56 @@
 .emote.CuckCrab:hover {
   animation: CuckCrab-hover 3.68s steps(92) infinite;
 }
+.emote.Cutestiny {
+  height: 32px;
+  width: 42px;
+  filter: brightness(1.15);
+}
+
+.emote.Cutestiny+.emote.Cutestiny,
+.emote.Cutestiny:nth-child(1),
+.emote.Clap+.emote.Cutestiny,
+.emote.BLADE+.emote.Cutestiny{
+  margin-right: -2px;
+  margin-left: 0;
+  transform: scaleX(-1);
+}
+
+.emote.Cutestiny:only-child,
+.emote+.emote.Cutestiny:last-of-type,
+.emote.Cutestiny:last-of-type {
+  margin-right: 0;
+  transform: scaleX(1);
+}
+
+.emote.Cutestiny:only-child {
+  transform: scaleX(1);
+}
+
+@keyframes GIGAHANDS-anim {
+  0% {
+    transform: translate(-28px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.emote.GIGACHAD+.emote.Cutestiny {
+  animation: GIGAHANDS-anim 1.5s ease-out 1;
+}
+
+.chat-user+.emote.Cutestiny,
+.emote.Cutestiny:has(+.externallink),
+.emote.Cutestiny:has(+.chat-user) {
+  transform: scaleX(-1);
+}
+
+.chat-user+.emote.Cutestiny:last-child {
+  transform: scaleX(1);
+}
+
 @keyframes DANKMEMES-anim {
     0%, 100% {
         -webkit-filter: hue-rotate(0deg);
