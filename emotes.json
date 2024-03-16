@@ -2519,11 +2519,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.0/emotes/65f515205d2c6.png",
-        "name": "65f515205d2c6.png",
+        "url": "https://cdn.destiny.gg/2.91.0/emotes/65f57bb5f161f.png",
+        "name": "65f57bb5f161f.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 32,
+        "width": 29
       }
     ]
   },
