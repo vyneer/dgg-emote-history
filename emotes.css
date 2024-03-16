@@ -377,13 +377,13 @@
     top: 7.5px;
 }
 .emote.Cutestiny {
-    background-image: url("649f7adb5746a.png");
-    height: 28px;
-    width: 28px;
+    background-image: url("65f580ba6b95c.png");
+    height: 32px;
+    width: 42px;
 }
 .msg-chat .emote.Cutestiny {
-    margin-top: -28px;
-    top: 7px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.CUX {
     background-image: url("5fad984e24378.png");

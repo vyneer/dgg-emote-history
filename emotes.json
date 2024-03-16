@@ -673,17 +673,17 @@
   },
   {
     "prefix": "Cutestiny",
-    "creator": "",
+    "creator": "StrawWaffle",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.0/emotes/649f7adb5746a.png",
-        "name": "649f7adb5746a.png",
+        "url": "https://cdn.destiny.gg/2.91.0/emotes/65f580ba6b95c.png",
+        "name": "65f580ba6b95c.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 28
+        "height": 32,
+        "width": 42
       }
     ]
   },
@@ -2513,7 +2513,7 @@
   },
   {
     "prefix": "Normgasm",
-    "creator": "",
+    "creator": "cybervegan",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
