@@ -1411,6 +1411,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.Normgasm {
+    background-image: url("65f515205d2c6.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.Normgasm {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.NoTears {
     background-image: url("5c2bbd3411c78.png");
     height: 30px;

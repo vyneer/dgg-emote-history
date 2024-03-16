@@ -2512,6 +2512,22 @@
     ]
   },
   {
+    "prefix": "Normgasm",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.0/emotes/65f515205d2c6.png",
+        "name": "65f515205d2c6.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 30
+      }
+    ]
+  },
+  {
     "prefix": "NoTears",
     "creator": null,
     "twitch": false,
