@@ -260,7 +260,7 @@
     top: 8px;
 }
 .emote.COGGERS {
-    background-image: url("5e739f2779b87.png");
+    background-image: url("65f6c4a6484eb.png");
     height: 32px;
     width: 32px;
 }
@@ -1583,7 +1583,7 @@
     top: 7.5px;
 }
 .emote.pepeW {
-    background-image: url("653c2e8eb9122.gif");
+    background-image: url("65f6c4ef883d2.gif");
     height: 30px;
     width: 30px;
 }
@@ -3036,55 +3036,19 @@
 }
 /* Animation made by Igor */
 @keyframes COGGERS-anim {
-    0% { transform-origin: 25% 50%; transform: translate(0, 0) rotate(0) scale(1); }
-    50% { transform-origin: 50% 50%; transform: translate(-16px, 0) rotate(540deg) scale(.66); }
-    100% { transform-origin: 25% 50%;transform: translate(0, 0) rotate(1080deg) scale(1); }
-}
-@keyframes COGGERS-anim-hover-start {
-    0% { transform-origin: 25% 50%; transform: translate(0, 0) rotate(0) scale(1); }
-    100% { transform-origin: 50% 50%; transform: translate(-16px, 0) rotate(360deg) scale(.66); }
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(1080deg); }
 }
 @keyframes COGGERS-anim-hover {
-    0% { transform-origin: 50% 50%; transform: translate(-16px, 0) rotate(0) scale(.66); }
-    100% { transform-origin: 50% 50%; transform: translate(-16px, 0) rotate(360deg) scale(.66); }
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 .emote.COGGERS {
-    transform-origin: 25% 50%;
-    background-repeat: no-repeat;
-    background-position: left center;
-    width: 64px;
-    margin-right: -32px;
-    animation: COGGERS-anim 2.4s 1 linear;
+    animation: COGGERS-anim 2.4s 1 cubic-bezier(0.15, 0, 0.85, 1);
 }
 .emote.COGGERS:hover {
-    animation: COGGERS-anim-hover-start 0.8s 1 linear, COGGERS-anim-hover 0.8s infinite linear 0.8s;
+    animation: COGGERS-anim-hover 0.8s infinite linear;
 }
-@keyframes COGGERS-anim-b {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 1; transform: translate(32px); }
-}
-@keyframes COGGERS-anim-b-hover {
-    0% { transform: translate(32px); }
-    100% { transform: translate(32px); }
-}
-@keyframes COGGERS-anim-b-hover-start {
-    0% { transform: translate(0); }
-    100% { transform: translate(32px); }
-}
-.emote.COGGERS::before {
-    opacity: 0;
-    width: 64px;
-    height: 32px;
-    display: block;
-    content: "";
-    background: inherit;
-    animation: COGGERS-anim-b 2.4s 1 linear;
-}
-.emote.COGGERS:hover::before {
-    opacity: 1;
-    animation: COGGERS-anim-b-hover-start 0.8s 1 linear, COGGERS-anim-b-hover 0.8s infinite linear 0.8s;
-}
-
 .emote.COOMER {
   animation: COOMER-anim 0.1s 20, COOMER-color 2s 1;
   transition: filter 0.2s;

@@ -465,14 +465,14 @@
   },
   {
     "prefix": "COGGERS",
-    "creator": null,
+    "creator": "Igor",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.0/emotes/5e739f2779b87.png",
-        "name": "5e739f2779b87.png",
+        "url": "https://cdn.destiny.gg/2.91.0/emotes/65f6c4a6484eb.png",
+        "name": "65f6c4a6484eb.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
@@ -2823,8 +2823,8 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.0/emotes/653c2e8eb9122.gif",
-        "name": "653c2e8eb9122.gif",
+        "url": "https://cdn.destiny.gg/2.91.0/emotes/65f6c4ef883d2.gif",
+        "name": "65f6c4ef883d2.gif",
         "mime": "image/gif",
         "height": 30,
         "width": 30
