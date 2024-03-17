@@ -673,17 +673,17 @@
   },
   {
     "prefix": "Cutestiny",
-    "creator": "StrawWaffle",
+    "creator": "LilyPichu",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.0/emotes/65f580ba6b95c.png",
-        "name": "65f580ba6b95c.png",
+        "url": "https://cdn.destiny.gg/2.91.0/emotes/649f7adb5746a.png",
+        "name": "649f7adb5746a.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 42
+        "height": 28,
+        "width": 28
       }
     ]
   },

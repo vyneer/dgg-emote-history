@@ -377,13 +377,13 @@
     top: 7.5px;
 }
 .emote.Cutestiny {
-    background-image: url("65f580ba6b95c.png");
-    height: 32px;
-    width: 42px;
+    background-image: url("649f7adb5746a.png");
+    height: 28px;
+    width: 28px;
 }
 .msg-chat .emote.Cutestiny {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.CUX {
     background-image: url("5fad984e24378.png");
@@ -3224,56 +3224,6 @@
 .emote.CuckCrab:hover {
   animation: CuckCrab-hover 3.68s steps(92) infinite;
 }
-.emote.Cutestiny {
-  height: 32px;
-  width: 42px;
-  filter: brightness(1.15);
-}
-
-.emote.Cutestiny+.emote.Cutestiny,
-.emote.Cutestiny:nth-child(1),
-.emote.Clap+.emote.Cutestiny,
-.emote.BLADE+.emote.Cutestiny{
-  margin-right: -2px;
-  margin-left: 0;
-  transform: scaleX(-1);
-}
-
-.emote.Cutestiny:only-child,
-.emote+.emote.Cutestiny:last-of-type,
-.emote.Cutestiny:last-of-type {
-  margin-right: 0;
-  transform: scaleX(1);
-}
-
-.emote.Cutestiny:only-child {
-  transform: scaleX(1);
-}
-
-@keyframes GIGAHANDS-anim {
-  0% {
-    transform: translate(-28px, 0);
-  }
-
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
-.emote.GIGACHAD+.emote.Cutestiny {
-  animation: GIGAHANDS-anim 1.5s ease-out 1;
-}
-
-.chat-user+.emote.Cutestiny,
-.emote.Cutestiny:has(+.externallink),
-.emote.Cutestiny:has(+.chat-user) {
-  transform: scaleX(-1);
-}
-
-.chat-user+.emote.Cutestiny:last-child {
-  transform: scaleX(1);
-}
-
 @keyframes DANKMEMES-anim {
     0%, 100% {
         -webkit-filter: hue-rotate(0deg);
