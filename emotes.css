@@ -3049,6 +3049,10 @@
 .emote.COGGERS:hover {
     animation: COGGERS-anim-hover 0.8s infinite linear;
 }
+
+.emote.COGGERS:nth-child(even) {
+    animation-direction: reverse;
+}
 .emote.COOMER {
   animation: COOMER-anim 0.1s 20, COOMER-color 2s 1;
   transition: filter 0.2s;
