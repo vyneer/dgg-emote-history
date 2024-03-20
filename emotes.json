@@ -544,22 +544,6 @@
     ]
   },
   {
-    "prefix": "comfYEE",
-    "creator": null,
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.91.0/emotes/62efb1648f625.png",
-        "name": "62efb1648f625.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "ComfyFerret",
     "creator": null,
     "twitch": false,
@@ -3328,22 +3312,6 @@
     ]
   },
   {
-    "prefix": "TeddYEE",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.91.0/emotes/645f2563c83e3.png",
-        "name": "645f2563c83e3.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 30
-      }
-    ]
-  },
-  {
     "prefix": "TeddyPepe",
     "creator": "",
     "twitch": false,
@@ -3689,22 +3657,6 @@
       {
         "url": "https://cdn.destiny.gg/2.91.0/emotes/5f80473a678f3.png",
         "name": "5f80473a678f3.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
-    "prefix": "YeeMods",
-    "creator": null,
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.91.0/emotes/5f80481978dc9.png",
-        "name": "5f80481978dc9.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
