@@ -304,6 +304,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.comfYEE {
+    background-image: url("62efb1648f625.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.comfYEE {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ComfyFerret {
     background-image: url("5fad983ac8f92.png");
     height: 32px;
@@ -1861,6 +1870,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.TeddYEE {
+    background-image: url("645f2563c83e3.png");
+    height: 32px;
+    width: 30px;
+}
+.msg-chat .emote.TeddYEE {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.TeddyPepe {
     background-image: url("645f254284dda.png");
     height: 32px;
@@ -2056,6 +2074,15 @@
     width: 32px;
 }
 .msg-chat .emote.YeeLaugh {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.YeeMods {
+    background-image: url("5f80481978dc9.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.YeeMods {
     margin-top: -32px;
     top: 8px;
 }
