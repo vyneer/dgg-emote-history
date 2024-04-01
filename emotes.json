@@ -1553,17 +1553,17 @@
   },
   {
     "prefix": "LOVE",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/5cc0cc2a87ca8.png",
-        "name": "5cc0cc2a87ca8.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/653c8e146b5ba.png",
+        "name": "653c8e146b5ba.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 51
+        "height": 32,
+        "width": 54
       }
     ]
   },

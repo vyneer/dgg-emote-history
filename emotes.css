@@ -872,13 +872,13 @@
     top: 7.5px;
 }
 .emote.LOVE {
-    background-image: url("5cc0cc2a87ca8.png");
-    height: 30px;
-    width: 51px;
+    background-image: url("653c8e146b5ba.png");
+    height: 32px;
+    width: 54px;
 }
 .msg-chat .emote.LOVE {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.LUL {
     background-image: url("660a62eedf9a2.png");
@@ -3908,11 +3908,8 @@ height: 32px;
 }
 @keyframes LOVE-anim {
     0% { top: -25px; }
-    100% { top: 30px; }
-}
-@keyframes LOVE-hover {
-    0% { top: -25px; }
-    100% { top: 30px; }
+    99% { top: 30px; }
+    100%{ top: -25px; }
 }
 .emote.LOVE:before{
     content: "💗";
@@ -3934,10 +3931,10 @@ height: 32px;
     animation-delay: 0.25s;
 }
 .emote.LOVE:hover::before {
-    animation: LOVE-hover 0.5s infinite;
+    animation: LOVE-anim 0.5s infinite;
 }
 .emote.LOVE:hover::after {
-    animation: LOVE-hover 0.5s infinite;
+    animation: LOVE-anim 0.5s infinite;
     animation-delay: 0.25s;
 }
 @keyframes MALARKEY-anim {
