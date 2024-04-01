@@ -3617,17 +3617,17 @@
   },
   {
     "prefix": "YAP",
-    "creator": "Wolfgand_Shuric",
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/656c35d64cd6a.png",
-        "name": "656c35d64cd6a.png",
-        "mime": "image/png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a7a04b0125.gif",
+        "name": "660a7a04b0125.gif",
+        "mime": "image/gif",
         "height": 32,
-        "width": 352
+        "width": 32
       }
     ]
   },
