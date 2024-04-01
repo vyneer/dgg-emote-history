@@ -2113,6 +2113,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.AWOOGA {
+    background-image: url("660aae6563e4c.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.AWOOGA {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Bannedstiny {
     background-image: url("660a5b862713d.png");
     height: 32px;
@@ -2149,12 +2158,30 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.BONK {
+    background-image: url("660aaee3d9b96.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.BONK {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Cheerstiny {
     background-image: url("660aa12bdf25a.png");
     height: 32px;
     width: 32px;
 }
 .msg-chat .emote.Cheerstiny {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.CHIPPA {
+    background-image: url("660ab09f19be7.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.CHIPPA {
     margin-top: -32px;
     top: 8px;
 }
@@ -2203,6 +2230,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.ferretPOG {
+    background-image: url("660ab06b7f47c.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.ferretPOG {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.FISHIES {
     background-image: url("660a76abae9df.gif");
     height: 32px;
@@ -2221,12 +2257,30 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.gavSmash {
+    background-image: url("6541d474a2a5f.gif");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.gavSmash {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.gemzarL {
     background-image: url("660a8819c122c.png");
     height: 32px;
     width: 45px;
 }
 .msg-chat .emote.gemzarL {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.guh {
+    background-image: url("660ab1a309753.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.guh {
     margin-top: -32px;
     top: 8px;
 }
@@ -2254,6 +2308,15 @@
     width: 58px;
 }
 .msg-chat .emote.INREALLIFE {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.JAMMIES {
+    background-image: url("660ab3e56e58c.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.JAMMIES {
     margin-top: -32px;
     top: 8px;
 }
@@ -2344,6 +2407,15 @@
     width: 32px;
 }
 .msg-chat .emote.NOTED {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.NOW {
+    background-image: url("660aaefe799c8.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.NOW {
     margin-top: -32px;
     top: 8px;
 }
@@ -2455,6 +2527,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.SHHHH {
+    background-image: url("660aae38013b3.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.SHHHH {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.smolstiny {
     background-image: url("660a908c8d9c9.png");
     height: 32px;
@@ -2473,6 +2554,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.STATUSQUO {
+    background-image: url("660ab31150b2a.png");
+    height: 32px;
+    width: 46px;
+}
+.msg-chat .emote.STATUSQUO {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.STILLDRUNK {
     background-image: url("660aab35bd13e.png");
     height: 32px;
@@ -2490,6 +2580,15 @@
 .msg-chat .emote.THERIFT {
     margin-top: -32px;
     top: 8px;
+}
+.emote.TIPTIP {
+    background-image: url("660ab259e94bd.gif");
+    height: 36px;
+    width: 27px;
+}
+.msg-chat .emote.TIPTIP {
+    margin-top: -36px;
+    top: 9px;
 }
 .emote.Tripstiny {
     background-image: url("660a8ef220b4d.png");
@@ -2517,6 +2616,15 @@
 .msg-chat .emote.Valentiny {
     margin-top: -32px;
     top: 8px;
+}
+.emote.WHAAAAT {
+    background-image: url("660ab164140fa.png");
+    height: 35px;
+    width: 35px;
+}
+.msg-chat .emote.WHAAAAT {
+    margin-top: -35px;
+    top: 8.75px;
 }
 .emote.whitePeopleHappy {
     background-image: url("660a739abba39.png");
@@ -5829,6 +5937,26 @@ filter: saturate(100%) brightness(115%) contrast(100%) sepia(5%) drop-shadow(0px
 .emote.STILLDRUNK:hover {
     animation: STILLDRUNK-anim-hover 0.69s infinite ease-out;
 }
+.emote.TIPTIP {
+  margin-left: -2px;
+}
+.emote.TIPTIP + .emote.TIPTIP, .emote.TIPTIP:nth-child(1), .emote.Clap + .emote.TIPTIP, .emote.BLADE + .emote.TIPTIP {
+  margin-right: -2px;
+  margin-left: 0;
+  transform: scaleX(-1);
+}
+.emote.TIPTIP:only-child, .emote + .emote.TIPTIP:last-of-type, .emote.TIPTIP:last-of-type {
+  margin-right: 0;
+  transform: scaleX(1);
+}
+@keyframes GIGAHANDS-anim {
+  0% { transform: translate(-28px, 0); }
+  100% { transform: translate(0, 0); }
+}
+.emote.GIGACHAD + .emote.TIPTIP {
+  animation: GIGAHANDS-anim 1.5s ease-out 1;
+}
+  
 @keyframes whitePeopleHappy-anim {
   0% {transform: scale3d(0.6, 1.15, 1);}
   30% {transform: scale3d(1.25, 0.75, 1);}

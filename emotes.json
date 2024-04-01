@@ -3760,6 +3760,22 @@
     ]
   },
   {
+    "prefix": "AWOOGA",
+    "creator": "LilyPichu",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660aae6563e4c.png",
+        "name": "660aae6563e4c.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "Bannedstiny",
     "creator": "LilyPichu",
     "twitch": false,
@@ -3824,6 +3840,22 @@
     ]
   },
   {
+    "prefix": "BONK",
+    "creator": "LilyPichu",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660aaee3d9b96.gif",
+        "name": "660aaee3d9b96.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "Cheerstiny",
     "creator": "MrGemzar",
     "twitch": false,
@@ -3834,6 +3866,22 @@
         "url": "https://cdn.destiny.gg/2.91.1/emotes/660aa12bdf25a.png",
         "name": "660aa12bdf25a.png",
         "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "CHIPPA",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ab09f19be7.gif",
+        "name": "660ab09f19be7.gif",
+        "mime": "image/gif",
         "height": 32,
         "width": 32
       }
@@ -3920,6 +3968,22 @@
     ]
   },
   {
+    "prefix": "ferretPOG",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ab06b7f47c.png",
+        "name": "660ab06b7f47c.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "FISHIES",
     "creator": "cybervegan",
     "twitch": false,
@@ -3952,6 +4016,22 @@
     ]
   },
   {
+    "prefix": "gavSmash",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/6541d474a2a5f.gif",
+        "name": "6541d474a2a5f.gif",
+        "mime": "image/gif",
+        "height": 30,
+        "width": 30
+      }
+    ]
+  },
+  {
     "prefix": "gemzarL",
     "creator": "MrGemzar",
     "twitch": false,
@@ -3964,6 +4044,22 @@
         "mime": "image/png",
         "height": 32,
         "width": 45
+      }
+    ]
+  },
+  {
+    "prefix": "guh",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ab1a309753.png",
+        "name": "660ab1a309753.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -4012,6 +4108,22 @@
         "mime": "image/png",
         "height": 32,
         "width": 58
+      }
+    ]
+  },
+  {
+    "prefix": "JAMMIES",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ab3e56e58c.gif",
+        "name": "660ab3e56e58c.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -4170,6 +4282,22 @@
         "url": "https://cdn.destiny.gg/2.91.1/emotes/660aa18c8da9e.png",
         "name": "660aa18c8da9e.png",
         "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "NOW",
+    "creator": "LilyPichu",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660aaefe799c8.gif",
+        "name": "660aaefe799c8.gif",
+        "mime": "image/gif",
         "height": 32,
         "width": 32
       }
@@ -4368,6 +4496,22 @@
     ]
   },
   {
+    "prefix": "SHHHH",
+    "creator": "LilyPichu",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660aae38013b3.png",
+        "name": "660aae38013b3.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "smolstiny",
     "creator": "MrGemzar",
     "twitch": false,
@@ -4400,6 +4544,22 @@
     ]
   },
   {
+    "prefix": "STATUSQUO",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ab31150b2a.png",
+        "name": "660ab31150b2a.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 46
+      }
+    ]
+  },
+  {
     "prefix": "STILLDRUNK",
     "creator": "LilyPichu",
     "twitch": false,
@@ -4428,6 +4588,22 @@
         "mime": "image/png",
         "height": 32,
         "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "TIPTIP",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ab259e94bd.gif",
+        "name": "660ab259e94bd.gif",
+        "mime": "image/gif",
+        "height": 36,
+        "width": 27
       }
     ]
   },
@@ -4476,6 +4652,22 @@
         "mime": "image/png",
         "height": 32,
         "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "WHAAAAT",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ab164140fa.png",
+        "name": "660ab164140fa.png",
+        "mime": "image/png",
+        "height": 35,
+        "width": 35
       }
     ]
   },
