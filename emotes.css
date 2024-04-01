@@ -2104,6 +2104,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote./nuke {
+    background-image: url("660a9f8c2dcef.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote./nuke {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Bannedstiny {
     background-image: url("660a5b862713d.png");
     height: 32px;
