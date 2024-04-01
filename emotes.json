@@ -83,15 +83,15 @@
     "prefix": "ApeHands",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/653c2ca92faca.png",
-        "name": "653c2ca92faca.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a9a6e98aed.png",
+        "name": "660a9a6e98aed.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 34,
+        "width": 44
       }
     ]
   },
@@ -641,17 +641,17 @@
   },
   {
     "prefix": "CROPSTINY",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/5f77e4b4b1478.png",
-        "name": "5f77e4b4b1478.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a98f7aa6a4.png",
+        "name": "660a98f7aa6a4.png",
         "mime": "image/png",
         "height": 32,
-        "width": 57
+        "width": 32
       }
     ]
   },
@@ -3249,17 +3249,17 @@
   },
   {
     "prefix": "SoyPoint",
-    "creator": "cybervegan",
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/6592300303249.png",
-        "name": "6592300303249.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a9a8d1e119.png",
+        "name": "660a9a8d1e119.png",
         "mime": "image/png",
         "height": 32,
-        "width": 43
+        "width": 31
       }
     ]
   },
