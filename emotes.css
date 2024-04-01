@@ -80,9 +80,9 @@
     top: 8px;
 }
 .emote.Aware {
-    background-image: url("643ce0a64d6bc.png");
+    background-image: url("660a8bb10af7d.png");
     height: 32px;
-    width: 1152px;
+    width: 2784px;
 }
 .msg-chat .emote.Aware {
     margin-top: -32px;
@@ -2339,23 +2339,28 @@
     animation: ATAB-anim-hover 1s infinite;
     animation-delay: 0.25s;
 }
-.emote.Aware {
-  height: 32px;
-  width: 36px;
-  animation: Aware-anim 1.3s steps(31) forwards;
-}
-.emote.Aware:hover {
-  height: 32px;
-  width: 36px;
-  animation: Aware-hover 1.3s steps(31) forwards 1;
-}
+.emote.Aware { 
+width: 32px; 
+height: 32px; 
+background-position: left center; 
+animation: Aware-anim 3.5s steps(86) forwards ; 
+} 
+.emote.Aware:hover { 
+width: 32px; 
+height: 32px; 
+background-position: left center; 
+animation: Aware-hover 3.5s steps(86) forwards ; 
+} 
 
-@keyframes Aware-anim {
-  to { background-position: -1116px; }
+@keyframes Aware-anim{
+  to { background-position: -2752px; }
 }
 @keyframes Aware-hover {
-  to { background-position: -1116px; }
+  to { background-position: -2752px; }
 }
+
+
+
 .emote.BasedGod {
   transform: scaleX(-1);
 

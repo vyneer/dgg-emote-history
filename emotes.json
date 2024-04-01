@@ -147,15 +147,15 @@
     "prefix": "Aware",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/643ce0a64d6bc.png",
-        "name": "643ce0a64d6bc.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a8bb10af7d.png",
+        "name": "660a8bb10af7d.png",
         "mime": "image/png",
         "height": 32,
-        "width": 1152
+        "width": 2784
       }
     ]
   },
