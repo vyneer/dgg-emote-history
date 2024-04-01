@@ -602,9 +602,9 @@
     top: 7.5px;
 }
 .emote.FeelsOkayMan {
-    background-image: url("5fc940888e8d3.png");
+    background-image: url("660aa71504b8c.png");
     height: 32px;
-    width: 33px;
+    width: 32px;
 }
 .msg-chat .emote.FeelsOkayMan {
     margin-top: -32px;
@@ -1700,13 +1700,13 @@
     top: 7px;
 }
 .emote.RaveDoge {
-    background-image: url("653c2e056a57d.png");
-    height: 34px;
-    width: 1350px;
+    background-image: url("660aa6653360d.gif");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.RaveDoge {
-    margin-top: -34px;
-    top: 8.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.REE {
     background-image: url("660a465f7b463.png");
@@ -1970,13 +1970,13 @@
     top: 7.5px;
 }
 .emote.WICKED {
-    background-image: url("65790f071e0bf.png");
-    height: 32px;
-    width: 912px;
+    background-image: url("660aa7e93e98c.gif");
+    height: 35px;
+    width: 35px;
 }
 .msg-chat .emote.WICKED {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -35px;
+    top: 8.75px;
 }
 .emote.widepeepoHappy {
     background-image: url("65403119bb8fd.png");
@@ -4536,24 +4536,6 @@ height: 32px;
 .emote.GIGACHAD + .emote.RapThis {
   animation: GIGARAP-anim 1.5s ease-out 1;
 }
-@keyframes RaveDoge-anim {
-  100% { background-position: -1350px; }
-}
-
-@keyframes RaveDoge-hover {
-  100% { background-position: -1350px; }
-}
-
-.emote.RaveDoge {
-  margin-left: -3px;
-  margin-right: -3px;
-  width: 50px;
-  animation: RaveDoge-anim 1.62s steps(27) 7 -.67s;
-}
-
-.emote.RaveDoge:hover {
-  animation: RaveDoge-hover 1.62s steps(27) infinite;
-}
 @keyframes REE-anim {
     from { left: 0; }
     to { left: 3px; }
@@ -5404,32 +5386,6 @@ filter: saturate(100%) brightness(115%) contrast(100%) sepia(5%) drop-shadow(0px
         transform: scale(1.25) rotate(0deg);
         filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #18e9fd);
 
-    }
-}
-.emote.WICKED {
-    width: 38px;
-    height: 32px;
-    background-repeat: no-repeat;
-    background-position: 0px;
-    animation: WICKED-ANIM steps(23) .9s forwards 1;
-    filter: saturate(1.2);
-    transition: filter 0.2s;
-}
-
-.emote.WICKED:hover {
-    animation: WICKED-ANIM-HOVER steps(23) .9s forwards 1;
-    filter: saturate(1.5) brightness(1.25);
-}
-
-@keyframes WICKED-ANIM {
-    to {
-        background-position: -874px;
-    }
-}
-
-@keyframes WICKED-ANIM-HOVER {
-    to {
-        background-position: -874px;
     }
 }
 @keyframes widepeepoHappy-anim {
