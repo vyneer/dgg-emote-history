@@ -129,17 +129,17 @@
   },
   {
     "prefix": "ATAB",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/5e0e86da24387.png",
-        "name": "5e0e86da24387.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a7b8966742.png",
+        "name": "660a7b8966742.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 40
+        "height": 32,
+        "width": 32
       }
     ]
   },
