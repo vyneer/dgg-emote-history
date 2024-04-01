@@ -3473,14 +3473,14 @@
   },
   {
     "prefix": "WEOW",
-    "creator": "",
+    "creator": "cybervegan",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/650f6d1ab6bc2.png",
-        "name": "650f6d1ab6bc2.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/650d44d5507aa.png",
+        "name": "650d44d5507aa.png",
         "mime": "image/png",
         "height": 28,
         "width": 278
@@ -3809,7 +3809,7 @@
   },
   {
     "prefix": "FISHIES",
-    "creator": "",
+    "creator": "cybervegan",
     "twitch": false,
     "theme": 5,
     "minimumSubTier": 0,
