@@ -251,9 +251,9 @@
     top: 8px;
 }
 .emote.Clueless {
-    background-image: url("643ce2d3843f0.png");
+    background-image: url("660abb77841b6.png");
     height: 32px;
-    width: 36px;
+    width: 51px;
 }
 .msg-chat .emote.Clueless {
     margin-top: -32px;
@@ -350,13 +350,13 @@
     top: 8px;
 }
 .emote.Copium {
-    background-image: url("60629a078e75a.png");
-    height: 27px;
-    width: 28px;
+    background-image: url("660abb3d5b954.gif");
+    height: 32px;
+    width: 87px;
 }
 .msg-chat .emote.Copium {
-    margin-top: -27px;
-    top: 6.75px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.CROPSTINY {
     background-image: url("660a98f7aa6a4.png");
@@ -692,9 +692,9 @@
     top: 7.5px;
 }
 .emote.GameOfThrows {
-    background-image: url("5c2bbc9fe6f55.png");
+    background-image: url("5f77e837dbf66.png");
     height: 30px;
-    width: 79px;
+    width: 2528px;
 }
 .msg-chat .emote.GameOfThrows {
     margin-top: -30px;
@@ -908,13 +908,13 @@
     top: 7.5px;
 }
 .emote.MASTERB8 {
-    background-image: url("5c2bbd0253815.png");
-    height: 29px;
-    width: 36px;
+    background-image: url("660ac0d07cc7c.gif");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.MASTERB8 {
-    margin-top: -29px;
-    top: 7.25px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Memegasm {
     background-image: url("660a4c2559853.png");
@@ -2167,6 +2167,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.CAP {
+    background-image: url("660ac15ed2408.png");
+    height: 34px;
+    width: 25px;
+}
+.msg-chat .emote.CAP {
+    margin-top: -34px;
+    top: 8.5px;
+}
 .emote.Cheerstiny {
     background-image: url("660aa12bdf25a.png");
     height: 32px;
@@ -2272,6 +2281,15 @@
     width: 45px;
 }
 .msg-chat .emote.gemzarL {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.GLIZZY {
+    background-image: url("660abf9e942ef.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.GLIZZY {
     margin-top: -32px;
     top: 8px;
 }
@@ -2509,6 +2527,15 @@
     margin-top: -35px;
     top: 8.75px;
 }
+.emote.RAGEY {
+    background-image: url("660ac09f44a65.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.RAGEY {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.READING {
     background-image: url("660aac47e302e.png");
     height: 32px;
@@ -2578,6 +2605,15 @@
     width: 32px;
 }
 .msg-chat .emote.THERIFT {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.TINYING {
+    background-image: url("660abce276fba.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.TINYING {
     margin-top: -32px;
     top: 8px;
 }
@@ -3712,6 +3748,24 @@ animation: Aware-hover 3.5s steps(86) forwards ;
 }
 .emote.gachiGASM:hover::after {
     animation: gachiGASM-anim-ba-hover 500ms infinite linear;
+}
+.emote.GameOfThrows {
+  width: 79px;
+  animation: GameOfThrows-anim 1 steps(32) ;
+  animation-duration: 5s;
+}
+.emote.GameOfThrows:hover {
+  animation: GameOfThrows-anim-hover 1 steps(32) ;
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+
+@keyframes GameOfThrows-anim {
+  100% { background-position: -2528px; }
+}
+
+@keyframes GameOfThrows-anim-hover {
+  100% { background-position: -2528px; }
 }
 @keyframes GIGACHAD-anim {
   0% { background-position: -28px 10px; }

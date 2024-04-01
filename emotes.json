@@ -451,15 +451,15 @@
     "prefix": "Clueless",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/643ce2d3843f0.png",
-        "name": "643ce2d3843f0.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660abb77841b6.png",
+        "name": "660abb77841b6.png",
         "mime": "image/png",
         "height": 32,
-        "width": 36
+        "width": 51
       }
     ]
   },
@@ -625,17 +625,17 @@
   },
   {
     "prefix": "Copium",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/60629a078e75a.png",
-        "name": "60629a078e75a.png",
-        "mime": "image/png",
-        "height": 27,
-        "width": 28
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660abb3d5b954.gif",
+        "name": "660abb3d5b954.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 87
       }
     ]
   },
@@ -1233,17 +1233,17 @@
   },
   {
     "prefix": "GameOfThrows",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/5c2bbc9fe6f55.png",
-        "name": "5c2bbc9fe6f55.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/5f77e837dbf66.png",
+        "name": "5f77e837dbf66.png",
         "mime": "image/png",
         "height": 30,
-        "width": 79
+        "width": 2528
       }
     ]
   },
@@ -1617,17 +1617,17 @@
   },
   {
     "prefix": "MASTERB8",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/5c2bbd0253815.png",
-        "name": "5c2bbd0253815.png",
-        "mime": "image/png",
-        "height": 29,
-        "width": 36
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ac0d07cc7c.gif",
+        "name": "660ac0d07cc7c.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -3856,6 +3856,22 @@
     ]
   },
   {
+    "prefix": "CAP",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ac15ed2408.png",
+        "name": "660ac15ed2408.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 25
+      }
+    ]
+  },
+  {
     "prefix": "Cheerstiny",
     "creator": "MrGemzar",
     "twitch": false,
@@ -4044,6 +4060,22 @@
         "mime": "image/png",
         "height": 32,
         "width": 45
+      }
+    ]
+  },
+  {
+    "prefix": "GLIZZY",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660abf9e942ef.gif",
+        "name": "660abf9e942ef.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -4464,6 +4496,22 @@
     ]
   },
   {
+    "prefix": "RAGEY",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ac09f44a65.gif",
+        "name": "660ac09f44a65.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "READING",
     "creator": "LilyPichu",
     "twitch": false,
@@ -4586,6 +4634,22 @@
         "url": "https://cdn.destiny.gg/2.91.1/emotes/660aac6621b14.png",
         "name": "660aac6621b14.png",
         "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "TINYING",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660abce276fba.gif",
+        "name": "660abce276fba.gif",
+        "mime": "image/gif",
         "height": 32,
         "width": 32
       }
