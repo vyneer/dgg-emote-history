@@ -4032,6 +4032,22 @@
     ]
   },
   {
+    "prefix": "PepoPunch",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/61626ed0f2afc.png",
+        "name": "61626ed0f2afc.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 448
+      }
+    ]
+  },
+  {
     "prefix": "Petstiny",
     "creator": "MrGemzar",
     "twitch": false,
