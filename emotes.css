@@ -8,9 +8,9 @@
     top: 7.5px;
 }
 .emote.AbaW {
-    background-image: url("653c2c520b15b.png");
+    background-image: url("660a759c98e9e.png");
     height: 32px;
-    width: 32px;
+    width: 33px;
 }
 .msg-chat .emote.AbaW {
     margin-top: -32px;
@@ -2149,6 +2149,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.INREALLIFE {
+    background-image: url("6519110cb048e.png");
+    height: 32px;
+    width: 58px;
+}
+.msg-chat .emote.INREALLIFE {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.LilyW {
     background-image: url("660a570766426.png");
     height: 32px;
@@ -2184,6 +2193,15 @@
 .msg-chat .emote.widepogfishHappy {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.YeeSpin {
+    background-image: url("660a751da228b.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.YeeSpin {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.ACKSHUALLY {
     width: 47px;
