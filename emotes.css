@@ -143,9 +143,9 @@
     top: 7.5px;
 }
 .emote.BINGQILIN {
-    background-image: url("621c174883d29.png");
+    background-image: url("660a763481a91.gif");
     height: 32px;
-    width: 3510px;
+    width: 43px;
 }
 .msg-chat .emote.BINGQILIN {
     margin-top: -32px;
@@ -2140,6 +2140,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.FISHIES {
+    background-image: url("660a76abae9df.gif");
+    height: 32px;
+    width: 64px;
+}
+.msg-chat .emote.FISHIES {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Hamster_Hawk {
     background-image: url("660a6f2cb9959.png");
     height: 30px;
@@ -2423,23 +2432,6 @@
 }
 .emote.BibleThump:hover::before {
     animation: BibleThump-anim-hover 1s infinite;
-}
-@keyframes BINGQILIN {
-  0% { background-position: 0px; }
-  100% { background-position: -3510px; }
-}
-@keyframes BINGQILIN-hover {
-  0% { background-position: 0px; }
-  100% { background-position: -3510px; }
-}
-.emote.BINGQILIN {
-  width: 39px;
-  background-position: 39px; 
-  animation: BINGQILIN steps(90) 3s 1;
-}
-
-.emote.BINGQILIN:hover {
-  animation: BINGQILIN-hover steps(90) 3s infinite;
 }
 /* made by Igor */
 @keyframes BLADE-anim-swing {

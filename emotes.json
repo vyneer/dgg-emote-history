@@ -257,17 +257,17 @@
   },
   {
     "prefix": "BINGQILIN",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/621c174883d29.png",
-        "name": "621c174883d29.png",
-        "mime": "image/png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a763481a91.gif",
+        "name": "660a763481a91.gif",
+        "mime": "image/gif",
         "height": 32,
-        "width": 3510
+        "width": 43
       }
     ]
   },
@@ -3804,6 +3804,22 @@
         "mime": "image/png",
         "height": 28,
         "width": 28
+      }
+    ]
+  },
+  {
+    "prefix": "FISHIES",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a76abae9df.gif",
+        "name": "660a76abae9df.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 64
       }
     ]
   },
