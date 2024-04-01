@@ -913,17 +913,17 @@
   },
   {
     "prefix": "DuckerZ",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/5c2bbc5803fc3.png",
-        "name": "5c2bbc5803fc3.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a7b2d12665.png",
+        "name": "660a7b2d12665.png",
         "mime": "image/png",
-        "height": 26,
-        "width": 56
+        "height": 32,
+        "width": 33
       }
     ]
   },
