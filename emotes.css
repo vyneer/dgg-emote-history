@@ -2095,6 +2095,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.>R {
+    background-image: url("660a9c809176a.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.>R {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Bannedstiny {
     background-image: url("660a5b862713d.png");
     height: 32px;
@@ -2524,35 +2533,6 @@ animation: Aware-hover 3.5s steps(86) forwards ;
 }
 .emote.BERN:hover {
     animation: BERN-shake-hover infinite 1.55s, BERN-anim-repeat1 1 steps(10) .5s, BERN-anim-repeat2 infinite steps(14) .7s .5s;
-}
-@keyframes BibleThump-anim {
-  0%, 100% {transform: scale(.9) translate(0px, 0px); animation-timing-function: ease;}
-  50% {transform: scale(.75) translate(0px, 14px); animation-timing-function: ease-in;}
-  51% {transform: scale(0) translate(0px, 0px); animation-timing-function: ease-in;}
-}
-@keyframes BibleThump-anim-hover {
-  0%, 100% {transform: scale(.9) translate(0px, 0px); animation-timing-function: ease-out;}
-  50% {transform: scale(.75) translate(0px, 14px); animation-timing-function: ease-in;}
-  51% {transform: scale(0) translate(0px, 0px); animation-timing-function: ease-in;}
-}
-.emote.BibleThump::before{
-    content: "💧";
-    text-indent: 0;
-    color: white;
-    font-size: 8px;
-	  line-height: initial;
-    position: absolute;
-    opacity: 0.6;
-    top: 20px;
-    left: 12px;
-    width: 10px;
-    height: 10px;
-    transform-origin: 50% 0%;
-    filter: contrast(1) saturate(1) brightness(2);
-    animation: BibleThump-anim 0.8s 5;
-}
-.emote.BibleThump:hover::before {
-    animation: BibleThump-anim-hover 1s infinite;
 }
 /* made by Igor */
 @keyframes BLADE-anim-swing {
