@@ -4080,6 +4080,22 @@
     ]
   },
   {
+    "prefix": "POPPERS",
+    "creator": "MrGemzar",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a939d14536.gif",
+        "name": "660a939d14536.gif",
+        "mime": "image/gif",
+        "height": 35,
+        "width": 35
+      }
+    ]
+  },
+  {
     "prefix": "smolstiny",
     "creator": "MrGemzar",
     "twitch": false,

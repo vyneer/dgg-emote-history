@@ -2293,6 +2293,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.POPPERS {
+    background-image: url("660a939d14536.gif");
+    height: 35px;
+    width: 35px;
+}
+.msg-chat .emote.POPPERS {
+    margin-top: -35px;
+    top: 8.75px;
+}
 .emote.smolstiny {
     background-image: url("660a908c8d9c9.png");
     height: 32px;
