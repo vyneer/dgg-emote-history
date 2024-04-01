@@ -1457,13 +1457,13 @@
     top: 7.5px;
 }
 .emote.OhMyDog {
-    background-image: url("5c2bbd616693b.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("660aacdaca32f.gif");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.OhMyDog {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.OMEGALUL {
     background-image: url("660a71eb1c468.png");
@@ -2104,6 +2104,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.agreeGe {
+    background-image: url("660aaa9d2c17e.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.agreeGe {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Bannedstiny {
     background-image: url("660a5b862713d.png");
     height: 32px;
@@ -2320,6 +2329,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.nathanPat {
+    background-image: url("660aabf8984e1.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.nathanPat {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.NOTED {
     background-image: url("660aa18c8da9e.png");
     height: 32px;
@@ -2383,6 +2401,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.PizzaTactics {
+    background-image: url("660aad489d7e6.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.PizzaTactics {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.POGPLANT {
     background-image: url("660a88af97d26.png");
     height: 28px;
@@ -2410,6 +2437,15 @@
     margin-top: -35px;
     top: 8.75px;
 }
+.emote.READING {
+    background-image: url("660aac47e302e.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.READING {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.retardJAM {
     background-image: url("660a98ccc55a6.gif");
     height: 32px;
@@ -2428,12 +2464,30 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.Smugstiny {
+    background-image: url("660aab9e8b03b.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.Smugstiny {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.STILLDRUNK {
-    background-image: url("660aa884b3700.png");
+    background-image: url("660aab35bd13e.png");
     height: 32px;
     width: 32px;
 }
 .msg-chat .emote.STILLDRUNK {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.THERIFT {
+    background-image: url("660aac6621b14.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.THERIFT {
     margin-top: -32px;
     top: 8px;
 }
