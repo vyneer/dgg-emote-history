@@ -3089,17 +3089,17 @@
   },
   {
     "prefix": "SICKO",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/5cd7fac3af988.png",
-        "name": "5cd7fac3af988.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ac4ef4d160.png",
+        "name": "660ac4ef4d160.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 28
+        "height": 24,
+        "width": 24
       }
     ]
   },
@@ -4588,6 +4588,22 @@
         "mime": "image/png",
         "height": 30,
         "width": 30
+      }
+    ]
+  },
+  {
+    "prefix": "Socialism",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ac47406e40.png",
+        "name": "660ac47406e40.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
       }
     ]
   },

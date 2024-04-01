@@ -1736,13 +1736,13 @@
     top: 8px;
 }
 .emote.SICKO {
-    background-image: url("5cd7fac3af988.png");
-    height: 32px;
-    width: 28px;
+    background-image: url("660ac4ef4d160.png");
+    height: 24px;
+    width: 24px;
 }
 .msg-chat .emote.SICKO {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -24px;
+    top: 6px;
 }
 .emote.Sippy {
     background-image: url("6108eec615803.png");
@@ -2580,6 +2580,15 @@
 .msg-chat .emote.Smugstiny {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.Socialism {
+    background-image: url("660ac47406e40.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Socialism {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.STATUSQUO {
     background-image: url("660ab31150b2a.png");
