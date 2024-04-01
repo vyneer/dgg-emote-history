@@ -3872,6 +3872,22 @@
     ]
   },
   {
+    "prefix": "POGPLANT",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 5,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a88af97d26.png",
+        "name": "660a88af97d26.png",
+        "mime": "image/png",
+        "height": 28,
+        "width": 28
+      }
+    ]
+  },
+  {
     "prefix": "TypeTrollFaceWithNoSpacesToDoTheTrollFaceEmote",
     "creator": "",
     "twitch": false,

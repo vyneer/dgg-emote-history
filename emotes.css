@@ -2176,6 +2176,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.POGPLANT {
+    background-image: url("660a88af97d26.png");
+    height: 28px;
+    width: 28px;
+}
+.msg-chat .emote.POGPLANT {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.TypeTrollFaceWithNoSpacesToDoTheTrollFaceEmote {
     background-image: url("660a7003754a7.png");
     height: 36px;
