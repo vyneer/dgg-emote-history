@@ -386,13 +386,13 @@
     top: 7px;
 }
 .emote.CUX {
-    background-image: url("5fad984e24378.png");
-    height: 30px;
-    width: 76px;
+    background-image: url("660a81f32b11d.png");
+    height: 32px;
+    width: 1274px;
 }
 .msg-chat .emote.CUX {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.DaFeels {
     background-image: url("660a4aac4d583.png");
@@ -3193,6 +3193,26 @@
 .emote.CuckCrab:hover {
   animation: CuckCrab-hover 3.68s steps(92) infinite;
 }
+.emote.CUX {
+  height: 32px;
+  width: 91px;
+  transition: all 1s ease;
+  animation: CUX-anim 1s steps(14) 3;
+}
+.emote.CUX:hover {
+  height: 32px;
+  width: 91px;
+  transition: all 1s ease;
+  animation: CUX-hover 1s steps(14) infinite;
+}
+@keyframes CUX-anim {
+  to{ background-position: -1274px;}
+}
+
+@keyframes CUX-hover {
+  to{ background-position: -1274px;}
+}
+
 @keyframes DANKMEMES-anim {
     0%, 100% {
         -webkit-filter: hue-rotate(0deg);

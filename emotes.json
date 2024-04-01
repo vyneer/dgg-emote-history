@@ -689,17 +689,17 @@
   },
   {
     "prefix": "CUX",
-    "creator": null,
+    "creator": "cybervegan",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/5fad984e24378.png",
-        "name": "5fad984e24378.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a81f32b11d.png",
+        "name": "660a81f32b11d.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 76
+        "height": 32,
+        "width": 1274
       }
     ]
   },
