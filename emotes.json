@@ -3888,6 +3888,22 @@
     ]
   },
   {
+    "prefix": "enoughTea",
+    "creator": "MrGemzar",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660aa963adae2.png",
+        "name": "660aa963adae2.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "FISHIES",
     "creator": "cybervegan",
     "twitch": false,
@@ -3952,6 +3968,22 @@
     ]
   },
   {
+    "prefix": "ImDone",
+    "creator": "MrGemzar",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660aa9f7e65c0.png",
+        "name": "660aa9f7e65c0.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "INREALLIFE",
     "creator": "cybervegan",
     "twitch": false,
@@ -3977,6 +4009,22 @@
       {
         "url": "https://cdn.destiny.gg/2.91.1/emotes/660aa11c07658.png",
         "name": "660aa11c07658.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "LESSLETHAL",
+    "creator": "LilyPichu",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660aa81d813c9.png",
+        "name": "660aa81d813c9.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
@@ -4057,6 +4105,22 @@
       {
         "url": "https://cdn.destiny.gg/2.91.1/emotes/660a8311afd1e.png",
         "name": "660a8311afd1e.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "nathanBird",
+    "creator": "MrGemzar",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660aa9af323b0.png",
+        "name": "660aa9af323b0.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
@@ -4256,15 +4320,15 @@
     ]
   },
   {
-    "prefix": "TeaTime",
-    "creator": "",
+    "prefix": "STILLDRUNK",
+    "creator": "LilyPichu",
     "twitch": false,
     "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/660aa1d8f18ed.png",
-        "name": "660aa1d8f18ed.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660aa884b3700.png",
+        "name": "660aa884b3700.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
