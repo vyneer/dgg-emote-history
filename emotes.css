@@ -53,13 +53,13 @@
     top: 7.5px;
 }
 .emote.Askers {
-    background-image: url("604fa56f679e0.png");
-    height: 34px;
-    width: 5544px;
+    background-image: url("660a98b724cfa.gif");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.Askers {
-    margin-top: -34px;
-    top: 8.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.ASLAN {
     background-image: url("660a6ba74c5c9.png");
@@ -134,13 +134,13 @@
     top: 7.5px;
 }
 .emote.BibleThump {
-    background-image: url("653c9a372604d.png");
-    height: 30px;
-    width: 29px;
+    background-image: url("660a983709367.gif");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.BibleThump {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.BINGQILIN {
     background-image: url("660a763481a91.gif");
@@ -782,9 +782,9 @@
     top: 8px;
 }
 .emote.HUH {
-    background-image: url("651912afec4b0.png");
+    background-image: url("660a98dc3ea4a.gif");
     height: 32px;
-    width: 1702px;
+    width: 32px;
 }
 .msg-chat .emote.HUH {
     margin-top: -32px;
@@ -1574,7 +1574,7 @@
     top: 7.5px;
 }
 .emote.pepeSteer {
-    background-image: url("660a97f71c1c8.gif");
+    background-image: url("660a9811aaa66.gif");
     height: 32px;
     width: 32px;
 }
@@ -2302,6 +2302,15 @@
     margin-top: -35px;
     top: 8.75px;
 }
+.emote.retardJAM {
+    background-image: url("660a98ccc55a6.gif");
+    height: 32px;
+    width: 43px;
+}
+.msg-chat .emote.retardJAM {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.smolstiny {
     background-image: url("660a908c8d9c9.png");
     height: 32px;
@@ -2426,27 +2435,6 @@
   animation: GIGAHANDS-anim 1.5s ease-out 1;
 }
   
-@keyframes Askers-anim {
-  100% { background-position: -5544px; }
-}
-
-@keyframes Askers-hover {
-  100% { background-position: -5544px; }
-}
-
-.emote.Askers {
-  width: 56px;
-  margin-left: -4px;
-  margin-right: -4px;
-  background-position: 0px;
-  background-size: 5544px 34px;
-  animation: Askers-anim 3.5s steps(99) 4;
-}
-
-.emote.Askers:hover {
-  animation: Askers-hover 3.5s steps(99) infinite;
-}
-
 @keyframes ATAB-anim {
     0% { top: -25px; }
     100% { top: 30px; }
@@ -2555,8 +2543,8 @@ animation: Aware-hover 3.5s steps(86) forwards ;
 	  line-height: initial;
     position: absolute;
     opacity: 0.6;
-    top: 10px;
-    left: 0px;
+    top: 20px;
+    left: 12px;
     width: 10px;
     height: 10px;
     transform-origin: 50% 0%;
@@ -3823,28 +3811,6 @@ height: 32px;
 }
 .emote.Hhhehhehe:hover {
     animation: Hhhehhehe-anim-hover 500ms infinite;
-}
-.emote.HUH {
-  height: 32px;
-  width: 46px;
-  animation: HUH-anim 2s steps(36) 1 forwards;
-  filter: brightness(1.15);
-}
-
-.emote.HUH:hover {
-  animation: HUH-hover 2s steps(36) 1 forwards;
-}
-
-@keyframes HUH-anim {
-  to {
-    background-position: -1656px;
-  }
-}
-
-@keyframes HUH-hover {
-  to {
-    background-position: -1656px;
-  }
 }
 @keyframes JAMSTINY-anim {
   0% { transform: rotate(0deg); transform-origin: 50% 30px; }

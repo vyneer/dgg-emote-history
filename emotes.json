@@ -97,17 +97,17 @@
   },
   {
     "prefix": "Askers",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/604fa56f679e0.png",
-        "name": "604fa56f679e0.png",
-        "mime": "image/png",
-        "height": 34,
-        "width": 5544
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a98b724cfa.gif",
+        "name": "660a98b724cfa.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -241,17 +241,17 @@
   },
   {
     "prefix": "BibleThump",
-    "creator": "Igor / cybervegan",
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/653c9a372604d.png",
-        "name": "653c9a372604d.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 29
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a983709367.gif",
+        "name": "660a983709367.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -1395,15 +1395,15 @@
     "prefix": "HUH",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/651912afec4b0.png",
-        "name": "651912afec4b0.png",
-        "mime": "image/png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a98dc3ea4a.gif",
+        "name": "660a98dc3ea4a.gif",
+        "mime": "image/gif",
         "height": 32,
-        "width": 1702
+        "width": 32
       }
     ]
   },
@@ -2807,8 +2807,8 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a97f71c1c8.gif",
-        "name": "660a97f71c1c8.gif",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a9811aaa66.gif",
+        "name": "660a9811aaa66.gif",
         "mime": "image/gif",
         "height": 32,
         "width": 32
@@ -4092,6 +4092,22 @@
         "mime": "image/gif",
         "height": 35,
         "width": 35
+      }
+    ]
+  },
+  {
+    "prefix": "retardJAM",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a98ccc55a6.gif",
+        "name": "660a98ccc55a6.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 43
       }
     ]
   },
