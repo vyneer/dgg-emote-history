@@ -3728,22 +3728,6 @@
     ]
   },
   {
-    "prefix": ">R",
-    "creator": "",
-    "twitch": false,
-    "theme": 5,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a9c809176a.gif",
-        "name": "660a9c809176a.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "Bannedstiny",
     "creator": "LilyPichu",
     "twitch": false,
@@ -3834,6 +3818,22 @@
         "url": "https://cdn.destiny.gg/2.91.1/emotes/660a569cb64e5.png",
         "name": "660a569cb64e5.png",
         "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "cringe",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a9c809176a.gif",
+        "name": "660a9c809176a.gif",
+        "mime": "image/gif",
         "height": 32,
         "width": 32
       }

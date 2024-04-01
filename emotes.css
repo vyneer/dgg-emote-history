@@ -2095,15 +2095,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.>R {
-    background-image: url("660a9c809176a.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.>R {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.Bannedstiny {
     background-image: url("660a5b862713d.png");
     height: 32px;
@@ -2155,6 +2146,15 @@
     width: 32px;
 }
 .msg-chat .emote.ComfyLily {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.cringe {
+    background-image: url("660a9c809176a.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.cringe {
     margin-top: -32px;
     top: 8px;
 }
