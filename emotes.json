@@ -371,15 +371,15 @@
     "prefix": "catJAM",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/65922f34c1da9.png",
-        "name": "65922f34c1da9.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 7144
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ab56da5b3c.gif",
+        "name": "660ab56da5b3c.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -1777,17 +1777,17 @@
   },
   {
     "prefix": "MotherFuckinGame",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/5c2bbd1553bd6.png",
-        "name": "5c2bbd1553bd6.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ab560d3ae6.gif",
+        "name": "660ab560d3ae6.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
       }
     ]
   },

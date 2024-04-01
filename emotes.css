@@ -206,13 +206,13 @@
     top: 7.5px;
 }
 .emote.catJAM {
-    background-image: url("65922f34c1da9.png");
-    height: 30px;
-    width: 7144px;
+    background-image: url("660ab56da5b3c.gif");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.catJAM {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Chatting {
     background-image: url("651f54a0ac864.png");
@@ -998,13 +998,13 @@
     top: 7.5px;
 }
 .emote.MotherFuckinGame {
-    background-image: url("5c2bbd1553bd6.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("660ab560d3ae6.gif");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.MotherFuckinGame {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.NAHH {
     background-image: url("653c2d4502fcb.png");
@@ -2976,20 +2976,6 @@ animation: Aware-hover 3.5s steps(86) forwards ;
 .emote.GIGACHAD + .emote.BoomerSippy:hover{
   animation: BoomerSippy-right-hover 1.5s 1, GIGASIP 1.5s 1 ease-out;
 }  
-@keyframes catJAM-anim {
-  100% { background-position: -7144px; }
-}
-@keyframes catJAM-hover {
-  100% { background-position: -7144px; }
-}
-
-.emote.catJAM {
-  width: 38px;
-  animation: catJAM-anim 2 steps(188) 6.5s;
-}
-.emote.catJAM:hover {
-  animation: catJAM-hover infinite steps(188) 6.5s;
-}
 /*
 #### AS OF 2023, FIREFOX STILL DOES NOT SUPPORT THE HAS() SELECTOR - THIS EMOTE WILL BEHAVE IN A SLIGHTLY INFERIOR WAY ON FIREFOX BROWSERS (USERS ARE ABLE TO MANUALLY ENABLE UNTIL FIREFOX PROVIDES FULL SUPPORT) ####
 ### Art by MrGemzar ###
