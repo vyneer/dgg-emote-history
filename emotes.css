@@ -2095,21 +2095,21 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.!ban {
+    background-image: url("660a9f8c2dcef.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.!ban {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.!ipban {
     background-image: url("660a9eb1d8ec7.png");
     height: 32px;
     width: 32px;
 }
 .msg-chat .emote.!ipban {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote./nuke {
-    background-image: url("660a9f8c2dcef.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote./nuke {
     margin-top: -32px;
     top: 8px;
 }

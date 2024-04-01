@@ -3728,6 +3728,22 @@
     ]
   },
   {
+    "prefix": "!ban",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a9f8c2dcef.png",
+        "name": "660a9f8c2dcef.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "!ipban",
     "creator": "",
     "twitch": false,
