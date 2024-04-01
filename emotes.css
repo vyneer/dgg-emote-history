@@ -1781,13 +1781,13 @@
     top: 8.75px;
 }
 .emote.SMASHit {
-    background-image: url("604fa4fa5ca3d.png");
-    height: 29px;
-    width: 2856px;
+    background-image: url("660a79866cb66.gif");
+    height: 32px;
+    width: 35px;
 }
 .msg-chat .emote.SMASHit {
-    margin-top: -29px;
-    top: 7.25px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.SNAP {
     background-image: url("5c5b9c9ba430a.png");
@@ -4599,26 +4599,6 @@ filter: saturate(100%) brightness(115%) contrast(100%) sepia(5%) drop-shadow(0px
 .emote.Slumlord:hover::after {
     animation: Slumlord-anim-hover 0.5s infinite;
     animation-delay: 0.25s;
-}
-@keyframes SMASHit-anim {
-  0% { background-position: 0px; }
-  100% { background-position: -2856px; }
-}
-
-@keyframes SMASHit-hover {
-  0% { background-position: 0px; }
-  100% { background-position: -2856px; }
-}
-
-.emote.SMASHit {
-  width: 42px;
-  height: 29px;
-  background-position: -2814px;
-  animation: SMASHit-anim 1.34s steps(68) 4;
-}
-
-.emote.SMASHit:hover {
-  animation: SMASHit-hover 1.34s steps(68) infinite;
 }
 @keyframes SNAP-anim {
   10% { filter: brightness(1.7); }

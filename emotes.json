@@ -3169,17 +3169,17 @@
   },
   {
     "prefix": "SMASHit",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/604fa4fa5ca3d.png",
-        "name": "604fa4fa5ca3d.png",
-        "mime": "image/png",
-        "height": 29,
-        "width": 2856
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a79866cb66.gif",
+        "name": "660a79866cb66.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 35
       }
     ]
   },
