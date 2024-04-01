@@ -2113,12 +2113,30 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.BLUBBERS {
+    background-image: url("660a8f7f8860a.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.BLUBBERS {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.blue {
     background-image: url("660a6f71eefba.png");
     height: 32px;
     width: 32px;
 }
 .msg-chat .emote.blue {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.comfggL  {
+    background-image: url("660a85fc23a16.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.comfggL  {
     margin-top: -32px;
     top: 8px;
 }
@@ -2149,6 +2167,24 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.FREEDGG {
+    background-image: url("660a8e5e2ac46.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.FREEDGG {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.gemzarL {
+    background-image: url("660a8819c122c.png");
+    height: 32px;
+    width: 45px;
+}
+.msg-chat .emote.gemzarL {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Hamster_Hawk {
     background-image: url("660a6f2cb9959.png");
     height: 30px;
@@ -2167,12 +2203,75 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.Lewdstiny {
+    background-image: url("660a8d6cb83c8.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Lewdstiny {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.LilyW {
     background-image: url("660a570766426.png");
     height: 32px;
     width: 32px;
 }
 .msg-chat .emote.LilyW {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.LOLE {
+    background-image: url("660a913e13e56.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.LOLE {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.monkaGun {
+    background-image: url("660a8311afd1e.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.monkaGun {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.Okayge {
+    background-image: url("660a90b28e4ce.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Okayge {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.OneBadDay {
+    background-image: url("660a8e9e6ea83.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.OneBadDay {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.Peekstiny {
+    background-image: url("660a9045ef9dd.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Peekstiny {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.Petstiny {
+    background-image: url("660a8f04a593d.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Petstiny {
     margin-top: -32px;
     top: 8px;
 }
@@ -2185,6 +2284,24 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.smolstiny {
+    background-image: url("660a908c8d9c9.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.smolstiny {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.Tripstiny {
+    background-image: url("660a8ef220b4d.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Tripstiny {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.TypeTrollFaceWithNoSpacesToDoTheTrollFaceEmote {
     background-image: url("660a7003754a7.png");
     height: 36px;
@@ -2193,6 +2310,15 @@
 .msg-chat .emote.TypeTrollFaceWithNoSpacesToDoTheTrollFaceEmote {
     margin-top: -36px;
     top: 9px;
+}
+.emote.Valentiny {
+    background-image: url("660a901563b0f.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Valentiny {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.whitePeopleHappy {
     background-image: url("660a739abba39.png");
