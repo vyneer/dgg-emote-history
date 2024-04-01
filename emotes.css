@@ -5684,6 +5684,36 @@ filter: saturate(100%) brightness(115%) contrast(100%) sepia(5%) drop-shadow(0px
 .emote.Bannedstiny:hover::before {
   animation: Bannedstiny-anim-hover 2s infinite;
 }
+.emote.Cheerstiny{
+  animation: YUMP-anim 800ms 3;
+  animation-delay: .3s;
+}
+
+.emote.Cheerstiny:hover{
+  animation: YUMP-anim-hover 800ms 3;
+  animation-delay: .3s
+}
+
+
+
+@keyframes YUMP-anim {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(0px, -7.5px) rotate(-3deg); animation-timing-function: ease }
+    37% { transform: translate(0px, 0px) rotate(-3deg); animation-timing-function: ease-in }
+    55% { transform: translate(0px, -3px) rotate(4deg); animation-timing-function: ease}
+    60% { transform: translate(0px, 0px) rotate(4deg); animation-timing-function: ease-in}
+    75% { transform: translate(0px, -1.5px); animation-timing-function: ease }
+    100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
+}
+@keyframes YUMP-anim-hover {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(0px, -7.5px) rotate(-3deg); animation-timing-function: ease }
+    37% { transform: translate(0px, 0px) rotate(-3deg); animation-timing-function: ease-in }
+    55% { transform: translate(0px, -3px) rotate(4deg); animation-timing-function: ease}
+    60% { transform: translate(0px, 0px) rotate(4deg); animation-timing-function: ease-in}
+    75% { transform: translate(0px, -1.5px); animation-timing-function: ease }
+  100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
+}
 @keyframes PepoPunch-anim {
   100% { background-position: -448px; }
 }
