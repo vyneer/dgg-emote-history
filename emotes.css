@@ -305,13 +305,13 @@
     top: 8px;
 }
 .emote.comfYEE {
-    background-image: url("62efb1648f625.png");
-    height: 32px;
+    background-image: url("660b7e15a07fc.png");
+    height: 30px;
     width: 32px;
 }
 .msg-chat .emote.comfYEE {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.ComfyFerret {
     background-image: url("5fad983ac8f92.png");
@@ -2203,6 +2203,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.comfPEEK {
+    background-image: url("660b7e35d0fda.png");
+    height: 30px;
+    width: 32px;
+}
+.msg-chat .emote.comfPEEK {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.ComfyLily {
     background-image: url("660a569cb64e5.png");
     height: 32px;
@@ -2229,6 +2238,15 @@
 .msg-chat .emote.DEATH_SUS {
     margin-top: -28px;
     top: 7px;
+}
+.emote.diNOWAY {
+    background-image: url("660b7db35c917.png");
+    height: 32px;
+    width: 43px;
+}
+.msg-chat .emote.diNOWAY {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.DonoWall {
     background-image: url("660b718609832.gif");
@@ -2506,6 +2524,15 @@
     width: 448px;
 }
 .msg-chat .emote.PepoPunch {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.PepoShy {
+    background-image: url("660b7e9be9c74.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.PepoShy {
     margin-top: -32px;
     top: 8px;
 }
