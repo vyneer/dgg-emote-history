@@ -1403,13 +1403,13 @@
     top: 8px;
 }
 .emote.NOPERS {
-    background-image: url("61802e629ca8d.gif");
-    height: 28px;
-    width: 28px;
+    background-image: url("660b716f850ff.gif");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.NOPERS {
-    margin-top: -28px;
-    top: 7px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Normgasm {
     background-image: url("660a590831cb2.png");
@@ -2230,6 +2230,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.DonoWall {
+    background-image: url("660b718609832.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.DonoWall {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.enoughTea {
     background-image: url("660aa963adae2.png");
     height: 32px;
@@ -2256,6 +2265,15 @@
 .msg-chat .emote.FISHIES {
     margin-top: -32px;
     top: 8px;
+}
+.emote.FIVEG {
+    background-image: url("660b7698c12f4.png");
+    height: 40px;
+    width: 31px;
+}
+.msg-chat .emote.FIVEG {
+    margin-top: -40px;
+    top: 10px;
 }
 .emote.FREEDGG {
     background-image: url("660a8e5e2ac46.png");
@@ -2335,6 +2353,15 @@
     width: 32px;
 }
 .msg-chat .emote.JAMMIES {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.JoenoWall {
+    background-image: url("660b735694ecf.gif");
+    height: 32px;
+    width: 48px;
+}
+.msg-chat .emote.JoenoWall {
     margin-top: -32px;
     top: 8px;
 }
@@ -2689,6 +2716,15 @@
     margin-top: -35px;
     top: 8.75px;
 }
+.emote.WHAILS {
+    background-image: url("660b71163d41e.png");
+    height: 32px;
+    width: 53px;
+}
+.msg-chat .emote.WHAILS {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.whitePeopleHappy {
     background-image: url("660a739abba39.png");
     height: 32px;
@@ -2713,6 +2749,15 @@
     width: 37px;
 }
 .msg-chat .emote.wikipedia {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.xena {
+    background-image: url("660b719c53bc3.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.xena {
     margin-top: -32px;
     top: 8px;
 }

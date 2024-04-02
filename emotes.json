@@ -2497,17 +2497,17 @@
   },
   {
     "prefix": "NOPERS",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/61802e629ca8d.gif",
-        "name": "61802e629ca8d.gif",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660b716f850ff.gif",
+        "name": "660b716f850ff.gif",
         "mime": "image/gif",
-        "height": 28,
-        "width": 28
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -3968,6 +3968,22 @@
     ]
   },
   {
+    "prefix": "DonoWall",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660b718609832.gif",
+        "name": "660b718609832.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "enoughTea",
     "creator": "MrGemzar",
     "twitch": false,
@@ -4012,6 +4028,22 @@
         "mime": "image/gif",
         "height": 32,
         "width": 64
+      }
+    ]
+  },
+  {
+    "prefix": "FIVEG",
+    "creator": "Paper_B0ii",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660b7698c12f4.png",
+        "name": "660b7698c12f4.png",
+        "mime": "image/png",
+        "height": 40,
+        "width": 31
       }
     ]
   },
@@ -4156,6 +4188,22 @@
         "mime": "image/gif",
         "height": 32,
         "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "JoenoWall",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660b735694ecf.gif",
+        "name": "660b735694ecf.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 48
       }
     ]
   },
@@ -4784,6 +4832,22 @@
     ]
   },
   {
+    "prefix": "WHAILS",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660b71163d41e.png",
+        "name": "660b71163d41e.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 53
+      }
+    ]
+  },
+  {
     "prefix": "whitePeopleHappy",
     "creator": "",
     "twitch": false,
@@ -4828,6 +4892,22 @@
         "mime": "image/gif",
         "height": 32,
         "width": 37
+      }
+    ]
+  },
+  {
+    "prefix": "xena",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660b719c53bc3.gif",
+        "name": "660b719c53bc3.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
       }
     ]
   },
