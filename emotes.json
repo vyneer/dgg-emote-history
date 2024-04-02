@@ -87,8 +87,8 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/660a9a6e98aed.png",
-        "name": "660a9a6e98aed.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660b5ca048ca0.png",
+        "name": "660b5ca048ca0.png",
         "mime": "image/png",
         "height": 34,
         "width": 44
@@ -4220,6 +4220,22 @@
         "mime": "image/png",
         "height": 32,
         "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "Listening",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660b5b699f1c1.gif",
+        "name": "660b5b699f1c1.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 46
       }
     ]
   },
