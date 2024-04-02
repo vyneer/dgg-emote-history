@@ -1344,6 +1344,22 @@
     ]
   },
   {
+    "prefix": "Hamster_Hawk",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/5f53c57e5b1c2.png",
+        "name": "5f53c57e5b1c2.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 37
+      }
+    ]
+  },
+  {
     "prefix": "Heimerdonger",
     "creator": null,
     "twitch": false,

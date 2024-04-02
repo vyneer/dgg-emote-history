@@ -754,6 +754,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.Hamster_Hawk {
+    background-image: url("5f53c57e5b1c2.png");
+    height: 30px;
+    width: 37px;
+}
+.msg-chat .emote.Hamster_Hawk {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.Heimerdonger {
     background-image: url("5c2bbcb48c4b5.png");
     height: 30px;
