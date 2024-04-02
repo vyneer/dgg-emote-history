@@ -4656,6 +4656,22 @@
     ]
   },
   {
+    "prefix": "t",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660b5f6d32a65.png",
+        "name": "660b5f6d32a65.png",
+        "mime": "image/png",
+        "height": 22,
+        "width": 22
+      }
+    ]
+  },
+  {
     "prefix": "THERIFT",
     "creator": "LilyPichu",
     "twitch": false,
@@ -4796,6 +4812,22 @@
         "mime": "image/png",
         "height": 30,
         "width": 80
+      }
+    ]
+  },
+  {
+    "prefix": "wikipedia",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660b60593ddb2.gif",
+        "name": "660b60593ddb2.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 37
       }
     ]
   },
