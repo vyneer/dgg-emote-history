@@ -646,6 +646,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.FISHIES {
+    background-image: url("660a76abae9df.gif");
+    height: 32px;
+    width: 64px;
+}
+.msg-chat .emote.FISHIES {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.FiveHead {
     background-image: url("5fa1f1d6e4f61.png");
     height: 34px;
