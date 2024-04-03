@@ -1367,11 +1367,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/5f53c57e5b1c2.png",
-        "name": "5f53c57e5b1c2.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660c9caac41a5.png",
+        "name": "660c9caac41a5.png",
         "mime": "image/png",
         "height": 30,
-        "width": 37
+        "width": 67
       }
     ]
   },
@@ -3388,6 +3388,22 @@
         "mime": "image/png",
         "height": 32,
         "width": 33
+      }
+    ]
+  },
+  {
+    "prefix": "TINYING",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660abce276fba.gif",
+        "name": "660abce276fba.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
       }
     ]
   },

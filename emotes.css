@@ -764,9 +764,9 @@
     top: 7.5px;
 }
 .emote.Hamster_Hawk {
-    background-image: url("5f53c57e5b1c2.png");
+    background-image: url("660c9caac41a5.png");
     height: 30px;
-    width: 37px;
+    width: 67px;
 }
 .msg-chat .emote.Hamster_Hawk {
     margin-top: -30px;
@@ -1906,6 +1906,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.TINYING {
+    background-image: url("660abce276fba.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.TINYING {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.tonyW {
     background-image: url("5feeaf97de293.png");
     height: 32px;
@@ -2335,6 +2344,10 @@
   50% {transform: scale(.75) translate(0px, 14px); animation-timing-function: ease-in;}
   51% {transform: scale(0) translate(0px, 0px); animation-timing-function: ease-in;}
 }
+.emote.BibleThump{
+filter: contrast(1) saturate(1) brightness(1.4);
+}
+
 .emote.BibleThump::before{
     content: "💧";
     text-indent: 0;
@@ -3813,6 +3826,47 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 }
 .emote.HACKERMAN:hover:before {
   animation: HACKERMAN-hack-hover 4s infinite, HACKERMAN-hack-opacity-hover 4s infinite;
+}
+.emote.Hamster_Hawk{
+    background-position: left center:
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 30px;
+}
+
+/* le epic troll */
+.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.Hamster_Hawk {
+    height: 30px;
+    width: 32px;
+    background-position: -37px;
+    background-repeat: no-repeat;
+}
+
+.msg-chat.msg-user>time[data-unixtimestamp$="04"]~.text .emote.Hamster_Hawk {
+    animation: epic-troll 1s steps(1) 1;
+}
+
+.msg-chat.msg-user>time[data-unixtimestamp$="96"]~.text .emote.Hamster_Hawk {
+    animation: epic-troll-2 3s steps(5) 1;
+}
+
+.msg-chat.msg-user>time[data-unixtimestamp$="21"]~.text .emote.Hamster_Hawk {
+    transform: scaleY(-1);
+}
+
+.msg-chat.msg-user>time[data-unixtimestamp$="87"]~.text .emote.Hamster_Hawk {
+    transform: scaleX(-1);
+}
+
+
+@keyframes epic-troll {
+  0% { opacity: 0%; }
+  100% { opacity: 100%; }
+}
+
+@keyframes epic-troll-2 {
+  0% { height: 0px; transform: translate(0px, -30px); }
+  100% { height: 30px; transform: translate(0px, 0px);}
 }
 @keyframes Hhhehhehe-anim {
     0% { transform: translate(0px, 0px) rotate(-0deg); }
