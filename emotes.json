@@ -2033,17 +2033,17 @@
   },
   {
     "prefix": "nathanFeels",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/5bd45ccae347b.png",
-        "name": "5bd45ccae347b.png",
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ce38e093b9.png",
+        "name": "660ce38e093b9.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 28
+        "height": 30,
+        "width": 30
       }
     ]
   },

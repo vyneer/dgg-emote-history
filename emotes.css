@@ -1142,13 +1142,13 @@
     top: 7px;
 }
 .emote.nathanFeels {
-    background-image: url("5bd45ccae347b.png");
-    height: 28px;
-    width: 28px;
+    background-image: url("660ce38e093b9.png");
+    height: 30px;
+    width: 30px;
 }
 .msg-chat .emote.nathanFeels {
-    margin-top: -28px;
-    top: 7px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.nathanGG {
     background-image: url("5eb83e6d3f994.png");
