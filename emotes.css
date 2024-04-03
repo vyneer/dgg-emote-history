@@ -3837,7 +3837,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   animation: HACKERMAN-hack-hover 4s infinite, HACKERMAN-hack-opacity-hover 4s infinite;
 }
 .emote.Hamster_Hawk{
-    background-position: left center:
+    background-position: left center;
     background-repeat: no-repeat;
     width: 37px;
     height: 30px;
