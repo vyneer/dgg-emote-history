@@ -1708,6 +1708,15 @@
     margin-top: -24px;
     top: 6px;
 }
+.emote.POPPERS {
+    background-image: url("660e93ffd2a79.png");
+    height: 32px;
+    width: 56px;
+}
+.msg-chat .emote.POPPERS {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.POTATO {
     background-image: url("649f774ab436f.png");
     height: 28px;
@@ -1995,6 +2004,15 @@
 .msg-chat .emote.WEOW {
     margin-top: -28px;
     top: 7px;
+}
+.emote.WHAAAAT {
+    background-image: url("660ab164140fa.png");
+    height: 35px;
+    width: 35px;
+}
+.msg-chat .emote.WHAAAAT {
+    margin-top: -35px;
+    top: 8.75px;
 }
 .emote.WhoahDude {
     background-image: url("5c2bbe2630ff0.png");
@@ -4585,6 +4603,32 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 .emote.PICNIC:hover {
     animation: PICNIC-anim-hover 350ms infinite;
 }
+.emote.POPPERS{
+        width:
+          28px;
+        height:
+          32px;
+        background-position: left center; 
+        animation:
+          POPPERS-anim 0.4s steps(2) 65;
+      }
+
+      @keyframes POPPERS-anim {
+        to {
+          background-position: -56px;
+        }
+      }
+
+.emote.POPPERS:hover{
+        animation:
+          POPPERS-hover 0.4s steps(2) infinite;
+      }
+
+      @keyframes POPPERS-hover {
+        to {
+          background-position: -56px;
+        }
+      }
 @keyframes GIGARAP-anim {
   0% { transform: translate(-28px, 0); }
   100% { transform: translate(0, 0); }
