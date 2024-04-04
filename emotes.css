@@ -2354,7 +2354,7 @@
   51% {transform: scale(0) translate(0px, 0px); animation-timing-function: ease-in;}
 }
 .emote.BibleThump{
-filter: contrast(1) saturate(1) brightness(1.4);
+filter: contrast(1) saturate(1) brightness(1.25);
 }
 
 .emote.BibleThump::before{
