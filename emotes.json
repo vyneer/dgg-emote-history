@@ -1760,6 +1760,22 @@
     ]
   },
   {
+    "prefix": "monkaGun",
+    "creator": "MrGemzar / cybervegan",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660fe8de7a5d9.png",
+        "name": "660fe8de7a5d9.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "monkaS",
     "creator": null,
     "twitch": false,
