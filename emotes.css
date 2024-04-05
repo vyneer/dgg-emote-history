@@ -772,15 +772,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.Hamster_Hawk {
-    background-image: url("660cc4785d136.png");
-    height: 30px;
-    width: 104px;
-}
-.msg-chat .emote.Hamster_Hawk {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.Heimerdonger {
     background-image: url("5c2bbcb48c4b5.png");
     height: 30px;
@@ -1923,6 +1914,15 @@
 .msg-chat .emote.TeddyPepe {
     margin-top: -32px;
     top: 8px;
+}
+.emote.TF {
+    background-image: url("660cc4785d136.png");
+    height: 30px;
+    width: 104px;
+}
+.msg-chat .emote.TF {
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.TINYING {
     background-image: url("660abce276fba.gif");
@@ -3854,56 +3854,6 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 .emote.HACKERMAN:hover:before {
   animation: HACKERMAN-hack-hover 4s infinite, HACKERMAN-hack-opacity-hover 4s infinite;
 }
-.emote.Hamster_Hawk{
-    background-position: left center;
-    background-repeat: no-repeat;
-    width: 37px;
-    height: 30px;
-}
-
-/* le epic troll */
-.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.Hamster_Hawk {
-    height: 30px;
-    width: 32px;
-    background-position: -37px;
-    background-repeat: no-repeat;
-}
-
-.msg-chat.msg-user>time[data-unixtimestamp$="04"]~.text .emote.Hamster_Hawk {
-    animation: epic-troll 1s steps(1) 1;
-}
-
-.msg-chat.msg-user>time[data-unixtimestamp$="96"]~.text .emote.Hamster_Hawk {
-    animation: epic-troll-2 3s steps(5) 1;
-}
-
-.msg-chat.msg-user>time[data-unixtimestamp$="21"]~.text .emote.Hamster_Hawk {
-    transform: scaleY(-1);
-}
-
-.msg-chat.msg-user>time[data-unixtimestamp$="87"]~.text .emote.Hamster_Hawk {
-    transform: scaleX(-1);
-}
-
-.msg-chat.msg-user>time[data-unixtimestamp$="52"]~.text .emote.Hamster_Hawk {
-    background-position: -67px;
-    animation: epic-troll-3 1.5s steps(1) 1 forwards;
-}
-
-
-@keyframes epic-troll {
-  0% { opacity: 0%; }
-  100% { opacity: 100%; }
-}
-
-@keyframes epic-troll-2 {
-  0% { height: 0px; transform: translate(0px, -30px); }
-  100% { height: 30px; transform: translate(0px, 0px);}
-}
-
-@keyframes epic-troll-3 {
-  to { background-position: 0px; }
-}
 @keyframes Hhhehhehe-anim {
     0% { transform: translate(0px, 0px) rotate(-0deg); }
     20% { transform: translate(0px, 3px) rotate(-6deg); }
@@ -4986,6 +4936,56 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 }
 .emote.SpookerZ:hover {
     animation: SpookerZ-anim-hover 250ms infinite;
+}
+.emote.TF{
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 30px;
+}
+
+/* le epic troll */
+.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.TF {
+    height: 30px;
+    width: 32px;
+    background-position: -37px;
+    background-repeat: no-repeat;
+}
+
+.msg-chat.msg-user>time[data-unixtimestamp$="04"]~.text .emote.TF {
+    animation: epic-troll 1s steps(1) 1;
+}
+
+.msg-chat.msg-user>time[data-unixtimestamp$="96"]~.text .emote.TF {
+    animation: epic-troll-2 3s steps(5) 1;
+}
+
+.msg-chat.msg-user>time[data-unixtimestamp$="21"]~.text .emote.TF {
+    transform: scaleY(-1);
+}
+
+.msg-chat.msg-user>time[data-unixtimestamp$="87"]~.text .emote.TF {
+    transform: scaleX(-1);
+}
+
+.msg-chat.msg-user>time[data-unixtimestamp$="52"]~.text .emote.TF {
+    background-position: -67px;
+    animation: epic-troll-3 1.5s steps(1) 1 forwards;
+}
+
+
+@keyframes epic-troll {
+  0% { opacity: 0%; }
+  100% { opacity: 100%; }
+}
+
+@keyframes epic-troll-2 {
+  0% { height: 0px; transform: translate(0px, -30px); }
+  100% { height: 30px; transform: translate(0px, 0px);}
+}
+
+@keyframes epic-troll-3 {
+  to { background-position: 0px; }
 }
 @keyframes TRIAD-anim {
   100% { background-position: -4200px; }

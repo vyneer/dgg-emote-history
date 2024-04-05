@@ -1376,22 +1376,6 @@
     ]
   },
   {
-    "prefix": "Hamster_Hawk",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/2.91.1/emotes/660cc4785d136.png",
-        "name": "660cc4785d136.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 104
-      }
-    ]
-  },
-  {
     "prefix": "Heimerdonger",
     "creator": null,
     "twitch": false,
@@ -3420,6 +3404,22 @@
         "mime": "image/png",
         "height": 32,
         "width": 33
+      }
+    ]
+  },
+  {
+    "prefix": "TF",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660cc4785d136.png",
+        "name": "660cc4785d136.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 104
       }
     ]
   },
