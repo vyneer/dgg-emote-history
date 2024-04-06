@@ -3468,6 +3468,9 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
     background-position: -1140px;
 }
 */
+[data-username="kelly_jean"] .emote.FISHIES {
+    visibility: hidden;
+}
 /* Original made by Gahhey */
 /* Modification by Igor */
 @keyframes FiveHead-anim {
