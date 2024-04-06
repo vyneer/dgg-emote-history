@@ -3424,6 +3424,22 @@
     ]
   },
   {
+    "prefix": "temmieDank",
+    "creator": "mersuedits (BTTV)",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/6611326d5a5a4.png",
+        "name": "6611326d5a5a4.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 30
+      }
+    ]
+  },
+  {
     "prefix": "TF",
     "creator": "",
     "twitch": false,

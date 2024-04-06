@@ -1924,6 +1924,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.temmieDank {
+    background-image: url("6611326d5a5a4.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.temmieDank {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.TF {
     background-image: url("660cc4785d136.png");
     height: 30px;
