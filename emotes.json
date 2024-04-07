@@ -1168,6 +1168,22 @@
     ]
   },
   {
+    "prefix": "ferretPOG",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/660ab06b7f47c.png",
+        "name": "660ab06b7f47c.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "FISHIES",
     "creator": "cybervegan",
     "twitch": false,

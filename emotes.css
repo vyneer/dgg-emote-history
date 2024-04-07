@@ -655,6 +655,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.ferretPOG {
+    background-image: url("660ab06b7f47c.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.ferretPOG {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.FISHIES {
     background-image: url("660a76abae9df.gif");
     height: 32px;
