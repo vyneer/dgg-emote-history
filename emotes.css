@@ -5003,10 +5003,12 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 .emote.SpookerZ:hover {
     animation: SpookerZ-anim-hover 250ms infinite;
 }
+/*
 .msg-chat.msg-user[data-username="xenathewitcher"]{
      color: #080808;
      visibility: hidden;
 }
+*/
 .emote.TF{
     background-position: left center;
     background-repeat: no-repeat;
