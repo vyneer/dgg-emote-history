@@ -1006,6 +1006,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.monkaHmmm {
+    background-image: url("6613ccc34a620.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.monkaHmmm {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.monkaS {
     background-image: url("5bd0b9a7c59aa.png");
     height: 28px;
