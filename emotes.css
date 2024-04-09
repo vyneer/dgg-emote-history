@@ -862,6 +862,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.KEIKAKU {
+    background-image: url("6615363a5f561.png");
+    height: 34px;
+    width: 1054px;
+}
+.msg-chat .emote.KEIKAKU {
+    margin-top: -34px;
+    top: 8.5px;
+}
 .emote.KING {
     background-image: url("5c097d4f0ffdc.png");
     height: 28px;
@@ -3968,6 +3977,30 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 .emote.JAMSTINY:hover {
     animation: JAMSTINY-anim-hover 0.69s infinite ease-out;
 }
+.emote.KEIKAKU{
+width:31px; 
+height:34px; 
+background-position: left center; 
+animation: KEIKAKU-anim 1s .35s steps(33) forwards; 
+} 
+
+.emote.KEIKAKU:hover{
+background-position: left center; 
+animation: KEIKAKU-hover 1.5s steps(33) forwards; 
+} 
+
+@keyframes
+      KEIKAKU-anim { 
+           to { background-position: -1023px; 
+          } 
+}
+
+@keyframes
+      KEIKAKU-hover { 
+           to { background-position: -1023px; 
+          } 
+}
+
 .emote.Klappa {
   width: 38px;
   height: 30px;

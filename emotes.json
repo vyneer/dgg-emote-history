@@ -1536,6 +1536,22 @@
     ]
   },
   {
+    "prefix": "KEIKAKU",
+    "creator": "MrGemzar / cybervegan",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.91.1/emotes/6615363a5f561.png",
+        "name": "6615363a5f561.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 1054
+      }
+    ]
+  },
+  {
     "prefix": "KING",
     "creator": null,
     "twitch": false,
