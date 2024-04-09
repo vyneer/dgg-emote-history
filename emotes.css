@@ -5071,7 +5071,7 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
     background-repeat: no-repeat;
 }
 
-.msg-chat.msg-user>time[data-unixtimestamp$="42"]~.text:has(.emote.TF){
+.msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text:has(.emote.TF){
     background-color: #0b3fa9; 
     color: white;
     padding-bottom: 0.4rem;
