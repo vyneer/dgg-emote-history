@@ -2543,6 +2543,16 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .msg-chat.msg-user .user.flair13 ~ .text .emote.BLADE {
   filter: brightness(2) hue-rotate(210deg) saturate(2);
 }
+.msg-chat.msg-user .user.flair42 ~ .text .emote.BLADE {
+  animation: BLADE-t5 2.975s infinite linear;
+}
+.msg-chat.msg-user .user.flair42 ~ .text .emote.GIGACHAD + .emote.BLADE {
+    animation: BLADE-anim-swing .25s 3, BLADE-anim-stab .75s 1 .75s linear, BLADE-path 0.325s 1 ease-out, BLADE-hold 0.325s 1 ease-out, GIGABLADE 1.5s 1 ease-out, BLADE-t5 2.975s infinite linear;
+}
+
+.msg-chat.msg-user .user.flair42 ~ .text .emote.GIGACHAD + .emote.BLADE:hover {
+  animation: none, GIGABLADE 1.5s 1 ease-out, BLADE-t5 2.975s infinite linear;
+}
 
 @keyframes GIGABLADE {
   0% { left: -28px; }
@@ -2557,6 +2567,11 @@ filter: contrast(1) saturate(1) brightness(1.25);
   transform-origin: -36px 32px;
   transform: rotate(10deg);
   animation: none, GIGABLADE 1.5s 1 ease-out;
+}
+
+@keyframes BLADE-t5 {
+  from { filter: brightness(2) hue-rotate(0deg) saturate(2); }
+  to { filter: brightness(2) hue-rotate(-360deg) saturate(2); }
 }
 @keyframes Blesstiny-anim{
   0% {transform: rotate(0deg);}
