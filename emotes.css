@@ -5078,13 +5078,13 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
     height: 30px;
 }
 
-/* le epic troll */
+/* le epic troll 
 .msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.TF {
     height: 30px;
     width: 32px;
     background-position: -37px;
     background-repeat: no-repeat;
-}
+}*/
 
 .msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text:has(.emote.TF){
     background-color: #0b3fa9; 
