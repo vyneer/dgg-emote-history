@@ -1924,6 +1924,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.STATUSQUO {
+    background-image: url("66211b5cb8324.png");
+    height: 32px;
+    width: 28px;
+}
+.msg-chat .emote.STATUSQUO {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.SURPRISE {
     background-image: url("5c2bbde674ef2.png");
     height: 30px;

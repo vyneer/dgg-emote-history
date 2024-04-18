@@ -3424,6 +3424,22 @@
     ]
   },
   {
+    "prefix": "STATUSQUO",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/2.92.2/emotes/66211b5cb8324.png",
+        "name": "66211b5cb8324.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 28
+      }
+    ]
+  },
+  {
     "prefix": "SURPRISE",
     "creator": null,
     "twitch": false,
