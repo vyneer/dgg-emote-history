@@ -5349,6 +5349,13 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
     background-repeat: no-repeat;
 }
 
+[data-username="gpt71"] .emote.WEOW {
+    height: 28px;
+    width: 28px;
+    background-position: -166px;
+    background-repeat: no-repeat;
+}
+
 [data-username="destiny"] .emote.WEOW {
     height: 28px;
     width: 28px;
