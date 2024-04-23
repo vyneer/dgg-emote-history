@@ -1582,6 +1582,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.peepoSalute {
+    background-image: url("66279df6b20bd.png");
+    height: 28px;
+    width: 40px;
+}
+.msg-chat .emote.peepoSalute {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.PEPE {
     background-image: url("6157386b7d2fc.png");
     height: 30px;

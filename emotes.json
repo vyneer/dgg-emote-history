@@ -2816,6 +2816,22 @@
     ]
   },
   {
+    "prefix": "peepoSalute",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.0.1/emotes/66279df6b20bd.png",
+        "name": "66279df6b20bd.png",
+        "mime": "image/png",
+        "height": 28,
+        "width": 40
+      }
+    ]
+  },
+  {
     "prefix": "PEPE",
     "creator": null,
     "twitch": false,
