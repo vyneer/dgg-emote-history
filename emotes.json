@@ -576,6 +576,22 @@
     ]
   },
   {
+    "prefix": "ComfyLily",
+    "creator": "LilyPichu",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.0.1/emotes/6627a8ecef24c.png",
+        "name": "6627a8ecef24c.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 33
+      }
+    ]
+  },
+  {
     "prefix": "coMMMMfy",
     "creator": null,
     "twitch": false,
