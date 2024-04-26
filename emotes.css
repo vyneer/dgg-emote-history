@@ -3477,12 +3477,12 @@ filter: contrast(1) saturate(1) brightness(1.25);
 
 /* ## COMBO ## */
 .msg-chat.msg-emote .emote.dggL {
-  animation: dggL-COMBO 1.2s steps(25) 1 forwards;
+  animation: dggL-COMBO 1s steps(25) 1 forwards;
   transform: scale(1.25);
   filter: brightness(1.25);
 }
 .msg-chat.msg-emote .emote.dggL:hover {
-  animation: dggL-COMBO-HOVER 1.2s steps(25) 1 forwards;
+  animation: dggL-COMBO-HOVER 1s steps(25) 1 forwards;
   transform: scale(1.25);
 }
 
