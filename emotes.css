@@ -2050,15 +2050,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.TrollDespair {
-    background-image: url("6635b82d1de30.png");
-    height: 32px;
-    width: 33px;
-}
-.msg-chat .emote.TrollDespair {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.TRUMPED {
     background-image: url("64ea952c9db8d.png");
     height: 28px;

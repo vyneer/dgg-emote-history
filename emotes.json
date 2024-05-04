@@ -3648,22 +3648,6 @@
     ]
   },
   {
-    "prefix": "TrollDespair",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.1.1/emotes/6635b82d1de30.png",
-        "name": "6635b82d1de30.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 33
-      }
-    ]
-  },
-  {
     "prefix": "TRUMPED",
     "creator": "",
     "twitch": false,
