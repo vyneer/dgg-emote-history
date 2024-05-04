@@ -2352,6 +2352,22 @@
     ]
   },
   {
+    "prefix": "nathanSuffer",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.1.1/emotes/6635c26fe9abf.png",
+        "name": "6635c26fe9abf.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 31
+      }
+    ]
+  },
+  {
     "prefix": "nathanThinking",
     "creator": "",
     "twitch": false,

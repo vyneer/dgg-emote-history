@@ -1321,6 +1321,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.nathanSuffer {
+    background-image: url("6635c26fe9abf.png");
+    height: 30px;
+    width: 31px;
+}
+.msg-chat .emote.nathanSuffer {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.nathanThinking {
     background-image: url("653c2d9083d61.png");
     height: 28px;
