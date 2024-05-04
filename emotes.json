@@ -2224,6 +2224,22 @@
     ]
   },
   {
+    "prefix": "nathanNOW",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.1.1/emotes/6636186ce9948.png",
+        "name": "6636186ce9948.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 2100
+      }
+    ]
+  },
+  {
     "prefix": "nathanObject",
     "creator": null,
     "twitch": false,
