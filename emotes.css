@@ -835,6 +835,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.INREALLIFE {
+    background-image: url("6519110cb048e.png");
+    height: 32px;
+    width: 58px;
+}
+.msg-chat .emote.INREALLIFE {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ITSRAWWW {
     background-image: url("61c3f7be70a9b.png");
     height: 30px;
