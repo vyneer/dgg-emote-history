@@ -583,11 +583,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.3.1/emotes/6627a8ecef24c.png",
-        "name": "6627a8ecef24c.png",
+        "url": "https://cdn.destiny.gg/3.3.1/emotes/664dad389b907.png",
+        "name": "664dad389b907.png",
         "mime": "image/png",
         "height": 32,
-        "width": 33
+        "width": 41
       }
     ]
   },
@@ -1472,6 +1472,22 @@
     ]
   },
   {
+    "prefix": "IMEANNN",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.3.1/emotes/664dacff99949.png",
+        "name": "664dacff99949.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 28
+      }
+    ]
+  },
+  {
     "prefix": "INFESTINY",
     "creator": null,
     "twitch": false,
@@ -1644,6 +1660,22 @@
         "mime": "image/png",
         "height": 30,
         "width": 45
+      }
+    ]
+  },
+  {
+    "prefix": "LilyW",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.3.1/emotes/664dbb05c4208.png",
+        "name": "664dbb05c4208.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 30
       }
     ]
   },
@@ -3264,6 +3296,22 @@
     ]
   },
   {
+    "prefix": "SHOCKSTINY",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.3.1/emotes/664db3d8f2493.png",
+        "name": "664db3d8f2493.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 47
+      }
+    ]
+  },
+  {
     "prefix": "Shroomstiny",
     "creator": null,
     "twitch": false,
@@ -3724,6 +3772,22 @@
         "mime": "image/png",
         "height": 30,
         "width": 28
+      }
+    ]
+  },
+  {
+    "prefix": "VeryPog",
+    "creator": "cybervegan / MrGemzar",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.3.1/emotes/664dbf3aaa0e5.png",
+        "name": "664dbf3aaa0e5.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 33
       }
     ]
   },
