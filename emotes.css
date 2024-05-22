@@ -323,9 +323,9 @@
     top: 8px;
 }
 .emote.ComfyLily {
-    background-image: url("664dad389b907.png");
+    background-image: url("6627a8ecef24c.png");
     height: 32px;
-    width: 41px;
+    width: 33px;
 }
 .msg-chat .emote.ComfyLily {
     margin-top: -32px;
@@ -826,15 +826,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.IMEANNN {
-    background-image: url("664dacff99949.png");
-    height: 34px;
-    width: 28px;
-}
-.msg-chat .emote.IMEANNN {
-    margin-top: -34px;
-    top: 8.5px;
-}
 .emote.INFESTINY {
     background-image: url("5c2bbccd35834.png");
     height: 30px;
@@ -931,15 +922,6 @@
     width: 45px;
 }
 .msg-chat .emote.LIES {
-    margin-top: -30px;
-    top: 7.5px;
-}
-.emote.LilyW {
-    background-image: url("664dbb05c4208.png");
-    height: 30px;
-    width: 30px;
-}
-.msg-chat .emote.LilyW {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -1852,15 +1834,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.SHOCKSTINY {
-    background-image: url("664db3d8f2493.png");
-    height: 34px;
-    width: 47px;
-}
-.msg-chat .emote.SHOCKSTINY {
-    margin-top: -34px;
-    top: 8.5px;
-}
 .emote.Shroomstiny {
     background-image: url("62509ec67821e.png");
     height: 28px;
@@ -2121,15 +2094,6 @@
 .msg-chat .emote.UWOTM8 {
     margin-top: -30px;
     top: 7.5px;
-}
-.emote.VeryPog {
-    background-image: url("664dbf3aaa0e5.png");
-    height: 34px;
-    width: 33px;
-}
-.msg-chat .emote.VeryPog {
-    margin-top: -34px;
-    top: 8.5px;
 }
 .emote.WEEWOO {
     background-image: url("6519465c0ae7b.png");
@@ -5138,43 +5102,6 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 .emote.REE:hover {
     animation: REE-anim-hover 100ms infinite;
-}
-@keyframes SHOCKSTINY-anim {
-  5% { transform: scale(0, 0); transform-origin: bottom; }
-  5.5% { transform: scale(0.3, 0.2); transform-origin: bottom; }
-  6% { transform: scale(0.3, 0.66); transform-origin: bottom; }
-  7% { transform: scale(1, 0.66); transform-origin: bottom; }
-  80% { transform: scale(1, 0.66); transform-origin: bottom; }
-  83% { transform: scale(0.3, 0.66); transform-origin: bottom; }
-  85% { transform: scale(0.3, 0.2); transform-origin: bottom; }
-  87% { transform: scale(0, 0); transform-origin: bottom; }
-}
-@keyframes SHOCKSTINY-anim-hover {
-  5% { transform: scale(0, 0); transform-origin: bottom; }
-  5.5% { transform: scale(0.3, 0.2); transform-origin: bottom; }
-  6% { transform: scale(0.3, 0.66); transform-origin: bottom; }
-  7% { transform: scale(1, 0.66); transform-origin: bottom; }
-  80% { transform: scale(1, 0.66); transform-origin: bottom; }
-  83% { transform: scale(0.3, 0.66); transform-origin: bottom; }
-  85% { transform: scale(0.3, 0.2); transform-origin: bottom; }
-  87% { transform: scale(0, 0); transform-origin: bottom; }
-}
-
-.emote.SHOCKSTINY:before {
-    font-style: normal;
-    content: "❗";
-    text-indent: 0;
-    font-size: 24px;
-    line-height: initial;
-    position: absolute;
-    opacity: 1;
-    top: -10px;
-    left: 34px;
-    transform: scale(0, 0);
-    animation: SHOCKSTINY-anim 2s 1;
-}
-.emote.SHOCKSTINY:hover::before {
-  animation: SHOCKSTINY-anim-hover 2s infinite;
 }
 /*@keyframes Shroomstiny-in-out {0% {-webkit-filter: hue-rotate(0deg) drop-shadow(0 0 0px #F44a);filter: hue-rotate(0deg) drop-shadow(0 0 0px #F44a);}100% {-webkit-filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);}}
 
