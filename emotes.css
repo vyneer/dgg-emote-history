@@ -5139,42 +5139,98 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 .emote.REE:hover {
     animation: REE-anim-hover 100ms infinite;
 }
-@keyframes SHOCKSTINY-anim {
-  5% { transform: scale(0, 0); transform-origin: bottom; }
-  5.5% { transform: scale(0.3, 0.2); transform-origin: bottom; }
-  6% { transform: scale(0.3, 0.66); transform-origin: bottom; }
-  7% { transform: scale(1, 0.66); transform-origin: bottom; }
-  80% { transform: scale(1, 0.66); transform-origin: bottom; }
-  83% { transform: scale(0.3, 0.66); transform-origin: bottom; }
-  85% { transform: scale(0.3, 0.2); transform-origin: bottom; }
-  87% { transform: scale(0, 0); transform-origin: bottom; }
+@keyframes SHOCKSTINY-mark {
+    20% {
+        transform: scaleY(0); transform-origin: bottom;
+    }
+    30% {
+        transform: scaleY(1); transform-origin: bottom; 
+    }
+    90% {
+        transform: scaleY(1); transform-origin: bottom;
+    }
 }
-@keyframes SHOCKSTINY-anim-hover {
-  5% { transform: scale(0, 0); transform-origin: bottom; }
-  5.5% { transform: scale(0.3, 0.2); transform-origin: bottom; }
-  6% { transform: scale(0.3, 0.66); transform-origin: bottom; }
-  7% { transform: scale(1, 0.66); transform-origin: bottom; }
-  80% { transform: scale(1, 0.66); transform-origin: bottom; }
-  83% { transform: scale(0.3, 0.66); transform-origin: bottom; }
-  85% { transform: scale(0.3, 0.2); transform-origin: bottom; }
-  87% { transform: scale(0, 0); transform-origin: bottom; }
+@keyframes SHOCKSTINY-mark-hover {
+    20% {
+        transform: scaleY(0); transform-origin: bottom;
+    }
+    30% {
+        transform: scaleY(1); transform-origin: bottom; 
+    }
+    90% {
+        transform: scaleY(1); transform-origin: bottom;
+    }
+}
+
+.emote.SHOCKSTINY{
+    animation: SHOCKSTINY-wat .5s ease alternate;
+    background-repeat: no-repeat;
+    filter:contrast(1.15);
+}
+
+.emote.SHOCKSTINY:hover {
+    animation: SHOCKSTINY-wat-hover .5s ease alternate;
+    background-repeat: no-repeat;
 }
 
 .emote.SHOCKSTINY:before {
-    font-style: normal;
+    font-style: italic;
     content: "❗";
     text-indent: 0;
-    font-size: 24px;
+    font-size: 30px;
     line-height: initial;
     position: absolute;
     opacity: 1;
-    top: -10px;
-    left: 34px;
+    top: -18px;
+    left: 32px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
     transform: scale(0, 0);
-    animation: SHOCKSTINY-anim 2s 1;
+    animation: SHOCKSTINY-mark 1.3s 1 ease;
 }
 .emote.SHOCKSTINY:hover::before {
-  animation: SHOCKSTINY-anim-hover 2s infinite;
+    animation: SHOCKSTINY-mark-hover 1.3s  ease;
+}
+
+
+@keyframes SHOCKSTINY-wat {
+    0% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 7px;
+    }
+    25% {
+        transform: scaleY(1.2); transform-origin: bottom; background-position: 0 0px;
+    }
+    40% {
+        transform: scaleY(.85); transform-origin: bottom; background-position: 0 0px;
+    }
+    70% {
+        transform: scaleY(1); transform-origin: bottom;
+    }
+    71% {
+        transform: scaleY(.85); transform-origin: bottom;
+    }
+    99% {
+        transform: scaleY(1); transform-origin: bottom;
+    }
+}
+
+@keyframes SHOCKSTINY-wat-hover {
+    0% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 7px;
+    }
+    25% {
+        transform: scaleY(1.2); transform-origin: bottom; background-position: 0 0px;
+    }
+    40% {
+        transform: scaleY(.85); transform-origin: bottom; background-position: 0 0px;
+    }
+    70% {
+        transform: scaleY(1); transform-origin: bottom;
+    }
+    71% {
+        transform: scaleY(.85); transform-origin: bottom;
+    }
+    99% {
+        transform: scaleY(1); transform-origin: bottom;
+    }
 }
 /*@keyframes Shroomstiny-in-out {0% {-webkit-filter: hue-rotate(0deg) drop-shadow(0 0 0px #F44a);filter: hue-rotate(0deg) drop-shadow(0 0 0px #F44a);}100% {-webkit-filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);}}
 
