@@ -5552,6 +5552,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     background-repeat: no-repeat;
     width: 37px;
     height: 30px;
+
 }
 
 /* le epic troll 
@@ -5574,7 +5575,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="96"]~.text .emote.TF {
-    animation: epic-troll-2 3s steps(5) 1;
+    animation: epic-troll-2 4.5s steps(5) 1 forwards;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="21"]~.text .emote.TF {
@@ -5597,8 +5598,8 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 
 @keyframes epic-troll-2 {
-  0% { height: 0px; transform: translate(0px, -30px); }
-  100% { height: 30px; transform: translate(0px, 0px);}
+  from { transform-origin: top; background-position: 0px 30px; transform:translateY(-30px);}
+  to { transform-origin: top; background-position: 0px 0px; transform:translateY(0px);}
 }
 
 @keyframes epic-troll-3 {
