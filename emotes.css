@@ -1,5 +1,5 @@
 .emote.Abathur {
-    background-image: url("5c2bbb92c428e.png");
+    background-image: url("66596c571d8e5.png");
     height: 30px;
     width: 82px;
 }
@@ -26,13 +26,13 @@
     top: 8.25px;
 }
 .emote.AMAZIN {
-    background-image: url("5d2de6f9879d5.png");
-    height: 26px;
-    width: 72px;
+    background-image: url("633b30edbb5bf.png");
+    height: 32px;
+    width: 2385px;
 }
 .msg-chat .emote.AMAZIN {
-    margin-top: -26px;
-    top: 6.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.AngelThump {
     background-image: url("5c2bbb9fa8ab2.png");
@@ -53,7 +53,7 @@
     top: 7.5px;
 }
 .emote.Askers {
-    background-image: url("604fa56f679e0.png");
+    background-image: url("66596cb5db931.png");
     height: 34px;
     width: 5544px;
 }
@@ -62,7 +62,7 @@
     top: 8.5px;
 }
 .emote.ASLAN {
-    background-image: url("5c2bbba3d610e.png");
+    background-image: url("66596ccd336b4.png");
     height: 30px;
     width: 41px;
 }
@@ -71,7 +71,7 @@
     top: 7.5px;
 }
 .emote.ATAB {
-    background-image: url("5e0e86da24387.png");
+    background-image: url("66596d331458d.png");
     height: 30px;
     width: 40px;
 }
@@ -80,7 +80,7 @@
     top: 7.5px;
 }
 .emote.Aware {
-    background-image: url("643ce0a64d6bc.png");
+    background-image: url("66596d4136715.png");
     height: 32px;
     width: 1152px;
 }
@@ -89,7 +89,7 @@
     top: 8px;
 }
 .emote.AYAYA {
-    background-image: url("5c9a2d62d1465.png");
+    background-image: url("66596d488e618.png");
     height: 27px;
     width: 28px;
 }
@@ -98,7 +98,7 @@
     top: 6.75px;
 }
 .emote.AYYYLMAO {
-    background-image: url("5c2bbbebf33af.png");
+    background-image: url("66596d4fe28bb.png");
     height: 30px;
     width: 100px;
 }
@@ -161,7 +161,7 @@
     top: 7.5px;
 }
 .emote.Blesstiny {
-    background-image: url("5c853d5386bb4.png");
+    background-image: url("66596baae76d9.png");
     height: 32px;
     width: 32px;
 }
@@ -2304,7 +2304,19 @@
     transform: scale(1.1);
 }
 .emote.AMAZIN {
-    transform: translate(0px, 4px);
+    width: 53px;
+    height: 32px;
+    animation: AMAZIN-anim 2 steps(45) 2200ms;
+}
+
+.emote.AMAZIN:hover { animation: AMAZIN-anim-hover infinite steps(45) 2200ms; }
+
+@keyframes AMAZIN-anim {
+    100% { background-position: -2385px; }
+}
+
+@keyframes AMAZIN-anim-hover {
+    100% { background-position: -2385px; }
 }
 /*@keyframes AngelThump-anim {
   20%  { filter: drop-shadow(0px 8px 1.22px #f9f63b); font-size: 32px; margin-left: 32px; }
