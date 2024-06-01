@@ -539,7 +539,7 @@
     top: 6.5px;
 }
 .emote.DURRSTINY {
-    background-image: url("5c2bbc5d7c463.png");
+    background-image: url("665b0bff07c78.png");
     height: 30px;
     width: 21px;
 }
@@ -557,7 +557,7 @@
     top: 8px;
 }
 .emote.FeedNathan {
-    background-image: url("5c2bbc6606d88.png");
+    background-image: url("665b0bf7adba2.png");
     height: 30px;
     width: 37px;
 }
@@ -836,7 +836,7 @@
     top: 8.5px;
 }
 .emote.INFESTINY {
-    background-image: url("5c2bbccd35834.png");
+    background-image: url("665b0b84c8f66.png");
     height: 30px;
     width: 35px;
 }
@@ -899,7 +899,7 @@
     top: 8.5px;
 }
 .emote.KING {
-    background-image: url("5c097d4f0ffdc.png");
+    background-image: url("665b0b908efe9.png");
     height: 28px;
     width: 28px;
 }
@@ -980,7 +980,7 @@
     top: 7.5px;
 }
 .emote.MASTERB8 {
-    background-image: url("5c2bbd0253815.png");
+    background-image: url("665b0bed1732b.png");
     height: 29px;
     width: 36px;
 }
@@ -998,7 +998,7 @@
     top: 7.5px;
 }
 .emote.Milkerino {
-    background-image: url("5d49e3877c9af.png");
+    background-image: url("665b0be46214e.png");
     height: 30px;
     width: 33px;
 }
@@ -1034,7 +1034,7 @@
     top: 7.5px;
 }
 .emote.MMMM {
-    background-image: url("6042d72d587b3.png");
+    background-image: url("665b0b9951f50.png");
     height: 28px;
     width: 28px;
 }
@@ -1079,7 +1079,7 @@
     top: 8px;
 }
 .emote.monkaVirus {
-    background-image: url("6084a59c0fa32.png");
+    background-image: url("665b0bdb9267f.png");
     height: 30px;
     width: 70px;
 }
@@ -1178,7 +1178,7 @@
     top: 7px;
 }
 .emote.nathanDerp {
-    background-image: url("665b021a09be3.png");
+    background-image: url("665b0bb65acdc.png");
     height: 28px;
     width: 28px;
 }
@@ -1304,7 +1304,7 @@
     top: 8px;
 }
 .emote.nathanPepe {
-    background-image: url("nathanPepe.png");
+    background-image: url("665b0bcb365a8.png");
     height: 28px;
     width: 28px;
 }
@@ -1484,7 +1484,7 @@
     top: 7.5px;
 }
 .emote.NOBULLY {
-    background-image: url("5dbcecfab8366.png");
+    background-image: url("665b0ba062166.png");
     height: 30px;
     width: 43px;
 }
@@ -1754,7 +1754,7 @@
     top: 8px;
 }
 .emote.PepoTurkey {
-    background-image: url("5dde917989efa.png");
+    background-image: url("665b0bc2acb5f.png");
     height: 28px;
     width: 34px;
 }
@@ -2078,7 +2078,7 @@
     top: 8px;
 }
 .emote.tonyW {
-    background-image: url("5feeaf97de293.png");
+    background-image: url("665b0b7bae0c1.png");
     height: 32px;
     width: 28px;
 }
@@ -4272,7 +4272,6 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
 .emote.Nappa:hover {
     animation: Nappa-anim-hover 750ms infinite;
 }
-/*test*/
 .emote.nathanNOW {
     width: 42px;
     height: 32px;
