@@ -1088,7 +1088,7 @@
     top: 7.5px;
 }
 .emote.MotherFuckinGame {
-    background-image: url("5c2bbd1553bd6.png");
+    background-image: url("665aec373e762.png");
     height: 30px;
     width: 30px;
 }
@@ -2123,7 +2123,7 @@
     top: 5px;
 }
 .emote.UWOTM8 {
-    background-image: url("5c2bbe1b619af.png");
+    background-image: url("665aec060d502.png");
     height: 30px;
     width: 28px;
 }
@@ -5167,7 +5167,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
   margin-left: -2px;
   transform-origin: 50% 65%;
   background-repeat: no-repeat;
-  background-position: 0 10px;
+  background-position: 0 8px;
   animation: Sippy-right 1.5s 1;
 }
 .emote.Sippy:hover {

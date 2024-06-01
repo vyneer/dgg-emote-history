@@ -1937,14 +1937,14 @@
   },
   {
     "prefix": "MotherFuckinGame",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5c2bbd1553bd6.png",
-        "name": "5c2bbd1553bd6.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665aec373e762.png",
+        "name": "665aec373e762.png",
         "mime": "image/png",
         "height": 30,
         "width": 30
@@ -3783,8 +3783,8 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5c2bbe1b619af.png",
-        "name": "5c2bbe1b619af.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665aec060d502.png",
+        "name": "665aec060d502.png",
         "mime": "image/png",
         "height": 30,
         "width": 28
