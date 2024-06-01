@@ -2513,14 +2513,14 @@
   },
   {
     "prefix": "nathanW",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5ced892bca560.png",
-        "name": "5ced892bca560.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665b77e859fe5.png",
+        "name": "665b77e859fe5.png",
         "mime": "image/png",
         "height": 28,
         "width": 28
@@ -3623,8 +3623,8 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/645f2563c83e3.png",
-        "name": "645f2563c83e3.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665b77f9cb5a6.png",
+        "name": "665b77f9cb5a6.png",
         "mime": "image/png",
         "height": 32,
         "width": 30
@@ -3639,8 +3639,8 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/645f254284dda.png",
-        "name": "645f254284dda.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665b7808e03cb.png",
+        "name": "665b7808e03cb.png",
         "mime": "image/png",
         "height": 32,
         "width": 33
