@@ -206,13 +206,13 @@
     top: 7.5px;
 }
 .emote.catJAM {
-    background-image: url("665a5d655052b.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("665b06bfcc744.png");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.catJAM {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Chatting {
     background-image: url("651f54a0ac864.png");
@@ -638,13 +638,13 @@
     top: 8px;
 }
 .emote.FeelsStrongMan {
-    background-image: url("665ad19cdfe99.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("6042d7a113ac4.png");
+    height: 28px;
+    width: 28px;
 }
 .msg-chat .emote.FeelsStrongMan {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.FeelsWeirdMan {
     background-image: url("5c64580edcbfc.png");
