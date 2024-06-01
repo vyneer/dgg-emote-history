@@ -1313,7 +1313,7 @@
   },
   {
     "prefix": "GIGACHAD",
-    "creator": "",
+    "creator": "kristoffaro",
     "twitch": false,
     "theme": 4,
     "minimumSubTier": 0,
@@ -2753,9 +2753,9 @@
   },
   {
     "prefix": "OBJECTION",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
