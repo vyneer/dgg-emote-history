@@ -65,17 +65,17 @@
   },
   {
     "prefix": "AngelThump",
-    "creator": null,
+    "creator": "FizzyLongstockings",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5c2bbb9fa8ab2.png",
-        "name": "5c2bbb9fa8ab2.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/6478bbb1eb8f3.png",
+        "name": "6478bbb1eb8f3.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 95
+        "height": 32,
+        "width": 7560
       }
     ]
   },
@@ -227,12 +227,12 @@
     "prefix": "BERN",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/649f768e50a4a.png",
-        "name": "649f768e50a4a.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/6482de9f0145f.png",
+        "name": "6482de9f0145f.png",
         "mime": "image/png",
         "height": 30,
         "width": 1860
@@ -273,17 +273,17 @@
   },
   {
     "prefix": "BLADE",
-    "creator": "Igor",
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/644239e9c771c.png",
-        "name": "644239e9c771c.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad8e5bf4c0.png",
+        "name": "665ad8e5bf4c0.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -371,15 +371,15 @@
     "prefix": "catJAM",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/65922f34c1da9.png",
-        "name": "65922f34c1da9.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665a5d655052b.png",
+        "name": "665a5d655052b.png",
         "mime": "image/png",
         "height": 30,
-        "width": 7144
+        "width": 30
       }
     ]
   },
@@ -481,14 +481,14 @@
   },
   {
     "prefix": "ComfyAYA",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5fad97de7a0ef.png",
-        "name": "5fad97de7a0ef.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/6478cc6435099.png",
+        "name": "6478cc6435099.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
@@ -499,12 +499,12 @@
     "prefix": "ComfyCat",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/645e8c248a9d4.png",
-        "name": "645e8c248a9d4.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/6478cc1bed6d8.png",
+        "name": "6478cc1bed6d8.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
@@ -513,14 +513,14 @@
   },
   {
     "prefix": "ComfyDan",
-    "creator": "Vindelici",
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/61d07f83b546c.png",
-        "name": "61d07f83b546c.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/6478cd0fa3672.png",
+        "name": "6478cd0fa3672.png",
         "mime": "image/png",
         "height": 32,
         "width": 46
@@ -529,14 +529,14 @@
   },
   {
     "prefix": "ComfyDog",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5fad97ff5f13f.png",
-        "name": "5fad97ff5f13f.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/6478ccf86ca28.png",
+        "name": "6478ccf86ca28.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
@@ -547,12 +547,12 @@
     "prefix": "comfYEE",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/62efb1648f625.png",
-        "name": "62efb1648f625.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/6478ccb69c357.png",
+        "name": "6478ccb69c357.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
@@ -561,14 +561,14 @@
   },
   {
     "prefix": "ComfyFerret",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5fad983ac8f92.png",
-        "name": "5fad983ac8f92.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/6478cca7ebe16.png",
+        "name": "6478cca7ebe16.png",
         "mime": "image/png",
         "height": 32,
         "width": 34
@@ -593,14 +593,14 @@
   },
   {
     "prefix": "coMMMMfy",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/624e76368b3a9.png",
-        "name": "624e76368b3a9.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/6478cc478bb89.png",
+        "name": "6478cc478bb89.png",
         "mime": "image/png",
         "height": 28,
         "width": 33
@@ -625,14 +625,14 @@
   },
   {
     "prefix": "COOMfy",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/624f1fad7a41d.png",
-        "name": "624f1fad7a41d.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/6478cc9391442.png",
+        "name": "6478cc9391442.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
@@ -643,13 +643,13 @@
     "prefix": "Copium",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/66596c13917fd.gif",
-        "name": "66596c13917fd.gif",
-        "mime": "image/gif",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad1b7cfead.png",
+        "name": "665ad1b7cfead.png",
+        "mime": "image/png",
         "height": 32,
         "width": 32
       }
@@ -689,17 +689,17 @@
   },
   {
     "prefix": "Cutestiny",
-    "creator": "LilyPichu",
+    "creator": "PastelDallas",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/649f7adb5746a.png",
-        "name": "649f7adb5746a.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/647e87ae17eb2.png",
+        "name": "647e87ae17eb2.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 28
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -803,12 +803,12 @@
     "prefix": "DCOLON",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/6002196ce1fcd.png",
-        "name": "6002196ce1fcd.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665acf055d7db.png",
+        "name": "665acf055d7db.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
@@ -883,15 +883,15 @@
     "prefix": "dggL",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/64e9c8c405428.png",
-        "name": "64e9c8c405428.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/647fc7de421b5.png",
+        "name": "647fc7de421b5.png",
         "mime": "image/png",
         "height": 35,
-        "width": 2688
+        "width": 32
       }
     ]
   },
@@ -1059,15 +1059,15 @@
     "prefix": "FeelsDankMan",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/647e37b8b3860.png",
-        "name": "647e37b8b3860.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/647e375a2c8ba.png",
+        "name": "647e375a2c8ba.png",
         "mime": "image/png",
         "height": 32,
-        "width": 28
+        "width": 32
       }
     ]
   },
@@ -1091,15 +1091,15 @@
     "prefix": "FeelsGoodMan",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/665add4126d3f.png",
-        "name": "665add4126d3f.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665a5b44ae46d.png",
+        "name": "665a5b44ae46d.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 28,
+        "width": 32
       }
     ]
   },
@@ -1139,15 +1139,15 @@
     "prefix": "FeelsStrongMan",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/6042d7a113ac4.png",
-        "name": "6042d7a113ac4.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad19cdfe99.png",
+        "name": "665ad19cdfe99.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 28
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -1281,17 +1281,17 @@
   },
   {
     "prefix": "gachiGASM",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5c2bbc9ac1396.png",
-        "name": "5c2bbc9ac1396.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad06167f8c.png",
+        "name": "665ad06167f8c.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 36,
+        "width": 32
       }
     ]
   },
@@ -1315,15 +1315,15 @@
     "prefix": "GIGACHAD",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/624bb3cf81ae1.png",
-        "name": "624bb3cf81ae1.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad0fc694bf.png",
+        "name": "665ad0fc694bf.png",
         "mime": "image/png",
         "height": 32,
-        "width": 29
+        "width": 32
       }
     ]
   },
@@ -1553,9 +1553,9 @@
   },
   {
     "prefix": "Kappa",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
@@ -1617,9 +1617,9 @@
   },
   {
     "prefix": "Klappa",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
@@ -1683,12 +1683,12 @@
     "prefix": "LOVE",
     "creator": null,
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5cc0cc2a87ca8.png",
-        "name": "5cc0cc2a87ca8.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/62beeb7f21cdb.png",
+        "name": "62beeb7f21cdb.png",
         "mime": "image/png",
         "height": 30,
         "width": 51
@@ -1731,12 +1731,12 @@
     "prefix": "MALARKEY",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/649f772dc1990.png",
-        "name": "649f772dc1990.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/6482df0fbddce.png",
+        "name": "6482df0fbddce.png",
         "mime": "image/png",
         "height": 30,
         "width": 1581
@@ -1809,17 +1809,17 @@
   },
   {
     "prefix": "MiyanoHype",
-    "creator": null,
+    "creator": "legendarypotatoe",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/61574db3e31e6.png",
-        "name": "61574db3e31e6.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/62baf03bd444a.png",
+        "name": "62baf03bd444a.png",
         "mime": "image/png",
         "height": 32,
-        "width": 320
+        "width": 1200
       }
     ]
   },
@@ -2657,17 +2657,17 @@
   },
   {
     "prefix": "NODDERS",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/61802e3a5b014.gif",
-        "name": "61802e3a5b014.gif",
-        "mime": "image/gif",
-        "height": 28,
-        "width": 28
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad11c061ad.png",
+        "name": "665ad11c061ad.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 30
       }
     ]
   },
@@ -2689,17 +2689,17 @@
   },
   {
     "prefix": "NOPERS",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/61802e629ca8d.gif",
-        "name": "61802e629ca8d.gif",
-        "mime": "image/gif",
-        "height": 28,
-        "width": 28
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad12827234.png",
+        "name": "665ad12827234.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 30
       }
     ]
   },
@@ -2769,9 +2769,9 @@
   },
   {
     "prefix": "OhKrappa",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
@@ -3009,17 +3009,17 @@
   },
   {
     "prefix": "pepeSteer",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5fc5c2f5071e9.png",
-        "name": "5fc5c2f5071e9.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad13735a42.png",
+        "name": "665ad13735a42.png",
         "mime": "image/png",
         "height": 30,
-        "width": 792
+        "width": 33
       }
     ]
   },
@@ -3043,12 +3043,12 @@
     "prefix": "PepoComfy",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5fad9970a3544.png",
-        "name": "5fad9970a3544.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/6478ccd4561fd.png",
+        "name": "6478ccd4561fd.png",
         "mime": "image/png",
         "height": 30,
         "width": 32
@@ -3185,17 +3185,17 @@
   },
   {
     "prefix": "POGGERS",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5f9e8d17d1522.png",
-        "name": "5f9e8d17d1522.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad149ce166.png",
+        "name": "665ad149ce166.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -3235,14 +3235,14 @@
     "prefix": "POTATO",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/649f774ab436f.png",
-        "name": "649f774ab436f.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/6478f5eda9e9b.png",
+        "name": "6478f5eda9e9b.png",
         "mime": "image/png",
-        "height": 28,
+        "height": 32,
         "width": 32
       }
     ]
@@ -3379,15 +3379,15 @@
     "prefix": "Sippy",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/6108eec615803.png",
-        "name": "6108eec615803.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665a5ae4dc0dd.png",
+        "name": "665a5ae4dc0dd.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 22
+        "height": 31,
+        "width": 21
       }
     ]
   },
@@ -3491,31 +3491,31 @@
     "prefix": "SOTRIGGERED",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ade458a704.png",
-        "name": "665ade458a704.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665a5b6e420fb.png",
+        "name": "665a5b6e420fb.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 43
+        "height": 32,
+        "width": 32
       }
     ]
   },
   {
     "prefix": "SOY",
-    "creator": "Vindelici",
+    "creator": "StrawWaffle",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/649f7767585f5.png",
-        "name": "649f7767585f5.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/648fe691f2548.png",
+        "name": "648fe691f2548.png",
         "mime": "image/png",
         "height": 32,
-        "width": 37
+        "width": 4921
       }
     ]
   },
@@ -3553,17 +3553,17 @@
   },
   {
     "prefix": "Stare",
-    "creator": "cybervegan",
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/65423c2ae0e84.png",
-        "name": "65423c2ae0e84.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad1e2d564b.png",
+        "name": "665ad1e2d564b.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 41
+        "height": 30,
+        "width": 35
       }
     ]
   },
@@ -3729,17 +3729,17 @@
   },
   {
     "prefix": "triHarder",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5d261f7e6b602.png",
-        "name": "5d261f7e6b602.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad15b6eadc.png",
+        "name": "665ad15b6eadc.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -3777,7 +3777,7 @@
   },
   {
     "prefix": "UWOTM8",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
@@ -3825,14 +3825,14 @@
   },
   {
     "prefix": "WEOW",
-    "creator": "",
+    "creator": "cybervegan",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/650f6d1ab6bc2.png",
-        "name": "650f6d1ab6bc2.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/650d44d5507aa.png",
+        "name": "650d44d5507aa.png",
         "mime": "image/png",
         "height": 28,
         "width": 278
@@ -3891,14 +3891,14 @@
     "prefix": "widepeepoHappy",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/65403119bb8fd.png",
-        "name": "65403119bb8fd.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad16bca80c.png",
+        "name": "665ad16bca80c.png",
         "mime": "image/png",
-        "height": 23,
+        "height": 19,
         "width": 80
       }
     ]
@@ -3953,17 +3953,17 @@
   },
   {
     "prefix": "Wowee",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/5c2bbe2e9c2f2.png",
-        "name": "5c2bbe2e9c2f2.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad17c183ab.png",
+        "name": "665ad17c183ab.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -4089,6 +4089,102 @@
       {
         "url": "https://cdn.destiny.gg/3.5.1/emotes/5c2bbe3c34dab.png",
         "name": "5c2bbe3c34dab.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "dinkDonk",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad4ca2879f.png",
+        "name": "665ad4ca2879f.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 36
+      }
+    ]
+  },
+  {
+    "prefix": "gaengstalked-in-your-attic-Ohio-State-Student-Makes-Thousands-A-Month-As-A-Gaming-Streamer",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad37774c39.png",
+        "name": "665ad37774c39.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 30
+      }
+    ]
+  },
+  {
+    "prefix": "mrmH1",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665a5ccb04ebf.png",
+        "name": "665a5ccb04ebf.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 34
+      }
+    ]
+  },
+  {
+    "prefix": "mrmH2",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665a5ce99c5d1.png",
+        "name": "665a5ce99c5d1.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 34
+      }
+    ]
+  },
+  {
+    "prefix": "NOSHOT",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad43c9e90d.png",
+        "name": "665ad43c9e90d.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "RainbowPls",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665ad21170a2a.png",
+        "name": "665ad21170a2a.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
