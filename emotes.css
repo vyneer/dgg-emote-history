@@ -5679,19 +5679,19 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 
 .msg-chat.msg-emote[data-combo-group="x10"] {
     animation: RARE-SILVER 1.2s 1, RARE-SILVER-PUSLATE 5s infinite 1.2s linear;
-    margin-left:10px;
+    transform-origin:10px;
 }
 .msg-chat.msg-emote[data-combo-group="x20"] {
     animation: RARE-GOLD 1.2s 1, RARE-GOLD-PUSLATE 5s infinite 1.2s linear;
-    margin-left:30px;
+    transform-origin:30px;
 }
 .msg-chat.msg-emote[data-combo-group="x30"] {
     animation: RARE-EMERALD 1.2s 1, RARE-EMERALD-PUSLATE 5s infinite 1.2s linear;
-    margin-left:40px;
+    transform-origin:40px;
 }
 .msg-chat.msg-emote[data-combo-group="x50"] {
     animation: RARE-DIAMOND 1.2s 1, RARE-DIAMOND-PUSLATE 5s infinite 1.2s linear;
-    margin-left:45px;
+    transform-origin:45px;
 }
 
 /*
