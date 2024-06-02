@@ -4096,6 +4096,22 @@
     ]
   },
   {
+    "prefix": "CINEMA",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/665d0120dbcb3.png",
+        "name": "665d0120dbcb3.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 75
+      }
+    ]
+  },
+  {
     "prefix": "dinkDonk",
     "creator": "",
     "twitch": false,

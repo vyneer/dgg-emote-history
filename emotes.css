@@ -2302,6 +2302,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.CINEMA {
+    background-image: url("665d0120dbcb3.png");
+    height: 32px;
+    width: 75px;
+}
+.msg-chat .emote.CINEMA {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.dinkDonk {
     background-image: url("665ad4ca2879f.png");
     height: 30px;
