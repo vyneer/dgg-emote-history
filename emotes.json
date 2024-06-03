@@ -2705,17 +2705,17 @@
   },
   {
     "prefix": "Normgasm",
-    "creator": "",
+    "creator": "cybervegan",
     "twitch": false,
-    "theme": 4,
+    "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.5.1/emotes/665d14ec04ac2.png",
-        "name": "665d14ec04ac2.png",
+        "url": "https://cdn.destiny.gg/3.5.1/emotes/65f57bb5f161f.png",
+        "name": "65f57bb5f161f.png",
         "mime": "image/png",
         "height": 32,
-        "width": 3800
+        "width": 29
       }
     ]
   },
