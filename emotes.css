@@ -1520,9 +1520,9 @@
     top: 7.5px;
 }
 .emote.Normgasm {
-    background-image: url("65f57bb5f161f.png");
+    background-image: url("665d14ec04ac2.png");
     height: 32px;
-    width: 29px;
+    width: 3800px;
 }
 .msg-chat .emote.Normgasm {
     margin-top: -32px;
@@ -4518,6 +4518,23 @@ background-position: 0px 10px;
   90% { transform: translate(.5px, .5px) rotate(0deg); }
   100% { transform: translate(1px, -.5px) rotate(-.5deg); }
 }
+@keyframes Normgasm-anim {
+  0% { width: 100px; z-index: 3; background-position: 0px; margin-right: -42px; }
+  100% { width: 100px; z-index: 3; background-position: -3800px; margin-right: -42px; }
+}
+
+.emote.Normgasm {
+  width: 54px;
+  margin-right: 4px;
+  margin-left: -16px; 
+  background-position: 0px 0px;
+  animation: Normgasm-anim 1.75s steps(38) 1;
+}
+
+.emote.Normgasm:hover {
+  animation: none;
+}
+
 @keyframes OBJECTION-anim {
   0% { clip-path: polygon(0% 0%, 100% -16%, 100% -16%, 0% 100%); transform: rotate(0deg); }
   1% { clip-path: polygon(0% 0%, 100% -16%, 100% -16%, 0% 100%); transform: rotate(20deg); }
