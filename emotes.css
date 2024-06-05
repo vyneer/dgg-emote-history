@@ -5726,6 +5726,16 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     background-repeat: no-repeat;
 }
 
+[data-username="cybervegan"] .emote.WEOW {
+    height: 28px;
+    width: 28px;
+    background-position: -194px;
+    background-repeat: no-repeat;
+    filter: hue-rotate(10deg) brightness(0.9) saturate(1.1);
+}
+
+
+
 /* 
     RARE VARIATIONS 
 
