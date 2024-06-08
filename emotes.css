@@ -5691,25 +5691,21 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 .msg-chat.msg-emote[data-combo-group="x10"] > .chat-combo {
     animation: RARE-SILVER 1.2s 1, RARE-SILVER-PUSLATE 5s infinite 1.2s linear;
     transform-origin:-35px;
-    background-position: 100%;
 }
 .msg-chat.msg-emote[data-combo-group="x20"] > .text .emote,
 .msg-chat.msg-emote[data-combo-group="x20"] > .chat-combo  {
     animation: RARE-GOLD 1.2s 1, RARE-GOLD-PUSLATE 5s infinite 1.2s linear;
     transform-origin:-40px;
-    background-position: 100%;
 }
 .msg-chat.msg-emote[data-combo-group="x30"] > .text .emote,
 .msg-chat.msg-emote[data-combo-group="x30"] > .chat-combo  {
     animation: RARE-EMERALD 1.2s 1, RARE-EMERALD-PUSLATE 5s infinite 1.2s linear;
     transform-origin:-15px;
-    background-position: 100%;
 }
 .msg-chat.msg-emote[data-combo-group="x50"] > .text .emote,
 .msg-chat.msg-emote[data-combo-group="x50"] > .chat-combo  {
     animation: RARE-DIAMOND 1.2s 1, RARE-DIAMOND-PUSLATE 5s infinite 1.2s linear;
     transform-origin:-40px;
-    background-position: 100%;
 }
 
 
