@@ -5720,7 +5720,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 .msg-chat.msg-emote[data-combo-group="x10"] > .text {
     transition: all .35s;
-    padding-left: .3em;
+    padding-left: .5em;
 }
 .msg-chat.msg-emote[data-combo-group="x20"] > .text {
     transition: all .35s;
@@ -5728,11 +5728,11 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 .msg-chat.msg-emote[data-combo-group="x30"] > .text {
     transition: all .35s;
-    padding-left: .7em;
+    padding-left: .5em;
 }
 .msg-chat.msg-emote[data-combo-group="x50"] > .text {
     transition: all .35s;
-    padding-left: 1em;
+    padding-left: .5em;
 }
 
 /*
