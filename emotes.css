@@ -1970,9 +1970,9 @@
     top: 8px;
 }
 .emote.SOY {
-    background-image: url("648fe691f2548.png");
+    background-image: url("666fde327ddc9.png");
     height: 32px;
-    width: 4921px;
+    width: 37px;
 }
 .msg-chat .emote.SOY {
     margin-top: -32px;
@@ -5321,51 +5321,6 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 .emote.SNAP:hover::before {
   animation: SNAP-hover-before 2 150ms, SNAP-hover-before infinite 250ms 600ms;
 }
-.emote.SOY  {
-  height: 32px;
-  width: 37px;
-  transition: all 1s;
-  animation: SOY-anim 4s steps(133) infinite;
-}
-/*
-.emote.SOY:hover {
-  height: 32px;
-  width: 37px;
-  transition: all 1s;
-  animation: SOY-anim 4s steps(133) infinite, SOY-hover-FIRST 4s steps(133) 1, SOY-hover 4s 4s steps(133) infinite;
-} */
-@keyframes SOY-anim {
-     0% { filter: saturate(1) drop-shadow(0px 0px 0px #c40a36); }
-    15% { filter: saturate(1) drop-shadow(0px 0px 0px #d96f05); }
-    30% { filter: saturate(1) drop-shadow(0px 0px 0px #d8af03); }
-    45% { filter: saturate(1) drop-shadow(0px 0px 0px #18e608); }
-    60% { filter: saturate(1) drop-shadow(0px 0px 0px #08a6dc); }
-    75% { filter: saturate(1) drop-shadow(0px 0px 0px #741bd3); }
-    90% { filter: saturate(1) drop-shadow(0px 0px 0px #d610c9); }
-   100% { filter: saturate(1) drop-shadow(0px 0px 0px #c40a36);          
-          background-position: -4921px;}
-}
-@keyframes SOY-hover-FIRST {
-     0% { filter: saturate(1) drop-shadow(0px 0px 1px #c40a36); }
-    15% { filter: saturate(1) drop-shadow(0px 0px 3px #d96f05); }
-    30% { filter: saturate(1) drop-shadow(0px 0px 5px #d8af030);}
-    45% { filter: saturate(1) drop-shadow(0px 0px 5px #18e608); }
-    60% { filter: saturate(1) drop-shadow(0px 0px 5px #08a6dc); }
-    75% { filter: saturate(1) drop-shadow(0px 0px 5px #741bd3); }
-    90% { filter: saturate(1) drop-shadow(0px 0px 5px #d610c9); }
-   100% { filter: saturate(1) drop-shadow(0px 0px 5px #c40a36); }
-}
-@keyframes SOY-hover {
-     0% { filter: saturate(1) drop-shadow(0px 0px 5px #c40a36); }
-    15% { filter: saturate(1) drop-shadow(0px 0px 5px #d96f05); }
-    30% { filter: saturate(1) drop-shadow(0px 0px 5px #d8af03); }
-    45% { filter: saturate(1) drop-shadow(0px 0px 5px #18e608); }
-    60% { filter: saturate(1) drop-shadow(0px 0px 5px #08a6dc); }
-    75% { filter: saturate(1) drop-shadow(0px 0px 5px #741bd3); }
-    90% { filter: saturate(1) drop-shadow(0px 0px 5px #d610c9); }
-   100% { filter: saturate(1) drop-shadow(0px 0px 5px #c40a36); }
-}
-
 .emote.SoyPoint {
   height: 32px;
   width: 43px;
