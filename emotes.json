@@ -387,12 +387,12 @@
     "prefix": "Chatting",
     "creator": "cybervegan",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.8.0/emotes/651f54a0ac864.png",
-        "name": "651f54a0ac864.png",
+        "url": "https://cdn.destiny.gg/3.8.0/emotes/6672a505eddfd.png",
+        "name": "6672a505eddfd.png",
         "mime": "image/png",
         "height": 32,
         "width": 320
@@ -435,12 +435,12 @@
     "prefix": "Clap",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.8.0/emotes/653c2cf09060f.png",
-        "name": "653c2cf09060f.png",
+        "url": "https://cdn.destiny.gg/3.8.0/emotes/6672a545cfb9d.png",
+        "name": "6672a545cfb9d.png",
         "mime": "image/png",
         "height": 32,
         "width": 44
@@ -2515,15 +2515,15 @@
     "prefix": "nathanW",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.8.0/emotes/665b77e859fe5.png",
-        "name": "665b77e859fe5.png",
+        "url": "https://cdn.destiny.gg/3.8.0/emotes/6672a0cc1f208.png",
+        "name": "6672a0cc1f208.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 28
+        "height": 30,
+        "width": 30
       }
     ]
   },
@@ -3249,14 +3249,14 @@
   },
   {
     "prefix": "RapThis",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.8.0/emotes/60bf9011b7631.gif",
-        "name": "60bf9011b7631.gif",
+        "url": "https://cdn.destiny.gg/3.8.0/emotes/6672a4bf7759b.gif",
+        "name": "6672a4bf7759b.gif",
         "mime": "image/gif",
         "height": 28,
         "width": 28
@@ -3489,17 +3489,17 @@
   },
   {
     "prefix": "SOTRIGGERED",
-    "creator": "",
+    "creator": "FizzyLongstockings",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.8.0/emotes/665ade458a704.png",
-        "name": "665ade458a704.png",
+        "url": "https://cdn.destiny.gg/3.8.0/emotes/66729fa5a98f7.png",
+        "name": "66729fa5a98f7.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 43
+        "height": 32,
+        "width": 2112
       }
     ]
   },
@@ -4092,6 +4092,22 @@
         "mime": "image/png",
         "height": 32,
         "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "blackpeopleHappy",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.8.0/emotes/6672a4e3bf28d.png",
+        "name": "6672a4e3bf28d.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 68
       }
     ]
   },
