@@ -1697,14 +1697,14 @@
   },
   {
     "prefix": "LUL",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.8.0/emotes/5c2bbcfe2ba44.png",
-        "name": "5c2bbcfe2ba44.png",
+        "url": "https://cdn.destiny.gg/3.8.0/emotes/6672bd5b5f9f5.png",
+        "name": "6672bd5b5f9f5.png",
         "mime": "image/png",
         "height": 30,
         "width": 36
@@ -1713,14 +1713,14 @@
   },
   {
     "prefix": "LULW",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.8.0/emotes/5ca69cfac2c36.png",
-        "name": "5ca69cfac2c36.png",
+        "url": "https://cdn.destiny.gg/3.8.0/emotes/6672bd77ece30.png",
+        "name": "6672bd77ece30.png",
         "mime": "image/png",
         "height": 32,
         "width": 28
