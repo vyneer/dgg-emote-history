@@ -1961,13 +1961,13 @@
     top: 7.5px;
 }
 .emote.SOTRIGGERED {
-    background-image: url("665a5b6e420fb.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("665ade458a704.png");
+    height: 30px;
+    width: 43px;
 }
 .msg-chat .emote.SOTRIGGERED {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.SOY {
     background-image: url("666fde327ddc9.png");

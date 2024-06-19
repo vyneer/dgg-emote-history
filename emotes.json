@@ -3491,15 +3491,15 @@
     "prefix": "SOTRIGGERED",
     "creator": "",
     "twitch": false,
-    "theme": 4,
+    "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.8.0/emotes/665a5b6e420fb.png",
-        "name": "665a5b6e420fb.png",
+        "url": "https://cdn.destiny.gg/3.8.0/emotes/665ade458a704.png",
+        "name": "665ade458a704.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 32
+        "height": 30,
+        "width": 43
       }
     ]
   },
