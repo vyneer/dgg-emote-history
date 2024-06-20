@@ -215,7 +215,7 @@
     top: 8px;
 }
 .emote.Chatting {
-    background-image: url("6672a505eddfd.png");
+    background-image: url("651f54a0ac864.png");
     height: 32px;
     width: 320px;
 }
@@ -242,7 +242,7 @@
     top: 7.5px;
 }
 .emote.Clap {
-    background-image: url("6672a545cfb9d.png");
+    background-image: url("653c2cf09060f.png");
     height: 32px;
     width: 44px;
 }
@@ -458,13 +458,13 @@
     top: 8px;
 }
 .emote.DEATH {
-    background-image: url("666ae5c20e6e4.png");
-    height: 30px;
-    width: 60px;
+    background-image: url("5dbc29e70d5de.png");
+    height: 32px;
+    width: 30px;
 }
 .msg-chat .emote.DEATH {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Depresstiny {
     background-image: url("5d9bcc0703318.png");
@@ -953,7 +953,7 @@
     top: 7.5px;
 }
 .emote.LUL {
-    background-image: url("6672bd5b5f9f5.png");
+    background-image: url("5c2bbcfe2ba44.png");
     height: 30px;
     width: 36px;
 }
@@ -962,7 +962,7 @@
     top: 7.5px;
 }
 .emote.LULW {
-    background-image: url("6672bd77ece30.png");
+    background-image: url("5ca69cfac2c36.png");
     height: 32px;
     width: 28px;
 }
@@ -1412,13 +1412,13 @@
     top: 7px;
 }
 .emote.nathanW {
-    background-image: url("6672a0cc1f208.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("665b77e859fe5.png");
+    height: 28px;
+    width: 28px;
 }
 .msg-chat .emote.nathanW {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.nathanWat {
     background-image: url("nathanWat.png");
@@ -1826,7 +1826,7 @@
     top: 8px;
 }
 .emote.RapThis {
-    background-image: url("6672a4bf7759b.gif");
+    background-image: url("60bf9011b7631.gif");
     height: 28px;
     width: 28px;
 }
@@ -1961,9 +1961,9 @@
     top: 7.5px;
 }
 .emote.SOTRIGGERED {
-    background-image: url("66729fa5a98f7.png");
+    background-image: url("665a5b6e420fb.png");
     height: 32px;
-    width: 2112px;
+    width: 32px;
 }
 .msg-chat .emote.SOTRIGGERED {
     margin-top: -32px;
@@ -2087,7 +2087,7 @@
     top: 8px;
 }
 .emote.TRIAD {
-    background-image: url("61a9317791bec.png");
+    background-image: url("5fc0682f0c354.png");
     height: 35px;
     width: 4200px;
 }
@@ -2301,15 +2301,6 @@
 .msg-chat .emote.ZOOMER {
     margin-top: -32px;
     top: 8px;
-}
-.emote.blackpeopleHappy {
-    background-image: url("6672a4e3bf28d.png");
-    height: 34px;
-    width: 68px;
-}
-.msg-chat .emote.blackpeopleHappy {
-    margin-top: -34px;
-    top: 8.5px;
 }
 .emote.CINEMA {
     background-image: url("665d0120dbcb3.png");
@@ -3460,6 +3451,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.DANKMEMES:hover {
     animation: DANKMEMES-anim-hover 1s infinite;
 }
+/* made by abudhabbi */
 .emote.dggL {
   animation: dggL-anim 900ms 1;
   transition: all 400ms;
@@ -5330,23 +5322,6 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 .emote.SNAP:hover::before {
   animation: SNAP-hover-before 2 150ms, SNAP-hover-before infinite 250ms 600ms;
 }
-.emote.SOTRIGGERED{
-  height: 32px;
-  width: 39px;
-  animation: SOTRIGGERED-anim 1.2s steps(49) 1 .25s forwards;
-}
-.emote.SOTRIGGERED:hover {
-  height: 32px;
-  width: 39px;
-  animation: SOTRIGGERED-hover 1.2s steps(49) 1 .25s forwards;
-}
-
-@keyframes SOTRIGGERED-anim {
-  to { background-position: -1917px; }
-}
-@keyframes SOTRIGGERED-hover {
-  to { background-position: -1917px; }
-}
 .emote.SoyPoint {
   height: 32px;
   width: 43px;
@@ -6520,32 +6495,4 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 .emote.YeeLaugh:hover {
     animation: YeeLaugh-anim-hover 200ms infinite;
-}
-@keyframes blackpeopleHappy-anim {
-  0% {transform: scale3d(0.6, 1.15, 1);}
-  30% {transform: scale3d(1.25, 0.75, 1);}
-  40% {transform: scale3d(0.4, 1.3, 1);}
-  50% {transform: scale3d(1.15, 0.85, 1);}
-  65% {transform: scale3d(.95, 1.05, 1);}
-  75% {transform: scale3d(1.05, .95, 1);}
-  100% {transform: scale3d(1, 1, 1);}
-}
-
-@keyframes blackpeopleHappy-anim-hover {
-  0% {transform: scale3d(0.6, 1.15, 1);}
-  30% {transform: scale3d(1.25, 0.75, 1);}
-  40% {transform: scale3d(0.4, 1.3, 1);}
-  50% {transform: scale3d(1.15, 0.85, 1);}
-  65% {transform: scale3d(.95, 1.05, 1);}
-  75% {transform: scale3d(1.05, .95, 1);}
-  100% {transform: scale3d(1, 1, 1);}
-}
-
-.emote.blackpeopleHappy {
-  transform-origin: 50% 100%;
-  animation: blackpeopleHappy-anim 1s 1;
-}
-
-.emote.blackpeopleHappy:hover {
-  animation: blackpeopleHappy-anim-hover 1s infinite;
 }
