@@ -657,14 +657,14 @@
   },
   {
     "prefix": "CROPSTINY",
-    "creator": "cybervegan",
+    "creator": "",
     "twitch": false,
-    "theme": 4,
+    "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.10.0/emotes/65273cdb0914e.png",
-        "name": "65273cdb0914e.png",
+        "url": "https://cdn.destiny.gg/3.10.0/emotes/66596f5052e08.png",
+        "name": "66596f5052e08.png",
         "mime": "image/png",
         "height": 32,
         "width": 57
