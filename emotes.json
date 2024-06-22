@@ -2512,22 +2512,6 @@
     ]
   },
   {
-    "prefix": "nathanW",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.10.0/emotes/665b77e859fe5.png",
-        "name": "665b77e859fe5.png",
-        "mime": "image/png",
-        "height": 28,
-        "width": 28
-      }
-    ]
-  },
-  {
     "prefix": "nathanWat",
     "creator": null,
     "twitch": false,
