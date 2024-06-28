@@ -2302,6 +2302,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.CORNPOP {
+    background-image: url("667e121207a78.png");
+    height: 31px;
+    width: 33px;
+}
+.msg-chat .emote.CORNPOP {
+    margin-top: -31px;
+    top: 7.75px;
+}
 .emote.dinkDonk {
     background-image: url("665ad4ca2879f.png");
     height: 30px;
@@ -2319,6 +2328,15 @@
 .msg-chat .emote.gaengstalked-in-your-attic-Ohio-State-Student-Makes-Thousands-A-Month-As-A-Gaming-Streamer {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.JOEVER {
+    background-image: url("667e118983e01.png");
+    height: 32px;
+    width: 35px;
+}
+.msg-chat .emote.JOEVER {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.mrmH1 {
     background-image: url("665a5ccb04ebf.png");
