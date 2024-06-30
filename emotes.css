@@ -2374,6 +2374,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.WHISPERING {
+    background-image: url("6680aaacc3a97.gif");
+    height: 32px;
+    width: 96px;
+}
+.msg-chat .emote.WHISPERING {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ACKSHUALLY {
     width: 47px;
     height: 33px;

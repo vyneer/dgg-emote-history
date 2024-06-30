@@ -4222,5 +4222,21 @@
         "width": 32
       }
     ]
+  },
+  {
+    "prefix": "WHISPERING",
+    "creator": "huansox (7tv)",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/6680aaacc3a97.gif",
+        "name": "6680aaacc3a97.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 96
+      }
+    ]
   }
 ]
