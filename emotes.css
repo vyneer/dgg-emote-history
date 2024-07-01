@@ -457,15 +457,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.DappaKappa {
-    background-image: url("665adcfd67837.png");
-    height: 30px;
-    width: 26px;
-}
-.msg-chat .emote.DappaKappa {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.DatGeoff {
     background-image: url("665add0306a30.png");
     height: 30px;
@@ -1204,51 +1195,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.nathanBlub {
-    background-image: url("665addaa2f3e4.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanBlub {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanBogged {
-    background-image: url("665b0214041ad.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanBogged {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanBoomer {
-    background-image: url("665addb51fb05.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanBoomer {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanDank {
-    background-image: url("nathanDank.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanDank {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanDerp {
-    background-image: url("665b0bb65acdc.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanDerp {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.nathanEZ {
     background-image: url("665addd5ac45b.png");
     height: 28px;
@@ -1285,15 +1231,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.nathanGod1 {
-    background-image: url("665adde090771.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanGod1 {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.nathanGod2 {
     background-image: url("665addefc7050.png");
     height: 28px;
@@ -1303,48 +1240,12 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.nathanGod3 {
-    background-image: url("665addf3d4b8c.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanGod3 {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanGod4 {
-    background-image: url("665addf8383e0.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanGod4 {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanGodstiny {
-    background-image: url("665addfc9b0aa.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanGodstiny {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.nathanNotears {
     background-image: url("nathanNotears.png");
     height: 28px;
     width: 28px;
 }
 .msg-chat .emote.nathanNotears {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanObject {
-    background-image: url("665ade012ef86.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanObject {
     margin-top: -28px;
     top: 7px;
 }
@@ -1366,60 +1267,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.nathanPrime {
-    background-image: url("665ade0567258.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanPrime {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanRuse {
-    background-image: url("665ade09e7435.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanRuse {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanRustle {
-    background-image: url("nathanRustle.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanRustle {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanSenpai {
-    background-image: url("665ade0e3628c.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanSenpai {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanShroom {
-    background-image: url("665ade1293df9.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanShroom {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanThinking {
-    background-image: url("653c2d9083d61.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanThinking {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.nathanTiny1 {
     background-image: url("665ade28c2b3e.png");
     height: 28px;
@@ -1430,38 +1277,11 @@
     top: 7px;
 }
 .emote.nathanTiny2 {
-    background-image: url("665ade2dddaa4.png");
-    height: 20px;
-    width: 80px;
-}
-.msg-chat .emote.nathanTiny2 {
-    margin-top: -20px;
-    top: 5px;
-}
-.emote.nathanTiny2_OG {
     background-image: url("5bd45e7198b76.png");
     height: 28px;
     width: 28px;
 }
-.msg-chat .emote.nathanTiny2_OG {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanTowel {
-    background-image: url("nathanTowel.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanTowel {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanWat {
-    background-image: url("nathanWat.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanWat {
+.msg-chat .emote.nathanTiny2 {
     margin-top: -28px;
     top: 7px;
 }
@@ -1489,24 +1309,6 @@
     width: 28px;
 }
 .msg-chat .emote.nathanYee {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanYikes {
-    background-image: url("5bd0bd13411c5.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanYikes {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanZoomer {
-    background-image: url("665ade37dc873.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanZoomer {
     margin-top: -28px;
     top: 7px;
 }
@@ -4485,14 +4287,6 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
 }
 .emote.Nappa:hover {
     animation: Nappa-anim-hover 750ms infinite;
-}
-@keyframes GIGABAN-anim {
-  0% { transform: translate(-28px, 0); }
-  100% { transform: translate(0, 0); }
-}
-  
-.emote.GIGACHAD + .emote.nathanTiny2 {
-  animation: GIGABAN-anim 1.5s ease-out 1;
 }
 .emote.NOOOO {
   height: 35px;
