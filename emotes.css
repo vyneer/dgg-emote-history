@@ -241,6 +241,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.CINEMA {
+    background-image: url("665d0120dbcb3.png");
+    height: 32px;
+    width: 75px;
+}
+.msg-chat .emote.CINEMA {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Clap {
     background-image: url("653c2cf09060f.png");
     height: 32px;
@@ -304,14 +313,14 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.comfYEE {
-    background-image: url("6478ccb69c357.png");
-    height: 32px;
+.emote.ComfYEE {
+    background-image: url("66825d94bd7c4.png");
+    height: 30px;
     width: 32px;
 }
-.msg-chat .emote.comfYEE {
-    margin-top: -32px;
-    top: 8px;
+.msg-chat .emote.ComfYEE {
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.ComfyFerret {
     background-image: url("6478cca7ebe16.png");
@@ -366,6 +375,15 @@
 .msg-chat .emote.Copium {
     margin-top: -32px;
     top: 8px;
+}
+.emote.CORNPOP {
+    background-image: url("667e121207a78.png");
+    height: 31px;
+    width: 33px;
+}
+.msg-chat .emote.CORNPOP {
+    margin-top: -31px;
+    top: 7.75px;
 }
 .emote.CROPSTINY {
     background-image: url("66596f5052e08.png");
@@ -502,6 +520,15 @@
     margin-top: -35px;
     top: 8.75px;
 }
+.emote.dinkDonk {
+    background-image: url("665ad4ca2879f.png");
+    height: 30px;
+    width: 36px;
+}
+.msg-chat .emote.dinkDonk {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.diNOWAY {
     background-image: url("660b7db35c917.png");
     height: 32px;
@@ -510,15 +537,6 @@
 .msg-chat .emote.diNOWAY {
     margin-top: -32px;
     top: 8px;
-}
-.emote.Disgustiny {
-    background-image: url("665add1acdac4.png");
-    height: 30px;
-    width: 28px;
-}
-.msg-chat .emote.Disgustiny {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.Dravewin {
     background-image: url("665add2034b24.png");
@@ -870,6 +888,15 @@
 .msg-chat .emote.JAMSTINY {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.JOEVER {
+    background-image: url("667e118983e01.png");
+    height: 32px;
+    width: 35px;
+}
+.msg-chat .emote.JOEVER {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Kappa {
     background-image: url("5c2bbcd46c08e.png");
@@ -1518,6 +1545,15 @@
 .msg-chat .emote.Normgasm {
     margin-top: -32px;
     top: 8px;
+}
+.emote.NOSHOT {
+    background-image: url("665ad43c9e90d.png");
+    height: 30px;
+    width: 32px;
+}
+.msg-chat .emote.NOSHOT {
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.NoTears {
     background-image: url("5c2bbd3411c78.png");
@@ -2293,32 +2329,14 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.CINEMA {
-    background-image: url("665d0120dbcb3.png");
+.emote.comfYEE {
+    background-image: url("6478ccb69c357.png");
     height: 32px;
-    width: 75px;
+    width: 32px;
 }
-.msg-chat .emote.CINEMA {
+.msg-chat .emote.comfYEE {
     margin-top: -32px;
     top: 8px;
-}
-.emote.CORNPOP {
-    background-image: url("667e121207a78.png");
-    height: 31px;
-    width: 33px;
-}
-.msg-chat .emote.CORNPOP {
-    margin-top: -31px;
-    top: 7.75px;
-}
-.emote.dinkDonk {
-    background-image: url("665ad4ca2879f.png");
-    height: 30px;
-    width: 36px;
-}
-.msg-chat .emote.dinkDonk {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.gaengstalked-in-your-attic-Ohio-State-Student-Makes-Thousands-A-Month-As-A-Gaming-Streamer {
     background-image: url("665ad37774c39.png");
@@ -2328,15 +2346,6 @@
 .msg-chat .emote.gaengstalked-in-your-attic-Ohio-State-Student-Makes-Thousands-A-Month-As-A-Gaming-Streamer {
     margin-top: -30px;
     top: 7.5px;
-}
-.emote.JOEVER {
-    background-image: url("667e118983e01.png");
-    height: 32px;
-    width: 35px;
-}
-.msg-chat .emote.JOEVER {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.mrmH1 {
     background-image: url("665a5ccb04ebf.png");
@@ -2353,15 +2362,6 @@
     width: 34px;
 }
 .msg-chat .emote.mrmH2 {
-    margin-top: -30px;
-    top: 7.5px;
-}
-.emote.NOSHOT {
-    background-image: url("665ad43c9e90d.png");
-    height: 30px;
-    width: 32px;
-}
-.msg-chat .emote.NOSHOT {
     margin-top: -30px;
     top: 7.5px;
 }
