@@ -62,13 +62,13 @@
     top: 8.5px;
 }
 .emote.ASLAN {
-    background-image: url("66827e98214e0.png");
-    height: 36px;
-    width: 32px;
+    background-image: url("668294e8ca4ff.png");
+    height: 30px;
+    width: 30px;
 }
 .msg-chat .emote.ASLAN {
-    margin-top: -36px;
-    top: 9px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.ATAB {
     background-image: url("66596d331458d.png");
@@ -421,15 +421,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.cummerss {
-    background-image: url("662891389be6c.gif");
-    height: 34px;
-    width: 34px;
-}
-.msg-chat .emote.cummerss {
-    margin-top: -34px;
-    top: 8.5px;
-}
 .emote.Cutestiny {
     background-image: url("649f7adb5746a.png");
     height: 28px;
@@ -472,6 +463,15 @@
     width: 72px;
 }
 .msg-chat .emote.DANKMEMES {
+    margin-top: -30px;
+    top: 7.5px;
+}
+.emote.DappaKappa {
+    background-image: url("665adcfd67837.png");
+    height: 30px;
+    width: 26px;
+}
+.msg-chat .emote.DappaKappa {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -1024,6 +1024,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.MASTERB8 {
+    background-image: url("665b0bed1732b.png");
+    height: 29px;
+    width: 36px;
+}
+.msg-chat .emote.MASTERB8 {
+    margin-top: -29px;
+    top: 7.25px;
+}
 .emote.Memegasm {
     background-image: url("5d6d427ea12da.png");
     height: 30px;
@@ -1246,6 +1255,15 @@
     width: 28px;
 }
 .msg-chat .emote.nathanYee {
+    margin-top: -28px;
+    top: 7px;
+}
+.emote.nathanYikes {
+    background-image: url("5bd0bd13411c5.png");
+    height: 28px;
+    width: 28px;
+}
+.msg-chat .emote.nathanYikes {
     margin-top: -28px;
     top: 7px;
 }
@@ -2076,15 +2094,6 @@
 .msg-chat .emote.Yoda1 {
     margin-top: -28px;
     top: 7px;
-}
-.emote.Yuckstiny {
-    background-image: url("66825eac5cbd8.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.Yuckstiny {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.ZOOMER {
     background-image: url("5c2bbe3c34dab.png");
