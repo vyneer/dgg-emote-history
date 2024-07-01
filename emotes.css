@@ -421,6 +421,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.cummerss {
+    background-image: url("662891389be6c.gif");
+    height: 34px;
+    width: 34px;
+}
+.msg-chat .emote.cummerss {
+    margin-top: -34px;
+    top: 8.5px;
+}
 .emote.Cutestiny {
     background-image: url("649f7adb5746a.png");
     height: 28px;
@@ -1150,15 +1159,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.nathanAYAYA {
-    background-image: url("665adda61e89b.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanAYAYA {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.nathanEZ {
     background-image: url("665addd5ac45b.png");
     height: 28px;
@@ -1176,15 +1176,6 @@
 .msg-chat .emote.nathanF {
     margin-top: -28px;
     top: 7px;
-}
-.emote.nathanGG {
-    background-image: url("665addda0b74d.png");
-    height: 30px;
-    width: 30px;
-}
-.msg-chat .emote.nathanGG {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.nathanNotears {
     background-image: url("nathanNotears.png");
