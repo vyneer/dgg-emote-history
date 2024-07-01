@@ -1488,6 +1488,22 @@
     ]
   },
   {
+    "prefix": "Heimerdonger",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/665add97421dc.png",
+        "name": "665add97421dc.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 37
+      }
+    ]
+  },
+  {
     "prefix": "hesRight",
     "creator": "cybervegan",
     "twitch": false,
