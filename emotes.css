@@ -1609,15 +1609,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.PICNIC {
-    background-image: url("665affd7b37e7.png");
-    height: 20px;
-    width: 50px;
-}
-.msg-chat .emote.PICNIC {
-    margin-top: -20px;
-    top: 5px;
-}
 .emote.Pog {
     background-image: url("5c6455a35f292.png");
     height: 28px;
@@ -4709,20 +4700,6 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 .emote.PepoTurkey:hover {
     animation: PepoTurkey-anim-hover 0.7s infinite;
-}
-@keyframes PICNIC-anim {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.2); }
-}
-@keyframes PICNIC-anim-hover {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.2); }
-}
-.emote.PICNIC {
-    animation: PICNIC-anim 350ms 3;
-}
-.emote.PICNIC:hover {
-    animation: PICNIC-anim-hover 350ms infinite;
 }
 .emote.POPPERS{
         width:

@@ -2864,22 +2864,6 @@
     ]
   },
   {
-    "prefix": "PICNIC",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.11.1/emotes/665affd7b37e7.png",
-        "name": "665affd7b37e7.png",
-        "mime": "image/png",
-        "height": 20,
-        "width": 50
-      }
-    ]
-  },
-  {
     "prefix": "Pog",
     "creator": null,
     "twitch": false,
