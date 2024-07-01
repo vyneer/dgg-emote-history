@@ -62,13 +62,13 @@
     top: 8.5px;
 }
 .emote.ASLAN {
-    background-image: url("66596ccd336b4.png");
-    height: 30px;
-    width: 41px;
+    background-image: url("66827e98214e0.png");
+    height: 36px;
+    width: 32px;
 }
 .msg-chat .emote.ASLAN {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -36px;
+    top: 9px;
 }
 .emote.Aware {
     background-image: url("66596d4136715.png");
@@ -177,6 +177,24 @@
 .msg-chat .emote.BOGGED {
     margin-top: -28px;
     top: 7px;
+}
+.emote.BONK {
+    background-image: url("66828047c48cd.png");
+    height: 32px;
+    width: 110px;
+}
+.msg-chat .emote.BONK {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.BONNED {
+    background-image: url("66827fc5cae75.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.BONNED {
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.BOOMER {
     background-image: url("66596e2be5fbb.png");
@@ -701,13 +719,13 @@
     top: 7.5px;
 }
 .emote.FourHead {
-    background-image: url("5d2a2db890ef3.png");
-    height: 22px;
-    width: 32px;
+    background-image: url("66827e931e706.png");
+    height: 30px;
+    width: 20px;
 }
 .msg-chat .emote.FourHead {
-    margin-top: -22px;
-    top: 5.5px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.gachiGASM {
     background-image: url("5c2bbc9ac1396.png");
@@ -1140,15 +1158,6 @@
 .msg-chat .emote.nathanF {
     margin-top: -28px;
     top: 7px;
-}
-.emote.nathanFeels {
-    background-image: url("660ce38e093b9.png");
-    height: 30px;
-    width: 30px;
-}
-.msg-chat .emote.nathanFeels {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.nathanGG {
     background-image: url("665addda0b74d.png");
@@ -1834,6 +1843,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.tinyWTF {
+    background-image: url("66827da781cd6.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.tinyWTF {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.tonyW {
     background-image: url("665b0b7bae0c1.png");
     height: 32px;
@@ -2020,6 +2038,15 @@
     width: 32px;
 }
 .msg-chat .emote.YeeMods {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.YesHoney {
+    background-image: url("66827fa78c56f.png");
+    height: 32px;
+    width: 42px;
+}
+.msg-chat .emote.YesHoney {
     margin-top: -32px;
     top: 8px;
 }
@@ -2429,6 +2456,23 @@ filter: contrast(1) saturate(1) brightness(1.25);
   animation: Blubstiny-anim-hover 0.5s infinite;
       animation-delay: 0.25s;
 }
+@keyframes BONK-anim {
+  100% { background-position: -110px; }
+}
+
+@keyframes BONK-hover {
+  100% { background-position: -110px; }
+}
+
+.emote.BONK {
+  width: 55px;
+  height: 32px;
+  animation: BONK-anim 600ms steps(2) 3;
+}
+.emote.BONK:hover {
+  animation: BONK-hover 150ms steps(2) infinite;
+}
+
 @keyframes BoomerSippy-right {
   0%, 100% { filter: drop-shadow(0 0 0.5px black); }
   15% { background-position: 0 0;  }
