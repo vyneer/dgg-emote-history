@@ -1328,6 +1328,22 @@
     ]
   },
   {
+    "prefix": "FrankerZ",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/665b0209da572.png",
+        "name": "665b0209da572.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 42
+      }
+    ]
+  },
+  {
     "prefix": "gachiGASM",
     "creator": null,
     "twitch": false,
@@ -1676,22 +1692,6 @@
         "mime": "image/png",
         "height": 34,
         "width": 1054
-      }
-    ]
-  },
-  {
-    "prefix": "KKanada",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.11.1/emotes/668265a9e55fe.png",
-        "name": "668265a9e55fe.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
       }
     ]
   },
@@ -2112,6 +2112,22 @@
     ]
   },
   {
+    "prefix": "nathanGG",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/665addda0b74d.png",
+        "name": "665addda0b74d.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 30
+      }
+    ]
+  },
+  {
     "prefix": "nathanNotears",
     "creator": null,
     "twitch": false,
@@ -2153,6 +2169,22 @@
       {
         "url": "https://cdn.destiny.gg/3.11.1/emotes/665b0bcb365a8.png",
         "name": "665b0bcb365a8.png",
+        "mime": "image/png",
+        "height": 28,
+        "width": 28
+      }
+    ]
+  },
+  {
+    "prefix": "nathanPrime",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/665ade0567258.png",
+        "name": "665ade0567258.png",
         "mime": "image/png",
         "height": 28,
         "width": 28
@@ -2812,6 +2844,22 @@
         "mime": "image/png",
         "height": 32,
         "width": 38
+      }
+    ]
+  },
+  {
+    "prefix": "PICNIC",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/665affd7b37e7.png",
+        "name": "665affd7b37e7.png",
+        "mime": "image/png",
+        "height": 20,
+        "width": 50
       }
     ]
   },

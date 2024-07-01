@@ -745,6 +745,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.FrankerZ {
+    background-image: url("665b0209da572.png");
+    height: 30px;
+    width: 42px;
+}
+.msg-chat .emote.FrankerZ {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.gachiGASM {
     background-image: url("5c2bbc9ac1396.png");
     height: 30px;
@@ -942,15 +951,6 @@
 .msg-chat .emote.KEIKAKU {
     margin-top: -34px;
     top: 8.5px;
-}
-.emote.KKanada {
-    background-image: url("668265a9e55fe.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.KKanada {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.Klappa {
     background-image: url("5e78eb181cc2b.png");
@@ -1186,6 +1186,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.nathanGG {
+    background-image: url("665addda0b74d.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.nathanGG {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.nathanNotears {
     background-image: url("nathanNotears.png");
     height: 28px;
@@ -1210,6 +1219,15 @@
     width: 28px;
 }
 .msg-chat .emote.nathanPepe {
+    margin-top: -28px;
+    top: 7px;
+}
+.emote.nathanPrime {
+    background-image: url("665ade0567258.png");
+    height: 28px;
+    width: 28px;
+}
+.msg-chat .emote.nathanPrime {
     margin-top: -28px;
     top: 7px;
 }
@@ -1581,6 +1599,15 @@
 .msg-chat .emote.PepoWant {
     margin-top: -32px;
     top: 8px;
+}
+.emote.PICNIC {
+    background-image: url("665affd7b37e7.png");
+    height: 20px;
+    width: 50px;
+}
+.msg-chat .emote.PICNIC {
+    margin-top: -20px;
+    top: 5px;
 }
 .emote.Pog {
     background-image: url("5c6455a35f292.png");
@@ -4673,6 +4700,20 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 .emote.PepoTurkey:hover {
     animation: PepoTurkey-anim-hover 0.7s infinite;
+}
+@keyframes PICNIC-anim {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+@keyframes PICNIC-anim-hover {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+.emote.PICNIC {
+    animation: PICNIC-anim 350ms 3;
+}
+.emote.PICNIC:hover {
+    animation: PICNIC-anim-hover 350ms infinite;
 }
 .emote.POPPERS{
         width:
