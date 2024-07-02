@@ -1008,6 +1008,22 @@
     ]
   },
   {
+    "prefix": "DOUBT",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/66839a60c446a.png",
+        "name": "66839a60c446a.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 56
+      }
+    ]
+  },
+  {
     "prefix": "DuckerZ",
     "creator": null,
     "twitch": false,

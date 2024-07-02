@@ -565,6 +565,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.DOUBT {
+    background-image: url("66839a60c446a.png");
+    height: 32px;
+    width: 56px;
+}
+.msg-chat .emote.DOUBT {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.DuckerZ {
     background-image: url("5c2bbc5803fc3.png");
     height: 26px;
