@@ -2304,22 +2304,6 @@
     ]
   },
   {
-    "prefix": "nathanYikes",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.11.1/emotes/5bd0bd13411c5.png",
-        "name": "5bd0bd13411c5.png",
-        "mime": "image/png",
-        "height": 28,
-        "width": 28
-      }
-    ]
-  },
-  {
     "prefix": "NiceMeMe",
     "creator": null,
     "twitch": false,
@@ -3761,17 +3745,17 @@
   },
   {
     "prefix": "Yikestiny",
-    "creator": "cybervegan",
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.11.1/emotes/6682602fdf86c.png",
-        "name": "6682602fdf86c.png",
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/5bd0bd13411c5.png",
+        "name": "5bd0bd13411c5.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 28,
+        "width": 28
       }
     ]
   },

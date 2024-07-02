@@ -1294,15 +1294,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.nathanYikes {
-    background-image: url("5bd0bd13411c5.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanYikes {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.NiceMeMe {
     background-image: url("5fad994ca9712.png");
     height: 30px;
@@ -2114,13 +2105,13 @@
     top: 8px;
 }
 .emote.Yikestiny {
-    background-image: url("6682602fdf86c.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("5bd0bd13411c5.png");
+    height: 28px;
+    width: 28px;
 }
 .msg-chat .emote.Yikestiny {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.Yoda1 {
     background-image: url("665affdd963e2.png");
@@ -3467,9 +3458,8 @@ filter: contrast(1) saturate(1) brightness(1.25);
   background-position: -2560px;
   transition: all 0.5s;
   filter: brightness(1.25) drop-shadow(0px 0px 1px #ff0000)
-    drop-shadow(0px 0px 3px #ff0000) drop-shadow(0px 0px 5px #ff0000);
+  drop-shadow(0px 0px 3px #ff0000) drop-shadow(0px 0px 5px #ff0000);
   animation: none;
-
 }
 
 /* ## UNIQUE USERS ## */
