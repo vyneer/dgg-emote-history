@@ -832,22 +832,6 @@
     ]
   },
   {
-    "prefix": "DankChoke",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.11.1/emotes/6683a32b46d81.png",
-        "name": "6683a32b46d81.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "DANKMEMES",
     "creator": "",
     "twitch": false,
@@ -3580,6 +3564,22 @@
         "mime": "image/png",
         "height": 35,
         "width": 35
+      }
+    ]
+  },
+  {
+    "prefix": "WHISPERING",
+    "creator": "huansox (7tv)",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/6680aaacc3a97.gif",
+        "name": "6680aaacc3a97.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 96
       }
     ]
   },
