@@ -3817,7 +3817,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   100% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
 }
 
-@keyframes GRUGingOverIt:hover {
+@keyframes GRUGingOverIt-hover {
   0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 32px; }
   10% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 0; }
   30% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
@@ -3828,7 +3828,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   100% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
 }
 
-@keyframes GRUGingOverItMark-anim {
+@keyframes GRUGingOverIt-Mark-anim {
   5% { transform: scale(0, 0); transform-origin: bottom; }
   37% { transform: scale(0, 0); transform-origin: bottom; }
   40% { transform: scale(1, 0.7); transform-origin: bottom; }
@@ -3837,7 +3837,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   85% { transform: scale(1.4, .1); transform-origin: bottom; }
   90% { transform: scale(0, 0); transform-origin: bottom; }
 }
-@keyframes GRUGingOverItMark-anim-hover {
+@keyframes GRUGingOverIt-Mark-anim-hover {
   5% { transform: scale(0, 0); transform-origin: bottom; }
   37% { transform: scale(0, 0); transform-origin: bottom; }
   40% { transform: scale(1, 0.7); transform-origin: bottom; }
@@ -3858,10 +3858,10 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
     top: -10px;
     left: 0px;
     transform: scale(0, 0);
-    animation: GRUGingOverItMark-anim 2s 1;
+    animation: GRUGingOverIt-Mark-anim 2s 1;
 }
 .emote.GRUGingOverIt:hover::before {
-  animation: GRUGingOverItMark-anim-hover 2s infinite;
+  animation: GRUGingOverIt-Mark-anim-hover 2s infinite;
 }
 .emote.HACKERMAN {
   margin-left: -1px;
@@ -3871,18 +3871,18 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   background-repeat: no-repeat;
 }
 @keyframes HACKERMAN-scan {
-  0% { transform: translate(0, 0); box-shadow: inset 0 .5px 0 #0F0, 0 0 10px #0F0; }
+  0% { transform: translate(0); box-shadow: inset 0 .5px 0 #0F0, 0 0 10px #0F0; }
   40% { transform: translate(0, 29px); box-shadow: inset 0 .5px 0 #0F0, 0 0 30px #0F0; }
   50% { transform: translate(0, 29px); box-shadow: inset 0 .5px 0 #0F0, 0 0 0px #0F0;}
-  50.01% { transform: translate(0, 0); box-shadow: inset 0 -.5px 0 #0F0, 0 0 10px #0F0;}
+  50.01% { transform: translate(0); box-shadow: inset 0 -.5px 0 #0F0, 0 0 10px #0F0;}
   90% { transform: translate(0, -29px);  box-shadow: inset 0 -.5px 0 #0F0, 0 0 30px #0F0; }
   100% { transform: translate(0, -29px); box-shadow: inset 0 -.5px 0 #0F0, 0 0 0 #0F0; }
 }
 @keyframes HACKERMAN-scan-hover {
-  0% { transform: translate(0, 0); box-shadow: inset 0 .5px 0 #0F0, 0 0 10px #0F0, 0 0 10px #0F0; }
+  0% { transform: translate(0); box-shadow: inset 0 .5px 0 #0F0, 0 0 10px #0F0, 0 0 10px #0F0; }
   40% { transform: translate(0, 29px); box-shadow: inset 0 .5px 0 #0F0, 0 0 10px #0F0, 0 0 5px #0F0; }
   50% { transform: translate(0, 29px); box-shadow: inset 0 .5px 0 #0F0, 0 0 0px #0F0, 0 0 0px #0F0;}
-  50.01% { transform: translate(0, 0); box-shadow: inset 0 -.5px 0 #0F0, 0 0 10px #0F0, 0 0 10px #0F0;}
+  50.01% { transform: translate(0); box-shadow: inset 0 -.5px 0 #0F0, 0 0 10px #0F0, 0 0 10px #0F0;}
   90% { transform: translate(0, -29px);  box-shadow: inset 0 -.5px 0 #0F0, 0 0 10px #0F0, 0 0 5px #0F0; }
   100% { transform: translate(0, -29px); box-shadow: inset 0 -.5px 0 #0F0, 0 0 0 #0F0, 0 0 0 #0F0; }
 }
@@ -3906,7 +3906,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   10% { content: "87541 4234 45343 45646 5467 954...";}
   15% { content: "54674 5644 87545 5642 456 35...";}
   20% { content: "9354 5821 5475 3748 456 5...";}
-  25% { content: "9542 865 8534 785 45..."; width 100%; }
+  25% { content: "9542 865 8534 785 45..."; width: 100%; }
   30% { content: "8653 85 853 865 5..."; width: 60%; }
   35% { content: "854 41 37 86..."; width: 50%; }
   40% { content: "492 45 69..."; }
@@ -3925,7 +3925,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   10% { content: "87541 4234 45343 45646 5467 954...";}
   15% { content: "54674 5644 87545 5642 456 35...";}
   20% { content: "9354 5821 5475 3748 456 5...";}
-  25% { content: "9542 865 8534 785 45..."; width 100%; }
+  25% { content: "9542 865 8534 785 45..."; width: 100%; }
   30% { content: "8653 85 853 865 5..."; width: 50%; }
   35% { content: "854 41 37 86...";}
   40% { content: "492 45 69..."; }
