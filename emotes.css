@@ -3332,14 +3332,14 @@ filter: contrast(1) saturate(1) brightness(1.25);
 }
 @keyframes DankChoke-anim {
     from { left: 0; }
-    to { left: 2px; }
+    to { left: 3px; }
 }
 @keyframes DankChoke-anim-hover {
     from { left: 0; }
-    to { left: 2px; }
+    to { left: 3px; }
 }
 .emote.DankChoke {
-    animation: DankChoke-anim 100ms 10;
+    animation: DankChoke-anim 100ms 7;
 }
 .emote.DankChoke:hover {
     animation: DankChoke-anim-hover 100ms infinite;
@@ -3940,7 +3940,6 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 }
 .emote.HACKERMAN:before {
   text-align: start;
-  word-wrap: none;
   mix-blend-mode: screen;
   letter-spacing: 1px;
   font-family: "Courier New", Courier, monospace;
@@ -5242,7 +5241,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 
 @keyframes SpookerZ-anim {
-    0% { transform: translate(0px 0px); }
+    0% { transform: translate(0px, 0px); }
     25% { transform: translate(0px,4px) }
     75% { transform: rotate(-10deg); }
     100% {
@@ -5251,7 +5250,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     }
 }
 @keyframes SpookerZ-anim-hover {
-    0% { transform: translate(0px 0px); }
+    0% { transform: translate(0px, 0px); }
     25% { transform: translate(0px,4px) }
     75% { transform: rotate(-10deg); }
     100% {

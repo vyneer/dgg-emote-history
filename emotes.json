@@ -3281,7 +3281,7 @@
   },
   {
     "prefix": "SpookerZ",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
