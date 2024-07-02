@@ -34,6 +34,15 @@
     margin-top: -26px;
     top: 6.5px;
 }
+.emote.AMOGUS {
+    background-image: url("665b0bdb9267f.png");
+    height: 30px;
+    width: 70px;
+}
+.msg-chat .emote.AMOGUS {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.AngelThump {
     background-image: url("5c2bbb9fa8ab2.png");
     height: 30px;
@@ -457,6 +466,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.DankChoke {
+    background-image: url("6683a32b46d81.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.DankChoke {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.DANKMEMES {
     background-image: url("66596f55973e2.png");
     height: 30px;
@@ -465,6 +483,15 @@
 .msg-chat .emote.DANKMEMES {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.DankWave {
+    background-image: url("6683a33ce76e6.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.DankWave {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.DappaKappa {
     background-image: url("665adcfd67837.png");
@@ -598,6 +625,15 @@
     width: 30px;
 }
 .msg-chat .emote.ECH {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.EVIL {
+    background-image: url("6683a34d73243.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.EVIL {
     margin-top: -32px;
     top: 8px;
 }
@@ -961,15 +997,6 @@
     margin-top: -34px;
     top: 8.5px;
 }
-.emote.KKanada {
-    background-image: url("668265a9e55fe.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.KKanada {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.Klappa {
     background-image: url("5e78eb181cc2b.png");
     height: 30px;
@@ -1142,13 +1169,13 @@
     top: 8px;
 }
 .emote.monkaVirus {
-    background-image: url("665b0bdb9267f.png");
-    height: 30px;
-    width: 70px;
+    background-image: url("6683a68fcc03f.png");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.monkaVirus {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.MotherFuckinGame {
     background-image: url("665aec373e762.png");
@@ -1390,6 +1417,15 @@
     width: 86px;
 }
 .msg-chat .emote.OBJECTION {
+    margin-top: -30px;
+    top: 7.5px;
+}
+.emote.OhBrother {
+    background-image: url("6683a64b6b552.png");
+    height: 30px;
+    width: 37px;
+}
+.msg-chat .emote.OhBrother {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -2144,6 +2180,28 @@
 .emote.AMAZIN {
     transform: translate(0px, 4px);
 }
+.emote.AMOGUS {
+  width: 35px;
+}
+.emote.AMOGUS:nth-child(6n-5) {
+  filter: hue-rotate(68deg);
+}
+.emote.AMOGUS:nth-child(6n-4) {
+  filter: hue-rotate(113deg);
+}
+.emote.AMOGUS:nth-child(6n-3) {
+  filter: hue-rotate(180deg);
+}
+.emote.AMOGUS:nth-child(6n-2) {
+  filter: hue-rotate(270deg);
+}
+.emote.AMOGUS:nth-child(6n-1) {
+  filter: hue-rotate(310deg);
+}
+.emote.AMOGUS:nth-last-child(5n-2) {
+  background-position: 35px;
+}
+
 /*@keyframes AngelThump-anim {
   20%  { filter: drop-shadow(0px 8px 1.22px #f9f63b); font-size: 32px; margin-left: 32px; }
   90%  { filter: drop-shadow(0px 8px 1.22px #f9f63b); font-size: 32px; margin-left: 32px; }
@@ -3272,6 +3330,20 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.CuckCrab:hover {
   animation: CuckCrab-hover 3.68s steps(92) infinite;
 }
+@keyframes DankChoke-anim {
+    from { left: 0; }
+    to { left: 2px; }
+}
+@keyframes DankChoke-anim-hover {
+    from { left: 0; }
+    to { left: 2px; }
+}
+.emote.DankChoke {
+    animation: DankChoke-anim 100ms 10;
+}
+.emote.DankChoke:hover {
+    animation: DankChoke-anim-hover 100ms infinite;
+}
 @keyframes DANKMEMES-anim {
     0%, 100% {
         -webkit-filter: hue-rotate(0deg);
@@ -4172,28 +4244,6 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
 }
 .emote.monkaHmmm:hover{
 transform: rotate(2deg) translate(1px, 2px);
-}
-
-.emote.monkaVirus {
-  width: 35px;
-}
-.emote.monkaVirus:nth-child(6n-5) {
-  filter: hue-rotate(68deg);
-}
-.emote.monkaVirus:nth-child(6n-4) {
-  filter: hue-rotate(113deg);
-}
-.emote.monkaVirus:nth-child(6n-3) {
-  filter: hue-rotate(180deg);
-}
-.emote.monkaVirus:nth-child(6n-2) {
-  filter: hue-rotate(270deg);
-}
-.emote.monkaVirus:nth-child(6n-1) {
-  filter: hue-rotate(310deg);
-}
-.emote.monkaVirus:nth-last-child(5n-2) {
-  background-position: 35px;
 }
 
 .emote.NAILS {
