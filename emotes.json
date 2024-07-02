@@ -1712,6 +1712,22 @@
     ]
   },
   {
+    "prefix": "KKanada",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/668265a9e55fe.png",
+        "name": "668265a9e55fe.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "Klappa",
     "creator": null,
     "twitch": false,
@@ -3367,8 +3383,8 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.11.1/emotes/660abce276fba.gif",
-        "name": "660abce276fba.gif",
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/66834fe91db75.gif",
+        "name": "66834fe91db75.gif",
         "mime": "image/gif",
         "height": 32,
         "width": 32

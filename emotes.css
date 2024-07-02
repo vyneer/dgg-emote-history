@@ -961,6 +961,15 @@
     margin-top: -34px;
     top: 8.5px;
 }
+.emote.KKanada {
+    background-image: url("668265a9e55fe.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.KKanada {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Klappa {
     background-image: url("5e78eb181cc2b.png");
     height: 30px;
@@ -1889,7 +1898,7 @@
     top: 7.5px;
 }
 .emote.TINYING {
-    background-image: url("660abce276fba.gif");
+    background-image: url("66834fe91db75.gif");
     height: 32px;
     width: 32px;
 }
@@ -2573,12 +2582,29 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.BONK {
   width: 55px;
   height: 32px;
-  animation: BONK-anim 600ms steps(2) 3;
+  animation: BONK-anim .15s steps(2) 9 alternate-reverse , YUMP-anim .3s 5 .1s reverse;
 }
 .emote.BONK:hover {
-  animation: BONK-hover 150ms steps(2) infinite;
+  animation: BONK-hover .15s steps(2) infinite alternate-reverse , YUMP-anim-hover.35s infinite   reverse;
 }
-
+@keyframes YUMP-anim {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(0px, .5px) rotate(-3deg); animation-timing-function: ease }
+    37% { transform: translate(0px, 0px) rotate(-3deg); animation-timing-function: ease-in }
+    55% { transform: translate(0px, 1px) rotate(4deg); animation-timing-function: ease}
+    60% { transform: translate(0px, 0px) rotate(2deg); animation-timing-function: ease-in}
+    75% { transform: translate(2px, 4px); animation-timing-function: ease }
+    100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
+}
+@keyframes YUMP-anim-hover {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(0px, .5px) rotate(-3deg); animation-timing-function: ease }
+    37% { transform: translate(0px, 0px) rotate(-3deg); animation-timing-function: ease-in }
+    55% { transform: translate(0px, 1px) rotate(4deg); animation-timing-function: ease}
+    60% { transform: translate(0px, 0px) rotate(2deg); animation-timing-function: ease-in}
+    75% { transform: translate(2px, 4px); animation-timing-function: ease }
+    100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
+}
 @keyframes BoomerSippy-right {
   0%, 100% { filter: drop-shadow(0 0 0.5px black); }
   15% { background-position: 0 0;  }
@@ -3562,6 +3588,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 .emote.gachiGASM:hover::after {
     animation: gachiGASM-anim-ba-hover 500ms infinite linear;
 }
+/* this emote sucks, cake - 7/1/24 */
 @keyframes GIGACHAD-anim {
   0% { background-position: -28px 10px; }
   100% { background-position: 0px; }
@@ -5536,7 +5563,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 */
 
 /* GOLD */
-.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.WEOW:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="96"]~.text .emote.WEOW:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
