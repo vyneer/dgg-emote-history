@@ -1376,22 +1376,6 @@
     ]
   },
   {
-    "prefix": "GatoPls",
-    "creator": "cybervegan",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.11.1/emotes/66826a3a23fd8.png",
-        "name": "66826a3a23fd8.png",
-        "mime": "image/png",
-        "height": 38,
-        "width": 45
-      }
-    ]
-  },
-  {
     "prefix": "GIGACHAD",
     "creator": "",
     "twitch": false,
