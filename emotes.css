@@ -557,13 +557,13 @@
     top: 8.75px;
 }
 .emote.dinkDonk {
-    background-image: url("665ad4ca2879f.png");
-    height: 30px;
-    width: 36px;
+    background-image: url("66865c0335a8e.png");
+    height: 32px;
+    width: 44px;
 }
 .msg-chat .emote.dinkDonk {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.diNOWAY {
     background-image: url("660b7db35c917.png");
