@@ -3025,17 +3025,17 @@
   },
   {
     "prefix": "RapThis",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.11.1/emotes/60bf9011b7631.gif",
-        "name": "60bf9011b7631.gif",
-        "mime": "image/gif",
-        "height": 28,
-        "width": 28
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/668667a5cd68d.png",
+        "name": "668667a5cd68d.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 31
       }
     ]
   },
