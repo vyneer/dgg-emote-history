@@ -961,6 +961,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.JulyFourth {
+    background-image: url("66864d6d9b88d.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.JulyFourth {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Kappa {
     background-image: url("5c2bbcd46c08e.png");
     height: 30px;

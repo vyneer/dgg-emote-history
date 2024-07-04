@@ -1712,6 +1712,22 @@
     ]
   },
   {
+    "prefix": "JulyFourth",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/66864d6d9b88d.png",
+        "name": "66864d6d9b88d.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "Kappa",
     "creator": null,
     "twitch": false,
