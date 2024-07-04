@@ -1057,17 +1057,17 @@
   },
   {
     "prefix": "DuckerZ",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.11.1/emotes/5c2bbc5803fc3.png",
-        "name": "5c2bbc5803fc3.png",
+        "url": "https://cdn.destiny.gg/3.11.1/emotes/66865d2ae5c32.png",
+        "name": "66865d2ae5c32.png",
         "mime": "image/png",
-        "height": 26,
-        "width": 56
+        "height": 35,
+        "width": 63
       }
     ]
   },
@@ -3484,22 +3484,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 28
-      }
-    ]
-  },
-  {
-    "prefix": "TotallyFine",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.11.1/emotes/66864ed6bc452.png",
-        "name": "66864ed6bc452.png",
-        "mime": "image/png",
-        "height": 34,
-        "width": 35
       }
     ]
   },
