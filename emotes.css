@@ -161,13 +161,13 @@
     top: 8px;
 }
 .emote.BLADE {
-    background-image: url("66865111aa66e.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("6687a32a80ac9.png");
+    height: 30px;
+    width: 30px;
 }
 .msg-chat .emote.BLADE {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.Blesstiny {
     background-image: url("66596baae76d9.png");
@@ -593,13 +593,13 @@
     top: 8px;
 }
 .emote.DuckerZ {
-    background-image: url("66865d2ae5c32.png");
-    height: 35px;
-    width: 63px;
+    background-image: url("5c2bbc5803fc3.png");
+    height: 26px;
+    width: 56px;
 }
 .msg-chat .emote.DuckerZ {
-    margin-top: -35px;
-    top: 8.75px;
+    margin-top: -26px;
+    top: 6.5px;
 }
 .emote.DURRSTINY {
     background-image: url("665b0bff07c78.png");
@@ -665,9 +665,9 @@
     top: 7px;
 }
 .emote.FeelsDankMan {
-    background-image: url("66864da9cd27d.png");
+    background-image: url("647e37b8b3860.png");
     height: 32px;
-    width: 32px;
+    width: 28px;
 }
 .msg-chat .emote.FeelsDankMan {
     margin-top: -32px;
@@ -958,15 +958,6 @@
     width: 35px;
 }
 .msg-chat .emote.JOEVER {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.JulyFourth {
-    background-image: url("66864d6d9b88d.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.JulyFourth {
     margin-top: -32px;
     top: 8px;
 }
@@ -1519,15 +1510,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.peepoUSA {
-    background-image: url("66864d7a1817e.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.peepoUSA {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.PEPE {
     background-image: url("6157386b7d2fc.png");
     height: 30px;
@@ -1691,13 +1673,13 @@
     top: 8px;
 }
 .emote.POTATO {
-    background-image: url("668651be3c278.png");
-    height: 32px;
+    background-image: url("649f774ab436f.png");
+    height: 28px;
     width: 32px;
 }
 .msg-chat .emote.POTATO {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.RapThis {
     background-image: url("668667a5cd68d.png");
@@ -1862,9 +1844,9 @@
     top: 7.5px;
 }
 .emote.Stare {
-    background-image: url("66864db21ccd8.png");
+    background-image: url("65423c2ae0e84.png");
     height: 32px;
-    width: 37px;
+    width: 41px;
 }
 .msg-chat .emote.Stare {
     margin-top: -32px;
@@ -2542,6 +2524,29 @@ filter: contrast(1) saturate(1) brightness(1.25);
   transform-origin: -36px 32px;
   transform: rotate(10deg);
   animation: none;
+}
+
+.msg-chat.msg-user .user.flair8 ~ .text .emote.BLADE { 
+  filter: brightness(2) hue-rotate(-90deg) saturate(2);
+}
+.msg-chat.msg-user .user.flair3 ~ .text .emote.BLADE {
+  filter: brightness(2) hue-rotate(80deg) saturate(2);
+}
+.msg-chat.msg-user .user.flair1 ~ .text .emote.BLADE {
+  filter: brightness(2) hue-rotate(160deg) saturate(2);
+}
+.msg-chat.msg-user .user.flair13 ~ .text .emote.BLADE {
+  filter: brightness(2) hue-rotate(210deg) saturate(2);
+}
+.msg-chat.msg-user .user.flair42 ~ .text .emote.BLADE {
+  animation: BLADE-t5 2.975s infinite linear;
+}
+.msg-chat.msg-user .user.flair42 ~ .text .emote.GIGACHAD + .emote.BLADE {
+    animation: BLADE-anim-swing .25s 3, BLADE-anim-stab .75s 1 .75s linear, BLADE-path 0.325s 1 ease-out, BLADE-hold 0.325s 1 ease-out, GIGABLADE 1.5s 1 ease-out, BLADE-t5 2.975s infinite linear;
+}
+
+.msg-chat.msg-user .user.flair42 ~ .text .emote.GIGACHAD + .emote.BLADE:hover {
+  animation: none, GIGABLADE 1.5s 1 ease-out, BLADE-t5 2.975s infinite linear;
 }
 
 @keyframes GIGABLADE {
