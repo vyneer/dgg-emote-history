@@ -432,22 +432,6 @@
     ]
   },
   {
-    "prefix": "CAUGHT",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.12.0/emotes/66890fa830949.png",
-        "name": "66890fa830949.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 61
-      }
-    ]
-  },
-  {
     "prefix": "Chatting",
     "creator": "cybervegan",
     "twitch": false,
