@@ -1024,6 +1024,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.Listening {
+    background-image: url("6689d5ebaca66.png");
+    height: 33px;
+    width: 48px;
+}
+.msg-chat .emote.Listening {
+    margin-top: -33px;
+    top: 8.25px;
+}
 .emote.LOVE {
     background-image: url("5cc0cc2a87ca8.png");
     height: 30px;

@@ -1824,6 +1824,22 @@
     ]
   },
   {
+    "prefix": "Listening",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.12.0/emotes/6689d5ebaca66.png",
+        "name": "6689d5ebaca66.png",
+        "mime": "image/png",
+        "height": 33,
+        "width": 48
+      }
+    ]
+  },
+  {
     "prefix": "LOVE",
     "creator": null,
     "twitch": false,
