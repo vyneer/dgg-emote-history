@@ -5568,13 +5568,12 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     background-repeat: no-repeat;
     filter: hue-rotate(10deg) brightness(0.9) saturate(1.1);
 }
-[data-username="cybervegan"] .msg-chat ~ .greentext {
-    color: #dd75ff;
+[data-username="cybervegan"].msg-chat .text > .greentext:has(.emote.WEOW) {
+    color: #dd75ff !important;
 }
 
 /* 
     RARE VARIATIONS 
-:has(.emote.WEOW)
     X = 10% = 10 messages avg
     XX = 1% = 100 messages avg
     XXX = 0.1% = 1,000 messages avg
