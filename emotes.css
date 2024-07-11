@@ -5568,11 +5568,22 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     background-repeat: no-repeat;
     filter: hue-rotate(10deg) brightness(0.9) saturate(1.1);
 }
-[data-username="cybervegan"].msg-chat .text > .greentext:has(.emote.WEOW) {
-    color: #dd75ff !important;
+[data-username="cybervegan"].msg-chat .text  {
+font-weight: bold;
+font-size: 1.25rem;
+    animation: RARE-PLATINUM 1.2s 1, RARE-PLATINUM-PULSATE 1.2s infinite 1.2s linear;
+
+}
+[data-username="cybervegan"].msg-chat,
+[data-username="cybervegan"].msg-own
+  {
+    color: #ffffff !important;
+    background-color: #ffaccc;
 }
 
 /* 
+
+:has(.emote.WEOW) .greentext
     RARE VARIATIONS 
     X = 10% = 10 messages avg
     XX = 1% = 100 messages avg
