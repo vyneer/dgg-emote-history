@@ -5445,9 +5445,15 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     BASE
 */
 .emote.WEOW {
+/*    
     height: 28px;
     width: 28px;
     background-position: 0;
+*/
+    height: 28px;
+    width: 28px;
+    background-position: -166px;
+    background-repeat: no-repeat;
 }
 
 .emote.WEOW:hover {
