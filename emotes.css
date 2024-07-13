@@ -5554,13 +5554,13 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     background-position: -110px;
     background-repeat: no-repeat;
 }
-
+/*
 [data-username="bot"] .emote.WEOW {
     height: 28px;
     width: 28px;
     background-position: -166px;
     background-repeat: no-repeat;
-}
+}*/
 
 [data-username="cybervegan"] .emote.WEOW {
     height: 28px;
