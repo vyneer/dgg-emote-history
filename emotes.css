@@ -5569,10 +5569,11 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     background-repeat: no-repeat;
     filter: hue-rotate(10deg) brightness(0.9) saturate(1.1);
 }
+/*
 [data-username="cybervegan"].msg-chat .text > .greentext {
 color:#ffaccc !important;
 }
-
+*/
 
 /* 
 
