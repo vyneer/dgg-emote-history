@@ -107,7 +107,7 @@
     top: 6.75px;
 }
 .emote.AYYYLMAO {
-    background-image: url("66596d4fe28bb.png");
+    background-image: url("6693cbf37e5ca.png");
     height: 30px;
     width: 100px;
 }
@@ -132,6 +132,15 @@
 .msg-chat .emote.BASEDWATM8 {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.BearSleep {
+    background-image: url("6693d29a5392e.png");
+    height: 32px;
+    width: 38px;
+}
+.msg-chat .emote.BearSleep {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.BERN {
     background-image: url("649f768e50a4a.png");
@@ -663,6 +672,15 @@
 .msg-chat .emote.FeelsBadMan {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.FeelsBirthdayMan {
+    background-image: url("6693cb435b375.png");
+    height: 36px;
+    width: 35px;
+}
+.msg-chat .emote.FeelsBirthdayMan {
+    margin-top: -36px;
+    top: 9px;
 }
 .emote.FeelsDankMan {
     background-image: url("647e37b8b3860.png");
@@ -1574,13 +1592,13 @@
     top: 7.5px;
 }
 .emote.pepeSteer {
-    background-image: url("5fc5c2f5071e9.png");
-    height: 30px;
-    width: 792px;
+    background-image: url("6693cc5de09fd.png");
+    height: 32px;
+    width: 41px;
 }
 .msg-chat .emote.pepeSteer {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.pepeW {
     background-image: url("65f6c4ef883d2.gif");
@@ -1941,6 +1959,15 @@
 .msg-chat .emote.TINYING {
     margin-top: -32px;
     top: 8px;
+}
+.emote.tinySuffer {
+    background-image: url("6693d0763fd7d.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.tinySuffer {
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.tinyWTF {
     background-image: url("66827da781cd6.png");
@@ -4791,22 +4818,6 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 .emote.PepeLaugh:hover {
     animation: PepeLaugh-anim-hover 200ms infinite;
-}
-@keyframes pepeSteer-anim {
-  100% { background-position: -792px; }
-}
-
-@keyframes pepeSteer-hover {
-  100% { background-position: -792px; }
-}
-
-.emote.pepeSteer {
-  width: 33px;
-  animation: pepeSteer-anim .96s steps(24) 7;
-}
-
-.emote.pepeSteer:hover {
-  animation: pepeSteer-hover .96s steps(24) infinite;
 }
 @keyframes PepoPunch-anim {
   100% { background-position: -448px; }

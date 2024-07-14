@@ -199,8 +199,8 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/66596d4fe28bb.png",
-        "name": "66596d4fe28bb.png",
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/6693cbf37e5ca.png",
+        "name": "6693cbf37e5ca.png",
         "mime": "image/png",
         "height": 30,
         "width": 100
@@ -235,6 +235,22 @@
         "name": "66596e15d7af3.png",
         "mime": "image/png",
         "height": 30,
+        "width": 38
+      }
+    ]
+  },
+  {
+    "prefix": "BearSleep",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/6693d29a5392e.png",
+        "name": "6693d29a5392e.png",
+        "mime": "image/png",
+        "height": 32,
         "width": 38
       }
     ]
@@ -1180,6 +1196,22 @@
         "mime": "image/png",
         "height": 30,
         "width": 30
+      }
+    ]
+  },
+  {
+    "prefix": "FeelsBirthdayMan",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/6693cb435b375.png",
+        "name": "6693cb435b375.png",
+        "mime": "image/png",
+        "height": 36,
+        "width": 35
       }
     ]
   },
@@ -2801,17 +2833,17 @@
   },
   {
     "prefix": "pepeSteer",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/5fc5c2f5071e9.png",
-        "name": "5fc5c2f5071e9.png",
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/6693cc5de09fd.png",
+        "name": "6693cc5de09fd.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 792
+        "height": 32,
+        "width": 41
       }
     ]
   },
@@ -3452,6 +3484,22 @@
         "mime": "image/gif",
         "height": 32,
         "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "tinySuffer",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/6693d0763fd7d.png",
+        "name": "6693d0763fd7d.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 30
       }
     ]
   },
