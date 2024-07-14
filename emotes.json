@@ -3232,22 +3232,6 @@
     ]
   },
   {
-    "prefix": "SOTRIGGERED",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/665a5b6e420fb.png",
-        "name": "665a5b6e420fb.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "SOY",
     "creator": "Vindelici",
     "twitch": false,
