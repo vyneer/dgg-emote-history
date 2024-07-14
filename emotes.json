@@ -535,8 +535,8 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/66825d78b620a.png",
-        "name": "66825d78b620a.png",
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/66937a5250384.png",
+        "name": "66937a5250384.png",
         "mime": "image/png",
         "height": 30,
         "width": 32
@@ -615,11 +615,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/66825d94bd7c4.png",
-        "name": "66825d94bd7c4.png",
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/66937a7d1fbf0.png",
+        "name": "66937a7d1fbf0.png",
         "mime": "image/png",
         "height": 30,
-        "width": 32
+        "width": 26
       }
     ]
   },
