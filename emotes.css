@@ -2428,9 +2428,8 @@
     animation: AYAYA-anim-hover 0.7s infinite;
 }
 
-
 .emote.BearSleep{
-    animation: BearSleep-sleep 5s infinite ;
+    animation: BearSleep-sleep 5s 20;
     filter: contrast(1.15) saturate(1.05);     padding-right: 48px;
 background-repeat:no-repeat;   
 transition:all 2s;  
@@ -2531,7 +2530,7 @@ transition:all 2s;
     top: 0px;
     left: 24px; 
     transform: scale(0,0); 
-    animation: BearSleep-mark 3s 20 ease-in-out; transition:all 2s;  
+    animation: BearSleep-mark 3s 10 ease-in-out; transition:all 2s;  
 
 }
 .emote.BearSleep:hover::before {
