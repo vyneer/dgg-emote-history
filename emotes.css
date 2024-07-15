@@ -2785,6 +2785,127 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.catJAM:hover {
   animation: catJAM-hover infinite steps(188) 6.5s;
 }
+@keyframes CAUGHT-mark {
+    5% {
+        transform: scale(-1, 0); transform-origin: top;  opacity: 0;
+    }
+    30% {
+        transform: scale(-1,1); transform-origin: top; opacity: 1;
+    }
+    85% {
+        transform: scale(-1,1); transform-origin: top; opacity: 1;
+    }
+    90% {
+        transform: scale(-1,1); transform-origin: top; opacity: .9;
+    }
+}
+@keyframes CAUGHT-mark-hover {
+    5% {
+        transform: scale(-1, 0); transform-origin: top;  opacity: 0;
+    }
+    30% {
+        transform: scale(-1,1); transform-origin: top; opacity: 1;
+    }
+    85% {
+        transform: scale(-1,1); transform-origin: top; opacity: 1;
+    }
+    90% {
+        transform: scale(-1,1); transform-origin: top; opacity: .9;
+    }
+}
+
+.emote.CAUGHT{
+    animation: CAUGHT-wat .3s ease-out;
+    background-repeat: no-repeat;
+    filter:contrast(1.1);
+}
+
+.emote.CAUGHT:hover {
+    animation: CAUGHT-wat-hover .3s ease;
+    background-repeat: no-repeat;
+}
+
+.emote.CAUGHT:before {
+    content: "💧";
+    text-indent: 0;
+    font-size: 8px;
+    line-height: initial;
+    position: absolute;
+    opacity: 0;
+    top: 2px;
+    left: 36px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
+    transform: scaleX(-1);
+    animation: CAUGHT-mark .75s .1s 1 ease-in-out;
+}
+.emote.CAUGHT:hover::before {
+    animation: CAUGHT-mark-hover .75s .1s ease-in-out;
+}
+
+
+@keyframes CAUGHT-wat {
+    0% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 25px;
+    }
+  
+    70% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 0px;
+    }
+
+ 
+    85% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 5px;
+    }
+
+    100% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 0px;
+    }
+}
+
+@keyframes CAUGHT-wat-hover {
+    0% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 25px;
+    }
+  
+    70% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 0px;
+    }
+
+    85% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 5px;
+    }
+
+    100% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 0px;
+    }
+}
+
+@keyframes CAUGHT-anim {
+   0% { transform: translate(1px, .2px) rotate(0deg); }
+  10% { transform: translate(-.5px, -.2px) rotate(-.5deg); }
+  20% { transform: translate(-.5px, 0px) rotate(.2deg); }
+  30% { transform: translate(.5px, .2px) rotate(0deg); }
+  40% { transform: translate(.5px, -.2px) rotate(1deg); }
+  50% { transform: translate(-.5px, .5px) rotate(-.2deg); }
+  60% { transform: translate(-.5px, .2px) rotate(0deg); }
+  70% { transform: translate(.5px, .2px) rotate(-.2deg); }
+  80% { transform: translate(-.5px, -.2px) rotate(1deg); }
+  90% { transform: translate(.5px, .2px) rotate(0deg); }
+  100% { transform: translate(.1px, -.2px) rotate(-.2deg); }
+}
+
+@keyframes CAUGHT-hover {
+   0% { transform: translate(1px, .5px) rotate(0deg); }
+  10% { transform: translate(-.5px, -.5px) rotate(-.5deg); }
+  20% { transform: translate(-.5px, 0px) rotate(.5deg); }
+  30% { transform: translate(.5px, .5px) rotate(0deg); }
+  40% { transform: translate(.5px, -.5px) rotate(.5deg); }
+  50% { transform: translate(-.5px, 1px) rotate(-.5deg); }
+  60% { transform: translate(-.5px, .5px) rotate(0deg); }
+  70% { transform: translate(.5px, .5px) rotate(-.5deg); }
+  80% { transform: translate(-.5px, -.5px) rotate(.5deg); }
+  90% { transform: translate(.5px, .5px) rotate(0deg); }
+  100% { transform: translate(1px, -.5px) rotate(-.5deg); }
+}
 /*
 #### AS OF 2023, FIREFOX STILL DOES NOT SUPPORT THE HAS() SELECTOR - THIS EMOTE WILL BEHAVE IN A SLIGHTLY INFERIOR WAY ON FIREFOX BROWSERS (USERS ARE ABLE TO MANUALLY ENABLE UNTIL FIREFOX PROVIDES FULL SUPPORT) ####
 ### Art by MrGemzar ###
