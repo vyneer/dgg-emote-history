@@ -439,11 +439,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/66948a8b54475.png",
-        "name": "66948a8b54475.png",
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/6694ce36ead36.png",
+        "name": "6694ce36ead36.png",
         "mime": "image/png",
         "height": 34,
-        "width": 62
+        "width": 63
       }
     ]
   },
@@ -3441,17 +3441,17 @@
   },
   {
     "prefix": "temmieDank",
-    "creator": "mersuedits (BTTV)",
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/6611326d5a5a4.png",
-        "name": "6611326d5a5a4.png",
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/6694ce835624f.png",
+        "name": "6694ce835624f.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 32,
+        "width": 32
       }
     ]
   },
