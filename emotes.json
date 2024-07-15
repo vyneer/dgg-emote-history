@@ -3104,6 +3104,22 @@
     ]
   },
   {
+    "prefix": "retardJAM",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/660a98ccc55a6.gif",
+        "name": "660a98ccc55a6.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 43
+      }
+    ]
+  },
+  {
     "prefix": "SHOCKSTINY",
     "creator": "cybervegan",
     "twitch": false,
@@ -3559,11 +3575,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/5cc0cc2a87ca8.png",
-        "name": "5cc0cc2a87ca8.png",
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/653c8e146b5ba.png",
+        "name": "653c8e146b5ba.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 51
+        "height": 32,
+        "width": 54
       }
     ]
   },
