@@ -513,17 +513,17 @@
   },
   {
     "prefix": "Clueless",
-    "creator": "",
+    "creator": "MrGemzar",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/66596e3d361e1.png",
-        "name": "66596e3d361e1.png",
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/6694d42888e84.png",
+        "name": "6694d42888e84.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 35
+        "height": 34,
+        "width": 38
       }
     ]
   },
