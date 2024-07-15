@@ -1872,22 +1872,6 @@
     ]
   },
   {
-    "prefix": "LOVE",
-    "creator": null,
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/5cc0cc2a87ca8.png",
-        "name": "5cc0cc2a87ca8.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 51
-      }
-    ]
-  },
-  {
     "prefix": "LUL",
     "creator": null,
     "twitch": false,
@@ -3360,7 +3344,7 @@
     ]
   },
   {
-    "prefix": "STATUSQUO",
+    "prefix": "STATUSJOE",
     "creator": "cybervegan",
     "twitch": false,
     "theme": 1,
@@ -3552,6 +3536,22 @@
     ]
   },
   {
+    "prefix": "TRUELOVE",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/5cc0cc2a87ca8.png",
+        "name": "5cc0cc2a87ca8.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 51
+      }
+    ]
+  },
+  {
     "prefix": "TRUMPED",
     "creator": "",
     "twitch": false,
@@ -3559,11 +3559,27 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/66934742d8244.png",
-        "name": "66934742d8244.png",
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/669479b58554b.png",
+        "name": "669479b58554b.png",
+        "mime": "image/png",
+        "height": 28,
+        "width": 53
+      }
+    ]
+  },
+  {
+    "prefix": "UltraHandsomeMan",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/66947b90b7b45.png",
+        "name": "66947b90b7b45.png",
         "mime": "image/png",
         "height": 30,
-        "width": 63
+        "width": 30
       }
     ]
   },

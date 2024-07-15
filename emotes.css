@@ -1051,15 +1051,6 @@
     margin-top: -33px;
     top: 8.25px;
 }
-.emote.LOVE {
-    background-image: url("5cc0cc2a87ca8.png");
-    height: 30px;
-    width: 51px;
-}
-.msg-chat .emote.LOVE {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.LUL {
     background-image: url("5c2bbcfe2ba44.png");
     height: 30px;
@@ -1888,12 +1879,12 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.STATUSQUO {
+.emote.STATUSJOE {
     background-image: url("6693c9585508b.png");
     height: 30px;
     width: 55px;
 }
-.msg-chat .emote.STATUSQUO {
+.msg-chat .emote.STATUSJOE {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -1996,12 +1987,30 @@
     margin-top: -35px;
     top: 8.75px;
 }
-.emote.TRUMPED {
-    background-image: url("66934742d8244.png");
+.emote.TRUELOVE {
+    background-image: url("5cc0cc2a87ca8.png");
     height: 30px;
-    width: 63px;
+    width: 51px;
+}
+.msg-chat .emote.TRUELOVE {
+    margin-top: -30px;
+    top: 7.5px;
+}
+.emote.TRUMPED {
+    background-image: url("669479b58554b.png");
+    height: 28px;
+    width: 53px;
 }
 .msg-chat .emote.TRUMPED {
+    margin-top: -28px;
+    top: 7px;
+}
+.emote.UltraHandsomeMan {
+    background-image: url("66947b90b7b45.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.UltraHandsomeMan {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -4150,40 +4159,6 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
 @keyframes Klappa-anim-hover {
   100% { background-position: -76px; }
 }
-@keyframes LOVE-anim {
-    0% { top: -25px; }
-    100% { top: 30px; }
-}
-@keyframes LOVE-hover {
-    0% { top: -25px; }
-    100% { top: 30px; }
-}
-.emote.LOVE:before{
-    content: "💗";
-    text-indent: 0;
-    font-size: 18px;
-    position: absolute;
-    left:-3px;
-    top:-25px;
-    animation: LOVE-anim 0.5s 4;
-}
-.emote.LOVE:after{
-    content: "💗";
-    text-indent: 0;
-    font-size: 18px;
-    position: absolute;
-    right:-3px;
-    top:-25px;
-    animation: LOVE-anim 0.5s 4;
-    animation-delay: 0.25s;
-}
-.emote.LOVE:hover::before {
-    animation: LOVE-hover 0.5s infinite;
-}
-.emote.LOVE:hover::after {
-    animation: LOVE-hover 0.5s infinite;
-    animation-delay: 0.25s;
-}
 @keyframes MALARKEY-anim {
   0% { background-position: 0px; }
   100% { background-position: -1581px; }
@@ -5555,6 +5530,40 @@ background-repeat:no-repeat;
 }
 .emote.TRIAD:hover {
   animation: TRIAD-hover 4s steps(120) infinite;
+}
+@keyframes TRUELOVE-anim {
+    0% { top: -25px; }
+    100% { top: 30px; }
+}
+@keyframes TRUELOVE-hover {
+    0% { top: -25px; }
+    100% { top: 30px; }
+}
+.emote.TRUELOVE:before{
+    content: "💗";
+    text-indent: 0;
+    font-size: 18px;
+    position: absolute;
+    left:-3px;
+    top:-25px;
+    animation: TRUELOVE-anim 0.5s 4;
+}
+.emote.TRUELOVE:after{
+    content: "💗";
+    text-indent: 0;
+    font-size: 18px;
+    position: absolute;
+    right:-3px;
+    top:-25px;
+    animation: TRUELOVE-anim 0.5s 4;
+    animation-delay: 0.25s;
+}
+.emote.TRUELOVE:hover::before {
+    animation: TRUELOVE-hover 0.5s infinite;
+}
+.emote.TRUELOVE:hover::after {
+    animation: TRUELOVE-hover 0.5s infinite;
+    animation-delay: 0.25s;
 }
 .emote.WEEWOO {
     background-position: 0px;
