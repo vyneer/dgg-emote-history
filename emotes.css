@@ -5342,8 +5342,8 @@ background-repeat:no-repeat;
 
 @keyframes SOTRIGGERED-after {
 	0% { transform: scale(0) rotate(0deg); top: 18px; left: 12px; }
-	5% { transform: scale(.75) rotate(-50deg); top: 12px; left: 12px; }  
-	30% { transform: scale(1) rotate(-200deg); top: 2px; left: 4px; } 
+	5% { transform: scale(.62) rotate(-50deg); top: 12px; left: 12px; }  
+	30% { transform: scale(.8) rotate(-200deg); top: 2px; left: 4px; } 
 	100% { transform: scale(.5) rotate(-350deg);  top: 16px; left: -6px; }
 }
 @keyframes SOTRIGGERED-hover-after {
