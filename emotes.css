@@ -241,6 +241,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.CAUGHT {
+    background-image: url("66948a8b54475.png");
+    height: 34px;
+    width: 62px;
+}
+.msg-chat .emote.CAUGHT {
+    margin-top: -34px;
+    top: 8.5px;
+}
 .emote.Chatting {
     background-image: url("651f54a0ac864.png");
     height: 32px;
