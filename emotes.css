@@ -1997,13 +1997,13 @@
     top: 8.75px;
 }
 .emote.TRUELOVE {
-    background-image: url("653c8e146b5ba.png");
-    height: 32px;
-    width: 54px;
+    background-image: url("5cc0cc2a87ca8.png");
+    height: 30px;
+    width: 51px;
 }
 .msg-chat .emote.TRUELOVE {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.TRUMPED {
     background-image: url("669479b58554b.png");
@@ -5763,8 +5763,11 @@ background-repeat:no-repeat;
 }
 @keyframes TRUELOVE-anim {
     0% { top: -25px; }
-    99% { top: 30px; }
-    100%{ top: -25px; }
+    100% { top: 30px; }
+}
+@keyframes TRUELOVE-hover {
+    0% { top: -25px; }
+    100% { top: 30px; }
 }
 .emote.TRUELOVE:before{
     content: "💗";
@@ -5786,10 +5789,10 @@ background-repeat:no-repeat;
     animation-delay: 0.25s;
 }
 .emote.TRUELOVE:hover::before {
-    animation: TRUELOVE-anim 0.5s infinite;
+    animation: TRUELOVE-hover 0.5s infinite;
 }
 .emote.TRUELOVE:hover::after {
-    animation: TRUELOVE-anim 0.5s infinite;
+    animation: TRUELOVE-hover 0.5s infinite;
     animation-delay: 0.25s;
 }
 .emote.WEEWOO {
