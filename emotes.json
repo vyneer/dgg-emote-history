@@ -848,22 +848,6 @@
     ]
   },
   {
-    "prefix": "DankChoke",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/6683a32b46d81.png",
-        "name": "6683a32b46d81.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "DANKMEMES",
     "creator": "",
     "twitch": false,
