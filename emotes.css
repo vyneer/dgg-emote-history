@@ -979,6 +979,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.kamalaZ {
+    background-image: url("669d979c03fcb.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.kamalaZ {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Kappa {
     background-image: url("5c2bbcd46c08e.png");
     height: 30px;
@@ -1367,13 +1376,13 @@
     top: 8.75px;
 }
 .emote.NOPERS {
-    background-image: url("61802e629ca8d.gif");
-    height: 28px;
-    width: 28px;
+    background-image: url("669d94fa125ee.gif");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.NOPERS {
-    margin-top: -28px;
-    top: 7px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Normgasm {
     background-image: url("65f57bb5f161f.png");
@@ -1879,12 +1888,12 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.STATUSJOE {
-    background-image: url("6693c9585508b.png");
+.emote.STATUSQUO {
+    background-image: url("669d97642fe1c.png");
     height: 30px;
     width: 55px;
 }
-.msg-chat .emote.STATUSJOE {
+.msg-chat .emote.STATUSQUO {
     margin-top: -30px;
     top: 7.5px;
 }

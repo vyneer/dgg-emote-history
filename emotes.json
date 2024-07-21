@@ -1744,6 +1744,22 @@
     ]
   },
   {
+    "prefix": "kamalaZ",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/669d979c03fcb.png",
+        "name": "669d979c03fcb.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "Kappa",
     "creator": null,
     "twitch": false,
@@ -2433,17 +2449,17 @@
   },
   {
     "prefix": "NOPERS",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/61802e629ca8d.gif",
-        "name": "61802e629ca8d.gif",
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/669d94fa125ee.gif",
+        "name": "669d94fa125ee.gif",
         "mime": "image/gif",
-        "height": 28,
-        "width": 28
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -3344,15 +3360,15 @@
     ]
   },
   {
-    "prefix": "STATUSJOE",
-    "creator": "cybervegan",
+    "prefix": "STATUSQUO",
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.13.1/emotes/6693c9585508b.png",
-        "name": "6693c9585508b.png",
+        "url": "https://cdn.destiny.gg/3.13.1/emotes/669d97642fe1c.png",
+        "name": "669d97642fe1c.png",
         "mime": "image/png",
         "height": 30,
         "width": 55
