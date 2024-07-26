@@ -2068,6 +2068,15 @@
     margin-top: -35px;
     top: 8.75px;
 }
+.emote.WHISPERING {
+    background-image: url("6680aaacc3a97.gif");
+    height: 32px;
+    width: 96px;
+}
+.msg-chat .emote.WHISPERING {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.WhoahDude {
     background-image: url("5c2bbe2630ff0.png");
     height: 30px;
