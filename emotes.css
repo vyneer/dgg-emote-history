@@ -385,6 +385,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.confusedCat {
+    background-image: url("66a9ac047a5ad.png");
+    height: 32px;
+    width: 42px;
+}
+.msg-chat .emote.confusedCat {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.COOMER {
     background-image: url("653c2d31d8769.png");
     height: 28px;

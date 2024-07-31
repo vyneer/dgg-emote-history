@@ -688,6 +688,22 @@
     ]
   },
   {
+    "prefix": "confusedCat",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.14.0/emotes/66a9ac047a5ad.png",
+        "name": "66a9ac047a5ad.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 42
+      }
+    ]
+  },
+  {
     "prefix": "COOMER",
     "creator": "",
     "twitch": false,
