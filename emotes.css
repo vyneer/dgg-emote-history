@@ -655,6 +655,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.FailerZ {
+    background-image: url("66abdf6ef3020.png");
+    height: 32px;
+    width: 42px;
+}
+.msg-chat .emote.FailerZ {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.FeedNathan {
     background-image: url("665b0bf7adba2.png");
     height: 30px;
@@ -2051,13 +2060,13 @@
     top: 8.5px;
 }
 .emote.WEEWOO {
-    background-image: url("6519465c0ae7b.png");
-    height: 30px;
-    width: 33px;
+    background-image: url("66abe4b22737f.png");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.WEEWOO {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.WEOW {
     background-image: url("650f6d1ab6bc2.png");
@@ -5784,13 +5793,13 @@ background-repeat:no-repeat;
 .emote.WEEWOO {
     background-position: 0px;
     background-repeat: no-repeat;
-    animation: WEEWOO-anim 1.5s ease-out 1;
-    transition: all 1s;
+    animation: WEEWOO-anim 1.25s ease-out 2;
+    transition: all .25s;
 }
 
 .emote.WEEWOO:hover {
-    transition: all .5s;
-    animation: WEEWOO-hover 1.5s ease-out infinite;
+    transition: all .25s;
+    animation: WEEWOO-hover 1s ease-out infinite;
 }
 
 
@@ -5798,42 +5807,43 @@ background-repeat:no-repeat;
 
     0%,
     100% {
-        opacity: 1
+        opacity: 1;
     }
 
     10% {
-        opacity: 0.5;
-        filter: hue-rotate(0deg)
+        opacity: 0.75;
+        filter: hue-rotate(0deg);
     }
 
     11% {
-        filter: hue-rotate(170deg)
+        filter: hue-rotate(220deg) saturate(140%) contrast(110%);
     }
 
     35% {
-        opacity: 1
+        opacity: 1;
+
     }
 
     50% {
-        opacity: 0.2;
-        filter: hue-rotate(170deg)
+        opacity: 0.52;
+        filter: hue-rotate(220deg) saturate(140%) contrast(110%);
     }
 
     51% {
-        filter: hue-rotate(310deg)
+        filter: hue-rotate(350deg) saturate(140%) contrast(110%);
     }
 
     65% {
-        opacity: 1
+        opacity: 1 ;
     }
 
     90% {
-        opacity: 0.2;
-        filter: hue-rotate(310deg)
+        opacity: 0.52;
+        filter: hue-rotate(350deg) saturate(140%) contrast(110%);
     }
 
     91% {
-        filter: hue-rotate(0deg)
+        filter: hue-rotate(0deg);
     }
 }
 
@@ -5841,42 +5851,43 @@ background-repeat:no-repeat;
 
     0%,
     100% {
-        opacity: 1
+        opacity: 1;
     }
 
     10% {
-        opacity: 0.5;
-        filter: hue-rotate(0deg)
+        opacity: 0.75;
+        filter: hue-rotate(0deg);
     }
 
     11% {
-        filter: hue-rotate(170deg)
+        filter: hue-rotate(220deg) saturate(140%) contrast(110%);
     }
 
     35% {
-        opacity: 1
+        opacity: 1;
+
     }
 
     50% {
-        opacity: 0.2;
-        filter: hue-rotate(170deg)
+        opacity: 0.52;
+        filter: hue-rotate(220deg) saturate(140%) contrast(110%);
     }
 
     51% {
-        filter: hue-rotate(310deg)
+        filter: hue-rotate(350deg) saturate(140%) contrast(110%);
     }
 
     65% {
-        opacity: 1
+        opacity: 1 ;
     }
 
     90% {
-        opacity: 0.2;
-        filter: hue-rotate(310deg)
+        opacity: 0.52;
+        filter: hue-rotate(350deg) saturate(140%) contrast(110%);
     }
 
     91% {
-        filter: hue-rotate(0deg)
+        filter: hue-rotate(0deg);
     }
 }
 /*
