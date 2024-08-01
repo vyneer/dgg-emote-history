@@ -1840,6 +1840,22 @@
     ]
   },
   {
+    "prefix": "KEK",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.15.0/emotes/66abe6fdf2c6a.png",
+        "name": "66abe6fdf2c6a.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "Klappa",
     "creator": null,
     "twitch": false,

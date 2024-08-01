@@ -1033,6 +1033,15 @@
     margin-top: -34px;
     top: 8.5px;
 }
+.emote.KEK {
+    background-image: url("66abe6fdf2c6a.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.KEK {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Klappa {
     background-image: url("5e78eb181cc2b.png");
     height: 30px;
