@@ -376,6 +376,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.ComfyRustle {
+    background-image: url("66adb66986cf8.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.ComfyRustle {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.coMMMMfy {
     background-image: url("624e76368b3a9.png");
     height: 28px;

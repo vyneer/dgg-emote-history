@@ -672,6 +672,22 @@
     ]
   },
   {
+    "prefix": "ComfyRustle",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.15.0/emotes/66adb66986cf8.png",
+        "name": "66adb66986cf8.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 30
+      }
+    ]
+  },
+  {
     "prefix": "coMMMMfy",
     "creator": null,
     "twitch": false,
