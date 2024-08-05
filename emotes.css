@@ -6093,7 +6093,11 @@ color:#ffaccc !important;
     background-repeat: no-repeat;
 }*/
 /* NEW GOLD */
-.msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text .emote.WEOW:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="0070"]~.text .emote.WEOW:first-of-type,
+.msg-chat.msg-user>time[data-unixtimestamp$="0117"]~.text .emote.WEOW:first-of-type,
+.msg-chat.msg-user>time[data-unixtimestamp$="0666"]~.text .emote.WEOW:first-of-type,
+.msg-chat.msg-user>time[data-unixtimestamp$="0420"]~.text .emote.WEOW:first-of-type,
+.msg-chat.msg-user>time[data-unixtimestamp$="1337"]~.text .emote.WEOW:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
