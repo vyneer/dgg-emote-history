@@ -3408,6 +3408,22 @@
     ]
   },
   {
+    "prefix": "STATUSJOE",
+    "creator": "cybervegan",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.15.0/emotes/6693c9585508b.png",
+        "name": "6693c9585508b.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 55
+      }
+    ]
+  },
+  {
     "prefix": "STATUSQUO",
     "creator": "",
     "twitch": false,

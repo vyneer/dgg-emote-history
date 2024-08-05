@@ -1915,6 +1915,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.STATUSJOE {
+    background-image: url("6693c9585508b.png");
+    height: 30px;
+    width: 55px;
+}
+.msg-chat .emote.STATUSJOE {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.STATUSQUO {
     background-image: url("669d97642fe1c.png");
     height: 30px;
