@@ -2544,6 +2544,22 @@
     ]
   },
   {
+    "prefix": "noShitSherlock",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.15.0/emotes/66ad4e8f0477c.png",
+        "name": "66ad4e8f0477c.png",
+        "mime": "image/png",
+        "height": 36,
+        "width": 52
+      }
+    ]
+  },
+  {
     "prefix": "NOSHOT",
     "creator": "",
     "twitch": false,

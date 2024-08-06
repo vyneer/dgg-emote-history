@@ -1429,6 +1429,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.noShitSherlock {
+    background-image: url("66ad4e8f0477c.png");
+    height: 36px;
+    width: 52px;
+}
+.msg-chat .emote.noShitSherlock {
+    margin-top: -36px;
+    top: 9px;
+}
 .emote.NOSHOT {
     background-image: url("665ad43c9e90d.png");
     height: 30px;
