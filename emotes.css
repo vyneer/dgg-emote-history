@@ -979,6 +979,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.ItsFine {
+    background-image: url("66b1b204d51fc.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.ItsFine {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ITSRAWWW {
     background-image: url("665add9c07691.png");
     height: 30px;

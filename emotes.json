@@ -1744,6 +1744,22 @@
     ]
   },
   {
+    "prefix": "ItsFine",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.15.0/emotes/66b1b204d51fc.png",
+        "name": "66b1b204d51fc.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "ITSRAWWW",
     "creator": "",
     "twitch": false,
