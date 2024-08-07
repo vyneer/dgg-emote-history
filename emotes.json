@@ -1504,6 +1504,22 @@
     ]
   },
   {
+    "prefix": "GAMBA",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.15.0/emotes/66b3277826348.png",
+        "name": "66b3277826348.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 34
+      }
+    ]
+  },
+  {
     "prefix": "GameOfThrows",
     "creator": null,
     "twitch": false,

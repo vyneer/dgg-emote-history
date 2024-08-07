@@ -844,6 +844,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.GAMBA {
+    background-image: url("66b3277826348.png");
+    height: 34px;
+    width: 34px;
+}
+.msg-chat .emote.GAMBA {
+    margin-top: -34px;
+    top: 8.5px;
+}
 .emote.GameOfThrows {
     background-image: url("5c2bbc9fe6f55.png");
     height: 30px;
