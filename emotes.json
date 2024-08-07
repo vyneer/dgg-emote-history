@@ -1808,22 +1808,6 @@
     ]
   },
   {
-    "prefix": "kamalaZ",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.15.0/emotes/669d979c03fcb.png",
-        "name": "669d979c03fcb.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "Kappa",
     "creator": null,
     "twitch": false,
