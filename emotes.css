@@ -5725,7 +5725,7 @@ background-repeat:no-repeat;
 .emote.THATNINJA {
   width: 32px;
   height: 32px;
-  margin-top: -32px;
+  //margin-top: -32px;
   font-family: "Roboto", Helvetica, "Trebuchet MS", Verdana, sans-serif;
   animation: THATNINJA-anim 2s;
   background-repeat: no-repeat;
@@ -5737,23 +5737,23 @@ background-repeat:no-repeat;
 }
 
 @keyframes THATNINJA-anim {
-  0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 32px; }
-  10% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 0; }
+  0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: -22px 82px; }
+  10% {transform: scale3d(1, 1, 1); transform-origin: bottom;  background-position: 0 0;}
   30% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
-  35% {transform: scale3d(1, 1.1, 1); transform-origin: bottom; }
-  37% {transform: scale3d(1, 1.1, 1); transform-origin: bottom; }
-  39% {transform: scale3d(1, .95, 1); transform-origin: bottom; }
+  35% {transform: scale3d(1, 1.20, 1); transform-origin: bottom; }
+  37% {transform: scale3d(1, 1.05, 1); transform-origin: bottom; }
+  39% {transform: scale3d(1, .9, 1); transform-origin: bottom; }
   40% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
   100% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
 }
 
 @keyframes THATNINJA-hover {
-  0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 32px; }
-  10% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 0; }
+  0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: -22px 82px; }
+  10% {transform: scale3d(1, 1, 1); transform-origin: bottom;  background-position: 0 0;}
   30% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
-  35% {transform: scale3d(1, 1.1, 1); transform-origin: bottom; }
-  37% {transform: scale3d(1, 1.1, 1); transform-origin: bottom; }
-  39% {transform: scale3d(1, .95, 1); transform-origin: bottom; }
+  35% {transform: scale3d(1, 1.20, 1); transform-origin: bottom; }
+  37% {transform: scale3d(1, 1.05, 1); transform-origin: bottom; }
+  39% {transform: scale3d(1, .9, 1); transform-origin: bottom; }
   40% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
   100% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
 }
