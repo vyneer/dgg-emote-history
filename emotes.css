@@ -889,15 +889,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.GRUGingOverIt {
-    background-image: url("5ff681331f147.png");
-    height: 32px;
-    width: 43px;
-}
-.msg-chat .emote.GRUGingOverIt {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.HACKERMAN {
     background-image: url("665add9047c91.png");
     height: 30px;
@@ -1412,7 +1403,7 @@
     top: 8.75px;
 }
 .emote.NOPERS {
-    background-image: url("669d94fa125ee.gif");
+    background-image: url("66b43bc1038ab.gif");
     height: 32px;
     width: 32px;
 }
@@ -1573,15 +1564,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.peepoSalute {
-    background-image: url("66279df6b20bd.png");
-    height: 28px;
-    width: 40px;
-}
-.msg-chat .emote.peepoSalute {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.peepoShy {
     background-image: url("66825d01dcb50.png");
     height: 30px;
@@ -1590,6 +1572,15 @@
 .msg-chat .emote.peepoShy {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.peepoStop {
+    background-image: url("66b3128575eb8.png");
+    height: 32px;
+    width: 40px;
+}
+.msg-chat .emote.peepoStop {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.PEPE {
     background-image: url("6157386b7d2fc.png");
@@ -1762,6 +1753,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.PresidentSleeper {
+    background-image: url("66ad4e260c0d0.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.PresidentSleeper {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.RapThis {
     background-image: url("66937d4109172.png");
     height: 28px;
@@ -1788,6 +1788,15 @@
 .msg-chat .emote.REE {
     margin-top: -28px;
     top: 7px;
+}
+.emote.SALUTE {
+    background-image: url("66b31329adfd3.png");
+    height: 32px;
+    width: 49px;
+}
+.msg-chat .emote.SALUTE {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.SHOCKSTINY {
     background-image: url("664db3d8f2493.png");
@@ -1961,13 +1970,13 @@
     top: 7.5px;
 }
 .emote.SWEATSTINY {
-    background-image: url("5c2bbdeb24b1c.png");
-    height: 30px;
-    width: 34px;
+    background-image: url("66b43be52b983.png");
+    height: 32px;
+    width: 51px;
 }
 .msg-chat .emote.SWEATSTINY {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.TeddYEE {
     background-image: url("665b77f9cb5a6.png");
@@ -2004,6 +2013,15 @@
 .msg-chat .emote.TF {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.THATNINJA {
+    background-image: url("66b3f4907a09f.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.THATNINJA {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.TINYING {
     background-image: url("66834fe91db75.gif");
@@ -4126,76 +4144,6 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
     animation: none;
 }
 */
-.emote.GRUGingOverIt {
-  width: 43px;
-  height: 32px;
-  margin-top: -32px;
-  font-family: "Roboto", Helvetica, "Trebuchet MS", Verdana, sans-serif;
-  animation: GRUGingOverIt-anim 2s;
-  background-repeat: no-repeat;
-}
-
-.emote.GRUGingOverIt:hover {
-  animation: GRUGingOverIt-anim-hover 2s infinite;
-}
-
-@keyframes GRUGingOverIt-anim {
-  0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 32px; }
-  10% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 0; }
-  30% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
-  35% {transform: scale3d(1, 1.1, 1); transform-origin: bottom; }
-  37% {transform: scale3d(1, 1.1, 1); transform-origin: bottom; }
-  39% {transform: scale3d(1, .95, 1); transform-origin: bottom; }
-  40% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
-  100% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
-}
-
-@keyframes GRUGingOverIt-hover {
-  0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 32px; }
-  10% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 0; }
-  30% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
-  35% {transform: scale3d(1, 1.1, 1); transform-origin: bottom; }
-  37% {transform: scale3d(1, 1.1, 1); transform-origin: bottom; }
-  39% {transform: scale3d(1, .95, 1); transform-origin: bottom; }
-  40% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
-  100% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
-}
-
-@keyframes GRUGingOverIt-Mark-anim {
-  5% { transform: scale(0, 0); transform-origin: bottom; }
-  37% { transform: scale(0, 0); transform-origin: bottom; }
-  40% { transform: scale(1, 0.7); transform-origin: bottom; }
-  75% { transform: scale(1, 0.7); transform-origin: bottom; }
-  80% { transform: scale(1.3, 1.1); transform-origin: bottom; }
-  85% { transform: scale(1.4, .1); transform-origin: bottom; }
-  90% { transform: scale(0, 0); transform-origin: bottom; }
-}
-@keyframes GRUGingOverIt-Mark-anim-hover {
-  5% { transform: scale(0, 0); transform-origin: bottom; }
-  37% { transform: scale(0, 0); transform-origin: bottom; }
-  40% { transform: scale(1, 0.7); transform-origin: bottom; }
-  75% { transform: scale(1, 0.7); transform-origin: bottom; }
-  80% { transform: scale(1.3, 1.1); transform-origin: bottom; }
-  85% { transform: scale(1.4, .1); transform-origin: bottom; }
-  90% { transform: scale(0, 0); transform-origin: bottom; }
-}
-
-.emote.GRUGingOverIt:before {
-    content: "❗";
-    text-shadow: none;
-    text-indent: 0;
-    font-size: 28px;
-    line-height: initial;
-    position: absolute;
-    opacity: 1;
-    top: -10px;
-    left: 0px;
-    transform: scale(0, 0);
-    animation: GRUGingOverIt-Mark-anim 2s 1;
-}
-.emote.GRUGingOverIt:hover::before {
-  animation: GRUGingOverIt-Mark-anim-hover 2s infinite;
-}
 .emote.HACKERMAN {
   margin-left: -1px;
   margin-right: -1px;
@@ -5773,6 +5721,77 @@ background-repeat:no-repeat;
 
 @keyframes epic-troll-3 {
   to { background-position: 0px; }
+}
+.emote.THATNINJA {
+  width: 32px;
+  height: 32px;
+  margin-top: -32px;
+  font-family: "Roboto", Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  animation: THATNINJA-anim 2s;
+  background-repeat: no-repeat;
+  filter:brightness(1.1) contrast(.90) saturate(1.05);
+}
+
+.emote.THATNINJA:hover {
+  animation: THATNINJA-anim-hover 2s infinite;
+}
+
+@keyframes THATNINJA-anim {
+  0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 32px; }
+  10% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 0; }
+  30% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
+  35% {transform: scale3d(1, 1.1, 1); transform-origin: bottom; }
+  37% {transform: scale3d(1, 1.1, 1); transform-origin: bottom; }
+  39% {transform: scale3d(1, .95, 1); transform-origin: bottom; }
+  40% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
+  100% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
+}
+
+@keyframes THATNINJA-hover {
+  0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 32px; }
+  10% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: 0 0; }
+  30% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
+  35% {transform: scale3d(1, 1.1, 1); transform-origin: bottom; }
+  37% {transform: scale3d(1, 1.1, 1); transform-origin: bottom; }
+  39% {transform: scale3d(1, .95, 1); transform-origin: bottom; }
+  40% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
+  100% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
+}
+
+@keyframes THATNINJA-Mark-anim {
+  5% { transform: scale(0, 0); transform-origin: bottom; }
+  37% { transform: scale(0, 0); transform-origin: bottom; }
+  40% { transform: scale(1, 0.7); transform-origin: bottom; }
+  75% { transform: scale(1, 0.7); transform-origin: bottom; }
+  80% { transform: scale(1.3, 1.1); transform-origin: bottom; }
+  85% { transform: scale(1.4, .1); transform-origin: bottom; }
+  90% { transform: scale(0, 0); transform-origin: bottom; }
+}
+@keyframes THATNINJA-Mark-anim-hover {
+  5% { transform: scale(0, 0); transform-origin: bottom; }
+  37% { transform: scale(0, 0); transform-origin: bottom; }
+  40% { transform: scale(1, 0.7); transform-origin: bottom; }
+  75% { transform: scale(1, 0.7); transform-origin: bottom; }
+  80% { transform: scale(1.3, 1.1); transform-origin: bottom; }
+  85% { transform: scale(1.4, .1); transform-origin: bottom; }
+  90% { transform: scale(0, 0); transform-origin: bottom; }
+}
+
+.emote.THATNINJA:before {
+    content: "❗";
+    text-shadow: none;
+    text-indent: 0;
+    font-size: 28px;
+    line-height: initial;
+    position: absolute;
+    opacity: 1;
+    top: -10px;
+    left: -5px;
+    transform: scale(0, 0);
+    animation: THATNINJA-Mark-anim 2s 1;
+}
+.emote.THATNINJA:hover::before {
+  animation: THATNINJA-Mark-anim-hover 2s infinite;
 }
 @keyframes TRIAD-anim {
   100% { background-position: -4200px; }
