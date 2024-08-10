@@ -25,6 +25,15 @@
     margin-top: -33px;
     top: 8.25px;
 }
+.emote.ALO {
+    background-image: url("66b312f523015.png");
+    height: 37px;
+    width: 39px;
+}
+.msg-chat .emote.ALO {
+    margin-top: -37px;
+    top: 9.25px;
+}
 .emote.AMAZIN {
     background-image: url("66596c77ba8e3.png");
     height: 26px;
