@@ -124,6 +124,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.BallzToTheWalz {
+    background-image: url("66b838354dfb4.png");
+    height: 32px;
+    width: 41px;
+}
+.msg-chat .emote.BallzToTheWalz {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.BasedGod {
     background-image: url("66596e104c7b7.png");
     height: 30px;
