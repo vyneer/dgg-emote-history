@@ -296,9 +296,9 @@
     top: 8px;
 }
 .emote.Clap {
-    background-image: url("653c2cf09060f.png");
+    background-image: url("66ba10dbd5127.png");
     height: 32px;
-    width: 44px;
+    width: 132px;
 }
 .msg-chat .emote.Clap {
     margin-top: -32px;
@@ -3556,6 +3556,39 @@ filter: contrast(1) saturate(1) brightness(1.25);
 
 .emote.GIGACHAD + .emote.Clap {
   animation: Clap-anim2 800ms steps(2) 7 -150ms, GIGACLAP-slide 1.5s ease-out 1; 
+}
+
+@keyframes Clap-evil-anim {
+  from { background-position: -44px;  }
+  to   { background-position: -132px; }
+}
+@keyframes Clap-evil-anim-hover {
+  from { background-position: -44px;  }
+  to   { background-position: -132px; }
+}
+
+@keyframes Clap-evil-tilt {
+  0% { rotate: 4deg; }
+  25% { rotate: 6deg; }
+  50%  { rotate: 12deg; }
+  75% { rotate: 8deg; }
+  100% { rotate: 4deg; }
+}
+
+@keyframes Clap-evil-tilt-hover {
+  0% { rotate: 4deg; }
+  25% { rotate: 6deg; }
+  50%  { rotate: 12deg; }
+  75% { rotate: 8deg; }
+  100% { rotate: 4deg; }
+}
+
+.emote.EVIL + .emote.Clap {
+  background-position: -110px; rotate: 4deg; translate:0 3px;
+  animation: Clap-evil-anim 500ms steps(4) 20, Clap-evil-tilt ease-in-out 1s 10  alternate; 
+}
+.emote.EVIL + .emote.Clap:hover {
+  animation: Clap-evil-anim-hover 500ms steps(4) 20, Clap-evil-tilt-hover ease-in-out 1s 10  alternate; 
 }
 /* Animation made by Igor */
 @keyframes COGGERS-anim {
