@@ -628,6 +628,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.DONTSAYIT {
+    background-image: url("66bb1bfaf1b79.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.DONTSAYIT {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.DOUBT {
     background-image: url("66839a60c446a.png");
     height: 32px;
@@ -1438,12 +1447,12 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.noShitSherlock {
+.emote.NoShitSherlock {
     background-image: url("66ad4e8f0477c.png");
     height: 36px;
     width: 52px;
 }
-.msg-chat .emote.noShitSherlock {
+.msg-chat .emote.NoShitSherlock {
     margin-top: -36px;
     top: 9px;
 }
