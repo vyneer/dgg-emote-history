@@ -6688,6 +6688,33 @@ color:#ffaccc !important;
 .emote.YAP:hover {
   animation: YAP-hover infinite steps(10) forwards  .55s;
 }
+
+[data-username="jaydrvernanda"] .emote.YEE {
+       animation: RARE-YEE-PULSATE 3.5s infinite linear;
+}
+
+
+@keyframes RARE-YEE-PULSATE {
+    0% {
+        transform: scale(1.05) rotate(0deg);
+        filter: hue-rotate(-20deg) brightness(1.1) saturate(1.25) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    25% {
+        transform: scale(1.025) rotate(1deg);
+       filter: hue-rotate(-20deg) brightness(1.15) saturate(1.4) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    75% {
+        transform: scale(1.1) rotate(-1deg);
+       filter: hue-rotate(-20deg) brightness(1.25) saturate(1.5) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    100% {
+        transform: scale(1.05) rotate(0deg);
+        filter: hue-rotate(-20deg) brightness(1.1) saturate(1.25) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+}
 @keyframes YEEHAW-anim {
   5% { transform: rotate3d(0, 0, 1, -90deg) scale(1.5, 1); top: 34px; left: 14px; }
   18.3% { transform: rotate3d(0, 0, 1, 180deg) scale(1.5, 1); top: 17px; left: 10px; }
