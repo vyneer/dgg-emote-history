@@ -6688,9 +6688,8 @@ color:#ffaccc !important;
 .emote.YAP:hover {
   animation: YAP-hover infinite steps(10) forwards  .55s;
 }
-
 [data-username="jaydrvernanda"] .emote.YEE {
-       animation: RARE-YEE-PULSATE 3.5s infinite linear;
+       animation: RARE-YEE-PULSATE 3s infinite linear;
 }
 
 
