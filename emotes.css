@@ -511,6 +511,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.DAMMIT {
+    background-image: url("66b3133799da2.png");
+    height: 32px;
+    width: 23px;
+}
+.msg-chat .emote.DAMMIT {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.DANKMEMES {
     background-image: url("66596f55973e2.png");
     height: 30px;
@@ -895,15 +904,6 @@
     width: 29px;
 }
 .msg-chat .emote.GIGACHAD {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.GODDAMMIT {
-    background-image: url("66b3133799da2.png");
-    height: 32px;
-    width: 23px;
-}
-.msg-chat .emote.GODDAMMIT {
     margin-top: -32px;
     top: 8px;
 }

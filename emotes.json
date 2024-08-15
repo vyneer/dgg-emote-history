@@ -912,6 +912,22 @@
     ]
   },
   {
+    "prefix": "DAMMIT",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.15.0/emotes/66b3133799da2.png",
+        "name": "66b3133799da2.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 23
+      }
+    ]
+  },
+  {
     "prefix": "DANKMEMES",
     "creator": "",
     "twitch": false,
@@ -1596,22 +1612,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 29
-      }
-    ]
-  },
-  {
-    "prefix": "GODDAMMIT",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/3.15.0/emotes/66b3133799da2.png",
-        "name": "66b3133799da2.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 23
       }
     ]
   },
