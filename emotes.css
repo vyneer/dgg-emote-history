@@ -898,6 +898,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.GODDAMMIT {
+    background-image: url("66b3133799da2.png");
+    height: 32px;
+    width: 23px;
+}
+.msg-chat .emote.GODDAMMIT {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.GODSTINY {
     background-image: url("5c2bbca645afb.png");
     height: 32px;
@@ -1205,7 +1214,7 @@
     top: 7px;
 }
 .emote.monkaGun {
-    background-image: url("6693c34af1fd1.png");
+    background-image: url("660fe8de7a5d9.png");
     height: 32px;
     width: 32px;
 }

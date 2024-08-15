@@ -1600,6 +1600,22 @@
     ]
   },
   {
+    "prefix": "GODDAMMIT",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/3.15.0/emotes/66b3133799da2.png",
+        "name": "66b3133799da2.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 23
+      }
+    ]
+  },
+  {
     "prefix": "GODSTINY",
     "creator": null,
     "twitch": false,
@@ -2145,14 +2161,14 @@
   },
   {
     "prefix": "monkaGun",
-    "creator": "",
+    "creator": "MrGemzar / cybervegan",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/3.15.0/emotes/6693c34af1fd1.png",
-        "name": "6693c34af1fd1.png",
+        "url": "https://cdn.destiny.gg/3.15.0/emotes/660fe8de7a5d9.png",
+        "name": "660fe8de7a5d9.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
