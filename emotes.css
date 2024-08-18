@@ -2149,6 +2149,15 @@
     margin-top: -34px;
     top: 8.5px;
 }
+.emote.WarmWaterPort {
+    background-image: url("66c12f88a37b4.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.WarmWaterPort {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.WEEWOO {
     background-image: url("66abe4b22737f.png");
     height: 32px;
