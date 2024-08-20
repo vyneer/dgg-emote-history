@@ -6102,7 +6102,7 @@ background-repeat:no-repeat;
 }
 .msg-chat.msg-emote[data-combo-group="x50"] > .text,
 .msg-chat.msg-emote[data-combo-group="x50"] > .chat-combo  {
-    animation: RARE-RAINBOW 1.2s 1, RARE-RAINBOW-PULSATE 5s infinite 1.2s linear;
+    animation: RARE-RAINBOW 1.2s 1, RARE-RAINBOW-PULSATE 2.75s infinite 1.2s linear;
     transform-origin:-20px;
     transition: all .35s;
 }
@@ -6514,32 +6514,30 @@ color:#ffaccc !important;
 
     100% {
         filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #FF0000);
-        transform: scale(1.25);
+        transform: scale(1.2);
     }
 }
 
 @keyframes RARE-RAINBOW-PULSATE {
     0% {
-        transform: scale(1.25) rotate(0deg);
-        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #FF0000);
+        transform: scale(1.2) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 4px #FF0000);
     }
-
     25% {
-        transform: scale(1.15) rotate(2deg);
-        filter: brightness(1.15) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 4px #00FF00);
-
+        transform: scale(1.3) rotate(-2deg);
+        filter: brightness(1.15) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #80ff00);
     }
-
+    50% {
+        transform: scale(1.4) rotate(1deg);
+        filter: brightness(1.15) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 7px #00ffff);
+    }
     75% {
-        transform: scale(1.3) rotate(-1deg);
-        filter: brightness(1.05) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 7px #0000FF);
-
+        transform: scale(1.3) rotate(3deg);
+        filter: brightness(1.05) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #9f00ff);
     }
-
     100% {
-        transform: scale(1.25) rotate(0deg);
-        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #FF0000);
-
+        transform: scale(1.2) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 4px #FF0000);
     }
 }
 .emote.WICKED {
