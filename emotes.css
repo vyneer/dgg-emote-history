@@ -835,6 +835,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.FishMods {
+    background-image: url("66c5861be0845.png");
+    height: 31px;
+    width: 53px;
+}
+.msg-chat .emote.FishMods {
+    margin-top: -31px;
+    top: 7.75px;
+}
 .emote.FiveHead {
     background-image: url("5fa1f1d6e4f61.png");
     height: 34px;
@@ -1084,6 +1093,15 @@
     width: 76px;
 }
 .msg-chat .emote.Klappa {
+    margin-top: -30px;
+    top: 7.5px;
+}
+.emote.LandlordW {
+    background-image: url("66c588e489bcf.png");
+    height: 30px;
+    width: 31px;
+}
+.msg-chat .emote.LandlordW {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -1536,6 +1554,15 @@
 .msg-chat .emote.OhMyDog {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.OhYou {
+    background-image: url("66b312af3bd32.png");
+    height: 32px;
+    width: 36px;
+}
+.msg-chat .emote.OhYou {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.OMEGALUL {
     background-image: url("5dc74d7a33e54.png");
@@ -2256,6 +2283,15 @@
 .msg-chat .emote.Wowee {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.WWWWaiting {
+    background-image: url("66b3134c94205.png");
+    height: 32px;
+    width: 36px;
+}
+.msg-chat .emote.WWWWaiting {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.YAM {
     background-image: url("665ade4b0a54f.png");
