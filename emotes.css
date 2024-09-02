@@ -1681,6 +1681,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.pepeSmug {
+    background-image: url("66ad4e3292fd6.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.pepeSmug {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.pepeSteer {
     background-image: url("5fc5c2f5071e9.png");
     height: 30px;
