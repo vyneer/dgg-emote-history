@@ -2347,6 +2347,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.yeeSmug {
+    background-image: url("66d7b70c70b22.png");
+    height: 35px;
+    width: 29px;
+}
+.msg-chat .emote.yeeSmug {
+    margin-top: -35px;
+    top: 8.75px;
+}
 .emote.YesHoney {
     background-image: url("66827fa78c56f.png");
     height: 32px;
