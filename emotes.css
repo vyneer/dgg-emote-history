@@ -1474,15 +1474,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.NoShitSherlock {
-    background-image: url("66ad4e8f0477c.png");
-    height: 36px;
-    width: 52px;
-}
-.msg-chat .emote.NoShitSherlock {
-    margin-top: -36px;
-    top: 9px;
-}
 .emote.NOSHOT {
     background-image: url("665ad43c9e90d.png");
     height: 30px;
@@ -1491,6 +1482,15 @@
 .msg-chat .emote.NOSHOT {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.NoShotSherlock {
+    background-image: url("66ad4e8f0477c.png");
+    height: 36px;
+    width: 52px;
+}
+.msg-chat .emote.NoShotSherlock {
+    margin-top: -36px;
+    top: 9px;
 }
 .emote.NoTears {
     background-image: url("5c2bbd3411c78.png");
