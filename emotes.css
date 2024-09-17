@@ -637,6 +637,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.DoNot {
+    background-image: url("66b43bc1038ab.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.DoNot {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.DONTSAYIT {
     background-image: url("66bb1bfaf1b79.png");
     height: 30px;
@@ -1457,13 +1466,13 @@
     top: 8.75px;
 }
 .emote.NOPERS {
-    background-image: url("66b43bc1038ab.gif");
-    height: 32px;
-    width: 32px;
+    background-image: url("61802e629ca8d.gif");
+    height: 28px;
+    width: 28px;
 }
 .msg-chat .emote.NOPERS {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.Normgasm {
     background-image: url("65f57bb5f161f.png");
