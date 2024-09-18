@@ -287,9 +287,9 @@
     top: 7.5px;
 }
 .emote.CINEMA {
-    background-image: url("66ea28388464b.png");
+    background-image: url("66ea30af62a87.png");
     height: 32px;
-    width: 82px;
+    width: 2460px;
 }
 .msg-chat .emote.CINEMA {
     margin-top: -32px;
@@ -3592,6 +3592,23 @@ filter: contrast(1) saturate(1) brightness(1.25);
   animation-iteration-count: infinite;
 }
 
+.emote.CINEMA {
+  height: 32px;
+  width: 82px;
+  animation: CINEMA-anim .4s steps(29) forwards;
+}
+.emote.CINEMA:hover {
+  height: 32px;
+  width: 82px;
+  animation: CINEMA-hover .4s steps(29) forwards 1;
+}
+
+@keyframes CINEMA-anim {
+  to { background-position: -2378px; }
+}
+@keyframes CINEMA-hover {
+  to { background-position: -2378px; }
+}
 @keyframes Clap-anim {
   100% { background-position: -44px; }
 }
