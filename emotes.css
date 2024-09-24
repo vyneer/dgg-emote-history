@@ -3076,6 +3076,8 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.catJAM:hover {
   animation: catJAM-hover infinite steps(188) 6.5s;
 }
+
+//fuk u 
 @keyframes CAUGHT-mark {
     5% {
         transform: scale(-1, 0); transform-origin: top;  opacity: 0;
