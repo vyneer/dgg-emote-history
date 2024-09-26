@@ -3329,17 +3329,17 @@
   },
   {
     "prefix": "SHOCKSTINY",
-    "creator": "cybervegan",
+    "creator": "cyver",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.0.1/emotes/66f50d7145ca5.png",
-        "name": "66f50d7145ca5.png",
+        "url": "https://cdn.destiny.gg/4.0.1/emotes/66f51ca947d11.png",
+        "name": "66f51ca947d11.png",
         "mime": "image/png",
-        "height": 36,
-        "width": 56
+        "height": 35,
+        "width": 49
       }
     ]
   },
