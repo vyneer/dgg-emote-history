@@ -1871,13 +1871,13 @@
     top: 8px;
 }
 .emote.SHOCKSTINY {
-    background-image: url("664db3d8f2493.png");
-    height: 34px;
-    width: 47px;
+    background-image: url("66f50d7145ca5.png");
+    height: 36px;
+    width: 56px;
 }
 .msg-chat .emote.SHOCKSTINY {
-    margin-top: -34px;
-    top: 8.5px;
+    margin-top: -36px;
+    top: 9px;
 }
 .emote.Shroomstiny {
     background-image: url("62509ec67821e.png");
@@ -5341,8 +5341,8 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     line-height: initial;
     position: absolute;
     opacity: 1;
-    top: -18px;
-    left: 32px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
+    top: -14px;
+    left: 38px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
     transform: scale(0, 0);
     animation: SHOCKSTINY-mark 1.3s 1 ease;
 }
