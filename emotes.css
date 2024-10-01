@@ -169,6 +169,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.benzoChamp {
+    background-image: url("66b31308b0a7e.png");
+    height: 34px;
+    width: 27px;
+}
+.msg-chat .emote.benzoChamp {
+    margin-top: -34px;
+    top: 8.5px;
+}
 .emote.BERN {
     background-image: url("5f77e5fb8c685.png");
     height: 30px;
@@ -204,6 +213,15 @@
 .msg-chat .emote.BLADE {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.Bleh {
+    background-image: url("66b31270c2e04.png");
+    height: 34px;
+    width: 44px;
+}
+.msg-chat .emote.Bleh {
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.Blesstiny {
     background-image: url("5d992ba05bb49.png");
@@ -395,13 +413,13 @@
     top: 8px;
 }
 .emote.ComfyLily {
-    background-image: url("664dad389b907.png");
-    height: 32px;
-    width: 41px;
+    background-image: url("66fb9940454b9.png");
+    height: 34px;
+    width: 1140px;
 }
 .msg-chat .emote.ComfyLily {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.ComfyRustle {
     background-image: url("66adb66986cf8.png");
@@ -420,6 +438,15 @@
 .msg-chat .emote.coMMMMfy {
     margin-top: -28px;
     top: 7px;
+}
+.emote.Concerned {
+    background-image: url("66ad4e190ce0c.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Concerned {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.confusedCat {
     background-image: url("66a9ac047a5ad.png");
@@ -1069,6 +1096,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.ITSNOTFAIR {
+    background-image: url("66b1b150a12ce.png");
+    height: 32px;
+    width: 30px;
+}
+.msg-chat .emote.ITSNOTFAIR {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ITSRAWWW {
     background-image: url("665add9c07691.png");
     height: 30px;
@@ -1122,6 +1158,15 @@
 .msg-chat .emote.KEIKAKU {
     margin-top: -34px;
     top: 8.5px;
+}
+.emote.KEK {
+    background-image: url("66abe6fdf2c6a.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.KEK {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Klappa {
     background-image: url("5e78eb181cc2b.png");
@@ -2078,13 +2123,13 @@
     top: 7.5px;
 }
 .emote.STATUSQUO {
-    background-image: url("5d9c09a78f991.jpg");
-    height: 32px;
-    width: 53px;
+    background-image: url("669d97642fe1c.png");
+    height: 30px;
+    width: 55px;
 }
 .msg-chat .emote.STATUSQUO {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.SURPRISE {
     background-image: url("66fb8f7c3116c.png");
@@ -2204,9 +2249,9 @@
     top: 7.5px;
 }
 .emote.TRUMPED {
-    background-image: url("5f76770cccb6f.png");
+    background-image: url("669479b58554b.png");
     height: 28px;
-    width: 106px;
+    width: 53px;
 }
 .msg-chat .emote.TRUMPED {
     margin-top: -28px;
@@ -2418,6 +2463,15 @@
 .msg-chat .emote.yeeSmug {
     margin-top: -35px;
     top: 8.75px;
+}
+.emote.YEK {
+    background-image: url("66abf45ae828b.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.YEK {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.YesHoney {
     background-image: url("66827fa78c56f.png");
@@ -3913,6 +3967,77 @@ transition:all 2s;
 .emote.COGGERS:hover {
     animation: COGGERS-anim-hover 0.8s infinite linear;
 }
+/* Done by melun & legendarypotatoe*/
+
+/*
+======= Laser =======
+*/
+.ComfyLily + .emote.Blade {
+  //background-image: url("https://i.imgur.com/XrqsOoo.png");
+  width: 1632px;
+  height: 32px;
+  top: 7px;
+  left: -16px;
+  margin-right: -16px;
+  font-family: "Roboto", Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+.ComfyLily + .emote.Blade {
+    width: 48px;
+    height: 32px;
+    animation: Blade-lily-anim 1 steps(34) 1600ms;
+}
+
+.ComfyLily + .emote.Blade:hover {
+    animation: Blade-lily-anim-hover infinite steps(34) 1600ms;
+}
+
+@keyframes Blade-lily-anim {
+    100% {
+        background-position: -1632px;
+    }
+}
+
+@keyframes Blade-lily-anim-hover {
+    100% {
+        background-position: -1632px;
+    }
+}
+
+/*
+===== Lily ======
+*/
+.emote.ComfyLily {
+  width: 1140px;
+  height: 34px;
+}
+
+.emote.ComfyLily {
+  width: 76px;
+  height: 34px;
+  transform: scaleX(-1);
+  animation: ComfyLily-anim 600ms steps(15) forwards;
+  animation-delay: 600ms;
+}
+
+.emote.ComfyLily:hover {
+    animation: ComfyLily-anim-hover 600ms steps(15) infinite;
+  animation-fill-mode: forwards;
+}
+
+/* Animation for the first 3 frames */
+@keyframes ComfyLily-anim {
+  100% {
+    background-position: -1140px; /* Move 3 frames forward */
+  }
+}
+
+@keyframes ComfyLily-anim-hover {
+    100% {
+        background-position: -1140px;
+    }
+}
 .emote.COOMER {
   animation: COOMER-anim 0.1s 20, COOMER-color 2s 1;
   transition: filter 0.2s;
@@ -4824,7 +4949,7 @@ to   {  rotate: 4deg;}
   background-repeat: no-repeat;
   width:59px;
   height:32px;
-  animation: GIGACHAD-anim 1.5s ease-out 1, GIGACHAD-bg 3s 1.5s steps(89) forwards, GIGACHAD-tilt 1.25s 3.25s ease-out forwards, 
+  animation: GIGACHAD-anim .75s ease-out 1, GIGACHAD-bg 1.75s .75s steps(89) forwards, GIGACHAD-tilt .75s 1.95s ease-out forwards, 
                 GIGACHAD-FLASH 1.5s 2.2s 6 alternate;
   transition: all 1s;
   //filter: brightness(1.15) saturate(1.15) drop-shadow(0px 0px 4px #0b017a);
@@ -5104,13 +5229,13 @@ to   {  rotate: 4deg;}
 @keyframes Hmmm-anim{
   0% {transform: rotate(0deg);}
   10% {transform: rotate(4deg) translate(1px, 1px);}
-  75% {transform: rotate(2deg) translate(1px, 2px);}
+  75% {transform: rotate(6deg) translate(1px, 2px);}
   100% {transform: rotate(0deg);}
 }
 @keyframes Hmmm-hover{
   0% {transform: rotate(0deg);}
   10% {transform: rotate(4deg) translate(1px, 1px);}
-  75% {transform: rotate(2deg) translate(1px, 2px);}
+  75% {transform: rotate(6deg) translate(1px, 2px);}
   100% {transform: rotate(0deg);}
 }
 .emote.Hmmm {
@@ -5119,7 +5244,7 @@ to   {  rotate: 4deg;}
   transition: all .4s ease;
 }
 .emote.Hmmm:hover{
-transform: rotate(2deg) translate(1px, 2px);
+transform: rotate(4deg) translate(1px, 2px);
 }
 
 .emote.HUH {
@@ -6842,7 +6967,6 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 
 
-/* Halloween version made by Gahhey */
 /* Halloween version made by T9Parker */
 .emote.TeddyPepe {
     width: 48px;
@@ -7076,23 +7200,6 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     animation: TRUELOVE-hover 0.5s infinite;
     animation-delay: 0.25s;
 }
-/* Halloween version made by Igor */
-@keyframes TRUMPED-anim { 
-  100% { background-position: -106px 0; }
-}
-@keyframes TRUMPED-hover { 
-  100% { background-position: -106px 0; }
-}
-.emote.TRUMPED {
-  width: 53px;
-  height: 28px;
-  background-position: 0 0;
-    animation: TRUMPED-anim .25s steps(2) 7 -.1s;
-}
-.emote.TRUMPED:hover {
-  animation: TRUMPED-hover .25s steps(2) infinite;
-}
-
 /* Halloween version made by Vindelici */
 .emote.WEEWOO {
     background-position: 0px;
