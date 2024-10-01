@@ -1760,6 +1760,22 @@
     ]
   },
   {
+    "prefix": "Hmmm",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/6613ccc34a620.png",
+        "name": "6613ccc34a620.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "HmmStiny",
     "creator": "",
     "twitch": false,
@@ -2217,22 +2233,6 @@
       {
         "url": "https://cdn.destiny.gg/4.1.1/emotes/660fe8de7a5d9.png",
         "name": "660fe8de7a5d9.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
-    "prefix": "monkaHmmm",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/6613ccc34a620.png",
-        "name": "6613ccc34a620.png",
         "mime": "image/png",
         "height": 32,
         "width": 32

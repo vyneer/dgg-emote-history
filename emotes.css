@@ -988,6 +988,15 @@
     margin-top: -25px;
     top: 6.25px;
 }
+.emote.Hmmm {
+    background-image: url("6613ccc34a620.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Hmmm {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.HmmStiny {
     background-image: url("5c2bbcc8ec75b.png");
     height: 30px;
@@ -1246,15 +1255,6 @@
     width: 32px;
 }
 .msg-chat .emote.monkaGun {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.monkaHmmm {
-    background-image: url("6613ccc34a620.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.monkaHmmm {
     margin-top: -32px;
     top: 8px;
 }
@@ -4424,6 +4424,27 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 .emote.Hhhehhehe:hover {
     animation: Hhhehhehe-anim-hover 500ms infinite;
 }
+@keyframes Hmmm-anim{
+  0% {transform: rotate(0deg);}
+  10% {transform: rotate(4deg) translate(1px, 1px);}
+  75% {transform: rotate(2deg) translate(1px, 2px);}
+  100% {transform: rotate(0deg);}
+}
+@keyframes Hmmm-hover{
+  0% {transform: rotate(0deg);}
+  10% {transform: rotate(4deg) translate(1px, 1px);}
+  75% {transform: rotate(2deg) translate(1px, 2px);}
+  100% {transform: rotate(0deg);}
+}
+.emote.Hmmm {
+  transform-origin: 4% ;
+  animation: Hmmm-anim 2s 1;
+  transition: all .4s ease;
+}
+.emote.Hmmm:hover{
+transform: rotate(2deg) translate(1px, 2px);
+}
+
 .emote.HUH {
   height: 32px;
   width: 46px;
@@ -4631,27 +4652,6 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
   90% { transform: translate(.5px, .5px) rotate(0deg); }
   100% { transform: translate(1px, -.5px) rotate(-.5deg); }
 }
-@keyframes monkaHmmm-anim{
-  0% {transform: rotate(0deg);}
-  10% {transform: rotate(4deg) translate(1px, 1px);}
-  75% {transform: rotate(2deg) translate(1px, 2px);}
-  100% {transform: rotate(0deg);}
-}
-@keyframes monkaHmmm-hover{
-  0% {transform: rotate(0deg);}
-  10% {transform: rotate(4deg) translate(1px, 1px);}
-  75% {transform: rotate(2deg) translate(1px, 2px);}
-  100% {transform: rotate(0deg);}
-}
-.emote.monkaHmmm {
-  transform-origin: 4% ;
-  animation: monkaHmmm-anim 2s 1;
-  transition: all .4s ease;
-}
-.emote.monkaHmmm:hover{
-transform: rotate(2deg) translate(1px, 2px);
-}
-
 .emote.monkaSMEGA {
   animation: monkaSMEGA-anim .7s 50;
 }
