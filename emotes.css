@@ -728,13 +728,13 @@
     top: 7.5px;
 }
 .emote.ECH {
-    background-image: url("6156dc3048f39.png");
-    height: 30px;
-    width: 39px;
+    background-image: url("66fbad45d2534.png");
+    height: 32px;
+    width: 33px;
 }
 .msg-chat .emote.ECH {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.EVIL {
     background-image: url("66f4e7369a25a.png");
@@ -2168,13 +2168,13 @@
     top: 8.5px;
 }
 .emote.temmieDank {
-    background-image: url("6611326d5a5a4.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("66fba9e5bf5c5.png");
+    height: 38px;
+    width: 42px;
 }
 .msg-chat .emote.temmieDank {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -38px;
+    top: 9.5px;
 }
 .emote.TF {
     background-image: url("66fba424e29f9.png");
@@ -2213,13 +2213,13 @@
     top: 8px;
 }
 .emote.tinyWTF {
-    background-image: url("66827da781cd6.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("66fbaaa54ca4d.png");
+    height: 34px;
+    width: 38px;
 }
 .msg-chat .emote.tinyWTF {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.tonyW {
     background-image: url("615a055e22f6a.png");
@@ -2240,13 +2240,13 @@
     top: 8.5px;
 }
 .emote.TRUELOVE {
-    background-image: url("5cc0cc2a87ca8.png");
-    height: 30px;
-    width: 51px;
+    background-image: url("653c8e146b5ba.png");
+    height: 32px;
+    width: 54px;
 }
 .msg-chat .emote.TRUELOVE {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.TRUMPED {
     background-image: url("669479b58554b.png");
@@ -2544,15 +2544,6 @@
 .msg-chat .emote.KING {
     margin-top: -28px;
     top: 7px;
-}
-.emote.LOVE {
-    background-image: url("653c8e146b5ba.png");
-    height: 32px;
-    width: 54px;
-}
-.msg-chat .emote.LOVE {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.Madge {
     background-image: url("66fb786947fcd.png");
@@ -6871,7 +6862,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 .emote.SoyPoint {
   height: 35px;
   width: 48px;
-  //filter: brightness(1.15);
+
 }
 
 .emote.SoyPoint+.emote.SoyPoint,
@@ -6971,17 +6962,6 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
         background-position: -1104px;
     }
 }
-/*
-.msg-chat.msg-user[data-username="xenathewitcher"]{
-     color: #080808;
-     visibility: hidden;
-}
-
-.msg-chat.msg-user[data-username="mewlies"]{
-     color: #080808;
-     visibility: hidden;
-}
-*/
 .emote.THATNINJA {
   width: 32px;
   height: 32px;
@@ -7090,11 +7070,8 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 @keyframes TRUELOVE-anim {
     0% { top: -25px; }
-    100% { top: 30px; }
-}
-@keyframes TRUELOVE-hover {
-    0% { top: -25px; }
-    100% { top: 30px; }
+    99% { top: 30px; }
+    100%{ top: -25px; }
 }
 .emote.TRUELOVE:before{
     content: "💗";
@@ -7116,10 +7093,10 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     animation-delay: 0.25s;
 }
 .emote.TRUELOVE:hover::before {
-    animation: TRUELOVE-hover 0.5s infinite;
+    animation: TRUELOVE-anim 0.5s infinite;
 }
 .emote.TRUELOVE:hover::after {
-    animation: TRUELOVE-hover 0.5s infinite;
+    animation: TRUELOVE-anim 0.5s infinite;
     animation-delay: 0.25s;
 }
 .emote.WEEWOO {
@@ -8123,37 +8100,6 @@ color:#ffaccc !important;
   animation: GRUGingOverIt-hover 1.28s steps(32) infinite;
 }
 /* Halloween version made by Toblakai_ */
-@keyframes LOVE-anim {
-    0% { top: -25px; }
-    99% { top: 30px; }
-    100%{ top: -25px; }
-}
-.emote.LOVE:before{
-    content: "💗";
-    text-indent: 0;
-    font-size: 18px;
-    position: absolute;
-    left:-3px;
-    top:-25px;
-    animation: LOVE-anim 0.5s 4;
-}
-.emote.LOVE:after{
-    content: "💗";
-    text-indent: 0;
-    font-size: 18px;
-    position: absolute;
-    right:-3px;
-    top:-25px;
-    animation: LOVE-anim 0.5s 4;
-    animation-delay: 0.25s;
-}
-.emote.LOVE:hover::before {
-    animation: LOVE-anim 0.5s infinite;
-}
-.emote.LOVE:hover::after {
-    animation: LOVE-anim 0.5s infinite;
-    animation-delay: 0.25s;
-}
 .emote.nathanThinking {
   //filter: drop-shadow(0px 0px 1px #ffffff);
 }

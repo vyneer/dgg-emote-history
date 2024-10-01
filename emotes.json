@@ -1297,17 +1297,17 @@
   },
   {
     "prefix": "ECH",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/6156dc3048f39.png",
-        "name": "6156dc3048f39.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbad45d2534.png",
+        "name": "66fbad45d2534.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 39
+        "height": 32,
+        "width": 33
       }
     ]
   },
@@ -3857,17 +3857,17 @@
   },
   {
     "prefix": "temmieDank",
-    "creator": "mersuedits (BTTV)",
+    "creator": "cyver",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/6611326d5a5a4.png",
-        "name": "6611326d5a5a4.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fba9e5bf5c5.png",
+        "name": "66fba9e5bf5c5.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 38,
+        "width": 42
       }
     ]
   },
@@ -3939,15 +3939,15 @@
     "prefix": "tinyWTF",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/66827da781cd6.png",
-        "name": "66827da781cd6.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbaaa54ca4d.png",
+        "name": "66fbaaa54ca4d.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 32
+        "height": 34,
+        "width": 38
       }
     ]
   },
@@ -3987,15 +3987,15 @@
     "prefix": "TRUELOVE",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/5cc0cc2a87ca8.png",
-        "name": "5cc0cc2a87ca8.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/653c8e146b5ba.png",
+        "name": "653c8e146b5ba.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 51
+        "height": 32,
+        "width": 54
       }
     ]
   },
@@ -4524,22 +4524,6 @@
         "mime": "image/png",
         "height": 28,
         "width": 28
-      }
-    ]
-  },
-  {
-    "prefix": "LOVE",
-    "creator": "",
-    "twitch": false,
-    "theme": 3,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/653c8e146b5ba.png",
-        "name": "653c8e146b5ba.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 54
       }
     ]
   },
