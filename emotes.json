@@ -769,17 +769,17 @@
   },
   {
     "prefix": "coMMMMfy",
-    "creator": null,
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/624e76368b3a9.png",
-        "name": "624e76368b3a9.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbbbad234ed.png",
+        "name": "66fbbbad234ed.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 33
+        "height": 32,
+        "width": 34
       }
     ]
   },
@@ -2979,15 +2979,15 @@
     "prefix": "OOOO",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/5e75f1c3a21a1.png",
-        "name": "5e75f1c3a21a1.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbc095df46a.png",
+        "name": "66fbc095df46a.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 588
+        "height": 30,
+        "width": 750
       }
     ]
   },
