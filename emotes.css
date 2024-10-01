@@ -1727,9 +1727,9 @@
     top: 8px;
 }
 .emote.peepoStop {
-    background-image: url("66b3128575eb8.png");
+    background-image: url("66fbd2423e636.png");
     height: 32px;
-    width: 40px;
+    width: 32px;
 }
 .msg-chat .emote.peepoStop {
     margin-top: -32px;
@@ -2033,9 +2033,9 @@
     top: 8.25px;
 }
 .emote.Slumlord {
-    background-image: url("5d9f6185dfa45.png");
+    background-image: url("66fbd202dbbfa.png");
     height: 32px;
-    width: 32px;
+    width: 33px;
 }
 .msg-chat .emote.Slumlord {
     margin-top: -32px;
@@ -6636,31 +6636,32 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 /* Halloween version made by T9Parker */
 @keyframes Slumlord-anim {
-    0% { top: -25px; }
-    99% { top: 30px; }
-    100%{ top: -25px; }
+    0% { top: -45px; }
+    99% { top: 32px; }
+    100%{ top: 32px; }
 }
 .emote.Slumlord:before{
-    content: "💰";
+    content: "❌";
     text-indent: 0;
-    font-size: 18px;
+    font-size: 14px;
     position: absolute;
-    left:-3px;
+    left:-5px;
     top:-25px;
-    animation: Slumlord-anim 0.5s 4;
+    animation: Slumlord-anim 1.1s 6 ease ;
+//🚫 ⛔ ❌ 🛑
 }
 .emote.Slumlord:after{
-    content: "💰";
+    content: "⛔";
     text-indent: 0;
-    font-size: 18px;
+    font-size: 14px;
     position: absolute;
-    right:-3px;
+    right:-4px;
     top:-25px;
-    animation: Slumlord-anim 0.5s 4;
-    animation-delay: 0.25s;
+    animation: Slumlord-anim 1.4s 6 ease ;
+    animation-delay: 0.3s;
 }
 .emote.Slumlord:hover::before {
-    animation: Slumlord-anim 0.5s infinite;
+    animation: Slumlord-anim 0.5s infinite alternate;
 }
 .emote.Slumlord:hover::after {
     animation: Slumlord-anim 0.5s infinite;

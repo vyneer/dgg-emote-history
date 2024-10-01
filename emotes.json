@@ -3075,15 +3075,15 @@
     "prefix": "peepoStop",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/66b3128575eb8.png",
-        "name": "66b3128575eb8.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbd2423e636.png",
+        "name": "66fbd2423e636.png",
         "mime": "image/png",
         "height": 32,
-        "width": 40
+        "width": 32
       }
     ]
   },
@@ -3617,17 +3617,17 @@
   },
   {
     "prefix": "Slumlord",
-    "creator": "T9Parker ",
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/5d9f6185dfa45.png",
-        "name": "5d9f6185dfa45.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbd202dbbfa.png",
+        "name": "66fbd202dbbfa.png",
         "mime": "image/png",
         "height": 32,
-        "width": 32
+        "width": 33
       }
     ]
   },
