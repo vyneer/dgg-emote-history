@@ -4019,15 +4019,15 @@
     "prefix": "UltraHandsomeMan",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/66947b90b7b45.png",
-        "name": "66947b90b7b45.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbd2fa6860b.png",
+        "name": "66fbd2fa6860b.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 38,
+        "width": 22
       }
     ]
   },
