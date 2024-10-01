@@ -3875,15 +3875,15 @@
     "prefix": "TF",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/660cc4785d136.png",
-        "name": "660cc4785d136.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fba424e29f9.png",
+        "name": "66fba424e29f9.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 104
+        "height": 35,
+        "width": 35
       }
     ]
   },
@@ -3923,15 +3923,15 @@
     "prefix": "tinySuffer",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/6693d0763fd7d.png",
-        "name": "6693d0763fd7d.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fba5de370d3.png",
+        "name": "66fba5de370d3.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 32,
+        "width": 48
       }
     ]
   },
@@ -4033,17 +4033,17 @@
   },
   {
     "prefix": "UWOTM8",
-    "creator": "Vindelici ",
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/5d9bcda52fb4d.png",
-        "name": "5d9bcda52fb4d.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fba65c52489.png",
+        "name": "66fba65c52489.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 28
+        "height": 32,
+        "width": 43
       }
     ]
   },
@@ -4113,33 +4113,17 @@
   },
   {
     "prefix": "WHAAAAT",
-    "creator": "cybervegan",
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/660ab164140fa.png",
-        "name": "660ab164140fa.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fba5b75f366.png",
+        "name": "66fba5b75f366.png",
         "mime": "image/png",
         "height": 35,
-        "width": 35
-      }
-    ]
-  },
-  {
-    "prefix": "WHISPERING",
-    "creator": "huansox (7tv)",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/6680aaacc3a97.gif",
-        "name": "6680aaacc3a97.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 96
+        "width": 74
       }
     ]
   },
@@ -4679,11 +4663,43 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fb7d67354dc.png",
-        "name": "66fb7d67354dc.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fba4ec28b88.png",
+        "name": "66fba4ec28b88.png",
         "mime": "image/png",
-        "height": 23,
-        "width": 33
+        "height": 32,
+        "width": 46
+      }
+    ]
+  },
+  {
+    "prefix": "ShrimpleAs",
+    "creator": "",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fba568562ec.png",
+        "name": "66fba568562ec.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 51
+      }
+    ]
+  },
+  {
+    "prefix": "STOPFIGHTING",
+    "creator": "",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fba41084ded.png",
+        "name": "66fba41084ded.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 50
       }
     ]
   },

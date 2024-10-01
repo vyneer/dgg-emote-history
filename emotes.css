@@ -2177,13 +2177,13 @@
     top: 7.5px;
 }
 .emote.TF {
-    background-image: url("660cc4785d136.png");
-    height: 30px;
-    width: 104px;
+    background-image: url("66fba424e29f9.png");
+    height: 35px;
+    width: 35px;
 }
 .msg-chat .emote.TF {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -35px;
+    top: 8.75px;
 }
 .emote.THATNINJA {
     background-image: url("66b3f4907a09f.png");
@@ -2204,13 +2204,13 @@
     top: 8px;
 }
 .emote.tinySuffer {
-    background-image: url("6693d0763fd7d.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("66fba5de370d3.png");
+    height: 32px;
+    width: 48px;
 }
 .msg-chat .emote.tinySuffer {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.tinyWTF {
     background-image: url("66827da781cd6.png");
@@ -2267,13 +2267,13 @@
     top: 7.5px;
 }
 .emote.UWOTM8 {
-    background-image: url("5d9bcda52fb4d.png");
-    height: 30px;
-    width: 28px;
+    background-image: url("66fba65c52489.png");
+    height: 32px;
+    width: 43px;
 }
 .msg-chat .emote.UWOTM8 {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.VeryPog {
     background-image: url("66fb942febbdf.png");
@@ -2312,22 +2312,13 @@
     top: 7px;
 }
 .emote.WHAAAAT {
-    background-image: url("660ab164140fa.png");
+    background-image: url("66fba5b75f366.png");
     height: 35px;
-    width: 35px;
+    width: 74px;
 }
 .msg-chat .emote.WHAAAAT {
     margin-top: -35px;
     top: 8.75px;
-}
-.emote.WHISPERING {
-    background-image: url("6680aaacc3a97.gif");
-    height: 32px;
-    width: 96px;
-}
-.msg-chat .emote.WHISPERING {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.WhoahDude {
     background-image: url("5d950c5ce9fa4.png");
@@ -2627,13 +2618,31 @@
     top: 5px;
 }
 .emote.Pointless {
-    background-image: url("66fb7d67354dc.png");
-    height: 23px;
-    width: 33px;
+    background-image: url("66fba4ec28b88.png");
+    height: 32px;
+    width: 46px;
 }
 .msg-chat .emote.Pointless {
-    margin-top: -23px;
-    top: 5.75px;
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.ShrimpleAs {
+    background-image: url("66fba568562ec.png");
+    height: 32px;
+    width: 51px;
+}
+.msg-chat .emote.ShrimpleAs {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.STOPFIGHTING {
+    background-image: url("66fba41084ded.png");
+    height: 34px;
+    width: 50px;
+}
+.msg-chat .emote.STOPFIGHTING {
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.triHarder {
     background-image: url("5d94ee31db09c.png");
@@ -6973,64 +6982,6 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
      visibility: hidden;
 }
 */
-.emote.TF{
-    background-position: left center;
-    background-repeat: no-repeat;
-    width: 37px;
-    height: 30px;
-
-}
-
-/* le epic troll 
-.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.TF {
-    height: 30px;
-    width: 32px;
-    background-position: -37px;
-    background-repeat: no-repeat;
-}*/
-
-.msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text:has(.emote.TF){
-    background-color: #0b3fa9; 
-    color: white;
-    padding-bottom: 0.4rem;
-    padding-top: 0.2rem; 
-}
-
-.msg-chat.msg-user>time[data-unixtimestamp$="04"]~.text .emote.TF {
-    animation: epic-troll 1s steps(1) 1;
-}
-
-.msg-chat.msg-user>time[data-unixtimestamp$="96"]~.text .emote.TF {
-    animation: epic-troll-2 4.5s steps(5) 1 forwards;
-}
-
-.msg-chat.msg-user>time[data-unixtimestamp$="21"]~.text .emote.TF {
-    transform: scaleY(-1);
-}
-
-.msg-chat.msg-user>time[data-unixtimestamp$="87"]~.text .emote.TF {
-    transform: scaleX(-1);
-}
-
-.msg-chat.msg-user>time[data-unixtimestamp$="52"]~.text .emote.TF {
-    background-position: -67px;
-    animation: epic-troll-3 1.5s steps(1) 1 forwards;
-}
-
-
-@keyframes epic-troll {
-  0% { opacity: 0%; }
-  100% { opacity: 100%; }
-}
-
-@keyframes epic-troll-2 {
-  from { transform-origin: top; background-position: 0px 30px; transform:translateY(-30px);}
-  to { transform-origin: top; background-position: 0px 0px; transform:translateY(0px);}
-}
-
-@keyframes epic-troll-3 {
-  to { background-position: 0px; }
-}
 .emote.THATNINJA {
   width: 32px;
   height: 32px;
@@ -7171,7 +7122,6 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     animation: TRUELOVE-hover 0.5s infinite;
     animation-delay: 0.25s;
 }
-/* Halloween version made by Vindelici */
 .emote.WEEWOO {
     background-position: 0px;
     background-repeat: no-repeat;
