@@ -4535,11 +4535,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fb786947fcd.png",
-        "name": "66fb786947fcd.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fc7ff16321c.png",
+        "name": "66fc7ff16321c.png",
         "mime": "image/png",
-        "height": 25,
-        "width": 33
+        "height": 32,
+        "width": 40
       }
     ]
   },

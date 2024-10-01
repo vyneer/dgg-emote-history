@@ -2546,13 +2546,13 @@
     top: 7px;
 }
 .emote.Madge {
-    background-image: url("66fb786947fcd.png");
-    height: 25px;
-    width: 33px;
+    background-image: url("66fc7ff16321c.png");
+    height: 32px;
+    width: 40px;
 }
 .msg-chat .emote.Madge {
-    margin-top: -25px;
-    top: 6.25px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.nathanDank {
     background-image: url("653c38ed8ab52.png");
