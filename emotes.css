@@ -809,13 +809,13 @@
     top: 8px;
 }
 .emote.FeelsGoodMan {
-    background-image: url("5d9bf183ba902.png");
-    height: 30px;
-    width: 40px;
+    background-image: url("66fba1940c22b.png");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.FeelsGoodMan {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.FeelsOkayMan {
     background-image: url("5f79c9b6e3b23.png");
@@ -1862,9 +1862,9 @@
     top: 7px;
 }
 .emote.PepoWant {
-    background-image: url("61626ed0f2afc.png");
+    background-image: url("5fad998c3e160.png");
     height: 32px;
-    width: 448px;
+    width: 38px;
 }
 .msg-chat .emote.PepoWant {
     margin-top: -32px;
@@ -2518,6 +2518,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.FLIPMYBURGER {
+    background-image: url("66fba1a7c3439.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.FLIPMYBURGER {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.GRUGingOverIt {
     background-image: url("5fcd82224b419.png");
     height: 40px;
@@ -3094,7 +3103,7 @@ transition:all 2s;
   margin-left: -8px;
   margin-right: -4px;
   transform: translate(0px, 6px);
-  animation: BLADE steps(100) 5s 1 -0s;
+  animation: BLADE steps(100) 5s 1 -0s; 
 }
 
 .emote.BLADE + .emote.BLADE, .emote.TRIAD + .emote.BLADE, .emote.BLADE:first-of-type {
@@ -3102,7 +3111,8 @@ transition:all 2s;
   margin-left: -4px;
   margin-right: -8px;
   filter: hue-rotate(200deg) saturate(1.5);
-  transform: translate(0px, 6px) scaleX(-1);
+  transform: translate(0px, 6px) scaleX(-1);  
+
 }
 
 .emote + .emote.BLADE:last-of-type, .emote.BLADE:last-of-type, .emote.TRIAD + .emote.BLADE:last-of-type {
@@ -3139,6 +3149,9 @@ transition:all 2s;
 }
 .emote.REE + .emote.BLADE {
   filter: hue-rotate(135deg) saturate(3);
+}
+.emote.ComfyLily + .emote.BLADE {
+  filter: hue-rotate(85deg) brightness(.9) saturate(14) contrast(1);
 }
 /*
 .emote.ApeHands+.emote.BLADE {
@@ -4738,7 +4751,6 @@ transition:all 2s;
 /* Halloween version made by T9Parker */
 /* Halloween version made by T9Parker */
 /* Halloween version made by drewbertman */
-/* Halloween version made by Emmia */
 /* Halloween version made by Igor */
 
 @keyframes FerretLOL-anim { 
@@ -6403,47 +6415,6 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 .emote.PepoTurkey:hover {
     animation: PepoTurkey-anim-hover 0.7s infinite;
 }
-@keyframes PepoWant-anim {
-  100% { background-position: -448px; }
-}
-
-@keyframes PepoWant-anim-hover {
-  100% { background-position: -448px; }
-}
-
-@keyframes PepoWant-margin-right {
-  0%, 100% { margin-right: -9px; width: 56px; z-index: 2; }
-}
-@keyframes PepoWant-margin-left {
-  0%, 100% { margin-left: -9px; width: 56px; z-index: 2; }
-}
-@keyframes PepoWant-jump-right {
-  10%, 60% { transform: translate(1px, -1px); }
-  20%, 50% { transform: translate(2px, 0px); }
-}
-@keyframes PepoWant-jump-left {
-  10%, 60% { transform: translate(-1px, -1px) scaleX(-1); }
-  20%, 50% { transform: translate(-2px, 0px) scaleX(-1); }
-  }
-.emote.PepoWant {
-  background-position: 0px;
-  width: 47px;
-  animation: PepoWant-anim 1s steps(8) 3, PepoWant-margin-right 1s steps(8) 3, PepoWant-jump-right 1s 3;
-}
-
-.emote.PepoWant:last-child {
-  transform: scaleX(-1);
-  animation: PepoWant-anim 1s steps(8) 4 -.50s, PepoWant-margin-left 1s steps(1) 4 -.50s, PepoWant-jump-left 1s 4;
-}
-
-.emote.PepoWant:first-child {
-  transform: scaleX(1);
-  animation: PepoWant-anim 1s steps(8) 3, PepoWant-margin-right 1s steps(8) 3, PepoWant-jump-right 1s 3;
-}
-
-.emote.PepoWant:hover {
-  animation: none;
-}
 .emote.POOTUBE {
     animation: POOTUBE-anim .8s 1 .05s;
     filter: saturate(100%) brightness(115%) contrast(100%) sepia(5%) drop-shadow(0px 0px 1px #ff2727);
@@ -6891,7 +6862,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 .emote.SoyPoint {
   height: 35px;
   width: 48px;
-  filter: brightness(1.15);
+  //filter: brightness(1.15);
 }
 
 .emote.SoyPoint+.emote.SoyPoint,

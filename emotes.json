@@ -1441,17 +1441,17 @@
   },
   {
     "prefix": "FeelsGoodMan",
-    "creator": "Emmia ",
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/5d9bf183ba902.png",
-        "name": "5d9bf183ba902.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fba1940c22b.png",
+        "name": "66fba1940c22b.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 40
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -3313,17 +3313,17 @@
   },
   {
     "prefix": "PepoWant",
-    "creator": "",
+    "creator": null,
     "twitch": false,
-    "theme": 3,
+    "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/61626ed0f2afc.png",
-        "name": "61626ed0f2afc.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/5fad998c3e160.png",
+        "name": "5fad998c3e160.png",
         "mime": "image/png",
         "height": 32,
-        "width": 448
+        "width": 38
       }
     ]
   },
@@ -4476,6 +4476,22 @@
         "mime": "image/png",
         "height": 30,
         "width": 44
+      }
+    ]
+  },
+  {
+    "prefix": "FLIPMYBURGER",
+    "creator": "",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fba1a7c3439.png",
+        "name": "66fba1a7c3439.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
       }
     ]
   },
