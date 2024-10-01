@@ -192,6 +192,22 @@
     ]
   },
   {
+    "prefix": "AWAWA",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fb8048f2d07.png",
+        "name": "66fb8048f2d07.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 33
+      }
+    ]
+  },
+  {
     "prefix": "AYAYA",
     "creator": "",
     "twitch": false,
@@ -1808,6 +1824,22 @@
     ]
   },
   {
+    "prefix": "IKneel",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66b3129b47b0b.png",
+        "name": "66b3129b47b0b.png",
+        "mime": "image/png",
+        "height": 35,
+        "width": 35
+      }
+    ]
+  },
+  {
     "prefix": "IMEANNN",
     "creator": "",
     "twitch": false,
@@ -2268,6 +2300,22 @@
         "mime": "image/png",
         "height": 30,
         "width": 30
+      }
+    ]
+  },
+  {
+    "prefix": "monkaThink",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66ad4e0ab8b33.png",
+        "name": "66ad4e0ab8b33.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -2780,6 +2828,38 @@
         "mime": "image/png",
         "height": 30,
         "width": 30
+      }
+    ]
+  },
+  {
+    "prefix": "OhNo",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66ad4e5acc0ff.png",
+        "name": "66ad4e5acc0ff.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 34
+      }
+    ]
+  },
+  {
+    "prefix": "OhYou",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66b312af3bd32.png",
+        "name": "66b312af3bd32.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 36
       }
     ]
   },
