@@ -71,13 +71,13 @@
     top: 6.5px;
 }
 .emote.Askers {
-    background-image: url("66596cb5db931.png");
-    height: 34px;
-    width: 5544px;
+    background-image: url("66fbc883b44b8.png");
+    height: 32px;
+    width: 47px;
 }
 .msg-chat .emote.Askers {
-    margin-top: -34px;
-    top: 8.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.ASLAN {
     background-image: url("6519163b92542.gif");
@@ -1313,7 +1313,7 @@
     top: 8px;
 }
 .emote.monkaGun {
-    background-image: url("660fe8de7a5d9.png");
+    background-image: url("66fbcb4222697.png");
     height: 32px;
     width: 32px;
 }
@@ -2096,13 +2096,13 @@
     top: 8.75px;
 }
 .emote.SpookerZ {
-    background-image: url("5d99b34f403e4.png");
-    height: 30px;
-    width: 34px;
+    background-image: url("66fbcb156083b.png");
+    height: 32px;
+    width: 33px;
 }
 .msg-chat .emote.SpookerZ {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Stare {
     background-image: url("66fb8bd2d7a04.png");
@@ -2294,7 +2294,7 @@
     top: 7.5px;
 }
 .emote.WEEWOO {
-    background-image: url("66abe4b22737f.png");
+    background-image: url("66fbcb976759d.png");
     height: 32px;
     width: 32px;
 }
@@ -2742,27 +2742,6 @@
 
 .chat-user+.emote.ApeHands:last-child {
   transform: scaleX(1);
-}
-
-@keyframes Askers-anim {
-  100% { background-position: -5544px; }
-}
-
-@keyframes Askers-hover {
-  100% { background-position: -5544px; }
-}
-
-.emote.Askers {
-  width: 56px;
-  margin-left: -4px;
-  margin-right: -4px;
-  background-position: 0px;
-  background-size: 5544px 34px;
-  animation: Askers-anim 3.5s steps(99) 4;
-}
-
-.emote.Askers:hover {
-  animation: Askers-hover 3.5s steps(99) infinite;
 }
 
 .emote.ASLAN {
@@ -5496,40 +5475,6 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
 }
 .emote.MLADY:hover {
     animation: MLADY-anim-hover 250ms infinite;
-}
-.emote.monkaGun {
-  animation: monkaGun-anim .5s 3;
-}
-.emote.monkaGun:hover {
-  animation: monkaGun-hover 0.2s infinite;
-}
-
-@keyframes monkaGun-anim {
-   0% { transform: translate(1px, .2px) rotate(0deg); }
-  10% { transform: translate(-.5px, -.2px) rotate(-.5deg); }
-  20% { transform: translate(-.5px, 0px) rotate(.2deg); }
-  30% { transform: translate(.5px, .2px) rotate(0deg); }
-  40% { transform: translate(.5px, -.2px) rotate(1deg); }
-  50% { transform: translate(-.5px, .5px) rotate(-.2deg); }
-  60% { transform: translate(-.5px, .2px) rotate(0deg); }
-  70% { transform: translate(.5px, .2px) rotate(-.2deg); }
-  80% { transform: translate(-.5px, -.2px) rotate(1deg); }
-  90% { transform: translate(.5px, .2px) rotate(0deg); }
-  100% { transform: translate(.1px, -.2px) rotate(-.2deg); }
-}
-
-@keyframes monkaGun-hover {
-   0% { transform: translate(1px, .5px) rotate(0deg); }
-  10% { transform: translate(-.5px, -.5px) rotate(-.5deg); }
-  20% { transform: translate(-.5px, 0px) rotate(.5deg); }
-  30% { transform: translate(.5px, .5px) rotate(0deg); }
-  40% { transform: translate(.5px, -.5px) rotate(.5deg); }
-  50% { transform: translate(-.5px, 1px) rotate(-.5deg); }
-  60% { transform: translate(-.5px, .5px) rotate(0deg); }
-  70% { transform: translate(.5px, .5px) rotate(-.5deg); }
-  80% { transform: translate(-.5px, -.5px) rotate(.5deg); }
-  90% { transform: translate(.5px, .5px) rotate(0deg); }
-  100% { transform: translate(1px, -.5px) rotate(-.5deg); }
 }
 .emote.monkaSMEGA {
   animation: monkaSMEGA-anim .7s 50;

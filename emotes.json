@@ -131,15 +131,15 @@
     "prefix": "Askers",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/66596cb5db931.png",
-        "name": "66596cb5db931.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbc883b44b8.png",
+        "name": "66fbc883b44b8.png",
         "mime": "image/png",
-        "height": 34,
-        "width": 5544
+        "height": 32,
+        "width": 47
       }
     ]
   },
@@ -2337,14 +2337,14 @@
   },
   {
     "prefix": "monkaGun",
-    "creator": "MrGemzar / cybervegan",
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/660fe8de7a5d9.png",
-        "name": "660fe8de7a5d9.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbcb4222697.png",
+        "name": "66fbcb4222697.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
@@ -3729,17 +3729,17 @@
   },
   {
     "prefix": "SpookerZ",
-    "creator": "BBDGG ",
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/5d99b34f403e4.png",
-        "name": "5d99b34f403e4.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbcb156083b.png",
+        "name": "66fbcb156083b.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 34
+        "height": 32,
+        "width": 33
       }
     ]
   },
@@ -4083,12 +4083,12 @@
     "prefix": "WEEWOO",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/66abe4b22737f.png",
-        "name": "66abe4b22737f.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbcb976759d.png",
+        "name": "66fbcb976759d.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
