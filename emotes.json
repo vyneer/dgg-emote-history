@@ -2163,15 +2163,15 @@
     "prefix": "Listening",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/6689d5ebaca66.png",
-        "name": "6689d5ebaca66.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fbe8ffa446f.png",
+        "name": "66fbe8ffa446f.png",
         "mime": "image/png",
         "height": 33,
-        "width": 48
+        "width": 59
       }
     ]
   },
@@ -3009,17 +3009,17 @@
   },
   {
     "prefix": "Painstiny",
-    "creator": null,
+    "creator": "FizzyLongstockings",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/5c46adc6a005a.png",
-        "name": "5c46adc6a005a.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66f35f6532a9a.png",
+        "name": "66f35f6532a9a.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 28
+        "height": 32,
+        "width": 1920
       }
     ]
   },
