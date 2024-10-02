@@ -647,13 +647,13 @@
     top: 8px;
 }
 .emote.dinkDonk {
-    background-image: url("66fb906f165b1.png");
-    height: 39px;
-    width: 39px;
+    background-image: url("66fc9f9d00389.png");
+    height: 32px;
+    width: 42px;
 }
 .msg-chat .emote.dinkDonk {
-    margin-top: -39px;
-    top: 9.75px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.diNOWAY {
     background-image: url("660b7db35c917.png");
@@ -1457,13 +1457,13 @@
     top: 7px;
 }
 .emote.nathanTiny1 {
-    background-image: url("665ade28c2b3e.png");
-    height: 28px;
-    width: 28px;
+    background-image: url("66fc738973064.png");
+    height: 33px;
+    width: 29px;
 }
 .msg-chat .emote.nathanTiny1 {
-    margin-top: -28px;
-    top: 7px;
+    margin-top: -33px;
+    top: 8.25px;
 }
 .emote.nathanTiny2 {
     background-image: url("5d9bfd0f58000.png");
@@ -2546,9 +2546,9 @@
     top: 7px;
 }
 .emote.Madge {
-    background-image: url("66fc7ff16321c.png");
+    background-image: url("66fc964118856.png");
     height: 32px;
-    width: 40px;
+    width: 42px;
 }
 .msg-chat .emote.Madge {
     margin-top: -32px;

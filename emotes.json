@@ -1159,11 +1159,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fb906f165b1.png",
-        "name": "66fb906f165b1.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fc9f9d00389.png",
+        "name": "66fc9f9d00389.png",
         "mime": "image/png",
-        "height": 39,
-        "width": 39
+        "height": 32,
+        "width": 42
       }
     ]
   },
@@ -2595,15 +2595,15 @@
     "prefix": "nathanTiny1",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/665ade28c2b3e.png",
-        "name": "665ade28c2b3e.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fc738973064.png",
+        "name": "66fc738973064.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 28
+        "height": 33,
+        "width": 29
       }
     ]
   },
@@ -4535,11 +4535,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fc7ff16321c.png",
-        "name": "66fc7ff16321c.png",
+        "url": "https://cdn.destiny.gg/4.1.1/emotes/66fc964118856.png",
+        "name": "66fc964118856.png",
         "mime": "image/png",
         "height": 32,
-        "width": 40
+        "width": 42
       }
     ]
   },
