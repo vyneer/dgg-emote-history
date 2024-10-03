@@ -4393,7 +4393,7 @@ transition:all 2s;
 .msg-chat.msg-user>time[data-unixtimestamp$="01"]~.text .emote.dggL {
     background-position: -320px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
+    //animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="01"]~.text .emote.dggL:hover {
@@ -4406,7 +4406,7 @@ transition:all 2s;
 .msg-chat.msg-user>time[data-unixtimestamp$="12"]~.text .emote.dggL {
     background-position: -352px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
+    //animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="12"]~.text .emote.dggL:hover {
@@ -4419,7 +4419,7 @@ transition:all 2s;
 .msg-chat.msg-user>time[data-unixtimestamp$="23"]~.text .emote.dggL {
     background-position: -384px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
+    //animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="23"]~.text .emote.dggL:hover {
@@ -4432,7 +4432,7 @@ transition:all 2s;
 .msg-chat.msg-user>time[data-unixtimestamp$="34"]~.text .emote.dggL {
     background-position: -416px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
+    //animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="34"]~.text .emote.dggL:hover {
@@ -4445,7 +4445,7 @@ transition:all 2s;
 .msg-chat.msg-user>time[data-unixtimestamp$="56"]~.text .emote.dggL {
     background-position: -480px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
+    //animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="56"]~.text .emote.dggL:hover {
@@ -4458,7 +4458,7 @@ transition:all 2s;
 .msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.dggL {
     background-position: -512px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
+    //animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.dggL:hover {
@@ -4471,7 +4471,7 @@ transition:all 2s;
 .msg-chat.msg-user>time[data-unixtimestamp$="88"]~.text .emote.dggL {
     background-position: -576px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
+    //animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="88"]~.text .emote.dggL:hover {
@@ -4484,7 +4484,7 @@ transition:all 2s;
 .msg-chat.msg-user>time[data-unixtimestamp$="99"]~.text .emote.dggL {
     background-position: -608px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
+    //animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="99"]~.text .emote.dggL:hover {
@@ -4497,7 +4497,7 @@ transition:all 2s;
 .msg-chat.msg-user>time[data-unixtimestamp$="51"]~.text .emote.dggL {
     background-position: -736px;
     background-repeat: no-repeat;
-    animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
+    //animation: RARE-BRONZE-PULSATE 2.5s 5 linear;
 }
 
 .msg-chat.msg-user>time[data-unixtimestamp$="51"]~.text .emote.dggL:hover {
@@ -5354,8 +5354,27 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
 }
 /* Halloween version made by T9Parker (v1) */
 
+
 .emote.Listening {
-filter: contrast(1.1) saturate(2);
+filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .25)) drop-shadow(2px 0px 3px rgba(30, 40, 255, .75)) drop-shadow(0px 0px 0px rgba(255, 255, 255, 0)) brightness(1.25);
+//animation:heavenly-2 infinite alternate 6s 1s ease;
+transition:all 3s;
+//transform:rotate(0deg) translate(0px,0px);
+}
+
+@keyframes heavenly-test-2{
+from{transform: translate(0px,0px) rotate(0deg);}
+to{transform:  translate(-1px,-3px) rotate(-7deg);}
+}
+
+@keyframes heavenly-test {
+from{transform: translate(3px,-8px) rotate(-7deg);}
+to{transform:  translate(-3px,-12px) rotate(-11deg);}
+}
+
+@keyframes heavenly-test-rise {
+from{filter: contrast(1) saturate(6) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2)) drop-shadow(2px 0px 3px rgba(30, 40, 255, .75)) drop-shadow(0px 0px 0px rgba(255, 255, 255, 0)) brightness(1.25); transform:rotate(-1deg) translate(-1px,5px);}
+to{filter: contrast(1.1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2)) drop-shadow(2px 0px 3px rgba(30, 40, 255, .75)) drop-shadow(0px 0px 12px rgba(255, 255, 255, .55)) brightness(1.25); transform:rotate(-7deg) translate(3px,-8px);}
 }
 /* Halloween version made by FFZ user Spyanide https://www.frankerfacez.com/emoticon/299734-LULUIGI */
 .emote.MALARKEY {
