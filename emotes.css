@@ -2563,6 +2563,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.LETSGOOO {
+    background-image: url("67028fc0e3592.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.LETSGOOO {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Madge {
     background-image: url("66fc964118856.png");
     height: 32px;
@@ -8126,6 +8135,43 @@ color:#ffaccc !important;
   animation: GRUGingOverIt-hover 1.28s steps(32) infinite;
 }
 /* Halloween version made by Toblakai_ */
+.emote.LETSGOOO {
+
+  animation: LETSGOOO-anim 0.4s 30;
+background-repeat:no-repeat;
+}
+.emote.LETSGOOO:hover {
+
+  animation: LETSGOOO-hover 0.3s infinite;
+}
+
+@keyframes LETSGOOO-anim {
+   0% { transform: translate(1px, .5px) rotate(0deg); }
+  10% { transform: translate(-.5px, -.5px) rotate(-.5deg); }
+  20% { transform: translate(-.5px, 0px) rotate(.5deg); }
+  30% { transform: translate(.5px, .5px) rotate(0deg); }
+  40% { transform: translate(.5px, -.5px) rotate(.5deg); }
+  50% { transform: translate(-.5px, 1px) rotate(-.5deg); }
+  60% { transform: translate(-.5px, .5px) rotate(0deg); }
+  70% { transform: translate(.5px, .5px) rotate(-.5deg); }
+  80% { transform: translate(-.5px, -.5px) rotate(.5deg); }
+  90% { transform: translate(.5px, .5px) rotate(0deg); }
+  100% { transform: translate(1px, -.5px) rotate(-.5deg); }
+}
+
+@keyframes LETSGOOO-hover {
+   0% { transform: translate(1px, .5px) rotate(0deg); }
+  10% { transform: translate(-.5px, -.5px) rotate(-.5deg); }
+  20% { transform: translate(-.5px, 0px) rotate(.5deg); }
+  30% { transform: translate(.5px, .5px) rotate(0deg); }
+  40% { transform: translate(.5px, -.5px) rotate(.5deg); }
+  50% { transform: translate(-.5px, 1px) rotate(-.5deg); }
+  60% { transform: translate(-.5px, .5px) rotate(0deg); }
+  70% { transform: translate(.5px, .5px) rotate(-.5deg); }
+  80% { transform: translate(-.5px, -.5px) rotate(.5deg); }
+  90% { transform: translate(.5px, .5px) rotate(0deg); }
+  100% { transform: translate(1px, -.5px) rotate(-.5deg); }
+}
 .emote.nathanThinking {
   //filter: drop-shadow(0px 0px 1px #ffffff);
 }

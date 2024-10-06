@@ -4560,6 +4560,22 @@
     ]
   },
   {
+    "prefix": "LETSGOOO",
+    "creator": "",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.2.1/emotes/67028fc0e3592.png",
+        "name": "67028fc0e3592.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "Madge",
     "creator": "",
     "twitch": false,
