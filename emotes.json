@@ -3891,15 +3891,15 @@
     "prefix": "THATNINJA",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.2.1/emotes/66b3f4907a09f.png",
-        "name": "66b3f4907a09f.png",
+        "url": "https://cdn.destiny.gg/4.2.1/emotes/67020188befb8.png",
+        "name": "67020188befb8.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 32
+        "height": 34,
+        "width": 62
       }
     ]
   },
