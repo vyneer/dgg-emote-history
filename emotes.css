@@ -683,9 +683,9 @@
     top: 8px;
 }
 .emote.DONTSAYIT {
-    background-image: url("66bb1bfaf1b79.png");
+    background-image: url("67029c0d7f256.png");
     height: 30px;
-    width: 30px;
+    width: 47px;
 }
 .msg-chat .emote.DONTSAYIT {
     margin-top: -30px;
@@ -1041,6 +1041,24 @@
 .msg-chat .emote.HmmStiny {
     margin-top: -34px;
     top: 8.5px;
+}
+.emote.Hollow {
+    background-image: url("670299048680f.png");
+    height: 32px;
+    width: 34px;
+}
+.msg-chat .emote.Hollow {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.Hopium {
+    background-image: url("67029cfa3c3f4.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Hopium {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.HUH {
     background-image: url("66f3224ec1d70.png");
@@ -2384,7 +2402,7 @@
     top: 8px;
 }
 .emote.WWWWaiting {
-    background-image: url("66b3134c94205.png");
+    background-image: url("67029c2b94b6d.png");
     height: 32px;
     width: 36px;
 }
@@ -2519,13 +2537,13 @@
     top: 7.5px;
 }
 .emote.Dentge {
-    background-image: url("67028a51ad4a3.png");
-    height: 32px;
-    width: 38px;
+    background-image: url("67029c40c30df.png");
+    height: 35px;
+    width: 42px;
 }
 .msg-chat .emote.Dentge {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -35px;
+    top: 8.75px;
 }
 .emote.FLIPMYBURGER {
     background-image: url("66fba1a7c3439.png");

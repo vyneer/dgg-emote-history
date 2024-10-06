@@ -1217,17 +1217,17 @@
   },
   {
     "prefix": "DONTSAYIT",
-    "creator": "",
+    "creator": "cyver",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.2.1/emotes/66bb1bfaf1b79.png",
-        "name": "66bb1bfaf1b79.png",
+        "url": "https://cdn.destiny.gg/4.2.1/emotes/67029c0d7f256.png",
+        "name": "67029c0d7f256.png",
         "mime": "image/png",
         "height": 30,
-        "width": 30
+        "width": 47
       }
     ]
   },
@@ -1852,6 +1852,38 @@
         "mime": "image/png",
         "height": 34,
         "width": 34
+      }
+    ]
+  },
+  {
+    "prefix": "Hollow",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.2.1/emotes/670299048680f.png",
+        "name": "670299048680f.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 34
+      }
+    ]
+  },
+  {
+    "prefix": "Hopium",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.2.1/emotes/67029cfa3c3f4.png",
+        "name": "67029cfa3c3f4.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -4241,14 +4273,14 @@
   },
   {
     "prefix": "WWWWaiting",
-    "creator": "",
+    "creator": "cyver",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.2.1/emotes/66b3134c94205.png",
-        "name": "66b3134c94205.png",
+        "url": "https://cdn.destiny.gg/4.2.1/emotes/67029c2b94b6d.png",
+        "name": "67029c2b94b6d.png",
         "mime": "image/png",
         "height": 32,
         "width": 36
@@ -4487,11 +4519,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.2.1/emotes/67028a51ad4a3.png",
-        "name": "67028a51ad4a3.png",
+        "url": "https://cdn.destiny.gg/4.2.1/emotes/67029c40c30df.png",
+        "name": "67029c40c30df.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 38
+        "height": 35,
+        "width": 42
       }
     ]
   },
