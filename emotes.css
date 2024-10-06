@@ -1574,9 +1574,9 @@
     top: 8px;
 }
 .emote.NOSHOT {
-    background-image: url("670285b0815f0.png");
+    background-image: url("6702ae4fb4e79.png");
     height: 36px;
-    width: 46px;
+    width: 60px;
 }
 .msg-chat .emote.NOSHOT {
     margin-top: -36px;
@@ -5924,6 +5924,100 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
     background-position: -1189px;
   }
 }
+@keyframes NOSHOT-mark {
+    20% {
+        transform: scaleY(0); transform-origin: bottom;
+    }
+    30% {
+        transform: scaleY(1); transform-origin: bottom; 
+    }
+    90% {
+        transform: scaleY(1) translate(2px,-7px); transform-origin: bottom;
+    }
+}
+@keyframes NOSHOT-mark-hover {
+    20% {
+        transform: scaleY(0); transform-origin: bottom;
+    }
+    30% {
+        transform: scaleY(1); transform-origin: bottom; 
+    }
+    90% {
+        transform: scaleY(1) ; transform-origin: bottom;
+    }
+}
+
+.emote.NOSHOT{
+    animation: NOSHOT-wat .55s 3 ease ;
+    background-repeat: no-repeat;
+    filter:contrast(1);
+}
+
+.emote.NOSHOT:hover {
+    animation: NOSHOT-wat-hover .55s ease ;
+    background-repeat: no-repeat;
+}
+
+.emote.NOSHOT:before {
+    font-style: italic;
+    content: "❓";     filter:hue-rotate(120deg);
+    text-indent: 0; 
+    font-size: 16px;
+    line-height: initial;
+    position: absolute;
+    opacity: 1;
+    top: 2px;
+    left: 35px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
+    transform: scale(0, 0);
+    animation: NOSHOT-mark .6s 3 ease;
+rotate:3deg;
+}
+.emote.NOSHOT:hover::before {
+    animation: NOSHOT-mark-hover .6s 3 ease;
+}
+
+
+@keyframes NOSHOT-wat {
+    0% {
+        transform: scaleY(1); transform-origin: bottom; 
+    }
+    25% {
+        transform: scaleY(1.1); transform-origin: bottom; 
+    }
+    40% {
+        transform: scaleY(.95); transform-origin: bottom; 
+    }
+    70% {
+        transform: scaleY(1); transform-origin: bottom; 
+    }
+    71% {
+        transform: scaleY(.95); transform-origin: bottom;
+    }
+    99% {
+        transform: scaleY(1); transform-origin: bottom;
+    }
+}
+
+@keyframes NOSHOT-wat-hover {
+    0% {
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 7px;
+    }
+    25% {
+        transform: scaleY(1.2); transform-origin: bottom; background-position: 0 0px;
+    }
+    40% {
+        transform: scaleY(.85); transform-origin: bottom; background-position: 0 0px;
+    }
+    70% {
+        transform: scaleY(1); transform-origin: bottom;
+    }
+    71% {
+        transform: scaleY(.85); transform-origin: bottom;
+    }
+    99% {
+        transform: scaleY(1); transform-origin: bottom;
+    }
+}
 /* Halloween version made by T9Parker */
 @keyframes OBJECTION-anim {
   0% { clip-path: polygon(0% 0%, 100% -16%, 100% -16%, 0% 100%); transform: rotate(0deg); }
@@ -6649,13 +6743,13 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 
 @keyframes SHOCKSTINY-wat {
     0% {
-        transform: scaleY(1); transform-origin: bottom; background-position: 0 7px;
+        transform: scaleY(1); transform-origin: bottom; background-position: 0px 2px;
     }
     25% {
-        transform: scaleY(1.2); transform-origin: bottom; background-position: 0 0px;
+        transform: scaleY(1.2); transform-origin: bottom; background-position: 0px -4px;
     }
     40% {
-        transform: scaleY(.85); transform-origin: bottom; background-position: 0 0px;
+        transform: scaleY(.85); transform-origin: bottom; background-position: 0px 2px;
     }
     70% {
         transform: scaleY(1); transform-origin: bottom;
@@ -6670,13 +6764,13 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 
 @keyframes SHOCKSTINY-wat-hover {
     0% {
-        transform: scaleY(1); transform-origin: bottom; background-position: 0 7px;
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 2px;
     }
     25% {
-        transform: scaleY(1.2); transform-origin: bottom; background-position: 0 0px;
+        transform: scaleY(1.2); transform-origin: bottom; background-position: 0 -4px;
     }
     40% {
-        transform: scaleY(.85); transform-origin: bottom; background-position: 0 0px;
+        transform: scaleY(.85); transform-origin: bottom; background-position: 0 2px;
     }
     70% {
         transform: scaleY(1); transform-origin: bottom;
@@ -7030,7 +7124,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 
 @keyframes THATNINJA-anim {
-  0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: -22px 82px; }
+  0% {transform: scale3d(1, 1, 1); transform-origin: bottom; background-position: -22px 12px; }
   10% {transform: scale3d(1, 1, 1); transform-origin: bottom;  background-position: 0 0;}
   30% {transform: scale3d(1, 1, 1); transform-origin: bottom; }
   35% {transform: scale3d(1, 1.20, 1); transform-origin: bottom; }
