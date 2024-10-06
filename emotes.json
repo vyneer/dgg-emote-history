@@ -2771,15 +2771,15 @@
     "prefix": "NOSHOT",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.2.1/emotes/665ad43c9e90d.png",
-        "name": "665ad43c9e90d.png",
+        "url": "https://cdn.destiny.gg/4.2.1/emotes/670285b0815f0.png",
+        "name": "670285b0815f0.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 32
+        "height": 36,
+        "width": 46
       }
     ]
   },
