@@ -3111,7 +3111,7 @@ transition:all 2s;
   filter: brightness(.85) sepia(1) contrast(1.2) hue-rotate(-1deg) saturate(5);
 }
 
-.emote.Yoda1 + .emote.BLADE, .emote.YEE + .emote.BLADE, .emote.YEEHAW + .emote.BLADE, .emote.monkaSMEGA + .emote.BLADE {
+.emote.Yoda1 + .emote.BLADE, .emote.YEE + .emote.BLADE, .emote.YEEHAW + .emote.BLADE, .emote.monkaS + .emote.BLADE {
   filter: hue-rotate(-80deg) saturate(3) brightness(1.7);
 }
 .emote.HACKERMAN + .emote.BLADE, .emote.MALARKEY + .emote.BLADE, .emote.BERN + .emote.BLADE, .emote.catJAM + .emote.BLADE, .emote.YAM + .emote.BLADE, .emote.JAMSTINY + .emoteBLADE {
