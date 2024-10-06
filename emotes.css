@@ -359,9 +359,9 @@
     top: 7.5px;
 }
 .emote.ComfyAYA {
-    background-image: url("615a7c1dc0427.png");
+    background-image: url("67028b15ae2af.png");
     height: 32px;
-    width: 34px;
+    width: 32px;
 }
 .msg-chat .emote.ComfyAYA {
     margin-top: -32px;
@@ -2500,6 +2500,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.AwShit {
+    background-image: url("67028b27e690f.png");
+    height: 36px;
+    width: 45px;
+}
+.msg-chat .emote.AwShit {
+    margin-top: -36px;
+    top: 9px;
+}
 .emote.CheekerZ {
     background-image: url("5d9f61b03d501.png");
     height: 30px;
@@ -2508,6 +2517,15 @@
 .msg-chat .emote.CheekerZ {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.Dentge {
+    background-image: url("67028a51ad4a3.png");
+    height: 32px;
+    width: 38px;
+}
+.msg-chat .emote.Dentge {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.FLIPMYBURGER {
     background-image: url("66fba1a7c3439.png");
