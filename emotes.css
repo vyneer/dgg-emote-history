@@ -5401,7 +5401,7 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
 
 .emote.Listening {
 filter: contrast(1) saturate(4) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .25)) drop-shadow(2px 0px 3px rgba(30, 40, 255, .75)) drop-shadow(0px 0px 0px rgba(255, 255, 255, 0)) brightness(1.25);
-animation:heavenly-test-rise infinite 10s 2.5s ease-out alternate;
+//animation:heavenly-test-rise infinite 10s 2.5s ease-out alternate;
 transition:all 13s;
 //transform:rotate(0deg) translate(0px,0px);
 transform:rotate(0deg) translate(0px,0px);
