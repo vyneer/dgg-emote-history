@@ -3214,6 +3214,29 @@ transition:all 2s;
 .emote.Kappa + .emote.BLADE:hover, .emote.OhKrappa + .emote.BLADE:hover, .emote.RaveDoge + .emote.BLADE:hover, .emote.DANKMEMES + .emote.BLADE:hover, .emote.Shroomstiny + .emote.BLADE:hover, .emote.DappaKappa + .emote.BLADE:hover,  .emote.nathanDank + .emote.BLADE:hover {
   animation: BLADE-hover steps(70) 3.5s  infinite, BLADE-rainbow-hover 0.85s linear 4;
 }
+
+@keyframes Bleh-anim{
+  0% {transform: rotate(0deg) translate(0, 0);}
+  20% {transform: rotate(-10deg) translate(-3px, 2px);}
+  40% {transform: rotate(-10deg) translate(-3px, 6px);}
+  75% {transform: rotate(-10deg) translate(-3px, 2px);}
+  100% {transform: rotate(0deg) translate(0, 0);}
+}
+@keyframes Bleh-hover{
+  0% {transform: rotate(0deg) translate(0, 0);}
+  20% {transform: rotate(-10deg) translate(-3px, 2px);}
+  40% {transform: rotate(-10deg) translate(-3px, 6px);}
+  75% {transform: rotate(-10deg) translate(-3px, 2px);}
+  100% {transform: rotate(0deg) translate(0, 0);}
+}
+.emote.Bleh{
+	animation: Bleh-anim 2s .1s 1;
+}
+.emote.Bleh:hover{
+  animation: Bleh-hover 2s infinite;
+}
+
+
 /* Halloween version made by Toblakai_ */
 @keyframes Blesstiny-anim{
   0% {transform: rotate(0deg) translate(0, 0);}
