@@ -1969,17 +1969,17 @@
   },
   {
     "prefix": "ItsFine",
-    "creator": "",
+    "creator": "gab5",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.4.0/emotes/66b1b204d51fc.png",
-        "name": "66b1b204d51fc.png",
+        "url": "https://cdn.destiny.gg/4.4.0/emotes/671931a0df256.png",
+        "name": "671931a0df256.png",
         "mime": "image/png",
         "height": 32,
-        "width": 32
+        "width": 29
       }
     ]
   },
@@ -4417,14 +4417,14 @@
   },
   {
     "prefix": "YesHoney",
-    "creator": "",
+    "creator": "StrawWaffle",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.4.0/emotes/66827fa78c56f.png",
-        "name": "66827fa78c56f.png",
+        "url": "https://cdn.destiny.gg/4.4.0/emotes/671930b7d0bad.png",
+        "name": "671930b7d0bad.png",
         "mime": "image/png",
         "height": 32,
         "width": 42
