@@ -5679,13 +5679,13 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 
 @keyframes SHOCKSTINY-wat {
     0% {
-        transform: scaleY(1); transform-origin: bottom; background-position: 0 7px;
+        transform: scaleY(1); transform-origin: bottom; background-position: 0px 2px;
     }
     25% {
-        transform: scaleY(1.2); transform-origin: bottom; background-position: 0 0px;
+        transform: scaleY(1.2); transform-origin: bottom; background-position: 0px -4px;
     }
     40% {
-        transform: scaleY(.85); transform-origin: bottom; background-position: 0 0px;
+        transform: scaleY(.85); transform-origin: bottom; background-position: 0px 2px;
     }
     70% {
         transform: scaleY(1); transform-origin: bottom;
@@ -5700,13 +5700,13 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 
 @keyframes SHOCKSTINY-wat-hover {
     0% {
-        transform: scaleY(1); transform-origin: bottom; background-position: 0 7px;
+        transform: scaleY(1); transform-origin: bottom; background-position: 0 2px;
     }
     25% {
-        transform: scaleY(1.2); transform-origin: bottom; background-position: 0 0px;
+        transform: scaleY(1.2); transform-origin: bottom; background-position: 0 -4px;
     }
     40% {
-        transform: scaleY(.85); transform-origin: bottom; background-position: 0 0px;
+        transform: scaleY(.85); transform-origin: bottom; background-position: 0 2px;
     }
     70% {
         transform: scaleY(1); transform-origin: bottom;
