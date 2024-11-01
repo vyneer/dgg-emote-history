@@ -115,6 +115,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.AwShit {
+    background-image: url("67028b27e690f.png");
+    height: 36px;
+    width: 45px;
+}
+.msg-chat .emote.AwShit {
+    margin-top: -36px;
+    top: 9px;
+}
 .emote.AYAYA {
     background-image: url("66fb75a7a8392.png");
     height: 32px;
@@ -898,6 +907,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.FLIPMYBURGER {
+    background-image: url("66fba1a7c3439.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.FLIPMYBURGER {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ForYou {
     background-image: url("5da0edbc5722a.png");
     height: 30px;
@@ -935,13 +953,13 @@
     top: 8px;
 }
 .emote.GAMBA {
-    background-image: url("66fb7f314783a.png");
-    height: 32px;
-    width: 74px;
+    background-image: url("66b3277826348.png");
+    height: 34px;
+    width: 34px;
 }
 .msg-chat .emote.GAMBA {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.GameOfThrows {
     background-image: url("5f77e837dbf66.png");
@@ -1105,6 +1123,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.InTheRoomWithUs {
+    background-image: url("66fb8beb9ddbf.png");
+    height: 35px;
+    width: 57px;
+}
+.msg-chat .emote.InTheRoomWithUs {
+    margin-top: -35px;
+    top: 8.75px;
+}
 .emote.ItsFine {
     background-image: url("671931a0df256.png");
     height: 32px;
@@ -1168,6 +1195,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.KEEPGOING {
+    background-image: url("66fb7f314783a.png");
+    height: 32px;
+    width: 74px;
+}
+.msg-chat .emote.KEEPGOING {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.KEIKAKU {
     background-image: url("6615363a5f561.png");
     height: 34px;
@@ -1194,6 +1230,15 @@
 .msg-chat .emote.Klappa {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.KYEK {
+    background-image: url("66abf45ae828b.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.KYEK {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.LandlordW {
     background-image: url("66c58e0937b20.png");
@@ -1240,6 +1285,15 @@
     margin-top: -33px;
     top: 8.25px;
 }
+.emote.Lonely {
+    background-image: url("66fba5de370d3.png");
+    height: 32px;
+    width: 48px;
+}
+.msg-chat .emote.Lonely {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.LUL {
     background-image: url("5da149c16af29.png");
     height: 30px;
@@ -1255,6 +1309,15 @@
     width: 28px;
 }
 .msg-chat .emote.LULW {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.Madge {
+    background-image: url("66fc964118856.png");
+    height: 32px;
+    width: 42px;
+}
+.msg-chat .emote.Madge {
     margin-top: -32px;
     top: 8px;
 }
@@ -1618,6 +1681,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.NYEH {
+    background-image: url("66b312d04c854.png");
+    height: 30px;
+    width: 34px;
+}
+.msg-chat .emote.NYEH {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.OBJECTION {
     background-image: url("61a01c294da2e.png");
     height: 30px;
@@ -1906,6 +1978,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.Pointless {
+    background-image: url("66fba4ec28b88.png");
+    height: 32px;
+    width: 46px;
+}
+.msg-chat .emote.Pointless {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.POOTUBE {
     background-image: url("6521e16a0a39f.png");
     height: 32px;
@@ -1995,6 +2076,24 @@
 .msg-chat .emote.SHOCKSTINY {
     margin-top: -36px;
     top: 9px;
+}
+.emote.SHOOK {
+    background-image: url("66ad4e401f042.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.SHOOK {
+    margin-top: -30px;
+    top: 7.5px;
+}
+.emote.ShrimpleAs {
+    background-image: url("66fba568562ec.png");
+    height: 32px;
+    width: 51px;
+}
+.msg-chat .emote.ShrimpleAs {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Shroomstiny {
     background-image: url("5f89e9f62e696.png");
@@ -2221,6 +2320,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.tinyNOW {
+    background-image: url("6519126b12377.png");
+    height: 32px;
+    width: 2100px;
+}
+.msg-chat .emote.tinyNOW {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.tinySuffer {
     background-image: url("66fba5de370d3.png");
     height: 32px;
@@ -2274,6 +2382,15 @@
 .msg-chat .emote.TRUMPED {
     margin-top: -28px;
     top: 7px;
+}
+.emote.TwitchLord {
+    background-image: url("66fbd202dbbfa.png");
+    height: 32px;
+    width: 33px;
+}
+.msg-chat .emote.TwitchLord {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.UltraHandsomeMan {
     background-image: url("66fbd2fa6860b.png");
@@ -2419,6 +2536,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.YAMERO {
+    background-image: url("67248ecf10b7f.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.YAMERO {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.YAP {
     background-image: url("656c35d64cd6a.png");
     height: 32px;
@@ -2473,15 +2599,6 @@
     margin-top: -35px;
     top: 8.75px;
 }
-.emote.YEK {
-    background-image: url("66abf45ae828b.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.YEK {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.YesHoney {
     background-image: url("671930b7d0bad.png");
     height: 32px;
@@ -2518,15 +2635,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.AwShit {
-    background-image: url("67028b27e690f.png");
-    height: 36px;
-    width: 45px;
-}
-.msg-chat .emote.AwShit {
-    margin-top: -36px;
-    top: 9px;
-}
 .emote.CheekerZ {
     background-image: url("5d9f61b03d501.png");
     height: 30px;
@@ -2545,12 +2653,12 @@
     margin-top: -35px;
     top: 8.75px;
 }
-.emote.FLIPMYBURGER {
-    background-image: url("66fba1a7c3439.png");
+.emote.GnomeStare {
+    background-image: url("66fb8bd2d7a04.png");
     height: 32px;
     width: 32px;
 }
-.msg-chat .emote.FLIPMYBURGER {
+.msg-chat .emote.GnomeStare {
     margin-top: -32px;
     top: 8px;
 }
@@ -2563,14 +2671,14 @@
     margin-top: -40px;
     top: 10px;
 }
-.emote.InTheRoomWithUs {
-    background-image: url("66fb8beb9ddbf.png");
-    height: 35px;
-    width: 57px;
+.emote.KEEPGAMBLING {
+    background-image: url("66fb7f314783a.png");
+    height: 32px;
+    width: 74px;
 }
-.msg-chat .emote.InTheRoomWithUs {
-    margin-top: -35px;
-    top: 8.75px;
+.msg-chat .emote.KEEPGAMBLING {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.KING {
     background-image: url("5d9bbadea7b3f.png");
@@ -2587,15 +2695,6 @@
     width: 32px;
 }
 .msg-chat .emote.LETSGOOO {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.Madge {
-    background-image: url("66fc964118856.png");
-    height: 32px;
-    width: 42px;
-}
-.msg-chat .emote.Madge {
     margin-top: -32px;
     top: 8px;
 }
@@ -2652,24 +2751,6 @@
 .msg-chat .emote.PICNIC {
     margin-top: -20px;
     top: 5px;
-}
-.emote.Pointless {
-    background-image: url("66fba4ec28b88.png");
-    height: 32px;
-    width: 46px;
-}
-.msg-chat .emote.Pointless {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.ShrimpleAs {
-    background-image: url("66fba568562ec.png");
-    height: 32px;
-    width: 51px;
-}
-.msg-chat .emote.ShrimpleAs {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.STOPFIGHTING {
     background-image: url("66fba41084ded.png");
@@ -7203,6 +7284,197 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 .emote.THATNINJA:hover::before {
   animation: THATNINJA-Mark-anim-hover 2s infinite;
 }
+.emote.tinyNOW {
+    width: 42px;
+    height: 32px;
+    filter: brightness(1) saturate(1.2) drop-shadow(0px 0px 2px #001eff) ;
+    background-repeat: no-repeat;
+    animation: tinyNOW-ANIM .5s ease-out 1, tinyNOW-FLASH ease-out 1.5s 3, tinyNOW-LIGHTNING steps(49) 4.5s forwards 3 .08s, tinyNOW-FLASH ease-out 1.2s 2 7.5s;
+    transition: all 1s;
+}
+
+.emote.tinyNOW:hover {
+    filter: brightness(1.15) saturate(1.3) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 5px #ffdd56) drop-shadow(0px 0px 10px #001eff);
+    animation: tinyNOW-FLASH-HOVER ease-out 1.5s infinite,
+        tinyNOW-LIGHTNING-HOVER steps(43) 4.5s forwards infinite,
+        tinyNOW-ANIM .5s ease-out 1;
+    transition: all .5s;
+}
+
+
+
+@keyframes tinyNOW-ANIM {
+      0% {
+        transform: translate(-5px, 0px);
+background-position: 0px 10px; 
+    }  
+      
+    100% {   
+        transform: translate(0px, 0px);   
+
+    }
+}
+
+@keyframes tinyNOW-LIGHTNING {
+    to {
+        background-position: -2058px;
+    }
+}
+
+@keyframes tinyNOW-FLASH {
+    0% {
+        opacity: 1;
+        filter: brightness(1.05) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 4px #001eff);
+    }
+
+    2% {
+        opacity: 0;
+        filter: brightness(1.02) drop-shadow(0px 0px 2px #ffffff) drop-shadow(0px 0px 2px #001eff) ;
+    }
+
+    3% {
+        opacity: 1;
+        filter: brightness(1.06) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 0px #001eff);
+    }
+
+    4% {
+        opacity: 0.2;
+        filter: brightness(1.08) drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 1px #001eff);
+    }
+
+    6% {
+        opacity: .8;
+        filter: brightness(1.50) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 1px #001eff);
+    }
+
+    10% {
+        opacity: 1;
+        filter: brightness(1.02) drop-shadow(0px 0px 2px #ffffff) drop-shadow(0px 0px 3px #001eff);
+    }
+
+    75% {
+        opacity: 1;
+        filter: brightness(1.08) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 5px #001eff);
+    }
+
+    78% {
+        opacity: .8;
+        filter: brightness(1.08) drop-shadow(0px 0px 5px #ffffff) drop-shadow(0px 0px 6px #001eff);
+    }
+
+    79% {
+        opacity: 0;
+        filter: brightness(1.02) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 2px #001eff);
+    }
+
+    83% {
+        opacity: 1;
+        filter: brightness(1.30) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 1px #001eff);
+    }
+
+    84% {
+        opacity: 0.4;
+        filter: brightness(1.04) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 3px #001eff);
+    }
+
+    86% {
+        opacity: .8;
+        filter: brightness(1.20) drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 3px #001eff);
+    }
+
+    87% {
+        opacity: 1;
+        filter: brightness(1.02) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 2px #001eff);
+    }
+
+    100% {
+        opacity: 1;
+        filter: brightness(1.05) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 4px #001eff);
+    }
+}
+
+
+@keyframes tinyNOW-LIGHTNING-HOVER {
+    from {
+        background-position: -252px;
+    }
+
+    to {
+        background-position: -2058px;
+    }
+}
+
+@keyframes tinyNOW-FLASH-HOVER {
+0% {
+        opacity: 1;
+        filter: brightness(1.05) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 4px #001eff);
+    }
+
+    2% {
+        opacity: 0;
+        filter: brightness(1.02) drop-shadow(0px 0px 2px #ffffff) drop-shadow(0px 0px 2px #001eff) ;
+    }
+
+    3% {
+        opacity: 1;
+        filter: brightness(1.06) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 0px #001eff);
+    }
+
+    4% {
+        opacity: 0.2;
+        filter: brightness(1.08) drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 1px #001eff);
+    }
+
+    6% {
+        opacity: .8;
+        filter: brightness(1.50) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 1px #001eff);
+    }
+
+    10% {
+        opacity: 1;
+        filter: brightness(1.02) drop-shadow(0px 0px 2px #ffffff) drop-shadow(0px 0px 3px #001eff);
+    }
+
+    75% {
+        opacity: 1;
+        filter: brightness(1.08) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 5px #001eff);
+    }
+
+    78% {
+        opacity: .8;
+        filter: brightness(1.08) drop-shadow(0px 0px 5px #ffffff) drop-shadow(0px 0px 6px #001eff);
+    }
+
+    79% {
+        opacity: 0;
+        filter: brightness(1.02) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 2px #001eff);
+    }
+
+    83% {
+        opacity: 1;
+        filter: brightness(1.30) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 1px #001eff);
+    }
+
+    84% {
+        opacity: 0.4;
+        filter: brightness(1.04) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 3px #001eff);
+    }
+
+    86% {
+        opacity: .8;
+        filter: brightness(1.20) drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 3px #001eff);
+    }
+
+    87% {
+        opacity: 1;
+        filter: brightness(1.02) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 2px #001eff);
+    }
+
+    100% {
+        opacity: 1;
+        filter: brightness(1.05) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 4px #001eff);
+    }
+}
 @keyframes TRIAD {
   0% { background-position: 0px; }
   100% { background-position: -5280px; }
@@ -7267,6 +7539,39 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 .emote.TRUELOVE:hover::after {
     animation: TRUELOVE-anim 0.5s infinite;
+    animation-delay: 0.25s;
+}
+/* Halloween version made by T9Parker */
+@keyframes TwitchLord-anim {
+    0% { top: -45px; }
+    99% { top: 32px; }
+    100%{ top: 32px; }
+}
+.emote.TwitchLord:before{
+    content: "❌";
+    text-indent: 0;
+    font-size: 14px;
+    position: absolute;
+    left:-5px;
+    top:-25px;
+    animation: TwitchLord-anim 1.1s 6 ease ;
+//🚫 ⛔ ❌ 🛑
+}
+.emote.TwitchLord:after{
+    content: "⛔";
+    text-indent: 0;
+    font-size: 14px;
+    position: absolute;
+    right:-4px;
+    top:-25px;
+    animation: TwitchLord-anim 1.4s 6 ease ;
+    animation-delay: 0.3s;
+}
+.emote.TwitchLord:hover::before {
+    animation: TwitchLord-anim 0.5s infinite alternate;
+}
+.emote.TwitchLord:hover::after {
+    animation: TwitchLord-anim 0.5s infinite;
     animation-delay: 0.25s;
 }
 .emote.WEEWOO {
@@ -8091,6 +8396,43 @@ color:#ffaccc !important;
 .emote.YAM:hover, .msg-chat.msg-emote .emote.YAM:hover  {
     animation: YAM-anim-hover 333.3ms linear infinite,
     YAM-wave-hover 999.9ms 100ms linear infinite;
+}
+.emote.YAMERO {
+
+  animation: YAMERO-anim 0.4s 50;
+background-repeat:no-repeat;
+}
+.emote.YAMERO:hover {
+
+  animation: YAMERO-hover 0.3s infinite;
+}
+
+@keyframes YAMERO-anim {
+   0% { transform: translate(1px, .5px) rotate(0deg); }
+  10% { transform: translate(-.5px, -.5px) rotate(-.5deg); }
+  20% { transform: translate(-.5px, 0px) rotate(.5deg); }
+  30% { transform: translate(.5px, .5px) rotate(0deg); }
+  40% { transform: translate(.5px, -.5px) rotate(.5deg); }
+  50% { transform: translate(-.5px, 1px) rotate(-.5deg); }
+  60% { transform: translate(-.5px, .5px) rotate(0deg); }
+  70% { transform: translate(.5px, .5px) rotate(-.5deg); }
+  80% { transform: translate(-.5px, -.5px) rotate(.5deg); }
+  90% { transform: translate(.5px, .5px) rotate(0deg); }
+  100% { transform: translate(1px, -.5px) rotate(-.5deg); }
+}
+
+@keyframes YAMERO-hover {
+   0% { transform: translate(1px, .5px) rotate(0deg); }
+  10% { transform: translate(-.5px, -.5px) rotate(-.5deg); }
+  20% { transform: translate(-.5px, 0px) rotate(.5deg); }
+  30% { transform: translate(.5px, .5px) rotate(0deg); }
+  40% { transform: translate(.5px, -.5px) rotate(.5deg); }
+  50% { transform: translate(-.5px, 1px) rotate(-.5deg); }
+  60% { transform: translate(-.5px, .5px) rotate(0deg); }
+  70% { transform: translate(.5px, .5px) rotate(-.5deg); }
+  80% { transform: translate(-.5px, -.5px) rotate(.5deg); }
+  90% { transform: translate(.5px, .5px) rotate(0deg); }
+  100% { transform: translate(1px, -.5px) rotate(-.5deg); }
 }
 @keyframes YAP-anim {
   100% {
