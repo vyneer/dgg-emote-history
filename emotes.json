@@ -2112,6 +2112,22 @@
     ]
   },
   {
+    "prefix": "kamalaZ",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.5.0/emotes/669d979c03fcb.png",
+        "name": "669d979c03fcb.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "Kappa",
     "creator": null,
     "twitch": false,
@@ -3111,11 +3127,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.5.0/emotes/66ad4e5acc0ff.png",
-        "name": "66ad4e5acc0ff.png",
+        "url": "https://cdn.destiny.gg/4.5.0/emotes/67258755d9382.png",
+        "name": "67258755d9382.png",
         "mime": "image/png",
         "height": 32,
-        "width": 34
+        "width": 36
       }
     ]
   },
