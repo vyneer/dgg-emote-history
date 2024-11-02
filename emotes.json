@@ -208,7 +208,7 @@
     ]
   },
   {
-    "prefix": "AwShit",
+    "prefix": "AwShoot",
     "creator": "",
     "twitch": false,
     "theme": 1,
@@ -609,17 +609,17 @@
   },
   {
     "prefix": "Clueless",
-    "creator": "",
+    "creator": "MrGemzar",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.5.0/emotes/66596e3d361e1.png",
-        "name": "66596e3d361e1.png",
+        "url": "https://cdn.destiny.gg/4.5.0/emotes/6694d42888e84.png",
+        "name": "6694d42888e84.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 35
+        "height": 34,
+        "width": 38
       }
     ]
   },
@@ -2256,22 +2256,6 @@
     ]
   },
   {
-    "prefix": "LETSGOOO",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.5.0/emotes/672495c2a1cc3.png",
-        "name": "672495c2a1cc3.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "LIES",
     "creator": "",
     "twitch": false,
@@ -3696,6 +3680,22 @@
     ]
   },
   {
+    "prefix": "Ropium",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.5.0/emotes/665908bf5e3be.png",
+        "name": "665908bf5e3be.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 55
+      }
+    ]
+  },
+  {
     "prefix": "SALUTE",
     "creator": "",
     "twitch": false,
@@ -4154,6 +4154,22 @@
         "url": "https://cdn.destiny.gg/4.5.0/emotes/672490390bf1c.png",
         "name": "672490390bf1c.png",
         "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "TINYING",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.5.0/emotes/66834fe91db75.gif",
+        "name": "66834fe91db75.gif",
+        "mime": "image/gif",
         "height": 32,
         "width": 32
       }

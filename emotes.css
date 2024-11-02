@@ -115,12 +115,12 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.AwShit {
+.emote.AwShoot {
     background-image: url("67028b27e690f.png");
     height: 36px;
     width: 45px;
 }
-.msg-chat .emote.AwShit {
+.msg-chat .emote.AwShoot {
     margin-top: -36px;
     top: 9px;
 }
@@ -341,13 +341,13 @@
     top: 8px;
 }
 .emote.Clueless {
-    background-image: url("66596e3d361e1.png");
-    height: 32px;
-    width: 35px;
+    background-image: url("6694d42888e84.png");
+    height: 34px;
+    width: 38px;
 }
 .msg-chat .emote.Clueless {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.COGGERS {
     background-image: url("65f6c4a6484eb.png");
@@ -1267,15 +1267,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.LETSGOOO {
-    background-image: url("672495c2a1cc3.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.LETSGOOO {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.LIES {
     background-image: url("665adda195c6d.png");
     height: 30px;
@@ -2077,6 +2068,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.Ropium {
+    background-image: url("665908bf5e3be.png");
+    height: 34px;
+    width: 55px;
+}
+.msg-chat .emote.Ropium {
+    margin-top: -34px;
+    top: 8.5px;
+}
 .emote.SALUTE {
     background-image: url("672490569f774.png");
     height: 32px;
@@ -2335,6 +2335,15 @@
     width: 32px;
 }
 .msg-chat .emote.THATNINJA {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.TINYING {
+    background-image: url("66834fe91db75.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.TINYING {
     margin-top: -32px;
     top: 8px;
 }
@@ -4790,43 +4799,6 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
 }
 @keyframes Klappa-anim-hover {
   100% { background-position: -76px; }
-}
-.emote.LETSGOOO {
-
-  animation: LETSGOOO-anim 0.4s 30;
-background-repeat:no-repeat;
-}
-.emote.LETSGOOO:hover {
-
-  animation: LETSGOOO-hover 0.3s infinite;
-}
-
-@keyframes LETSGOOO-anim {
-   0% { transform: translate(1px, .5px) rotate(0deg); }
-  10% { transform: translate(-.5px, -.5px) rotate(-.5deg); }
-  20% { transform: translate(-.5px, 0px) rotate(.5deg); }
-  30% { transform: translate(.5px, .5px) rotate(0deg); }
-  40% { transform: translate(.5px, -.5px) rotate(.5deg); }
-  50% { transform: translate(-.5px, 1px) rotate(-.5deg); }
-  60% { transform: translate(-.5px, .5px) rotate(0deg); }
-  70% { transform: translate(.5px, .5px) rotate(-.5deg); }
-  80% { transform: translate(-.5px, -.5px) rotate(.5deg); }
-  90% { transform: translate(.5px, .5px) rotate(0deg); }
-  100% { transform: translate(1px, -.5px) rotate(-.5deg); }
-}
-
-@keyframes LETSGOOO-hover {
-   0% { transform: translate(1px, .5px) rotate(0deg); }
-  10% { transform: translate(-.5px, -.5px) rotate(-.5deg); }
-  20% { transform: translate(-.5px, 0px) rotate(.5deg); }
-  30% { transform: translate(.5px, .5px) rotate(0deg); }
-  40% { transform: translate(.5px, -.5px) rotate(.5deg); }
-  50% { transform: translate(-.5px, 1px) rotate(-.5deg); }
-  60% { transform: translate(-.5px, .5px) rotate(0deg); }
-  70% { transform: translate(.5px, .5px) rotate(-.5deg); }
-  80% { transform: translate(-.5px, -.5px) rotate(.5deg); }
-  90% { transform: translate(.5px, .5px) rotate(0deg); }
-  100% { transform: translate(1px, -.5px) rotate(-.5deg); }
 }
 @keyframes MALARKEY-anim {
   0% { background-position: 0px; }
