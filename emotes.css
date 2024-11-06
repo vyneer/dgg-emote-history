@@ -1303,6 +1303,15 @@
     margin-top: -33px;
     top: 8.25px;
 }
+.emote.LOCKEDIN {
+    background-image: url("672ae55c3f7d7.png");
+    height: 30px;
+    width: 73px;
+}
+.msg-chat .emote.LOCKEDIN {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.Lonely {
     background-image: url("66fba5de370d3.png");
     height: 32px;
@@ -2344,6 +2353,15 @@
     width: 32px;
 }
 .msg-chat .emote.THATNINJA {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.THEKEYS {
+    background-image: url("672ae33b1f0e5.png");
+    height: 32px;
+    width: 40px;
+}
+.msg-chat .emote.THEKEYS {
     margin-top: -32px;
     top: 8px;
 }
