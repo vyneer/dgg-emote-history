@@ -2320,22 +2320,6 @@
     ]
   },
   {
-    "prefix": "LOCKEDIN",
-    "creator": "cyver",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.8.0/emotes/672ae55c3f7d7.png",
-        "name": "672ae55c3f7d7.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 73
-      }
-    ]
-  },
-  {
     "prefix": "Lonely",
     "creator": "",
     "twitch": false,
@@ -4188,22 +4172,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 32
-      }
-    ]
-  },
-  {
-    "prefix": "THEKEYS",
-    "creator": "cyver",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.8.0/emotes/672ae33b1f0e5.png",
-        "name": "672ae33b1f0e5.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 40
       }
     ]
   },
