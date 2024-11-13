@@ -1281,17 +1281,17 @@
   },
   {
     "prefix": "DuckerZ",
-    "creator": "FizzyLongstockings",
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.8.0/emotes/672aae95cd9c1.png",
-        "name": "672aae95cd9c1.png",
+        "url": "https://cdn.destiny.gg/4.8.0/emotes/5c2bbc5803fc3.png",
+        "name": "5c2bbc5803fc3.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 54
+        "height": 26,
+        "width": 56
       }
     ]
   },
