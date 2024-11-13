@@ -2320,6 +2320,22 @@
     ]
   },
   {
+    "prefix": "LOCKEDIN",
+    "creator": "cyver",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.8.0/emotes/67352c9ba19ea.png",
+        "name": "67352c9ba19ea.png",
+        "mime": "image/png",
+        "height": 26,
+        "width": 63
+      }
+    ]
+  },
+  {
     "prefix": "Lonely",
     "creator": "",
     "twitch": false,

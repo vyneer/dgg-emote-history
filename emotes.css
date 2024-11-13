@@ -1303,6 +1303,15 @@
     margin-top: -33px;
     top: 8.25px;
 }
+.emote.LOCKEDIN {
+    background-image: url("67352c9ba19ea.png");
+    height: 26px;
+    width: 63px;
+}
+.msg-chat .emote.LOCKEDIN {
+    margin-top: -26px;
+    top: 6.5px;
+}
 .emote.Lonely {
     background-image: url("66fba5de370d3.png");
     height: 32px;
