@@ -192,22 +192,6 @@
     ]
   },
   {
-    "prefix": "AUGH",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.10.0/emotes/66fb942febbdf.png",
-        "name": "66fb942febbdf.png",
-        "mime": "image/png",
-        "height": 34,
-        "width": 34
-      }
-    ]
-  },
-  {
     "prefix": "Aware",
     "creator": "",
     "twitch": false,
@@ -4465,17 +4449,17 @@
   },
   {
     "prefix": "VeryPog",
-    "creator": "cybervegan / MrGemzar",
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.10.0/emotes/664dbf3aaa0e5.png",
-        "name": "664dbf3aaa0e5.png",
+        "url": "https://cdn.destiny.gg/4.10.0/emotes/66fb942febbdf.png",
+        "name": "66fb942febbdf.png",
         "mime": "image/png",
         "height": 34,
-        "width": 33
+        "width": 34
       }
     ]
   },
