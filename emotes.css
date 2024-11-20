@@ -151,15 +151,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.BallzToTheWalz {
-    background-image: url("66b838354dfb4.png");
-    height: 32px;
-    width: 41px;
-}
-.msg-chat .emote.BallzToTheWalz {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.BasedGod {
     background-image: url("6724956701520.png");
     height: 30px;
@@ -690,15 +681,6 @@
 .msg-chat .emote.Disgustiny {
     margin-top: -28px;
     top: 7px;
-}
-.emote.DoNot {
-    background-image: url("66b43bc1038ab.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.DoNot {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.DONTSAYIT {
     background-image: url("6724935cf2f7a.png");
@@ -2326,15 +2308,6 @@
     width: 55px;
 }
 .msg-chat .emote.STATUSJOE {
-    margin-top: -30px;
-    top: 7.5px;
-}
-.emote.STATUSQUO {
-    background-image: url("669d97642fe1c.png");
-    height: 30px;
-    width: 55px;
-}
-.msg-chat .emote.STATUSQUO {
     margin-top: -30px;
     top: 7.5px;
 }

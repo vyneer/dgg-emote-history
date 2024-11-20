@@ -272,22 +272,6 @@
     ]
   },
   {
-    "prefix": "BallzToTheWalz",
-    "creator": "cybervegan",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.10.0/emotes/66b838354dfb4.png",
-        "name": "66b838354dfb4.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 41
-      }
-    ]
-  },
-  {
     "prefix": "BasedGod",
     "creator": "",
     "twitch": false,
@@ -1228,22 +1212,6 @@
         "mime": "image/png",
         "height": 28,
         "width": 28
-      }
-    ]
-  },
-  {
-    "prefix": "DoNot",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.10.0/emotes/66b43bc1038ab.gif",
-        "name": "66b43bc1038ab.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 32
       }
     ]
   },
@@ -4137,22 +4105,6 @@
       {
         "url": "https://cdn.destiny.gg/4.10.0/emotes/6693c9585508b.png",
         "name": "6693c9585508b.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 55
-      }
-    ]
-  },
-  {
-    "prefix": "STATUSQUO",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.10.0/emotes/669d97642fe1c.png",
-        "name": "669d97642fe1c.png",
         "mime": "image/png",
         "height": 30,
         "width": 55
