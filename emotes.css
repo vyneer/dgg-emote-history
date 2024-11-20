@@ -2212,15 +2212,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.SILENCE {
-    background-image: url("673dd3a00c376.png");
-    height: 34px;
-    width: 63px;
-}
-.msg-chat .emote.SILENCE {
-    margin-top: -34px;
-    top: 8.5px;
-}
 .emote.Sippy {
     background-image: url("665aec88d4dda.png");
     height: 30px;

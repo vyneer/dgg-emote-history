@@ -3936,22 +3936,6 @@
     ]
   },
   {
-    "prefix": "SILENCE",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.10.0/emotes/673dd3a00c376.png",
-        "name": "673dd3a00c376.png",
-        "mime": "image/png",
-        "height": 34,
-        "width": 63
-      }
-    ]
-  },
-  {
     "prefix": "Sippy",
     "creator": "",
     "twitch": false,
