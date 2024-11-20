@@ -53,13 +53,13 @@
     top: 7.5px;
 }
 .emote.AngelThump {
-    background-image: url("5c2bbb9fa8ab2.png");
-    height: 30px;
-    width: 95px;
+    background-image: url("673dada70eb6c.png");
+    height: 34px;
+    width: 94px;
 }
 .msg-chat .emote.AngelThump {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.ApeHands {
     background-image: url("66eb86786120d.png");
@@ -96,6 +96,15 @@
 .msg-chat .emote.ATAB {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.AUGH {
+    background-image: url("66fb942febbdf.png");
+    height: 34px;
+    width: 34px;
+}
+.msg-chat .emote.AUGH {
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.Aware {
     background-image: url("66596d4136715.png");
@@ -1339,15 +1348,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.Madge {
-    background-image: url("67249609a8609.png");
-    height: 26px;
-    width: 38px;
-}
-.msg-chat .emote.Madge {
-    margin-top: -26px;
-    top: 6.5px;
-}
 .emote.MALARKEY {
     background-image: url("649f772dc1990.png");
     height: 30px;
@@ -2185,6 +2185,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.Smadge {
+    background-image: url("673dabd79b13c.png");
+    height: 32px;
+    width: 42px;
+}
+.msg-chat .emote.Smadge {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.SMASHit {
     background-image: url("604fa4fa5ca3d.png");
     height: 29px;
@@ -2429,9 +2438,9 @@
     top: 7.5px;
 }
 .emote.VeryPog {
-    background-image: url("66fb942febbdf.png");
+    background-image: url("664dbf3aaa0e5.png");
     height: 34px;
-    width: 34px;
+    width: 33px;
 }
 .msg-chat .emote.VeryPog {
     margin-top: -34px;
@@ -2697,34 +2706,6 @@
   background-position: 35px;
 }
 
-/*@keyframes AngelThump-anim {
-  20%  { filter: drop-shadow(0px 8px 1.22px #f9f63b); font-size: 32px; margin-left: 32px; }
-  90%  { filter: drop-shadow(0px 8px 1.22px #f9f63b); font-size: 32px; margin-left: 32px; }
-  100% { filter: drop-shadow(0px 8px 1.22px #f9f63b); font-size: 0px; margin-left: 48px; }
-}
-.emote.AngelThump:before{
-    content: "―";
-    color: white; 
-    text-indent: 0;
-    font-family: Arial, sans-serif;
-    font-size: 0px;
-    line-height: 1px;
-    filter: drop-shadow(0px 5px 1.5px #f9f63b);
-    height: 10px;
-    width: 10px;
-    display: block;
-    position: absolute;
-    margin-left: 48px;
-    margin-top: -6px;
-    animation: AngelThump-anim 1.5s;
-    transition: all 0.2s;
-}
-.emote.AngelThump:hover:before{
-  filter: drop-shadow(0px 8px 1.22px #f9f63b);
-  font-size: 32px; 
-  margin-left: 32px;
-  transition: all 0.2s;
-}*/
 .emote.ApeHands {
   margin-left: -2px;
 }

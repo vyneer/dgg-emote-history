@@ -97,17 +97,17 @@
   },
   {
     "prefix": "AngelThump",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.10.0/emotes/5c2bbb9fa8ab2.png",
-        "name": "5c2bbb9fa8ab2.png",
+        "url": "https://cdn.destiny.gg/4.10.0/emotes/673dada70eb6c.png",
+        "name": "673dada70eb6c.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 95
+        "height": 34,
+        "width": 94
       }
     ]
   },
@@ -172,6 +172,22 @@
         "mime": "image/png",
         "height": 30,
         "width": 40
+      }
+    ]
+  },
+  {
+    "prefix": "AUGH",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.10.0/emotes/66fb942febbdf.png",
+        "name": "66fb942febbdf.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 34
       }
     ]
   },
@@ -2384,22 +2400,6 @@
     ]
   },
   {
-    "prefix": "Madge",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.10.0/emotes/67249609a8609.png",
-        "name": "67249609a8609.png",
-        "mime": "image/png",
-        "height": 26,
-        "width": 38
-      }
-    ]
-  },
-  {
     "prefix": "MALARKEY",
     "creator": "",
     "twitch": false,
@@ -3888,6 +3888,22 @@
     ]
   },
   {
+    "prefix": "Smadge",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.10.0/emotes/673dabd79b13c.png",
+        "name": "673dabd79b13c.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 42
+      }
+    ]
+  },
+  {
     "prefix": "SMASHit",
     "creator": null,
     "twitch": false,
@@ -4321,17 +4337,17 @@
   },
   {
     "prefix": "VeryPog",
-    "creator": "",
+    "creator": "cybervegan / MrGemzar",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.10.0/emotes/66fb942febbdf.png",
-        "name": "66fb942febbdf.png",
+        "url": "https://cdn.destiny.gg/4.10.0/emotes/664dbf3aaa0e5.png",
+        "name": "664dbf3aaa0e5.png",
         "mime": "image/png",
         "height": 34,
-        "width": 34
+        "width": 33
       }
     ]
   },
