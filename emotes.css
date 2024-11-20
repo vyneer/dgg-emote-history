@@ -97,15 +97,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.ATAB {
-    background-image: url("66596d331458d.png");
-    height: 30px;
-    width: 40px;
-}
-.msg-chat .emote.ATAB {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.Aware {
     background-image: url("66596d4136715.png");
     height: 32px;
@@ -376,15 +367,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.ComfyAYA {
-    background-image: url("5fad97de7a0ef.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.ComfyAYA {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.ComfyCat {
     background-image: url("645e8c248a9d4.png");
     height: 32px;
@@ -421,15 +403,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.ComfyFerret {
-    background-image: url("5fad983ac8f92.png");
-    height: 32px;
-    width: 34px;
-}
-.msg-chat .emote.ComfyFerret {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.ComfyLily {
     background-image: url("664dad389b907.png");
     height: 32px;
@@ -438,15 +411,6 @@
 .msg-chat .emote.ComfyLily {
     margin-top: -32px;
     top: 8px;
-}
-.emote.ComfyRustle {
-    background-image: url("66adb66986cf8.png");
-    height: 30px;
-    width: 30px;
-}
-.msg-chat .emote.ComfyRustle {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.coMMMMfy {
     background-image: url("624e76368b3a9.png");
@@ -583,15 +547,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.DappaKappa {
-    background-image: url("665adcfd67837.png");
-    height: 30px;
-    width: 26px;
-}
-.msg-chat .emote.DappaKappa {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.DatGeoff {
     background-image: url("665add0306a30.png");
     height: 30px;
@@ -636,15 +591,6 @@
 .msg-chat .emote.Derpstiny {
     margin-top: -31px;
     top: 7.75px;
-}
-.emote.DestiSenpaii {
-    background-image: url("665add137aa5c.png");
-    height: 30px;
-    width: 32px;
-}
-.msg-chat .emote.DestiSenpaii {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.dggL {
     background-image: url("64e9c8c405428.png");
@@ -760,15 +706,6 @@
     width: 37px;
 }
 .msg-chat .emote.FeedNathan {
-    margin-top: -30px;
-    top: 7.5px;
-}
-.emote.FeelsAmazingMan {
-    background-image: url("665add2537728.png");
-    height: 30px;
-    width: 30px;
-}
-.msg-chat .emote.FeelsAmazingMan {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -1015,15 +952,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.Heimerdonger {
-    background-image: url("665add97421dc.png");
-    height: 30px;
-    width: 37px;
-}
-.msg-chat .emote.Heimerdonger {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.hesRight {
     background-image: url("668264ab2fb2a.png");
     height: 30px;
@@ -1141,15 +1069,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.ITSNOTFAIR {
-    background-image: url("66b1b150a12ce.png");
-    height: 32px;
-    width: 30px;
-}
-.msg-chat .emote.ITSNOTFAIR {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.ITSRAWWW {
     background-image: url("665add9c07691.png");
     height: 30px;
@@ -1195,15 +1114,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.KappaRoss {
-    background-image: url("665affe6efbee.png");
-    height: 30px;
-    width: 44px;
-}
-.msg-chat .emote.KappaRoss {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.KEEPGOING {
     background-image: url("66fb7f314783a.png");
     height: 32px;
@@ -1230,15 +1140,6 @@
 .msg-chat .emote.KEK {
     margin-top: -32px;
     top: 8px;
-}
-.emote.Klappa {
-    background-image: url("5e78eb181cc2b.png");
-    height: 30px;
-    width: 76px;
-}
-.msg-chat .emote.Klappa {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.KYEK {
     background-image: url("66abf45ae828b.png");
@@ -1375,15 +1276,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.MASTERB8 {
-    background-image: url("665b0bed1732b.png");
-    height: 29px;
-    width: 36px;
-}
-.msg-chat .emote.MASTERB8 {
-    margin-top: -29px;
-    top: 7.25px;
-}
 .emote.Memegasm {
     background-image: url("5d6d427ea12da.png");
     height: 30px;
@@ -1465,15 +1357,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.monkaThink {
-    background-image: url("66ad4e0ab8b33.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.monkaThink {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.monkaVirus {
     background-image: url("6683a68fcc03f.png");
     height: 32px;
@@ -1528,15 +1411,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.nathanEZ {
-    background-image: url("665addd5ac45b.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanEZ {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.nathanF {
     background-image: url("653c2d56d58ae.png");
     height: 28px;
@@ -1545,15 +1419,6 @@
 .msg-chat .emote.nathanF {
     margin-top: -28px;
     top: 7px;
-}
-.emote.nathanGG {
-    background-image: url("665addda0b74d.png");
-    height: 30px;
-    width: 30px;
-}
-.msg-chat .emote.nathanGG {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.nathanNotears {
     background-image: url("nathanNotears.png");
@@ -1573,24 +1438,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.nathanPepe {
-    background-image: url("665b0bcb365a8.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanPepe {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanPrime {
-    background-image: url("665ade0567258.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanPrime {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.nathanTiny1 {
     background-image: url("665ade28c2b3e.png");
     height: 28px;
@@ -1606,33 +1453,6 @@
     width: 28px;
 }
 .msg-chat .emote.nathanTiny2 {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanWeeb {
-    background-image: url("nathanWeeb.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanWeeb {
-    margin-top: -28px;
-    top: 7px;
-}
-.emote.nathanWoah {
-    background-image: url("653c31451be2d.png");
-    height: 34px;
-    width: 31px;
-}
-.msg-chat .emote.nathanWoah {
-    margin-top: -34px;
-    top: 8.5px;
-}
-.emote.nathanYee {
-    background-image: url("665ade32a2059.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanYee {
     margin-top: -28px;
     top: 7px;
 }
@@ -1762,30 +1582,12 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.OhMyDog {
-    background-image: url("665ade3c40128.png");
-    height: 30px;
-    width: 30px;
-}
-.msg-chat .emote.OhMyDog {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.OhNo {
     background-image: url("67258755d9382.png");
     height: 32px;
     width: 36px;
 }
 .msg-chat .emote.OhNo {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.OhYou {
-    background-image: url("66b312af3bd32.png");
-    height: 32px;
-    width: 36px;
-}
-.msg-chat .emote.OhYou {
     margin-top: -32px;
     top: 8px;
 }
@@ -2248,15 +2050,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.SoDoge {
-    background-image: url("5c2bbdcf33df8.png");
-    height: 30px;
-    width: 52px;
-}
-.msg-chat .emote.SoDoge {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.SOTRIGGERED {
     background-image: url("66938505e5605.png");
     height: 32px;
@@ -2401,6 +2194,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.tinyWoah {
+    background-image: url("653c31451be2d.png");
+    height: 34px;
+    width: 31px;
+}
+.msg-chat .emote.tinyWoah {
+    margin-top: -34px;
+    top: 8.5px;
+}
 .emote.tinyWTF {
     background-image: url("66827da781cd6.png");
     height: 32px;
@@ -2445,15 +2247,6 @@
 .msg-chat .emote.TRUMPED {
     margin-top: -28px;
     top: 7px;
-}
-.emote.TwitchLord {
-    background-image: url("66fbd202dbbfa.png");
-    height: 32px;
-    width: 33px;
-}
-.msg-chat .emote.TwitchLord {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.UltraHandsomeMan {
     background-image: url("66947b90b7b45.png");
@@ -2680,15 +2473,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.Yoda1 {
-    background-image: url("665affdd963e2.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.Yoda1 {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.YouWouldntGetIt {
     background-image: url("673dd35402bc7.png");
     height: 32px;
@@ -2706,15 +2490,6 @@
 .msg-chat .emote.ZOOMER {
     margin-top: -32px;
     top: 8px;
-}
-.emote.ZOOMERKING {
-    background-image: url("665b0b908efe9.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.ZOOMERKING {
-    margin-top: -28px;
-    top: 7px;
 }
 .emote.ACKSHUALLY {
     width: 47px;
@@ -2792,67 +2567,6 @@
   animation: Askers-hover 3.5s steps(99) infinite;
 }
 
-@keyframes ATAB-left {
-  10%, 85% { left: 2px; }
-}
-@keyframes ATAB-right {
-  10%, 85% { right: 1px; }
-}
-@keyframes ATAB-glow {
-  8%, 90% { filter: drop-shadow(0 0 0 #000) brightness(1); }
-  10% { filter: drop-shadow(0 0 8px #FCE20577) brightness(1.3); }
-  30%, 80% { filter: drop-shadow(0 0 6px #FCE20544) brightness(1.3); }
-}
-.emote.ATAB {
-  animation: ATAB-glow 1.6s 1;
-  filter: none;
-  transition: all .2s cubic-bezier(0.55, 0.06, 0.68, 0.19);
-}
-.emote.ATAB:hover {
-  filter: drop-shadow(0 0 6px #FCE20544) brightness(1.3);
-  transition: all .2s cubic-bezier(0.55, 0.06, 0.68, 0.19);
-  animation: none;
-}
-.emote.ATAB:before {
-  content: "AT";
-  color: #FCE205;
-  line-height: initial;
-  font-weight: 500;
-  text-shadow: -1px 1px #000000ff, 1px 1px #000000ff, -1px -1px #000000ff, 1px -1px #000000ff;
-  text-indent: 0;
-  font-size: 15px;
-  position: absolute;
-  left: -20px;
-  top: -2px;
-  animation: ATAB-left 1.5s 1 cubic-bezier(0.55, 0.06, 0.68, 0.19);
-  transition: all .2s cubic-bezier(0.55, 0.06, 0.68, 0.19);
-}
-.emote.ATAB:after {
-  content: "AB";
-  color: #FCE205;
-  line-height: initial;
-  font-weight: 500;
-  text-shadow: -1px 1px #000000ff, 1px 1px #000000ff, -1px -1px #000000ff, 1px -1px #000000ff;
-  text-indent: 0;
-  font-size: 15px;
-  position: absolute;
-  right: -20px;
-  top: -2px;
-  animation: ATAB-right 1.5s 1 cubic-bezier(0.55, 0.06, 0.68, 0.19);
-  transition: all .2s cubic-bezier(0.55, 0.06, 0.68, 0.19);
-}
-.emote.ATAB:hover::before {
-  left: 2px;
-  transform-origin: 50% 100%;
-  transition: all .2s cubic-bezier(0.55, 0.06, 0.68, 0.19);
-  animation: none;
-}
-.emote.ATAB:hover::after {
-  right: 1px;
-  transition: all .2s cubic-bezier(0.55, 0.06, 0.68, 0.19);
-  transform-origin: 50% 100%;
-  animation: none;
-}
 .emote.Aware {
   height: 32px;
   width: 36px;
@@ -4803,20 +4517,6 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
           } 
 }
 
-.emote.Klappa {
-  width: 38px;
-  height: 30px;
-  animation: Klappa-anim 10 steps(2) 0.4s -0.15s;
-}
-.emote.Klappa:hover {
-  animation: Klappa-anim-hover infinite steps(2) 0.4s;
-}
-@keyframes Klappa-anim {
-  100% { background-position: -76px; }
-}
-@keyframes Klappa-anim-hover {
-  100% { background-position: -76px; }
-}
 .emote.KYSNOW {
     width: 42px;
     height: 32px;
@@ -6499,39 +6199,6 @@ background-repeat:no-repeat;
 }
 .emote.TRUELOVE:hover::after {
     animation: TRUELOVE-hover 0.5s infinite;
-    animation-delay: 0.25s;
-}
-/* Halloween version made by T9Parker */
-@keyframes TwitchLord-anim {
-    0% { top: -45px; }
-    99% { top: 32px; }
-    100%{ top: 32px; }
-}
-.emote.TwitchLord:before{
-    content: "❌";
-    text-indent: 0;
-    font-size: 14px;
-    position: absolute;
-    left:-5px;
-    top:-25px;
-    animation: TwitchLord-anim 1.1s 6 ease ;
-//🚫 ⛔ ❌ 🛑
-}
-.emote.TwitchLord:after{
-    content: "⛔";
-    text-indent: 0;
-    font-size: 14px;
-    position: absolute;
-    right:-4px;
-    top:-25px;
-    animation: TwitchLord-anim 1.4s 6 ease ;
-    animation-delay: 0.3s;
-}
-.emote.TwitchLord:hover::before {
-    animation: TwitchLord-anim 0.5s infinite alternate;
-}
-.emote.TwitchLord:hover::after {
-    animation: TwitchLord-anim 0.5s infinite;
     animation-delay: 0.25s;
 }
 .emote.WEEWOO {
