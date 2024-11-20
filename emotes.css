@@ -341,13 +341,13 @@
     top: 8px;
 }
 .emote.Clueless {
-    background-image: url("6694d42888e84.png");
-    height: 34px;
-    width: 38px;
+    background-image: url("66596e3d361e1.png");
+    height: 32px;
+    width: 35px;
 }
 .msg-chat .emote.Clueless {
-    margin-top: -34px;
-    top: 8.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.COGGERS {
     background-image: url("65f6c4a6484eb.png");
@@ -546,15 +546,6 @@
 .msg-chat .emote.DankWave {
     margin-top: -32px;
     top: 8px;
-}
-.emote.DatGeoff {
-    background-image: url("665add0306a30.png");
-    height: 30px;
-    width: 21px;
-}
-.msg-chat .emote.DatGeoff {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.DCOLON {
     background-image: url("6002196ce1fcd.png");
@@ -1068,15 +1059,6 @@
 .msg-chat .emote.ItsFine {
     margin-top: -32px;
     top: 8px;
-}
-.emote.ITSRAWWW {
-    background-image: url("665add9c07691.png");
-    height: 30px;
-    width: 25px;
-}
-.msg-chat .emote.ITSRAWWW {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.itsReal {
     background-image: url("66fbaaa54ca4d.png");
