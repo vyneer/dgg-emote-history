@@ -475,15 +475,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.COOMfy {
-    background-image: url("624f1fad7a41d.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.COOMfy {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.Copium {
     background-image: url("66596c13917fd.gif");
     height: 32px;
@@ -1186,15 +1177,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.kamalaZ {
-    background-image: url("669d979c03fcb.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.kamalaZ {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.Kappa {
     background-image: url("5c2bbcd46c08e.png");
     height: 30px;
@@ -1255,6 +1237,15 @@
     width: 32px;
 }
 .msg-chat .emote.KYEK {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.KYSNOW {
+    background-image: url("6519126b12377.png");
+    height: 32px;
+    width: 2100px;
+}
+.msg-chat .emote.KYSNOW {
     margin-top: -32px;
     top: 8px;
 }
@@ -2086,15 +2077,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.Ropium {
-    background-image: url("665908bf5e3be.png");
-    height: 34px;
-    width: 55px;
-}
-.msg-chat .emote.Ropium {
-    margin-top: -34px;
-    top: 8.5px;
-}
 .emote.SALUTE {
     background-image: url("672490569f774.png");
     height: 32px;
@@ -2365,15 +2347,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.tinyNOW {
-    background-image: url("6519126b12377.png");
-    height: 32px;
-    width: 2100px;
-}
-.msg-chat .emote.tinyNOW {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.tinySuffer {
     background-image: url("6693d0763fd7d.png");
     height: 30px;
@@ -2400,15 +2373,6 @@
 .msg-chat .emote.tonyW {
     margin-top: -32px;
     top: 8px;
-}
-.emote.TotallyFine {
-    background-image: url("66864ed6bc452.png");
-    height: 34px;
-    width: 35px;
-}
-.msg-chat .emote.TotallyFine {
-    margin-top: -34px;
-    top: 8.5px;
 }
 .emote.TRIAD {
     background-image: url("5fc0682f0c354.png");
@@ -2483,13 +2447,13 @@
     top: 7.5px;
 }
 .emote.WEEWOO {
-    background-image: url("66abe4b22737f.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("6519465c0ae7b.png");
+    height: 30px;
+    width: 33px;
 }
 .msg-chat .emote.WEEWOO {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.WEOW {
     background-image: url("650f6d1ab6bc2.png");
@@ -2688,6 +2652,15 @@
 .msg-chat .emote.ZOOMER {
     margin-top: -32px;
     top: 8px;
+}
+.emote.ZOOMERKING {
+    background-image: url("665b0b908efe9.png");
+    height: 28px;
+    width: 28px;
+}
+.msg-chat .emote.ZOOMERKING {
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.ACKSHUALLY {
     width: 47px;
@@ -4818,6 +4791,197 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
 @keyframes Klappa-anim-hover {
   100% { background-position: -76px; }
 }
+.emote.KYSNOW {
+    width: 42px;
+    height: 32px;
+    filter: brightness(1) saturate(1.2) drop-shadow(0px 0px 2px #001eff) ;
+    background-repeat: no-repeat;
+    animation: KYSNOW-ANIM .5s ease-out 1, KYSNOW-FLASH ease-out 1.5s 3, KYSNOW-LIGHTNING steps(49) 4.5s forwards 3 .08s, KYSNOW-FLASH ease-out 1.2s 2 7.5s;
+    transition: all 1s;
+}
+
+.emote.KYSNOW:hover {
+    filter: brightness(1.15) saturate(1.3) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 5px #ffdd56) drop-shadow(0px 0px 10px #001eff);
+    animation: KYSNOW-FLASH-HOVER ease-out 1.5s infinite,
+        KYSNOW-LIGHTNING-HOVER steps(43) 4.5s forwards infinite,
+        KYSNOW-ANIM .5s ease-out 1;
+    transition: all .5s;
+}
+
+
+
+@keyframes KYSNOW-ANIM {
+      0% {
+        transform: translate(-5px, 0px);
+background-position: 0px 10px; 
+    }  
+      
+    100% {   
+        transform: translate(0px, 0px);   
+
+    }
+}
+
+@keyframes KYSNOW-LIGHTNING {
+    to {
+        background-position: -2058px;
+    }
+}
+
+@keyframes KYSNOW-FLASH {
+    0% {
+        opacity: 1;
+        filter: brightness(1.05) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 4px #001eff);
+    }
+
+    2% {
+        opacity: 0;
+        filter: brightness(1.02) drop-shadow(0px 0px 2px #ffffff) drop-shadow(0px 0px 2px #001eff) ;
+    }
+
+    3% {
+        opacity: 1;
+        filter: brightness(1.06) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 0px #001eff);
+    }
+
+    4% {
+        opacity: 0.2;
+        filter: brightness(1.08) drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 1px #001eff);
+    }
+
+    6% {
+        opacity: .8;
+        filter: brightness(1.50) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 1px #001eff);
+    }
+
+    10% {
+        opacity: 1;
+        filter: brightness(1.02) drop-shadow(0px 0px 2px #ffffff) drop-shadow(0px 0px 3px #001eff);
+    }
+
+    75% {
+        opacity: 1;
+        filter: brightness(1.08) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 5px #001eff);
+    }
+
+    78% {
+        opacity: .8;
+        filter: brightness(1.08) drop-shadow(0px 0px 5px #ffffff) drop-shadow(0px 0px 6px #001eff);
+    }
+
+    79% {
+        opacity: 0;
+        filter: brightness(1.02) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 2px #001eff);
+    }
+
+    83% {
+        opacity: 1;
+        filter: brightness(1.30) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 1px #001eff);
+    }
+
+    84% {
+        opacity: 0.4;
+        filter: brightness(1.04) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 3px #001eff);
+    }
+
+    86% {
+        opacity: .8;
+        filter: brightness(1.20) drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 3px #001eff);
+    }
+
+    87% {
+        opacity: 1;
+        filter: brightness(1.02) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 2px #001eff);
+    }
+
+    100% {
+        opacity: 1;
+        filter: brightness(1.05) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 4px #001eff);
+    }
+}
+
+
+@keyframes KYSNOW-LIGHTNING-HOVER {
+    from {
+        background-position: -252px;
+    }
+
+    to {
+        background-position: -2058px;
+    }
+}
+
+@keyframes KYSNOW-FLASH-HOVER {
+0% {
+        opacity: 1;
+        filter: brightness(1.05) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 4px #001eff);
+    }
+
+    2% {
+        opacity: 0;
+        filter: brightness(1.02) drop-shadow(0px 0px 2px #ffffff) drop-shadow(0px 0px 2px #001eff) ;
+    }
+
+    3% {
+        opacity: 1;
+        filter: brightness(1.06) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 0px #001eff);
+    }
+
+    4% {
+        opacity: 0.2;
+        filter: brightness(1.08) drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 1px #001eff);
+    }
+
+    6% {
+        opacity: .8;
+        filter: brightness(1.50) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 1px #001eff);
+    }
+
+    10% {
+        opacity: 1;
+        filter: brightness(1.02) drop-shadow(0px 0px 2px #ffffff) drop-shadow(0px 0px 3px #001eff);
+    }
+
+    75% {
+        opacity: 1;
+        filter: brightness(1.08) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 5px #001eff);
+    }
+
+    78% {
+        opacity: .8;
+        filter: brightness(1.08) drop-shadow(0px 0px 5px #ffffff) drop-shadow(0px 0px 6px #001eff);
+    }
+
+    79% {
+        opacity: 0;
+        filter: brightness(1.02) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 2px #001eff);
+    }
+
+    83% {
+        opacity: 1;
+        filter: brightness(1.30) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 1px #001eff);
+    }
+
+    84% {
+        opacity: 0.4;
+        filter: brightness(1.04) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 3px #001eff);
+    }
+
+    86% {
+        opacity: .8;
+        filter: brightness(1.20) drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 3px #001eff);
+    }
+
+    87% {
+        opacity: 1;
+        filter: brightness(1.02) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 2px #001eff);
+    }
+
+    100% {
+        opacity: 1;
+        filter: brightness(1.05) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 4px #001eff);
+    }
+}
 @keyframes MALARKEY-anim {
   0% { background-position: 0px; }
   100% { background-position: -1581px; }
@@ -6260,197 +6424,6 @@ background-repeat:no-repeat;
 .emote.THATNINJA:hover::before {
   animation: THATNINJA-Mark-anim-hover 2s infinite;
 }
-.emote.tinyNOW {
-    width: 42px;
-    height: 32px;
-    filter: brightness(1) saturate(1.2) drop-shadow(0px 0px 2px #001eff) ;
-    background-repeat: no-repeat;
-    animation: tinyNOW-ANIM .5s ease-out 1, tinyNOW-FLASH ease-out 1.5s 3, tinyNOW-LIGHTNING steps(49) 4.5s forwards 3 .08s, tinyNOW-FLASH ease-out 1.2s 2 7.5s;
-    transition: all 1s;
-}
-
-.emote.tinyNOW:hover {
-    filter: brightness(1.15) saturate(1.3) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 5px #ffdd56) drop-shadow(0px 0px 10px #001eff);
-    animation: tinyNOW-FLASH-HOVER ease-out 1.5s infinite,
-        tinyNOW-LIGHTNING-HOVER steps(43) 4.5s forwards infinite,
-        tinyNOW-ANIM .5s ease-out 1;
-    transition: all .5s;
-}
-
-
-
-@keyframes tinyNOW-ANIM {
-      0% {
-        transform: translate(-5px, 0px);
-background-position: 0px 10px; 
-    }  
-      
-    100% {   
-        transform: translate(0px, 0px);   
-
-    }
-}
-
-@keyframes tinyNOW-LIGHTNING {
-    to {
-        background-position: -2058px;
-    }
-}
-
-@keyframes tinyNOW-FLASH {
-    0% {
-        opacity: 1;
-        filter: brightness(1.05) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 4px #001eff);
-    }
-
-    2% {
-        opacity: 0;
-        filter: brightness(1.02) drop-shadow(0px 0px 2px #ffffff) drop-shadow(0px 0px 2px #001eff) ;
-    }
-
-    3% {
-        opacity: 1;
-        filter: brightness(1.06) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 0px #001eff);
-    }
-
-    4% {
-        opacity: 0.2;
-        filter: brightness(1.08) drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 1px #001eff);
-    }
-
-    6% {
-        opacity: .8;
-        filter: brightness(1.50) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 1px #001eff);
-    }
-
-    10% {
-        opacity: 1;
-        filter: brightness(1.02) drop-shadow(0px 0px 2px #ffffff) drop-shadow(0px 0px 3px #001eff);
-    }
-
-    75% {
-        opacity: 1;
-        filter: brightness(1.08) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 5px #001eff);
-    }
-
-    78% {
-        opacity: .8;
-        filter: brightness(1.08) drop-shadow(0px 0px 5px #ffffff) drop-shadow(0px 0px 6px #001eff);
-    }
-
-    79% {
-        opacity: 0;
-        filter: brightness(1.02) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 2px #001eff);
-    }
-
-    83% {
-        opacity: 1;
-        filter: brightness(1.30) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 1px #001eff);
-    }
-
-    84% {
-        opacity: 0.4;
-        filter: brightness(1.04) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 3px #001eff);
-    }
-
-    86% {
-        opacity: .8;
-        filter: brightness(1.20) drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 3px #001eff);
-    }
-
-    87% {
-        opacity: 1;
-        filter: brightness(1.02) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 2px #001eff);
-    }
-
-    100% {
-        opacity: 1;
-        filter: brightness(1.05) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 4px #001eff);
-    }
-}
-
-
-@keyframes tinyNOW-LIGHTNING-HOVER {
-    from {
-        background-position: -252px;
-    }
-
-    to {
-        background-position: -2058px;
-    }
-}
-
-@keyframes tinyNOW-FLASH-HOVER {
-0% {
-        opacity: 1;
-        filter: brightness(1.05) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 4px #001eff);
-    }
-
-    2% {
-        opacity: 0;
-        filter: brightness(1.02) drop-shadow(0px 0px 2px #ffffff) drop-shadow(0px 0px 2px #001eff) ;
-    }
-
-    3% {
-        opacity: 1;
-        filter: brightness(1.06) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 0px #001eff);
-    }
-
-    4% {
-        opacity: 0.2;
-        filter: brightness(1.08) drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 1px #001eff);
-    }
-
-    6% {
-        opacity: .8;
-        filter: brightness(1.50) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 1px #001eff);
-    }
-
-    10% {
-        opacity: 1;
-        filter: brightness(1.02) drop-shadow(0px 0px 2px #ffffff) drop-shadow(0px 0px 3px #001eff);
-    }
-
-    75% {
-        opacity: 1;
-        filter: brightness(1.08) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 5px #001eff);
-    }
-
-    78% {
-        opacity: .8;
-        filter: brightness(1.08) drop-shadow(0px 0px 5px #ffffff) drop-shadow(0px 0px 6px #001eff);
-    }
-
-    79% {
-        opacity: 0;
-        filter: brightness(1.02) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 2px #001eff);
-    }
-
-    83% {
-        opacity: 1;
-        filter: brightness(1.30) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 1px #001eff);
-    }
-
-    84% {
-        opacity: 0.4;
-        filter: brightness(1.04) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 3px #001eff);
-    }
-
-    86% {
-        opacity: .8;
-        filter: brightness(1.20) drop-shadow(0px 0px 3px #ffffff) drop-shadow(0px 0px 3px #001eff);
-    }
-
-    87% {
-        opacity: 1;
-        filter: brightness(1.02) drop-shadow(0px 0px 0px #ffffff) drop-shadow(0px 0px 2px #001eff);
-    }
-
-    100% {
-        opacity: 1;
-        filter: brightness(1.05) drop-shadow(0px 0px 1px #ffffff) drop-shadow(0px 0px 4px #001eff);
-    }
-}
 @keyframes TRIAD-anim {
   100% { background-position: -4200px; }
 }
@@ -6538,13 +6511,13 @@ background-position: 0px 10px;
 .emote.WEEWOO {
     background-position: 0px;
     background-repeat: no-repeat;
-    animation: WEEWOO-anim 1.25s ease-out 2;
-    transition: all .25s;
+    animation: WEEWOO-anim 1.5s ease-out 1;
+    transition: all 1s;
 }
 
 .emote.WEEWOO:hover {
-    transition: all .25s;
-    animation: WEEWOO-hover 1s ease-out infinite;
+    transition: all .5s;
+    animation: WEEWOO-hover 1.5s ease-out infinite;
 }
 
 
@@ -6552,43 +6525,42 @@ background-position: 0px 10px;
 
     0%,
     100% {
-        opacity: 1;
+        opacity: 1
     }
 
     10% {
-        opacity: 0.75;
-        filter: hue-rotate(0deg);
+        opacity: 0.5;
+        filter: hue-rotate(0deg)
     }
 
     11% {
-        filter: hue-rotate(220deg) saturate(140%) contrast(110%);
+        filter: hue-rotate(170deg)
     }
 
     35% {
-        opacity: 1;
-
+        opacity: 1
     }
 
     50% {
-        opacity: 0.52;
-        filter: hue-rotate(220deg) saturate(140%) contrast(110%);
+        opacity: 0.2;
+        filter: hue-rotate(170deg)
     }
 
     51% {
-        filter: hue-rotate(350deg) saturate(140%) contrast(110%);
+        filter: hue-rotate(310deg)
     }
 
     65% {
-        opacity: 1 ;
+        opacity: 1
     }
 
     90% {
-        opacity: 0.52;
-        filter: hue-rotate(350deg) saturate(140%) contrast(110%);
+        opacity: 0.2;
+        filter: hue-rotate(310deg)
     }
 
     91% {
-        filter: hue-rotate(0deg);
+        filter: hue-rotate(0deg)
     }
 }
 
@@ -6596,43 +6568,42 @@ background-position: 0px 10px;
 
     0%,
     100% {
-        opacity: 1;
+        opacity: 1
     }
 
     10% {
-        opacity: 0.75;
-        filter: hue-rotate(0deg);
+        opacity: 0.5;
+        filter: hue-rotate(0deg)
     }
 
     11% {
-        filter: hue-rotate(220deg) saturate(140%) contrast(110%);
+        filter: hue-rotate(170deg)
     }
 
     35% {
-        opacity: 1;
-
+        opacity: 1
     }
 
     50% {
-        opacity: 0.52;
-        filter: hue-rotate(220deg) saturate(140%) contrast(110%);
+        opacity: 0.2;
+        filter: hue-rotate(170deg)
     }
 
     51% {
-        filter: hue-rotate(350deg) saturate(140%) contrast(110%);
+        filter: hue-rotate(310deg)
     }
 
     65% {
-        opacity: 1 ;
+        opacity: 1
     }
 
     90% {
-        opacity: 0.52;
-        filter: hue-rotate(350deg) saturate(140%) contrast(110%);
+        opacity: 0.2;
+        filter: hue-rotate(310deg)
     }
 
     91% {
-        filter: hue-rotate(0deg);
+        filter: hue-rotate(0deg)
     }
 }
 /*
