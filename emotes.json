@@ -304,22 +304,6 @@
     ]
   },
   {
-    "prefix": "benzoChamp",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.10.0/emotes/66b31308b0a7e.png",
-        "name": "66b31308b0a7e.png",
-        "mime": "image/png",
-        "height": 34,
-        "width": 27
-      }
-    ]
-  },
-  {
     "prefix": "BERN",
     "creator": "",
     "twitch": false,
@@ -928,22 +912,6 @@
     ]
   },
   {
-    "prefix": "DAMMIT",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.10.0/emotes/672497ed6c7d6.png",
-        "name": "672497ed6c7d6.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "DANKMEMES",
     "creator": "",
     "twitch": false,
@@ -1100,6 +1068,22 @@
         "mime": "image/png",
         "height": 28,
         "width": 28
+      }
+    ]
+  },
+  {
+    "prefix": "DonkCredit",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.10.0/emotes/673f134d4f168.png",
+        "name": "673f134d4f168.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -3248,22 +3232,6 @@
     ]
   },
   {
-    "prefix": "Pointless",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.10.0/emotes/67248a3d466d6.png",
-        "name": "67248a3d466d6.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 35
-      }
-    ]
-  },
-  {
     "prefix": "POOTUBE",
     "creator": "",
     "twitch": false,
@@ -3744,6 +3712,22 @@
     ]
   },
   {
+    "prefix": "Susge",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.10.0/emotes/673f133ce53ff.png",
+        "name": "673f133ce53ff.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 39
+      }
+    ]
+  },
+  {
     "prefix": "SWEATSTINY",
     "creator": "",
     "twitch": false,
@@ -4092,6 +4076,22 @@
         "mime": "image/png",
         "height": 35,
         "width": 35
+      }
+    ]
+  },
+  {
+    "prefix": "WHISPERING",
+    "creator": "huansox (7tv)",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.10.0/emotes/6680aaacc3a97.gif",
+        "name": "6680aaacc3a97.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 96
       }
     ]
   },

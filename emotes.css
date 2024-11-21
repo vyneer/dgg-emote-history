@@ -169,15 +169,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.benzoChamp {
-    background-image: url("66b31308b0a7e.png");
-    height: 34px;
-    width: 27px;
-}
-.msg-chat .emote.benzoChamp {
-    margin-top: -34px;
-    top: 8.5px;
-}
 .emote.BERN {
     background-image: url("649f768e50a4a.png");
     height: 30px;
@@ -520,15 +511,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.DAMMIT {
-    background-image: url("672497ed6c7d6.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.DAMMIT {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.DANKMEMES {
     background-image: url("66596f55973e2.png");
     height: 30px;
@@ -618,6 +600,15 @@
 .msg-chat .emote.Disgustiny {
     margin-top: -28px;
     top: 7px;
+}
+.emote.DonkCredit {
+    background-image: url("673f134d4f168.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.DonkCredit {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.DONTSAYIT {
     background-image: url("6724935cf2f7a.png");
@@ -1825,15 +1816,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.Pointless {
-    background-image: url("67248a3d466d6.png");
-    height: 32px;
-    width: 35px;
-}
-.msg-chat .emote.Pointless {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.POOTUBE {
     background-image: url("653c2e3e247af.png");
     height: 24px;
@@ -2104,6 +2086,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.Susge {
+    background-image: url("673f133ce53ff.png");
+    height: 30px;
+    width: 39px;
+}
+.msg-chat .emote.Susge {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.SWEATSTINY {
     background-image: url("66b43be52b983.png");
     height: 32px;
@@ -2301,6 +2292,15 @@
 .msg-chat .emote.WHAAAAT {
     margin-top: -35px;
     top: 8.75px;
+}
+.emote.WHISPERING {
+    background-image: url("6680aaacc3a97.gif");
+    height: 32px;
+    width: 96px;
+}
+.msg-chat .emote.WHISPERING {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.WhoahDude {
     background-image: url("5c2bbe2630ff0.png");
