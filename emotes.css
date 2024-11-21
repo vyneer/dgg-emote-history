@@ -1438,6 +1438,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.nathanWeeb {
+    background-image: url("nathanWeeb.png");
+    height: 28px;
+    width: 28px;
+}
+.msg-chat .emote.nathanWeeb {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.NiceMeMe {
     background-image: url("5fad994ca9712.png");
     height: 30px;

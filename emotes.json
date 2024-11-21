@@ -2560,6 +2560,22 @@
     ]
   },
   {
+    "prefix": "nathanWeeb",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.10.0/emotes/nathanWeeb.png",
+        "name": "nathanWeeb.png",
+        "mime": "image/png",
+        "height": 28,
+        "width": 28
+      }
+    ]
+  },
+  {
     "prefix": "NiceMeMe",
     "creator": null,
     "twitch": false,
