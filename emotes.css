@@ -934,6 +934,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.Heimerdonger {
+    background-image: url("665add97421dc.png");
+    height: 30px;
+    width: 37px;
+}
+.msg-chat .emote.Heimerdonger {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.hesRight {
     background-image: url("668264ab2fb2a.png");
     height: 30px;
@@ -1248,6 +1257,15 @@
 .msg-chat .emote.MALARKEY {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.MASTERB8 {
+    background-image: url("665b0bed1732b.png");
+    height: 29px;
+    width: 36px;
+}
+.msg-chat .emote.MASTERB8 {
+    margin-top: -29px;
+    top: 7.25px;
 }
 .emote.Memegasm {
     background-image: url("5d6d427ea12da.png");
@@ -2020,6 +2038,15 @@
     width: 35px;
 }
 .msg-chat .emote.SNAP {
+    margin-top: -30px;
+    top: 7.5px;
+}
+.emote.SoDoge {
+    background-image: url("5c2bbdcf33df8.png");
+    height: 30px;
+    width: 52px;
+}
+.msg-chat .emote.SoDoge {
     margin-top: -30px;
     top: 7.5px;
 }
