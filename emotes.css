@@ -5908,13 +5908,13 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 
 .emote.SOTRIGGERED {
   transform-origin: 0% 100%;
-  padding-right: 50px; 
+
 transition: all .25s;
   animation: SOTRIGGERED-anim ease-out 1.5s 1 .15s;
 background-repeat:no-repeat;
 }
 .emote.SOTRIGGERED:hover {   transform-origin: 0% 100%;
-  padding-right: 50px;
+
   transition: all .25s;
   animation: SOTRIGGERED-hover ease-out 1.25s .15s infinite;
 }
