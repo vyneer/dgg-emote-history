@@ -601,15 +601,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.DonkCredit {
-    background-image: url("673f134d4f168.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.DonkCredit {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.DONTSAYIT {
     background-image: url("6724935cf2f7a.png");
     height: 30px;
@@ -627,15 +618,6 @@
 .msg-chat .emote.DOUBT {
     margin-top: -32px;
     top: 8px;
-}
-.emote.Dravewin {
-    background-image: url("665add2034b24.png");
-    height: 30px;
-    width: 30px;
-}
-.msg-chat .emote.Dravewin {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.DuckerZ {
     background-image: url("5c2bbc5803fc3.png");
@@ -988,15 +970,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.Hopium {
-    background-image: url("67029cfa3c3f4.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.Hopium {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.HUH {
     background-image: url("66f3224ec1d70.png");
     height: 32px;
@@ -1096,6 +1069,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.KappaRoss {
+    background-image: url("665affe6efbee.png");
+    height: 30px;
+    width: 44px;
+}
+.msg-chat .emote.KappaRoss {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.KEEPGOING {
     background-image: url("66fb7f314783a.png");
     height: 32px;
@@ -1123,6 +1105,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.Klappa {
+    background-image: url("5e78eb181cc2b.png");
+    height: 30px;
+    width: 76px;
+}
+.msg-chat .emote.Klappa {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.KYEK {
     background-image: url("66abf45ae828b.png");
     height: 32px;
@@ -1149,15 +1140,6 @@
 .msg-chat .emote.LandlordW {
     margin-top: -30px;
     top: 7.5px;
-}
-.emote.LeHeckinKindStranger {
-    background-image: url("673dd4d07071d.png");
-    height: 25px;
-    width: 25px;
-}
-.msg-chat .emote.LeHeckinKindStranger {
-    margin-top: -25px;
-    top: 6.25px;
 }
 .emote.LeRuse {
     background-image: url("5c2bbcebab235.png");
@@ -1429,6 +1411,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.nathanPepe {
+    background-image: url("665b0bcb365a8.png");
+    height: 28px;
+    width: 28px;
+}
+.msg-chat .emote.nathanPepe {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.nathanTiny1 {
     background-image: url("665ade28c2b3e.png");
     height: 28px;
@@ -1453,6 +1444,15 @@
     width: 28px;
 }
 .msg-chat .emote.nathanWeeb {
+    margin-top: -28px;
+    top: 7px;
+}
+.emote.nathanYee {
+    background-image: url("665ade32a2059.png");
+    height: 28px;
+    width: 28px;
+}
+.msg-chat .emote.nathanYee {
     margin-top: -28px;
     top: 7px;
 }
@@ -1518,15 +1518,6 @@
 .msg-chat .emote.NOSHOT {
     margin-top: -30px;
     top: 7.5px;
-}
-.emote.NoShotSherlock {
-    background-image: url("66ad4e8f0477c.png");
-    height: 36px;
-    width: 52px;
-}
-.msg-chat .emote.NoShotSherlock {
-    margin-top: -36px;
-    top: 9px;
 }
 .emote.NoTears {
     background-image: url("5c2bbd3411c78.png");
@@ -2051,9 +2042,9 @@
     top: 7.5px;
 }
 .emote.SOTRIGGERED {
-    background-image: url("66938505e5605.png");
+    background-image: url("665a5b6e420fb.png");
     height: 32px;
-    width: 49px;
+    width: 32px;
 }
 .msg-chat .emote.SOTRIGGERED {
     margin-top: -32px;
@@ -4563,6 +4554,20 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
           } 
 }
 
+.emote.Klappa {
+  width: 38px;
+  height: 30px;
+  animation: Klappa-anim 10 steps(2) 0.4s -0.15s;
+}
+.emote.Klappa:hover {
+  animation: Klappa-anim-hover infinite steps(2) 0.4s;
+}
+@keyframes Klappa-anim {
+  100% { background-position: -76px; }
+}
+@keyframes Klappa-anim-hover {
+  100% { background-position: -76px; }
+}
 .emote.KYSNOW {
     width: 42px;
     height: 32px;
@@ -5876,12 +5881,10 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 @keyframes SOTRIGGERED-anim {
   0% { transform: rotate(0deg); }
-  10% { transform: rotate(-15deg); }
-  25% { transform: rotate(-15deg); }
-  30% { transform: rotate(-30deg); }
-  40% { transform: rotate(10deg); }
-  45% { transform: rotate(-8deg); }
-  50% { transform: rotate(3deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(-9deg); }
+  45% { transform: rotate(-6deg); }
+  50% { transform: rotate(5deg); }
   55% { transform: rotate(0deg); }
   70% { transform: rotate(0deg); }
   75% { transform: rotate(5deg); }
@@ -5891,12 +5894,10 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 @keyframes SOTRIGGERED-hover {
   0% { transform: rotate(0deg); }
-  10% { transform: rotate(-15deg); }
-  25% { transform: rotate(-15deg); }
-  30% { transform: rotate(-30deg); }
-  40% { transform: rotate(10deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(-18deg); }
   45% { transform: rotate(-8deg); }
-  50% { transform: rotate(3deg); }
+  50% { transform: rotate(12deg); }
   55% { transform: rotate(0deg); }
   70% { transform: rotate(0deg); }
   75% { transform: rotate(5deg); }
@@ -5940,8 +5941,8 @@ background-repeat:no-repeat;
 	line-height: initial;
 	position: absolute;
 	opacity: 1;
-	top: 22px;
-	left: 38px;
+	top: 16px;
+	left: 12px;
         transform: scale(0);
 	filter: hue-rotate(45deg) brightness(7) saturate(1);
 	animation: SOTRIGGERED-before 1 .55s .55s ease;  
