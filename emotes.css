@@ -62,13 +62,13 @@
     top: 7.25px;
 }
 .emote.ApeHands {
-    background-image: url("5fc823238533c.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("674c10bbbbb86.png");
+    height: 32px;
+    width: 38px;
 }
 .msg-chat .emote.ApeHands {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.ARRIVE {
     background-image: url("673dd3de8ef70.gif");
@@ -1187,13 +1187,13 @@
     top: 7.5px;
 }
 .emote.Listening {
-    background-image: url("6689d5ebaca66.png");
-    height: 33px;
-    width: 48px;
+    background-image: url("674c0fb2d2112.png");
+    height: 30px;
+    width: 53px;
 }
 .msg-chat .emote.Listening {
-    margin-top: -33px;
-    top: 8.25px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.LOCKEDIN {
     background-image: url("67352c9ba19ea.png");
@@ -2742,6 +2742,26 @@
   background-position: 35px;
 }
 
+.emote.ApeHands {
+  margin-left: -2px;
+}
+.emote.ApeHands + .emote.ApeHands, .emote.ApeHands:nth-child(1), .emote.Clap + .emote.ApeHands, .emote.BLADE + .emote.ApeHands {
+  margin-right: -2px;
+  margin-left: 0;
+  transform: scaleX(-1);
+}
+.emote.ApeHands:only-child, .emote + .emote.ApeHands:last-of-type, .emote.ApeHands:last-of-type {
+  margin-right: 0;
+  transform: scaleX(1);
+}
+@keyframes GIGAHANDS-anim {
+  0% { transform: translate(-28px, 0); }
+  100% { transform: translate(0, 0); }
+}
+.emote.GIGACHAD + .emote.ApeHands {
+  animation: GIGAHANDS-anim 1.5s ease-out 1;
+}
+  
 @keyframes Askers-anim {
   100% { background-position: -5544px; }
 }

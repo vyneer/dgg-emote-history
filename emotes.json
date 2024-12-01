@@ -113,17 +113,17 @@
   },
   {
     "prefix": "ApeHands",
-    "creator": null,
+    "creator": "FizzyLongstockings",
     "twitch": false,
     "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.13.2/emotes/5fc823238533c.png",
-        "name": "5fc823238533c.png",
+        "url": "https://cdn.destiny.gg/4.13.2/emotes/674c10bbbbb86.png",
+        "name": "674c10bbbbb86.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 32,
+        "width": 38
       }
     ]
   },
@@ -2115,15 +2115,15 @@
     "prefix": "Listening",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.13.2/emotes/6689d5ebaca66.png",
-        "name": "6689d5ebaca66.png",
+        "url": "https://cdn.destiny.gg/4.13.2/emotes/674c0fb2d2112.png",
+        "name": "674c0fb2d2112.png",
         "mime": "image/png",
-        "height": 33,
-        "width": 48
+        "height": 30,
+        "width": 53
       }
     ]
   },
