@@ -62,7 +62,7 @@
     top: 7.25px;
 }
 .emote.ApeHands {
-    background-image: url("674c10bbbbb86.png");
+    background-image: url("674c1c27e08de.gif");
     height: 32px;
     width: 38px;
 }
@@ -2554,6 +2554,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.COOLSVILLE {
+    background-image: url("674c1af496e16.png");
+    height: 32px;
+    width: 45px;
+}
+.msg-chat .emote.COOLSVILLE {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.DappaKappa {
     background-image: url("5de17e65c186b.png");
     height: 30px;
@@ -2596,6 +2605,24 @@
     width: 30px;
 }
 .msg-chat .emote.FeelsAmazingMan {
+    margin-top: -30px;
+    top: 7.5px;
+}
+.emote.fishEZ {
+    background-image: url("674c1a8281136.png");
+    height: 34px;
+    width: 34px;
+}
+.msg-chat .emote.fishEZ {
+    margin-top: -34px;
+    top: 8.5px;
+}
+.emote.GAMING {
+    background-image: url("674c1b31d2d67.png");
+    height: 30px;
+    width: 39px;
+}
+.msg-chat .emote.GAMING {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -4949,6 +4976,32 @@ background-position: 0px 10px;
 .emote.peepoRiot:hover {
   animation: peepoRiot-hover steps(8) infinite .8s;
 }
+[data-username="cyver"] .emote.PEPE {
+       animation: RARE-PEPE-PULSATE 3s infinite linear;
+}
+
+
+@keyframes RARE-PEPE-PULSATE {
+    0% {
+        transform: scale(1.05) rotate(0deg);
+        filter: hue-rotate(-20deg) brightness(1.1) saturate(1.25) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    25% {
+        transform: scale(1.025) rotate(1deg);
+       filter: hue-rotate(-20deg) brightness(1.15) saturate(1.4) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    75% {
+        transform: scale(1.1) rotate(-1deg);
+       filter: hue-rotate(-20deg) brightness(1.25) saturate(1.5) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    100% {
+        transform: scale(1.05) rotate(0deg);
+        filter: hue-rotate(-20deg) brightness(1.1) saturate(1.25) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+}
 /*TEMPORARY SNOW*/
 @keyframes PepeHands-anim {
     0% { transform: translate(0px, 0px) rotate(40deg); }
@@ -6182,6 +6235,32 @@ background-repeat:no-repeat;
 
 .emote.YAP:hover {
   animation: YAP-hover infinite steps(10) forwards  .55s;
+}
+[data-username="jaydrvernanda"] .emote.YEE {
+       animation: RARE-YEE-PULSATE 3s infinite linear;
+}
+
+
+@keyframes RARE-YEE-PULSATE {
+    0% {
+        transform: scale(1.05) rotate(0deg);
+        filter: hue-rotate(-20deg) brightness(1.1) saturate(1.25) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    25% {
+        transform: scale(1.025) rotate(1deg);
+       filter: hue-rotate(-20deg) brightness(1.15) saturate(1.4) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    75% {
+        transform: scale(1.1) rotate(-1deg);
+       filter: hue-rotate(-20deg) brightness(1.25) saturate(1.5) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    100% {
+        transform: scale(1.05) rotate(0deg);
+        filter: hue-rotate(-20deg) brightness(1.1) saturate(1.25) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
 }
 @keyframes YEEHAW-anim {
   0% { width: 100px; z-index: 3; background-position: -500px; margin-left: -50px; }

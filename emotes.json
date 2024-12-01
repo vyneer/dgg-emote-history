@@ -119,9 +119,9 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.13.2/emotes/674c10bbbbb86.png",
-        "name": "674c10bbbbb86.png",
-        "mime": "image/png",
+        "url": "https://cdn.destiny.gg/4.13.2/emotes/674c1c27e08de.gif",
+        "name": "674c1c27e08de.gif",
+        "mime": "image/gif",
         "height": 32,
         "width": 38
       }
@@ -4544,6 +4544,22 @@
     ]
   },
   {
+    "prefix": "COOLSVILLE",
+    "creator": "",
+    "twitch": false,
+    "theme": 2,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.13.2/emotes/674c1af496e16.png",
+        "name": "674c1af496e16.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 45
+      }
+    ]
+  },
+  {
     "prefix": "DappaKappa",
     "creator": null,
     "twitch": false,
@@ -4620,6 +4636,38 @@
         "mime": "image/png",
         "height": 30,
         "width": 30
+      }
+    ]
+  },
+  {
+    "prefix": "fishEZ",
+    "creator": "",
+    "twitch": false,
+    "theme": 2,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.13.2/emotes/674c1a8281136.png",
+        "name": "674c1a8281136.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 34
+      }
+    ]
+  },
+  {
+    "prefix": "GAMING",
+    "creator": "",
+    "twitch": false,
+    "theme": 2,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.13.2/emotes/674c1b31d2d67.png",
+        "name": "674c1b31d2d67.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 39
       }
     ]
   },
