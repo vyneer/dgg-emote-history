@@ -1205,13 +1205,13 @@
     top: 6.5px;
 }
 .emote.Lonely {
-    background-image: url("66fba5de370d3.png");
-    height: 32px;
-    width: 48px;
+    background-image: url("674c373376838.png");
+    height: 35px;
+    width: 49px;
 }
 .msg-chat .emote.Lonely {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -35px;
+    top: 8.75px;
 }
 .emote.LUL {
     background-image: url("5de1777314e66.png");
@@ -2688,6 +2688,15 @@
 .msg-chat .emote.OhMyDog {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.PepegaCredit {
+    background-image: url("674c3853c5a5b.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.PepegaCredit {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.PICNIC {
     background-image: url("5de181d3cca1f.png");

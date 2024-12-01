@@ -2145,17 +2145,17 @@
   },
   {
     "prefix": "Lonely",
-    "creator": "",
+    "creator": "cyver",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.13.2/emotes/66fba5de370d3.png",
-        "name": "66fba5de370d3.png",
+        "url": "https://cdn.destiny.gg/4.13.2/emotes/674c373376838.png",
+        "name": "674c373376838.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 48
+        "height": 35,
+        "width": 49
       }
     ]
   },
@@ -4780,6 +4780,22 @@
         "mime": "image/png",
         "height": 30,
         "width": 30
+      }
+    ]
+  },
+  {
+    "prefix": "PepegaCredit",
+    "creator": "",
+    "twitch": false,
+    "theme": 2,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.13.2/emotes/674c3853c5a5b.png",
+        "name": "674c3853c5a5b.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
       }
     ]
   },
