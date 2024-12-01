@@ -656,13 +656,13 @@
     top: 7.5px;
 }
 .emote.EVIL {
-    background-image: url("6683a34d73243.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("674c3d6664264.png");
+    height: 36px;
+    width: 36px;
 }
 .msg-chat .emote.EVIL {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -36px;
+    top: 9px;
 }
 .emote.FailerZ {
     background-image: url("66abdf6ef3020.png");

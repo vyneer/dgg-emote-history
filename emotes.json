@@ -1169,17 +1169,17 @@
   },
   {
     "prefix": "EVIL",
-    "creator": "",
+    "creator": "cyver",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.13.2/emotes/6683a34d73243.png",
-        "name": "6683a34d73243.png",
+        "url": "https://cdn.destiny.gg/4.13.2/emotes/674c3d6664264.png",
+        "name": "674c3d6664264.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 32
+        "height": 36,
+        "width": 36
       }
     ]
   },
