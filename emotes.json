@@ -129,15 +129,15 @@
   },
   {
     "prefix": "ARRIVE",
-    "creator": "cyver",
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 2,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.13.2/emotes/673dd3de8ef70.gif",
-        "name": "673dd3de8ef70.gif",
-        "mime": "image/gif",
+        "url": "https://cdn.destiny.gg/4.13.2/emotes/674c5a02d28a5.png",
+        "name": "674c5a02d28a5.png",
+        "mime": "image/png",
         "height": 35,
         "width": 56
       }
