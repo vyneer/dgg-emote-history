@@ -71,7 +71,7 @@
     top: 8px;
 }
 .emote.ARRIVE {
-    background-image: url("674c5a02d28a5.png");
+    background-image: url("673dd3de8ef70.gif");
     height: 35px;
     width: 56px;
 }
@@ -1601,9 +1601,9 @@
     top: 8px;
 }
 .emote.OneGuy {
-    background-image: url("656994284f98e.png");
+    background-image: url("665ade411cdfe.png");
     height: 30px;
-    width: 90px;
+    width: 99px;
 }
 .msg-chat .emote.OneGuy {
     margin-top: -30px;
@@ -2393,13 +2393,13 @@
     top: 7.5px;
 }
 .emote.WWWWaiting {
-    background-image: url("66b3134c94205.png");
-    height: 32px;
-    width: 36px;
+    background-image: url("674c5eaa6676f.png");
+    height: 35px;
+    width: 32px;
 }
 .msg-chat .emote.WWWWaiting {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -35px;
+    top: 8.75px;
 }
 .emote.YAM {
     background-image: url("5fd49e18d7318.png");
@@ -2554,15 +2554,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.COOLSVILLE {
-    background-image: url("674c1af496e16.png");
-    height: 32px;
-    width: 45px;
-}
-.msg-chat .emote.COOLSVILLE {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.DappaKappa {
     background-image: url("5de17e65c186b.png");
     height: 30px;
@@ -2617,15 +2608,6 @@
     margin-top: -34px;
     top: 8.5px;
 }
-.emote.GAMING {
-    background-image: url("674c1b31d2d67.png");
-    height: 30px;
-    width: 39px;
-}
-.msg-chat .emote.GAMING {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.KING {
     background-image: url("5de177662ef64.png");
     height: 30px;
@@ -2662,15 +2644,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.MarioPissing {
-    background-image: url("674bfa305c398.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.MarioPissing {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.nathanFeels {
     background-image: url("656a5a6771a35.png");
     height: 32px;
@@ -2697,15 +2670,6 @@
 .msg-chat .emote.PepegaCredit {
     margin-top: -32px;
     top: 8px;
-}
-.emote.PICNIC {
-    background-image: url("5de181d3cca1f.png");
-    height: 20px;
-    width: 50px;
-}
-.msg-chat .emote.PICNIC {
-    margin-top: -20px;
-    top: 5px;
 }
 .emote.Pointless {
     background-image: url("674bf5335faf7.png");
@@ -6374,20 +6338,6 @@ background-repeat:no-repeat;
 }
 
 
-@keyframes PICNIC-anim {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.2); }
-}
-@keyframes PICNIC-anim-hover {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.2); }
-}
-.emote.PICNIC {
-    animation: PICNIC-anim 350ms 3;
-}
-.emote.PICNIC:hover {
-    animation: PICNIC-anim-hover 350ms infinite;
-}
 @keyframes TRIAD_DAVID-anim {
   100% { background-position: -4200px; }
 }
