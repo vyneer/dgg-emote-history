@@ -6282,6 +6282,56 @@ background-repeat:no-repeat;
 .emote.YeeLaugh:hover {
     animation: YeeLaugh-anim-hover 200ms infinite;
 }
+.emote.Looking {
+  height: 32px;
+  width: 32px;
+  //filter: brightness(1.15);
+}
+
+.emote.Looking+.emote.Looking,
+.emote.Looking:nth-child(1),
+.emote.Clap+.emote.Looking,
+.emote.BLADE+.emote.Looking{
+  //margin-right: -2px;
+  margin-left: 0;
+  transform: scaleX(-1);
+}
+
+.emote.Looking:only-child,
+.emote+.emote.Looking:last-of-type,
+.emote.Looking:last-of-type {
+  margin-right: 0;
+  transform: scaleX(1);
+}
+
+.emote.Looking:only-child {
+  //transform: scaleX(-1);
+}
+
+@keyframes GIGAHANDS-anim {
+  0% {
+    transform: translate(-28px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.emote.GIGACHAD+.emote.Looking {
+  animation: GIGAHANDS-anim 1.5s ease-out 1;
+}
+
+.chat-user+.emote.Looking,
+.emote.Looking:has(+.externallink),
+.emote.Looking:has(+.chat-user) {
+  transform: scaleX(-1);
+}
+
+.chat-user+.emote.Looking:last-child {
+  transform: scaleX(1);
+}
+
 @keyframes LOVE-anim {
     100% { top: 30px; }
 }
