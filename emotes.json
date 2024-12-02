@@ -4048,22 +4048,6 @@
     ]
   },
   {
-    "prefix": "VeryPog",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.13.2/emotes/674c092e5d077.png",
-        "name": "674c092e5d077.png",
-        "mime": "image/png",
-        "height": 34,
-        "width": 33
-      }
-    ]
-  },
-  {
     "prefix": "WarmWaterPort",
     "creator": "",
     "twitch": false,
