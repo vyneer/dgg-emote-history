@@ -125,7 +125,7 @@
     top: 7.5px;
 }
 .emote.AwShoot {
-    background-image: url("67028b27e690f.png");
+    background-image: url("674d173f60323.png");
     height: 36px;
     width: 45px;
 }
@@ -2240,7 +2240,7 @@
     top: 8.75px;
 }
 .emote.TRUELOVE {
-    background-image: url("5cc0cc2a87ca8.png");
+    background-image: url("5de1776ddcca8.png");
     height: 30px;
     width: 51px;
 }
@@ -2617,6 +2617,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.lookDown {
+    background-image: url("674d22a307c89.png");
+    height: 32px;
+    width: 39px;
+}
+.msg-chat .emote.lookDown {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Looking {
     background-image: url("674bfa76179e3.png");
     height: 32px;
@@ -2635,14 +2644,14 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.LOVE {
-    background-image: url("5de1776ddcca8.png");
-    height: 30px;
-    width: 51px;
+.emote.MarioPissing {
+    background-image: url("674bfa305c398.png");
+    height: 32px;
+    width: 32px;
 }
-.msg-chat .emote.LOVE {
-    margin-top: -30px;
-    top: 7.5px;
+.msg-chat .emote.MarioPissing {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.nathanFeels {
     background-image: url("656a5a6771a35.png");
@@ -5828,11 +5837,9 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
   animation: TRIAD-hover 4s steps(120) infinite;
 }
 @keyframes TRUELOVE-anim {
-    0% { top: -25px; }
     100% { top: 30px; }
 }
 @keyframes TRUELOVE-hover {
-    0% { top: -25px; }
     100% { top: 30px; }
 }
 .emote.TRUELOVE:before{
@@ -6332,38 +6339,6 @@ background-repeat:no-repeat;
   transform: scaleX(1);
 }
 
-@keyframes LOVE-anim {
-    100% { top: 30px; }
-}
-@keyframes LOVE-hover {
-    100% { top: 30px; }
-}
-.emote.LOVE:before{
-    content: "💗";
-    text-indent: 0;
-    font-size: 18px;
-    position: absolute;
-    left:-3px;
-    top:-25px;
-    animation: LOVE-anim 0.5s 4;
-}
-.emote.LOVE:after{
-    content: "💗";
-    text-indent: 0;
-    font-size: 18px;
-    position: absolute;
-    right:-3px;
-    top:-25px;
-    animation: LOVE-anim 0.5s 4;
-    animation-delay: 0.25s;
-}
-.emote.LOVE:hover::before {
-    animation: LOVE-hover 0.5s infinite;
-}
-.emote.LOVE:hover::after {
-    animation: LOVE-hover 0.5s infinite;
-    animation-delay: 0.25s;
-}
 @keyframes nathanFeels-anim {
     to {
         background-position: -3304px;
