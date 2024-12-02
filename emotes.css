@@ -2698,6 +2698,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.VeryPog {
+    background-image: url("66fb942febbdf.png");
+    height: 34px;
+    width: 34px;
+}
+.msg-chat .emote.VeryPog {
+    margin-top: -34px;
+    top: 8.5px;
+}
 .emote.Yoda1 {
     background-image: url("5fc82336edf0c.png");
     height: 30px;
