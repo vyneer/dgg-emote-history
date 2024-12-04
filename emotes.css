@@ -6097,30 +6097,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     padding-left: .5em;
 }
 
-/*
-    USER SPECIFIC
-*/
-[data-username="righttobeararmslol"] .emote.WEOW {
-    height: 28px;
-    width: 28px;
-    background-position: -110px;
-    background-repeat: no-repeat;
-}
-/*
-[data-username="bot"] .emote.WEOW {
-    height: 28px;
-    width: 28px;
-    background-position: -166px;
-    background-repeat: no-repeat;
-}*/
 
-[data-username="cybervegan"] .emote.WEOW {
-    height: 28px;
-    width: 28px;
-    background-position: -194px;
-    background-repeat: no-repeat;
-    filter: hue-rotate(10deg) brightness(0.9) saturate(1.1);
-}
 /*
 [data-username="cybervegan"].msg-chat .text > .greentext {
 color:#ffaccc !important;
@@ -6147,7 +6124,7 @@ color:#ffaccc !important;
     filter: brightness(1) drop-shadow(0px 0px 3px #fcb9af);
     transform: scale(1.05);
     transition: all .5s ease-out;
-    background-position: -138px;
+
     background-repeat: no-repeat;
 }
 */
@@ -6161,7 +6138,7 @@ color:#ffaccc !important;
     filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #fec947);
     transform: scale(1.10);
     transition: all .5s ease-out;
-    background-position: -166px;
+
     background-repeat: no-repeat;
 }
 */
@@ -6174,7 +6151,7 @@ color:#ffaccc !important;
     filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #e891f1);
     transform: scale(1.15);
     transition: all .5s ease-out;
-    background-position: -194px;
+
     background-repeat: no-repeat;
 }*/
 /* NEW GOLD */
@@ -6189,7 +6166,7 @@ color:#ffaccc !important;
     filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #fec947);
     transform: scale(1.10);
     transition: all .5s ease-out;
-    background-position: -166px;
+
     background-repeat: no-repeat;
 }
 
@@ -6201,7 +6178,7 @@ color:#ffaccc !important;
     filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #00ec5d);
     transform: scale(1.20);
     transition: all .5s ease-out;
-    background-position: -222px;
+
     background-repeat: no-repeat;
 }
 
@@ -6213,7 +6190,7 @@ color:#ffaccc !important;
     filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #18e9fd);
     transform: scale(1.25);
     transition: all .5s ease-out;
-    background-position: -250px;
+
     background-repeat: no-repeat;
 }
 
