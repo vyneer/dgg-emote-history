@@ -416,6 +416,22 @@
     ]
   },
   {
+    "prefix": "BloodAndBones",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.13.2/emotes/673dd50c81c5d.png",
+        "name": "673dd50c81c5d.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 27
+      }
+    ]
+  },
+  {
     "prefix": "Blubstiny",
     "creator": null,
     "twitch": false,
