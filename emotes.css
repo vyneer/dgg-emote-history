@@ -232,15 +232,6 @@
     margin-top: -33px;
     top: 8.25px;
 }
-.emote.BloodAndBones {
-    background-image: url("673dd50c81c5d.png");
-    height: 34px;
-    width: 27px;
-}
-.msg-chat .emote.BloodAndBones {
-    margin-top: -34px;
-    top: 8.5px;
-}
 .emote.Blubstiny {
     background-image: url("5de5cc3fbde24.png");
     height: 32px;
@@ -296,9 +287,9 @@
     top: 8px;
 }
 .emote.CAUGHT {
-    background-image: url("6694ce36ead36.png");
+    background-image: url("675003bbacaf7.png");
     height: 34px;
-    width: 63px;
+    width: 94px;
 }
 .msg-chat .emote.CAUGHT {
     margin-top: -34px;
@@ -1511,13 +1502,22 @@
     top: 7px;
 }
 .emote.Normgasm {
-    background-image: url("65f57bb5f161f.png");
+    background-image: url("674fc63008eff.png");
     height: 32px;
-    width: 29px;
+    width: 44px;
 }
 .msg-chat .emote.Normgasm {
     margin-top: -32px;
     top: 8px;
+}
+.emote.NORMS {
+    background-image: url("673dd50c81c5d.png");
+    height: 34px;
+    width: 27px;
+}
+.msg-chat .emote.NORMS {
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.NOSHOT {
     background-image: url("665ad43c9e90d.png");
@@ -2240,13 +2240,13 @@
     top: 8.75px;
 }
 .emote.TRUELOVE {
-    background-image: url("5de1776ddcca8.png");
-    height: 30px;
-    width: 51px;
+    background-image: url("6750024c95d61.png");
+    height: 32px;
+    width: 59px;
 }
 .msg-chat .emote.TRUELOVE {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.TRUMPED {
     background-image: url("669479b58554b.png");
@@ -2544,6 +2544,15 @@
 .msg-chat .emote.ComfyFerret {
     margin-top: -32px;
     top: 8px;
+}
+.emote.CRACKED {
+    background-image: url("674fc60701b41.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.CRACKED {
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.DappaKappa {
     background-image: url("5de17e65c186b.png");
@@ -3205,7 +3214,7 @@ transition:all 2s;
 .emote.CAUGHT{
     animation: CAUGHT-wat .3s ease-out;
     background-repeat: no-repeat;
-    filter:contrast(1.1);
+    filter: contrast(1.05) saturate(1.2) brightness(1.25);
 }
 
 .emote.CAUGHT:hover {
@@ -3220,8 +3229,8 @@ transition:all 2s;
     line-height: initial;
     position: absolute;
     opacity: 0;
-    top: 2px;
-    left: 31px; text-shadow: -2px 2px 2px rgba(0,0,0,.6);
+    top: 5px;
+    left: 50px; text-shadow: -2px 2px 2px rgba(0,0,0,.6);
     transform: scaleX(-1);
     animation: CAUGHT-mark .75s .1s 1 ease-in-out;
 }
@@ -5837,36 +5846,67 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
   animation: TRIAD-hover 4s steps(120) infinite;
 }
 @keyframes TRUELOVE-anim {
-    100% { top: 30px; }
+    100% { top: 30px; rotate:180deg;}
+}
+@keyframes TRUELOVE-anim-rev {
+    100% { top: 30px; rotate:-180deg;}
 }
 @keyframes TRUELOVE-hover {
-    100% { top: 30px; }
+    100% { top: 30px; rotate:180deg;}
+}
+
+@keyframes TRUELOVE-hug {
+    0% { rotate: 0deg; }
+    5% { rotate: -2deg; transform:translate(1px,-1px);}
+    15% { rotate: 3deg; transform:translate(5px,1px);}
+    35% { rotate: 1deg; transform:translate(1px,1px);}
+    75% { rotate: 0deg; transform:translate(0px,0px);}
+    100% { rotate: 0deg; }
+}
+@keyframes TRUELOVE-hug-hover {
+    0% { rotate: 0deg; }
+    5% { rotate: -2deg; transform:translate(1px,-1px);}
+    15% { rotate: 3deg; transform:translate(5px,1px);}
+    35% { rotate: 1deg; transform:translate(1px,1px);}
+    75% { rotate: 0deg; transform:translate(0px,0px);}
+    100% { rotate: 0deg; }
+}
+.emote.TRUELOVE{
+    transform-origin: -50px;
+    animation: TRUELOVE-hug 2s .10s 1;
+}
+.emote.TRUELOVE:hover{
+    transform-origin: -50px;
+    animation: TRUELOVE-hug-hover 2s 1;
 }
 .emote.TRUELOVE:before{
-    content: "💗";
+    content: "❄️";
     text-indent: 0;
-    font-size: 18px;
+    font-size: 9px;
     position: absolute;
-    left:-3px;
+    left:-2px;
     top:-25px;
-    animation: TRUELOVE-anim 0.5s 4;
+    filter: grayscale(75%);
+    animation: TRUELOVE-anim-rev 1.75s 7 ease-out;
 }
 .emote.TRUELOVE:after{
-    content: "💗";
+    content: "❄️";
     text-indent: 0;
-    font-size: 18px;
+    font-size: 12px;
     position: absolute;
     right:-3px;
     top:-25px;
-    animation: TRUELOVE-anim 0.5s 4;
-    animation-delay: 0.25s;
+    animation: TRUELOVE-anim 1.5s 8 ease-out;
+    filter: grayscale(75%);
+    transform: scaleX(-1);
+    animation-delay: 1s;
 }
 .emote.TRUELOVE:hover::before {
-    animation: TRUELOVE-hover 0.5s infinite;
+    animation: TRUELOVE-hover 2s infinite ease-out;
 }
 .emote.TRUELOVE:hover::after {
-    animation: TRUELOVE-hover 0.5s infinite;
-    animation-delay: 0.25s;
+    animation: TRUELOVE-hover 1.5s infinite  ease-out;
+    animation-delay: 1s;
 }
 @keyframes WEEWOO-anim {
     0%, 100% { opacity: 1; }
