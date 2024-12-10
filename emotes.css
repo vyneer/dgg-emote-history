@@ -2500,6 +2500,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.Cabge {
+    background-image: url("6757ba4c4e133.png");
+    height: 30px;
+    width: 42px;
+}
+.msg-chat .emote.Cabge {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.CheekerZ {
     background-image: url("5de17e06dcea3.png");
     height: 30px;
