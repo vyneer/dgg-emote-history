@@ -4448,22 +4448,6 @@
     ]
   },
   {
-    "prefix": "Cabge",
-    "creator": "cweetron",
-    "twitch": false,
-    "theme": 2,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.13.2/emotes/6757ba4c4e133.png",
-        "name": "6757ba4c4e133.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 42
-      }
-    ]
-  },
-  {
     "prefix": "CheekerZ",
     "creator": null,
     "twitch": false,
