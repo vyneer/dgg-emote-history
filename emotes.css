@@ -53,13 +53,13 @@
     top: 7.5px;
 }
 .emote.AngelThump {
-    background-image: url("5de41451c1948.png");
-    height: 29px;
-    width: 72px;
+    background-image: url("6760a471df954.png");
+    height: 32px;
+    width: 73px;
 }
 .msg-chat .emote.AngelThump {
-    margin-top: -29px;
-    top: 7.25px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.ApeHands {
     background-image: url("674c1c27e08de.gif");
