@@ -2266,6 +2266,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.VeryPog {
+    background-image: url("6763259297c6c.png");
+    height: 34px;
+    width: 33px;
+}
+.msg-chat .emote.VeryPog {
+    margin-top: -34px;
+    top: 8.5px;
+}
 .emote.WarmWaterPort {
     background-image: url("66c12f88a37b4.png");
     height: 30px;
@@ -2706,15 +2715,6 @@
 .msg-chat .emote.triHarder {
     margin-top: -30px;
     top: 7.5px;
-}
-.emote.VeryPog {
-    background-image: url("66fb942febbdf.png");
-    height: 34px;
-    width: 34px;
-}
-.msg-chat .emote.VeryPog {
-    margin-top: -34px;
-    top: 8.5px;
 }
 .emote.Yoda1 {
     background-image: url("5fc82336edf0c.png");

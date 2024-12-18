@@ -4032,6 +4032,22 @@
     ]
   },
   {
+    "prefix": "VeryPog",
+    "creator": "cyver",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.15.0/emotes/6763259297c6c.png",
+        "name": "6763259297c6c.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 33
+      }
+    ]
+  },
+  {
     "prefix": "WarmWaterPort",
     "creator": "",
     "twitch": false,
@@ -4812,22 +4828,6 @@
         "mime": "image/png",
         "height": 30,
         "width": 30
-      }
-    ]
-  },
-  {
-    "prefix": "VeryPog",
-    "creator": "",
-    "twitch": false,
-    "theme": 2,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.15.0/emotes/66fb942febbdf.png",
-        "name": "66fb942febbdf.png",
-        "mime": "image/png",
-        "height": 34,
-        "width": 34
       }
     ]
   },
