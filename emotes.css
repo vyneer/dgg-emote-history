@@ -97,6 +97,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.AUEGH {
+    background-image: url("6763272555899.png");
+    height: 34px;
+    width: 34px;
+}
+.msg-chat .emote.AUEGH {
+    margin-top: -34px;
+    top: 8.5px;
+}
 .emote.Aware {
     background-image: url("656a493e53c2f.png");
     height: 32px;
@@ -2497,6 +2506,15 @@
     width: 30px;
 }
 .msg-chat .emote.ZOOMER {
+    margin-top: -30px;
+    top: 7.5px;
+}
+.emote.Cabge {
+    background-image: url("6757ba4c4e133.png");
+    height: 30px;
+    width: 42px;
+}
+.msg-chat .emote.Cabge {
     margin-top: -30px;
     top: 7.5px;
 }

@@ -176,6 +176,22 @@
     ]
   },
   {
+    "prefix": "AUEGH",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.15.0/emotes/6763272555899.png",
+        "name": "6763272555899.png",
+        "mime": "image/png",
+        "height": 34,
+        "width": 34
+      }
+    ]
+  },
+  {
     "prefix": "Aware",
     "creator": "EsperDG (7tv)",
     "twitch": false,
@@ -4444,6 +4460,22 @@
         "mime": "image/png",
         "height": 30,
         "width": 30
+      }
+    ]
+  },
+  {
+    "prefix": "Cabge",
+    "creator": "cweetron",
+    "twitch": false,
+    "theme": 2,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.15.0/emotes/6757ba4c4e133.png",
+        "name": "6757ba4c4e133.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 42
       }
     ]
   },
