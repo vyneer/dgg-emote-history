@@ -176,22 +176,6 @@
     ]
   },
   {
-    "prefix": "AUEGH",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.15.0/emotes/66fb942febbdf.png",
-        "name": "66fb942febbdf.png",
-        "mime": "image/png",
-        "height": 34,
-        "width": 34
-      }
-    ]
-  },
-  {
     "prefix": "Aware",
     "creator": "EsperDG (7tv)",
     "twitch": false,
