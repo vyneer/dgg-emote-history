@@ -176,22 +176,6 @@
     ]
   },
   {
-    "prefix": "AUEGH",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.15.0/emotes/6763272555899.png",
-        "name": "6763272555899.png",
-        "mime": "image/png",
-        "height": 34,
-        "width": 34
-      }
-    ]
-  },
-  {
     "prefix": "Aware",
     "creator": "EsperDG (7tv)",
     "twitch": false,
@@ -4049,17 +4033,17 @@
   },
   {
     "prefix": "VeryPog",
-    "creator": "cyver",
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.15.0/emotes/6763259297c6c.png",
-        "name": "6763259297c6c.png",
+        "url": "https://cdn.destiny.gg/4.15.0/emotes/6763272555899.png",
+        "name": "6763272555899.png",
         "mime": "image/png",
         "height": 34,
-        "width": 33
+        "width": 34
       }
     ]
   },

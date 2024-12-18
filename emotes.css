@@ -97,15 +97,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.AUEGH {
-    background-image: url("6763272555899.png");
-    height: 34px;
-    width: 34px;
-}
-.msg-chat .emote.AUEGH {
-    margin-top: -34px;
-    top: 8.5px;
-}
 .emote.Aware {
     background-image: url("656a493e53c2f.png");
     height: 32px;
@@ -2276,9 +2267,9 @@
     top: 7.5px;
 }
 .emote.VeryPog {
-    background-image: url("6763259297c6c.png");
+    background-image: url("6763272555899.png");
     height: 34px;
-    width: 33px;
+    width: 34px;
 }
 .msg-chat .emote.VeryPog {
     margin-top: -34px;
