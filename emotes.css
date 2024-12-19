@@ -6833,6 +6833,35 @@ background-repeat:no-repeat;
 .emote.YeeLaugh:hover {
     animation: YeeLaugh-anim-hover 200ms infinite;
 }
+[data-username="cweetron"] .emote.Cabge {
+       animation: RARE-EMERALD-PULSATE 3s infinite linear;
+}
+
+
+@keyframes RARE-EMERALD-PULSATE {
+    0% {
+        transform: scale(1.05) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #00ec5d);
+    }
+
+    25% {
+        transform: scale(1.025) rotate(2deg);
+        filter: brightness(1.15) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 4px #00ec5d);
+
+    }
+
+    75% {
+        transform: scale(1.1) rotate(-1deg);
+        filter: brightness(1.05) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 7px #00ec5d);
+
+    }
+
+    100% {
+        transform: scale(1.05) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #00ec5d);
+
+    }
+}
 .emote.Looking {
   height: 32px;
   width: 32px;
