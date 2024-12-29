@@ -6837,6 +6837,16 @@ background-repeat:no-repeat;
        animation: RARE-EMERALD-PULSATE 3s infinite linear;
 }
 
+[data-username="iobobc"] .emote.Cabge {
+       animation: HIDE 10s infinite linear;
+       height: 0px;
+       width: 0px;
+}
+[data-username="hohohaha"] .emote.Cabge {
+       animation: HIDE 10s infinite linear;
+       height: 0px;
+       width: 0px;
+}
 
 @keyframes RARE-EMERALD-PULSATE {
     0% {
@@ -6860,6 +6870,18 @@ background-repeat:no-repeat;
         transform: scale(1.05) rotate(0deg);
         filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #00ec5d);
 
+    }
+}
+
+@keyframes HIDE {
+    0% {
+        transform: scale(0.05) rotate(0deg);
+        filter: brightness(1);
+    }
+
+    100% {
+        transform: scale(0.01) rotate(0deg);
+        filter: brightness(0);
     }
 }
 .emote.Looking {
