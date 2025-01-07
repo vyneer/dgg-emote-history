@@ -880,15 +880,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.GAMING {
-    background-image: url("674c1b31d2d67.png");
-    height: 30px;
-    width: 39px;
-}
-.msg-chat .emote.GAMING {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.GIGACHAD {
     background-image: url("624bb3cf81ae1.png");
     height: 32px;
@@ -1050,15 +1041,6 @@
 .msg-chat .emote.ItsFine {
     margin-top: -32px;
     top: 8px;
-}
-.emote.itsReal {
-    background-image: url("66fbaaa54ca4d.png");
-    height: 34px;
-    width: 38px;
-}
-.msg-chat .emote.itsReal {
-    margin-top: -34px;
-    top: 8.5px;
 }
 .emote.JAMSTINY {
     background-image: url("5cb1a46530730.png");
