@@ -720,22 +720,6 @@
     ]
   },
   {
-    "prefix": "coMMMMfy",
-    "creator": null,
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.18.0/emotes/624e76368b3a9.png",
-        "name": "624e76368b3a9.png",
-        "mime": "image/png",
-        "height": 28,
-        "width": 33
-      }
-    ]
-  },
-  {
     "prefix": "Concerned",
     "creator": "",
     "twitch": false,
