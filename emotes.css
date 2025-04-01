@@ -3132,11 +3132,6 @@ filter: drop-shadow(0 0 5px rgba(0, 0, 0, .5));
     text-shadow: 1px 1px 3px #000;
 }
 
-.msg-donation:not(:has(.event-bottom)) .event-top, .msg-subscription:not(:has(.event-bottom)) .event-top, .msg-giftsub:not(:has(.event-bottom)) .event-top, .msg-massgift:not(:has(.event-bottom)) .event-top, .msg-broadcast:not(:has(.event-bottom)) .event-top {
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-
 .msg-donation .event-top, .msg-subscription .event-top, .msg-giftsub .event-top, .msg-massgift .event-top, .msg-broadcast .event-top {
     display: flex;
     padding: .2em 1.2em .2em .6em;
@@ -3182,6 +3177,7 @@ filter: drop-shadow(0 0 5px rgba(0, 0, 0, .5));
     color: #e0e0e0 !important;
     border-radius: 15px;
     margin: 0 .6em;
+    //text-shadow: 1px 1px 3px #000;
 }
 
 .msg-highlight {
