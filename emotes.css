@@ -431,9 +431,9 @@
     top: 7px;
 }
 .emote.Copium {
-    background-image: url("660abb3d5b954.gif");
+    background-image: url("66596c13917fd.gif");
     height: 32px;
-    width: 87px;
+    width: 32px;
 }
 .msg-chat .emote.Copium {
     margin-top: -32px;
@@ -2590,6 +2590,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.Cabge {
+    background-image: url("67ebd9718872b.png");
+    height: 30px;
+    width: 42px;
+}
+.msg-chat .emote.Cabge {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.Cheerstiny {
     background-image: url("660aa12bdf25a.png");
     height: 32px;
@@ -2608,12 +2617,48 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.Chud {
+    background-image: url("67ebd983dedea.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Chud {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.comfggL {
     background-image: url("660a926477dc3.png");
     height: 32px;
     width: 32px;
 }
 .msg-chat .emote.comfggL {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.comFrieren {
+    background-image: url("674bf3cc4677a.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.comFrieren {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.CrabRave {
+    background-image: url("67ebdbdaba30c.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.CrabRave {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.CrankingMyShrimp {
+    background-image: url("67ebde4f9f8de.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.CrankingMyShrimp {
     margin-top: -32px;
     top: 8px;
 }
@@ -2644,6 +2689,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.Fishge {
+    background-image: url("67ebd8be81102.png");
+    height: 28px;
+    width: 37px;
+}
+.msg-chat .emote.Fishge {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.FIVEG {
     background-image: url("660b7698c12f4.png");
     height: 40px;
@@ -2652,6 +2706,15 @@
 .msg-chat .emote.FIVEG {
     margin-top: -40px;
     top: 10px;
+}
+.emote.FreddieFreaker {
+    background-image: url("67ebde2d28fae.gif");
+    height: 35px;
+    width: 47px;
+}
+.msg-chat .emote.FreddieFreaker {
+    margin-top: -35px;
+    top: 8.75px;
 }
 .emote.FREEDGG {
     background-image: url("660a8e5e2ac46.png");
@@ -2671,6 +2734,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.GIRUGAMESH {
+    background-image: url("67ebdddc5605e.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.GIRUGAMESH {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.GLIZZY {
     background-image: url("660abf9e942ef.gif");
     height: 32px;
@@ -2679,6 +2751,15 @@
 .msg-chat .emote.GLIZZY {
     margin-top: -32px;
     top: 8px;
+}
+.emote.GoGetEmChamp {
+    background-image: url("67ebde19219a1.png");
+    height: 34px;
+    width: 101px;
+}
+.msg-chat .emote.GoGetEmChamp {
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.guh {
     background-image: url("660ab1a309753.png");
@@ -2725,6 +2806,24 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.kojimaDrink {
+    background-image: url("67ebd7fa4e050.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.kojimaDrink {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.LeHeckinKindStranger {
+    background-image: url("673dd4d07071d.png");
+    height: 25px;
+    width: 25px;
+}
+.msg-chat .emote.LeHeckinKindStranger {
+    margin-top: -25px;
+    top: 6.25px;
+}
 .emote.Lewdstiny {
     background-image: url("660a8d6cb83c8.png");
     height: 32px;
@@ -2740,6 +2839,15 @@
     width: 32px;
 }
 .msg-chat .emote.LOLE {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.LookUp {
+    background-image: url("67ebd94ce2d6e.gif");
+    height: 32px;
+    width: 51px;
+}
+.msg-chat .emote.LookUp {
     margin-top: -32px;
     top: 8px;
 }
@@ -2788,6 +2896,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.OkaygeBusiness {
+    background-image: url("67ebd7dd2f263.png");
+    height: 32px;
+    width: 39px;
+}
+.msg-chat .emote.OkaygeBusiness {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.OneBadDay {
     background-image: url("660a8e9e6ea83.png");
     height: 32px;
@@ -2796,6 +2913,15 @@
 .msg-chat .emote.OneBadDay {
     margin-top: -32px;
     top: 8px;
+}
+.emote.OohOohOoh {
+    background-image: url("67ebdbc5b9c9b.png");
+    height: 46px;
+    width: 33px;
+}
+.msg-chat .emote.OohOohOoh {
+    margin-top: -46px;
+    top: 11.5px;
 }
 .emote.Peekstiny {
     background-image: url("660a9045ef9dd.png");
@@ -2842,6 +2968,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.potionSeller {
+    background-image: url("67ebddff1bb1d.png");
+    height: 32px;
+    width: 33px;
+}
+.msg-chat .emote.potionSeller {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.RAGEY {
     background-image: url("660ac09f44a65.gif");
     height: 32px;
@@ -2851,12 +2986,30 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.RATTED {
+    background-image: url("67ebde3eea7da.png");
+    height: 35px;
+    width: 35px;
+}
+.msg-chat .emote.RATTED {
+    margin-top: -35px;
+    top: 8.75px;
+}
 .emote.retardJAM {
     background-image: url("660a98ccc55a6.gif");
     height: 32px;
     width: 43px;
 }
 .msg-chat .emote.retardJAM {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.RightThere {
+    background-image: url("67ebddec7406f.gif");
+    height: 32px;
+    width: 37px;
+}
+.msg-chat .emote.RightThere {
     margin-top: -32px;
     top: 8px;
 }
@@ -2868,6 +3021,15 @@
 .msg-chat .emote.smolstiny {
     margin-top: -32px;
     top: 8px;
+}
+.emote.Spidey {
+    background-image: url("67ebde36ddb45.gif");
+    height: 36px;
+    width: 62px;
+}
+.msg-chat .emote.Spidey {
+    margin-top: -36px;
+    top: 9px;
 }
 .emote.STATUSQUO {
     background-image: url("660ab31150b2a.png");
@@ -2896,6 +3058,15 @@
     margin-top: -34px;
     top: 8.5px;
 }
+.emote.SUCKS {
+    background-image: url("67ebd8d2aaa80.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.SUCKS {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.t {
     background-image: url("660b5f6d32a65.png");
     height: 22px;
@@ -2913,6 +3084,15 @@
 .msg-chat .emote.TIPTIP {
     margin-top: -36px;
     top: 9px;
+}
+.emote.TRAVELER {
+    background-image: url("67ebde0abae54.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.TRAVELER {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Tripstiny {
     background-image: url("660a8ef220b4d.png");
@@ -2967,6 +3147,15 @@
 .msg-chat .emote.whitePeopleHappy {
     margin-top: -32px;
     top: 8px;
+}
+.emote.whodidthis {
+    background-image: url("67ebd79508fb7.png");
+    height: 33px;
+    width: 41px;
+}
+.msg-chat .emote.whodidthis {
+    margin-top: -33px;
+    top: 8.25px;
 }
 .emote.widepogfishHappy {
     background-image: url("660a6e4864b74.png");
