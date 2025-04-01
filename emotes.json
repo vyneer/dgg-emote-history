@@ -48,22 +48,6 @@
     ]
   },
   {
-    "prefix": "ALO",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.20.0/emotes/66b312f523015.png",
-        "name": "66b312f523015.png",
-        "mime": "image/png",
-        "height": 37,
-        "width": 39
-      }
-    ]
-  },
-  {
     "prefix": "AMAZIN",
     "creator": "",
     "twitch": false,

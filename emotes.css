@@ -25,15 +25,6 @@
     margin-top: -33px;
     top: 8.25px;
 }
-.emote.ALO {
-    background-image: url("66b312f523015.png");
-    height: 37px;
-    width: 39px;
-}
-.msg-chat .emote.ALO {
-    margin-top: -37px;
-    top: 9.25px;
-}
 .emote.AMAZIN {
     background-image: url("66596c77ba8e3.png");
     height: 26px;
@@ -2546,9 +2537,6 @@
     background-position: right center;
     transform: scale(1.1);
 }
-.msg-chat.msg-user {
-   font-family: Comic Sans MS, Comic Sans, Impact, cursive;
-} 
 .emote.AMAZIN {
     transform: translate(0px, 4px);
 }
