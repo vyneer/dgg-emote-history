@@ -2546,6 +2546,10 @@
     background-position: right center;
     transform: scale(1.1);
 }
+
+.msg-chat.msg-user {
+   font-family: Comic Sans MS, Comic Sans, cursive;
+} 
 .emote.AMAZIN {
     transform: translate(0px, 4px);
 }
