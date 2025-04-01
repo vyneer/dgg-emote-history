@@ -4720,22 +4720,6 @@
     ]
   },
   {
-    "prefix": "CrankingMyShrimp",
-    "creator": "",
-    "twitch": false,
-    "theme": 5,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.20.0/emotes/67ebde4f9f8de.gif",
-        "name": "67ebde4f9f8de.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "DEATH_SUS",
     "creator": "",
     "twitch": false,
