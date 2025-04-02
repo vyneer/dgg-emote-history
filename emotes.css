@@ -979,6 +979,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.IDidntKnowThat {
+    background-image: url("67ecc944674a8.png");
+    height: 35px;
+    width: 47px;
+}
+.msg-chat .emote.IDidntKnowThat {
+    margin-top: -35px;
+    top: 8.75px;
+}
 .emote.IKneel {
     background-image: url("66b3129b47b0b.png");
     height: 35px;
@@ -2778,15 +2787,6 @@
 .msg-chat .emote.Hamster_Hawk {
     margin-top: -30px;
     top: 7.5px;
-}
-.emote.IDidntKnowThat {
-    background-image: url("67ecc944674a8.png");
-    height: 35px;
-    width: 47px;
-}
-.msg-chat .emote.IDidntKnowThat {
-    margin-top: -35px;
-    top: 8.75px;
 }
 .emote.ImDone {
     background-image: url("660aa9f7e65c0.png");
