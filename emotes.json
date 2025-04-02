@@ -771,15 +771,15 @@
     "prefix": "Copium",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.20.0/emotes/66596c13917fd.gif",
-        "name": "66596c13917fd.gif",
+        "url": "https://cdn.destiny.gg/4.20.0/emotes/660abb3d5b954.gif",
+        "name": "660abb3d5b954.gif",
         "mime": "image/gif",
         "height": 32,
-        "width": 32
+        "width": 87
       }
     ]
   },
@@ -5034,6 +5034,22 @@
         "url": "https://cdn.destiny.gg/4.20.0/emotes/660a8d6cb83c8.png",
         "name": "660a8d6cb83c8.png",
         "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "LinkaraRunning",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.20.0/emotes/67ecb3e5c8feb.gif",
+        "name": "67ecb3e5c8feb.gif",
+        "mime": "image/gif",
         "height": 32,
         "width": 32
       }
