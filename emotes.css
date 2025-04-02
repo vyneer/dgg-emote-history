@@ -7585,10 +7585,11 @@ background-repeat:no-repeat;
     animation: YeeLaugh-anim-hover 200ms infinite;
 }
 .msg-chat.msg-user {
-   //font-family: Comic Sans MS, Comic Sans, Impact, cursive;
+   font-family: Bahnschrift, Comic Sans MS, Comic Sans, Impact, cursive;
 } 
 #chat {
      background: #f0f0f0;
+     font-family: Bahnschrift;
 }
 
 .msg-chat {
@@ -7655,20 +7656,7 @@ color: #f0f0f0;
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, .25));
 }
 
-.msg-pinned {
-    background-color: #3b82f6;
-    padding-top: .6em;
-    padding-bottom: .6em;
-    border-style: solid;
-    border-radius: 0 0 15px 15px;
-    border-color: #3b82f6;
-    transition: all .15s ease-in-out;
-    color: #e0e0e0;
-    filter: drop-shadow(0 0 10px rgba(0, 0, 0, .25));
-    text-shadow: 1px 1px 3px #000;
-// margin: .6em .6em;
-// background-color: rgba(59, 130, 246, .75);
-}
+
 
 #chat-pinned-message {
     display: none;
@@ -7676,6 +7664,18 @@ color: #f0f0f0;
     position: absolute;
     width: 100%;
     z-index: 210;
+}
+
+.msg-pinned {
+    background-color: #4868ade6;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    border: 0px solid;
+    border-radius: 0 0 15px 15px;
+    transition: all .15s ease-in-out;
+    color: #e0e0e0;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, .25));
+    text-shadow: 1px 1px 3px #000;
 }
 
 .msg-pinned .user {
@@ -7737,7 +7737,7 @@ filter: drop-shadow(0 0 5px rgba(0, 0, 0, .5));
 }
 
 .chat-menu .chat-menu-inner {
-    background-color: #2563eb;
+    background-color: #4868ade6;
     color: #e0e0e0;
     border-radius: 15px;
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, .25));
@@ -7752,7 +7752,7 @@ filter: drop-shadow(0 0 5px rgba(0, 0, 0, .5));
 }
 
 .msg-own {
-    background-color: #2563eb;
+    background-color: #4868ade6;
     color: #e0e0e0 !important;
     border-radius: 15px;
     margin: 0 .6em;
