@@ -4576,6 +4576,22 @@
     ]
   },
   {
+    "prefix": "BlackGuyLaptop",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.20.0/emotes/67ecae9488cbe.gif",
+        "name": "67ecae9488cbe.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 59
+      }
+    ]
+  },
+  {
     "prefix": "BLUBBERS",
     "creator": "MrGemzar",
     "twitch": false,
@@ -5504,6 +5520,38 @@
     ]
   },
   {
+    "prefix": "trumpE",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.20.0/emotes/67ecada0e26d9.png",
+        "name": "67ecada0e26d9.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "TrumpetGuy",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.20.0/emotes/67ecadc835192.gif",
+        "name": "67ecadc835192.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "TypeTrollFaceWithNoSpacesToDoTheTrollFaceEmote",
     "creator": "",
     "twitch": false,
@@ -5548,6 +5596,22 @@
         "mime": "image/gif",
         "height": 32,
         "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "WeWaiting",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.20.0/emotes/67ecadf40cefe.png",
+        "name": "67ecadf40cefe.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 96
       }
     ]
   },

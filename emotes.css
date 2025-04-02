@@ -2572,6 +2572,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.BlackGuyLaptop {
+    background-image: url("67ecae9488cbe.gif");
+    height: 32px;
+    width: 59px;
+}
+.msg-chat .emote.BlackGuyLaptop {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.BLUBBERS {
     background-image: url("660a8f7f8860a.png");
     height: 32px;
@@ -3094,6 +3103,24 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.trumpE {
+    background-image: url("67ecada0e26d9.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.trumpE {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.TrumpetGuy {
+    background-image: url("67ecadc835192.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.TrumpetGuy {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.TypeTrollFaceWithNoSpacesToDoTheTrollFaceEmote {
     background-image: url("660a7003754a7.png");
     height: 36px;
@@ -3118,6 +3145,15 @@
     width: 32px;
 }
 .msg-chat .emote.Wat {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.WeWaiting {
+    background-image: url("67ecadf40cefe.png");
+    height: 32px;
+    width: 96px;
+}
+.msg-chat .emote.WeWaiting {
     margin-top: -32px;
     top: 8px;
 }
@@ -7585,11 +7621,11 @@ background-repeat:no-repeat;
     animation: YeeLaugh-anim-hover 200ms infinite;
 }
 .msg-chat.msg-user {
-   font-family: Bahnschrift, Comic Sans MS, Comic Sans, Impact, cursive;
+   //font-family: Bahnschrift, Comic Sans MS, Comic Sans, Impact, cursive, Arial;
 } 
 #chat {
      background: #f0f0f0;
-     font-family: Bahnschrift;
+     //font-family: Bahnschrift;
 }
 
 .msg-chat {
