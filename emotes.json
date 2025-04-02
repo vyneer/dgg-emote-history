@@ -4560,6 +4560,22 @@
     ]
   },
   {
+    "prefix": "bepis",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.20.0/emotes/67ecbde509eb8.png",
+        "name": "67ecbde509eb8.png",
+        "mime": "image/png",
+        "height": 35,
+        "width": 35
+      }
+    ]
+  },
+  {
     "prefix": "BlackGuyLaptop",
     "creator": "",
     "twitch": false,

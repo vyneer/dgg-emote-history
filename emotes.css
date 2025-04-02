@@ -2563,6 +2563,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.bepis {
+    background-image: url("67ecbde509eb8.png");
+    height: 35px;
+    width: 35px;
+}
+.msg-chat .emote.bepis {
+    margin-top: -35px;
+    top: 8.75px;
+}
 .emote.BlackGuyLaptop {
     background-image: url("67ecae9488cbe.gif");
     height: 32px;
