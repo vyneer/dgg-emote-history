@@ -771,15 +771,15 @@
     "prefix": "Copium",
     "creator": "",
     "twitch": false,
-    "theme": 5,
+    "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.20.0/emotes/660abb3d5b954.gif",
-        "name": "660abb3d5b954.gif",
+        "url": "https://cdn.destiny.gg/4.20.0/emotes/66596c13917fd.gif",
+        "name": "66596c13917fd.gif",
         "mime": "image/gif",
         "height": 32,
-        "width": 87
+        "width": 32
       }
     ]
   },
