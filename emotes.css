@@ -25,6 +25,15 @@
     margin-top: -33px;
     top: 8.25px;
 }
+.emote.agreeGe {
+    background-image: url("660aaa9d2c17e.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.agreeGe {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ALO {
     background-image: url("66b312f523015.png");
     height: 37px;
@@ -196,6 +205,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.BlackGuyLaptop {
+    background-image: url("67ecae9488cbe.gif");
+    height: 32px;
+    width: 59px;
+}
+.msg-chat .emote.BlackGuyLaptop {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.BLADE {
     background-image: url("5f53d5e23237b.png");
     height: 21px;
@@ -268,6 +286,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.Cabge {
+    background-image: url("67ebd9718872b.png");
+    height: 30px;
+    width: 42px;
+}
+.msg-chat .emote.Cabge {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.catJAM {
     background-image: url("660ab56da5b3c.gif");
     height: 32px;
@@ -295,6 +322,24 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.CheckEm {
+    background-image: url("660b5ca048ca0.png");
+    height: 34px;
+    width: 44px;
+}
+.msg-chat .emote.CheckEm {
+    margin-top: -34px;
+    top: 8.5px;
+}
+.emote.Cheerstiny {
+    background-image: url("660aa12bdf25a.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Cheerstiny {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ChibiDesti {
     background-image: url("66596e36d7dcd.png");
     height: 30px;
@@ -310,6 +355,15 @@
     width: 32px;
 }
 .msg-chat .emote.CHILLS {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.Chud {
+    background-image: url("67ebd983dedea.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Chud {
     margin-top: -32px;
     top: 8px;
 }
@@ -357,6 +411,15 @@
 .msg-chat .emote.ComfPeek {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.comFrieren {
+    background-image: url("674bf3cc4677a.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.comFrieren {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.ComfyCat {
     background-image: url("645e8c248a9d4.png");
@@ -772,6 +835,15 @@
     margin-top: -34px;
     top: 8.5px;
 }
+.emote.Fishge {
+    background-image: url("67ebd8be81102.png");
+    height: 28px;
+    width: 37px;
+}
+.msg-chat .emote.Fishge {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.FISHIES {
     background-image: url("660a76abae9df.gif");
     height: 32px;
@@ -853,6 +925,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.GAGAGA {
+    background-image: url("660a7b2d12665.png");
+    height: 32px;
+    width: 33px;
+}
+.msg-chat .emote.GAGAGA {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.GAMBA {
     background-image: url("66b3277826348.png");
     height: 34px;
@@ -880,6 +961,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.GIRUGAMESH {
+    background-image: url("67ebdddc5605e.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.GIRUGAMESH {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.GODSTINY {
     background-image: url("660a96af933ab.png");
     height: 32px;
@@ -895,6 +985,15 @@
     width: 43px;
 }
 .msg-chat .emote.GRUG {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.guh {
+    background-image: url("660ab1a309753.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.guh {
     margin-top: -32px;
     top: 8px;
 }
@@ -1177,6 +1276,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.LinkaraRunning {
+    background-image: url("67ecb3e5c8feb.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.LinkaraRunning {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Listening {
     background-image: url("6689d5ebaca66.png");
     height: 33px;
@@ -1210,6 +1318,15 @@
     width: 36px;
 }
 .msg-chat .emote.Looking {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.LookUp {
+    background-image: url("67ebd94ce2d6e.gif");
+    height: 32px;
+    width: 51px;
+}
+.msg-chat .emote.LookUp {
     margin-top: -32px;
     top: 8px;
 }
@@ -1609,6 +1726,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.OkaygeBusiness {
+    background-image: url("67ebd7dd2f263.png");
+    height: 32px;
+    width: 39px;
+}
+.msg-chat .emote.OkaygeBusiness {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.OMEGALUL {
     background-image: url("660a71eb1c468.png");
     height: 32px;
@@ -1905,6 +2031,15 @@
 .msg-chat .emote.RapThis {
     margin-top: -28px;
     top: 7px;
+}
+.emote.RATTED {
+    background-image: url("67ebde3eea7da.png");
+    height: 35px;
+    width: 35px;
+}
+.msg-chat .emote.RATTED {
+    margin-top: -35px;
+    top: 8.75px;
 }
 .emote.RaveDoge {
     background-image: url("653c2e056a57d.png");
@@ -2545,15 +2680,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.agreeGe {
-    background-image: url("660aaa9d2c17e.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.agreeGe {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.ATAB {
     background-image: url("660a7b8966742.png");
     height: 32px;
@@ -2581,15 +2707,6 @@
     margin-top: -35px;
     top: 8.75px;
 }
-.emote.BlackGuyLaptop {
-    background-image: url("67ecae9488cbe.gif");
-    height: 32px;
-    width: 59px;
-}
-.msg-chat .emote.BlackGuyLaptop {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.BLUBBERS {
     background-image: url("660a8f7f8860a.png");
     height: 32px;
@@ -2608,24 +2725,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.Cabge {
-    background-image: url("67ebd9718872b.png");
-    height: 30px;
-    width: 42px;
-}
-.msg-chat .emote.Cabge {
-    margin-top: -30px;
-    top: 7.5px;
-}
-.emote.Cheerstiny {
-    background-image: url("660aa12bdf25a.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.Cheerstiny {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.CHIPPA {
     background-image: url("660ab09f19be7.gif");
     height: 32px;
@@ -2635,30 +2734,12 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.Chud {
-    background-image: url("67ebd983dedea.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.Chud {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.comfggL {
     background-image: url("660a926477dc3.png");
     height: 32px;
     width: 32px;
 }
 .msg-chat .emote.comfggL {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.comFrieren {
-    background-image: url("674bf3cc4677a.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.comFrieren {
     margin-top: -32px;
     top: 8px;
 }
@@ -2698,15 +2779,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.Fishge {
-    background-image: url("67ebd8be81102.png");
-    height: 28px;
-    width: 37px;
-}
-.msg-chat .emote.Fishge {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.FIVEG {
     background-image: url("660b7698c12f4.png");
     height: 40px;
@@ -2743,15 +2815,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.GIRUGAMESH {
-    background-image: url("67ebdddc5605e.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.GIRUGAMESH {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.GLIZZY {
     background-image: url("660abf9e942ef.gif");
     height: 32px;
@@ -2769,15 +2832,6 @@
 .msg-chat .emote.GoGetEmChamp {
     margin-top: -34px;
     top: 8.5px;
-}
-.emote.guh {
-    background-image: url("660ab1a309753.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.guh {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.Hamster_Hawk {
     background-image: url("660a6f2cb9959.png");
@@ -2842,30 +2896,12 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.LinkaraRunning {
-    background-image: url("67ecb3e5c8feb.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.LinkaraRunning {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.LOLE {
     background-image: url("660a913e13e56.png");
     height: 32px;
     width: 32px;
 }
 .msg-chat .emote.LOLE {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.LookUp {
-    background-image: url("67ebd94ce2d6e.gif");
-    height: 32px;
-    width: 51px;
-}
-.msg-chat .emote.LookUp {
     margin-top: -32px;
     top: 8px;
 }
@@ -2911,15 +2947,6 @@
     width: 32px;
 }
 .msg-chat .emote.Okayge {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.OkaygeBusiness {
-    background-image: url("67ebd7dd2f263.png");
-    height: 32px;
-    width: 39px;
-}
-.msg-chat .emote.OkaygeBusiness {
     margin-top: -32px;
     top: 8px;
 }
@@ -3003,15 +3030,6 @@
 .msg-chat .emote.RAGEY {
     margin-top: -32px;
     top: 8px;
-}
-.emote.RATTED {
-    background-image: url("67ebde3eea7da.png");
-    height: 35px;
-    width: 35px;
-}
-.msg-chat .emote.RATTED {
-    margin-top: -35px;
-    top: 8.75px;
 }
 .emote.retardJAM {
     background-image: url("660a98ccc55a6.gif");
@@ -4283,6 +4301,86 @@ transition:all 2s;
   animation-iteration-count: infinite;
 }
 
+.emote.CheckEm {
+  height: 34px;
+  width: 44px;
+  filter: brightness(1.15);
+}
+
+.emote.CheckEm+.emote.CheckEm,
+.emote.CheckEm:nth-child(1),
+.emote.Clap+.emote.CheckEm,
+.emote.BLADE+.emote.CheckEm{
+  margin-right: -2px;
+  margin-left: 0;
+  transform: scaleX(-1);
+}
+
+.emote.CheckEm:only-child,
+.emote+.emote.CheckEm:last-of-type,
+.emote.CheckEm:last-of-type {
+  margin-right: 0;
+  transform: scaleX(1);
+}
+
+.emote.CheckEm:only-child {
+  transform: scaleX(-1);
+}
+
+@keyframes GIGAHANDS-anim {
+  0% {
+    transform: translate(-28px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.emote.GIGACHAD+.emote.CheckEm {
+  animation: GIGAHANDS-anim 1.5s ease-out 1;
+}
+
+.chat-user+.emote.CheckEm,
+.emote.CheckEm:has(+.externallink),
+.emote.CheckEm:has(+.chat-user) {
+  transform: scaleX(-1);
+}
+
+.chat-user+.emote.CheckEm:last-child {
+  transform: scaleX(1);
+}
+
+.emote.Cheerstiny{
+  animation: YUMP-anim 800ms 3;
+  animation-delay: .3s;
+}
+
+.emote.Cheerstiny:hover{
+  animation: YUMP-anim-hover 800ms 3;
+  animation-delay: .3s
+}
+
+
+
+@keyframes YUMP-anim {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(0px, -7.5px) rotate(-3deg); animation-timing-function: ease }
+    37% { transform: translate(0px, 0px) rotate(-3deg); animation-timing-function: ease-in }
+    55% { transform: translate(0px, -3px) rotate(4deg); animation-timing-function: ease}
+    60% { transform: translate(0px, 0px) rotate(4deg); animation-timing-function: ease-in}
+    75% { transform: translate(0px, -1.5px); animation-timing-function: ease }
+    100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
+}
+@keyframes YUMP-anim-hover {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(0px, -7.5px) rotate(-3deg); animation-timing-function: ease }
+    37% { transform: translate(0px, 0px) rotate(-3deg); animation-timing-function: ease-in }
+    55% { transform: translate(0px, -3px) rotate(4deg); animation-timing-function: ease}
+    60% { transform: translate(0px, 0px) rotate(4deg); animation-timing-function: ease-in}
+    75% { transform: translate(0px, -1.5px); animation-timing-function: ease }
+  100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
+}
 @keyframes Clap-anim {
   100% { background-position: -44px; }
 }
@@ -7682,36 +7780,6 @@ background-repeat:no-repeat;
 .emote.ATAB:hover::after {
     animation: ATAB-anim-hover 1s infinite;
     animation-delay: 0.25s;
-}
-.emote.Cheerstiny{
-  animation: YUMP-anim 800ms 3;
-  animation-delay: .3s;
-}
-
-.emote.Cheerstiny:hover{
-  animation: YUMP-anim-hover 800ms 3;
-  animation-delay: .3s
-}
-
-
-
-@keyframes YUMP-anim {
-    0% { transform: translate(0px, 0px); }
-    25% { transform: translate(0px, -7.5px) rotate(-3deg); animation-timing-function: ease }
-    37% { transform: translate(0px, 0px) rotate(-3deg); animation-timing-function: ease-in }
-    55% { transform: translate(0px, -3px) rotate(4deg); animation-timing-function: ease}
-    60% { transform: translate(0px, 0px) rotate(4deg); animation-timing-function: ease-in}
-    75% { transform: translate(0px, -1.5px); animation-timing-function: ease }
-    100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
-}
-@keyframes YUMP-anim-hover {
-    0% { transform: translate(0px, 0px); }
-    25% { transform: translate(0px, -7.5px) rotate(-3deg); animation-timing-function: ease }
-    37% { transform: translate(0px, 0px) rotate(-3deg); animation-timing-function: ease-in }
-    55% { transform: translate(0px, -3px) rotate(4deg); animation-timing-function: ease}
-    60% { transform: translate(0px, 0px) rotate(4deg); animation-timing-function: ease-in}
-    75% { transform: translate(0px, -1.5px); animation-timing-function: ease }
-  100% { transform: translate(0px, 0px); animation-timing-function: ease-in}
 }
 @keyframes LOVE-anim {
     0% { top: -25px; }
