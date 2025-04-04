@@ -934,15 +934,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.GIRUGAMESH {
-    background-image: url("67ebdddc5605e.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.GIRUGAMESH {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.GODSTINY {
     background-image: url("5c2bbca645afb.png");
     height: 32px;
@@ -1221,15 +1212,6 @@
 .msg-chat .emote.LETHIMCOOK {
     margin-top: -34px;
     top: 8.5px;
-}
-.emote.LinkaraRunning {
-    background-image: url("67ecb3e5c8feb.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.LinkaraRunning {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.Listening {
     background-image: url("6689d5ebaca66.png");

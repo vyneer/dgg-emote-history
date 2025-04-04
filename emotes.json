@@ -1664,22 +1664,6 @@
     ]
   },
   {
-    "prefix": "GIRUGAMESH",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.20.0/emotes/67ebdddc5605e.gif",
-        "name": "67ebdddc5605e.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "GODSTINY",
     "creator": null,
     "twitch": false,
@@ -2172,22 +2156,6 @@
         "mime": "image/png",
         "height": 34,
         "width": 38
-      }
-    ]
-  },
-  {
-    "prefix": "LinkaraRunning",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.20.0/emotes/67ecb3e5c8feb.gif",
-        "name": "67ecb3e5c8feb.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 32
       }
     ]
   },
