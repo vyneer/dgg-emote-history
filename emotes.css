@@ -1708,6 +1708,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.Peekstiny {
+    background-image: url("660a9045ef9dd.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Peekstiny {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.peepoRiot {
     background-image: url("5e9a25016d376.png");
     height: 32px;

@@ -3040,6 +3040,22 @@
     ]
   },
   {
+    "prefix": "Peekstiny",
+    "creator": "MrGemzar",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.20.0/emotes/660a9045ef9dd.png",
+        "name": "660a9045ef9dd.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "peepoRiot",
     "creator": null,
     "twitch": false,
