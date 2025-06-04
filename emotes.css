@@ -2050,6 +2050,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.Slumlord {
+    background-image: url("5c2bbd81423bf.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Slumlord {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Smadge {
     background-image: url("673dabd79b13c.png");
     height: 32px;
@@ -5824,6 +5833,42 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 .emote.Slugstiny:hover {
   background-position: 30px 0;
+}
+@keyframes Slumlord-anim {
+    0% { top: -25px; }
+    100% { top: 30px; }
+}
+@keyframes Slumlord-anim-hover {
+    0% { top: -25px; }
+    100% { top: 30px; }
+}
+.emote.Slumlord:before{
+    content: "💰";
+    text-indent: 0;
+    font-size: 18px;
+    position: absolute;
+    line-height: initial;
+    left:-3px;
+    top:-25px;
+    animation: Slumlord-anim 0.5s 4;
+}
+.emote.Slumlord:after{
+    content: "💰";
+    text-indent: 0;
+    font-size: 18px;
+    position: absolute;
+    line-height: initial;
+    right:-3px;
+    top:-25px;
+    animation: Slumlord-anim 0.5s 4;
+    animation-delay: 0.25s;
+}
+.emote.Slumlord:hover::before {
+    animation: Slumlord-anim-hover 0.5s infinite;
+}
+.emote.Slumlord:hover::after {
+    animation: Slumlord-anim-hover 0.5s infinite;
+    animation-delay: 0.25s;
 }
 @keyframes SMASHit-anim {
   0% { background-position: 0px; }

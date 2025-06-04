@@ -3648,6 +3648,22 @@
     ]
   },
   {
+    "prefix": "Slumlord",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.23.1/emotes/5c2bbd81423bf.png",
+        "name": "5c2bbd81423bf.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "Smadge",
     "creator": "",
     "twitch": false,
