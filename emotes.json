@@ -515,15 +515,15 @@
     "prefix": "Cabge",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.23.1/emotes/67ebd9718872b.png",
-        "name": "67ebd9718872b.png",
+        "url": "https://cdn.destiny.gg/4.23.1/emotes/683fb42275520.png",
+        "name": "683fb42275520.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 42
+        "height": 31,
+        "width": 43
       }
     ]
   },
@@ -1459,15 +1459,15 @@
     "prefix": "Fishge",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.23.1/emotes/67ebd8be81102.png",
-        "name": "67ebd8be81102.png",
+        "url": "https://cdn.destiny.gg/4.23.1/emotes/683fb41fadb97.png",
+        "name": "683fb41fadb97.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 37
+        "height": 29,
+        "width": 38
       }
     ]
   },
