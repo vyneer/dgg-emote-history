@@ -4656,6 +4656,22 @@
     ]
   },
   {
+    "prefix": "PepoThink",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.23.1/emotes/5c2bbd6f0d004.png",
+        "name": "5c2bbd6f0d004.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "RainbowPls",
     "creator": "",
     "twitch": false,
