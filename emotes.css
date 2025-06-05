@@ -5323,7 +5323,9 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
 [data-username="cyver"] .emote.PEPE {
        animation: RARE-PEPE-PULSATE 3s infinite linear;
 }
-
+[data-username="prsek"] .emote.PEPE {
+       animation: RARE-PEPE-PULSATE 3s infinite linear;
+}
 
 @keyframes RARE-PEPE-PULSATE {
     0% {
