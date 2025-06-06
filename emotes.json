@@ -3488,6 +3488,22 @@
     ]
   },
   {
+    "prefix": "SCHIZO",
+    "creator": "PRSEK",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.23.1/emotes/6840e30844802.gif",
+        "name": "6840e30844802.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "Shalom",
     "creator": "",
     "twitch": false,
@@ -4698,22 +4714,6 @@
         "url": "https://cdn.destiny.gg/4.23.1/emotes/665ad21170a2a.png",
         "name": "665ad21170a2a.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
-    "prefix": "SCHIZO",
-    "creator": "PRSEK",
-    "twitch": false,
-    "theme": 4,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.23.1/emotes/6840e30844802.gif",
-        "name": "6840e30844802.gif",
-        "mime": "image/gif",
         "height": 32,
         "width": 32
       }
