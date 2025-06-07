@@ -1960,15 +1960,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.SCHIZO {
-    background-image: url("6840e30844802.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.SCHIZO {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.Shalom {
     background-image: url("66fb74209aff6.png");
     height: 32px;
@@ -2650,6 +2641,15 @@
     width: 32px;
 }
 .msg-chat .emote.RainbowPls {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.SCHIZO {
+    background-image: url("6840e30844802.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.SCHIZO {
     margin-top: -32px;
     top: 8px;
 }
