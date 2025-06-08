@@ -2194,6 +2194,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.TeaTime {
+    background-image: url("6845250177b9c.png");
+    height: 32px;
+    width: 7808px;
+}
+.msg-chat .emote.TeaTime {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.TeddYEE {
     background-image: url("665b77f9cb5a6.png");
     height: 32px;
@@ -6172,6 +6181,333 @@ background-repeat:no-repeat;
 }
 .emote.SpookerZ:hover {
     animation: SpookerZ-anim-hover 250ms infinite;
+}
+/*
+#### Mostly sourced from original "Chatting" stylesheet. Probably not the best solution, edited to not screw stuff up too bad. ###
+*/
+.emote.TeaTime{
+  width: 32px;
+  height: 32px;
+  transform: scale(-1, 1) translate(-2px, 3px);
+}
+
+/*
+#### RIGHT-HANDED SIP #### 
+*/
+.emote:not(.TeaTime) + .emote.TeaTime + .emote:not(.TeaTime) + .emote.TeaTime,
+.emote.TeaTime:only-of-type,
+.emote + .emote.TeaTime{
+  transform: scale(1) translate(-2px, 3px);
+  animation: TeaTime-anim 7.09s steps(244) 60;
+}
+/*
+## HOVER ##
+*/
+.emote:not(.TeaTime) + .emote.TeaTime + .emote:not(.TeaTime) + .emote.TeaTime:hover,
+.emote + .emote.TeaTime:hover,
+.emote.TeaTime:only-of-type:hover{
+  transform: scale(1) translate(-2px, 3px);
+  animation: TeaTime-hover 7.09s steps(244) 60;
+}
+/*
+#### LEFT-HANDED SIP #### 
+*/
+.emote:not(.TeaTime) + .emote.TeaTime + .emote.TeaTime,
+.emote.TeaTime:nth-last-of-type(n+2):nth-last-of-type(-n+2):first-of-type{
+ transform: scale(-1, 1) translate(-2px, 3px);
+  animation: TeaTime-anim 7.09s steps(244) 60;
+} 
+.emote.TeaTime:has( + .emote:not(.TeaTime) + .emote:not(.TeaTime) + .emote.TeaTime):first-of-type{
+  transform: scale(-1, 1) translate(-2px, 3px);
+  animation: TeaTime-anim 7.09s steps(244) 60;
+}
+/*
+## HOVER ##
+*/
+.emote:not(.TeaTime) + .emote.TeaTime+ .emote.TeaTime:hover,
+.emote.TeaTime:nth-last-of-type(n+2):nth-last-of-type(-n+2):first-of-type:hover{
+ transform: scale(-1, 1) translate(-2px, 3px);
+  animation: TeaTime-hover 7.09s steps(244) 60;
+} 
+.emote.TeaTime:has( + .emote:not(.TeaTime) + .emote:not(.TeaTime) + .emote.TeaTime):first-of-type:hover{
+ transform: scale(-1, 1) translate(-2px, 3px);
+  animation: TeaTime-hover 7.09s steps(244) 60;
+} 
+/*
+#### ONE-HANDED SIP: RIGHT #### 
+- when chatting is next to a non-chatting emote and another chatting: select second chatting
+- when chatting is next to a non-chatting emote that is both the SECOND and LAST emote: select non-chatting
+*/
+.emote.TeaTime + .emote:not(.TeaTime) + .emote.TeaTime,
+.emote.TeaTime + .emote.TeaTime:not(:nth-of-type(2)):last-of-type{
+  transform: scale(1) translate(-2px, 3px);
+  animation: TeaTime-anim-1hand 7.09s steps(244) 60 forwards;
+}
+/*
+## HOVER ##
+*/
+.emote.TeaTime + .emote:not(.TeaTime) + .emote.TeaTime:hover,
+.emote.TeaTime + .emote.TeaTime:not(:nth-of-type(2)):last-of-type:hover{
+  transform: scale(1) translate(-2px, 3px);
+  animation: TeaTime-hover-1hand 7.09s steps(244) 60 forwards;
+}
+/*
+#### ONE-HANDED SIP: LEFT #### 
+- when chatting is next to a non-chatting emote that is NOT the last emote: select non-chatting
+- when chatting is NOT the only emote and IS the first emote: select first chatting
+
+## NOT SUPPORTED ON FIREFOX ##
+- when a non-chatting emote is next to chatting and another chatting that is followed by a non-chatting emote and another chatting: select second chatting 
+*/
+.emote.TeaTime + .emote.TeaTime:not(:last-of-type),
+.emote.TeaTime:not(:only-of-type):nth-of-type(1){
+  transform: scale(-1, 1) translate(-2px, 3px);
+  animation: TeaTime-anim-1hand 7.09s steps(244) 60 forwards;
+}
+.emote:not(.TeaTime) + .emote.TeaTime + .emote.TeaTime:has(+ .emote:not(.TeaTime) + .emote.TeaTime){
+ transform: scale(-1, 1) translate(-2px, 3px);
+ animation: TeaTime-anim-1hand 7.09s steps(244) 60 forwards;
+} 
+/*
+## HOVER ##
+*/
+.emote.TeaTime + .emote.TeaTime:not(:last-of-type):hover,
+.emote.TeaTime:not(:only-of-type):nth-of-type(1):hover{
+  transform: scale(-1, 1) translate(-2px, 3px);
+  animation: TeaTime-hover-1hand 7.09s steps(244) 60 forwards;
+}
+.emote:not(.TeaTime) + .emote.TeaTime + .emote.TeaTime:has(+ .emote:not(.TeaTime) + .emote.TeaTime):hover{
+  transform: scale(-1, 1) translate(-2px, 3px);
+  animation: TeaTime-hover-1hand 7.09s steps(244) 60 forwards;
+}
+
+/*
+#### ANIMATION: TWO HANDS ####
+*/
+@keyframes TeaTime-anim {
+  100% { background-position: -7808px; }
+}
+@keyframes TeaTime-hover {
+  100% { background-position: -7808px; }
+}
+/*
+#### ANIMATION: ONE HAND ####
+*/
+@keyframes TeaTime-anim-1hand {
+     0% { background-position: -7808px; }
+  100% { background-position: -15616px; }
+}
+@keyframes TeaTime-hover-1hand {
+     0% { background-position: -7808px; }
+  100% { background-position: -15616px; }
+}
+
+/*
+#### EMOTE-SPECIFIC ANIMATIONS #### 
+-when specified emote is followed by chatting: select second
+-when specified emote has a chatting on either side: select third;
+
+## NOT SUPPORTED ON FIREFOX ##
+-when chatting is in the first position out of only specified emote and chatting: select first
+-when chatting is followed by specified emote and another chatting: select first
+*/
+
+/*
+### SMASHIT ###
+*/
+.emote.SMASHit + .emote.TeaTime.TeaTime.TeaTime.TeaTime,
+.emote.TeaTime.TeaTime + .emote.SMASHit + .emote.TeaTime.TeaTime.TeaTime{
+  background-position: -7808px;
+ transform: translate(2px, 3px);
+  animation: TeaTime-YUMP-right .5s steps(244) 7  .4s forwards;
+}
+.emote.TeaTime:first-of-type:has(+ .emote.SMASHit):nth-last-of-type(n+2):nth-last-of-type(-n+2),
+.emote.TeaTime.TeaTime:has(+ .emote.SMASHit + .emote.TeaTime.TeaTime.TeaTime){
+  background-position: -7808px;
+  transform: scale(-1, 1) translate(-2px, 3px);
+  animation: TeaTime-YUMP-left .5s steps(244) 7  .4s forwards;
+} 
+/*
+## SMASHIT HOVER ##
+*/
+.emote.SMASHit + .emote.TeaTime.TeaTime.TeaTime.TeaTime:hover,
+.emote.TeaTime.TeaTime + .emote.SMASHit + .emote.TeaTime.TeaTime.TeaTime:hover{
+  animation-iteration-count: infinite;
+}
+.emote.TeaTime:first-of-type:has(+ .emote.SMASHit):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
+.emote.TeaTime.TeaTime:has(+ .emote.SMASHit + .emote.TeaTime.TeaTime.TeaTime):hover{
+  animation-iteration-count: infinite;
+}
+.emote.SMASHit:hover + .emote.TeaTime.TeaTime.TeaTime.TeaTime,
+.emote.TeaTime + .emote.SMASHit:hover + .emote.TeaTime.TeaTime.TeaTime{
+  animation: TeaTime-YUMP-right-hover 7.09s steps(244) infinite  .4s forwards;
+}
+.emote.TeaTime:first-of-type:has(+ .emote.SMASHit:hover):nth-last-of-type(n+2):nth-last-of-type(-n+2),
+.emote.TeaTime.TeaTime:has(+ .emote.SMASHit:hover + .emote.TeaTime.TeaTime.TeaTime){
+  animation: TeaTime-YUMP-left-hover 7.09s steps(244) infinite  .4s forwards;
+}
+@keyframes TeaTime-YUMP-right {
+     0% { background-position: -7808px; transform: translate(2px, 3px);}
+    12% { transform: translate(2px, -1px) rotate(0deg); animation-timing-function: ease }
+    25% { transform: translate(2px, 2px) rotate(-3deg); animation-timing-function: ease }
+    37% { transform: translate(2px, -7.5px) rotate(-3deg); animation-timing-function: ease-in }
+    55% { transform: translate(2px, 3px) rotate(4deg); animation-timing-function: ease}
+    60% { transform: translate(2px, -3.5px) rotate(4deg); animation-timing-function: ease}
+    70% { transform: translate(2px, 2px) rotate(-2deg); animation-timing-function: ease-in }
+    82% { transform: translate(2px, 3px); animation-timing-function: ease }
+  100% { background-position: -7808px; transform: translate(2px, 3px); animation-timing-function: ease-in}
+}  
+@keyframes TeaTime-YUMP-right-hover {
+     0% { background-position: -7808px; transform: translate(2px, 3px);}
+    12% { transform: translate(2px, -1px) rotate(0deg); animation-timing-function: ease }
+    25% { transform: translate(2px, 2px) rotate(-3deg); animation-timing-function: ease }
+    37% { transform: translate(2px, -7.5px) rotate(-3deg); animation-timing-function: ease-in }
+    55% { transform: translate(2px, 3px) rotate(4deg); animation-timing-function: ease}
+    60% { transform: translate(2px, -3.5px) rotate(4deg); animation-timing-function: ease}
+    70% { transform: translate(2px, 2px) rotate(-2deg); animation-timing-function: ease-in }
+    82% { transform: translate(2px, 3px); animation-timing-function: ease }
+  100% { background-position: -7808px; transform: translate(2px, 3px); animation-timing-function: ease-in}
+}  
+@keyframes TeaTime-YUMP-left {
+     0% { background-position: -7808px; transform: translate(2px, 3px) scale(-1, 1);}
+    12% { transform: translate(2px, -1px) rotate(0deg) scale(-1, 1); animation-timing-function: ease }
+    25% { transform: translate(2px, 2px) rotate(-3deg) scale(-1, 1); animation-timing-function: ease }
+    37% { transform: translate(2px, -7.5px) rotate(-3deg) scale(-1, 1); animation-timing-function: ease-in }
+    55% { transform: translate(2px, 3px) rotate(4deg) scale(-1, 1); animation-timing-function: ease}
+    60% { transform: translate(2px, -3.5px) rotate(4deg) scale(-1, 1); animation-timing-function: ease}
+    70% { transform: translate(2px, 2px) rotate(-2deg) scale(-1, 1); animation-timing-function: ease-in }
+    82% { transform: translate(2px, 3px) scale(-1, 1); animation-timing-function: ease }
+  100% { background-position: -7808px; transform: translate(2px, 3px) scale(-1, 1); animation-timing-function: ease-in}
+} 
+@keyframes TeaTime-YUMP-left-hover {
+     0% { background-position: -7808px; transform: translate(2px, 3px) scale(-1, 1);}
+    12% { transform: translate(2px, -1px) rotate(0deg) scale(-1, 1); animation-timing-function: ease }
+    25% { transform: translate(2px, 2px) rotate(-3deg) scale(-1, 1); animation-timing-function: ease }
+    37% { transform: translate(2px, -7.5px) rotate(-3deg) scale(-1, 1); animation-timing-function: ease-in }
+    55% { transform: translate(2px, 3px) rotate(4deg) scale(-1, 1); animation-timing-function: ease}
+    60% { transform: translate(2px, -3.5px) rotate(4deg) scale(-1, 1); animation-timing-function: ease}
+    70% { transform: translate(2px, 2px) rotate(-2deg) scale(-1, 1); animation-timing-function: ease-in }
+    82% { transform: translate(2px, 3px) scale(-1, 1); animation-timing-function: ease }
+  100% { background-position: -7808px; transform: translate(2px, 3px) scale(-1, 1); animation-timing-function: ease-in}
+} 
+/*
+### GIGACHAD ###
+*/
+@keyframes GIGACHAT-slide {
+  0% { transform: translate(-28px, 3px); }
+  100% { transform: translate(-2px, 3px); }
+}
+/*
+## TWO HANDS - RIGHT SIDE ##
+*/
+.emote.GIGACHAD + .emote.TeaTime:last-of-type{
+  animation: TeaTime-anim 7.09s steps(244) 30, GIGACHAT-slide .5s ease-out 1; 
+}
+.emote.GIGACHAD + .emote.TeaTime:last-of-type:hover{
+  animation: TeaTime-hover 7.09s steps(244) infinite, GIGACHAT-slide .5s ease-out 1; 
+}
+/*
+## TWO HANDS - LEFT SIDE ##
+*/
+.emote.TeaTime:first-of-type:has(+ .emote.GIGACHAD):nth-last-of-type(n+2):nth-last-of-type(-n+2){
+  animation: TeaTime-anim 7.09s steps(244) 30; 
+}
+.emote.TeaTime:first-of-type:has(+ .emote.GIGACHAD):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover{
+  animation: TeaTime-hover 7.09s steps(244) infinite; 
+}
+/*
+## ONE HAND - RIGHT SIDE ##
+*/
+.emote.TeaTime + .emote.GIGACHAD + .emote.TeaTime:last-of-type {
+  animation: TeaTime-anim-1hand 7.09s steps(244) 30 forwards, GIGACHAT-slide 7.09s ease-out 1; 
+}
+.emote.TeaTime + .emote.GIGACHAD + .emote.TeaTime:last-of-type:hover {
+  animation: TeaTime-hover-1hand 7.09s steps(244) 30 forwards, GIGACHAT-slide 7.09s ease-out 1; 
+}
+/*
+## ONE HAND - LEFT SIDE ##
+*/
+.emote.TeaTime:first-of-type:has(+ .emote.GIGACHAD + .emote.TeaTime),
+.emote.TeaTime:has(+ .emote.GIGACHAD + .emote.TeaTime + .emote.GIGACHAD){
+  animation: TeaTime-anim-1hand 7.09s steps(244) 30 forwards; 
+} 
+.emote.TeaTime:first-of-type:has(+ .emote.GIGACHAD + .emote.TeaTime):hover,
+.emote.TeaTime:has(+ .emote.GIGACHAD + .emote.TeaTime + .emote.GIGACHAD):hover{
+ animation: TeaTime-hover-1hand 7.09s steps(244) 30 forwards;
+} 
+/*
+### AWARE ###
+*/
+.emote.Aware + .emote.TeaTime,
+.emote.TeaTime + .emote.Aware + .emote.TeaTime{
+  animation-duration: 7.09s; 
+  animation-iteration-count: 3;
+}
+.emote.TeaTime:first-of-type:has(+ .emote.Aware):nth-last-of-type(n+2):nth-last-of-type(-n+2),
+.emote.TeaTime:has(+ .emote.Aware + .emote.TeaTime){
+  animation-duration: 7.09s;
+  animation-iteration-count: 3;
+}
+/*
+## AWARE HOVER ##
+*/
+.emote.Aware + .emote.TeaTime:hover,
+.emote.TeaTime + .emote.Aware + .emote.TeaTime:hover{
+  animation-iteration-count: infinite; 
+}
+.emote.TeaTime:first-of-type:has(+ .emote.Aware):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
+.emote.TeaTime:has(+ .emote.Aware + .emote.TeaTime):hover{
+  animation-iteration-count: infinite;
+}
+
+
+/*
+### OTHERS - SLOWED DOWN ###
+*/
+.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.TeaTime,
+.emote.TeaTime + .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.TeaTime{
+  animation-duration: 14.18s;
+  animation-iteration-count: 22.5;
+}
+.emote.TeaTime:first-of-type:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm)):nth-last-of-type(n+2):nth-last-of-type(-n+2),
+.emote.TeaTime:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.TeaTime){
+  animation-duration: 14.18s;
+  animation-iteration-count: 22.5;
+}
+/*
+## HOVER ##
+*/
+.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.TeaTime:hover,
+.emote.TeaTime + .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.TeaTime:hover{
+  animation-iteration-count: infinite;
+}
+.emote.TeaTime:first-of-type:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm)):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
+.emote.TeaTime:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.TeaTime):hover{
+  animation-iteration-count: infinite;
+}
+/*
+### OTHERS - SPED UP ###
+*/
+.emote:is(.SOY, .HACKERMAN) + .emote.TeaTime,
+.emote.TeaTime + .emote:is(.SOY, .HACKERMAN)+ .emote.TeaTime{
+  animation-duration: 3.545s;
+  animation-iteration-count: 180;
+}
+.emote.TeaTime:has(+ .emote:is(.SOY, .HACKERMAN)):nth-last-of-type(n+2):nth-last-of-type(-n+2),
+.emote.TeaTime:has(+ .emote:is(.SOY, .HACKERMAN) + .emote.TeaTime){
+  animation-duration: 3.545s;
+  animation-iteration-count: 180;
+}
+/*
+## HOVER ##
+*/
+.emote.SOY + .emote.TeaTime:hover,
+.emote.TeaTime + .emote.SOY + .emote.TeaTime:hover{
+  animation-iteration-count: infinite;
+}
+.emote.TeaTime:has(+ .emote.SOY):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
+.emote.TeaTime:has(+ .emote.SOY + .emote.TeaTime):hover{
+  animation-iteration-count: infinite;
 }
 /*
 .msg-chat.msg-user[data-username="xenathewitcher"]{

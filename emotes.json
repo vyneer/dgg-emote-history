@@ -3904,6 +3904,22 @@
     ]
   },
   {
+    "prefix": "TeaTime",
+    "creator": "prsek",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.25.2/emotes/6845250177b9c.png",
+        "name": "6845250177b9c.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 7808
+      }
+    ]
+  },
+  {
     "prefix": "TeddYEE",
     "creator": "",
     "twitch": false,
