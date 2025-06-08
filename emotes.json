@@ -3488,6 +3488,22 @@
     ]
   },
   {
+    "prefix": "SCHEMING",
+    "creator": "PRSEK",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.25.2/emotes/68451d7ebbea6.png",
+        "name": "68451d7ebbea6.png",
+        "mime": "image/png",
+        "height": 36,
+        "width": 7084
+      }
+    ]
+  },
+  {
     "prefix": "SCHIZO",
     "creator": "PRSEK",
     "twitch": false,

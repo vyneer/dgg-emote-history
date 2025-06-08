@@ -1960,6 +1960,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.SCHEMING {
+    background-image: url("68451d7ebbea6.png");
+    height: 36px;
+    width: 7084px;
+}
+.msg-chat .emote.SCHEMING {
+    margin-top: -36px;
+    top: 9px;
+}
 .emote.SCHIZO {
     background-image: url("6840e30844802.gif");
     height: 32px;
@@ -5640,6 +5649,28 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 .emote.REE:hover {
     animation: REE-anim-hover 100ms infinite;
+}
+.emote.SCHEMING {
+  height: 36px;
+  width: 46px;
+  animation: SCHEMING-anim 11s steps(154) 1 forwards;
+  filter: brightness(1.3);
+}
+
+.emote.SCHEMING:hover {
+  animation: SCHEMING-hover 11s steps(154) 1 forwards;
+}
+
+@keyframes SCHEMING-anim {
+  to {
+    background-position: -7084px;
+  }
+}
+
+@keyframes SCHEMING-hover {
+  to {
+    background-position: -7084px;
+  }
 }
 @keyframes SHOCKSTINY-mark {
     20% {
