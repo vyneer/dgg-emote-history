@@ -4608,6 +4608,22 @@
     ]
   },
   {
+    "prefix": "Cooked",
+    "creator": "PRSEK",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.25.2/emotes/68467307c1220.png",
+        "name": "68467307c1220.png",
+        "mime": "image/png",
+        "height": 28,
+        "width": 41
+      }
+    ]
+  },
+  {
     "prefix": "COOMfy",
     "creator": "",
     "twitch": false,
