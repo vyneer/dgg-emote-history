@@ -2591,13 +2591,13 @@
     top: 7px;
 }
 .emote.Cooked {
-    background-image: url("6842f8451da97.png");
-    height: 32px;
-    width: 47px;
+    background-image: url("68467307c1220.png");
+    height: 28px;
+    width: 41px;
 }
 .msg-chat .emote.Cooked {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.COOMfy {
     background-image: url("6478cc9391442.png");
@@ -7738,4 +7738,23 @@ background-repeat:no-repeat;
 }
 .emote.YeeLaugh:hover {
     animation: YeeLaugh-anim-hover 200ms infinite;
+}
+.emote.Cooked {
+    animation: SUNLIGHT-FADE 1s 1 linear forwards;
+}
+
+@keyframes SUNLIGHT-FADE {
+    0% {
+        transform: scale(1) rotate(0deg);
+        filter: brightness(1) drop-shadow(0px 0px 0px rgba(255, 246, 225, 0));
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+        filter: brightness(1.1) drop-shadow(0px 0px 1px rgba(255, 245, 158, 0.5)) drop-shadow(0px 0px 2px rgba(255, 200, 87, 0.3));
+    }
+}
+
+.emote.Cooked:hover {
+    filter: brightness(1.45) drop-shadow(0px 0px 5px rgba(255, 200, 87, 0.7));
+    transition: all .5s;
 }
