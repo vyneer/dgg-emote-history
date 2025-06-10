@@ -485,9 +485,9 @@
     top: 8px;
 }
 .emote.Cooked {
-    background-image: url("684779928b3f4.png");
+    background-image: url("68486741d675f.png");
     height: 32px;
-    width: 3850px;
+    width: 47px;
 }
 .msg-chat .emote.Cooked {
     margin-top: -32px;
@@ -3973,25 +3973,6 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.COGGERS:nth-child(even) {
     animation-direction: reverse;
 }
-@keyframes Cooked {
-  0% { background-position: 0px; }
-  100% { background-position: -3850px; }
-}
-@keyframes Cooked-hover {
-  0% { background-position: 0px; }
-  100% { background-position: -3850px; }
-}
-.emote.Cooked {
-  width: 55px;
-  background-position: -6050px; 
-  animation: Cooked steps(70) 8s 1;
-}
-
-.emote.Cooked:hover {
-  animation: Cooked-hover steps(70) 8s infinite;
-  filter: brightness(1.2) drop-shadow(0px 0px 2px #FFd700);
-}
-
 .emote.COOMER {
   animation: COOMER-anim 0.1s 20, COOMER-color 2s 1;
   transition: filter 0.2s;
