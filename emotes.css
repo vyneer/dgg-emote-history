@@ -197,7 +197,7 @@
     top: 7.5px;
 }
 .emote.BINGQILIN {
-    background-image: url("61802af39967d.png");
+    background-image: url("684778fdb7384.png");
     height: 32px;
     width: 2880px;
 }
@@ -481,6 +481,15 @@
     width: 42px;
 }
 .msg-chat .emote.confusedCat {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.Cooked {
+    background-image: url("684779928b3f4.png");
+    height: 32px;
+    width: 3850px;
+}
+.msg-chat .emote.Cooked {
     margin-top: -32px;
     top: 8px;
 }
@@ -2590,15 +2599,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.Cooked {
-    background-image: url("68467307c1220.png");
-    height: 28px;
-    width: 41px;
-}
-.msg-chat .emote.Cooked {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.COOMfy {
     background-image: url("6478cc9391442.png");
     height: 32px;
@@ -3973,6 +3973,25 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.COGGERS:nth-child(even) {
     animation-direction: reverse;
 }
+@keyframes Cooked {
+  0% { background-position: 0px; }
+  100% { background-position: -3850px; }
+}
+@keyframes Cooked-hover {
+  0% { background-position: 0px; }
+  100% { background-position: -3850px; }
+}
+.emote.Cooked {
+  width: 55px;
+  background-position: -6050px; 
+  animation: Cooked steps(70) 8s 1;
+}
+
+.emote.Cooked:hover {
+  animation: Cooked-hover steps(70) 8s infinite;
+  filter: brightness(1.2) drop-shadow(0px 0px 2px #FFd700);
+}
+
 .emote.COOMER {
   animation: COOMER-anim 0.1s 20, COOMER-color 2s 1;
   transition: filter 0.2s;
@@ -7738,23 +7757,4 @@ background-repeat:no-repeat;
 }
 .emote.YeeLaugh:hover {
     animation: YeeLaugh-anim-hover 200ms infinite;
-}
-.emote.Cooked {
-    animation: SUNLIGHT-FADE 1s 1 linear forwards;
-}
-
-@keyframes SUNLIGHT-FADE {
-    0% {
-        transform: scale(1) rotate(0deg);
-        filter: brightness(1) drop-shadow(0px 0px 0px rgba(255, 246, 225, 0));
-    }
-    100% {
-        transform: scale(1) rotate(0deg);
-        filter: brightness(1.1) drop-shadow(0px 0px 1px rgba(255, 245, 158, 0.5)) drop-shadow(0px 0px 2px rgba(255, 200, 87, 0.3));
-    }
-}
-
-.emote.Cooked:hover {
-    filter: brightness(1.45) drop-shadow(0px 0px 5px rgba(255, 200, 87, 0.7));
-    transition: all .5s;
 }
