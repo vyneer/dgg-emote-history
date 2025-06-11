@@ -1680,6 +1680,22 @@
     ]
   },
   {
+    "prefix": "glorp",
+    "creator": "prsek",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.25.3/emotes/68493412857ea.png",
+        "name": "68493412857ea.png",
+        "mime": "image/png",
+        "height": 28,
+        "width": 278
+      }
+    ]
+  },
+  {
     "prefix": "GODSTINY",
     "creator": null,
     "twitch": false,
@@ -4684,22 +4700,6 @@
         "mime": "image/png",
         "height": 38,
         "width": 45
-      }
-    ]
-  },
-  {
-    "prefix": "glorp",
-    "creator": "",
-    "twitch": false,
-    "theme": 4,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.25.3/emotes/68491d9a49ff2.png",
-        "name": "68491d9a49ff2.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
       }
     ]
   },
