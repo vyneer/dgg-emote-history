@@ -4688,6 +4688,22 @@
     ]
   },
   {
+    "prefix": "glorp",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.25.3/emotes/68491d9a49ff2.png",
+        "name": "68491d9a49ff2.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "mrmH1",
     "creator": "CinematicGold",
     "twitch": false,
