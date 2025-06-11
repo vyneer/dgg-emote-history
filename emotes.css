@@ -4487,7 +4487,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
 */
 
 /* GOLD */
-.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.glorp:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text .emote.glorp:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
@@ -4499,7 +4499,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
 }
 
 /* PLATINUM */
-.msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text .emote.glorp:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="1337"]~.text .emote.glorp:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-PLATINUM 1.2s 1, RARE-PLATINUM-PULSATE 1.2s infinite 1.2s linear;
@@ -4511,7 +4511,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
 }
 
 /* EMERALD */
-.msg-chat.msg-user>time[data-unixtimestamp$="6969"]~.text .emote.glorp:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="69420"]~.text .emote.glorp:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-EMERALD 1.2s 1, RARE-EMERALD-PULSATE 1.2s infinite 1.2s linear;
@@ -4523,7 +4523,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
 }
 
 /* DIAMOND */
-.msg-chat.msg-user>time[data-unixtimestamp$="42069"]~.text .emote.glorp:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="800085"]~.text .emote.glorp:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-DIAMOND 1.2s 1, RARE-DIAMOND-PULSATE 1.2s infinite 1.2s linear;
@@ -4598,7 +4598,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
 */
 
 /* GOLD */
-.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.glorp:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text .emote.glorp:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
@@ -4610,7 +4610,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
 }
 
 /* PLATINUM */
-.msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text .emote.glorp:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="6969"]~.text .emote.glorp:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-PLATINUM 1.2s 1, RARE-PLATINUM-PULSATE 1.2s infinite 1.2s linear;
@@ -4622,7 +4622,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
 }
 
 /* EMERALD */
-.msg-chat.msg-user>time[data-unixtimestamp$="6969"]~.text .emote.glorp:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="42069"]~.text .emote.glorp:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-EMERALD 1.2s 1, RARE-EMERALD-PULSATE 1.2s infinite 1.2s linear;
@@ -4634,7 +4634,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
 }
 
 /* DIAMOND */
-.msg-chat.msg-user>time[data-unixtimestamp$="42069"]~.text .emote.glorp:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="800085"]~.text .emote.glorp:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-DIAMOND 1.2s 1, RARE-DIAMOND-PULSATE 1.2s infinite 1.2s linear;
