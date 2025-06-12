@@ -4592,6 +4592,22 @@
     ]
   },
   {
+    "prefix": "ZoomerSippy",
+    "creator": "PRSEK",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.25.3/emotes/684b5b9732d9a.png",
+        "name": "684b5b9732d9a.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 22
+      }
+    ]
+  },
+  {
     "prefix": "ComfyAYA",
     "creator": "",
     "twitch": false,
