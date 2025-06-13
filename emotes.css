@@ -4355,7 +4355,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.glorp {
     height: 28px;
     width: 28px;
-    background-position: -110;
+    background-position: -110px;
     background-repeat: no-repeat;
 }
 
