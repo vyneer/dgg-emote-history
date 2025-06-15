@@ -1132,6 +1132,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.JARVIS {
+    background-image: url("684e1f3fbaeb1.png");
+    height: 32px;
+    width: 48px;
+}
+.msg-chat .emote.JARVIS {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.JOEVER {
     background-image: url("667e118983e01.png");
     height: 32px;

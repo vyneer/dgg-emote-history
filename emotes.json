@@ -2016,6 +2016,22 @@
     ]
   },
   {
+    "prefix": "JARVIS",
+    "creator": "PRSEK",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.26.0/emotes/684e1f3fbaeb1.png",
+        "name": "684e1f3fbaeb1.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 48
+      }
+    ]
+  },
+  {
     "prefix": "JOEVER",
     "creator": "StrawWaffle",
     "twitch": false,
