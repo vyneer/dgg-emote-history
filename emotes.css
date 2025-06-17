@@ -2347,15 +2347,6 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.UltraHandsomeMan {
-    background-image: url("66947b90b7b45.png");
-    height: 30px;
-    width: 30px;
-}
-.msg-chat .emote.UltraHandsomeMan {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.UWOTM8 {
     background-image: url("665aec060d502.png");
     height: 30px;
@@ -2661,6 +2652,15 @@
 .msg-chat .emote.GatoPls {
     margin-top: -38px;
     top: 9.5px;
+}
+.emote.IMPRESSED {
+    background-image: url("6850dee22e693.png");
+    height: 32px;
+    width: 28px;
+}
+.msg-chat .emote.IMPRESSED {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.mrmH1 {
     background-image: url("665a5ccb04ebf.png");

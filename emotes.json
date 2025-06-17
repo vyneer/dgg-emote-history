@@ -4176,22 +4176,6 @@
     ]
   },
   {
-    "prefix": "UltraHandsomeMan",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.26.0/emotes/66947b90b7b45.png",
-        "name": "66947b90b7b45.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 30
-      }
-    ]
-  },
-  {
     "prefix": "UWOTM8",
     "creator": "",
     "twitch": false,
@@ -4732,6 +4716,22 @@
         "mime": "image/png",
         "height": 38,
         "width": 45
+      }
+    ]
+  },
+  {
+    "prefix": "IMPRESSED",
+    "creator": "Zilkata",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.26.0/emotes/6850dee22e693.png",
+        "name": "6850dee22e693.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 28
       }
     ]
   },
