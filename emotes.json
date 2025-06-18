@@ -3344,6 +3344,22 @@
     ]
   },
   {
+    "prefix": "pepoTurtle",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.26.0/emotes/6852dc338f9bf.png",
+        "name": "6852dc338f9bf.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 43
+      }
+    ]
+  },
+  {
     "prefix": "PepoWant",
     "creator": null,
     "twitch": false,

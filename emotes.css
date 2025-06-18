@@ -1879,6 +1879,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.pepoTurtle {
+    background-image: url("6852dc338f9bf.png");
+    height: 32px;
+    width: 43px;
+}
+.msg-chat .emote.pepoTurtle {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.PepoWant {
     background-image: url("5fad998c3e160.png");
     height: 32px;
@@ -6225,6 +6234,31 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 .emote.PepoTurkey:hover {
     animation: PepoTurkey-anim-hover 0.7s infinite;
+}
+[data-username="tena"] .emote.pepoTurtle {
+       animation: RARE-PEPE-PULSATE 3s infinite linear;
+}
+
+@keyframes RARE-PEPE-PULSATE {
+    0% {
+        transform: scale(1.05) rotate(0deg);
+        filter: hue-rotate(-15deg) brightness(1.2) saturate(1.35) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    25% {
+        transform: scale(1.025) rotate(1deg);
+       filter: hue-rotate(-15deg) brightness(1.25) saturate(1.5) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    75% {
+        transform: scale(1.1) rotate(-1deg);
+       filter: hue-rotate(-15deg) brightness(1.35) saturate(1.6) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    100% {
+        transform: scale(1.05) rotate(0deg);
+        filter: hue-rotate(-15deg) brightness(1.2) saturate(1.35) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
 }
 @keyframes GIGARAP-anim {
   0% { transform: translate(-28px, 0); }
