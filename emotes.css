@@ -314,7 +314,7 @@
     top: 8.5px;
 }
 .emote.Chatting {
-    background-image: url("651f54a0ac864.png");
+    background-image: url("6672a505eddfd.png");
     height: 32px;
     width: 320px;
 }
@@ -377,9 +377,9 @@
     top: 8px;
 }
 .emote.Clap {
-    background-image: url("66ba10dbd5127.png");
+    background-image: url("6672a545cfb9d.png");
     height: 32px;
-    width: 132px;
+    width: 44px;
 }
 .msg-chat .emote.Clap {
     margin-top: -32px;
@@ -1943,7 +1943,7 @@
     top: 8px;
 }
 .emote.RapThis {
-    background-image: url("66937d4109172.png");
+    background-image: url("6672a4bf7759b.gif");
     height: 28px;
     width: 28px;
 }
@@ -2132,9 +2132,9 @@
     top: 7.5px;
 }
 .emote.SOTRIGGERED {
-    background-image: url("665a5b6e420fb.png");
+    background-image: url("66729fa5a98f7.png");
     height: 32px;
-    width: 32px;
+    width: 2112px;
 }
 .msg-chat .emote.SOTRIGGERED {
     margin-top: -32px;
@@ -2590,6 +2590,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.blackpeopleHappy {
+    background-image: url("6672a4e3bf28d.png");
+    height: 34px;
+    width: 68px;
+}
+.msg-chat .emote.blackpeopleHappy {
+    margin-top: -34px;
+    top: 8.5px;
+}
 .emote.ComfyAYA {
     background-image: url("6478cc6435099.png");
     height: 32px;
@@ -2677,6 +2686,15 @@
     width: 34px;
 }
 .msg-chat .emote.mrmH2 {
+    margin-top: -30px;
+    top: 7.5px;
+}
+.emote.nathanW {
+    background-image: url("6672a0cc1f208.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.nathanW {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -3947,39 +3965,6 @@ filter: contrast(1) saturate(1) brightness(1.25);
 
 .emote.GIGACHAD + .emote.Clap {
   animation: Clap-anim2 800ms steps(2) 7 -150ms, GIGACLAP-slide 1.5s ease-out 1; 
-}
-
-@keyframes Clap-evil-anim {
-  from { background-position: -44px;  }
-  to   { background-position: -132px; }
-}
-@keyframes Clap-evil-anim-hover {
-  from { background-position: -44px;  }
-  to   { background-position: -132px; }
-}
-
-@keyframes Clap-evil-tilt {
-  0% { rotate: 4deg; }
-  25% { rotate: 6deg; }
-  50%  { rotate: 12deg; }
-  75% { rotate: 8deg; }
-  100% { rotate: 4deg; }
-}
-
-@keyframes Clap-evil-tilt-hover {
-  0% { rotate: 4deg; }
-  25% { rotate: 6deg; }
-  50%  { rotate: 12deg; }
-  75% { rotate: 8deg; }
-  100% { rotate: 4deg; }
-}
-
-.emote.EVIL + .emote.Clap {
-  background-position: -110px; rotate: 4deg; translate:0 3px;
-  animation: Clap-evil-anim 500ms steps(4) 20, Clap-evil-tilt ease-in-out 1s 10  alternate; 
-}
-.emote.EVIL + .emote.Clap:hover {
-  animation: Clap-evil-anim-hover 500ms steps(4) 20, Clap-evil-tilt-hover ease-in-out 1s 10  alternate; 
 }
 /* Animation made by Igor */
 @keyframes COGGERS-anim {
@@ -6659,109 +6644,22 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 .emote.SNAP:hover::before {
   animation: SNAP-hover-before 2 150ms, SNAP-hover-before infinite 250ms 600ms;
 }
+.emote.SOTRIGGERED{
+  height: 32px;
+  width: 39px;
+  animation: SOTRIGGERED-anim 1.2s steps(49) 1 .25s forwards;
+}
+.emote.SOTRIGGERED:hover {
+  height: 32px;
+  width: 39px;
+  animation: SOTRIGGERED-hover 1.2s steps(49) 1 .25s forwards;
+}
+
 @keyframes SOTRIGGERED-anim {
-  0% { transform: rotate(0deg); }
-  30% { transform: rotate(0deg); }
-  40% { transform: rotate(-9deg); }
-  45% { transform: rotate(-6deg); }
-  50% { transform: rotate(5deg); }
-  55% { transform: rotate(0deg); }
-  70% { transform: rotate(0deg); }
-  75% { transform: rotate(5deg); }
-  90% { transform: rotate(1deg); }
-  95% { transform: rotate(-4deg); }
-  100% { transform: rotate(0deg); }
+  to { background-position: -1917px; }
 }
 @keyframes SOTRIGGERED-hover {
-  0% { transform: rotate(0deg); }
-  30% { transform: rotate(0deg); }
-  40% { transform: rotate(-18deg); }
-  45% { transform: rotate(-8deg); }
-  50% { transform: rotate(12deg); }
-  55% { transform: rotate(0deg); }
-  70% { transform: rotate(0deg); }
-  75% { transform: rotate(5deg); }
-  90% { transform: rotate(1deg); }
-  95% { transform: rotate(-4deg); }
-  100% { transform: rotate(0deg); }
-}
-
-.emote.SOTRIGGERED {
-  transform-origin: 0% 100%;
-
-transition: all .25s;
-  animation: SOTRIGGERED-anim ease-out 1.5s 1 .15s;
-background-repeat:no-repeat;
-}
-.emote.SOTRIGGERED:hover {   transform-origin: 0% 100%;
-
-  transition: all .25s;
-  animation: SOTRIGGERED-hover ease-out 1.25s .15s infinite;
-}
-
-
-@keyframes SOTRIGGERED-before {
-	0% { transform: scale(0); }
-	5% { transform: scale(1.25); }  
-	50% { transform: scale(0); } 
-	100% { transform: scale(0); }
-}
-@keyframes SOTRIGGERED-hover-before {
-	0% { transform: scale(0); }
-	5% { transform: scale(1.25); }
-	25% { transform: scale(0); } 
-	100% { transform: scale(0); }
-}
-.emote.SOTRIGGERED::before {
-	content: "💥";
-	text-indent: 0;
-        text-shadow: none;
-        color: white;
-	font-size: 14px;
-	line-height: initial;
-	position: absolute;
-	opacity: 1;
-	top: 16px;
-	left: 12px;
-        transform: scale(0);
-	filter: hue-rotate(45deg) brightness(7) saturate(1);
-	animation: SOTRIGGERED-before 1 .55s .55s ease;  
-        overflow-x:visible;
-}
-.emote.SOTRIGGERED:hover::before {
-        animation: SOTRIGGERED-hover-before infinite 1.22s .55s ease;  
-}
-
-@keyframes SOTRIGGERED-after {
-	0% { transform: scale(0) rotate(0deg); top: 18px; left: 12px; }
-	5% { transform: scale(.62) rotate(-50deg); top: 12px; left: 12px; }  
-	30% { transform: scale(.8) rotate(-200deg); top: 2px; left: 4px; } 
-	100% { transform: scale(.5) rotate(-350deg);  top: 16px; left: -6px; }
-}
-@keyframes SOTRIGGERED-hover-after {
-	0% { transform: scale(0) rotate(0deg); top: 18px; left: 12px; }
-	5% { transform: scale(.75) rotate(-50deg); top: 12px; left: 12px; }  
-	30% { transform: scale(1) rotate(-200deg); top: 2px; left: 4px; } 
-	100% { transform: scale(.5) rotate(-350deg);  top: 16px; left: -6px; }
-}
-.emote.SOTRIGGERED::after {
-	content: "🔋";
-	text-indent: 0;
-        text-shadow: none;
-        color: white;
-	font-size: 8px;
-	line-height: initial;
-	position: absolute;
-	opacity: 1;
-	top: 12px;
-	left: 5px;
-        transform: scale(0);
-	filter: hue-rotate(300deg) saturate(1.25);
-	animation: SOTRIGGERED-after 1 .7s 1.3s ease;  
-        overflow-x:visible;
-}
-.emote.SOTRIGGERED:hover::after {
-        animation: SOTRIGGERED-hover-after infinite 1.28s 1.55s ease;  
+  to { background-position: -1917px; }
 }
 .emote.SoyPoint {
   height: 32px;
@@ -8457,3 +8355,31 @@ background-repeat:no-repeat;
 .emote.GIGACHAD + .emote.ZoomerSippy:hover{
   animation: ZoomerSippy-right-hover 1.5s 1, GIGASIP 1.5s 1 ease-out;
 }  
+@keyframes blackpeopleHappy-anim {
+  0% {transform: scale3d(0.6, 1.15, 1);}
+  30% {transform: scale3d(1.25, 0.75, 1);}
+  40% {transform: scale3d(0.4, 1.3, 1);}
+  50% {transform: scale3d(1.15, 0.85, 1);}
+  65% {transform: scale3d(.95, 1.05, 1);}
+  75% {transform: scale3d(1.05, .95, 1);}
+  100% {transform: scale3d(1, 1, 1);}
+}
+
+@keyframes blackpeopleHappy-anim-hover {
+  0% {transform: scale3d(0.6, 1.15, 1);}
+  30% {transform: scale3d(1.25, 0.75, 1);}
+  40% {transform: scale3d(0.4, 1.3, 1);}
+  50% {transform: scale3d(1.15, 0.85, 1);}
+  65% {transform: scale3d(.95, 1.05, 1);}
+  75% {transform: scale3d(1.05, .95, 1);}
+  100% {transform: scale3d(1, 1, 1);}
+}
+
+.emote.blackpeopleHappy {
+  transform-origin: 50% 100%;
+  animation: blackpeopleHappy-anim 1s 1;
+}
+
+.emote.blackpeopleHappy:hover {
+  animation: blackpeopleHappy-anim-hover 1s infinite;
+}
