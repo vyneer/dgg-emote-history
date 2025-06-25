@@ -2871,6 +2871,22 @@
     "minimumSubTier": 0,
     "image": [
       {
+        "url": "https://cdn.destiny.gg/4.26.0/emotes/685c1d295df0a.gif",
+        "name": "685c1d295df0a.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 23
+      }
+    ]
+  },
+  {
+    "prefix": "NOSHOT_OG",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
         "url": "https://cdn.destiny.gg/4.26.0/emotes/665ad43c9e90d.png",
         "name": "665ad43c9e90d.png",
         "mime": "image/png",
@@ -4608,6 +4624,22 @@
     ]
   },
   {
+    "prefix": "COKEJAW",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.26.0/emotes/685c1d295df0a.gif",
+        "name": "685c1d295df0a.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 23
+      }
+    ]
+  },
+  {
     "prefix": "ComfyAYA",
     "creator": "",
     "twitch": false,
@@ -4732,6 +4764,22 @@
         "mime": "image/png",
         "height": 32,
         "width": 28
+      }
+    ]
+  },
+  {
+    "prefix": "monkaX",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.26.0/emotes/685c1a9091437.gif",
+        "name": "685c1a9091437.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
       }
     ]
   },

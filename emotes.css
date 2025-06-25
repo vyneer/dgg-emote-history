@@ -1610,11 +1610,20 @@
     top: 8.5px;
 }
 .emote.NOSHOT {
+    background-image: url("685c1d295df0a.gif");
+    height: 32px;
+    width: 23px;
+}
+.msg-chat .emote.NOSHOT {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.NOSHOT_OG {
     background-image: url("665ad43c9e90d.png");
     height: 30px;
     width: 32px;
 }
-.msg-chat .emote.NOSHOT {
+.msg-chat .emote.NOSHOT_OG {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -2590,6 +2599,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.COKEJAW {
+    background-image: url("685c1d295df0a.gif");
+    height: 32px;
+    width: 23px;
+}
+.msg-chat .emote.COKEJAW {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ComfyAYA {
     background-image: url("6478cc6435099.png");
     height: 32px;
@@ -2659,6 +2677,15 @@
     width: 28px;
 }
 .msg-chat .emote.IMPRESSED {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.monkaX {
+    background-image: url("685c1a9091437.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.monkaX {
     margin-top: -32px;
     top: 8px;
 }
