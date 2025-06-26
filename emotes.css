@@ -1609,15 +1609,6 @@
     margin-top: -34px;
     top: 8.5px;
 }
-.emote.NOSHOT {
-    background-image: url("685c1d295df0a.gif");
-    height: 32px;
-    width: 23px;
-}
-.msg-chat .emote.NOSHOT {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.NOSHOT_OG {
     background-image: url("665ad43c9e90d.png");
     height: 30px;
