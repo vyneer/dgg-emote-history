@@ -832,6 +832,22 @@
     ]
   },
   {
+    "prefix": "coMMMMfy",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.26.0/emotes/6478cc478bb89.png",
+        "name": "6478cc478bb89.png",
+        "mime": "image/png",
+        "height": 28,
+        "width": 33
+      }
+    ]
+  },
+  {
     "prefix": "Concerned",
     "creator": "",
     "twitch": false,
@@ -4652,22 +4668,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 34
-      }
-    ]
-  },
-  {
-    "prefix": "coMMMMfy",
-    "creator": "",
-    "twitch": false,
-    "theme": 4,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.26.0/emotes/6478cc478bb89.png",
-        "name": "6478cc478bb89.png",
-        "mime": "image/png",
-        "height": 28,
-        "width": 33
       }
     ]
   },

@@ -466,6 +466,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.coMMMMfy {
+    background-image: url("6478cc478bb89.png");
+    height: 28px;
+    width: 33px;
+}
+.msg-chat .emote.coMMMMfy {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.Concerned {
     background-image: url("66ad4e190ce0c.png");
     height: 32px;
@@ -2616,15 +2625,6 @@
 .msg-chat .emote.ComfyFerret {
     margin-top: -32px;
     top: 8px;
-}
-.emote.coMMMMfy {
-    background-image: url("6478cc478bb89.png");
-    height: 28px;
-    width: 33px;
-}
-.msg-chat .emote.coMMMMfy {
-    margin-top: -28px;
-    top: 7px;
 }
 .emote.COOMfy {
     background-image: url("6478cc9391442.png");
