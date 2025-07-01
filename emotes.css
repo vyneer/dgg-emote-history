@@ -1915,6 +1915,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.PepoThink {
+    background-image: url("5c2bbd6f0d004.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.PepoThink {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.PepoTurkey {
     background-image: url("665b0bc2acb5f.png");
     height: 28px;

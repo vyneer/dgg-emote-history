@@ -3408,6 +3408,22 @@
     ]
   },
   {
+    "prefix": "PepoThink",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.26.0/emotes/5c2bbd6f0d004.png",
+        "name": "5c2bbd6f0d004.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "PepoTurkey",
     "creator": "",
     "twitch": false,
