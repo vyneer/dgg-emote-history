@@ -3616,22 +3616,6 @@
     ]
   },
   {
-    "prefix": "retardJAM",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.26.0/emotes/660a98ccc55a6.gif",
-        "name": "660a98ccc55a6.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 43
-      }
-    ]
-  },
-  {
     "prefix": "RIPBOZO",
     "creator": "",
     "twitch": false,
