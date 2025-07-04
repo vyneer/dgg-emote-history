@@ -384,7 +384,7 @@
     ]
   },
   {
-    "prefix": "BLADE",
+    "prefix": "BLADE_OG",
     "creator": "Igor",
     "twitch": false,
     "theme": 1,
@@ -1264,22 +1264,6 @@
     ]
   },
   {
-    "prefix": "DuckerZ",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.26.0/emotes/5c2bbc5803fc3.png",
-        "name": "5c2bbc5803fc3.png",
-        "mime": "image/png",
-        "height": 26,
-        "width": 56
-      }
-    ]
-  },
-  {
     "prefix": "DURRSTINY",
     "creator": "",
     "twitch": false,
@@ -2108,6 +2092,22 @@
         "mime": "image/png",
         "height": 32,
         "width": 35
+      }
+    ]
+  },
+  {
+    "prefix": "JulyFourth",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.26.0/emotes/66864d6d9b88d.png",
+        "name": "66864d6d9b88d.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
       }
     ]
   },
