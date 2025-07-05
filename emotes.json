@@ -391,11 +391,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.26.0/emotes/66865111aa66e.png",
-        "name": "66865111aa66e.png",
+        "url": "https://cdn.destiny.gg/4.26.0/emotes/5dbc2afb17f2d.png",
+        "name": "5dbc2afb17f2d.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 32
+        "height": 30,
+        "width": 30
       }
     ]
   },
@@ -1265,17 +1265,17 @@
   },
   {
     "prefix": "DuckerZ",
-    "creator": "FizzyLongstockings",
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.26.0/emotes/672aae95cd9c1.png",
-        "name": "672aae95cd9c1.png",
+        "url": "https://cdn.destiny.gg/4.26.0/emotes/5c2bbc5803fc3.png",
+        "name": "5c2bbc5803fc3.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 54
+        "height": 26,
+        "width": 56
       }
     ]
   },
@@ -2108,22 +2108,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 35
-      }
-    ]
-  },
-  {
-    "prefix": "JulyFourth",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.26.0/emotes/66864d6d9b88d.png",
-        "name": "66864d6d9b88d.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
       }
     ]
   },
@@ -4279,8 +4263,8 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.26.0/emotes/649f7775d052e.png",
-        "name": "649f7775d052e.png",
+        "url": "https://cdn.destiny.gg/4.26.0/emotes/669479b58554b.png",
+        "name": "669479b58554b.png",
         "mime": "image/png",
         "height": 28,
         "width": 53
