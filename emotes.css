@@ -1996,6 +1996,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.RainbowPls {
+    background-image: url("665ad21170a2a.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.RainbowPls {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.RapThis {
     background-image: url("66937d4109172.png");
     height: 28px;
