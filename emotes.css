@@ -961,6 +961,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.GatoPls {
+    background-image: url("683be6ae1e098.png");
+    height: 38px;
+    width: 45px;
+}
+.msg-chat .emote.GatoPls {
+    margin-top: -38px;
+    top: 9.5px;
+}
 .emote.GIGACHAD {
     background-image: url("624bb3cf81ae1.png");
     height: 32px;
