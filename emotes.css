@@ -4612,6 +4612,13 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
     background-repeat: no-repeat;
     filter: hue-rotate(10deg) brightness(0.9) saturate(1.1);
 }
+[data-username="destiny"] .emote.glorp {
+    height: 28px;
+    width: 28px;
+    background-position: -222px;
+    background-repeat: no-repeat;
+    filter: hue-rotate(10deg) brightness(0.9) saturate(1.1);
+}
 /* 
     RARE VARIATIONS 
 
