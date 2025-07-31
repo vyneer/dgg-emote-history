@@ -7578,11 +7578,8 @@ background-repeat:no-repeat;
     BASE
 */
 .emote.WEOW {
-    
     height: 28px;
     width: 28px;
-    background-position: 0;
-
 }
 
 .emote.WEOW:hover {
@@ -7775,6 +7772,7 @@ color:#ffaccc !important;
 }
 
 /* EMERALD */
+/* 
 .msg-chat.msg-user>time[data-unixtimestamp$="69696"]~.text .emote.WEOW:nth-child(1 of .WEOW) {
     height: 28px;
     width: 28px;
@@ -7785,9 +7783,10 @@ color:#ffaccc !important;
     background-position: -222px;
     background-repeat: no-repeat;
 }
+*/
 
 /* DIAMOND */
-.msg-chat.msg-user>time[data-unixtimestamp$="420696"]~.text .emote.WEOW:nth-child(1 of .WEOW) {
+.msg-chat.msg-user>time[data-unixtimestamp$="69696"]~.text .emote.WEOW:nth-child(1 of .WEOW) {
     height: 28px;
     width: 28px;
     animation: RARE-DIAMOND 1.2s 1, RARE-DIAMOND-PULSATE 1.2s infinite 1.2s linear;
@@ -7795,6 +7794,18 @@ color:#ffaccc !important;
     transform: scale(1.25);
     transition: all .5s ease-out;
     background-position: -250px;
+    background-repeat: no-repeat;
+}
+
+/* RAINBOW*/
+.msg-chat.msg-user>time[data-unixtimestamp$="420696"]~.text .emote.WEOW:nth-child(1 of .WEOW) {
+    height: 28px;
+    width: 28px;
+    animation: RARE-RAINBOW 1.2s 1, RARE-RAINBOW-PULSATE 2.2s infinite 1.2s linear;
+    filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #18e9fd);
+    transform: scale(1.25);
+    transition: all .5s ease-out;
+    background-position: -194px;
     background-repeat: no-repeat;
 }
 
@@ -8055,17 +8066,17 @@ color:#ffaccc !important;
 @keyframes RARE-RAINBOW {
 
     30% {
-        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 15px #00FF00);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 15px #00FF00)  hue-rotate(0deg);
         transform: scale(1);
     }
 
     55% {
-        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 10px #FB00FF);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 10px #FB00FF) hue-rotate(180deg);
         transform: scale(1.5);
     }
 
     100% {
-        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #FF0000);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #FF0000) hue-rotate(360deg);
         transform: scale(1.2);
     }
 }
@@ -8073,23 +8084,23 @@ color:#ffaccc !important;
 @keyframes RARE-RAINBOW-PULSATE {
     0% {
         transform: scale(1.2) rotate(0deg);
-        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 4px #FF0000);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 4px #FF0000) hue-rotate(0deg);
     }
     25% {
         transform: scale(1.3) rotate(-2deg);
-        filter: brightness(1.15) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #80ff00);
+        filter: brightness(1.15) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #80ff00) hue-rotate(90deg);
     }
     50% {
         transform: scale(1.4) rotate(1deg);
-        filter: brightness(1.15) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 7px #00ffff);
+        filter: brightness(1.15) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 7px #00ffff) hue-rotate(180deg);
     }
     75% {
         transform: scale(1.3) rotate(3deg);
-        filter: brightness(1.05) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #9f00ff);
+        filter: brightness(1.05) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 5px #9f00ff) hue-rotate(270deg);
     }
     100% {
         transform: scale(1.2) rotate(0deg);
-        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 4px #FF0000);
+        filter: brightness(1) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 4px #FF0000) hue-rotate(360deg);
     }
 }
 .emote.WICKED {
