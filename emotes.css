@@ -835,6 +835,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.FellForItAgain {
+    background-image: url("688e34e8a51c3.png");
+    height: 128px;
+    width: 19200px;
+}
+.msg-chat .emote.FellForItAgain {
+    margin-top: -128px;
+    top: 32px;
+}
 .emote.FerretLOL {
     background-image: url("5c2bbc8b86ce5.png");
     height: 30px;
@@ -4317,6 +4326,28 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
     background-position: -1140px;
 }
 */
+@keyframes FellForItAgain-anim {
+  100% { background-position: -4768px 0px; }
+}
+@keyframes FellForItAgain-hover {
+  100% { background-position: -4768px 0px; }
+}
+.emote.FellForItAgain {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-image: url('https://cdn.destiny.gg/4.27.0/emotes/688e34e8a51c3.png');
+  background-position: 0px 0px;
+  background-size: 4800px 32px;
+  background-repeat: no-repeat;
+  transform: translateY(-24px);
+  animation: FellForItAgain-anim 3.5s steps(149) 4;
+}
+.emote.FellForItAgain:hover {
+  animation: FellForItAgain-hover 3.5s steps(149) infinite;
+}
 /*
 [data-username="kelly_jean"] .emote.FISHIES {
     visibility: hidden;
