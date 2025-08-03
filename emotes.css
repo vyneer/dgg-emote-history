@@ -1690,6 +1690,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.NoThanks {
+    background-image: url("668264c2cef58.png");
+    height: 32px;
+    width: 35px;
+}
+.msg-chat .emote.NoThanks {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.NOTMYTEMPO {
     background-image: url("5c2bbd3815115.png");
     height: 30px;
