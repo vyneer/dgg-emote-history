@@ -3008,6 +3008,22 @@
     ]
   },
   {
+    "prefix": "NoThanks",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.27.0/emotes/668264c2cef58.png",
+        "name": "668264c2cef58.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 35
+      }
+    ]
+  },
+  {
     "prefix": "NOTMYTEMPO",
     "creator": null,
     "twitch": false,
