@@ -1411,6 +1411,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.MICROAGGRESSIONS {
+    background-image: url("688fb263e34f4.png");
+    height: 32px;
+    width: 27px;
+}
+.msg-chat .emote.MICROAGGRESSIONS {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Milkerino {
     background-image: url("668266f42a771.png");
     height: 30px;

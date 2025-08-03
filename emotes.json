@@ -2512,6 +2512,22 @@
     ]
   },
   {
+    "prefix": "MICROAGGRESSIONS",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.27.0/emotes/688fb263e34f4.png",
+        "name": "688fb263e34f4.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 27
+      }
+    ]
+  },
+  {
     "prefix": "Milkerino",
     "creator": "Katerino",
     "twitch": false,
