@@ -3076,6 +3076,19 @@ filter: contrast(1) saturate(1) brightness(1.25);
   0% { transform: translate(102px, 0) rotate(0deg) scale(-1,1); transform-origin: -36px 32px; z-index: 0; }
   20%, 100% { transform: translate(102px, 0) rotate(-20deg) scale(-1,1); transform-origin: -36px 32px; z-index: 0; }
 }
+
+/* Rainbow animation for tier 5 losers */
+@keyframes rainbow-hue {
+  0% { filter: brightness(2.5) hue-rotate(0deg) saturate(2.5); }
+  14.28% { filter: brightness(2.5) hue-rotate(51deg) saturate(2.5); } /* Red to Orange */
+  28.56% { filter: brightness(2.5) hue-rotate(102deg) saturate(2.5); } /* Orange to Yellow */
+  42.84% { filter: brightness(2.5) hue-rotate(153deg) saturate(2.5); } /* Yellow to Green */
+  57.12% { filter: brightness(2.5) hue-rotate(204deg) saturate(2.5); } /* Green to Blue */
+  71.4% { filter: brightness(2.5) hue-rotate(255deg) saturate(2.5); } /* Blue to Indigo */
+  85.68% { filter: brightness(2.5) hue-rotate(306deg) saturate(2.5); } /* Indigo to Violet */
+  100% { filter: brightness(2.5) hue-rotate(360deg) saturate(2.5); } /* Back to Red */
+}
+
 .emote.BLADE {
     animation: BLADE-anim-swing 0.25s 2 .25s, BLADE-anim-stab 0.75s 1 0.75s linear, BLADE-path 0.325s 1 ease-in, BLADE-hold 0.325s 1 ease-in-out;
 }
@@ -3102,6 +3115,25 @@ filter: contrast(1) saturate(1) brightness(1.25);
 }
 .msg-chat.msg-user .user.flair13 ~ .text .emote.BLADE {
   filter: brightness(2) hue-rotate(210deg) saturate(2);
+}
+
+/* Tier 5 subscribers (flair42) get rainbow sword blade */
+.msg-chat.msg-user .user.flair42 ~ .text .emote.BLADE {
+  animation: BLADE-anim-swing 0.25s 2 .25s, BLADE-anim-stab 0.75s 1 0.75s linear, BLADE-path 0.325s 1 ease-in, BLADE-hold 0.325s 1 ease-in-out, rainbow-hue 2s infinite linear;
+}
+
+.msg-chat.msg-user .user.flair42 ~ .text .emote.BLADE + .emote.BLADE, 
+.msg-chat.msg-user .user.flair42 ~ .text .emote.BLADE:nth-of-type(1), 
+.msg-chat.msg-user .user.flair42 ~ .text .emote.RapThis + .emote.BLADE, 
+.msg-chat.msg-user .user.flair42 ~ .text .emote.Clap + .emote.BLADE, 
+.msg-chat.msg-user .user.flair42 ~ .text .chat-user + .emote.BLADE {
+  animation: BLADE-anim-swing-flip .25s 2 .25s, BLADE-anim-stab-flip .75s 1 .75s linear, BLADE-path 0.325s 1 ease-in, BLADE-hold-flip 0.325s 1 ease-in-out, rainbow-hue 2s infinite linear;
+}
+
+.msg-chat.msg-user .user.flair42 ~ .text .emote.BLADE:only-of-type, 
+.msg-chat.msg-user .user.flair42 ~ .text .emote + .emote.BLADE:last-of-type, 
+.msg-chat.msg-user .user.flair42 ~ .text .emote.BLADE:last-of-type {
+  animation: BLADE-anim-swing .25s 3, BLADE-anim-stab .75s 1 .75s linear, BLADE-path 0.325s 1 ease-in, BLADE-hold 0.325s 1 ease-in-out, rainbow-hue 2s infinite linear;
 }
 
 @keyframes GIGABLADE {
