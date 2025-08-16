@@ -3888,6 +3888,22 @@
     ]
   },
   {
+    "prefix": "Skip",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.28.0/emotes/68a0c95d935c5.gif",
+        "name": "68a0c95d935c5.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "SLEEPSTINY",
     "creator": null,
     "twitch": false,
@@ -3980,6 +3996,22 @@
         "mime": "image/png",
         "height": 30,
         "width": 35
+      }
+    ]
+  },
+  {
+    "prefix": "SNIFFA",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.28.0/emotes/68a0c94e9e7fe.gif",
+        "name": "68a0c94e9e7fe.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
       }
     ]
   },

@@ -2185,6 +2185,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.Skip {
+    background-image: url("68a0c95d935c5.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Skip {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.SLEEPSTINY {
     background-image: url("5c2bbdc90339b.png");
     height: 30px;
@@ -2238,6 +2247,15 @@
 .msg-chat .emote.SNAP {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.SNIFFA {
+    background-image: url("68a0c94e9e7fe.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.SNIFFA {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.SOTRIGGERED {
     background-image: url("665a5b6e420fb.png");
