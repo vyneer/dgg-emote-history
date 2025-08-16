@@ -1204,6 +1204,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.JustCantProveItYet {
+    background-image: url("68a0b5e932890.png");
+    height: 32px;
+    width: 6665px;
+}
+.msg-chat .emote.JustCantProveItYet {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Kappa {
     background-image: url("5c2bbcd46c08e.png");
     height: 30px;
@@ -5384,6 +5393,25 @@ transform: rotate(2deg) translate(1px, 2px);
 .emote.JAMSTINY:hover {
     animation: JAMSTINY-anim-hover 0.69s infinite ease-out;
 }
+@keyframes JustCantProveItYet-anim {
+  100% { background-position: -6665px; }
+}
+
+@keyframes JustCantProveItYet-hover {
+  100% { background-position: -6665px; }
+}
+
+.emote.JustCantProveItYet {
+  width: 43px;
+  background-position: 0px;
+  background-size: 6665px 32px;
+  animation: JustCantProveItYet-anim 6s steps(155) 4;
+}
+
+.emote.JustCantProveItYet:hover {
+  animation: JustCantProveItYet-hover 6s steps(155) infinite;
+}
+
 .emote.KEIKAKU{
 width:31px; 
 height:34px; 
