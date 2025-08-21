@@ -3072,6 +3072,22 @@
     ]
   },
   {
+    "prefix": "NOWWHAT",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.28.0/emotes/68a69a3add9df.png",
+        "name": "68a69a3add9df.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 78
+      }
+    ]
+  },
+  {
     "prefix": "OBJECTION",
     "creator": null,
     "twitch": false,

@@ -1726,6 +1726,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.NOWWHAT {
+    background-image: url("68a69a3add9df.png");
+    height: 32px;
+    width: 78px;
+}
+.msg-chat .emote.NOWWHAT {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.OBJECTION {
     background-image: url("61a01c294da2e.png");
     height: 30px;
