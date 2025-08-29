@@ -1843,6 +1843,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.peepoHug {
+    background-image: url("68b20863950b7.png");
+    height: 32px;
+    width: 37px;
+}
+.msg-chat .emote.peepoHug {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.peepoRiot {
     background-image: url("5e9a25016d376.png");
     height: 32px;
