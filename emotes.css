@@ -287,9 +287,9 @@
     top: 7.5px;
 }
 .emote.Cabge {
-    background-image: url("67ebd9718872b.png");
+    background-image: url("68b45a3ec6fe2.png");
     height: 30px;
-    width: 42px;
+    width: 84px;
 }
 .msg-chat .emote.Cabge {
     margin-top: -30px;
@@ -3366,6 +3366,24 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.GIGACHAD + .emote.BoomerSippy:hover{
   animation: BoomerSippy-right-hover 1.5s 1, GIGASIP 1.5s 1 ease-out;
 }  
+.emote.Cabge {
+    height: 30px;
+    width: 42px;
+    background-position: 0px;
+    background-repeat: no-repeat;
+}
+
+/* PURPLE */
+.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.Cabge:first-of-type {
+    height: 30px;
+    width: 42px;
+    animation: RARE-PURPLE 1.2s 1, RARE-PURPLE-PULSATE 1.2s infinite 1.2s linear;
+    filter: brightness(1) drop-shadow(0px 0px 2px #e1e6ff) drop-shadow(0px 0px 5px #8b5cf6);
+    transform: scale(1.10);
+    transition: all .5s ease-out;
+    background-position: -42px 0;
+    background-repeat: no-repeat;
+}
 @keyframes catJAM-anim {
   100% { background-position: -7144px; }
 }
