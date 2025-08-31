@@ -2624,6 +2624,22 @@
     ]
   },
   {
+    "prefix": "MODS",
+    "creator": "wheezy",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.28.0/emotes/68b44b9c7d3a2.gif",
+        "name": "68b44b9c7d3a2.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 43
+      }
+    ]
+  },
+  {
     "prefix": "monkaGun",
     "creator": "MrGemzar / cybervegan",
     "twitch": false,

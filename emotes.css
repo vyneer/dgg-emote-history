@@ -1474,6 +1474,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.MODS {
+    background-image: url("68b44b9c7d3a2.gif");
+    height: 32px;
+    width: 43px;
+}
+.msg-chat .emote.MODS {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.monkaGun {
     background-image: url("660fe8de7a5d9.png");
     height: 32px;
