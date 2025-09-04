@@ -4886,7 +4886,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 */
 
 /* GOLD */
-.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.glorp:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="696"]~.text .emote.glorp:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
@@ -4898,7 +4898,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 }
 
 /* PLATINUM */
-.msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text .emote.glorp:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="4206"]~.text .emote.glorp:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-PLATINUM 1.2s 1, RARE-PLATINUM-PULSATE 1.2s infinite 1.2s linear;
@@ -4910,7 +4910,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 }
 
 /* EMERALD */
-.msg-chat.msg-user>time[data-unixtimestamp$="6969"]~.text .emote.glorp:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="69694"]~.text .emote.glorp:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-EMERALD 1.2s 1, RARE-EMERALD-PULSATE 1.2s infinite 1.2s linear;
@@ -4922,7 +4922,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
 }
 
 /* DIAMOND */
-.msg-chat.msg-user>time[data-unixtimestamp$="42069"]~.text .emote.glorp:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="420696"]~.text .emote.glorp:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-DIAMOND 1.2s 1, RARE-DIAMOND-PULSATE 1.2s infinite 1.2s linear;
@@ -7882,7 +7882,7 @@ color:#ffaccc !important;
 
 /* GOLD */
 /*
-.msg-chat.msg-user>time[data-unixtimestamp$="969"]~.text .emote.WEOW:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.WEOW:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-GOLD 1.2s 1, RARE-GOLD-PULSATE 1.2s infinite 1.2s linear;
@@ -7895,7 +7895,7 @@ color:#ffaccc !important;
 */
 /* PLATINUM */
 /*
-.msg-chat.msg-user>time[data-unixtimestamp$="4209"]~.text .emote.WEOW:first-of-type {
+.msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text .emote.WEOW:first-of-type {
     height: 28px;
     width: 28px;
     animation: RARE-PLATINUM 1.2s 1, RARE-PLATINUM-PULSATE 1.2s infinite 1.2s linear;
@@ -7906,10 +7906,10 @@ color:#ffaccc !important;
     background-repeat: no-repeat;
 }*/
 /* NEW GOLD */
-.msg-chat.msg-user>time[data-unixtimestamp$="0070"]~.text .emote.WEOW:nth-child(1 of .WEOW),
-.msg-chat.msg-user>time[data-unixtimestamp$="0117"]~.text .emote.WEOW:nth-child(1 of .WEOW),
-.msg-chat.msg-user>time[data-unixtimestamp$="0666"]~.text .emote.WEOW:nth-child(1 of .WEOW),
-.msg-chat.msg-user>time[data-unixtimestamp$="0420"]~.text .emote.WEOW:nth-child(1 of .WEOW),
+.msg-chat.msg-user>time[data-unixtimestamp$="007"]~.text .emote.WEOW:nth-child(1 of .WEOW),
+.msg-chat.msg-user>time[data-unixtimestamp$="117"]~.text .emote.WEOW:nth-child(1 of .WEOW),
+.msg-chat.msg-user>time[data-unixtimestamp$="666"]~.text .emote.WEOW:nth-child(1 of .WEOW),
+.msg-chat.msg-user>time[data-unixtimestamp$="420"]~.text .emote.WEOW:nth-child(1 of .WEOW),
 .msg-chat.msg-user>time[data-unixtimestamp$="1337"]~.text .emote.WEOW:nth-child(1 of .WEOW) {
     height: 28px;
     width: 28px;
@@ -7923,7 +7923,7 @@ color:#ffaccc !important;
 
 /* EMERALD */
 /* 
-.msg-chat.msg-user>time[data-unixtimestamp$="69696"]~.text .emote.WEOW:nth-child(1 of .WEOW) {
+.msg-chat.msg-user>time[data-unixtimestamp$="6969"]~.text .emote.WEOW:nth-child(1 of .WEOW) {
     height: 28px;
     width: 28px;
     animation: RARE-EMERALD 1.2s 1, RARE-EMERALD-PULSATE 1.2s infinite 1.2s linear;
