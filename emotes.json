@@ -4832,6 +4832,22 @@
     ]
   },
   {
+    "prefix": "Yoda1",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.30.0/emotes/665affdd963e2.png",
+        "name": "665affdd963e2.png",
+        "mime": "image/png",
+        "height": 28,
+        "width": 28
+      }
+    ]
+  },
+  {
     "prefix": "YouWouldntGetIt",
     "creator": "",
     "twitch": false,

@@ -2716,6 +2716,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.Yoda1 {
+    background-image: url("665affdd963e2.png");
+    height: 28px;
+    width: 28px;
+}
+.msg-chat .emote.Yoda1 {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.YouWouldntGetIt {
     background-image: url("673dd35402bc7.png");
     height: 32px;
