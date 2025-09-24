@@ -1609,6 +1609,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.nathanSenpai {
+    background-image: url("665ade0e3628c.png");
+    height: 28px;
+    width: 28px;
+}
+.msg-chat .emote.nathanSenpai {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.nathanTiny1 {
     background-image: url("665ade28c2b3e.png");
     height: 28px;

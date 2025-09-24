@@ -2864,6 +2864,22 @@
     ]
   },
   {
+    "prefix": "nathanSenpai",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.34.0/emotes/665ade0e3628c.png",
+        "name": "665ade0e3628c.png",
+        "mime": "image/png",
+        "height": 28,
+        "width": 28
+      }
+    ]
+  },
+  {
     "prefix": "nathanTiny1",
     "creator": "",
     "twitch": false,
