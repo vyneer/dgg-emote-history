@@ -736,6 +736,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.EatFresh {
+    background-image: url("68da0bbd546a0.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.EatFresh {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ECH {
     background-image: url("5fad98908092e.png");
     height: 32px;
@@ -994,6 +1003,15 @@
     width: 29px;
 }
 .msg-chat .emote.GIGACHAD {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.GLIZZY {
+    background-image: url("68da0dbb15152.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.GLIZZY {
     margin-top: -32px;
     top: 8px;
 }
@@ -2339,9 +2357,9 @@
     top: 8px;
 }
 .emote.Stare {
-    background-image: url("66fb8bd2d7a04.png");
+    background-image: url("68da0d246cbe9.png");
     height: 32px;
-    width: 32px;
+    width: 37px;
 }
 .msg-chat .emote.Stare {
     margin-top: -32px;
