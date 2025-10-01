@@ -5294,5 +5294,21 @@
         "width": 32
       }
     ]
+  },
+  {
+    "prefix": "WhiplashIn5",
+    "creator": "JaydrVernanda",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 1,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.35.0/emotes/68dcdcec45b9a.gif",
+        "name": "68dcdcec45b9a.gif",
+        "mime": "image/gif",
+        "height": 25,
+        "width": 60
+      }
+    ]
   }
 ]

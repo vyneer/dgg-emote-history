@@ -2977,6 +2977,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.WhiplashIn5 {
+    background-image: url("68dcdcec45b9a.gif");
+    height: 25px;
+    width: 60px;
+}
+.msg-chat .emote.WhiplashIn5 {
+    margin-top: -25px;
+    top: 6.25px;
+}
 /* Halloween version made by transpeoplearefine */
 .emote.AMAZIN {
     width: 53px;
