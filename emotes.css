@@ -4302,17 +4302,17 @@ transition:all 2s;
 /* Animation made by Igor */
 @keyframes COGGERS-anim {
     0% { transform: rotate(0deg); }
-    100% { transform: rotate(1080deg); }
+    100% { transform: rotate(3600deg); }
 }
 @keyframes COGGERS-anim-hover {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
 .emote.COGGERS {
-    animation: COGGERS-anim 2.4s 1 cubic-bezier(0.15, 0, 0.85, 1);
+    animation: COGGERS-anim 4s 1 cubic-bezier(0.00, 0, 0.90, 1);
 }
 .emote.COGGERS:hover {
-    animation: COGGERS-anim-hover 0.8s infinite linear;
+    animation: COGGERS-anim-hover 0.4s infinite linear;
 }
 /* Done by melun & legendarypotatoe*/
 
@@ -8280,6 +8280,15 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 }
 
 .emote.TRIAD {
+  background-position: 44px;
+  width: 44px;
+  margin-left: -4px;
+  margin-right: -4px;
+  transform: translate(0, 3px);
+  animation: TRIAD steps(120) 4s 1;
+}
+
+.emote.TRIAD:only-child {
   background-position: 44px;
   width: 44px;
   margin-left: -4px;
