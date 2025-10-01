@@ -513,14 +513,14 @@
   },
   {
     "prefix": "Cabge",
-    "creator": "cweetron",
+    "creator": "IOBOBC",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.35.0/emotes/68b45a3ec6fe2.png",
-        "name": "68b45a3ec6fe2.png",
+        "url": "https://cdn.destiny.gg/4.35.0/emotes/68dd4864b5e7a.png",
+        "name": "68dd4864b5e7a.png",
         "mime": "image/png",
         "height": 30,
         "width": 84
