@@ -7134,6 +7134,34 @@ rotate:3deg;
 .emote.PARDNER:hover {
     animation: PARDNER-kick-hover 2s infinite ease-in-out;
 }
+[data-username="cyver"] .emote.PEPE {
+       animation: RARE-PEPE-PULSATE 3s infinite linear;
+}
+[data-username="prsek"] .emote.PEPE {
+       animation: RARE-PEPE-PULSATE 3s infinite linear;
+}
+
+@keyframes RARE-PEPE-PULSATE {
+    0% {
+        transform: scale(1.05) rotate(0deg);
+        filter: hue-rotate(-15deg) brightness(1.2) saturate(1.35) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    25% {
+        transform: scale(1.025) rotate(1deg);
+       filter: hue-rotate(-15deg) brightness(1.25) saturate(1.5) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    75% {
+        transform: scale(1.1) rotate(-1deg);
+       filter: hue-rotate(-15deg) brightness(1.35) saturate(1.6) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    100% {
+        transform: scale(1.05) rotate(0deg);
+        filter: hue-rotate(-15deg) brightness(1.2) saturate(1.35) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+}
 @keyframes PepeHands-anim {
     0% { transform: translate(0px, 0px) rotate(40deg); }
     100% { transform: translate(-58px, 58px) rotate(40deg); }
@@ -9153,6 +9181,32 @@ color:#ffaccc !important;
 
 .emote.YAP:hover {
   animation: YAP-hover infinite steps(10) forwards  .55s;
+}
+[data-username="jaydrvernanda"] .emote.YEE {
+       animation: RARE-YEE-PULSATE 3s infinite linear;
+}
+
+
+@keyframes RARE-YEE-PULSATE {
+    0% {
+        transform: scale(1.05) rotate(0deg);
+        filter: hue-rotate(-20deg) brightness(1.1) saturate(1.25) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    25% {
+        transform: scale(1.025) rotate(1deg);
+       filter: hue-rotate(-20deg) brightness(1.15) saturate(1.4) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    75% {
+        transform: scale(1.1) rotate(-1deg);
+       filter: hue-rotate(-20deg) brightness(1.25) saturate(1.5) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
+
+    100% {
+        transform: scale(1.05) rotate(0deg);
+        filter: hue-rotate(-20deg) brightness(1.1) saturate(1.25) contrast(1.25) drop-shadow(0px 0px 2px #fff6e1) drop-shadow(0px 0px 3px #fec947);
+    }
 }
 @keyframes YEEHAW-anim {
   5% { transform: rotate3d(0, 0, 1, -90deg) scale(1.5, 1); top: 34px; left: 14px; }

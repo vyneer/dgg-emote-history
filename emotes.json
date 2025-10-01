@@ -3409,7 +3409,7 @@
   },
   {
     "prefix": "PEPE",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
@@ -4785,7 +4785,7 @@
   },
   {
     "prefix": "YEE",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
