@@ -6233,7 +6233,7 @@ transform: rotate(4deg) translate(1px, 2px);
   100% { transform: rotate(0deg); transform-origin: 50% 30px; }
 }
 .emote.JAMSTINY {
-    animation: JAMSTINY-anim 0.69s 5 ease-out;
+    animation: JAMSTINY-anim 0.69s 12 ease-out;
 }
 .emote.JAMSTINY:hover {
     animation: JAMSTINY-anim-hover 0.69s infinite ease-out;
