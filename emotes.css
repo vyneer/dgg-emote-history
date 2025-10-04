@@ -2123,13 +2123,13 @@
     top: 8px;
 }
 .emote.RATTED {
-    background-image: url("67ebde3eea7da.png");
-    height: 35px;
-    width: 35px;
+    background-image: url("68e193b0b1be5.png");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.RATTED {
-    margin-top: -35px;
-    top: 8.75px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.RaveDoge {
     background-image: url("6527c72c12be4.png");
@@ -7553,6 +7553,39 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
   margin-right: 0;
   transform: scale(1);
 }
+/* Halloween version made by T9Parker */
+@keyframes RATTED-anim {
+    0% { top: -45px; }
+    99% { top: 32px; }
+    100%{ top: 32px; }
+}
+.emote.RATTED:before{
+    content: "✨";
+    text-indent: 0;
+    font-size: 14px;
+    position: absolute;
+    left:-5px;
+    top:-25px;
+    animation: RATTED-anim 1.1s 6 ease ;
+//🚫 ⛔ ❌ 🛑
+}
+.emote.RATTED:after{
+    content: "✨";
+    text-indent: 0;
+    font-size: 14px;
+    position: absolute;
+    right:-4px;
+    top:-25px;
+    animation: RATTED-anim 1.4s 6 ease ;
+    animation-delay: 0.3s;
+}
+.emote.RATTED:hover::before {
+    animation: RATTED-anim 0.5s infinite alternate;
+}
+.emote.RATTED:hover::after {
+    animation: RATTED-anim 0.5s infinite;
+    animation-delay: 0.25s;
+}
 @keyframes RaveDoge-anim {
   100% {
     background-position: -2340px;
@@ -7764,7 +7797,7 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
 //🚫 ⛔ ❌ 🛑
 }
 .emote.Slumlord:after{
-    content: "⛔";
+    content: "❌";
     text-indent: 0;
     font-size: 14px;
     position: absolute;

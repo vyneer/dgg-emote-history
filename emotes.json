@@ -3777,17 +3777,17 @@
   },
   {
     "prefix": "RATTED",
-    "creator": "",
+    "creator": "yuniDev",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.35.0/emotes/67ebde3eea7da.png",
-        "name": "67ebde3eea7da.png",
+        "url": "https://cdn.destiny.gg/4.35.0/emotes/68e193b0b1be5.png",
+        "name": "68e193b0b1be5.png",
         "mime": "image/png",
-        "height": 35,
-        "width": 35
+        "height": 32,
+        "width": 32
       }
     ]
   },
