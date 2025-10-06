@@ -4362,6 +4362,7 @@ transition:all 2s;
 }
 
 .ComfyLily + .emote.BLADE {
+  background-image: url("https://cdn.destiny.gg/4.35.0/emotes/68e40c6bec468.png");
   width: 48px;
   height: 32px;
   top: 7px;
