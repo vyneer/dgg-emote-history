@@ -3438,6 +3438,13 @@ transition:all 2s;
   animation: BLADE-hover steps(70) 3.5s  infinite, BLADE-rainbow-hover 0.85s linear 4;
 }
 
+/*
+======= Lily Laser ======= made by melun & legendarypotatoe.
+*/
+.emote.ComfyLily + .emote.BLADE {
+  filter: hue-rotate(85deg) brightness(.9) saturate(14) contrast(1);
+}
+
 @keyframes Bleh-anim{
   0% {transform: rotate(0deg) translate(0, 0);}
   20% {transform: rotate(-10deg) translate(-3px, 2px);}
@@ -4345,41 +4352,58 @@ transition:all 2s;
 .emote.COGGERS:hover {
     animation: COGGERS-anim-hover 0.4s infinite linear;
 }
-/* Done by melun & legendarypotatoe*/
-
 /*
 ======= Laser =======
+===== edited to be compatible with the default laser 
+===== (and also actually work cause i forgot caps last time ;u;)
 */
-.ComfyLily + .emote.Blade {
-  //background-image: url("https://i.imgur.com/XrqsOoo.png");
-  width: 1632px;
+
+.ComfyLily + .emote.BLADE:has(+ .emote.BLADE) {
+  transform: translate(2px, 7px) rotate(7deg);
+  animation: BLADE-lily-anim 1 steps(100) 5s;
+}
+
+.ComfyLily + .emote.BLADE:has(+ .emote.BLADE):hover {
+    animation: BLADE-lily-anim-hover infinite steps(100) 5s;
+}
+
+.ComfyLily + .emote.BLADE {
+  background-image: url("https://i.imgur.com/RTuuSlQ.png");
+  width: 4800px;
   height: 32px;
   top: 7px;
   left: -16px;
+  filter: saturate(1);
+  margin-left: 0px;
   margin-right: -16px;
+  background-position: 0px;
+  transform: translate(0px, 4px);
   font-family: "Roboto", Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 
 
-.ComfyLily + .emote.Blade {
+.ComfyLily + .emote.BLADE {
     width: 48px;
     height: 32px;
-    animation: Blade-lily-anim 1 steps(34) 1600ms;
+    animation: BLADE-lily-anim 1 steps(100) 5s;
+    filter: hue-rotate(85deg) brightness(.9) saturate(14) contrast(1);
 }
 
-.ComfyLily + .emote.Blade:hover {
-    animation: Blade-lily-anim-hover infinite steps(34) 1600ms;
+.ComfyLily + .emote.BLADE:hover {
+    background-position: 0px;
+    animation: BLADE-lily-anim-hover infinite steps(100) 5s;
+    filter: hue-rotate(85deg) brightness(.9) saturate(14) contrast(1);
 }
 
-@keyframes Blade-lily-anim {
+@keyframes BLADE-lily-anim {
     100% {
-        background-position: -1632px;
+        background-position: -4800px;
     }
 }
 
-@keyframes Blade-lily-anim-hover {
+@keyframes BLADE-lily-anim-hover {
     100% {
-        background-position: -1632px;
+        background-position: -4800px;
     }
 }
 
@@ -4387,8 +4411,10 @@ transition:all 2s;
 ===== Lily ======
 */
 .emote.ComfyLily {
+  background-image: url("https://i.imgur.com/D3BtD8n.png");
   width: 1140px;
   height: 34px;
+  font-family: "Roboto", Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 
 .emote.ComfyLily {
