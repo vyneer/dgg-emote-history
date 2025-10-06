@@ -3397,9 +3397,11 @@ transition:all 2s;
 .emote.REE + .emote.BLADE {
   filter: hue-rotate(135deg) saturate(3);
 }
+/* ===BYPASSED FOR CUSTOM CSS IN COMFYLILY EMOTE===
 .emote.ComfyLily + .emote.BLADE {
   filter: hue-rotate(85deg) brightness(.9) saturate(14) contrast(1);
-}
+}*/
+
 /*
 .emote.ApeHands+.emote.BLADE {
     filter: invert(.95) saturate(0) brightness(2);
@@ -3438,12 +3440,6 @@ transition:all 2s;
   animation: BLADE-hover steps(70) 3.5s  infinite, BLADE-rainbow-hover 0.85s linear 4;
 }
 
-/*
-======= Lily Laser ======= made by melun & legendarypotatoe.
-*/
-.emote.ComfyLily + .emote.BLADE {
-  filter: hue-rotate(85deg) brightness(.9) saturate(14) contrast(1);
-}
 
 @keyframes Bleh-anim{
   0% {transform: rotate(0deg) translate(0, 0);}
@@ -4354,57 +4350,48 @@ transition:all 2s;
 }
 /*
 ======= Laser =======
-===== edited to be compatible with the default laser 
-===== (and also actually work cause i forgot caps last time ;u;)
+===== compatible with default laser setup =====
 */
 
 .ComfyLily + .emote.BLADE:has(+ .emote.BLADE) {
   transform: translate(2px, 7px) rotate(7deg);
-  animation: BLADE-lily-anim 1 steps(100) 5s;
+  animation: BLADE-lily-anim 5s steps(100) forwards;
 }
 
 .ComfyLily + .emote.BLADE:has(+ .emote.BLADE):hover {
-    animation: BLADE-lily-anim-hover infinite steps(100) 5s;
+  animation: BLADE-lily-anim-hover 5s steps(100) infinite;
 }
 
 .ComfyLily + .emote.BLADE {
-  background-image: url("https://i.imgur.com/RTuuSlQ.png");
-  width: 4800px;
+  background-image: url("https://i.imgur.com/RTuuSlQ.png"); 
+  width: 48px;
   height: 32px;
   top: 7px;
   left: -16px;
-  filter: saturate(1);
-  margin-left: 0px;
+  margin-left: 0;
   margin-right: -16px;
-  background-position: 0px;
+  background-position: 0;
   transform: translate(0px, 4px);
   font-family: "Roboto", Helvetica, "Trebuchet MS", Verdana, sans-serif;
-}
-
-
-.ComfyLily + .emote.BLADE {
-    width: 48px;
-    height: 32px;
-    animation: BLADE-lily-anim 1 steps(100) 5s;
-    filter: hue-rotate(85deg) brightness(.9) saturate(14) contrast(1);
+  animation: BLADE-lily-anim 5s steps(100) forwards;
 }
 
 .ComfyLily + .emote.BLADE:hover {
-    background-position: 0px;
-    animation: BLADE-lily-anim-hover infinite steps(100) 5s;
-    filter: hue-rotate(85deg) brightness(.9) saturate(14) contrast(1);
+  background-position: 0;
+  animation: BLADE-lily-anim-hover 5s steps(100) infinite;
 }
 
+/* Animation keyframes */
 @keyframes BLADE-lily-anim {
-    100% {
-        background-position: -4800px;
-    }
+  100% {
+    background-position: -4800px;
+  }
 }
 
 @keyframes BLADE-lily-anim-hover {
-    100% {
-        background-position: -4800px;
-    }
+  100% {
+    background-position: -4800px;
+  }
 }
 
 /*
@@ -4412,35 +4399,30 @@ transition:all 2s;
 */
 .emote.ComfyLily {
   background-image: url("https://i.imgur.com/D3BtD8n.png");
-  width: 1140px;
-  height: 34px;
-  font-family: "Roboto", Helvetica, "Trebuchet MS", Verdana, sans-serif;
-}
-
-.emote.ComfyLily {
   width: 76px;
   height: 34px;
   transform: scaleX(-1);
+  font-family: "Roboto", Helvetica, "Trebuchet MS", Verdana, sans-serif;
   animation: ComfyLily-anim 600ms steps(15) forwards;
   animation-delay: 600ms;
 }
 
 .emote.ComfyLily:hover {
-    animation: ComfyLily-anim-hover 600ms steps(15) infinite;
+  animation: ComfyLily-anim-hover 600ms steps(15) infinite;
   animation-fill-mode: forwards;
 }
 
-/* Animation for the first 3 frames */
+/* Lily Animation */
 @keyframes ComfyLily-anim {
   100% {
-    background-position: -1140px; /* Move 3 frames forward */
+    background-position: -1140px;
   }
 }
 
 @keyframes ComfyLily-anim-hover {
-    100% {
-        background-position: -1140px;
-    }
+  100% {
+    background-position: -1140px;
+  }
 }
 .emote.COOMER {
   animation: COOMER-anim 0.1s 20, COOMER-color 2s 1;
