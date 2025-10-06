@@ -1425,14 +1425,14 @@
   },
   {
     "prefix": "FeelsGimiMan",
-    "creator": "",
+    "creator": "rootbeer",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.35.0/emotes/665add3c69263.png",
-        "name": "665add3c69263.png",
+        "url": "https://cdn.destiny.gg/4.35.0/emotes/68e3ede3eb4c5.png",
+        "name": "68e3ede3eb4c5.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
