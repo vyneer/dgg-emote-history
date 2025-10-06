@@ -2081,17 +2081,17 @@
   },
   {
     "prefix": "INFESTINY",
-    "creator": "prsek",
+    "creator": "prsek & haesel",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.35.0/emotes/68caf683c03d7.png",
-        "name": "68caf683c03d7.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 41
+        "url": "https://cdn.destiny.gg/4.35.0/emotes/68e3fc993a0d4.gif",
+        "name": "68e3fc993a0d4.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 43
       }
     ]
   },
