@@ -215,7 +215,7 @@
     top: 8px;
 }
 .emote.BLADE {
-    background-image: url("61646d1070335.png");
+    background-image: url("68e405ce032b1.png");
     height: 30px;
     width: 6000px;
 }
@@ -3440,7 +3440,6 @@ transition:all 2s;
   animation: BLADE-hover steps(70) 3.5s  infinite, BLADE-rainbow-hover 0.85s linear 4;
 }
 
-
 @keyframes Bleh-anim{
   0% {transform: rotate(0deg) translate(0, 0);}
   20% {transform: rotate(-10deg) translate(-3px, 2px);}
@@ -4363,7 +4362,6 @@ transition:all 2s;
 }
 
 .ComfyLily + .emote.BLADE {
-  background-image: url("https://files.catbox.moe/3cc4vt.png"); 
   width: 48px;
   height: 32px;
   top: 7px;
@@ -4398,7 +4396,6 @@ transition:all 2s;
 ===== Lily ======
 */
 .emote.ComfyLily {
-  background-image: url("https://files.catbox.moe/713qe1.png");
   width: 76px;
   height: 34px;
   transform: scaleX(-1);
