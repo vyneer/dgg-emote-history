@@ -3287,22 +3287,18 @@ transition:all 2s;
 }
 
 
-.emote.BERN + .emote.KYSNOW:has(+ .emote.KYSNOW) {
-  animation: BERN-frames2 3 steps(14) .7s, BERN-frames3 1 steps(7) .35s 1.75s, BERN-shake 1 2s;
-}
-
-.emote.BERN + .emote.KYSNOW:has(+ .emote.KYSNOW):hover {
-  animation: BERN-frames2 3 steps(14) .7s, BERN-frames3 1 steps(7) .35s 1.75s, BERN-shake 1 2s;
-}
-
-.emote.BERN + .emote.KYSNOW {
+.emote.KYSNOW + .emote.BERN {
+  /* Swap background image for BERN only when directly after KYSNOW */
   background-image: url("https://cdn.destiny.gg/4.35.0/emotes/68e60ed51e50c.png");
+  background-position: 0 0;
   animation: BERN-frames2 3 steps(14) .7s, BERN-frames3 1 steps(7) .35s 1.75s, BERN-shake 1 2s;
+  width: 60px;
+  height: 30px;
 }
 
-.emote.BERN + .emote.KYSNOW:hover {
-  background-position: 0;
-  animation: BERN-frames2 3 steps(14) .7s, BERN-frames3 1 steps(7) .35s 1.75s, BERN-shake 1 2s;
+.emote.KYSNOW + .emote.BERN:hover {
+  background-position: 0 0;
+  animation: BERN-shake-hover infinite 1.55s, BERN-anim-repeat1 1 steps(10) .5s, BERN-anim-repeat2 infinite steps(14) .7s .5s;
 }
 @keyframes BibleThump-anim {
   0%, 100% {transform: scale(1) translate(0px, 0px); animation-timing-function: ease;}
