@@ -2305,15 +2305,15 @@
   },
   {
     "prefix": "KYSNOW",
-    "creator": " sadgw - 7TV",
+    "creator": "jojoP",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.35.0/emotes/68dc833f35304.gif",
-        "name": "68dc833f35304.gif",
-        "mime": "image/gif",
+        "url": "https://cdn.destiny.gg/4.35.0/emotes/68e60079a5018.png",
+        "name": "68e60079a5018.png",
+        "mime": "image/png",
         "height": 32,
         "width": 32
       }

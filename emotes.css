@@ -1295,7 +1295,7 @@
     top: 8px;
 }
 .emote.KYSNOW {
-    background-image: url("68dc833f35304.gif");
+    background-image: url("68e60079a5018.png");
     height: 32px;
     width: 32px;
 }
@@ -6301,6 +6301,53 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
 }
 @keyframes Klappa-anim-hover {
   100% { background-position: -76px; }
+}
+.emote.KYSNOW {
+    width: 32px;
+    height: 32px;
+    filter: brightness(1) saturate(1.2) drop-shadow(0 0 0.8px #66aaff);
+    background-repeat: no-repeat;
+    animation: KYSNOW-FLASH-STRONG 1.5s ease-in-out 1 forwards;
+    transition: filter 1s;
+}
+
+.emote.KYSNOW:hover {
+    filter: brightness(1) saturate(1.2) drop-shadow(0 0 0.8px #66aaff);
+    animation: KYSNOW-FLASH-STRONG 1.5s ease-in-out infinite,
+               KYSNOW-LIGHTNING-HOVER steps(1) 4.5s forwards infinite;
+    transition: filter 0.5s;
+}
+
+@keyframes KYSNOW-FLASH-STRONG {
+    0%, 50%, 100% {
+        opacity: 1;
+        filter: brightness(1) drop-shadow(0 0 0px #66aaff);
+    }
+    10%, 30%, 70%, 90% {
+        opacity: 0.8;
+        filter: brightness(1.3) drop-shadow(0 0 0.8px #9ad1ff);
+    }
+    15%, 85% {
+        opacity: 0.6;
+        filter: brightness(1.8) drop-shadow(0 0 1px #cce6ff);
+    }
+    20%, 80% {
+        opacity: 1;
+        filter: brightness(2) drop-shadow(0 0 1px #e6f0ff);
+    }
+    40%, 60% {
+        opacity: 0.8;
+        filter: brightness(1.4) drop-shadow(0 0 0.8px #a0c8ff);
+    }
+}
+
+@keyframes KYSNOW-LIGHTNING-HOVER {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 32px 0;
+    }
 }
 /* Halloween version made by T9Parker */
 /* Halloween version made by Igor (v2) */
