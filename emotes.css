@@ -2806,6 +2806,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.BLICKY {
+    background-image: url("68e82c9f95436.png");
+    height: 32px;
+    width: 1632px;
+}
+.msg-chat .emote.BLICKY {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.CheekerZ {
     background-image: url("5d9f61b03d501.png");
     height: 30px;
@@ -9669,6 +9678,69 @@ color:#ffaccc !important;
     background-position: -1728px;
   }
 }
+@keyframes BLICKY-anim {
+  from { background-position: 0 0; }
+  to { background-position: -1632px 0; }
+}
+
+@keyframes BLICKY-rotate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-3deg); }
+  25% { transform: rotate(-3deg); }
+  30% { transform: rotate(-6deg); }
+  40% { transform: rotate(2deg); }
+  45% { transform: rotate(-2deg); }
+  50% { transform: rotate(1deg); }
+  55% { transform: rotate(0deg); }
+  70% { transform: rotate(0deg); }
+  75% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  95% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes BLICKY-hover {
+  from { background-position: 0 0; }
+  to { background-position: -1632px 0; }
+}
+
+@keyframes BLICKY-hover-rotate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-3deg); }
+  25% { transform: rotate(-3deg); }
+  30% { transform: rotate(-6deg); }
+  40% { transform: rotate(2deg); }
+  45% { transform: rotate(-2deg); }
+  50% { transform: rotate(1deg); }
+  55% { transform: rotate(0deg); }
+  70% { transform: rotate(0deg); }
+  75% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  95% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.emote.BLICKY {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-size: 1632px 32px;
+  background-repeat: no-repeat;
+  transform-origin: 0% 100%;
+  transition: all .25s;
+  animation:
+    BLICKY-anim steps(51) 1.5s 2 1s,
+    BLICKY-rotate ease-out 4.5s 1 0.15s;
+}
+
+.emote.BLICKY:hover {
+  transform-origin: 0% 100%;
+  transition: all .25s;
+  animation:
+    BLICKY-hover steps(51) 1s infinite 0.15s,
+    BLICKY-hover-rotate ease-out 3.75s infinite 0.15s;
+}
+
 /* Halloween version made by T9Parker */
 @keyframes GRUGingOverIt-anim {
   0% { width: 62px; margin-right: -19px; z-index: 2; }

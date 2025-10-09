@@ -4992,6 +4992,22 @@
     ]
   },
   {
+    "prefix": "BLICKY",
+    "creator": "prsek",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.35.0/emotes/68e82c9f95436.png",
+        "name": "68e82c9f95436.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 1632
+      }
+    ]
+  },
+  {
     "prefix": "CheekerZ",
     "creator": "T9Parker ",
     "twitch": false,
