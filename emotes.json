@@ -640,6 +640,22 @@
     ]
   },
   {
+    "prefix": "ChokeDank",
+    "creator": "PeterFanley - 7tv",
+    "twitch": false,
+    "theme": 3,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.35.0/emotes/68dc871d21941.gif",
+        "name": "68dc871d21941.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "Chud",
     "creator": "",
     "twitch": false,
@@ -1052,22 +1068,6 @@
         "mime": "image/png",
         "height": 30,
         "width": 30
-      }
-    ]
-  },
-  {
-    "prefix": "DankChoke",
-    "creator": "PeterFanley - 7tv",
-    "twitch": false,
-    "theme": 3,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.35.0/emotes/68dc871d21941.gif",
-        "name": "68dc871d21941.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 32
       }
     ]
   },
