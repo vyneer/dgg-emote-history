@@ -4682,6 +4682,13 @@ transition:all 2s;
 /*
     USER SPECIFIC
 */
+
+.msg-chat.msg-user[data-username="prsek"]>.text .emote.dggL.dggL {
+    background-position: -608px;
+    background-repeat: no-repeat;
+    animation: none;
+}
+
 .msg-chat.msg-user[data-username="righttobeararmslol"]>.text .emote.dggL.dggL {
     background-position: -704px;
     background-repeat: no-repeat;
