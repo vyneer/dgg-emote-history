@@ -7464,7 +7464,7 @@ rotate:3deg;
     animation: pepeJAM-anim 666.6ms 16 ease-in-out -400ms, pepeJAM-glow 666.6ms 16 linear -400ms;
 }
 .emote.pepeJAM:nth-of-type(2n), .msg-chat.msg-emote .emote.pepeJAM {
-animation:pepeJAM-anim2 333.3ms -66.6ms linear 31;
+    animation:pepeJAM-anim-hover 333.3ms -66.6ms linear 31, pepeJAM-wave-hover 999.9ms -666.6ms linear 11;
 }
 .emote.pepeJAM:nth-of-type(2n)::before, .msg-chat.msg-emote .emote.pepeJAM::before {
     transform-origin: -5% 80%;
@@ -7484,7 +7484,7 @@ animation:pepeJAM-anim2 333.3ms -66.6ms linear 31;
     animation: pepeJAM-anim-hover 333.3ms -66.6ms linear 31,pepeJAM-wave-hover 999.9ms -666.6ms linear 11;
 }
 .msg-chat.msg-emote .emote.pepeJAM:nth-of-type(2n)::before  {
-animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
+    animation: pepeJAM-wave-hover 333.3ms -66.6ms linear 31;
 }
 /* Halloween version made by FFZ user Knightyyyyyyyyy https://www.frankerfacez.com/emoticon/392835-PepeLaugh */
 @keyframes PepeLaugh-anim {
