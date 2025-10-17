@@ -7085,6 +7085,54 @@ rotate:3deg;
         transform: scaleY(1); transform-origin: bottom;
     }
 }
+@keyframes NoTears-z {
+  0%, 100% { z-index: 2; }
+}
+@keyframes NoTears-z-hover {  
+  0%, 100% { z-index: 2; }
+}
+.emote.NoTears {
+  --t-NoTears: 0.7s;
+  background-repeat: no-repeat;
+  width: 69px;
+  background-position: 6px;
+  margin-left: -6px;
+  margin-right: -20px;
+  animation: NoTears-z var(--t-NoTears) 1;
+}
+.emote.NoTears:hover {
+  animation: NoTears-z-hover var(--t-NoTears) infinite;
+}
+@keyframes NoTears-anim {
+  0% { transform: rotate(-60deg) scaleX(.5); right: 47px; top: 12px; }
+  30% { transform: rotate(-120deg) scaleX(.5); right: 57px; top: 12px; animation-timing-function: linear; }
+  60% { transform: rotate(150deg) scaleX(.5); right: 17px; top: 1px; animation-timing-function: linear; }
+  100% {transform: rotate(500deg) scaleX(.5); right: -21px; top: 9px; animation-timing-function: linear; }
+}
+@keyframes NoTears-anim-hover {
+  0% { transform: rotate(-60deg) scaleX(.5); right: 47px; top: 12px; }
+  30% { transform: rotate(-120deg) scaleX(.5); right: 57px; top: 12px; animation-timing-function: linear; }
+  60% { transform: rotate(150deg) scaleX(.5); right: 17px; top: 1px; animation-timing-function: linear; }
+  100% {transform: rotate(500deg) scaleX(.5); right: -21px; top: 9px; animation-timing-function: linear; }
+}
+.emote.NoTears::before{
+    content: "🍌";
+    text-indent: 0;
+    color: white;
+    font-size: 17px;
+    line-height: initial;
+    position: absolute;
+    opacity: 1;
+    top: -34px;
+    text-shadow: none;
+    width: 17px;
+    transform: scaleX(.5) rotate(90deg);
+    transform-origin: 55% 55%;
+    animation: NoTears-anim var(--t-NoTears) 1 ease -.15s;
+}
+.emote.NoTears:hover::before {
+    animation: NoTears-anim-hover var(--t-NoTears) infinite ease;
+}
 /* Halloween version made by T9Parker */
 @keyframes OBJECTION-anim {
   0% { clip-path: polygon(0% 0%, 100% -16%, 100% -16%, 0% 100%); transform: rotate(0deg); }
