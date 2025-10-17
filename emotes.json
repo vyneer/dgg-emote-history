@@ -4000,6 +4000,22 @@
     ]
   },
   {
+    "prefix": "SISYPHUYS",
+    "creator": "spagoos - 7TV",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.35.0/emotes/68f1fa4d1c522.png",
+        "name": "68f1fa4d1c522.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "Skip",
     "creator": "",
     "twitch": false,

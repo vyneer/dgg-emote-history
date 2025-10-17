@@ -2248,6 +2248,15 @@
     margin-top: -36px;
     top: 9px;
 }
+.emote.SISYPHUYS {
+    background-image: url("68f1fa4d1c522.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.SISYPHUYS {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Skip {
     background-image: url("68a0c95d935c5.gif");
     height: 32px;
