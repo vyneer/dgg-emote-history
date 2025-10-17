@@ -7092,28 +7092,28 @@ rotate:3deg;
   0%, 100% { z-index: 2; }
 }
 .emote.NoTears {
-  --t-NoTears: 0.7s;
+  --t-NoTears: 0.9s;
   background-repeat: no-repeat;
   width: 69px;
   background-position: 6px;
   margin-left: -6px;
   margin-right: -20px;
-  animation: NoTears-z var(--t-NoTears) 1;
+  animation: NoTears-z var(--t-NoTears) 3;
 }
 .emote.NoTears:hover {
   animation: NoTears-z-hover var(--t-NoTears) infinite;
 }
 @keyframes NoTears-anim {
-  0% { transform: rotate(-60deg) scaleX(.5); right: 47px; top: 12px; }
-  30% { transform: rotate(-120deg) scaleX(.5); right: 57px; top: 12px; animation-timing-function: linear; }
-  60% { transform: rotate(150deg) scaleX(.5); right: 17px; top: 1px; animation-timing-function: linear; }
-  100% {transform: rotate(500deg) scaleX(.5); right: -21px; top: 9px; animation-timing-function: linear; }
+  0% { transform: rotate(-60deg) scaleX(.4); right: 47px; top: 12px; }
+  20% { transform: rotate(-120deg) scaleX(.4); right: 57px; top: 12px; animation-timing-function: linear; }
+  48% { transform: rotate(150deg) scaleX(.4); right: 17px; top: 1px; animation-timing-function: linear; }
+  80% {transform: rotate(500deg) scaleX(.4); right: -21px; top: 9px; animation-timing-function: linear; }
 }
 @keyframes NoTears-anim-hover {
-  0% { transform: rotate(-60deg) scaleX(.5); right: 47px; top: 12px; }
-  30% { transform: rotate(-120deg) scaleX(.5); right: 57px; top: 12px; animation-timing-function: linear; }
-  60% { transform: rotate(150deg) scaleX(.5); right: 17px; top: 1px; animation-timing-function: linear; }
-  100% {transform: rotate(500deg) scaleX(.5); right: -21px; top: 9px; animation-timing-function: linear; }
+  0% { transform: rotate(-60deg) scaleX(.4); right: 47px; top: 12px; }
+  20% { transform: rotate(-120deg) scaleX(.4); right: 57px; top: 12px; animation-timing-function: linear; }
+  48% { transform: rotate(150deg) scaleX(.4); right: 17px; top: 1px; animation-timing-function: linear; }
+  80% {transform: rotate(500deg) scaleX(.4); right: -21px; top: 9px; animation-timing-function: linear; }
 }
 .emote.NoTears::before{
     content: "🍌";
@@ -7126,9 +7126,9 @@ rotate:3deg;
     top: -34px;
     text-shadow: none;
     width: 17px;
-    transform: scaleX(.5) rotate(90deg);
+    transform: scaleX(.4) rotate(90deg);
     transform-origin: 55% 55%;
-    animation: NoTears-anim var(--t-NoTears) 1 ease -.15s;
+    animation: NoTears-anim var(--t-NoTears) 3 ease -.15s;
 }
 .emote.NoTears:hover::before {
     animation: NoTears-anim-hover var(--t-NoTears) infinite ease;
