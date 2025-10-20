@@ -9725,37 +9725,38 @@ color:#ffaccc !important;
 }
 
 .emote.ATAB:hover {
+    image-rendering: pixelated;
     animation: ATAB-anim-hover infinite steps(1) 1400ms;
 }
 
 @keyframes ATAB-anim {
     5% { background-position: -40px; }
-    10% { background-position: -80px; transform: skew(-20deg, -2deg);}
+    10% { background-position: -80px; transform: skew(-20deg, 0deg); image-rendering: pixelated; }
     15% { background-position: -120px; }
-    20% { background-position: -160px; transform: skew(-5deg, -2deg);}
+    20% { background-position: -160px; transform: skew(-5deg, 0deg); }
     25% { background-position: -200px; }
     30% { background-position: -240px; }
     35% { background-position: -280px; }
     40% { background-position: -320px; }
     45% { background-position: -360px; }
     85% { background-position: -400px; }
-    90% { background-position: -440px; transform: skew(-20deg, -2deg);}
-    95% { background-position: -480px; transform: skew(0deg, 0deg);}
+    90% { background-position: -440px; transform: skew(-20deg, 0deg); image-rendering: pixelated; }
+    95% { background-position: -480px; transform: skew(0deg, 0deg); }
     100% { background-position: -520px; }
 }
 
 @keyframes ATAB-anim-hover {
     5% { background-position: -40px; }
-    10% { background-position: -80px; transform: skew(-20deg, -2deg);}
+    10% { background-position: -80px; transform: skew(-20deg, 0deg); image-rendering: pixelated; }
     15% { background-position: -120px; }
-    20% { background-position: -160px; transform: skew(-5deg, -2deg);}
+    20% { background-position: -160px; transform: skew(-5deg, 0deg);}
     25% { background-position: -200px; }
     30% { background-position: -240px; }
     35% { background-position: -280px; }
     40% { background-position: -320px; }
     45% { background-position: -360px; }
     85% { background-position: -400px; }
-    90% { background-position: -440px; transform: skew(-20deg, -2deg);}
+    90% { background-position: -440px; transform: skew(-20deg, 0deg); image-rendering: pixelated; }
     95% { background-position: -480px; transform: skew(0deg, 0deg);}
     100% { background-position: -520px; }
 }
