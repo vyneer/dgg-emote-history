@@ -7891,6 +7891,33 @@ rotate:3deg;
     }
 }
 /* Halloween version made by Lumax */
+/* Animation by Igor */
+.emote.SICKO {
+  animation: SICKO-anim 0.1s 20, SICKO-color 2.3s 1;
+  transition: filter 0.2s;
+}
+.emote.SICKO:hover {
+  animation: SICKO-anim-hover 0.1s infinite;
+  filter: grayscale(1) sepia(1) hue-rotate(-25deg) saturate(5) brightness(1.1) drop-shadow(7px 3px 0.5px rgba(255, 191, 120, 0.55)) drop-shadow(14px 6px 1px rgba(255, 50, 0, 0.7));
+}
+@keyframes SICKO-anim {
+  0%, 25%, 50%, 75%, 100% {transform: translate(0px, 0px);}
+  12.5% {transform: translate(1.5px, -.5px) rotate(-2deg) scale(1.1);}
+  62.5% {transform: translate(-1.5px, .5px) rotate(2deg) scale(1.1);}
+  37.5% {transform: translate(-.5px, 1.5px) rotate(-2deg) scale(1.1);}
+  87.5% {transform: translate(.5px, -1.5px) rotate(2deg) scale(1.1);}
+}
+@keyframes SICKO-color{
+ 0%, 100% {filter: grayscale(0) sepia(0) hue-rotate(0deg) saturate(1) brightness(1) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));} 
+ 7%, 85% {filter: grayscale(1) sepia(1) hue-rotate(-25deg) saturate(5) brightness(1.1) drop-shadow(7px 3px 0.5px rgba(191, 93, 63, 0.55)) drop-shadow(14px 6px 1px rgba(191, 63, 0, 0.7));}
+}
+@keyframes SICKO-anim-hover {
+  0%, 25%, 50%, 75%, 100% {transform: translate(0px, 0px);}
+  12.5% {transform: translate(1.5px, -.5px) rotate(-2deg) scale(1.1);}
+  62.5% {transform: translate(-1.5px, .5px) rotate(2deg) scale(1.1);}
+  37.5% {transform: translate(-.5px, 1.5px) rotate(-2deg) scale(1.1);}
+  87.5% {transform: translate(.5px, -1.5px) rotate(2deg) scale(1.1);}
+}
 @keyframes Sippy-1s {
   0% { background-position: -22px; }
   100% { background-position: -1582px; }
