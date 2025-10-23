@@ -10042,3 +10042,6 @@ color:#ffaccc !important;
 .emote.SoDoge:hover {
     animation: SoDoge-anim-hover 2s infinite;
 }
+.msg-chat .greentext {
+  color: #b7731c;
+}
