@@ -10045,3 +10045,6 @@ color:#ffaccc !important;
 .msg-chat .greentext {
   color: #bf721f;
 }
+.onstreamchat .greentext {
+    color: #dedede;
+}
