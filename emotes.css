@@ -5362,7 +5362,7 @@ to   {  rotate: 4deg;}
     opacity: 0.6;
     top: -60px;
     left: 39px;
-    width: 59px;
+    width: 159px;
     animation: GIGACHAD-r 0.8s 2.2s 11 linear; filter: brightness(2.5) saturate(2);
 }
 .emote.GIGACHAD::after{
@@ -5375,7 +5375,7 @@ to   {  rotate: 4deg;}
     position: absolute;
     top: -60px;
     left: 39px;
-    width: 59px; filter: brightness(2.5) saturate(2);
+    width: 159px; filter: brightness(2.5) saturate(2);
     animation: GIGACHAD-r 0.8s 11 linear;
     animation-delay: 2.6s;
 }
