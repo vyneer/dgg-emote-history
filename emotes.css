@@ -6330,6 +6330,24 @@ transform: rotate(4deg) translate(1px, 2px);
   animation: JustCantProveItYet-hover 6s steps(155) infinite;
 }
 
+@keyframes JustCantProveItYet-combo {
+  0% { background-position: -3612px; }
+  100% { background-position: -6665px; }
+}
+
+@keyframes JustCantProveItYet-combo-hover {
+  0% { background-position: -3612px; }
+  100% { background-position: -6665px; }
+}
+
+.msg-chat.msg-emote .emote.JustCantProveItYet {
+  background-position: -6622px;
+  animation: JustCantProveItYet-combo 3s steps(71) 4;
+}
+
+.msg-chat.msg-emote .emote.JustCantProveItYet:hover {
+  animation: JustCantProveItYet-combo-hover 3s steps(71) infinite;
+}
 /* Halloween version made by nmwood */
 .emote.KEIKAKU{
 width:31px; 
