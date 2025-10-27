@@ -2087,13 +2087,13 @@
     top: 8px;
 }
 .emote.POOTUBE {
-    background-image: url("6521e16a0a39f.png");
-    height: 32px;
-    width: 23px;
+    background-image: url("653c2e3e247af.png");
+    height: 24px;
+    width: 24px;
 }
 .msg-chat .emote.POOTUBE {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -24px;
+    top: 6px;
 }
 .emote.POTATO {
     background-image: url("5f863a3f41c1e.png");
@@ -7684,47 +7684,6 @@ rotate:3deg;
 }
 .emote.PepoTurkey:hover {
     animation: PepoTurkey-anim-hover 0.7s infinite;
-}
-.emote.POOTUBE {
-    animation: POOTUBE-anim .8s 1 .05s;
-    filter: saturate(100%) brightness(115%) contrast(100%) sepia(5%) drop-shadow(0px 0px 1px #ff2727);
-    transform: rotate(-10deg);
-}
-
-
-.emote.POOTUBE:hover{
-    animation: POOTUBE-hover .8s infinite;
-}
-
-
-@keyframes POOTUBE-anim {
-    0% {
-        filter: saturate(100%) brightness(115%) contrast(100%) sepia(5%) drop-shadow(0px 0px 1px #ff2727);
-    }
-
-    50% {
-        filter: saturate(150%) brightness(100%) contrast(110%) sepia(20%) drop-shadow(0px 0px 3px #ff2727);
-        transform: rotate(-18deg) scale(1.05);  
-    }
-
-    100% {
-        filter: saturate(100%) brightness(115%) contrast(100%) sepia(5%) drop-shadow(0px 0px 1px #ff2727);
-    }
-}
-
-@keyframes POOTUBE-hover {
-    0% {
-        filter: saturate(100%) brightness(115%) contrast(100%) sepia(5%) drop-shadow(0px 0px 1px #ff2727);
-    }
-
-    50% {
-        filter: saturate(150%) brightness(100%) contrast(110%) sepia(20%) drop-shadow(0px 0px 3px #ff2727);
-        transform: rotate(-18deg) scale(1.05);  
-    }
-
-    100% {
-        filter: saturate(100%) brightness(115%) contrast(100%) sepia(5%) drop-shadow(0px 0px 1px #ff2727);
-    }
 }
 @keyframes POTATO-anim {
   100% { background-position: -90px;}

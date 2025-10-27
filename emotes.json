@@ -3713,17 +3713,17 @@
   },
   {
     "prefix": "POOTUBE",
-    "creator": "cybervegan",
+    "creator": "",
     "twitch": false,
-    "theme": 3,
+    "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.35.0/emotes/6521e16a0a39f.png",
-        "name": "6521e16a0a39f.png",
+        "url": "https://cdn.destiny.gg/4.35.0/emotes/653c2e3e247af.png",
+        "name": "653c2e3e247af.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 23
+        "height": 24,
+        "width": 24
       }
     ]
   },
