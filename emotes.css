@@ -215,13 +215,13 @@
     top: 8px;
 }
 .emote.BLADE {
-    background-image: url("68e405ce032b1.png");
-    height: 30px;
-    width: 6000px;
+    background-image: url("5f80acd664b04.png");
+    height: 31px;
+    width: 84px;
 }
 .msg-chat .emote.BLADE {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -31px;
+    top: 7.75px;
 }
 .emote.Bleh {
     background-image: url("66b31270c2e04.png");
@@ -3391,113 +3391,111 @@ transition:all 2s;
 .emote.BINGQILIN:hover {
   animation: BINGQILIN-hover steps(90) 2.5s infinite;
 }
-@keyframes BLADE {
-  0% { background-position: 0px; }
-  100% { background-position: -6000px; }
-}
-
-@keyframes BLADE-hover {
-  0% { background-position: -1800px; }
-  100% { background-position: -6000px; }
-}
-
-.emote.BLADE {
-  z-index: 0;
-  mix-blend-mode: screen;
-  background-position: 60px;
-  width: 60px;
-  filter: saturate(2);
-  margin-left: -8px;
-  margin-right: -4px;
-  transform: translate(0px, 6px);
-  animation: BLADE steps(100) 5s 1 -0s; 
-}
-
-.emote.BLADE + .emote.BLADE, .emote.TRIAD + .emote.BLADE, .emote.BLADE:first-of-type {
-  mix-blend-mode: screen;
-  margin-left: -4px;
-  margin-right: -8px;
-  filter: hue-rotate(200deg) saturate(1.5);
-  transform: translate(0px, 6px) scaleX(-1);  
-
-}
-
-.emote + .emote.BLADE:last-of-type, .emote.BLADE:last-of-type, .emote.TRIAD + .emote.BLADE:last-of-type {
-  margin-left: -8px;
-  margin-right: -4px;
-  filter: none;
-  transform: translate(0px, 6px);
-}
-
-.emote.BLADE:hover, .emote.BLADE + .emote.BLADE:hover, .emote.BLADE:first-of-type:hover, .emote.BLADE:last-of-type:hover,  .emote.TRIAD + .emote.BLADE:hover,  .emote.TRIAD + .emote.BLADE:last-of-type:hover {
-  background-position: 60px;
-  animation: BLADE-hover steps(70) 3.5s  infinite;
-}
-/* COLORS */
-
-.user.flair17 ~ .text .emote.BLADE {
-  filter: brightness(.85) sepia(1) contrast(1.2) hue-rotate(-1deg) saturate(5);
-}
-
-.emote.Yoda1 + .emote.BLADE, .emote.YEE + .emote.BLADE, .emote.YEEHAW + .emote.BLADE, .emote.monkaS + .emote.BLADE {
+/* Halloween version and animation made by Igor */
+.emote.Yoda1 + .emote.BLADE, .emote.YEE + .emote.BLADE, .emote.YEEHAW + .emote.BLADE {
   filter: hue-rotate(-80deg) saturate(3) brightness(1.7);
 }
 .emote.HACKERMAN + .emote.BLADE, .emote.MALARKEY + .emote.BLADE, .emote.BERN + .emote.BLADE, .emote.catJAM + .emote.BLADE, .emote.YAM + .emote.BLADE, .emote.JAMSTINY + .emoteBLADE {
-  filter: hue-rotate(135deg) saturate(1.5);
+  filter: hue-rotate(-191deg) brightness(0.85) saturate(5);
 }
 .emote.BasedGod + .emote.BLADE, .emote.LUL + .emote.BLADE {
-  filter: hue-rotate(55deg) saturate(1.5);
+  filter: hue-rotate(80deg) saturate(6);
 }
-.emote.GODSTINY + .emote.BLADE, .emote.Slumlord + .emote.BLADE, .emote.ATAB + .emote.BLADE, .emote.TRIAD + .emote.BLADE:last-of-type {
-  filter: hue-rotate(200deg) saturate(1.5);
+.emote.GODSTINY + .emote.BLADE, .emote.Slumlord + .emote.BLADE, .emote.ATAB + .emote.BLADE {
+  filter: hue-rotate(-131deg) saturate(5);
+}
+.emote.Wowee + .emote.BLADE, .emote.WOOF + .emote.BLADE {
+  filter: saturate(0) brightness(2);
 }
 .emote.FerretLOL + .emote.BLADE, .emote.widepeepoHappy + .emote.BLADE, .emote.Cutestiny + .emote.BLADE {
-  filter: hue-rotate(90deg) saturate(1.5);
+  filter: hue-rotate(150deg) saturate(3) brightness(1.3);
 }
-.emote.REE + .emote.BLADE {
-  filter: hue-rotate(135deg) saturate(3);
+@keyframes BLADE-anim {
+  0% { transform: translate(0, 0) rotate(360deg); transform-origin: -10% 100%; animation-timing-function: linear; }
+  10% { transform: translate(-5px, -5px) rotate(30deg); animation-timing-function: ease; }
+  15%, 25% { transform: translate(0, -15px) rotate(45deg); }
+  30% { transform: translate(-10px, -5px) rotate(20deg); }
+  35% { transform: translate(-5px, -5px) rotate(-10deg); }
+  38%, 50% { transform: translate(15px, -5px) rotate(-15deg); animation-timing-function: linear; }
+  61%, 63% { transform: translate(0px, -10px) rotate(-315deg); animation-timing-function: ease; }
+  68% { transform: translate(25px, -10px) rotate(-315deg); }
+  76% { transform: translate(28px, -10px) rotate(-315deg); }
+  82% { transform: translate(-10px, -10px) rotate(-315deg); }
+  90%, 100% { transform: translate(0, 0) rotate(-360deg); transform-origin: -10% 100%; }
 }
-/* ===BYPASSED FOR CUSTOM CSS IN COMFYLILY EMOTE===
-.emote.ComfyLily + .emote.BLADE {
-  filter: hue-rotate(85deg) brightness(.9) saturate(14) contrast(1);
-}*/
+@keyframes BLADE-anim2 {
+  0% { transform: scale(-1, 1) translate(-35px, 0) rotate(-367deg); transform-origin: 0% 100%; animation-timing-function: linear; }
+  10% { transform: scale(-1, 1) translate(-38px, -5px) rotate(-10deg); animation-timing-function: ease; }
+  15%, 25.0001% { transform: scale(-1, 1) translate(-33px, 5px) rotate(5deg); }
+  15.0001%, 25% { transform: scale(-1, 1) translate(-60px, 5px) rotate(5deg); }
+  30% { transform: scale(-1, 1) translate(-52px, -5px) rotate(20deg); }
+  35% { transform: scale(-1, 1) translate(-47px, -5px) rotate(-10deg); }
+  38%, 50.0001% { transform: scale(-1, 1) translate(-22px, -5px) rotate(-15deg); animation-timing-function: linear; }
+  38.0001%, 50% { transform: scale(-1, 1) translate(-49px, -5px) rotate(-15deg); animation-timing-function: linear; }
+  61%, 63% { transform: scale(-1, 1) translate(-32px, -20px) rotate(-320deg); animation-timing-function: ease-in-out; }
+  68% { transform: scale(-1, 1) translate(-7px, -22px) rotate(-320deg); }
+  76% { transform: scale(-1, 1) translate(-4px, -22.5px) rotate(-320deg); }
+  82% { transform: scale(-1, 1) translate(-37px, -20px) rotate(-320deg); }
+  90%, 100% { transform: scale(-1, 1) translate(-37px, 0) rotate(-367deg); transform-origin: 0% 100%; animation-timing-function: ease-in-out; }
+}
+@keyframes BLADE-anim3 {
+  0% { transform: scale(-1, 1) translate(-35px, 0) rotate(-367deg); transform-origin: 0% 100%; animation-timing-function: linear; }
+  10% { transform: scale(-1, 1) translate(-38px, -5px) rotate(-10deg); animation-timing-function: ease; }
+  15%, 25.0001% { transform: scale(-1, 1) translate(-38px, 5px) rotate(5deg); }
+  30% { transform: scale(-1, 1) translate(-52px, -5px) rotate(20deg); }
+  35% { transform: scale(-1, 1) translate(-47px, -5px) rotate(-10deg); }
+  38%, 50.0001% { transform: scale(-1, 1) translate(-27px, -5px) rotate(-15deg); animation-timing-function: linear; }
+  61%, 63% { transform: scale(-1, 1) translate(-32px, -20px) rotate(-320deg); animation-timing-function: ease-in-out; }
+  68% { transform: scale(-1, 1) translate(-7px, -22px) rotate(-320deg); }
+  76% { transform: scale(-1, 1) translate(-4px, -22.5px) rotate(-320deg); }
+  82% { transform: scale(-1, 1) translate(-37px, -20px) rotate(-320deg); }
+  90%, 100% { transform: scale(-1, 1) translate(-37px, 0) rotate(-367deg); transform-origin: 0% 100%; animation-timing-function: ease-in-out; }
+}
+@keyframes BLADE-anim-clash {
+  0%, 15%, 25.0001%, 38%, 50.0001%, 100% { background-position: 0px; width: 31px; margin-left: -6px; }
+  15.0001%, 25%, 38.0001%, 50% { background-position: 53px; width: 53px; margin-left: -28px; }
+  15%, 25.0001%, 38%, 50.0001% { filter: none; }
+  17.5%, 18.5%, 21.5%, 22.5%,  40.5%, 41.5%, 45%, 46.5%  { filter: brightness(0.7); }
+  15.001%, 17%, 19%, 21%, 23%, 25%,  38%, 40%, 42%, 44.5%, 47%, 50% { filter: brightness(1.5) saturate(2); }
+}
+.emote.BLADE {
+  padding-bottom: 0px;
+  width: 31px;
+  margin-left: 0;
+  margin-right: -6px;
+  animation: BLADE-open .3s 1 ease-in .001s, BLADE-anim 2.2s 1 ease .4s;
+}
+.emote.BLADE + .emote.BLADE, .emote.TRIAD + .emote.BLADE {
+  margin-left: -6px;
+  margin-right: 4px;
+  width: 31px;
+  transform-origin: 0 100%;
+  transform: scale(-1, 1) translate(-37px, 0) rotate(-7deg);
+  animation: BLADE-open .3s 1 ease-in .001s, BLADE-anim2 2.2s 1 ease .4s, BLADE-anim-clash 2.2s 1 ease .4s;
+}
+.emote.BLADE:first-of-type {
+  margin-left: -6px;
+  margin-right: 4px;
+  width: 31px;
+  transform-origin: 0 100%;
+  transform: scale(-1, 1) translate(-37px, 0) rotate(-7deg);
+  animation: BLADE-open .3s 1 ease-in .001s, BLADE-anim3 2.2s 1 ease .4s;
+}
+.emote + .emote.BLADE:last-of-type, .emote.BLADE:last-of-type {
+  width: 31px;
+  margin-left: 0;
+  margin-right: -6px;
+  transform-origin: 50% 100%;
+  transform: none;
+  animation: BLADE-open .3s 1 ease-in .001s, BLADE-anim 2.2s 1 ease .4s;
+}
+.emote.BLADE:hover, .emote.BLADE + .emote.BLADE:hover, .emote.BLADE:first-of-type:hover, .emote.BLADE:last-of-type:hover,  .emote.TRIAD + .emote.BLADE:hover {
+  animation: none;
+}
 
-/*
-.emote.ApeHands+.emote.BLADE {
-    filter: invert(.95) saturate(0) brightness(2);
-        filter: hue-rotate(40deg) saturate(5) invert(10) brightness(1);
-
-}*/
-
-.emote.ApeHands+.emote.BLADE {
-    filter: hue-rotate(40deg) saturate(5) grayscale(5) brightness(1);
-}
-
-.emote.nathanPepe+.emote.BLADE {
-    filter: invert(.95) saturate(1) brightness(2);
-}
-
-.emote.BLADE:has(+.emote.nathanYee) {
-    filter: grayscale(1) brightness(1) invert(1) sepia(1) saturate(6) hue-rotate(-180deg);
-}
-
-.emote.GIGACHAD+.emote.BLADE {
-    filter: hue-rotate(40deg) saturate(5) brightness(1);
-}
-
-/* rbg */
-@keyframes BLADE-rainbow {
-  100% { filter: brightness(.95) sepia(1) saturate(3) hue-rotate(240deg); }
-}
-@keyframes BLADE-rainbow-hover {
-  100% { filter: brightness(.95) sepia(1) saturate(3) hue-rotate(240deg); }
-}
-.emote.Kappa + .emote.BLADE, .emote.OhKrappa + .emote.BLADE, .emote.RaveDoge + .emote.BLADE, .emote.DANKMEMES + .emote.BLADE, .emote.Shroomstiny + .emote.BLADE, .emote.DappaKappa + .emote.BLADE, .emote.nathanDank + .emote.BLADE {
-  filter: brightness(.95) sepia(1) saturate(3) hue-rotate(-120deg);
-  animation: BLADE steps(100) 5s 1 -0s, BLADE-rainbow 1s linear 5;
-}
-.emote.Kappa + .emote.BLADE:hover, .emote.OhKrappa + .emote.BLADE:hover, .emote.RaveDoge + .emote.BLADE:hover, .emote.DANKMEMES + .emote.BLADE:hover, .emote.Shroomstiny + .emote.BLADE:hover, .emote.DappaKappa + .emote.BLADE:hover,  .emote.nathanDank + .emote.BLADE:hover {
-  animation: BLADE-hover steps(70) 3.5s  infinite, BLADE-rainbow-hover 0.85s linear 4;
+@keyframes BLADE-open {
+  0%, 25% { clip-path: circle(20% at 0% 100%); }
+  100% { clip-path: circle(150% at 0% 100%); }
 }
 
 @keyframes Bleh-anim{
