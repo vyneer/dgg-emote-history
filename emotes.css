@@ -2015,9 +2015,9 @@
     top: 8.25px;
 }
 .emote.PepoPunch {
-    background-image: url("61626ed0f2afc.png");
+    background-image: url("6900117b76697.png");
     height: 32px;
-    width: 448px;
+    width: 896px;
 }
 .msg-chat .emote.PepoPunch {
     margin-top: -32px;
@@ -7621,11 +7621,15 @@ rotate:3deg;
 @keyframes PepoPunch-anim {
   100% { background-position: -448px; }
 }
-
+@keyframes PepoPunch-anim-alt {
+  100% { background-position: -896px; }
+}
 @keyframes PepoPunch-anim-hover {
   100% { background-position: -448px; }
 }
-
+@keyframes PepoPunch-anim-alt-hover {
+  100% { background-position: -896px; }
+}
 @keyframes PepoPunch-margin-right {
   0%, 100% { margin-right: -9px; width: 56px; z-index: 2; }
 }
@@ -7639,23 +7643,22 @@ rotate:3deg;
 @keyframes PepoPunch-jump-left {
   10%, 60% { transform: translate(-1px, -1px) scaleX(-1); }
   20%, 50% { transform: translate(-2px, 0px) scaleX(-1); }
-  }
+}
 .emote.PepoPunch {
   background-position: 0px;
   width: 47px;
   animation: PepoPunch-anim 1s steps(8) 3, PepoPunch-margin-right 1s steps(8) 3, PepoPunch-jump-right 1s 3;
 }
-
 .emote.PepoPunch:last-child {
+  background-position: -448px;
   transform: scaleX(-1);
-  animation: PepoPunch-anim 1s steps(8) 4 -.50s, PepoPunch-margin-left 1s steps(1) 4 -.50s, PepoPunch-jump-left 1s 4;
+  animation: PepoPunch-anim-alt 1s steps(8) 4 -.50s, PepoPunch-margin-left 1s steps(1) 4 -.50s, PepoPunch-jump-left 1s 4;
 }
-
 .emote.PepoPunch:first-child {
+  background-position: 0px;
   transform: scaleX(1);
   animation: PepoPunch-anim 1s steps(8) 3, PepoPunch-margin-right 1s steps(8) 3, PepoPunch-jump-right 1s 3;
 }
-
 .emote.PepoPunch:hover {
   animation: none;
 }
