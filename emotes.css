@@ -691,6 +691,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.DITCHSTINY {
+    background-image: url("68fc8c630ec1f.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.DITCHSTINY {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.DonoWall {
     background-image: url("68d2c9aeb3b95.gif");
     height: 32px;
@@ -1447,6 +1456,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.mhm {
+    background-image: url("68fc8ea2df154.gif");
+    height: 32px;
+    width: 37px;
+}
+.msg-chat .emote.mhm {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.MICROAGGRESSIONS {
     background-image: url("68d2c6b0ad1b6.png");
     height: 32px;
@@ -2095,6 +2113,15 @@
     margin-top: -24px;
     top: 6px;
 }
+.emote.POPPERS {
+    background-image: url("68fc8b960f3b7.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.POPPERS {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.POTATO {
     background-image: url("5f863a3f41c1e.png");
     height: 30px;
@@ -2247,15 +2274,6 @@
 .msg-chat .emote.Sippy {
     margin-top: -36px;
     top: 9px;
-}
-.emote.SISYPHUS {
-    background-image: url("68f1fa4d1c522.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.SISYPHUS {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.Skip {
     background-image: url("68a0c95d935c5.gif");
@@ -2851,15 +2869,6 @@
     margin-top: -35px;
     top: 8.75px;
 }
-.emote.DITCHSTINY {
-    background-image: url("68fc8c630ec1f.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.DITCHSTINY {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.GRUGingOverIt {
     background-image: url("5fcd82224b419.png");
     height: 40px;
@@ -2875,15 +2884,6 @@
     width: 57px;
 }
 .msg-chat .emote.LETHERCOOK {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.mhm {
-    background-image: url("68fc8ea2df154.gif");
-    height: 32px;
-    width: 37px;
-}
-.msg-chat .emote.mhm {
     margin-top: -32px;
     top: 8px;
 }
@@ -2965,15 +2965,6 @@
     width: 32px;
 }
 .msg-chat .emote.pokiKick {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.POPPERS {
-    background-image: url("68fc8b960f3b7.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.POPPERS {
     margin-top: -32px;
     top: 8px;
 }
