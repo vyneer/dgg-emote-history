@@ -2907,6 +2907,24 @@
   animation: GIGAHANDS-anim 1.5s ease-out 1;
 }
   
+.msg-chat.msg-emote .emote.ARRIVE {
+  width: 84px;
+  background-size: 42px;
+  background-position: 0 9px;
+  background-repeat: repeat-x;
+}
+
+.msg-chat.msg-emote .emote.ARRIVE::before {
+  background: inherit;
+  background-position: 0 0;
+  background-size: 56px;
+  opacity: 1;
+  margin-left: 14px;
+  width: 56px;
+  height: 35px;
+  display: block;
+  content: "";
+}
 @keyframes Askers-anim {
   100% { background-position: -5544px; }
 }
