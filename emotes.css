@@ -2446,6 +2446,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.TeaTime {
+    background-image: url("6905e74d3f414.gif");
+    height: 28px;
+    width: 28px;
+}
+.msg-chat .emote.TeaTime {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.TeddYEE {
     background-image: url("665b77f9cb5a6.png");
     height: 32px;
@@ -7405,6 +7414,22 @@ background-repeat:no-repeat;
 }
 .emote.SpookerZ:hover {
     animation: SpookerZ-anim-hover 250ms infinite;
+}
+.emote.TeaTime + .emote.TeaTime, .emote.TeaTime:nth-of-type(1), .emote.RapThis + .emote.TeaTime, .emote.BLADE + .emote.TeaTime, .chat-user + .emote.TeaTime {
+  margin-right: -2px;
+  transform: scale(-1, 1);
+}
+.emote.TeaTime:only-of-type, .emote + .emote.TeaTime:last-of-type, .emote.TeaTime:last-of-type {
+  margin-left: -2px;
+  transform: scale(1);
+}
+@keyframes GIGATEA-slide {
+  0% { transform: translate(-28px, 0); }
+  100% { transform: translate(0, 0); }
+}
+
+.emote.GIGACHAD + .emote.TeaTime {
+  animation: GIGATEA-slide 1.5s ease-out 1; 
 }
 /*
 .msg-chat.msg-user[data-username="xenathewitcher"]{
