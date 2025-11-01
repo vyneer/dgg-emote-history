@@ -704,6 +704,22 @@
     ]
   },
   {
+    "prefix": "CLASSIC",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.36.1/emotes/68dc1cfeb9e2c.png",
+        "name": "68dc1cfeb9e2c.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 41
+      }
+    ]
+  },
+  {
     "prefix": "Clueless",
     "creator": "",
     "twitch": false,

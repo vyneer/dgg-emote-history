@@ -394,6 +394,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.CLASSIC {
+    background-image: url("68dc1cfeb9e2c.png");
+    height: 32px;
+    width: 41px;
+}
+.msg-chat .emote.CLASSIC {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Clueless {
     background-image: url("66596e3d361e1.png");
     height: 32px;
