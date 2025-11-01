@@ -2907,13 +2907,13 @@
   animation: GIGAHANDS-anim 1.5s ease-out 1;
 }
   
-.msg-chat.msg-emote[data-combo-group="x2"] .emote.ARRIVE {
+.msg-chat.msg-emote[data-combo-group$="2"] .emote.ARRIVE {
   width: 68px;
   background-size: 50px;
   background-position: -8px 4px;
   background-repeat: no-repeat;
 }
-.msg-chat.msg-emote[data-combo-group="x2"] .emote.ARRIVE::before {
+.msg-chat.msg-emote[data-combo-group$="2"] .emote.ARRIVE::before {
   background: inherit;
   background-position: 0 0;
   background-size: 56px;
@@ -2926,14 +2926,14 @@
   filter: brightness(1.5);
 }
 
-.msg-chat.msg-emote[data-combo-group="x5"] .emote.ARRIVE {
+.msg-chat.msg-emote[data-combo-group$="5"] .emote.ARRIVE {
   width: 76px;
   background-size: 42px;
   background-position: -7px 9px;
   background-repeat: repeat-x;
 }
 
-.msg-chat.msg-emote[data-combo-group="x5"] .emote.ARRIVE::before {
+.msg-chat.msg-emote[data-combo-group$="5"] .emote.ARRIVE::before {
   background: inherit;
   background-position: 0 0;
   background-size: 56px;
