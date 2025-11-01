@@ -2926,6 +2926,44 @@
   content: "";
   filter: brightness(1.6);
 }
+
+.msg-chat.msg-emote[data-combo-group$="0"] .emote.ARRIVE {
+  width: 108px;
+  background-size: 36px;
+  background-position: 0 13px;
+  background-repeat: repeat-x;
+}
+
+.msg-chat.msg-emote[data-combo-group$="0"] .emote.ARRIVE::before {
+  background: inherit;
+  background-position: 0 0;
+  background-size: 42px;
+  opacity: 1;
+  margin-top: 9px;
+  margin-left: 12px;
+  width: 84px;
+  height: 35px;
+  display: block;
+  content: "";
+  filter: brightness(1.3);
+  background-repeat: repeat-x;
+}
+
+.msg-chat.msg-emote[data-combo-group$="0"] .emote.ARRIVE::after { 
+  background: inherit;
+  background-position: 0 0;
+  background-size: 56px;
+  opacity: 1;
+  margin-left: 26px;
+  margin-top: -66px;
+  width: 56px;
+  height: 35px;
+  display: block;
+  content: "";
+  filter: brightness(1.6);
+}
+
+
 @keyframes Askers-anim {
   100% { background-position: -5544px; }
 }
@@ -4832,6 +4870,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
     transform: scale(1.14);
 }
 */
+/*
 .msg-chat.msg-emote[data-combo-group="x10"] > .text,
 .msg-chat.msg-emote[data-combo-group="x10"] > .chat-combo {
     animation: RARE-SILVER 1.2s 1, RARE-SILVER-PULSATE 5s infinite 1.2s linear;
@@ -4875,6 +4914,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
     transition: all .35s;
     padding-left: .5em;
 }
+*/
 
 /*
     USER SPECIFIC
