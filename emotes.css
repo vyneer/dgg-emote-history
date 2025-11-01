@@ -2924,6 +2924,7 @@
   height: 35px;
   display: block;
   content: "";
+  filter: brightness(1.6);
 }
 @keyframes Askers-anim {
   100% { background-position: -5544px; }
