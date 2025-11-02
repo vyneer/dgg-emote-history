@@ -2384,13 +2384,13 @@
     top: 8px;
 }
 .emote.SpookerZ {
-    background-image: url("66fbcb156083b.png");
-    height: 32px;
-    width: 33px;
+    background-image: url("5c2bbddae0132.png");
+    height: 30px;
+    width: 34px;
 }
 .msg-chat .emote.SpookerZ {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.Stare {
     background-image: url("68da0d246cbe9.png");
