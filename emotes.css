@@ -2907,13 +2907,15 @@
   animation: GIGAHANDS-anim 1.5s ease-out 1;
 }
   
-.msg-chat.msg-emote[data-combo-group$="2"] .emote.ARRIVE {
+.msg-chat.msg-emote[data-combo-group$="2"] .emote.ARRIVE,
+.msg-chat.msg-emote[data-combo="2"] .emote.ARRIVE {
   width: 68px;
   background-size: 50px;
   background-position: -8px 4px;
   background-repeat: no-repeat;
 }
-.msg-chat.msg-emote[data-combo-group$="2"] .emote.ARRIVE::before {
+.msg-chat.msg-emote[data-combo-group$="2"] .emote.ARRIVE::before,
+.msg-chat.msg-emote[data-combo="2"] .emote.ARRIVE::before {
   background: inherit;
   background-position: 0 0;
   background-size: 56px;
