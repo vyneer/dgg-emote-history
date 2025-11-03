@@ -2909,16 +2909,17 @@
   
 .msg-chat.msg-emote .emote.ARRIVE {
   width: 68px;
-  background-size: 50px;
-  background-position: -8px 4px;
+  background-size: 48px;
+  background-position: -8px 6px;
   background-repeat: no-repeat;
+  mask-image: radial-gradient(black 65%, transparent 80%);
 }
 .msg-chat.msg-emote .emote.ARRIVE::before {
   background: inherit;
   background-position: 0 0;
   background-size: 56px;
   opacity: 1;
-  margin-left: 16px;
+  margin-left: 12px;
   width: 56px;
   height: 35px;
   display: block;
@@ -2931,6 +2932,7 @@
   background-size: 42px;
   background-position: -7px 9px;
   background-repeat: repeat-x;
+  mask-image: radial-gradient(black 65%, transparent 80%);
 }
 
 .msg-chat.msg-emote[data-combo-group$="5"] .emote.ARRIVE::before {
@@ -2947,13 +2949,52 @@
 }
 
 .msg-chat.msg-emote[data-combo-group$="0"] .emote.ARRIVE {
+  width: 146px;
+  background-size: 36.5px;
+  background-position: 0 12px;
+  background-repeat: repeat-x;
+  mask-image: radial-gradient(black 70%, transparent 90%);
+}
+
+.msg-chat.msg-emote[data-combo-group$="0"] .emote.ARRIVE::before {
+  background: inherit;
+  background-position: 0 0;
+  background-size: 44px;
+  opacity: 1;
+  margin-top: 9px;
+  margin-left: 7px;
+  width: 132px;
+  height: 35px;
+  display: block;
+  content: "";
+  filter: brightness(1.4) saturate(1.1);
+  background-repeat: repeat-x;
+}
+
+.msg-chat.msg-emote[data-combo-group$="0"] .emote.ARRIVE::after { 
+  background: inherit;
+  background-position: 0 0;
+  background-size: 56px;
+  opacity: 1;
+  margin-left: 17px;
+  margin-top: -65px;
+  width: 112px;
+  height: 35px;
+  display: block;
+  content: "";
+  filter: brightness(1.7) saturate(1.2);
+}
+
+
+.msg-chat.msg-emote[data-combo-group$="10"] .emote.ARRIVE {
   width: 108px;
   background-size: 36px;
   background-position: 0 13px;
   background-repeat: repeat-x;
+  mask-image: radial-gradient(black 60%, transparent 75%);
 }
 
-.msg-chat.msg-emote[data-combo-group$="0"] .emote.ARRIVE::before {
+.msg-chat.msg-emote[data-combo-group$="10"] .emote.ARRIVE::before {
   background: inherit;
   background-position: 0 0;
   background-size: 42px;
@@ -2968,7 +3009,7 @@
   background-repeat: repeat-x;
 }
 
-.msg-chat.msg-emote[data-combo-group$="0"] .emote.ARRIVE::after { 
+.msg-chat.msg-emote[data-combo-group$="10"] .emote.ARRIVE::after { 
   background: inherit;
   background-position: 0 0;
   background-size: 56px;
@@ -2981,8 +3022,6 @@
   content: "";
   filter: brightness(1.7);
 }
-
-
 @keyframes Askers-anim {
   100% { background-position: -5544px; }
 }
