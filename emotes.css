@@ -6383,18 +6383,31 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
 @keyframes NoTears-z-hover {  
   0%, 100% { z-index: 2; }
 }
-.emote.NoTears {
-  --t-NoTears: 0.8s;
-  background-repeat: no-repeat;
+@keyframes NoTears-size {
+  0%, 100% { 
   width: 69px;
   background-position: 6px;
   margin-left: -6px;
-  margin-right: -20px;
-  animation: NoTears-z var(--t-NoTears) 1 -.15s;
+  margin-right: -20px; }
+}
+
+@keyframes NoTears-size-hover {
+  0%, 100% {
+  width: 69px;
+  background-position: 6px;
+  margin-left: -6px;
+  margin-right: -20px; }
+}
+
+.emote.NoTears {
+  --t-NoTears: 0.8s;
+  margin-right: 12px;
+  background-repeat: no-repeat;
+  animation: NoTears-z var(--t-NoTears) 1 -.15s, NoTears-size var(--t-NoTears) 3 -.15s;
 }
 
 .emote.NoTears:hover {
-  animation: NoTears-z-hover var(--t-NoTears) 1;
+  animation: NoTears-z-hover var(--t-NoTears) 1, NoTears-size-hover var(--t-NoTears) 3;
 }
 
 @keyframes NoTears-anim {
