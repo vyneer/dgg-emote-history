@@ -7488,6 +7488,9 @@ background-repeat:no-repeat;
 .emote.SpookerZ:hover {
     animation: SpookerZ-anim-hover 250ms infinite;
 }
+.emote.TeaTime {
+  image-rendering: pixelated;
+}
 .emote.TeaTime + .emote.TeaTime, .emote.TeaTime:nth-of-type(1), .emote.RapThis + .emote.TeaTime, .emote.BLADE + .emote.TeaTime, .chat-user + .emote.TeaTime {
   margin-right: -2px;
   transform: scale(-1, 1);
