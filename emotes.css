@@ -1061,7 +1061,7 @@
     top: 8px;
 }
 .emote.guh {
-    background-image: url("690585b25b77c.png");
+    background-image: url("660ab1a309753.png");
     height: 32px;
     width: 32px;
 }
@@ -1097,13 +1097,13 @@
     top: 7.5px;
 }
 .emote.hesRight {
-    background-image: url("668264ab2fb2a.png");
-    height: 30px;
-    width: 37px;
+    background-image: url("690b57ed0b145.png");
+    height: 32px;
+    width: 39px;
 }
 .msg-chat .emote.hesRight {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.Hhhehhehe {
     background-image: url("5c2bbcb8555ca.png");
@@ -2321,7 +2321,7 @@
     top: 8px;
 }
 .emote.Smadge {
-    background-image: url("673dabd79b13c.png");
+    background-image: url("690b5b8d14db3.avif");
     height: 32px;
     width: 42px;
 }
@@ -2438,13 +2438,13 @@
     top: 8px;
 }
 .emote.SWEEPING {
-    background-image: url("67503b275c4d5.gif");
-    height: 30px;
-    width: 90px;
+    background-image: url("690b569071109.png");
+    height: 32px;
+    width: 40px;
 }
 .msg-chat .emote.SWEEPING {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.TeaTime {
     background-image: url("6905e74d3f414.gif");
@@ -5749,18 +5749,20 @@ transform: rotate(2deg) translate(1px, 2px);
     animation: JAMSTINY-anim-hover 0.69s infinite ease-out;
 }
 @keyframes JustCantProveItYet-anim {
+  0% { background-position: 0px; }
   100% { background-position: -6665px; }
 }
 
 @keyframes JustCantProveItYet-hover {
+  0% { background-position: 0px; }
   100% { background-position: -6665px; }
 }
 
 .emote.JustCantProveItYet {
   width: 43px;
-  background-position: 0px;
+  background-position: 43px;
   background-size: 6665px 32px;
-  animation: JustCantProveItYet-anim 6s steps(155) 4;
+  animation: JustCantProveItYet-anim 6s steps(155) 1;
 }
 
 .emote.JustCantProveItYet:hover {
