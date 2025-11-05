@@ -395,7 +395,7 @@
     top: 8px;
 }
 .emote.CLASSIC {
-    background-image: url("68dc1cfeb9e2c.png");
+    background-image: url("690b65c049e8e.avif");
     height: 32px;
     width: 41px;
 }
@@ -1097,13 +1097,13 @@
     top: 7.5px;
 }
 .emote.hesRight {
-    background-image: url("690b57ed0b145.png");
-    height: 32px;
-    width: 39px;
+    background-image: url("668264ab2fb2a.png");
+    height: 30px;
+    width: 37px;
 }
 .msg-chat .emote.hesRight {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.Hhhehhehe {
     background-image: url("5c2bbcb8555ca.png");
@@ -1570,6 +1570,15 @@
     width: 32px;
 }
 .msg-chat .emote.monkaVirus {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.MOPPING {
+    background-image: url("690b569071109.png");
+    height: 32px;
+    width: 40px;
+}
+.msg-chat .emote.MOPPING {
     margin-top: -32px;
     top: 8px;
 }
@@ -2438,13 +2447,13 @@
     top: 8px;
 }
 .emote.SWEEPING {
-    background-image: url("690b569071109.png");
-    height: 32px;
-    width: 40px;
+    background-image: url("67503b275c4d5.gif");
+    height: 30px;
+    width: 90px;
 }
 .msg-chat .emote.SWEEPING {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.TeaTime {
     background-image: url("6905e74d3f414.gif");
