@@ -6923,6 +6923,16 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
           background-position: -56px;
         }
       }
+[data-username="igor"] .emote.POTATO::before {
+  margin-left: 9px;
+  margin-top: 21px;
+  width: 14px;
+  height: 7px;
+  display: block;
+  transform: rotate(2deg);
+  content: "";
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAHCAYAAAA4R3wZAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZ0lEQVQYlTVOO2vCUBj9bh4SEyqFkMUiCA2KiUNXO9huhrp0UAcnof0d/ox2aEHoEBw6dFQQERczKJXQQECkIsSlSVx8YW9MuYGe7ZzDeaBWq1UbjUa3lUrlTVEUg+M4mE6n4Lou5PN5cBwHZFkGhBAsl8vkYDCoe553QScSiWa73W6Ypvlo2/Y1z/M/PM/PgyCAVCoF+/0eNpvNpa7rTV3Xn/v9/v14PFZRoVD4nM1mV/F4HP6hKMqHLMtfkiSFi8VCnEwmddd1z2maBlIYBMEapdNpB2OcxBjD8XiE0+kU3ZIkCSiKAt/3o9VYLAYkyDAM8X2GBLbbLYRhGIkkeDgcomXCyQLRKAoBxr8RJ4VMLpebG4aRFEUxMhj2bK2VSq8sy9oIoZDjOLHX6zVWK0fleSF6tdvtWEbTtPfhcKgKguAVizfv5fLdi6qq35ZlRc2ZTAaq1epTt9utdTqdB8uylGw2a/4BcwmqnYu/0GoAAAAASUVORK5CYII=");
+}
 @keyframes GIGARAP-anim {
   0% { transform: translate(-28px, 0); }
   100% { transform: translate(0, 0); }
