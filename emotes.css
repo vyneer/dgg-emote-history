@@ -8430,8 +8430,9 @@ color:#ffaccc !important;
   }
 }
 .msg-chat.msg-emote .emote.widepeepoHappy {
-  background-size: calc(80px + var(--combo-px) * 3) 23px;
-  width: calc(80px + var(--combo-px) * 3);
+  --width: calc(80px + var(--combo-px) * 4);
+  background-size: var(--width) 23px;
+  width: var(--width);
 }
 
 .emote.widepeepoHappy:hover {
