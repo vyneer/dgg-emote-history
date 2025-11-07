@@ -8403,6 +8403,7 @@ color:#ffaccc !important;
   100% {transform: scale3d(1, 1, 1);}
 }
 .emote.widepeepoHappy {
+  image-rendering: pixelated;
   transform-origin: bottom;
   animation: widepeepoHappy-anim 1s 1;
 }
