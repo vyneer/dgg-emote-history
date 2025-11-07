@@ -8407,10 +8407,25 @@ color:#ffaccc !important;
   animation: widepeepoHappy-anim 1s 1;
 }
 .msg-chat.msg-emote:has(.emote.widepeepoHappy) {
+  --combo-px: 2px;
+}
+.msg-chat.msg-emote[data-combo-group="x5"]:has(.emote.widepeepoHappy) {
   --combo-px: 5px;
 }
+.msg-chat.msg-emote[data-combo-group$="0"]:has(.emote.widepeepoHappy) {
+  --combo-px: 40px;
+}
+.msg-chat.msg-emote[data-combo-group="x10"]:has(.emote.widepeepoHappy) {
+  --combo-px: 10px;
+}
+.msg-chat.msg-emote[data-combo-group="x20"]:has(.emote.widepeepoHappy) {
+  --combo-px: 20px;
+}
+.msg-chat.msg-emote[data-combo-group="x30"]:has(.emote.widepeepoHappy) {
+  --combo-px: 30px;
+}
 @supports (width: attr(data-test px)) {
-  .msg-chat.msg-emote:has(.emote.widepeepoHappy) {
+  .msg-chat.msg-emote[data-combo-group]:has(.emote.widepeepoHappy) {
     --combo-px: attr(data-combo px, 0px);
   }
 }
