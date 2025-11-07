@@ -8403,7 +8403,6 @@ color:#ffaccc !important;
   100% {transform: scale3d(1, 1, 1);}
 }
 .emote.widepeepoHappy {
-  image-rendering: pixelated;
   transform-origin: bottom;
   animation: widepeepoHappy-anim 1s 1;
 }
@@ -8431,7 +8430,7 @@ color:#ffaccc !important;
   }
 }
 .msg-chat.msg-emote .emote.widepeepoHappy {
-  --width: calc(80px + var(--combo-px) * 4);
+  --width: clamp(80px, calc(80px + var(--combo-px) * 4), 240px);
   background-size: var(--width) 23px;
   width: var(--width);
 }
