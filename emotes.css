@@ -2347,6 +2347,15 @@
     margin-top: -29px;
     top: 7.25px;
 }
+.emote.smolguh {
+    background-image: url("690585b25b77c.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.smolguh {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.SNAP {
     background-image: url("5c5b9c9ba430a.png");
     height: 30px;
@@ -8393,8 +8402,16 @@ color:#ffaccc !important;
   75% {transform: scale3d(1.05, .95, 1);}
   100% {transform: scale3d(1, 1, 1);}
 }
-
+/*
+.msg-chat.msg-emote:has(.emote.widepeepoHappy) {
+  --combo-px: attr(data-combo px, 0 px);
+}
+.msg-chat.msg-emote .emote.widepeepoHappy {
+  background-size: calc(80px + var(--combo-px) * 3) 23px;
+  width: calc(80px + var(--combo-px) * 3);
+}*/
 .emote.widepeepoHappy {
+  transform-origin: bottom;
   animation: widepeepoHappy-anim 1s 1;
 }
 

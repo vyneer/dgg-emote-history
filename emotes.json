@@ -4176,6 +4176,22 @@
     ]
   },
   {
+    "prefix": "smolguh",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.36.1/emotes/690585b25b77c.png",
+        "name": "690585b25b77c.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "SNAP",
     "creator": null,
     "twitch": false,
