@@ -448,6 +448,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.ComfyAYA {
+    background-image: url("5fad97de7a0ef.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.ComfyAYA {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ComfyCat {
     background-image: url("645e8c248a9d4.png");
     height: 32px;
@@ -492,6 +501,15 @@
 .msg-chat .emote.ComfyLily {
     margin-top: -32px;
     top: 8px;
+}
+.emote.ComfyRustle {
+    background-image: url("66adb66986cf8.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.ComfyRustle {
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.coMMMMfy {
     background-image: url("624e76368b3a9.png");
@@ -627,6 +645,15 @@
 .msg-chat .emote.DankWave {
     margin-top: -32px;
     top: 8px;
+}
+.emote.DappaKappa {
+    background-image: url("665adcfd67837.png");
+    height: 30px;
+    width: 26px;
+}
+.msg-chat .emote.DappaKappa {
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.DCOLON {
     background-image: url("6002196ce1fcd.png");
