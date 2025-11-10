@@ -5887,7 +5887,7 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
     transition: all .5s;
 }
 
-.msg-chat:has(.emote.BERN) {}.emote.KYSNOW {
+.msg-chat:has(.emote.BERN) .emote.KYSNOW {
     width: 32px;
     filter: none;
     background-position: -2100px;
