@@ -5887,7 +5887,8 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
     transition: all .5s;
 }
 
-.msg-chat:has(.emote.BERN) .emote.KYSNOW {
+.msg-chat:has(.emote.BERN) .emote.KYSNOW,
+.msg-chat:has(.emote.MALARKEY) .emote.KYSNOW {
     width: 32px;
     filter: none;
     background-position: -2100px;
@@ -5902,7 +5903,8 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
     50% { filter: brightness(1.5) contrast(1) drop-shadow(-10px -9px 15px #4488FF66) drop-shadow(10px 0px 10px #4488FF44) }
 }
 
-.msg-chat:has(.emote.BERN) .emote.KYSNOW:hover {
+.msg-chat:has(.emote.BERN) .emote.KYSNOW:hover,
+.msg-chat:has(.emote.MALARKEY) .emote.KYSNOW:hover {
     animation: none;
 }
 
@@ -7175,6 +7177,25 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
 }
 @keyframes Shrugstiny-anim {
   0%, 100% { background-position: -32px; }
+}
+
+/* 67 lulw */
+.container:has(.tok.num[data-val="6"] ~ .emote.Shrugstiny ~ .tok.num[data-val="7"]) .emote.Shrugstiny {
+  background-image: url('https://cdn.destiny.gg/4.37.0/emotes/691246ae7328e.png'); 
+  animation: Shrugstiny-alt-anim 1.0s steps(9) 1; 
+}
+
+/* 67 hover */
+.container:has(.tok.num[data-val="6"] ~ .emote.Shrugstiny ~ .tok.num[data-val="7"]) .emote.Shrugstiny:hover {
+  animation: Shrugstiny-alt-hover 1.0s steps(9) infinite;
+}
+
+/* 67 keyframes */
+@keyframes Shrugstiny-alt-anim {
+  100% { background-position: -288px; }
+}
+@keyframes Shrugstiny-alt-hover {
+  100% { background-position: -288px; }
 }
 .emote.SICKO {
   animation: SICKO-anim 0.1s 20, SICKO-color 2.3s 1;
