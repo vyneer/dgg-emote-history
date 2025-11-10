@@ -2285,7 +2285,7 @@
     top: 8px;
 }
 .emote.Shroomstiny {
-    background-image: url("62509ec67821e.png");
+    background-image: url("6912296f94294.avif");
     height: 28px;
     width: 32px;
 }
@@ -7160,16 +7160,6 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
         transform: scaleY(1); transform-origin: bottom;
     }
 }
-/*@keyframes Shroomstiny-in-out {0% {-webkit-filter: hue-rotate(0deg) drop-shadow(0 0 0px #F44a);filter: hue-rotate(0deg) drop-shadow(0 0 0px #F44a);}100% {-webkit-filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);}}
-
-@keyframes Shroomstiny-anim {0% {-webkit-filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);}33% {-webkit-filter: hue-rotate(-120deg) drop-shadow(0 0 4px #66FF);filter: hue-rotate(-120deg) drop-shadow(0 0 4px #66FF);}66% {-webkit-filter: hue-rotate(-240deg) drop-shadow(0 0 4px #0F06);filter: hue-rotate(-240deg) drop-shadow(0 0 4px #0F06);}100% {-webkit-filter: hue-rotate(-360deg) drop-shadow(0 0 4px #F44a);filter: hue-rotate(-360deg) drop-shadow(0 0 4px #F44a);}}
-
-@keyframes Shroomstiny-anim-hover {0% {-webkit-filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);filter: hue-rotate(0deg) drop-shadow(0 0 4px #F44a);}33% {-webkit-filter: hue-rotate(-120deg) drop-shadow(0 0 4px #66FF);filter: hue-rotate(-120deg) drop-shadow(0 0 4px #66FF);}66% {-webkit-filter: hue-rotate(-240deg) drop-shadow(0 0 4px #0F06);filter: hue-rotate(-240deg) drop-shadow(0 0 4px #0F06);}100% {-webkit-filter: hue-rotate(-360deg) drop-shadow(0 0 4px #F44a);filter: hue-rotate(-360deg) drop-shadow(0 0 4px #F44a);}}
-
-.emote.Shroomstiny {animation: Shroomstiny-in-out 0.4s 1 linear, Shroomstiny-anim 3s 0.4s 2 linear, Shroomstiny-in-out 0.4s 6.4s 1 reverse linear;}
-
-.emote.Shroomstiny:hover {animation: Shroomstiny-anim-hover 3s infinite linear;}*/
-
 @keyframes Shroomstiny-anim { 100% { filter: hue-rotate(-360deg); } }
 .emote.Shroomstiny { animation: Shroomstiny-anim 4s linear 1; transition: all 4s ease-in-out; }
 .emote.Shroomstiny:hover { filter: hue-rotate(360deg); }

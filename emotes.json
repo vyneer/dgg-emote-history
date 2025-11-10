@@ -4065,15 +4065,15 @@
   },
   {
     "prefix": "Shroomstiny",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.37.0/emotes/62509ec67821e.png",
-        "name": "62509ec67821e.png",
-        "mime": "image/png",
+        "url": "https://cdn.destiny.gg/4.37.0/emotes/6912296f94294.avif",
+        "name": "6912296f94294.avif",
+        "mime": "image/avif",
         "height": 28,
         "width": 32
       }
