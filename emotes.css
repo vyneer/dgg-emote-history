@@ -5894,7 +5894,7 @@ animation: KEIKAKU-hover 1.5s steps(33) forwards;
     width: 32px;
     filter: none;
     background-position: -2100px;
-    animation: KYSNOW-KAYA 1.5s steps(1) 1 0.13s, KYSNOW-KAYA-glow 0.28s steps(1) 5 0.1s;
+    animation: KYSNOW-KAYA 1.4s steps(1) 1 0.13s, KYSNOW-KAYA-glow 0.25s steps(1) 5 0.1s;
 }
 
 @keyframes KYSNOW-KAYA {
