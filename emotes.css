@@ -2311,6 +2311,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.SideEye {
+    background-image: url("6914a602375a9.png");
+    height: 32px;
+    width: 64px;
+}
+.msg-chat .emote.SideEye {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Sippy {
     background-image: url("665aec88d4dda.png");
     height: 30px;
@@ -7215,6 +7224,23 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
   37.5% {transform: translate(-.5px, 1.5px) rotate(-2deg) scale(1.1);}
   87.5% {transform: translate(.5px, -1.5px) rotate(2deg) scale(1.1);}
 }
+.emote.SideEye {
+  width: 32px;
+  background-position: -32px;
+  animation: SideEye-anim 1.8s steps(1) 2;
+  transition: all steps(1) 0.1s;
+}
+
+.msg-chat.msg-user:hover .emote.SideEye {
+  background-position: 0px;
+  animation: none;
+}
+
+@keyframes SideEye-anim {
+  0% { background-position: 0px; }
+  35% { background-position: -32px; }
+}
+
 @keyframes Sippy-right {
   0%, 100% { filter: drop-shadow(0 0 0.5px black); }
   15% { background-position: 0 0;  }

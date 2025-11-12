@@ -4112,6 +4112,22 @@
     ]
   },
   {
+    "prefix": "SideEye",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.38.0/emotes/6914a602375a9.png",
+        "name": "6914a602375a9.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 64
+      }
+    ]
+  },
+  {
     "prefix": "Sippy",
     "creator": "",
     "twitch": false,
