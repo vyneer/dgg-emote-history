@@ -7227,11 +7227,11 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
 .emote.SideEye {
   width: 32px;
   background-position: -32px;
-  animation: SideEye-anim 1.8s steps(1) 2;
+  animation: SideEye-anim 1.8s steps(1) 3;
   transition: all steps(1) 0.1s;
 }
 
-.msg-chat.msg-user:hover .emote.SideEye {
+.msg-chat.msg-user:hover .emote.SideEye, .emote.SideEye:hover {
   background-position: 0px;
   animation: none;
 }
