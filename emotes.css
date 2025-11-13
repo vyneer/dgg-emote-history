@@ -6571,6 +6571,26 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
   animation: NoTears-z-hover var(--t-NoTears) 1, NoTears-size-flipped-hover var(--t-NoTears) 3;
 }
 
+.emote.NoTears + .chat-user + .emote.NoTears::before {
+    content: "🍌";
+    text-indent: 0;
+    color: white;
+    font-size: 17px;
+    line-height: initial;
+    position: absolute;
+    opacity: 1;
+    top: -34px;
+    text-shadow: none;
+    width: 17px;
+    transform: scaleX(.4) rotate(90deg);
+    transform-origin: 55% 55%;
+    animation: NoTears-anim var(--t-NoTears) 3 ease -.15s;
+}
+
+.emote.NoTears + .chat-user + .emote.NoTears:hover::before {
+    animation: NoTears-anim-hover var(--t-NoTears) infinite ease;
+}
+
 @keyframes NoTears-size-flipped {
   0%, 100% { 
   width: 69px;
