@@ -7676,6 +7676,7 @@ background-repeat:no-repeat;
 }
 
 .emote.TeaTime:has(+ .emote.Slugstiny) {
+  margin-right: -4px;
   animation: SLUGTEA-slide 2.5s 1 linear;
   transition: all 2.5s linear;
 }
