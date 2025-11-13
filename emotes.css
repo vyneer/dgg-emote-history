@@ -6533,7 +6533,24 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
     animation: NoTears-anim-hover var(--t-NoTears) infinite ease;
 }
 
-    
+.emote.NoTears:only-child,
+.emote.NoTears:has(+ .emote.Clap),
+.emote.NoTears:has(+ .emote.RapThis),
+.emote.NoTears:has(+ .emote.Sippy),
+.emote.NoTears:has(+ .emote.ZoomerSippy),
+.emote.NoTears:has(+ .emote.BoomerSippy) {
+  width: 31px;
+  margin-right: 0 !important;
+  animation: none;
+}
+.emote.NoTears:only-child::before,
+.emote.NoTears:has(+ .emote.Clap)::before,
+.emote.NoTears:has(+ .emote.RapThis)::before,
+.emote.NoTears:has(+ .emote.Sippy)::before,
+.emote.NoTears:has(+ .emote.ZoomerSippy)::before,
+.emote.NoTears:has(+ .emote.BoomerSippy)::before {
+  display: none;
+}
 @keyframes OBJECTION-anim {
   0% { clip-path: polygon(0% 0%, 100% -16%, 100% -16%, 0% 100%); transform: rotate(0deg); }
   1% { clip-path: polygon(0% 0%, 100% -16%, 100% -16%, 0% 100%); transform: rotate(20deg); }
@@ -7600,11 +7617,17 @@ background-repeat:no-repeat;
 .emote.TeaTime {
   image-rendering: pixelated;
 }
-.emote.TeaTime + .emote.TeaTime, .emote.TeaTime:nth-of-type(1), .emote.RapThis + .emote.TeaTime, .emote.BLADE + .emote.TeaTime, .chat-user + .emote.TeaTime {
+.emote.TeaTime + .emote.TeaTime,
+.emote.TeaTime:nth-of-type(1),
+.emote.RapThis + .emote.TeaTime,
+.emote.BLADE + .emote.TeaTime,
+.chat-user + .emote.TeaTime {
   margin-right: -2px;
   transform: scale(-1, 1);
 }
-.emote.TeaTime:only-of-type, .emote + .emote.TeaTime:last-of-type, .emote.TeaTime:last-of-type {
+.emote.TeaTime:only-of-type,
+.emote + .emote.TeaTime:last-of-type,
+.emote.TeaTime:last-of-type {
   margin-left: -2px;
   transform: scale(1);
 }
