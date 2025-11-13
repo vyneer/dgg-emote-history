@@ -5623,6 +5623,7 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   width: 34px;
   background-position: center;
   background-repeat: no-repeat;
+  filter: hue-rotate(-100deg) saturate(2) brightness(0.75) contrast(1.15); /* terminator */
 }
 @keyframes HACKERMAN-scan {
   0% { transform: translate(0); box-shadow: inset 0 .5px 0 #0F0, 0 0 10px #0F0; }
@@ -6558,21 +6559,22 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
   animation: none;
 }
 
-.emote:not(.NoTears) + .emote.NoTears,
-.emote.NoTears + .chat-user + .emote.NoTears {
+.emote.NoTears + .chat-user + .emote.NoTears,
+.emote.NoTears + .emote:not(.NoTears) + .emote.NoTears {
   transform: scale(-1, 1);
   margin-left: 12px;
   margin-right: 0px;
   animation: NoTears-z var(--t-NoTears) 1 -.15s, NoTears-size-flipped var(--t-NoTears) 3 -.15s;
 }
 
-.emote:not(.NoTears) + .emote.NoTears:hover,
-.emote.NoTears + .chat-user + .emote.NoTears:hover {
+.emote.NoTears + .chat-user + .emote.NoTears:hover,
+.emote.NoTears + .emote:not(.NoTears) + .emote.NoTears:hover {
   margin-left: 0px;
   animation: NoTears-z-hover var(--t-NoTears) 1, NoTears-size-flipped-hover var(--t-NoTears) 3;
 }
 
-.emote.NoTears + .chat-user + .emote.NoTears::before {
+.emote.NoTears + .chat-user + .emote.NoTears::before,
+.emote.NoTears + .emote:not(.NoTears) + .emote.NoTears::before {
     content: "🍌";
     text-indent: 0;
     color: white;
@@ -6588,7 +6590,8 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
     animation: NoTears-anim var(--t-NoTears) 3 ease -.15s;
 }
 
-.emote.NoTears + .chat-user + .emote.NoTears:hover::before {
+.emote.NoTears + .chat-user + .emote.NoTears:hover::before,
+.emote.NoTears + .emote:not(.NoTears) + .emote.NoTears:hover::before {
     animation: NoTears-anim-hover var(--t-NoTears) infinite ease;
 }
 
