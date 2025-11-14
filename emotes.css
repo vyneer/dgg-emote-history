@@ -6542,7 +6542,7 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
 }
 
 .emote.NoTears:only-child,
-.emote.NoTears + .emote.NoTears:last-child,
+.emote + .emote.NoTears:last-child,
 .chat-user + .emote.NoTears,
 .emote.NoTears:has(+ .emote.Clap),
 .emote.NoTears:has(+ .emote.RapThis),
@@ -6555,7 +6555,7 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
   animation: none;
 }
 .emote.NoTears:only-child::before,
-.emote.NoTears + .emote.NoTears:last-child::before,
+.emote + .emote.NoTears:last-child::before,
 .chat-user + .emote.NoTears::before,
 .emote.NoTears:has(+ .emote.Clap)::before,
 .emote.NoTears:has(+ .emote.RapThis)::before,
