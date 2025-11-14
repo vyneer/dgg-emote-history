@@ -6115,17 +6115,17 @@ background-position: 0px 10px;
   //filter: brightness(1.15);
 }
 
-.emote.Looking+.emote.Looking,
+.emote.Looking +.emote.Looking,
 .emote.Looking:nth-child(1),
-.emote.Clap+.emote.Looking,
-.emote.BLADE+.emote.Looking{
+.emote.Clap + .emote.Looking,
+.emote.BLADE + .emote.Looking {
   //margin-right: -2px;
   margin-left: 0;
   transform: scaleX(-1);
 }
 
 .emote.Looking:only-child,
-.emote+.emote.Looking:last-of-type,
+.emote +.emote.Looking:last-of-type,
 .emote.Looking:last-of-type {
   margin-right: 0;
   transform: scaleX(1);
@@ -6139,7 +6139,6 @@ background-position: 0px 10px;
   0% {
     transform: translate(-28px, 0);
   }
-
   100% {
     transform: translate(0, 0);
   }
@@ -6149,9 +6148,9 @@ background-position: 0px 10px;
   animation: GIGAHANDS-anim 1.5s ease-out 1;
 }
 
-.chat-user+.emote.Looking,
-.emote.Looking:has(+.externallink),
-.emote.Looking:has(+.chat-user) {
+.chat-user + .emote.Looking,
+.emote.Looking:has(+ .externallink),
+.emote.Looking:has(+ .chat-user) {
   transform: scaleX(-1);
 }
 
