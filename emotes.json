@@ -2960,6 +2960,22 @@
     ]
   },
   {
+    "prefix": "nathanLook",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.38.0/emotes/69167f7f0288f.png",
+        "name": "69167f7f0288f.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 43
+      }
+    ]
+  },
+  {
     "prefix": "nathanNotears",
     "creator": null,
     "twitch": false,

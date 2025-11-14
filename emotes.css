@@ -1663,6 +1663,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.nathanLook {
+    background-image: url("69167f7f0288f.png");
+    height: 30px;
+    width: 43px;
+}
+.msg-chat .emote.nathanLook {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.nathanNotears {
     background-image: url("nathanNotears.png");
     height: 28px;
