@@ -5623,7 +5623,6 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
   width: 34px;
   background-position: center;
   background-repeat: no-repeat;
-  filter: hue-rotate(-100deg) saturate(2) brightness(0.75) contrast(1.15); /* terminator */
 }
 @keyframes HACKERMAN-scan {
   0% { transform: translate(0); box-shadow: inset 0 .5px 0 #0F0, 0 0 10px #0F0; }
