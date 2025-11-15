@@ -2303,9 +2303,9 @@
     top: 7px;
 }
 .emote.Shrugstiny {
-    background-image: url("5e8666ff1b079.png");
+    background-image: url("6918bfcae77cf.png");
     height: 32px;
-    width: 64px;
+    width: 128px;
 }
 .msg-chat .emote.Shrugstiny {
     margin-top: -32px;
@@ -2762,9 +2762,9 @@
     top: 7.5px;
 }
 .emote.WWWWaiting {
-    background-image: url("66b3134c94205.png");
+    background-image: url("6918bbbd89839.png");
     height: 32px;
-    width: 36px;
+    width: 77px;
 }
 .msg-chat .emote.WWWWaiting {
     margin-top: -32px;
@@ -7263,15 +7263,35 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
 .emote.Shrugstiny {
   width: 32px;
   height: 32px;
-  animation: Shrugstiny-anim 1 .5s .1s;
-  transition: steps(1) .5s;
+  animation: Shrugstiny-anim 2 steps(2) 1s .1s;
+  transition: 0s;
 }
+
 .emote.Shrugstiny:hover {
-  transition: steps(1) 0s;
+  transition: 0s;
   background-position: -32px;
 }
 @keyframes Shrugstiny-anim {
-  0%, 100% { background-position: -32px; }
+  100% { background-position: -64px; }
+}
+.msg-chat.msg-user>time[data-unixtimestamp*="67"]~.text .emote.Shrugstiny {
+  background-position: -96px;
+  animation: Shrugstiny-67 0.6s steps(2) 7;
+  transition: none;
+}
+.msg-chat.msg-user>time[data-unixtimestamp*="67"]~.text .emote.Shrugstiny:hover {
+  animation: Shrugstiny-67-hover 0.6s steps(2) infinite;
+  transition: none;
+} 
+
+@keyframes Shrugstiny-67 {
+  0% { background-position: -64px; }
+  100% { background-position: -128px; }
+}
+
+@keyframes Shrugstiny-67-hover {
+  0% { background-position: -64px; }
+  100% { background-position: -128px; }
 }
 .emote.SICKO {
   animation: SICKO-anim 0.1s 20, SICKO-color 2.3s 1;
@@ -8648,6 +8668,14 @@ color:#ffaccc !important;
 
 .emote.WooYeah:hover {
   animation: WooYeah-hover 1.76s steps(22) infinite;
+}
+.emote.WWWWaiting {
+  width: 36px;
+}
+
+.msg-chat.msg-user>.time[data-unixtimestamp$="00"]~.text .emote.WWWWaiting {
+  width: 41px;
+  background-position: -36px;
 }
 .emote.YAM {
     margin-left: 4px;
