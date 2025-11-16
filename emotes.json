@@ -1232,6 +1232,22 @@
     ]
   },
   {
+    "prefix": "DestiSenpaii",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.38.0/emotes/691a5bbc79305.png",
+        "name": "691a5bbc79305.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "dggL",
     "creator": "",
     "twitch": false,
