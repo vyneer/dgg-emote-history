@@ -1061,9 +1061,9 @@
     top: 8px;
 }
 .emote.glorp {
-    background-image: url("68493412857ea.png");
+    background-image: url("691a4c80becd1.png");
     height: 28px;
-    width: 278px;
+    width: 308px;
 }
 .msg-chat .emote.glorp {
     margin-top: -28px;
@@ -5088,6 +5088,12 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
     background-repeat: no-repeat;
     filter: hue-rotate(10deg) brightness(0.9) saturate(1.1);
 }
+
+[data-username="igor"] .emote.glorp {
+  width: 30px;
+  background-position: -278px;
+}
+
 /* 
     RARE VARIATIONS 
 
