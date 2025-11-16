@@ -197,9 +197,9 @@
     top: 7.5px;
 }
 .emote.BINGQILIN {
-    background-image: url("684778fdb7384.png");
+    background-image: url("691926a52c4e6.avif");
     height: 32px;
-    width: 2880px;
+    width: 6390px;
 }
 .msg-chat .emote.BINGQILIN {
     margin-top: -32px;
@@ -3329,21 +3329,30 @@ filter: contrast(1) saturate(1) brightness(1.25);
     animation: BibleThump-anim-hover 1s infinite;
 }
 @keyframes BINGQILIN {
-  0% { background-position: 0px; }
-  100% { background-position: -2880px; }
+  0% { background-position: var(--start); }
+  100% { background-position: var(--end); }
 }
 @keyframes BINGQILIN-hover {
-  0% { background-position: 0px; }
-  100% { background-position: -2880px; }
+  0% { background-position: var(--start); }
+  100% { background-position: var(--end); }
 }
 .emote.BINGQILIN {
+  --start: 0px;
+  --end: -2880px;
   width: 32px;
-  background-position: 32px; 
+  background-position: -2848px; 
   animation: BINGQILIN steps(90) 3s 1;
 }
 
 .emote.BINGQILIN:hover {
   animation: BINGQILIN-hover steps(90) 3s infinite;
+}
+
+.msg-chat.msg-user[data-username="igor"] .emote.BINGQILIN {
+  --start: -2880px;
+  --end: -6390px;
+  width: 39px;
+  background-position: -6351px;
 }
 /* Halloween version and animation made by Igor */
 @keyframes BLADE-anim-swing {
@@ -7078,16 +7087,6 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
           background-position: -56px;
         }
       }
-[data-username="igor"] .emote.POTATO::before {
-  margin-left: 9px;
-  margin-top: 21px;
-  width: 14px;
-  height: 7px;
-  display: block;
-  transform: rotate(2deg);
-  content: "";
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAHCAYAAAA4R3wZAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZ0lEQVQYlTVOO2vCUBj9bh4SEyqFkMUiCA2KiUNXO9huhrp0UAcnof0d/ox2aEHoEBw6dFQQERczKJXQQECkIsSlSVx8YW9MuYGe7ZzDeaBWq1UbjUa3lUrlTVEUg+M4mE6n4Lou5PN5cBwHZFkGhBAsl8vkYDCoe553QScSiWa73W6Ypvlo2/Y1z/M/PM/PgyCAVCoF+/0eNpvNpa7rTV3Xn/v9/v14PFZRoVD4nM1mV/F4HP6hKMqHLMtfkiSFi8VCnEwmddd1z2maBlIYBMEapdNpB2OcxBjD8XiE0+kU3ZIkCSiKAt/3o9VYLAYkyDAM8X2GBLbbLYRhGIkkeDgcomXCyQLRKAoBxr8RJ4VMLpebG4aRFEUxMhj2bK2VSq8sy9oIoZDjOLHX6zVWK0fleSF6tdvtWEbTtPfhcKgKguAVizfv5fLdi6qq35ZlRc2ZTAaq1epTt9utdTqdB8uylGw2a/4BcwmqnYu/0GoAAAAASUVORK5CYII=");
-}
 @keyframes GIGARAP-anim {
   0% { transform: translate(-28px, 0); }
   100% { transform: translate(0, 0); }
@@ -7274,12 +7273,14 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
 @keyframes Shrugstiny-anim {
   100% { background-position: -64px; }
 }
-.msg-chat.msg-user>time[data-unixtimestamp*="67"]~.text .emote.Shrugstiny {
+.msg-chat.msg-user>time[data-unixtimestamp*="6767"]~.text .emote.Shrugstiny,
+.msg-chat.msg-user>time[data-unixtimestamp~="67"]~.text .emote.Shrugstiny {
   background-position: -96px;
   animation: Shrugstiny-67 0.6s steps(2) 7;
   transition: none;
 }
-.msg-chat.msg-user>time[data-unixtimestamp*="67"]~.text .emote.Shrugstiny:hover {
+.msg-chat.msg-user>time[data-unixtimestamp*="6767"]~.text .emote.Shrugstiny:hover,
+.msg-chat.msg-user>time[data-unixtimestamp~="67"]~.text .emote.Shrugstiny:hover {
   animation: Shrugstiny-67-hover 0.6s steps(2) infinite;
   transition: none;
 } 
