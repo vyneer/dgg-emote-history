@@ -8671,9 +8671,15 @@ color:#ffaccc !important;
   width: 36px;
 }
 
-.msg-chat.msg-user>.time[data-unixtimestamp$="00"]~.text .emote.WWWWaiting {
+.msg-chat.msg-user>.time[data-unixtimestamp$="00"]~.text .emote.WWWWaiting,
+[data-username="jaydrvernanda"]~.msg-chat.msg-user .emote.WWWWaiting {
   width: 41px;
   background-position: -36px;
+}
+
+.msg-chat.msg-user[data-username="jaydrvernanda"] .emote.WWWWaiting {
+  width: 36px;
+  background-position: 0px;
 }
 .emote.YAM {
     margin-left: 4px;
