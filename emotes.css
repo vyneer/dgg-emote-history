@@ -331,6 +331,15 @@
     margin-top: -34px;
     top: 8.5px;
 }
+.emote.CheekerZ {
+    background-image: url("66596e319f7cc.png");
+    height: 30px;
+    width: 44px;
+}
+.msg-chat .emote.CheekerZ {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.Cheerstiny {
     background-image: url("660aa12bdf25a.png");
     height: 32px;

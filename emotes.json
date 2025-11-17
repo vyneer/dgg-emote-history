@@ -592,6 +592,22 @@
     ]
   },
   {
+    "prefix": "CheekerZ",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.38.0/emotes/66596e319f7cc.png",
+        "name": "66596e319f7cc.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 44
+      }
+    ]
+  },
+  {
     "prefix": "Cheerstiny",
     "creator": "MrGemzar",
     "twitch": false,
