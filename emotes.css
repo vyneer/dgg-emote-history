@@ -7084,24 +7084,20 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
   width: 28px;
   height: 32px;
   background-position: left center; 
-  animation: POPPERS-anim 0.3s steps(2) 65;
+  animation: POPPERS-anim 0.3s steps(2) 65 -.14s;
 }
 
-      @keyframes POPPERS-anim {
-        to {
-          background-position: -56px;
-        }
-      }
+@keyframes POPPERS-anim {
+  to { background-position: -56px; }
+}
 
 .emote.POPPERS:hover {
-        animation: POPPERS-hover 0.3s steps(2) infinite;
+  animation: POPPERS-hover 0.3s steps(2) infinite;
 }
 
-      @keyframes POPPERS-hover {
-        to {
-          background-position: -56px;
-        }
-      }
+@keyframes POPPERS-hover {
+  to { background-position: -56px; }
+}
 @keyframes GIGARAP-anim {
   0% { transform: translate(-28px, 0); }
   100% { transform: translate(0, 0); }
@@ -8045,11 +8041,11 @@ background-repeat:no-repeat;
 .emote.WEOW {
     height: 28px;
     width: 28px;
+    transition: ease-out .1s;
 }
 
 .emote.WEOW:hover {
-    filter: brightness(1.1) drop-shadow(0px 0px 3px #f7f7d7);
-    transition: ease-out .4s;
+    filter: brightness(1.1) drop-shadow(0px 0px 6px #f7f7f780);
 }
 
 /*
