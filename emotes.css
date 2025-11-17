@@ -5845,43 +5845,29 @@ transform: rotate(2deg) translate(1px, 2px);
     animation: JAMSTINY-anim-hover 0.69s infinite ease-out;
 }
 @keyframes JustCantProveItYet-anim {
-  0% { background-position: 0px; }
-  100% { background-position: -6665px; }
+  to { background-position: -6622px; }
 }
 
 @keyframes JustCantProveItYet-hover {
-  0% { background-position: 0px; }
-  100% { background-position: -6665px; }
+  to { background-position: -6622px; }
 }
 
 .emote.JustCantProveItYet {
   width: 43px;
-  background-position: 43px;
-  background-size: 6665px 32px;
-  animation: JustCantProveItYet-anim 6s steps(155) 1;
+  animation: JustCantProveItYet-anim 6s steps(154) 1 forwards;
 }
 
 .emote.JustCantProveItYet:hover {
-  animation: JustCantProveItYet-hover 6s steps(155) infinite;
-}
-
-@keyframes JustCantProveItYet-combo {
-  0% { background-position: -3612px; }
-  100% { background-position: -6665px; }
-}
-
-@keyframes JustCantProveItYet-combo-hover {
-  0% { background-position: -3612px; }
-  100% { background-position: -6665px; }
+  animation: JustCantProveItYet-hover 6s steps(154) infinite forwards;
 }
 
 .msg-chat.msg-emote .emote.JustCantProveItYet {
-  background-position: -6622px;
-  animation: JustCantProveItYet-combo 3s steps(71) 4;
+  background-position: -3612px;
+  animation: JustCantProveItYet-anim 3s steps(70) 4 forwards;
 }
 
 .msg-chat.msg-emote .emote.JustCantProveItYet:hover {
-  animation: JustCantProveItYet-combo-hover 3s steps(71) infinite;
+  animation: JustCantProveItYet-hover 3s steps(70) infinite forwards;
 }
 .emote.KEIKAKU{
 width:31px; 
