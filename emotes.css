@@ -8672,7 +8672,7 @@ color:#ffaccc !important;
 }
 
 .msg-chat.msg-user>.time[data-unixtimestamp$="00"]~.text .emote.WWWWaiting,
-[data-username="jaydrvernanda"]~.msg-chat.msg-user .emote.WWWWaiting {
+[data-username="jaydrvernanda"] + .msg-chat.msg-user .emote.WWWWaiting {
   width: 41px;
   background-position: -36px;
 }
