@@ -2222,9 +2222,9 @@
     top: 8.75px;
 }
 .emote.RaveDoge {
-    background-image: url("653c2e056a57d.png");
+    background-image: url("691ca3249d701.avif");
     height: 34px;
-    width: 1350px;
+    width: 2700px;
 }
 .msg-chat .emote.RaveDoge {
     margin-top: -34px;
@@ -3296,7 +3296,8 @@ transition:all 2s;
     animation: BERN-shake-hover infinite 1.55s, BERN-anim-repeat1 1 steps(10) .5s, BERN-anim-repeat2 infinite steps(14) .7s .5s;
 }
 
-.msg-chat:has(.emote.KYSNOW) .emote.BERN::before {
+.msg-chat:has(.emote.KYSNOW) .emote.BERN::before,
+.msg-chat:has(.emote.RaveDoge) .emote.BERN::before {
   background-image: url(data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUEAAAGGbWV0YQAAAAAAAAAhaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAAAAAAAOcGl0bQAAAAAAAQAAACxpbG9jAAAAAEQAAAIAAQAAAAEAAAInAAABVAACAAAAAQAAAa4AAAB5AAAAQmlpbmYAAAAAAAIAAAAaaW5mZQIAAAAAAQAAYXYwMUNvbG9yAAAAABppbmZlAgAAAAACAABhdjAxQWxwaGEAAAAAGmlyZWYAAAAAAAAADmF1eGwAAgABAAEAAADDaXBycAAAAJ1pcGNvAAAAFGlzcGUAAAAAAAAAPAAAAB4AAAAQcGl4aQAAAAADCAgIAAAADGF2MUOBIAAAAAAAE2NvbHJuY2x4AAEADQAGgAAAAA5waXhpAAAAAAEIAAAADGF2MUOBABwAAAAAOGF1eEMAAAAAdXJuOm1wZWc6bXBlZ0I6Y2ljcDpzeXN0ZW1zOmF1eGlsaWFyeTphbHBoYQAAAAAeaXBtYQAAAAAAAAACAAEEAQKDBAACBAEFhgcAAAHVbWRhdBIACgYYFTvrCoAybUWQBhhQsuhaSqjZ4pO/CFI4I2jSe6ufRHm7veXC7wbYJ9+tHtxEmJjsddQImEUWQlv8N9a6rbZCp+xMD7zdU9YJ2yJ+VbKtbsfTtcC4TY/ewIwO3+g5cwBHW8uvJJuj7tlgvp44rjJO3SbzFsASAAoGOBU76wSAMscCFkAGGGGFAMlHnU61S+CKzn8kxrX+bnoh1nREUyrfdsUPnMRW62geMXDfHSvk7FQeIiIl+jyNAKJKZov/H+KtxAYCes4OmAomHSZ1Erp62VMc3sq75fr256zEYe/emP9oE8n2nHo10s1Y5qYuELuJM9bA+XoeWICUJh5suo/BLzmBkuoZGHYAow9ZzhPVyRok13eU9qc5QA928l4fYsoQjn424JsQ+grtBBRWD3wbvJV9OjDULRhd2qfLaKEcNjAdAWs1BMGKxVNhANaLRasozU0Fc55whzq9hCDYi293PM0j3zo1XEQLNO/thMHnYoUet9pKNskD0pN9vmu+ueIK57Jj2CVn/NrULgcepmpNZdS/CsL5oAyQ5vAo4YCyYakz6pqJ07Y2FuHPCofjrH3bUWO76pFKZhR62dulGDgu8NqpdsPGEfo4);
   width: 60px;
   height: 30px;
@@ -7107,14 +7108,18 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
   animation: GIGARAP-anim 1.5s ease-out 1;
 }
 @keyframes RaveDoge-anim {
-  100% { background-position: -1350px; }
+  from { background-position: var(--start); }
+  to { background-position: var(--end); }
 }
 
 @keyframes RaveDoge-hover {
-  100% { background-position: -1350px; }
+  from { background-position: var(--start); }
+  to { background-position: var(--end); }
 }
 
 .emote.RaveDoge {
+  --start: 0px;
+  --end: -1350px;
   margin-left: -3px;
   margin-right: -3px;
   width: 50px;
@@ -7123,6 +7128,13 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
 
 .emote.RaveDoge:hover {
   animation: RaveDoge-hover 1.62s steps(27) infinite;
+}
+
+.msg-chat:has(.emote.BERN) .emote.RaveDoge,
+.msg-chat:has(.emote.MALARKEY) .emote.RaveDoge {
+  --start: -1350px;
+  --end: -2700px;
+  background-position: var(--start);
 }
 @keyframes REE-anim {
     from { left: 0; }
