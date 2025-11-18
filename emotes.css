@@ -6222,6 +6222,8 @@ background-position: 0px 10px;
   transform-origin: bottom;
   transform: scale(calc(28/36));
   filter: hue-rotate(-30deg);
+  margin-left: -5px;
+  margin-right: -5px;
 }
 @keyframes MiyanoHype-anim {
     100% { background-position: -320px }
