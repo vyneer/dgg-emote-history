@@ -7285,13 +7285,17 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
   100% { background-position: -64px; }
 }
 .msg-chat.msg-user>time[data-unixtimestamp*="6767"]~.text .emote.Shrugstiny,
-.msg-chat.msg-user>time[data-unixtimestamp~="67"]~.text .emote.Shrugstiny {
+.msg-chat.msg-user>time[data-unixtimestamp~="67"]~.text .emote.Shrugstiny,
+.msg-chat.msg-user>time[data-unixtimestamp*="767"]~.text .emote.Shrugstiny,
+.msg-chat.msg-user>time[data-unixtimestamp*="676"]~.text .emote.Shrugstiny {
   background-position: -96px;
   animation: Shrugstiny-67 0.6s steps(2) 7;
   transition: none;
 }
 .msg-chat.msg-user>time[data-unixtimestamp*="6767"]~.text .emote.Shrugstiny:hover,
-.msg-chat.msg-user>time[data-unixtimestamp~="67"]~.text .emote.Shrugstiny:hover {
+.msg-chat.msg-user>time[data-unixtimestamp~="67"]~.text .emote.Shrugstiny:hover,
+.msg-chat.msg-user>time[data-unixtimestamp*="767"]~.text .emote.Shrugstiny:hover,
+.msg-chat.msg-user>time[data-unixtimestamp*="676"]~.text .emote.Shrugstiny:hover {
   animation: Shrugstiny-67-hover 0.6s steps(2) infinite;
   transition: none;
 } 
