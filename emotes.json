@@ -4544,22 +4544,6 @@
     ]
   },
   {
-    "prefix": "test_AURA",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.38.0/emotes/6923725bd08a9.avif",
-        "name": "6923725bd08a9.avif",
-        "mime": "image/avif",
-        "height": 64,
-        "width": 64
-      }
-    ]
-  },
-  {
     "prefix": "TF",
     "creator": "",
     "twitch": false,
