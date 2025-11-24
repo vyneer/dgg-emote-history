@@ -106,6 +106,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.AURA {
+    background-image: url("692422c83986f.avif");
+    height: 128px;
+    width: 128px;
+}
+.msg-chat .emote.AURA {
+    margin-top: -128px;
+    top: 32px;
+}
 .emote.Aware {
     background-image: url("66596d4136715.png");
     height: 32px;
@@ -3115,6 +3124,69 @@
   animation: Askers-hover 3.5s steps(99) infinite;
 }
 
+.emote.AURA {
+  --size: 34px;
+  background-size: var(--size);
+  width: var(--size);
+  height: var(--size);
+  transition: .2s all;
+  transform-origin: 10px bottom;
+  animation: AURA-anim 1s 1 ease-in-out;
+}
+
+.msg-chat .emote.AURA {
+  top: calc(var(--size)/4);
+}
+
+@keyframes AURA-anim {
+  from { transform: scale(2); }
+}
+
+.msg-chat.msg-emote .emote.AURA {
+  --size: 64px;
+  animation: none;
+}
+.msg-chat.msg-emote .emote.AURA,
+.msg-chat .emote.AURA:hover {
+  filter: drop-shadow(2px 0 2px #A0FF00A0) drop-shadow(-2px 0 2px #A000FFD0);
+}
+.msg-chat .emote.AURA:hover {
+  transform: scale(1.5);
+  transform-origin: 10px bottom;
+}
+
+.msg-chat.msg-emote:not([data-combo]) .emote.AURA,
+.msg-chat.msg-emote[data-combo="2"] .emote.AURA {
+  --size: 35px;
+}
+.msg-chat.msg-emote[data-combo="3"] .emote.AURA { --size: 36px; }
+.msg-chat.msg-emote[data-combo="4"] .emote.AURA { --size: 37px; }
+.msg-chat.msg-emote[data-combo="5"] .emote.AURA { --size: 38px; }
+.msg-chat.msg-emote[data-combo="6"] .emote.AURA { --size: 39px; }
+.msg-chat.msg-emote[data-combo="7"] .emote.AURA { --size: 40px; }
+.msg-chat.msg-emote[data-combo="8"] .emote.AURA { --size: 41px; }
+.msg-chat.msg-emote[data-combo="9"] .emote.AURA { --size: 42px; }
+.msg-chat.msg-emote[data-combo="10"] .emote.AURA { --size: 43px; }
+.msg-chat.msg-emote[data-combo="11"] .emote.AURA { --size: 44px; }
+.msg-chat.msg-emote[data-combo="12"] .emote.AURA { --size: 45px; }
+.msg-chat.msg-emote[data-combo="13"] .emote.AURA { --size: 46px; }
+.msg-chat.msg-emote[data-combo="14"] .emote.AURA { --size: 47px; }
+.msg-chat.msg-emote[data-combo="15"] .emote.AURA { --size: 48px; }
+.msg-chat.msg-emote[data-combo="16"] .emote.AURA { --size: 49px; }
+.msg-chat.msg-emote[data-combo="17"] .emote.AURA { --size: 50px; }
+.msg-chat.msg-emote[data-combo="18"] .emote.AURA { --size: 51px; }
+.msg-chat.msg-emote[data-combo="19"] .emote.AURA { --size: 52px; }
+.msg-chat.msg-emote[data-combo="20"] .emote.AURA { --size: 53px; }
+.msg-chat.msg-emote[data-combo="21"] .emote.AURA { --size: 54px; }
+.msg-chat.msg-emote[data-combo="22"] .emote.AURA { --size: 55px; }
+.msg-chat.msg-emote[data-combo="23"] .emote.AURA { --size: 56px; }
+.msg-chat.msg-emote[data-combo="24"] .emote.AURA { --size: 57px; }
+.msg-chat.msg-emote[data-combo="25"] .emote.AURA { --size: 58px; }
+.msg-chat.msg-emote[data-combo="26"] .emote.AURA { --size: 59px; }
+.msg-chat.msg-emote[data-combo="27"] .emote.AURA { --size: 60px; }
+.msg-chat.msg-emote[data-combo="28"] .emote.AURA { --size: 61px; }
+.msg-chat.msg-emote[data-combo="29"] .emote.AURA { --size: 62px; }
+.msg-chat.msg-emote[data-combo="30"] .emote.AURA { --size: 63px; }
 .emote.Aware {
   height: 32px;
   width: 36px;

@@ -192,6 +192,22 @@
     ]
   },
   {
+    "prefix": "AURA",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.38.0/emotes/692422c83986f.avif",
+        "name": "692422c83986f.avif",
+        "mime": "image/avif",
+        "height": 128,
+        "width": 128
+      }
+    ]
+  },
+  {
     "prefix": "Aware",
     "creator": "",
     "twitch": false,
