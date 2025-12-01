@@ -530,7 +530,7 @@
     top: 8px;
 }
 .emote.Concerned {
-    background-image: url("66ad4e190ce0c.png");
+    background-image: url("692db00820933.png");
     height: 32px;
     width: 32px;
 }
@@ -755,7 +755,7 @@
     top: 8px;
 }
 .emote.DonoWall {
-    background-image: url("68635d23bd005.gif");
+    background-image: url("692db0bc158e0.gif");
     height: 32px;
     width: 32px;
 }
@@ -944,13 +944,13 @@
     top: 8px;
 }
 .emote.Fishge {
-    background-image: url("67ebd8be81102.png");
-    height: 28px;
-    width: 37px;
+    background-image: url("692dafb0a6c2a.png");
+    height: 32px;
+    width: 42px;
 }
 .msg-chat .emote.Fishge {
-    margin-top: -28px;
-    top: 7px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.FISHIES {
     background-image: url("674bf348189e3.png");
@@ -1025,9 +1025,9 @@
     top: 7.5px;
 }
 .emote.GAGAGA {
-    background-image: url("660a7b2d12665.png");
+    background-image: url("692dacfe9c571.png");
     height: 32px;
-    width: 33px;
+    width: 29px;
 }
 .msg-chat .emote.GAGAGA {
     margin-top: -32px;
@@ -1106,7 +1106,7 @@
     top: 8px;
 }
 .emote.guh {
-    background-image: url("69058fdfd54ec.png");
+    background-image: url("692daf3f9899b.png");
     height: 32px;
     width: 32px;
 }
@@ -1511,13 +1511,13 @@
     top: 7.5px;
 }
 .emote.mhm {
-    background-image: url("690f52d51011d.gif");
-    height: 36px;
-    width: 44px;
+    background-image: url("692dae1769f35.gif");
+    height: 32px;
+    width: 37px;
 }
 .msg-chat .emote.mhm {
-    margin-top: -36px;
-    top: 9px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.MICROAGGRESSIONS {
     background-image: url("688fb263e34f4.png");
@@ -1853,7 +1853,7 @@
     top: 7.5px;
 }
 .emote.NOWWHAT {
-    background-image: url("68a69a3add9df.png");
+    background-image: url("692db36b9f6d8.png");
     height: 32px;
     width: 78px;
 }
@@ -1970,9 +1970,9 @@
     top: 8px;
 }
 .emote.peepoHug {
-    background-image: url("68b20863950b7.png");
+    background-image: url("692db0427a141.png");
     height: 32px;
-    width: 37px;
+    width: 32px;
 }
 .msg-chat .emote.peepoHug {
     margin-top: -32px;
@@ -2330,9 +2330,9 @@
     top: 8px;
 }
 .emote.SideEye {
-    background-image: url("6914a602375a9.png");
+    background-image: url("692db4453353e.png");
     height: 32px;
-    width: 64px;
+    width: 32px;
 }
 .msg-chat .emote.SideEye {
     margin-top: -32px;
@@ -2402,7 +2402,7 @@
     top: 7.25px;
 }
 .emote.smolguh {
-    background-image: url("690585b25b77c.png");
+    background-image: url("69058fdfd54ec.png");
     height: 32px;
     width: 32px;
 }
@@ -2913,6 +2913,15 @@
 .msg-chat .emote.CRACKED {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.dankWave {
+    background-image: url("692dae5bbc3ae.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.dankWave {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.DatGeoff {
     background-image: url("5de17e709b808.png");
@@ -5856,13 +5865,6 @@ background-position: 0px 10px;
 .emote.TRUMPED + .emote.MALARKEY:hover {
   animation: MALARKEY-shake_r-hover infinite 1.55s, MALARKEY-anim-repeat1 1 steps(10) .5s, MALARKEY-anim-repeat2 infinite steps(14) .7s .5s;
 }
-.emote.mhm {
-  transform-origin: bottom;
-  transform: scale(calc(28/36));
-  filter: hue-rotate(-30deg);
-  margin-left: -5px;
-  margin-right: -5px;
-}
 @keyframes MiyanoHype-anim {
     100% { background-position: -480px; }
 }
@@ -6844,23 +6846,6 @@ animation: pepeJAM-anim2 333.3ms -66.6ms linear 31;
     0%, 100% {filter: grayscale(0) sepia(0) hue-rotate(0deg) saturate(1) brightness(1) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));} 
     7%, 85% {filter: grayscale(1) sepia(1) hue-rotate(130deg) saturate(5) brightness(1.1) drop-shadow(7px 3px 0.5px rgba(120, 120, 255, 0.55)) drop-shadow(14px 6px 1px rgba(0, 50, 255, 0.7));}
 }
-.emote.SideEye {
-  width: 32px;
-  background-position: -32px;
-  animation: SideEye-anim 1.8s steps(1) 3;
-  transition: all steps(1) 0.1s;
-}
-
-.msg-chat.msg-user:hover .emote.SideEye, .emote.SideEye:hover {
-  background-position: 0px;
-  animation: none;
-}
-
-@keyframes SideEye-anim {
-  0% { background-position: 0px; }
-  35% { background-position: -32px; }
-}
-
 @keyframes Sippy-anim { 
   0% { background-position: 0px; }
   100% { background-position: -620px; }
