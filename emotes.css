@@ -647,7 +647,7 @@
     top: 7.5px;
 }
 .emote.DankWave {
-    background-image: url("6683a33ce76e6.png");
+    background-image: url("692dae5bbc3ae.gif");
     height: 32px;
     width: 32px;
 }
@@ -1439,9 +1439,9 @@
     top: 8px;
 }
 .emote.LookUp {
-    background-image: url("67ebd94ce2d6e.gif");
+    background-image: url("674bff92136f7.png");
     height: 32px;
-    width: 51px;
+    width: 32px;
 }
 .msg-chat .emote.LookUp {
     margin-top: -32px;
@@ -2914,15 +2914,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.dankWave {
-    background-image: url("692dae5bbc3ae.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.dankWave {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.DatGeoff {
     background-image: url("5de17e709b808.png");
     height: 30px;
@@ -2983,15 +2974,6 @@
     width: 39px;
 }
 .msg-chat .emote.lookDown {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.lookUp {
-    background-image: url("674bff92136f7.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.lookUp {
     margin-top: -32px;
     top: 8px;
 }
