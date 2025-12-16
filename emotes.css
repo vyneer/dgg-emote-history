@@ -2959,15 +2959,6 @@
     margin-top: -34px;
     top: 8.5px;
 }
-.emote.forsenAnalProlapse {
-    background-image: url("6941a842411ea.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.forsenAnalProlapse {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.KING {
     background-image: url("5de177662ef64.png");
     height: 30px;
@@ -3623,16 +3614,6 @@ transition:all 2s;
 }
 [data-username="cweetron"] .emote.Cabge {
        animation: RARE-EMERALD-PULSATE 3s infinite linear;
-}
-
-[data-username="iobobc"] .emote.Cabge {
-       animation: HIDE 10s infinite linear;
-       height: 0px;
-       width: 0px;
-}
-[data-username="yunidev"] .emote.Cabge {
-       height: 0px;
-       width: 0px;
 }
 
 @keyframes RARE-EMERALD-PULSATE {

@@ -5264,22 +5264,6 @@
     ]
   },
   {
-    "prefix": "forsenAnalProlapse",
-    "creator": "",
-    "twitch": false,
-    "theme": 2,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.39.3/emotes/6941a842411ea.png",
-        "name": "6941a842411ea.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "KING",
     "creator": null,
     "twitch": false,
