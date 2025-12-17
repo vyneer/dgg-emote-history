@@ -2896,6 +2896,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.BLICKY {
+    background-image: url("68e82c9f95436.png");
+    height: 32px;
+    width: 1632px;
+}
+.msg-chat .emote.BLICKY {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ComfyFerret {
     background-image: url("5fc72756d0d9a.png");
     height: 32px;
@@ -8225,6 +8234,121 @@ color:#ffaccc !important;
 .emote.GIGACHAD + .emote.ZoomerSippy:hover{
   animation: ZoomerSippy-right-hover 1.5s 1, GIGASIP 1.5s 1 ease-out;
 }  
+@keyframes BLICKY-anim {
+  from { background-position: 0 0; }
+  to { background-position: -1632px 0; }
+}
+
+@keyframes BLICKY-rotate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-3deg); }
+  25% { transform: rotate(-3deg); }
+  30% { transform: rotate(-6deg); }
+  40% { transform: rotate(2deg); }
+  45% { transform: rotate(-2deg); }
+  50% { transform: rotate(1deg); }
+  55% { transform: rotate(0deg); }
+  70% { transform: rotate(0deg); }
+  75% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  95% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes BLICKY-rotate-flip {
+  0% { transform: scaleX(-1) rotate(0deg); }
+  10% { transform: scaleX(-1) rotate(-3deg); }
+  25% { transform: scaleX(-1) rotate(-3deg); }
+  30% { transform: scaleX(-1) rotate(-6deg); }
+  40% { transform: scaleX(-1) rotate(2deg); }
+  45% { transform: scaleX(-1) rotate(-2deg); }
+  50% { transform: scaleX(-1) rotate(1deg); }
+  55% { transform: scaleX(-1) rotate(0deg); }
+  70% { transform: scaleX(-1) rotate(0deg); }
+  75% { transform: scaleX(-1) rotate(1deg); }
+  90% { transform: scaleX(-1) rotate(0deg); }
+  95% { transform: scaleX(-1) rotate(-1deg); }
+  100% { transform: scaleX(-1) rotate(0deg); }
+}
+
+@keyframes BLICKY-hover {
+  from { background-position: 0 0; }
+  to { background-position: -1632px 0; }
+}
+
+@keyframes BLICKY-hover-rotate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-3deg); }
+  25% { transform: rotate(-3deg); }
+  30% { transform: rotate(-6deg); }
+  40% { transform: rotate(2deg); }
+  45% { transform: rotate(-2deg); }
+  50% { transform: rotate(1deg); }
+  55% { transform: rotate(0deg); }
+  70% { transform: rotate(0deg); }
+  75% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  95% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes BLICKY-hover-rotate-flip {
+  0% { transform: scaleX(-1) rotate(0deg); }
+  10% { transform: scaleX(-1) rotate(-3deg); }
+  25% { transform: scaleX(-1) rotate(-3deg); }
+  30% { transform: scaleX(-1) rotate(-6deg); }
+  40% { transform: scaleX(-1) rotate(2deg); }
+  45% { transform: scaleX(-1) rotate(-2deg); }
+  50% { transform: scaleX(-1) rotate(1deg); }
+  55% { transform: scaleX(-1) rotate(0deg); }
+  70% { transform: scaleX(-1) rotate(0deg); }
+  75% { transform: scaleX(-1) rotate(1deg); }
+  90% { transform: scaleX(-1) rotate(0deg); }
+  95% { transform: scaleX(-1) rotate(-1deg); }
+  100% { transform: scaleX(-1) rotate(0deg); }
+}
+
+.emote.BLICKY {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-size: 1632px 32px;
+  background-repeat: no-repeat;
+  transform-origin: 50% 50%;
+  transition: all .25s;
+  transform: scaleX(1);
+  animation-fill-mode: backwards;
+  animation:
+    BLICKY-anim 0.255s steps(51) 0.15s 4,
+    BLICKY-rotate 1.5s ease-out 0.15s 1;
+}
+
+.emote.BLICKY:hover {
+  transform-origin: 50% 50%;
+  transition: all .25s;
+  animation-fill-mode: backwards;
+  animation:
+    BLICKY-hover 0.255s steps(51) 0.15s infinite,
+    BLICKY-hover-rotate 1.25s ease-out 0.15s infinite;
+}
+
+.emote + .emote.BLICKY {
+  margin-left: 0;
+  margin-right: -2px;
+  animation-fill-mode: backwards;
+  animation:
+    BLICKY-anim 0.255s steps(51) 0.15s 4,
+    BLICKY-rotate-flip 1.5s ease-out 0.15s 1;
+  transform: scaleX(-1);
+}
+
+.emote + .emote.BLICKY:hover {
+  animation-fill-mode: backwards;
+  animation:
+    BLICKY-hover 0.255s steps(51) 0.15s infinite,
+    BLICKY-hover-rotate-flip 1.25s ease-out 0.15s infinite;
+}
+
 @keyframes nathanFeels-anim {
     to {
         background-position: -3304px;
