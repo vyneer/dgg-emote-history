@@ -4782,6 +4782,14 @@ transition:all 2s;
     filter: hue-rotate(10deg) brightness(0.9) saturate(1.1);
 }
 
+[data-username="peachachoo"] .emote.glorp {
+    height: 28px;
+    width: 28px;
+    background-position: -110px;
+    background-repeat: no-repeat;
+    filter: hue-rotate(10deg) brightness(0.9) saturate(1.1);
+}
+
 [data-username="cyver"] .emote.glorp {
     height: 28px;
     width: 28px;
