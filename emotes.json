@@ -48,22 +48,6 @@
     ]
   },
   {
-    "prefix": "agreeGe",
-    "creator": "MrGemzar",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.40.0/emotes/660aaa9d2c17e.png",
-        "name": "660aaa9d2c17e.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "ALO",
     "creator": "",
     "twitch": false,
@@ -592,22 +576,6 @@
     ]
   },
   {
-    "prefix": "CheekerZ",
-    "creator": null,
-    "twitch": false,
-    "theme": 2,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.40.0/emotes/5de17e06dcea3.png",
-        "name": "5de17e06dcea3.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 63
-      }
-    ]
-  },
-  {
     "prefix": "Cheerstiny",
     "creator": "MrGemzar",
     "twitch": false,
@@ -795,22 +763,6 @@
         "name": "66937a5250384.png",
         "mime": "image/png",
         "height": 30,
-        "width": 32
-      }
-    ]
-  },
-  {
-    "prefix": "comFrieren",
-    "creator": "",
-    "twitch": false,
-    "theme": 2,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.40.0/emotes/674bf3cc4677a.png",
-        "name": "674bf3cc4677a.png",
-        "mime": "image/png",
-        "height": 32,
         "width": 32
       }
     ]
@@ -1168,22 +1120,6 @@
     ]
   },
   {
-    "prefix": "DappaKappa",
-    "creator": null,
-    "twitch": false,
-    "theme": 2,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.40.0/emotes/5de17e65c186b.png",
-        "name": "5de17e65c186b.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 40
-      }
-    ]
-  },
-  {
     "prefix": "DCOLON",
     "creator": "",
     "twitch": false,
@@ -1467,22 +1403,6 @@
         "name": "674c3e162f49f.png",
         "mime": "image/png",
         "height": 42,
-        "width": 42
-      }
-    ]
-  },
-  {
-    "prefix": "FailerZ",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.40.0/emotes/66abdf6ef3020.png",
-        "name": "66abdf6ef3020.png",
-        "mime": "image/png",
-        "height": 32,
         "width": 42
       }
     ]

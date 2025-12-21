@@ -25,15 +25,6 @@
     margin-top: -33px;
     top: 8.25px;
 }
-.emote.agreeGe {
-    background-image: url("660aaa9d2c17e.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.agreeGe {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.ALO {
     background-image: url("674c09809c78e.png");
     height: 32px;
@@ -331,15 +322,6 @@
     margin-top: -34px;
     top: 8.5px;
 }
-.emote.CheekerZ {
-    background-image: url("5de17e06dcea3.png");
-    height: 30px;
-    width: 63px;
-}
-.msg-chat .emote.CheekerZ {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.Cheerstiny {
     background-image: url("660aa12bdf25a.png");
     height: 32px;
@@ -447,15 +429,6 @@
 .msg-chat .emote.ComfPeek {
     margin-top: -30px;
     top: 7.5px;
-}
-.emote.comFrieren {
-    background-image: url("674bf3cc4677a.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.comFrieren {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.ComfyAYA {
     background-image: url("5fc8ff7343a71.png");
@@ -655,15 +628,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.DappaKappa {
-    background-image: url("5de17e65c186b.png");
-    height: 30px;
-    width: 40px;
-}
-.msg-chat .emote.DappaKappa {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.DCOLON {
     background-image: url("674bfc2b3992a.png");
     height: 32px;
@@ -825,15 +789,6 @@
 .msg-chat .emote.EVIL {
     margin-top: -42px;
     top: 10.5px;
-}
-.emote.FailerZ {
-    background-image: url("66abdf6ef3020.png");
-    height: 32px;
-    width: 42px;
-}
-.msg-chat .emote.FailerZ {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.FeedNathan {
     background-image: url("5de17f19c3c54.png");
