@@ -1937,17 +1937,17 @@
   },
   {
     "prefix": "Heimerdonger",
-    "creator": "Vindelici",
+    "creator": "",
     "twitch": false,
-    "theme": 2,
+    "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.40.0/emotes/5de2fa0c2cffd.png",
-        "name": "5de2fa0c2cffd.png",
+        "url": "https://cdn.destiny.gg/4.40.0/emotes/665add97421dc.png",
+        "name": "665add97421dc.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 32
+        "height": 30,
+        "width": 37
       }
     ]
   },
