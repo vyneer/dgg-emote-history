@@ -2860,6 +2860,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.Buttstiny {
+    background-image: url("694c8b665356e.png");
+    height: 36px;
+    width: 80px;
+}
+.msg-chat .emote.Buttstiny {
+    margin-top: -36px;
+    top: 9px;
+}
 .emote.ComfyFerret {
     background-image: url("5fc72756d0d9a.png");
     height: 32px;
