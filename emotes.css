@@ -8321,6 +8321,16 @@ color:#ffaccc !important;
     BLICKY-hover-rotate-flip 1.25s ease-out 0.15s infinite;
 }
 
+/* IHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDR */
+.emote.Buttstiny {
+  vertical-align: -5px; 
+  display: inline-block;
+  animation: none;
+  transform: scale(0.85);
+  transform-origin: center center;
+  margin-left: -4px;   
+  margin-right: -4px;  
+}
 @keyframes nathanFeels-anim {
     to {
         background-position: -3304px;
