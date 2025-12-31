@@ -1087,6 +1087,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.HAPPYNEWYEAR {
+    background-image: url("6954e7083a05f.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.HAPPYNEWYEAR {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Heimerdonger {
     background-image: url("665add97421dc.png");
     height: 30px;
