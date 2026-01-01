@@ -232,6 +232,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.BLICKY {
+    background-image: url("68e82c9f95436.png");
+    height: 32px;
+    width: 1632px;
+}
+.msg-chat .emote.BLICKY {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Blubstiny {
     background-image: url("66596e1f9e026.png");
     height: 32px;
@@ -2293,12 +2302,12 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.SideEye {
+.emote.SideEye2 {
     background-image: url("6914a602375a9.png");
     height: 32px;
     width: 64px;
 }
-.msg-chat .emote.SideEye {
+.msg-chat .emote.SideEye2 {
     margin-top: -32px;
     top: 8px;
 }
@@ -2416,6 +2425,15 @@
     width: 43px;
 }
 .msg-chat .emote.SoyPoint {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.SpeedLaugh {
+    background-image: url("68635c5ddfa12.gif");
+    height: 32px;
+    width: 43px;
+}
+.msg-chat .emote.SpeedLaugh {
     margin-top: -32px;
     top: 8px;
 }
@@ -2654,11 +2672,20 @@
     top: 7px;
 }
 .emote.WHAAAAT {
+    background-image: url("69560c2a9ea0f.png");
+    height: 32px;
+    width: 59px;
+}
+.msg-chat .emote.WHAAAAT {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.WHAAAAT_OLD {
     background-image: url("660ab164140fa.png");
     height: 35px;
     width: 35px;
 }
-.msg-chat .emote.WHAAAAT {
+.msg-chat .emote.WHAAAAT_OLD {
     margin-top: -35px;
     top: 8.75px;
 }
@@ -3481,6 +3508,70 @@ filter: contrast(1) saturate(1) brightness(1.25);
 }
 .emote.Blesstiny:hover{
   transform: rotate(-20deg);
+}
+
+@keyframes BLICKY-anim {
+  from { background-position: 0 0; }
+  to { background-position: -1632px 0; }
+}
+
+@keyframes BLICKY-rotate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-3deg); }
+  25% { transform: rotate(-3deg); }
+  30% { transform: rotate(-6deg); }
+  40% { transform: rotate(2deg); }
+  45% { transform: rotate(-2deg); }
+  50% { transform: rotate(1deg); }
+  55% { transform: rotate(0deg); }
+  70% { transform: rotate(0deg); }
+  75% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  95% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes BLICKY-hover {
+  from { background-position: 0 0; }
+  to { background-position: -1632px 0; }
+}
+
+@keyframes BLICKY-hover-rotate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-3deg); }
+  25% { transform: rotate(-3deg); }
+  30% { transform: rotate(-6deg); }
+  40% { transform: rotate(2deg); }
+  45% { transform: rotate(-2deg); }
+  50% { transform: rotate(1deg); }
+  55% { transform: rotate(0deg); }
+  70% { transform: rotate(0deg); }
+  75% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  95% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.emote.BLICKY {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-size: 1632px 32px;
+  background-repeat: no-repeat;
+  transform-origin: 0% 100%;
+  transition: all .25s;
+  animation:
+    BLICKY-anim steps(51) 0.255s 4 0.15s,
+    BLICKY-rotate ease-out 1.5s 1 0.15s;
+}
+
+.emote.BLICKY:hover {
+  transform-origin: 0% 100%;
+  transition: all .25s;
+  /* Both sprite AND rotation animation, infinite loop on hover. */
+  animation:
+    BLICKY-hover-anim steps(51) 0.255s infinite 0.15s,
+    BLICKY-hover-rotate ease-out 1.25s infinite 0.15s;
 }
 
 @keyframes Blubstiny-anim {
@@ -7294,19 +7385,19 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
   37.5% {transform: translate(-.5px, 1.5px) rotate(-2deg) scale(1.1);}
   87.5% {transform: translate(.5px, -1.5px) rotate(2deg) scale(1.1);}
 }
-.emote.SideEye {
+.emote.SideEye2 {
   width: 32px;
   background-position: -32px;
-  animation: SideEye-anim 1.8s steps(1) 3;
+  animation: SideEye2-anim 1.8s steps(1) 3;
   transition: all steps(1) 0.1s;
 }
 
-.msg-chat.msg-user:hover .emote.SideEye, .emote.SideEye:hover {
+.msg-chat.msg-user:hover .emote.SideEye2, .emote.SideEye2:hover {
   background-position: 0px;
   animation: none;
 }
 
-@keyframes SideEye-anim {
+@keyframes SideEye2-anim {
   0% { background-position: 0px; }
   35% { background-position: -32px; }
 }
