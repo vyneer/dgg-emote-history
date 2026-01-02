@@ -768,6 +768,22 @@
     ]
   },
   {
+    "prefix": "comfggL",
+    "creator": "MrGemzar",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.41.1/emotes/69573979c5a82.png",
+        "name": "69573979c5a82.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "ComfPeek",
     "creator": "",
     "twitch": false,
