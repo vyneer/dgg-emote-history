@@ -286,6 +286,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.Buttstiny {
+    background-image: url("694c8b665356e.png");
+    height: 36px;
+    width: 80px;
+}
+.msg-chat .emote.Buttstiny {
+    margin-top: -36px;
+    top: 9px;
+}
 .emote.Cabge {
     background-image: url("68b45a3ec6fe2.png");
     height: 30px;
@@ -3717,6 +3726,16 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.GIGACHAD + .emote.BoomerSippy:hover{
   animation: BoomerSippy-right-hover 1.5s 1, GIGASIP 1.5s 1 ease-out;
 }  
+/* IHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDR */
+.emote.Buttstiny {
+  vertical-align: -5px; 
+  display: inline-block;
+  animation: none;
+  transform: scale(0.85);
+  transform-origin: center center;
+  margin-left: -4px;   
+  margin-right: -4px;  
+}
 .emote.Cabge {
     height: 30px;
     width: 42px;

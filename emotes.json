@@ -512,6 +512,22 @@
     ]
   },
   {
+    "prefix": "Buttstiny",
+    "creator": "MrGemzar",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 5,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.41.1/emotes/694c8b665356e.png",
+        "name": "694c8b665356e.png",
+        "mime": "image/png",
+        "height": 36,
+        "width": 80
+      }
+    ]
+  },
+  {
     "prefix": "Cabge",
     "creator": "cweetron",
     "twitch": false,
