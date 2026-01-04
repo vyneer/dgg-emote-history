@@ -4112,7 +4112,7 @@
     ]
   },
   {
-    "prefix": "SideEye2",
+    "prefix": "SideEye",
     "creator": "",
     "twitch": false,
     "theme": 1,
@@ -4780,22 +4780,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 59
-      }
-    ]
-  },
-  {
-    "prefix": "WHAAAAT_OLD",
-    "creator": "cybervegan",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.42.0/emotes/660ab164140fa.png",
-        "name": "660ab164140fa.png",
-        "mime": "image/png",
-        "height": 35,
-        "width": 35
       }
     ]
   },

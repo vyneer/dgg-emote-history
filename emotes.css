@@ -2311,12 +2311,12 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.SideEye2 {
+.emote.SideEye {
     background-image: url("6914a602375a9.png");
     height: 32px;
     width: 64px;
 }
-.msg-chat .emote.SideEye2 {
+.msg-chat .emote.SideEye {
     margin-top: -32px;
     top: 8px;
 }
@@ -2688,15 +2688,6 @@
 .msg-chat .emote.WHAAAAT {
     margin-top: -32px;
     top: 8px;
-}
-.emote.WHAAAAT_OLD {
-    background-image: url("660ab164140fa.png");
-    height: 35px;
-    width: 35px;
-}
-.msg-chat .emote.WHAAAAT_OLD {
-    margin-top: -35px;
-    top: 8.75px;
 }
 .emote.WHISPERING {
     background-image: url("6680aaacc3a97.gif");
@@ -7404,19 +7395,19 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
   37.5% {transform: translate(-.5px, 1.5px) rotate(-2deg) scale(1.1);}
   87.5% {transform: translate(.5px, -1.5px) rotate(2deg) scale(1.1);}
 }
-.emote.SideEye2 {
+.emote.SideEye {
   width: 32px;
   background-position: -32px;
-  animation: SideEye2-anim 1.8s steps(1) 3;
+  animation: SideEye-anim 1.8s steps(1) 3;
   transition: all steps(1) 0.1s;
 }
 
-.msg-chat.msg-user:hover .emote.SideEye2, .emote.SideEye2:hover {
+.msg-chat.msg-user:hover .emote.SideEye, .emote.SideEye:hover {
   background-position: 0px;
   animation: none;
 }
 
-@keyframes SideEye2-anim {
+@keyframes SideEye-anim {
   0% { background-position: 0px; }
   35% { background-position: -32px; }
 }
