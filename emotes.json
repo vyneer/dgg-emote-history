@@ -3856,6 +3856,22 @@
     ]
   },
   {
+    "prefix": "poroPls",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.42.0/emotes/695de4a6bf61d.gif",
+        "name": "695de4a6bf61d.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 37
+      }
+    ]
+  },
+  {
     "prefix": "POTATO",
     "creator": "",
     "twitch": false,

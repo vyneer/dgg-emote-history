@@ -2167,6 +2167,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.poroPls {
+    background-image: url("695de4a6bf61d.gif");
+    height: 32px;
+    width: 37px;
+}
+.msg-chat .emote.poroPls {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.POTATO {
     background-image: url("649f774ab436f.png");
     height: 28px;
