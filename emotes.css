@@ -25,6 +25,15 @@
     margin-top: -33px;
     top: 8.25px;
 }
+.emote.ALARMA {
+    background-image: url("696d53bc0a605.gif");
+    height: 32px;
+    width: 80px;
+}
+.msg-chat .emote.ALARMA {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ALO {
     background-image: url("66b312f523015.png");
     height: 37px;
@@ -2905,6 +2914,16 @@
 .msg-chat.msg-emote .emote.ACKSHUALLY {
     background-position: right center;
     transform: scale(1.1);
+}
+/* IHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDR */
+.emote.ALARMA {
+  vertical-align: -5px; 
+  display: inline-block;
+  animation: none;
+  transform: scale(0.85);
+  transform-origin: center center;
+  margin-left: -4px;   
+  margin-right: -4px;  
 }
 .emote.AMAZIN {
     transform: translate(0px, 4px);

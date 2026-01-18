@@ -48,6 +48,22 @@
     ]
   },
   {
+    "prefix": "ALARMA",
+    "creator": "Don't like this emote? Tag @Rin_Lux for removal!",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.43.1/emotes/696d53bc0a605.gif",
+        "name": "696d53bc0a605.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 80
+      }
+    ]
+  },
+  {
     "prefix": "ALO",
     "creator": "",
     "twitch": false,
