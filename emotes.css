@@ -4887,6 +4887,215 @@ time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
     background-position: -1140px;
 }
 */
+/* =========================
+   Image URLs
+   ========================= */
+
+.msg-chat.msg-emote .emote.EatFresh {
+  --base-img: url("https://cdn.omniliberal.dev/4.43.0/emotes/696de1911a4b3.gif");
+  --combo-img: url("https://cdn.omniliberal.dev/4.43.0/emotes/696de38566fd0.gif");
+}
+
+/* =========================
+   Animations (shared)
+   ========================= */
+
+@keyframes EatFresh-glow {
+  0%, 100% {
+    filter: brightness(var(--b0));
+  }
+  50% {
+    filter: brightness(var(--b1));
+  }
+}
+
+@keyframes EatFresh-shake {
+  0%, 100% { transform: translate3d(0,0,0) rotate(0deg); }
+  25%      { transform: translate3d(var(--sx), calc(var(--sy) * -1), 0) rotate(var(--sr)); }
+  50%      { transform: translate3d(calc(var(--sx) * -1), var(--sy), 0) rotate(calc(var(--sr) * -1)); }
+  75%      { transform: translate3d(var(--sx), var(--sy), 0) rotate(var(--sr)); }
+}
+
+/* =========================
+   Base (no combo)
+   ========================= */
+
+.msg-chat.msg-emote .emote.EatFresh {
+  background-color: transparent;
+  background-image: var(--base-img);
+  width: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* =========================
+   x5 (base image, light shake)
+   ========================= */
+
+.msg-chat.msg-emote[data-combo-group="x5"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x6"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x7"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x8"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x9"] .emote.EatFresh {
+  background-image: var(--base-img);
+  width: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+  
+  --b0: 1; --b1: 1.05;
+  --sx: 0.4px; --sy: 0.3px; --sr: 0.3deg;
+  animation: EatFresh-glow 1200ms ease-in-out infinite, EatFresh-shake 800ms linear infinite;
+}
+
+/* =========================
+   x10-x24 (combo image, moderate shake)
+   ========================= */
+
+.msg-chat.msg-emote[data-combo-group="x10"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x11"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x12"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x13"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x14"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x15"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x16"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x17"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x18"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x19"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x20"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x21"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x22"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x23"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x24"] .emote.EatFresh {
+  background-image: var(--combo-img);
+  width: 64px;
+  height: 32px;
+  background-size: 64px 32px;
+  
+  --b0: 1; --b1: 1.08;
+  --sx: 0.7px; --sy: 0.5px; --sr: 0.5deg;
+  animation: EatFresh-glow 900ms ease-in-out infinite, EatFresh-shake 600ms linear infinite;
+}
+
+/* =========================
+   x25-x49 (combo image, stronger shake)
+   ========================= */
+
+.msg-chat.msg-emote[data-combo-group="x25"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x26"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x27"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x28"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x29"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x30"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x31"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x32"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x33"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x34"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x35"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x36"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x37"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x38"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x39"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x40"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x41"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x42"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x43"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x44"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x45"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x46"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x47"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x48"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x49"] .emote.EatFresh {
+  background-image: var(--combo-img);
+  width: 64px;
+  height: 32px;
+  background-size: 64px 32px;
+  
+  --b0: 1; --b1: 1.12;
+  --sx: 1px; --sy: 0.7px; --sr: 0.8deg;
+  animation: EatFresh-glow 700ms ease-in-out infinite, EatFresh-shake 450ms linear infinite;
+}
+
+/* =========================
+   x50-x99 (combo image, intense shake)
+   ========================= */
+
+.msg-chat.msg-emote[data-combo-group="x50"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x51"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x52"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x53"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x54"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x55"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x56"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x57"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x58"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x59"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x60"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x61"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x62"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x63"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x64"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x65"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x66"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x67"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x68"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x69"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x70"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x71"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x72"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x73"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x74"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x75"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x76"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x77"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x78"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x79"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x80"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x81"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x82"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x83"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x84"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x85"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x86"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x87"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x88"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x89"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x90"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x91"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x92"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x93"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x94"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x95"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x96"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x97"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x98"] .emote.EatFresh,
+.msg-chat.msg-emote[data-combo-group="x99"] .emote.EatFresh {
+  background-image: var(--combo-img);
+  width: 64px;
+  height: 32px;
+  background-size: 64px 32px;
+  
+  --b0: 1; --b1: 1.15;
+  --sx: 1.4px; --sy: 1px; --sr: 1.2deg;
+  animation: EatFresh-glow 550ms ease-in-out infinite, EatFresh-shake 350ms linear infinite;
+}
+
+/* =========================
+   x100+ (combo image, max shake)
+   ========================= */
+
+.msg-chat.msg-emote[data-combo-group^="x"][data-combo-group*="0"][data-combo-group$="0"] .emote.EatFresh {
+  background-image: var(--combo-img);
+  width: 64px;
+  height: 32px;
+  background-size: 64px 32px;
+  
+  --b0: 1; --b1: 1.20;
+  --sx: 2px; --sy: 1.5px; --sr: 1.8deg;
+  animation: EatFresh-glow 400ms ease-in-out infinite, EatFresh-shake 250ms linear infinite;
+}
+
 /*
 [data-username="kelly_jean"] .emote.FISHIES {
     visibility: hidden;
