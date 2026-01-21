@@ -1556,9 +1556,9 @@
     top: 7.5px;
 }
 .emote.MMMM {
-    background-image: url("665b0b9951f50.png");
+    background-image: url("69712a13c9aed.png");
     height: 28px;
-    width: 28px;
+    width: 56px;
 }
 .msg-chat .emote.MMMM {
     margin-top: -28px;
@@ -6562,6 +6562,28 @@ background-position: 0px 10px;
 }
 .emote.MLADY:hover {
     animation: MLADY-anim-hover 250ms infinite;
+}
+/*
+    BASE
+*/
+.emote.MMMM {
+    height: 28px;
+    width: 28px;
+    background-position: 0px;
+    background-repeat: no-repeat;
+}
+
+.emote.MMMM:hover {
+    filter: brightness(1.1) drop-shadow(0px 0px 3px #f7f7d7);
+    transition: ease-out .4s;
+}
+
+[data-username="bing"] .emote.MMMM {
+    height: 28px;
+    width: 28px;
+    background-position: -28px;
+    background-repeat: no-repeat;
+    filter: brightness(1.1) saturate(1.1);
 }
 .emote.monkaGun {
   animation: monkaGun-anim .5s 3;
