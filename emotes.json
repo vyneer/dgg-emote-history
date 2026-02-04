@@ -2231,11 +2231,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.43.1/emotes/6982dadde6f8f.gif",
-        "name": "6982dadde6f8f.gif",
+        "url": "https://cdn.destiny.gg/4.43.1/emotes/6982e1e9b783e.gif",
+        "name": "6982e1e9b783e.gif",
         "mime": "image/gif",
-        "height": 36,
-        "width": 64
+        "height": 32,
+        "width": 57
       }
     ]
   },
@@ -3916,6 +3916,22 @@
         "mime": "image/png",
         "height": 28,
         "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "RAGEBAIT",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.43.1/emotes/6982e3ab77646.png",
+        "name": "6982e3ab77646.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 65
       }
     ]
   },

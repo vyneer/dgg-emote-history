@@ -1250,13 +1250,13 @@
     top: 8.75px;
 }
 .emote.ITSBECAUSEYOUREYELLING {
-    background-image: url("6982dadde6f8f.gif");
-    height: 36px;
-    width: 64px;
+    background-image: url("6982e1e9b783e.gif");
+    height: 32px;
+    width: 57px;
 }
 .msg-chat .emote.ITSBECAUSEYOUREYELLING {
-    margin-top: -36px;
-    top: 9px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.ItsFine {
     background-image: url("66b1b204d51fc.png");
@@ -2202,6 +2202,15 @@
 .msg-chat .emote.POTATO {
     margin-top: -28px;
     top: 7px;
+}
+.emote.RAGEBAIT {
+    background-image: url("6982e3ab77646.png");
+    height: 32px;
+    width: 65px;
+}
+.msg-chat .emote.RAGEBAIT {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.RainbowPls {
     background-image: url("665ad21170a2a.png");
