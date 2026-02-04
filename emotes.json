@@ -2224,6 +2224,22 @@
     ]
   },
   {
+    "prefix": "ITSBECAUSEYOUREYELLING",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.43.1/emotes/6982dadde6f8f.gif",
+        "name": "6982dadde6f8f.gif",
+        "mime": "image/gif",
+        "height": 36,
+        "width": 64
+      }
+    ]
+  },
+  {
     "prefix": "ItsFine",
     "creator": "",
     "twitch": false,

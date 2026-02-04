@@ -1249,6 +1249,15 @@
     margin-top: -35px;
     top: 8.75px;
 }
+.emote.ITSBECAUSEYOUREYELLING {
+    background-image: url("6982dadde6f8f.gif");
+    height: 36px;
+    width: 64px;
+}
+.msg-chat .emote.ITSBECAUSEYOUREYELLING {
+    margin-top: -36px;
+    top: 9px;
+}
 .emote.ItsFine {
     background-image: url("66b1b204d51fc.png");
     height: 32px;
@@ -6118,6 +6127,15 @@ transform: rotate(2deg) translate(1px, 2px);
   to {
     background-position: -1656px;
   }
+}
+/* IHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDR */
+.emote.ITSBECAUSEYOUREYELLING {
+  display: inline-block;
+  animation: none;
+  transform: scale(0.80);
+  transform-origin: center center;
+  margin-left: -4px;   
+  margin-right: -4px;  
 }
 @keyframes JAMSTINY-anim {
   0% { transform: rotate(0deg); transform-origin: 50% 30px; }
