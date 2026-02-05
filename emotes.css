@@ -457,75 +457,12 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.ComfPeek {
-    background-image: url("66937a5250384.png");
-    height: 30px;
-    width: 32px;
-}
-.msg-chat .emote.ComfPeek {
-    margin-top: -30px;
-    top: 7.5px;
-}
-.emote.ComfyAYA {
-    background-image: url("5fad97de7a0ef.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.ComfyAYA {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.ComfyCat {
-    background-image: url("645e8c248a9d4.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.ComfyCat {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.ComfyDan {
-    background-image: url("61d07f83b546c.png");
-    height: 32px;
-    width: 46px;
-}
-.msg-chat .emote.ComfyDan {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.ComfyDog {
-    background-image: url("5fad97ff5f13f.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.ComfyDog {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.ComfYEE {
     background-image: url("66937a7d1fbf0.png");
     height: 30px;
     width: 26px;
 }
 .msg-chat .emote.ComfYEE {
-    margin-top: -30px;
-    top: 7.5px;
-}
-.emote.ComfyLily {
-    background-image: url("664dad389b907.png");
-    height: 32px;
-    width: 41px;
-}
-.msg-chat .emote.ComfyLily {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.ComfyRustle {
-    background-image: url("66adb66986cf8.png");
-    height: 30px;
-    width: 30px;
-}
-.msg-chat .emote.ComfyRustle {
     margin-top: -30px;
     top: 7.5px;
 }
@@ -1239,15 +1176,6 @@
 .msg-chat .emote.INREALLIFE {
     margin-top: -32px;
     top: 8px;
-}
-.emote.InTheRoomWithUs {
-    background-image: url("66fb8beb9ddbf.png");
-    height: 35px;
-    width: 57px;
-}
-.msg-chat .emote.InTheRoomWithUs {
-    margin-top: -35px;
-    top: 8.75px;
 }
 .emote.ITSBECAUSEYOUREYELLING {
     background-image: url("6982e1e9b783e.gif");

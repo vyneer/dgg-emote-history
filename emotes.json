@@ -816,86 +816,6 @@
     ]
   },
   {
-    "prefix": "ComfPeek",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.43.1/emotes/66937a5250384.png",
-        "name": "66937a5250384.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 32
-      }
-    ]
-  },
-  {
-    "prefix": "ComfyAYA",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.43.1/emotes/5fad97de7a0ef.png",
-        "name": "5fad97de7a0ef.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
-    "prefix": "ComfyCat",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.43.1/emotes/645e8c248a9d4.png",
-        "name": "645e8c248a9d4.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
-    "prefix": "ComfyDan",
-    "creator": "Vindelici",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.43.1/emotes/61d07f83b546c.png",
-        "name": "61d07f83b546c.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 46
-      }
-    ]
-  },
-  {
-    "prefix": "ComfyDog",
-    "creator": null,
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.43.1/emotes/5fad97ff5f13f.png",
-        "name": "5fad97ff5f13f.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "ComfYEE",
     "creator": "",
     "twitch": false,
@@ -908,38 +828,6 @@
         "mime": "image/png",
         "height": 30,
         "width": 26
-      }
-    ]
-  },
-  {
-    "prefix": "ComfyLily",
-    "creator": "LilyPichu",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.43.1/emotes/664dad389b907.png",
-        "name": "664dad389b907.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 41
-      }
-    ]
-  },
-  {
-    "prefix": "ComfyRustle",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.43.1/emotes/66adb66986cf8.png",
-        "name": "66adb66986cf8.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 30
       }
     ]
   },
@@ -2204,22 +2092,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 58
-      }
-    ]
-  },
-  {
-    "prefix": "InTheRoomWithUs",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.43.1/emotes/66fb8beb9ddbf.png",
-        "name": "66fb8beb9ddbf.png",
-        "mime": "image/png",
-        "height": 35,
-        "width": 57
       }
     ]
   },
