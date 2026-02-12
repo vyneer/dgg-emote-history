@@ -2608,6 +2608,15 @@
     margin-top: -34px;
     top: 8.5px;
 }
+.emote.WAOW {
+    background-image: url("698d3e2079c37.png");
+    height: 32px;
+    width: 4440px;
+}
+.msg-chat .emote.WAOW {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.WarmWaterPort {
     background-image: url("66c12f88a37b4.png");
     height: 30px;
@@ -8205,6 +8214,23 @@ background-repeat:no-repeat;
 .emote.TRUELOVE:hover::after {
     animation: TRUELOVE-hover 0.5s infinite;
     animation-delay: 0.25s;
+}
+.emote.WAOW {
+  height: 32px;
+  width: 74px;
+  animation: WAOW-anim 1.8s steps(59) forwards;
+}
+.emote.WAOW:hover {
+  height: 32px;
+  width: 74px;
+  animation: WAOW-hover 1.8s steps(59) forwards 1;
+}
+
+@keyframes WAOW-anim {
+  to { background-position: -4366px; }
+}
+@keyframes WAOW-hover {
+  to { background-position: -4366px; }
 }
 .emote.WEEWOO {
     background-position: 0px;

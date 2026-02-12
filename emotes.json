@@ -4640,6 +4640,22 @@
     ]
   },
   {
+    "prefix": "WAOW",
+    "creator": "FizzyLongstockings",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.44.1/emotes/698d3e2079c37.png",
+        "name": "698d3e2079c37.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 4440
+      }
+    ]
+  },
+  {
     "prefix": "WarmWaterPort",
     "creator": "",
     "twitch": false,
