@@ -2832,22 +2832,6 @@
     ]
   },
   {
-    "prefix": "nathanF",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.44.1/emotes/653c2d56d58ae.png",
-        "name": "653c2d56d58ae.png",
-        "mime": "image/png",
-        "height": 28,
-        "width": 28
-      }
-    ]
-  },
-  {
     "prefix": "nathanLook",
     "creator": "",
     "twitch": false,
@@ -2860,22 +2844,6 @@
         "mime": "image/png",
         "height": 30,
         "width": 43
-      }
-    ]
-  },
-  {
-    "prefix": "nathanNotears",
-    "creator": null,
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.44.1/emotes/nathanNotears.png",
-        "name": "nathanNotears.png",
-        "mime": "image/png",
-        "height": 28,
-        "width": 28
       }
     ]
   },
@@ -3068,22 +3036,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 29
-      }
-    ]
-  },
-  {
-    "prefix": "NORMS",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.44.1/emotes/673dd50c81c5d.png",
-        "name": "673dd50c81c5d.png",
-        "mime": "image/png",
-        "height": 34,
-        "width": 27
       }
     ]
   },
@@ -4641,17 +4593,17 @@
   },
   {
     "prefix": "WAOW",
-    "creator": "FizzyLongstockings",
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.44.1/emotes/698d3e2079c37.png",
-        "name": "698d3e2079c37.png",
+        "url": "https://cdn.destiny.gg/4.44.1/emotes/6990c720940dc.png",
+        "name": "6990c720940dc.png",
         "mime": "image/png",
         "height": 32,
-        "width": 4440
+        "width": 32
       }
     ]
   },

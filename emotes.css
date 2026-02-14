@@ -1591,15 +1591,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.nathanF {
-    background-image: url("653c2d56d58ae.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanF {
-    margin-top: -28px;
-    top: 7px;
-}
 .emote.nathanLook {
     background-image: url("69167f7f0288f.png");
     height: 30px;
@@ -1608,15 +1599,6 @@
 .msg-chat .emote.nathanLook {
     margin-top: -30px;
     top: 7.5px;
-}
-.emote.nathanNotears {
-    background-image: url("nathanNotears.png");
-    height: 28px;
-    width: 28px;
-}
-.msg-chat .emote.nathanNotears {
-    margin-top: -28px;
-    top: 7px;
 }
 .emote.nathanOOO {
     background-image: url("653c2d745494a.png");
@@ -1725,15 +1707,6 @@
 .msg-chat .emote.Normgasm {
     margin-top: -32px;
     top: 8px;
-}
-.emote.NORMS {
-    background-image: url("673dd50c81c5d.png");
-    height: 34px;
-    width: 27px;
-}
-.msg-chat .emote.NORMS {
-    margin-top: -34px;
-    top: 8.5px;
 }
 .emote.NOSHOT {
     background-image: url("665ad43c9e90d.png");
@@ -2609,9 +2582,9 @@
     top: 8.5px;
 }
 .emote.WAOW {
-    background-image: url("698d3e2079c37.png");
+    background-image: url("6990c720940dc.png");
     height: 32px;
-    width: 4440px;
+    width: 32px;
 }
 .msg-chat .emote.WAOW {
     margin-top: -32px;
@@ -8214,23 +8187,6 @@ background-repeat:no-repeat;
 .emote.TRUELOVE:hover::after {
     animation: TRUELOVE-hover 0.5s infinite;
     animation-delay: 0.25s;
-}
-.emote.WAOW {
-  height: 32px;
-  width: 74px;
-  animation: WAOW-anim 1.8s steps(59) forwards;
-}
-.emote.WAOW:hover {
-  height: 32px;
-  width: 74px;
-  animation: WAOW-hover 1.8s steps(59) forwards 1;
-}
-
-@keyframes WAOW-anim {
-  to { background-position: -4366px; }
-}
-@keyframes WAOW-hover {
-  to { background-position: -4366px; }
 }
 .emote.WEEWOO {
     background-position: 0px;
