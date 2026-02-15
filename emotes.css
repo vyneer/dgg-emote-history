@@ -898,6 +898,15 @@
     margin-top: -34px;
     top: 8.5px;
 }
+.emote.FlawlessVictory {
+    background-image: url("6991bc14b00ac.png");
+    height: 32px;
+    width: 64px;
+}
+.msg-chat .emote.FlawlessVictory {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.FLIPMYBURGER {
     background-image: url("66fba1a7c3439.png");
     height: 32px;

@@ -1600,6 +1600,22 @@
     ]
   },
   {
+    "prefix": "FlawlessVictory",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.44.1/emotes/6991bc14b00ac.png",
+        "name": "6991bc14b00ac.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 64
+      }
+    ]
+  },
+  {
     "prefix": "FLIPMYBURGER",
     "creator": "",
     "twitch": false,
