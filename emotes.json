@@ -4592,6 +4592,22 @@
     ]
   },
   {
+    "prefix": "wcat",
+    "creator": "tag @hamster_hawk for removal!",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.44.1/emotes/69a51c8946b94.png",
+        "name": "69a51c8946b94.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "WEEWOO",
     "creator": "",
     "twitch": false,

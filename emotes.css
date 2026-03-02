@@ -2581,6 +2581,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.wcat {
+    background-image: url("69a51c8946b94.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.wcat {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.WEEWOO {
     background-image: url("6519465c0ae7b.png");
     height: 30px;
