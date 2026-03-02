@@ -223,15 +223,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.Bleh {
-    background-image: url("66b31270c2e04.png");
-    height: 34px;
-    width: 44px;
-}
-.msg-chat .emote.Bleh {
-    margin-top: -34px;
-    top: 8.5px;
-}
 .emote.Blesstiny {
     background-image: url("66596baae76d9.png");
     height: 32px;
@@ -481,15 +472,6 @@
     width: 32px;
 }
 .msg-chat .emote.Concerned {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.confusedCat {
-    background-image: url("66a9ac047a5ad.png");
-    height: 32px;
-    width: 42px;
-}
-.msg-chat .emote.confusedCat {
     margin-top: -32px;
     top: 8px;
 }
@@ -852,15 +834,6 @@
 .msg-chat .emote.FerretLOL {
     margin-top: -30px;
     top: 7.5px;
-}
-.emote.FerretPOG {
-    background-image: url("660ab06b7f47c.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.FerretPOG {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.Fishge {
     background-image: url("67ebd8be81102.png");
@@ -1798,6 +1771,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.OHSHIT {
+    background-image: url("69a5167675791.gif");
+    height: 32px;
+    width: 45px;
+}
+.msg-chat .emote.OHSHIT {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.OkaygeBusiness {
     background-image: url("67ebd7dd2f263.png");
     height: 32px;
@@ -2202,15 +2184,6 @@
 .msg-chat .emote.SHOCKSTINY {
     margin-top: -35px;
     top: 8.75px;
-}
-.emote.SHOOK {
-    background-image: url("66ad4e401f042.png");
-    height: 30px;
-    width: 30px;
-}
-.msg-chat .emote.SHOOK {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.ShrimpleAs {
     background-image: url("690589008916c.png");
@@ -3428,29 +3401,6 @@ filter: contrast(1) saturate(1) brightness(1.25);
   transform-origin: -36px 32px;
   transform: rotate(10deg);
 }
-
-@keyframes Bleh-anim{
-  0% {transform: rotate(0deg) translate(0, 0);}
-  20% {transform: rotate(-10deg) translate(-3px, 2px);}
-  40% {transform: rotate(-10deg) translate(-3px, 6px);}
-  75% {transform: rotate(-10deg) translate(-3px, 2px);}
-  100% {transform: rotate(0deg) translate(0, 0);}
-}
-@keyframes Bleh-hover{
-  0% {transform: rotate(0deg) translate(0, 0);}
-  20% {transform: rotate(-10deg) translate(-3px, 2px);}
-  40% {transform: rotate(-10deg) translate(-3px, 6px);}
-  75% {transform: rotate(-10deg) translate(-3px, 2px);}
-  100% {transform: rotate(0deg) translate(0, 0);}
-}
-.emote.Bleh{
-	animation: Bleh-anim 2s .1s 1;
-}
-.emote.Bleh:hover{
-  animation: Bleh-hover 2s infinite;
-}
-
-
 @keyframes Blesstiny-anim{
   0% {transform: rotate(0deg);}
   25% {transform: rotate(-20deg);}

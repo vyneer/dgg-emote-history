@@ -400,22 +400,6 @@
     ]
   },
   {
-    "prefix": "Bleh",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.44.1/emotes/66b31270c2e04.png",
-        "name": "66b31270c2e04.png",
-        "mime": "image/png",
-        "height": 34,
-        "width": 44
-      }
-    ]
-  },
-  {
     "prefix": "Blesstiny",
     "creator": "",
     "twitch": false,
@@ -860,22 +844,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 32
-      }
-    ]
-  },
-  {
-    "prefix": "confusedCat",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.44.1/emotes/66a9ac047a5ad.png",
-        "name": "66a9ac047a5ad.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 42
       }
     ]
   },
@@ -1516,22 +1484,6 @@
         "mime": "image/png",
         "height": 30,
         "width": 33
-      }
-    ]
-  },
-  {
-    "prefix": "FerretPOG",
-    "creator": "cybervegan",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.44.1/emotes/660ab06b7f47c.png",
-        "name": "660ab06b7f47c.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
       }
     ]
   },
@@ -3200,6 +3152,22 @@
     ]
   },
   {
+    "prefix": "OHSHIT",
+    "creator": " daniel821_ 7TV",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.44.1/emotes/69a5167675791.gif",
+        "name": "69a5167675791.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 45
+      }
+    ]
+  },
+  {
     "prefix": "OkaygeBusiness",
     "creator": "",
     "twitch": false,
@@ -3916,22 +3884,6 @@
         "mime": "image/png",
         "height": 35,
         "width": 49
-      }
-    ]
-  },
-  {
-    "prefix": "SHOOK",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.44.1/emotes/66ad4e401f042.png",
-        "name": "66ad4e401f042.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 30
       }
     ]
   },
