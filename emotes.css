@@ -151,15 +151,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.BANTHATGUY {
-    background-image: url("69a53d41566a8.gif");
-    height: 32px;
-    width: 48px;
-}
-.msg-chat .emote.BANTHATGUY {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.BasedGod {
     background-image: url("6724956701520.png");
     height: 30px;
@@ -204,6 +195,15 @@
 .msg-chat .emote.BibleThump {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.BINGING {
+    background-image: url("69a540130ac92.gif");
+    height: 28px;
+    width: 28px;
+}
+.msg-chat .emote.BINGING {
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.BINGQILIN {
     background-image: url("691926a52c4e6.avif");
@@ -2148,6 +2148,15 @@
 .msg-chat .emote.REE {
     margin-top: -28px;
     top: 7px;
+}
+.emote.RightThere {
+    background-image: url("69a54639bdb83.png");
+    height: 32px;
+    width: 2160px;
+}
+.msg-chat .emote.RightThere {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.RIPBOZO {
     background-image: url("673dd407542f0.gif");
@@ -7381,6 +7390,24 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
 .emote.REE:hover {
     animation: REE-anim-hover 100ms infinite;
 }
+.emote.RightThere {
+  height: 32px;
+  width: 48px;
+  animation: RightThere-anim 1.35s steps(44) forwards;
+}
+.emote.RightThere:hover {
+  height: 32px;
+  width: 48px;
+  animation: RightThere-hover 1.35s steps(44) forwards 1;
+}
+
+@keyframes RightThere-anim {
+  to { background-position: -2112px; }
+}
+@keyframes RightThere-hover {
+  to { background-position: -2112px; }
+}
+
 .emote.SCHEMING {
   height: 36px;
   width: 46px;

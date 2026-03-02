@@ -272,22 +272,6 @@
     ]
   },
   {
-    "prefix": "BANTHATGUY",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.44.1/emotes/69a53d41566a8.gif",
-        "name": "69a53d41566a8.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 48
-      }
-    ]
-  },
-  {
     "prefix": "BasedGod",
     "creator": "",
     "twitch": false,
@@ -364,6 +348,22 @@
         "mime": "image/png",
         "height": 30,
         "width": 29
+      }
+    ]
+  },
+  {
+    "prefix": "BINGING",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.44.1/emotes/69a540130ac92.gif",
+        "name": "69a540130ac92.gif",
+        "mime": "image/gif",
+        "height": 28,
+        "width": 28
       }
     ]
   },
@@ -3820,6 +3820,22 @@
         "mime": "image/png",
         "height": 28,
         "width": 28
+      }
+    ]
+  },
+  {
+    "prefix": "RightThere",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.44.1/emotes/69a54639bdb83.png",
+        "name": "69a54639bdb83.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 2160
       }
     ]
   },
