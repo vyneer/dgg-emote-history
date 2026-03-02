@@ -352,22 +352,6 @@
     ]
   },
   {
-    "prefix": "BINGING",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.44.1/emotes/69a540130ac92.gif",
-        "name": "69a540130ac92.gif",
-        "mime": "image/gif",
-        "height": 28,
-        "width": 28
-      }
-    ]
-  },
-  {
     "prefix": "BINGQILIN",
     "creator": "Igor",
     "twitch": false,
