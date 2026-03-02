@@ -272,6 +272,22 @@
     ]
   },
   {
+    "prefix": "BANTHATGUY",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.44.1/emotes/69a53d41566a8.gif",
+        "name": "69a53d41566a8.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 48
+      }
+    ]
+  },
+  {
     "prefix": "BasedGod",
     "creator": "",
     "twitch": false,

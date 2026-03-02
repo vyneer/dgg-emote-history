@@ -151,6 +151,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.BANTHATGUY {
+    background-image: url("69a53d41566a8.gif");
+    height: 32px;
+    width: 48px;
+}
+.msg-chat .emote.BANTHATGUY {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.BasedGod {
     background-image: url("6724956701520.png");
     height: 30px;
