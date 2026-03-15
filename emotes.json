@@ -3888,22 +3888,6 @@
     ]
   },
   {
-    "prefix": "shesRight",
-    "creator": "Pizza",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.44.1/emotes/69adebe6d1308.png",
-        "name": "69adebe6d1308.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 41
-      }
-    ]
-  },
-  {
     "prefix": "SHOCKSTINY",
     "creator": "cyver",
     "twitch": false,
