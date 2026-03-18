@@ -4144,6 +4144,22 @@
     ]
   },
   {
+    "prefix": "SoDoge",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.45.0/emotes/5c2bbdcf33df8.png",
+        "name": "5c2bbdcf33df8.png",
+        "mime": "image/png",
+        "height": 30,
+        "width": 52
+      }
+    ]
+  },
+  {
     "prefix": "SOTRIGGERED",
     "creator": "",
     "twitch": false,
