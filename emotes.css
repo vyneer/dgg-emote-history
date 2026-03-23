@@ -6869,6 +6869,13 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
   width: 69px;
   margin-left: -26px; }
 }
+/* IHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDR */
+.emote.NOWWHAT {
+  display: inline-block;
+  animation: none;
+  transform: scale(0.85) translateY(3px);
+  transform-origin: center center;
+}
 @keyframes OBJECTION-anim {
   0% { clip-path: polygon(0% 0%, 100% -16%, 100% -16%, 0% 100%); transform: rotate(0deg); }
   1% { clip-path: polygon(0% 0%, 100% -16%, 100% -16%, 0% 100%); transform: rotate(20deg); }
