@@ -1771,15 +1771,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.OHSHIT {
-    background-image: url("69a5167675791.gif");
-    height: 32px;
-    width: 45px;
-}
-.msg-chat .emote.OHSHIT {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.OkaygeBusiness {
     background-image: url("67ebd7dd2f263.png");
     height: 32px;
@@ -2249,9 +2240,9 @@
     top: 7.5px;
 }
 .emote.Skip {
-    background-image: url("68a0c95d935c5.gif");
+    background-image: url("69c09e738a64d.gif");
     height: 32px;
-    width: 32px;
+    width: 37px;
 }
 .msg-chat .emote.Skip {
     margin-top: -32px;
@@ -4444,6 +4435,13 @@ filter: contrast(1) saturate(1) brightness(1.25);
 
 .emote.COGGERS:nth-child(even) {
     animation-direction: reverse;
+}
+/* IHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDR */
+.emote.Cooked {
+  display: inline-block;
+  animation: none;
+  transform: scale(0.85) translateY(3px);
+  transform-origin: center center;
 }
 .emote.COOMER {
   animation: COOMER-anim 0.1s 20, COOMER-color 2s 1;
@@ -7943,6 +7941,13 @@ background-repeat:no-repeat;
   transform: scaleX(1);
 }
 
+/* IHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDR */
+.emote.SpeedLaugh {
+  display: inline-block;
+  animation: none;
+  transform: scale(0.85) translateY(3px);
+  transform-origin: center center;
+}
 @keyframes SpookerZ-anim {
     0% { transform: translate(0px, 0px); }
     25% { transform: translate(0px,4px) }
