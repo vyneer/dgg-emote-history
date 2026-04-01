@@ -5184,6 +5184,22 @@
     ]
   },
   {
+    "prefix": "Darius",
+    "creator": "",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.46.1/emotes/69cda3e27a28d.png",
+        "name": "69cda3e27a28d.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 29
+      }
+    ]
+  },
+  {
     "prefix": "DEATH_SUS",
     "creator": "",
     "twitch": false,

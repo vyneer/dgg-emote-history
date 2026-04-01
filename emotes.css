@@ -2914,6 +2914,15 @@
     margin-top: -31px;
     top: 7.75px;
 }
+.emote.Darius {
+    background-image: url("69cda3e27a28d.png");
+    height: 32px;
+    width: 29px;
+}
+.msg-chat .emote.Darius {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.DEATH_SUS {
     background-image: url("6090e31923c29.png");
     height: 28px;
