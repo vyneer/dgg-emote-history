@@ -1568,22 +1568,6 @@
     ]
   },
   {
-    "prefix": "FLIPMYBURGER",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.46.1/emotes/66fba1a7c3439.png",
-        "name": "66fba1a7c3439.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "ForYou",
     "creator": null,
     "twitch": false,
