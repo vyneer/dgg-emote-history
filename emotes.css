@@ -2995,6 +2995,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.JAMMIES {
+    background-image: url("69cd15c9ea84f.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.JAMMIES {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.LiterallyStevenBonnellTheSecond {
     background-image: url("69cc88c859695.png");
     height: 32px;

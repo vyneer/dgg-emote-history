@@ -5328,6 +5328,22 @@
     ]
   },
   {
+    "prefix": "JAMMIES",
+    "creator": "cyver",
+    "twitch": false,
+    "theme": 5,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.46.1/emotes/69cd15c9ea84f.gif",
+        "name": "69cd15c9ea84f.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "LiterallyStevenBonnellTheSecond",
     "creator": "",
     "twitch": false,
