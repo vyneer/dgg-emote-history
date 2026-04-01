@@ -4145,17 +4145,17 @@
   },
   {
     "prefix": "SOY",
-    "creator": "Vindelici",
+    "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.46.1/emotes/649f7767585f5.png",
-        "name": "649f7767585f5.png",
+        "url": "https://cdn.destiny.gg/4.46.1/emotes/660a9a8d1e119.png",
+        "name": "660a9a8d1e119.png",
         "mime": "image/png",
         "height": 32,
-        "width": 37
+        "width": 31
       }
     ]
   },

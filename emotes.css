@@ -2330,9 +2330,9 @@
     top: 8px;
 }
 .emote.SOY {
-    background-image: url("649f7767585f5.png");
+    background-image: url("660a9a8d1e119.png");
     height: 32px;
-    width: 37px;
+    width: 31px;
 }
 .msg-chat .emote.SOY {
     margin-top: -32px;
@@ -7528,6 +7528,56 @@ background-repeat:no-repeat;
 .emote.SoDoge:hover::after {
         animation: SoDoge-hover-after infinite 1.28s 1.55s ease;  
 }
+.emote.SOY {
+  height: 32px;
+  width: 31px;
+  filter: brightness(1.15);
+}
+
+.emote.SOY+.emote.SOY,
+.emote.SOY:nth-child(1),
+.emote.Clap+.emote.SOY,
+.emote.BLADE+.emote.SOY{
+  margin-right: -2px;
+  margin-left: 0;
+  transform: scaleX(-1);
+}
+
+.emote.SOY:only-child,
+.emote+.emote.SOY:last-of-type,
+.emote.SOY:last-of-type {
+  margin-right: 0;
+  transform: scaleX(1);
+}
+
+.emote.SOY:only-child {
+  transform: scaleX(-1);
+}
+
+@keyframes GIGAHANDS-anim {
+  0% {
+    transform: translate(-28px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.emote.GIGACHAD+.emote.SOY {
+  animation: GIGAHANDS-anim 1.5s ease-out 1;
+}
+
+.chat-user+.emote.SOY,
+.emote.SOY:has(+.externallink),
+.emote.SOY:has(+.chat-user) {
+  transform: scaleX(-1);
+}
+
+.chat-user+.emote.SOY:last-child {
+  transform: scaleX(1);
+}
+
 /* IHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDR */
 .emote.SoyPoint {
   display: inline-block;
