@@ -1011,15 +1011,15 @@
     "prefix": "DANKMEMES",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 5,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.46.1/emotes/66596f55973e2.png",
-        "name": "66596f55973e2.png",
+        "url": "https://cdn.destiny.gg/4.46.1/emotes/69cc7cd89a080.png",
+        "name": "69cc7cd89a080.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 72
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -5164,22 +5164,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 31
-      }
-    ]
-  },
-  {
-    "prefix": "DANKMOTIONOFTHEARM",
-    "creator": "",
-    "twitch": false,
-    "theme": 5,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.46.1/emotes/69cc7cd89a080.png",
-        "name": "69cc7cd89a080.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
       }
     ]
   },
