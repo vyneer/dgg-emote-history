@@ -1152,22 +1152,6 @@
     ]
   },
   {
-    "prefix": "diNOWAY",
-    "creator": "cybervegan / social_scrub / WDK",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.47.4/emotes/660b7db35c917.png",
-        "name": "660b7db35c917.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 43
-      }
-    ]
-  },
-  {
     "prefix": "Disgustiny",
     "creator": "",
     "twitch": false,
