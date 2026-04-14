@@ -1152,6 +1152,22 @@
     ]
   },
   {
+    "prefix": "diNOWAY",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.48.3/emotes/69d070bac8b37.png",
+        "name": "69d070bac8b37.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 43
+      }
+    ]
+  },
+  {
     "prefix": "Disgustiny",
     "creator": "",
     "twitch": false,
@@ -1564,6 +1580,22 @@
         "mime": "image/png",
         "height": 32,
         "width": 64
+      }
+    ]
+  },
+  {
+    "prefix": "FLIPMYBURGER",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.48.3/emotes/69de32a6ee424.png",
+        "name": "69de32a6ee424.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
       }
     ]
   },

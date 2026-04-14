@@ -646,6 +646,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.diNOWAY {
+    background-image: url("69d070bac8b37.png");
+    height: 32px;
+    width: 43px;
+}
+.msg-chat .emote.diNOWAY {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.Disgustiny {
     background-image: url("665addd0675ef.png");
     height: 28px;
@@ -877,6 +886,15 @@
     width: 64px;
 }
 .msg-chat .emote.FlawlessVictory {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.FLIPMYBURGER {
+    background-image: url("69de32a6ee424.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.FLIPMYBURGER {
     margin-top: -32px;
     top: 8px;
 }
