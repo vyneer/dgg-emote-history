@@ -646,6 +646,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.diNOTHANKS {
+    background-image: url("69e6565438a02.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.diNOTHANKS {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.diNOWAY {
     background-image: url("69d070bac8b37.png");
     height: 32px;
