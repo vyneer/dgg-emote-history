@@ -646,15 +646,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.diNOTHANKS {
-    background-image: url("69e6565438a02.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.diNOTHANKS {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.diNOWAY {
     background-image: url("69d070bac8b37.png");
     height: 32px;
@@ -1741,6 +1732,15 @@
     width: 35px;
 }
 .msg-chat .emote.NoThanks {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.NOTHINGBURGER {
+    background-image: url("69e9ab0b192fb.png");
+    height: 32px;
+    width: 630px;
+}
+.msg-chat .emote.NOTHINGBURGER {
     margin-top: -32px;
     top: 8px;
 }
@@ -6912,6 +6912,23 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
   0%, 100% {
   width: 69px;
   margin-left: -26px; }
+}
+.emote.NOTHINGBURGER {
+  height: 32px;
+  width: 63px;
+  animation: NOTHINGBURGER-anim 1.35s steps(9) forwards;
+}
+.emote.NOTHINGBURGER:hover {
+  height: 32px;
+  width: 63px;
+  animation: NOTHINGBURGER-hover 1.35s steps(9) forwards 1;
+}
+
+@keyframes NOTHINGBURGER-anim {
+  to { background-position: -567px; }
+}
+@keyframes NOTHINGBURGER-hover {
+  to { background-position: -567px; }
 }
 /* IHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDR */
 .emote.NOWWHAT {
