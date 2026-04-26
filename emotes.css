@@ -4224,6 +4224,30 @@ Firefox supports :has(), so this refactor treats :has() as available.
 .text > .emote.Chatting:has(+ .emote:is(.SOY, .HACKERMAN) + .emote.Chatting):hover{
   animation-iteration-count: infinite;
 }
+
+/*
+#### PICKER ONLY ####
+- static fallback for the emote select box
+- targets picker tiles instead of .text message rows
+*/
+.emote-item > .emote.Chatting,
+.emote-item .emote.Chatting{
+  width: 32px;
+  height: 32px;
+  transform: scale(1, 1) translate(-2px, 3px);
+  animation: none;
+}
+
+/*
+#### PICKER ONLY - HOVER ANIMATED ####
+- append after the static picker block if desired
+*/
+.emote-item:hover > .emote.Chatting,
+.emote-item > .emote.Chatting:hover,
+.emote-item:hover .emote.Chatting,
+.emote-item .emote.Chatting:hover{
+  animation: Chatting-hover .30s steps(4) infinite;
+}
 .emote.CheckEm {
   height: 34px;
   width: 44px;
