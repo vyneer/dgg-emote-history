@@ -3833,109 +3833,115 @@ filter: contrast(1) saturate(1) brightness(1.25);
   100% { transform: translate(1px, -.5px) rotate(-.5deg); }
 }
 /*
-#### AS OF 2023, FIREFOX STILL DOES NOT SUPPORT THE HAS() SELECTOR - THIS EMOTE WILL BEHAVE IN A SLIGHTLY INFERIOR WAY ON FIREFOX BROWSERS (USERS ARE ABLE TO MANUALLY ENABLE UNTIL FIREFOX PROVIDES FULL SUPPORT) ####
+Refactor of the old Chatting block into adjacency-based selectors.
+Why this version exists:
+- Removes :nth-of-type(), :nth-last-of-type(), :first-of-type(), :last-of-type(), :only-of-type()
+- Those pseudo-classes count by element tag, not by .Chatting class
+- Uses only sibling adjacency (+) and forward matching with :has()
+- Scoped to .text > .emote so it matches the actual message-emote row
+
+-prsek
+*/
+
+/*
+#### AS OF 2026 ####
+Firefox supports :has(), so this refactor treats :has() as available.
+*/
+
+/*
 ### Art by MrGemzar ###
 */
-.emote.Chatting{
+.text > .emote.Chatting{
   width: 32px;
   height: 32px;
   transform: scale(-1, 1) translate(-2px, 3px);
 }
 
 /*
-#### TWO-HANDED: RIGHT #### 
+#### TWO-HANDED: RIGHT ####
 - when a non-chatting emote is next to chatting and followed by another non-chatting emote and another chatting: select second chatting
 - when any emote is followed by chatting: select chatting (low priority)
-- when chatting is the ONLY emote: select chatting
+- when chatting is the only emote: select chatting
 */
-.emote:not(.Chatting) + .emote.Chatting + .emote:not(.Chatting) + .emote.Chatting,
-.emote.Chatting:only-of-type,
-.emote + .emote.Chatting{
-  transform: scale(1) translate(-2px, 3px);
+.text > .emote + .emote.Chatting,
+.text > .emote:not(.Chatting) + .emote.Chatting + .emote:not(.Chatting) + .emote.Chatting,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):not(:has(+ .emote)){
+  transform: scale(1, 1) translate(-2px, 3px);
   animation: Chatting-anim .30s steps(4) 60;
 }
+
 /*
 ## HOVER ##
 */
-.emote:not(.Chatting) + .emote.Chatting + .emote:not(.Chatting) + .emote.Chatting:hover,
-.emote + .emote.Chatting:hover,
-.emote.Chatting:only-of-type:hover{
-  transform: scale(1) translate(-2px, 3px);
+.text > .emote + .emote.Chatting:hover,
+.text > .emote:not(.Chatting) + .emote.Chatting + .emote:not(.Chatting) + .emote.Chatting:hover,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):not(:has(+ .emote)):hover{
+  transform: scale(1, 1) translate(-2px, 3px);
   animation: Chatting-hover .30s steps(4) 60;
 }
+
 /*
-#### TWO-HANDED: LEFT #### 
+#### TWO-HANDED: LEFT ####
 - when a non-chatting emote is next to chatting followed by another chatting: select second chatting
-- when chatting is the first of ONLY two emotes: select first 
-
-## NOT SUPPORTED ON FIREFOX ##
-- when chatting is the FIRST emote and is followed by a non-chatting emote, another non-chatting emote, and another chatting: select  chatting
+- when chatting is the first of only two emotes: select first
+- when chatting is the first emote and is followed by a non-chatting emote, another non-chatting emote, and another chatting: select first chatting
 */
-.emote:not(.Chatting) + .emote.Chatting + .emote.Chatting,
-.emote.Chatting:nth-last-of-type(n+2):nth-last-of-type(-n+2):first-of-type{
- transform: scale(-1, 1) translate(-2px, 3px);
-  animation: Chatting-anim .30s steps(4) 60;
-} 
-.emote.Chatting:has( + .emote:not(.Chatting) + .emote:not(.Chatting) + .emote.Chatting):first-of-type{
+.text > .emote:not(.Chatting) + .emote.Chatting + .emote.Chatting,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote):not(:has(+ .emote + .emote)),
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote:not(.Chatting) + .emote:not(.Chatting) + .emote.Chatting){
   transform: scale(-1, 1) translate(-2px, 3px);
   animation: Chatting-anim .30s steps(4) 60;
 }
+
 /*
 ## HOVER ##
 */
-.emote:not(.Chatting) + .emote.Chatting+ .emote.Chatting:hover,
-.emote.Chatting:nth-last-of-type(n+2):nth-last-of-type(-n+2):first-of-type:hover{
- transform: scale(-1, 1) translate(-2px, 3px);
+.text > .emote:not(.Chatting) + .emote.Chatting + .emote.Chatting:hover,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote):not(:has(+ .emote + .emote)):hover,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote:not(.Chatting) + .emote:not(.Chatting) + .emote.Chatting):hover{
+  transform: scale(-1, 1) translate(-2px, 3px);
   animation: Chatting-hover .30s steps(4) 60;
-} 
-.emote.Chatting:has( + .emote:not(.Chatting) + .emote:not(.Chatting) + .emote.Chatting):first-of-type:hover{
- transform: scale(-1, 1) translate(-2px, 3px);
-  animation: Chatting-hover .30s steps(4) 60;
-} 
+}
+
 /*
-#### ONE-HANDED: RIGHT #### 
+#### ONE-HANDED: RIGHT ####
 - when chatting is next to a non-chatting emote and another chatting: select second chatting
-- when chatting is next to a non-chatting emote that is both the SECOND and LAST emote: select non-chatting
+- when chatting is next to another chatting and that second chatting is last in the emote run: select second chatting
 */
-.emote.Chatting + .emote:not(.Chatting) + .emote.Chatting,
-.emote.Chatting + .emote.Chatting:not(:nth-of-type(2)):last-of-type{
-  transform: scale(1) translate(-2px, 3px);
+.text > .emote.Chatting + .emote:not(.Chatting) + .emote.Chatting,
+.text > .emote.Chatting + .emote.Chatting:not(:has(+ .emote)){
+  transform: scale(1, 1) translate(-2px, 3px);
   animation: Chatting-anim-1hand .30s steps(4) 60 forwards;
 }
-/*
-## HOVER ##
-*/
-.emote.Chatting + .emote:not(.Chatting) + .emote.Chatting:hover,
-.emote.Chatting + .emote.Chatting:not(:nth-of-type(2)):last-of-type:hover{
-  transform: scale(1) translate(-2px, 3px);
-  animation: Chatting-hover-1hand .30s steps(4) 60 forwards;
-}
-/*
-#### ONE-HANDED: LEFT #### 
-- when chatting is next to a non-chatting emote that is NOT the last emote: select non-chatting
-- when chatting is NOT the only emote and IS the first emote: select first chatting
 
-## NOT SUPPORTED ON FIREFOX ##
-- when a non-chatting emote is next to chatting and another chatting that is followed by a non-chatting emote and another chatting: select second chatting 
-*/
-.emote.Chatting + .emote.Chatting:not(:last-of-type),
-.emote.Chatting:not(:only-of-type):nth-of-type(1){
-  transform: scale(-1, 1) translate(-2px, 3px);
-  animation: Chatting-anim-1hand .30s steps(4) 60 forwards;
-}
-.emote:not(.Chatting) + .emote.Chatting + .emote.Chatting:has(+ .emote:not(.Chatting) + .emote.Chatting){
- transform: scale(-1, 1) translate(-2px, 3px);
- animation: Chatting-anim-1hand .30s steps(4) 60 forwards;
-} 
 /*
 ## HOVER ##
 */
-.emote.Chatting + .emote.Chatting:not(:last-of-type):hover,
-.emote.Chatting:not(:only-of-type):nth-of-type(1):hover{
-  transform: scale(-1, 1) translate(-2px, 3px);
+.text > .emote.Chatting + .emote:not(.Chatting) + .emote.Chatting:hover,
+.text > .emote.Chatting + .emote.Chatting:not(:has(+ .emote)):hover{
+  transform: scale(1, 1) translate(-2px, 3px);
   animation: Chatting-hover-1hand .30s steps(4) 60 forwards;
 }
-.emote:not(.Chatting) + .emote.Chatting + .emote.Chatting:has(+ .emote:not(.Chatting) + .emote.Chatting):hover{
+
+/*
+#### ONE-HANDED: LEFT ####
+- when chatting is next to another chatting and there is at least one more emote after: select second chatting
+- when chatting is not the only emote and is the first emote in the run: select first chatting
+- when a non-chatting emote is next to chatting and another chatting that is followed by a non-chatting emote and another chatting: select second chatting
+*/
+.text > .emote.Chatting + .emote.Chatting:has(+ .emote),
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote),
+.text > .emote:not(.Chatting) + .emote.Chatting + .emote.Chatting:has(+ .emote:not(.Chatting) + .emote.Chatting){
+  transform: scale(-1, 1) translate(-2px, 3px);
+  animation: Chatting-anim-1hand .30s steps(4) 60 forwards;
+}
+
+/*
+## HOVER ##
+*/
+.text > .emote.Chatting + .emote.Chatting:has(+ .emote):hover,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote):hover,
+.text > .emote:not(.Chatting) + .emote.Chatting + .emote.Chatting:has(+ .emote:not(.Chatting) + .emote.Chatting):hover{
   transform: scale(-1, 1) translate(-2px, 3px);
   animation: Chatting-hover-1hand .30s steps(4) 60 forwards;
 }
@@ -3949,6 +3955,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
 @keyframes Chatting-hover {
   100% { background-position: -128px; }
 }
+
 /*
 #### ANIMATION: ONE HAND ####
 */
@@ -3962,50 +3969,49 @@ filter: contrast(1) saturate(1) brightness(1.25);
 }
 
 /*
-#### EMOTE-SPECIFIC ANIMATIONS #### 
--when specified emote is followed by chatting: select second
--when specified emote has a chatting on either side: select third;
-
-## NOT SUPPORTED ON FIREFOX ##
--when chatting is in the first position out of only specified emote and chatting: select first
--when chatting is followed by specified emote and another chatting: select first
+#### EMOTE-SPECIFIC ANIMATIONS ####
+- when specified emote is followed by chatting: select second
+- when specified emote has a chatting on either side: select third
+- when chatting is in the first position out of only specified emote and chatting: select first
+- when chatting is followed by specified emote and another chatting: select first
 */
 
 /*
-### SMASHIT ###
-## repeat emote selectors to raise priority - hacky but needed for now ##
+### SMASHit ###
 */
-.emote.SMASHit + .emote.Chatting.Chatting.Chatting.Chatting,
-.emote.Chatting.Chatting + .emote.SMASHit + .emote.Chatting.Chatting.Chatting{
+.text > .emote.SMASHit + .emote.Chatting,
+.text > .emote.Chatting + .emote.SMASHit + .emote.Chatting{
   background-position: -288px;
- transform: translate(2px, 3px);
-  animation: Chatting-YUMP-right .75s steps(4) 7  .4s forwards;
+  transform: translate(2px, 3px);
+  animation: Chatting-YUMP-right .75s steps(4) 7 .4s forwards;
 }
-.emote.Chatting:first-of-type:has(+ .emote.SMASHit):nth-last-of-type(n+2):nth-last-of-type(-n+2),
-.emote.Chatting.Chatting:has(+ .emote.SMASHit + .emote.Chatting.Chatting.Chatting){
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote.SMASHit):not(:has(+ .emote.SMASHit + .emote)),
+.text > .emote.Chatting:has(+ .emote.SMASHit + .emote.Chatting){
   background-position: -288px;
   transform: scale(-1, 1) translate(-2px, 3px);
-  animation: Chatting-YUMP-left .75s steps(4) 7  .4s forwards;
-} 
+  animation: Chatting-YUMP-left .75s steps(4) 7 .4s forwards;
+}
+
 /*
 ## SMASHIT HOVER ##
 */
-.emote.SMASHit + .emote.Chatting.Chatting.Chatting.Chatting:hover,
-.emote.Chatting.Chatting + .emote.SMASHit + .emote.Chatting.Chatting.Chatting:hover{
-  animation-iteration-count: infinite;
+.text > .emote.SMASHit + .emote.Chatting:hover,
+.text > .emote.Chatting + .emote.SMASHit + .emote.Chatting:hover{
+  animation: Chatting-YUMP-right-hover .75s steps(4) infinite .4s forwards;
 }
-.emote.Chatting:first-of-type:has(+ .emote.SMASHit):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
-.emote.Chatting.Chatting:has(+ .emote.SMASHit + .emote.Chatting.Chatting.Chatting):hover{
-  animation-iteration-count: infinite;
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote.SMASHit):not(:has(+ .emote.SMASHit + .emote)):hover,
+.text > .emote.Chatting:has(+ .emote.SMASHit + .emote.Chatting):hover{
+  animation: Chatting-YUMP-left-hover .75s steps(4) infinite .4s forwards;
 }
-.emote.SMASHit:hover + .emote.Chatting.Chatting.Chatting.Chatting,
-.emote.Chatting + .emote.SMASHit:hover + .emote.Chatting.Chatting.Chatting{
-  animation: Chatting-YUMP-right-hover .75s steps(4) infinite  .4s forwards;
+.text > .emote.SMASHit:hover + .emote.Chatting,
+.text > .emote.Chatting + .emote.SMASHit:hover + .emote.Chatting{
+  animation: Chatting-YUMP-right-hover .75s steps(4) infinite .4s forwards;
 }
-.emote.Chatting:first-of-type:has(+ .emote.SMASHit:hover):nth-last-of-type(n+2):nth-last-of-type(-n+2),
-.emote.Chatting.Chatting:has(+ .emote.SMASHit:hover + .emote.Chatting.Chatting.Chatting){
-  animation: Chatting-YUMP-left-hover .75s steps(4) infinite  .4s forwards;
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote.SMASHit:hover):not(:has(+ .emote.SMASHit:hover + .emote)),
+.text > .emote.Chatting:has(+ .emote.SMASHit:hover + .emote.Chatting){
+  animation: Chatting-YUMP-left-hover .75s steps(4) infinite .4s forwards;
 }
+
 @keyframes Chatting-YUMP-right {
      0% { background-position: -288px; transform: translate(2px, 3px);}
     12% { transform: translate(2px, -1px) rotate(0deg); animation-timing-function: ease }
@@ -4016,7 +4022,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
     70% { transform: translate(2px, 2px) rotate(-2deg); animation-timing-function: ease-in }
     82% { transform: translate(2px, 3px); animation-timing-function: ease }
   100% { background-position: -288px; transform: translate(2px, 3px); animation-timing-function: ease-in}
-}  
+}
 @keyframes Chatting-YUMP-right-hover {
      0% { background-position: -288px; transform: translate(2px, 3px);}
     12% { transform: translate(2px, -1px) rotate(0deg); animation-timing-function: ease }
@@ -4027,7 +4033,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
     70% { transform: translate(2px, 2px) rotate(-2deg); animation-timing-function: ease-in }
     82% { transform: translate(2px, 3px); animation-timing-function: ease }
   100% { background-position: -288px; transform: translate(2px, 3px); animation-timing-function: ease-in}
-}  
+}
 @keyframes Chatting-YUMP-left {
      0% { background-position: -288px; transform: translate(2px, 3px) scale(-1, 1);}
     12% { transform: translate(2px, -1px) rotate(0deg) scale(-1, 1); animation-timing-function: ease }
@@ -4038,7 +4044,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
     70% { transform: translate(2px, 2px) rotate(-2deg) scale(-1, 1); animation-timing-function: ease-in }
     82% { transform: translate(2px, 3px) scale(-1, 1); animation-timing-function: ease }
   100% { background-position: -288px; transform: translate(2px, 3px) scale(-1, 1); animation-timing-function: ease-in}
-} 
+}
 @keyframes Chatting-YUMP-left-hover {
      0% { background-position: -288px; transform: translate(2px, 3px) scale(-1, 1);}
     12% { transform: translate(2px, -1px) rotate(0deg) scale(-1, 1); animation-timing-function: ease }
@@ -4049,7 +4055,8 @@ filter: contrast(1) saturate(1) brightness(1.25);
     70% { transform: translate(2px, 2px) rotate(-2deg) scale(-1, 1); animation-timing-function: ease-in }
     82% { transform: translate(2px, 3px) scale(-1, 1); animation-timing-function: ease }
   100% { background-position: -288px; transform: translate(2px, 3px) scale(-1, 1); animation-timing-function: ease-in}
-} 
+}
+
 /*
 ### GIGACHAD ###
 */
@@ -4057,176 +4064,166 @@ filter: contrast(1) saturate(1) brightness(1.25);
   0% { transform: translate(-28px, 3px); }
   100% { transform: translate(-2px, 3px); }
 }
+
 /*
 ## TWO HANDS - RIGHT SIDE ##
 */
-.emote.GIGACHAD + .emote.Chatting:last-of-type{
-  animation: Chatting-anim .6s steps(4) 30, GIGACHAT-slide 1.5s ease-out 1; 
+.text > .emote.GIGACHAD + .emote.Chatting:not(:has(+ .emote)){
+  animation: Chatting-anim .6s steps(4) 30, GIGACHAT-slide 1.5s ease-out 1;
 }
-.emote.GIGACHAD + .emote.Chatting:last-of-type:hover{
-  animation: Chatting-hover .6s steps(4) infinite, GIGACHAT-slide 1.5s ease-out 1; 
+.text > .emote.GIGACHAD + .emote.Chatting:not(:has(+ .emote)):hover{
+  animation: Chatting-hover .6s steps(4) infinite, GIGACHAT-slide 1.5s ease-out 1;
 }
+
 /*
 ## TWO HANDS - LEFT SIDE ##
 */
-.emote.Chatting:first-of-type:has(+ .emote.GIGACHAD):nth-last-of-type(n+2):nth-last-of-type(-n+2){
-  animation: Chatting-anim .6s steps(4) 30; 
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote.GIGACHAD):not(:has(+ .emote.GIGACHAD + .emote)){
+  animation: Chatting-anim .6s steps(4) 30;
 }
-.emote.Chatting:first-of-type:has(+ .emote.GIGACHAD):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover{
-  animation: Chatting-hover .6s steps(4) infinite; 
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote.GIGACHAD):not(:has(+ .emote.GIGACHAD + .emote)):hover{
+  animation: Chatting-hover .6s steps(4) infinite;
 }
+
 /*
 ## ONE HAND - RIGHT SIDE ##
 */
-.emote.Chatting + .emote.GIGACHAD + .emote.Chatting:last-of-type {
-  animation: Chatting-anim-1hand .6s steps(4) 30 forwards, GIGACHAT-slide 1.5s ease-out 1; 
+.text > .emote.Chatting + .emote.GIGACHAD + .emote.Chatting:not(:has(+ .emote)){
+  animation: Chatting-anim-1hand .6s steps(4) 30 forwards, GIGACHAT-slide 1.5s ease-out 1;
 }
-.emote.Chatting + .emote.GIGACHAD + .emote.Chatting:last-of-type:hover {
-  animation: Chatting-hover-1hand .6s steps(4) 30 forwards, GIGACHAT-slide 1.5s ease-out 1; 
+.text > .emote.Chatting + .emote.GIGACHAD + .emote.Chatting:not(:has(+ .emote)):hover{
+  animation: Chatting-hover-1hand .6s steps(4) 30 forwards, GIGACHAT-slide 1.5s ease-out 1;
 }
+
 /*
 ## ONE HAND - LEFT SIDE ##
 */
-.emote.Chatting:first-of-type:has(+ .emote.GIGACHAD + .emote.Chatting),
-.emote.Chatting:has(+ .emote.GIGACHAD + .emote.Chatting + .emote.GIGACHAD){
-  animation: Chatting-anim-1hand .6s steps(4) 30 forwards; 
-} 
-.emote.Chatting:first-of-type:has(+ .emote.GIGACHAD + .emote.Chatting):hover,
-.emote.Chatting:has(+ .emote.GIGACHAD + .emote.Chatting + .emote.GIGACHAD):hover{
- animation: Chatting-hover-1hand .6s steps(4) 30 forwards;
-} 
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote.GIGACHAD + .emote.Chatting),
+.text > .emote.Chatting:has(+ .emote.GIGACHAD + .emote.Chatting + .emote.GIGACHAD){
+  animation: Chatting-anim-1hand .6s steps(4) 30 forwards;
+}
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote.GIGACHAD + .emote.Chatting):hover,
+.text > .emote.Chatting:has(+ .emote.GIGACHAD + .emote.Chatting + .emote.GIGACHAD):hover{
+  animation: Chatting-hover-1hand .6s steps(4) 30 forwards;
+}
+
 /*
 ### AWARE ###
 */
-.emote.Aware + .emote.Chatting,
-.emote.Chatting + .emote.Aware + .emote.Chatting{
-  animation-duration: .7s; 
-  animation-iteration-count: 3;
-}
-.emote.Chatting:first-of-type:has(+ .emote.Aware):nth-last-of-type(n+2):nth-last-of-type(-n+2),
-.emote.Chatting:has(+ .emote.Aware + .emote.Chatting){
+.text > .emote.Aware + .emote.Chatting,
+.text > .emote.Chatting + .emote.Aware + .emote.Chatting,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote.Aware):not(:has(+ .emote.Aware + .emote)),
+.text > .emote.Chatting:has(+ .emote.Aware + .emote.Chatting){
   animation-duration: .7s;
   animation-iteration-count: 3;
 }
+
 /*
 ## AWARE HOVER ##
 */
-.emote.Aware + .emote.Chatting:hover,
-.emote.Chatting + .emote.Aware + .emote.Chatting:hover{
-  animation-iteration-count: infinite; 
-}
-.emote.Chatting:first-of-type:has(+ .emote.Aware):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
-.emote.Chatting:has(+ .emote.Aware + .emote.Chatting):hover{
-  animation-iteration-count: infinite;
-}
-/*
-### OTHERS - NO HANDS ###
-## repeat emote selectors to raise priority - hacky but needed for now ##
-*/
-.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting.Chatting.Chatting.Chatting.Chatting,
-.emote.Chatting + .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting.Chatting.Chatting:last-of-type{
-  background-position: -288px;
-  animation:none;
-}
-.emote.Chatting.Chatting.Chatting.Chatting:has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa)):nth-last-of-type(n+2):nth-last-of-type(-n+2),
-.emote.Chatting.Chatting:has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting.Chatting.Chatting){
-  background-position: -288px;
-  animation:none;
-}
-/*
-## HOVER ##
-*/
-.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands) + .emote.Chatting.Chatting.Chatting.Chatting:hover,
-.emote.Chatting + .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands) + .emote.Chatting.Chatting.Chatting:last-of-type:hover{
-  animation-iteration-count: 0; 
-}
-.emote.Chatting:has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands)):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
-.emote.Chatting.Chatting:has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands) + .emote.Chatting.Chatting.Chatting):hover{
-  animation-iteration-count: 0;
-}
-/*
-### OTHERS - ONE HAND ###
-*/
-.emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting,
-.emote.Chatting + .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting{
-   animation: Chatting-anim-1hand .30s steps(4) 60 forwards;
-}
-.emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm)):nth-last-of-type(n+2):nth-last-of-type(-n+2),
-.emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting){
-  animation: Chatting-anim-1hand .30s steps(4) 60 forwards;
-}
-/*
-## HOVER ##
-*/
-.emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting:hover,
-.emote.Chatting + .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting:hover{
-   animation: Chatting-hover-1hand .30s steps(4) 60 forwards;
-}
-.emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm)):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
-.emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting):hover{
-  animation: Chatting-hover-1hand .30s steps(4) 60 forwards;
-}
-/*
-### OTHERS - ONE HAND - SPECIAL CASES ###
-*/
-.emote:is(.BLADE, .RapThis, .Clap, .Sippy, .BoomerSippy) + .emote + .emote.Chatting{
-  animation: Chatting-anim-1hand .30s steps(4) 60 forwards;
-}
-/*
-## HOVER ##
-*/
-.emote:is(.BLADE, .RapThis, .Clap, .Sippy, .BoomerSippy) + .emote + .emote.Chatting:hover{
-  animation: Chatting-hover-1hand .30s steps(4) 60 forwards;
-}
-/*
-### OTHERS - SLOWED DOWN ###
-*/
-.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting,
-.emote.Chatting + .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting{
-  animation-duration: .8s;
-  animation-iteration-count: 22.5;
-}
-.emote.Chatting:first-of-type:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm)):nth-last-of-type(n+2):nth-last-of-type(-n+2),
-.emote.Chatting:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting){
-  animation-duration: .8s;
-  animation-iteration-count: 22.5;
-}
-/*
-## HOVER ##
-*/
-.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting:hover,
-.emote.Chatting + .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting:hover{
-  animation-iteration-count: infinite;
-}
-.emote.Chatting:first-of-type:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm)):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
-.emote.Chatting:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting):hover{
-  animation-iteration-count: infinite;
-}
-/*
-### OTHERS - SPED UP ###
-*/
-.emote:is(.SOY, .HACKERMAN) + .emote.Chatting,
-.emote.Chatting + .emote:is(.SOY, .HACKERMAN)+ .emote.Chatting{
-  animation-duration: .1s;
-  animation-iteration-count: 180;
-}
-.emote.Chatting:has(+ .emote:is(.SOY, .HACKERMAN)):nth-last-of-type(n+2):nth-last-of-type(-n+2),
-.emote.Chatting:has(+ .emote:is(.SOY, .HACKERMAN) + .emote.Chatting){
-  animation-duration: .1s;
-  animation-iteration-count: 180;
-}
-/*
-## HOVER ##
-*/
-.emote.SOY + .emote.Chatting:hover,
-.emote.Chatting + .emote.SOY + .emote.Chatting:hover{
-  animation-iteration-count: infinite;
-}
-.emote.Chatting:has(+ .emote.SOY):nth-last-of-type(n+2):nth-last-of-type(-n+2):hover,
-.emote.Chatting:has(+ .emote.SOY + .emote.Chatting):hover{
+.text > .emote.Aware + .emote.Chatting:hover,
+.text > .emote.Chatting + .emote.Aware + .emote.Chatting:hover,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote.Aware):not(:has(+ .emote.Aware + .emote)):hover,
+.text > .emote.Chatting:has(+ .emote.Aware + .emote.Chatting):hover{
   animation-iteration-count: infinite;
 }
 
+/*
+### OTHERS - NO HANDS ###
+*/
+.text > .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting,
+.text > .emote.Chatting + .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting:not(:has(+ .emote)),
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa)):not(:has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote)),
+.text > .emote.Chatting:has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting){
+  background-position: -288px;
+  animation: none;
+}
+
+/*
+## HOVER ##
+*/
+.text > .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting:hover,
+.text > .emote.Chatting + .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting:not(:has(+ .emote)):hover,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa)):not(:has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote)):hover,
+.text > .emote.Chatting:has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting):hover{
+  animation-iteration-count: 0;
+}
+
+/*
+### OTHERS - ONE HAND ###
+*/
+.text > .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting,
+.text > .emote.Chatting + .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm)):not(:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote)),
+.text > .emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting){
+  animation: Chatting-anim-1hand .30s steps(4) 60 forwards;
+}
+
+/*
+## HOVER ##
+*/
+.text > .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting:hover,
+.text > .emote.Chatting + .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting:hover,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm)):not(:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote)):hover,
+.text > .emote.Chatting:has(+ .emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting):hover{
+  animation: Chatting-hover-1hand .30s steps(4) 60 forwards;
+}
+
+/*
+### OTHERS - ONE HAND - SPECIAL CASES ###
+*/
+.text > .emote:is(.BLADE, .RapThis, .Clap, .Sippy, .BoomerSippy) + .emote + .emote.Chatting{
+  animation: Chatting-anim-1hand .30s steps(4) 60 forwards;
+}
+
+/*
+## HOVER ##
+*/
+.text > .emote:is(.BLADE, .RapThis, .Clap, .Sippy, .BoomerSippy) + .emote + .emote.Chatting:hover{
+  animation: Chatting-hover-1hand .30s steps(4) 60 forwards;
+}
+
+/*
+### OTHERS - SLOWED DOWN ###
+*/
+.text > .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting,
+.text > .emote.Chatting + .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm)):not(:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote)),
+.text > .emote.Chatting:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting){
+  animation-duration: .8s;
+  animation-iteration-count: 22.5;
+}
+
+/*
+## HOVER ##
+*/
+.text > .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting:hover,
+.text > .emote.Chatting + .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting:hover,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm)):not(:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote)):hover,
+.text > .emote.Chatting:has(+ .emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting):hover{
+  animation-iteration-count: infinite;
+}
+
+/*
+### OTHERS - SPED UP ###
+*/
+.text > .emote:is(.SOY, .HACKERMAN) + .emote.Chatting,
+.text > .emote.Chatting + .emote:is(.SOY, .HACKERMAN) + .emote.Chatting,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote:is(.SOY, .HACKERMAN)):not(:has(+ .emote:is(.SOY, .HACKERMAN) + .emote)),
+.text > .emote.Chatting:has(+ .emote:is(.SOY, .HACKERMAN) + .emote.Chatting){
+  animation-duration: .1s;
+  animation-iteration-count: 180;
+}
+
+/*
+## HOVER ##
+*/
+.text > .emote:is(.SOY, .HACKERMAN) + .emote.Chatting:hover,
+.text > .emote.Chatting + .emote:is(.SOY, .HACKERMAN) + .emote.Chatting:hover,
+.text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote:is(.SOY, .HACKERMAN)):not(:has(+ .emote:is(.SOY, .HACKERMAN) + .emote)):hover,
+.text > .emote.Chatting:has(+ .emote:is(.SOY, .HACKERMAN) + .emote.Chatting):hover{
+  animation-iteration-count: infinite;
+}
 .emote.CheckEm {
   height: 34px;
   width: 44px;
