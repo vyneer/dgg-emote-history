@@ -3050,6 +3050,22 @@
   content: "";
   filter: brightness(1.7);
 }
+[data-combo-group="x10"] {
+  --animation-speed: 1.5;
+}
+
+[data-combo-group="x20"] {
+  --animation-speed: 2;
+}
+
+[data-combo-group="x30"] {
+  --animation-speed: 2.5;
+}
+
+[data-combo-group="x50"] {
+  --animation-speed: 3;
+}
+
 @keyframes Askers-anim {
   100% { background-position: -5544px; }
 }
@@ -3064,13 +3080,12 @@
   margin-right: -4px;
   background-position: 0px;
   background-size: 5544px 34px;
-  animation: Askers-anim 3.5s steps(99) 4;
+  animation: Askers-anim calc(3.5s / var(--animation-speed, 1)) steps(99) 4;
 }
 
 .emote.Askers:hover {
-  animation: Askers-hover 3.5s steps(99) infinite;
+  animation: Askers-hover calc(3.5s / var(--animation-speed, 1)) steps(99) infinite;
 }
-
 .emote.Aware {
   height: 32px;
   width: 36px;
@@ -4246,6 +4261,18 @@ Firefox supports :has(), so this refactor treats :has() as available.
 .emote-item > .emote.Chatting:hover,
 .emote-item:hover .emote.Chatting,
 .emote-item .emote.Chatting:hover{
+  animation: Chatting-hover .30s steps(4) infinite;
+}
+
+/*
+#### PICKER BACKUP: CHATTING ####
+- backup for the emote select box / floating menu
+- uses the picker DOM structure instead of .text > .emote
+*/
+.chat-menu-inner .emote-image > .emote.Chatting{
+  width: 32px;
+  height: 32px;
+  transform: scale(1, 1) translate(-2px, 3px);
   animation: Chatting-hover .30s steps(4) infinite;
 }
 .emote.CheckEm {
