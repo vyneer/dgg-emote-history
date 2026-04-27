@@ -3991,6 +3991,15 @@ Firefox supports :has(), so this refactor treats :has() as available.
 - when chatting is followed by specified emote and another chatting: select first
 */
 
+Yes — this breaks because the same Chatting can match multiple SMASHit rules at once, and when more than one rule sets the animation shorthand, the later one replaces the earlier animation settings instead of merging them.
+
+Culprit
+In a chain like SMASHit Chatting SMASHit Chatting SMASHit Chatting, the middle Chatting matches both the “right” selector and the “left” selector at the same time. That overlap only appears once there is another SMASHit further to the right, which is why the bug shows up only when there is more than one SMASHit.
+
+Patch
+The minimal fix is to stop the left-side chained selector from grabbing a Chatting that is already directly preceded by SMASHit. That prevents the collision and keeps the special-case animation from being replaced by another shorthand animation rule.
+
+css
 /*
 ### SMASHit ###
 */
@@ -4000,8 +4009,9 @@ Firefox supports :has(), so this refactor treats :has() as available.
   transform: translate(2px, 3px);
   animation: Chatting-YUMP-right .75s steps(4) 7 .4s forwards;
 }
+
 .text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote.SMASHit):not(:has(+ .emote.SMASHit + .emote)),
-.text > .emote.Chatting:has(+ .emote.SMASHit + .emote.Chatting){
+.text > .emote.Chatting:not(.emote.SMASHit + .emote.Chatting):has(+ .emote.SMASHit + .emote.Chatting){
   background-position: -288px;
   transform: scale(-1, 1) translate(-2px, 3px);
   animation: Chatting-YUMP-left .75s steps(4) 7 .4s forwards;
@@ -4014,16 +4024,19 @@ Firefox supports :has(), so this refactor treats :has() as available.
 .text > .emote.Chatting + .emote.SMASHit + .emote.Chatting:hover{
   animation: Chatting-YUMP-right-hover .75s steps(4) infinite .4s forwards;
 }
+
 .text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote.SMASHit):not(:has(+ .emote.SMASHit + .emote)):hover,
-.text > .emote.Chatting:has(+ .emote.SMASHit + .emote.Chatting):hover{
+.text > .emote.Chatting:not(.emote.SMASHit + .emote.Chatting):has(+ .emote.SMASHit + .emote.Chatting):hover{
   animation: Chatting-YUMP-left-hover .75s steps(4) infinite .4s forwards;
 }
+
 .text > .emote.SMASHit:hover + .emote.Chatting,
 .text > .emote.Chatting + .emote.SMASHit:hover + .emote.Chatting{
   animation: Chatting-YUMP-right-hover .75s steps(4) infinite .4s forwards;
 }
+
 .text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote.SMASHit:hover):not(:has(+ .emote.SMASHit:hover + .emote)),
-.text > .emote.Chatting:has(+ .emote.SMASHit:hover + .emote.Chatting){
+.text > .emote.Chatting:not(.emote.SMASHit + .emote.Chatting):has(+ .emote.SMASHit:hover + .emote.Chatting){
   animation: Chatting-YUMP-left-hover .75s steps(4) infinite .4s forwards;
 }
 
@@ -4274,6 +4287,22 @@ Firefox supports :has(), so this refactor treats :has() as available.
   height: 32px;
   transform: scale(1, 1) translate(-2px, 3px);
   animation: Chatting-hover .30s steps(4) infinite;
+}
+
+/*
+#### GREENTEXT BACKUP: CHATTING ####
+- backup for Chatting when emotes are wrapped in .greentext
+*/
+.text > .greentext > .emote.Chatting{
+  width: 32px;
+  height: 32px;
+  transform: scale(1, 1) translate(-2px, 3px);
+  animation: Chatting-anim .30s steps(4) 60;
+}
+
+.text > .greentext > .emote.Chatting:hover{
+  transform: scale(1, 1) translate(-2px, 3px);
+  animation: Chatting-hover .30s steps(4) 60;
 }
 .emote.CheckEm {
   height: 34px;
