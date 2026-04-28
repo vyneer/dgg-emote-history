@@ -4304,6 +4304,24 @@ css
   transform: scale(1, 1) translate(-2px, 3px);
   animation: Chatting-hover .30s steps(4) 60;
 }
+
+/*
+#### SECRET: CHATTING ####
+*/
+.chat-auto-complete .emote.Chatting{
+  width: 32px !important;
+  height: 32px !important;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: 0 0;
+  transform: scale(1, 1) translate(-2px, 3px);
+  animation: Chatting-anim .30s steps(4) 60 !important;
+}
+
+.chat-auto-complete .emote.Chatting:hover{
+  transform: scale(1, 1) translate(-2px, 3px);
+  animation: Chatting-hover .30s steps(4) 60 !important;
+}
 .emote.CheckEm {
   height: 34px;
   width: 44px;
