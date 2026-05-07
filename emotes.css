@@ -286,6 +286,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.buddy-dothedew {
+    background-image: url("69fc7b36eb24c.png");
+    height: 28px;
+    width: 192px;
+}
+.msg-chat .emote.buddy-dothedew {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.buddy-nutcheck {
     background-image: url("69cefc868497c.png");
     height: 32px;
@@ -3665,6 +3674,23 @@ filter: contrast(1) saturate(1) brightness(1.25);
 .emote.GIGACHAD + .emote.BoomerSippy:hover{
   animation: BoomerSippy-right-hover 1.5s 1, GIGASIP 1.5s 1 ease-out;
 }  
+.emote.buddy-dothedew {
+  height: 28px;
+  width: 48px;
+  animation: buddy-dothedew-anim 1s steps(4) forwards infinite;
+}
+.emote.buddy-dothedew:hover {
+  height: 28px;
+  width: 48px;
+  animation: buddy-dothedew-hover 1s steps(4) forwards 1;
+}
+
+@keyframes buddy-dothedew-anim {
+  to { background-position: -192px; }
+}
+@keyframes buddy-dothedew-hover {
+  to { background-position: -192px; }
+}
 .emote.buddy-nutcheck {
   height: 32px;
   width: 48px;
