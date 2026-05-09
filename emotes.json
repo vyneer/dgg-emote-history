@@ -64,6 +64,22 @@
     ]
   },
   {
+    "prefix": "AlienPls",
+    "creator": "ethantp - 7TV",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.50.1/emotes/69ff405b34fa0.gif",
+        "name": "69ff405b34fa0.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "ALO",
     "creator": "",
     "twitch": false,
@@ -508,22 +524,6 @@
         "mime": "image/png",
         "height": 30,
         "width": 22
-      }
-    ]
-  },
-  {
-    "prefix": "buddy-dothedew",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.50.1/emotes/69fc7b36eb24c.png",
-        "name": "69fc7b36eb24c.png",
-        "mime": "image/png",
-        "height": 28,
-        "width": 192
       }
     ]
   },
