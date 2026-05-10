@@ -71,11 +71,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.50.1/emotes/69ff405b34fa0.gif",
-        "name": "69ff405b34fa0.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 32
+        "url": "https://cdn.destiny.gg/4.50.1/emotes/6a00b50686524.gif",
+        "name": "6a00b50686524.gif",
+        "mime": "image/webp",
+        "height": 28,
+        "width": 28
       }
     ]
   },
