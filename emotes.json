@@ -1184,6 +1184,22 @@
     ]
   },
   {
+    "prefix": "diNOTHANKS",
+    "creator": "picklesnathan",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.50.1/emotes/69e6565438a02.png",
+        "name": "69e6565438a02.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "diNOWAY",
     "creator": "",
     "twitch": false,
