@@ -4401,17 +4401,17 @@
   },
   {
     "prefix": "TeaTime",
-    "creator": "",
+    "creator": "Igor",
     "twitch": false,
-    "theme": 4,
+    "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.51.0/emotes/6845250177b9c.png",
-        "name": "6845250177b9c.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 7808
+        "url": "https://cdn.destiny.gg/4.51.0/emotes/6905e74d3f414.gif",
+        "name": "6905e74d3f414.gif",
+        "mime": "image/gif",
+        "height": 28,
+        "width": 28
       }
     ]
   },
