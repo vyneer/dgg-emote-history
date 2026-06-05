@@ -6363,6 +6363,26 @@ background-position: 0px 10px;
   margin-left: -5px;
   margin-right: -5px;
 }
+
+.msg-chat.msg-emote .emote.mhm {
+  transform-origin: bottom;
+  transform: scale(calc(28/36));
+}
+
+.msg-chat.msg-emote[data-combo-group$="5"] .emote.mhm {
+  transform-origin: bottom;
+  transform: scale(calc(28/36));
+}
+
+.msg-chat.msg-emote[data-combo-group$="0"] .emote.mhm {
+  transform-origin: bottom;
+  transform: scale(calc(28/36));
+}
+
+.msg-chat.msg-emote[data-combo-group$="10"] .emote.mhm {
+  transform-origin: bottom;
+  transform: scale(calc(28/36));
+}
 @keyframes MiyanoHype-anim-1 {
     100% { background-position: -1200px; }
 }
