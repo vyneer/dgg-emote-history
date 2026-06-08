@@ -304,32 +304,32 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.Buttstiny {
+.emote.BUTTSTINY {
     background-image: url("694c8b665356e.png");
     height: 36px;
     width: 80px;
 }
-.msg-chat .emote.Buttstiny {
+.msg-chat .emote.BUTTSTINY {
     margin-top: -36px;
     top: 9px;
 }
-.emote.Cabge {
-    background-image: url("683fb42275520.png");
-    height: 31px;
-    width: 43px;
+.emote.CABGE {
+    background-image: url("68b45a3ec6fe2.png");
+    height: 30px;
+    width: 84px;
 }
-.msg-chat .emote.Cabge {
-    margin-top: -31px;
-    top: 7.75px;
+.msg-chat .emote.CABGE {
+    margin-top: -30px;
+    top: 7.5px;
 }
-.emote.catJAM {
-    background-image: url("665b06bfcc744.png");
-    height: 32px;
-    width: 32px;
+.emote.CATJAM {
+    background-image: url("65922f34c1da9.png");
+    height: 30px;
+    width: 7144px;
 }
-.msg-chat .emote.catJAM {
-    margin-top: -32px;
-    top: 8px;
+.msg-chat .emote.CATJAM {
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.CAUGHT {
     background-image: url("6694ce36ead36.png");
@@ -637,12 +637,12 @@
     margin-top: -28px;
     top: 7px;
 }
-.emote.Derpstiny {
+.emote.DERPSTINY {
     background-image: url("5c2bbc4182b70.png");
     height: 31px;
     width: 24px;
 }
-.msg-chat .emote.Derpstiny {
+.msg-chat .emote.DERPSTINY {
     margin-top: -31px;
     top: 7.75px;
 }
@@ -2869,6 +2869,24 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.Cabge {
+    background-image: url("683fb42275520.png");
+    height: 31px;
+    width: 43px;
+}
+.msg-chat .emote.Cabge {
+    margin-top: -31px;
+    top: 7.75px;
+}
+.emote.catJAM {
+    background-image: url("665b06bfcc744.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.catJAM {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ComfyCat {
     background-image: url("6478cc1bed6d8.png");
     height: 32px;
@@ -3188,7 +3206,6 @@
 .emote.AYAYA:hover {
     animation: AYAYA-anim-hover 0.7s infinite;
 }
-
 .emote.BearSleep{
     animation: BearSleep-sleep 5s 20;
     filter: contrast(1.15) saturate(1.05);     padding-right: 48px;
@@ -3712,7 +3729,7 @@ filter: contrast(1) saturate(1) brightness(1.25);
   to { background-position: -480px; }
 }
 /* IHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDRIHATEJAYDR */
-.emote.Buttstiny {
+.emote.BUTTSTINY {
   vertical-align: -5px; 
   display: inline-block;
   animation: none;
@@ -3721,6 +3738,40 @@ filter: contrast(1) saturate(1) brightness(1.25);
   margin-left: -4px;   
   margin-right: -4px;  
 }
+.emote.CABGE {
+    height: 30px;
+    width: 42px;
+    background-position: 0px;
+    background-repeat: no-repeat;
+}
+
+/* PURPLE */
+.msg-chat.msg-user>time[data-unixtimestamp$="69"]~.text .emote.CABGE:first-of-type {
+    height: 30px;
+    width: 42px;
+    animation: RARE-PURPLE 1.2s 1, RARE-PURPLE-PULSATE 1.2s infinite 1.2s linear;
+    filter: brightness(1) drop-shadow(0px 0px 2px #e1e6ff) drop-shadow(0px 0px 5px #8b5cf6);
+    transform: scale(1.10);
+    transition: all .5s ease-out;
+    background-position: -42px 0;
+    background-repeat: no-repeat;
+}
+@keyframes CATJAM-anim {
+  100% { background-position: -7144px; }
+}
+@keyframes CATJAM-hover {
+  100% { background-position: -7144px; }
+}
+
+.emote.CATJAM {
+  width: 38px;
+  animation: CATJAM-anim 2 steps(188) 6.5s;
+}
+.emote.CATJAM:hover {
+  animation: CATJAM-hover infinite steps(188) 6.5s;
+}
+
+//fuk u 
 @keyframes CAUGHT-mark {
     5% {
         transform: scale(-1, 0); transform-origin: top;  opacity: 0;

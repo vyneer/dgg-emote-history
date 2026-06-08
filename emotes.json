@@ -544,7 +544,7 @@
     ]
   },
   {
-    "prefix": "Buttstiny",
+    "prefix": "BUTTSTINY",
     "creator": "MrGemzar",
     "twitch": false,
     "theme": 1,
@@ -560,34 +560,34 @@
     ]
   },
   {
-    "prefix": "Cabge",
-    "creator": "cweetron ",
+    "prefix": "CABGE",
+    "creator": "cweetron",
     "twitch": false,
-    "theme": 4,
+    "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.51.0/emotes/683fb42275520.png",
-        "name": "683fb42275520.png",
+        "url": "https://cdn.destiny.gg/4.51.0/emotes/68b45a3ec6fe2.png",
+        "name": "68b45a3ec6fe2.png",
         "mime": "image/png",
-        "height": 31,
-        "width": 43
+        "height": 30,
+        "width": 84
       }
     ]
   },
   {
-    "prefix": "catJAM",
+    "prefix": "CATJAM",
     "creator": "",
     "twitch": false,
-    "theme": 4,
+    "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.51.0/emotes/665b06bfcc744.png",
-        "name": "665b06bfcc744.png",
+        "url": "https://cdn.destiny.gg/4.51.0/emotes/65922f34c1da9.png",
+        "name": "65922f34c1da9.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 32
+        "height": 30,
+        "width": 7144
       }
     ]
   },
@@ -1121,7 +1121,7 @@
   },
   {
     "prefix": "Depresstiny",
-    "creator": null,
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
@@ -1136,8 +1136,8 @@
     ]
   },
   {
-    "prefix": "Derpstiny",
-    "creator": null,
+    "prefix": "DERPSTINY",
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
@@ -5100,6 +5100,38 @@
         "mime": "image/png",
         "height": 32,
         "width": 26
+      }
+    ]
+  },
+  {
+    "prefix": "Cabge",
+    "creator": "cweetron ",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.51.0/emotes/683fb42275520.png",
+        "name": "683fb42275520.png",
+        "mime": "image/png",
+        "height": 31,
+        "width": 43
+      }
+    ]
+  },
+  {
+    "prefix": "catJAM",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.51.0/emotes/665b06bfcc744.png",
+        "name": "665b06bfcc744.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
       }
     ]
   },
