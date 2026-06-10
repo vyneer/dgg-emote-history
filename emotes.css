@@ -322,14 +322,14 @@
     margin-top: -31px;
     top: 7.75px;
 }
-.emote.CATJAM {
-    background-image: url("65922f34c1da9.png");
-    height: 30px;
-    width: 7144px;
+.emote.catJAM {
+    background-image: url("665b06bfcc744.png");
+    height: 32px;
+    width: 32px;
 }
-.msg-chat .emote.CATJAM {
-    margin-top: -30px;
-    top: 7.5px;
+.msg-chat .emote.catJAM {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.CAUGHT {
     background-image: url("6694ce36ead36.png");
@@ -2869,15 +2869,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.catJAM {
-    background-image: url("665b06bfcc744.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.catJAM {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.ComfyCat {
     background-image: url("6478cc1bed6d8.png");
     height: 32px;
@@ -3729,22 +3720,6 @@ filter: contrast(1) saturate(1) brightness(1.25);
   margin-left: -4px;   
   margin-right: -4px;  
 }
-@keyframes CATJAM-anim {
-  100% { background-position: -7144px; }
-}
-@keyframes CATJAM-hover {
-  100% { background-position: -7144px; }
-}
-
-.emote.CATJAM {
-  width: 38px;
-  animation: CATJAM-anim 2 steps(188) 6.5s;
-}
-.emote.CATJAM:hover {
-  animation: CATJAM-hover infinite steps(188) 6.5s;
-}
-
-//fuk u 
 @keyframes CAUGHT-mark {
     5% {
         transform: scale(-1, 0); transform-origin: top;  opacity: 0;

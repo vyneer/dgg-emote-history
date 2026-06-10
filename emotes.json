@@ -576,18 +576,18 @@
     ]
   },
   {
-    "prefix": "CATJAM",
+    "prefix": "catJAM",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.51.0/emotes/65922f34c1da9.png",
-        "name": "65922f34c1da9.png",
+        "url": "https://cdn.destiny.gg/4.51.0/emotes/665b06bfcc744.png",
+        "name": "665b06bfcc744.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 7144
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -5100,22 +5100,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 26
-      }
-    ]
-  },
-  {
-    "prefix": "catJAM",
-    "creator": "",
-    "twitch": false,
-    "theme": 4,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.51.0/emotes/665b06bfcc744.png",
-        "name": "665b06bfcc744.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
       }
     ]
   },
