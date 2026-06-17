@@ -1601,17 +1601,17 @@
   },
   {
     "prefix": "FlawlessVictory",
-    "creator": "cyver",
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.52.0/emotes/6991bc14b00ac.png",
-        "name": "6991bc14b00ac.png",
+        "url": "https://cdn.destiny.gg/4.52.0/emotes/6a32ad4872dc8.png",
+        "name": "6a32ad4872dc8.png",
         "mime": "image/png",
         "height": 32,
-        "width": 64
+        "width": 50
       }
     ]
   },
