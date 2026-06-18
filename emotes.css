@@ -2338,12 +2338,12 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.SMASHIT {
+.emote.SMASHit {
     background-image: url("604fa4fa5ca3d.png");
     height: 29px;
     width: 2856px;
 }
-.msg-chat .emote.SMASHIT {
+.msg-chat .emote.SMASHit {
     margin-top: -29px;
     top: 7.25px;
 }
@@ -3923,11 +3923,30 @@ Firefox supports :has(), so this refactor treats :has() as available.
 
 /*
 #### ONE-HANDED: RIGHT ####
-- when chatting is next to a non-chatting emote and another chatting: select second chatting
-- when chatting is next to another chatting and that second chatting is last in the emote run: select second chatting
 */
-.text > .emote.Chatting + .emote:not(.Chatting) + .emote.Chatting,
-.text > .emote.Chatting + .emote.Chatting:not(:has(+ .emote)){
+.text > .emote.Chatting:not(.emote.SMASHit + .emote.Chatting)
+                      :not(.emote.GIGACHAD + .emote.Chatting)
+                      :not(.emote.Aware + .emote.Chatting)
+                      :not(.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting)
+                      :not(.emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting)
+                      :not(.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting)
+                      :not(.emote:is(.SOY, .HACKERMAN) + .emote.Chatting)
+  + .emote:not(.Chatting) + .emote.Chatting:not(.emote.SMASHit + .emote.Chatting)
+                                            :not(.emote.GIGACHAD + .emote.Chatting)
+                                            :not(.emote.Aware + .emote.Chatting)
+                                            :not(.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting)
+                                            :not(.emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting)
+                                            :not(.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting)
+                                            :not(.emote:is(.SOY, .HACKERMAN) + .emote.Chatting)
+                                            :not(.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa, .SMASHit, .GIGACHAD, .Aware, .NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm, .Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .SOY, .HACKERMAN) + .emote.Chatting),
+.text > .emote.Chatting + .emote.Chatting:not(:has(+ .emote))
+                    :not(.emote.SMASHit + .emote.Chatting)
+                    :not(.emote.GIGACHAD + .emote.Chatting)
+                    :not(.emote.Aware + .emote.Chatting)
+                    :not(.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting)
+                    :not(.emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting)
+                    :not(.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting)
+                    :not(.emote:is(.SOY, .HACKERMAN) + .emote.Chatting){
   transform: scale(1, 1) translate(-2px, 3px);
   animation: Chatting-anim-1hand .30s steps(4) 60 forwards;
 }
@@ -3935,8 +3954,29 @@ Firefox supports :has(), so this refactor treats :has() as available.
 /*
 ## HOVER ##
 */
-.text > .emote.Chatting + .emote:not(.Chatting) + .emote.Chatting:hover,
-.text > .emote.Chatting + .emote.Chatting:not(:has(+ .emote)):hover{
+.text > .emote.Chatting:not(.emote.SMASHit + .emote.Chatting)
+                      :not(.emote.GIGACHAD + .emote.Chatting)
+                      :not(.emote.Aware + .emote.Chatting)
+                      :not(.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting)
+                      :not(.emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting)
+                      :not(.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting)
+                      :not(.emote:is(.SOY, .HACKERMAN) + .emote.Chatting)
+  + .emote:not(.Chatting) + .emote.Chatting:not(.emote.SMASHit + .emote.Chatting)
+                                            :not(.emote.GIGACHAD + .emote.Chatting)
+                                            :not(.emote.Aware + .emote.Chatting)
+                                            :not(.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting)
+                                            :not(.emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting)
+                                            :not(.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting)
+                                            :not(.emote:is(.SOY, .HACKERMAN) + .emote.Chatting)
+                                            :not(.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa, .SMASHit, .GIGACHAD, .Aware, .NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm, .Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .SOY, .HACKERMAN) + .emote.Chatting):hover,
+.text > .emote.Chatting + .emote.Chatting:not(:has(+ .emote))
+                    :not(.emote.SMASHit + .emote.Chatting)
+                    :not(.emote.GIGACHAD + .emote.Chatting)
+                    :not(.emote.Aware + .emote.Chatting)
+                    :not(.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting)
+                    :not(.emote:is(.NAILS, .COOMER, .COOMfy, .nathanGG, .PepOk, .SOTRIGGERED, .BOGGED, .SICKO, .YAM, .pepeJAM, .miyanobird, .BERN, .FeedNathan, .SWEATSTINY, .HmmStiny, .CheekerZ, .OBJECTION, .PepoThink, .CROPSTINY, .GRUG, .TeddyPepe, .gachiGASM, .MASTERB8, .OhKrappa, .Memegasm, .Normgasm) + .emote.Chatting)
+                    :not(.emote:is(.Slugstiny, .BOOMER, .ComfyDan, .nathanBoomer, .Slumlord, .FeelsDankMan, .Normgasm) + .emote.Chatting)
+                    :not(.emote:is(.SOY, .HACKERMAN) + .emote.Chatting):hover{
   transform: scale(1, 1) translate(-2px, 3px);
   animation: Chatting-hover-1hand .30s steps(4) 60 forwards;
 }
@@ -3994,17 +4034,8 @@ Firefox supports :has(), so this refactor treats :has() as available.
 - when chatting is followed by specified emote and another chatting: select first
 */
 
-Yes — this breaks because the same Chatting can match multiple SMASHit rules at once, and when more than one rule sets the animation shorthand, the later one replaces the earlier animation settings instead of merging them.
-
-Culprit
-In a chain like SMASHit Chatting SMASHit Chatting SMASHit Chatting, the middle Chatting matches both the “right” selector and the “left” selector at the same time. That overlap only appears once there is another SMASHit further to the right, which is why the bug shows up only when there is more than one SMASHit.
-
-Patch
-The minimal fix is to stop the left-side chained selector from grabbing a Chatting that is already directly preceded by SMASHit. That prevents the collision and keeps the special-case animation from being replaced by another shorthand animation rule.
-
-css
 /*
-### SMASHIT — FIXED ###
+### SMASHIT ###
 */
 
 /* RIGHT SIDE — base */
@@ -4168,24 +4199,26 @@ css
 }
 
 /*
-### OTHERS - NO HANDS ###
+#### NO HANDS ####
+- arm2 uses .Chatting.Chatting on first+last to beat generic rule specificity (0-5-4)
 */
 .text > .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting,
-.text > .emote.Chatting + .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting:not(:has(+ .emote)),
+.text > .emote.Chatting.Chatting + .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting.Chatting,
 .text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa)):not(:has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote)),
-.text > .emote.Chatting:not(.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting):has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting){
+.text > .emote.Chatting:not(.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting):has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting) {
   background-position: -288px;
   animation: none;
 }
-
 /*
-## HOVER ##
+#### NO HANDS — HOVER ####
+- keeps background-position frozen and animation off on hover
 */
 .text > .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting:hover,
-.text > .emote.Chatting + .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting:not(:has(+ .emote)):hover,
+.text > .emote.Chatting.Chatting + .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting.Chatting:hover,
 .text > .emote.Chatting:not(.emote + .emote.Chatting):has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa)):not(:has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote)):hover,
-.text > .emote.Chatting:not(.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting):has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting):hover{
-  animation-iteration-count: 0;
+.text > .emote.Chatting:not(.emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting):has(+ .emote:is(.PepeHands, .PepoWant, .NOOOO, .Shrugstiny, .Blesstiny, .MiyanoHype, .SNAP, .ApeHands, .Klappa) + .emote.Chatting):hover {
+  background-position: -288px;
+  animation: none;
 }
 
 /*
@@ -7138,25 +7171,25 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
     animation: Slumlord-anim-hover 0.5s infinite;
     animation-delay: 0.25s;
 }
-@keyframes SMASHIT-anim {
+@keyframes SMASHit-anim {
   0% { background-position: 0px; }
   100% { background-position: -2856px; }
 }
 
-@keyframes SMASHIT-hover {
+@keyframes SMASHit-hover {
   0% { background-position: 0px; }
   100% { background-position: -2856px; }
 }
 
-.emote.SMASHIT {
+.emote.SMASHit {
   width: 42px;
   height: 29px;
   background-position: -2814px;
-  animation: SMASHIT-anim 1.34s steps(68) 4;
+  animation: SMASHit-anim 1.34s steps(68) 4;
 }
 
-.emote.SMASHIT:hover {
-  animation: SMASHIT-hover 1.34s steps(68) infinite;
+.emote.SMASHit:hover {
+  animation: SMASHit-hover 1.34s steps(68) infinite;
 }
 @keyframes SNAP-anim {
   10% { filter: brightness(1.7); }
