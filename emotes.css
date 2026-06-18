@@ -664,6 +664,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.diNoThanks {
+    background-image: url("69e6565438a02.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.diNoThanks {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.diNOWAY {
     background-image: url("69d070bac8b37.png");
     height: 32px;
@@ -1897,12 +1906,12 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.PEEPORIOT {
+.emote.peepoRiot {
     background-image: url("5e9a25016d376.png");
     height: 32px;
     width: 280px;
 }
-.msg-chat .emote.PEEPORIOT {
+.msg-chat .emote.peepoRiot {
     margin-top: -32px;
     top: 8px;
 }
@@ -2446,12 +2455,12 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.Sweatstiny {
+.emote.SWEATSTINY {
     background-image: url("66b43be52b983.png");
     height: 32px;
     width: 51px;
 }
-.msg-chat .emote.Sweatstiny {
+.msg-chat .emote.SWEATSTINY {
     margin-top: -32px;
     top: 8px;
 }
@@ -6436,18 +6445,18 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
 .emote.PARDNER:hover {
     animation: PARDNER-kick-hover 2s infinite ease-in-out;
 }
-@keyframes PEEPORIOT-anim {
+@keyframes peepoRiot-anim {
   100% { background-position: -280px; }
 }
-@keyframes PEEPORIOT-hover {
+@keyframes peepoRiot-hover {
   100% { background-position: -280px; }
 }
-.emote.PEEPORIOT {
+.emote.peepoRiot {
   width: 35px;
-  animation: PEEPORIOT-anim steps(8) 7 .8s;
+  animation: peepoRiot-anim steps(8) 7 .8s;
 }
-.emote.PEEPORIOT:hover {
-  animation: PEEPORIOT-hover steps(8) infinite .8s;
+.emote.peepoRiot:hover {
+  animation: peepoRiot-hover steps(8) infinite .8s;
 }
 [data-username="cyver"] .emote.PEPE {
        animation: RARE-PEPE-PULSATE 3s infinite linear;
