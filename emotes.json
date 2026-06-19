@@ -3827,13 +3827,13 @@
     "prefix": "RapThis",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 4,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.52.0/emotes/66937d4109172.png",
-        "name": "66937d4109172.png",
-        "mime": "image/png",
+        "url": "https://cdn.destiny.gg/4.52.0/emotes/6672a4bf7759b.gif",
+        "name": "6672a4bf7759b.gif",
+        "mime": "image/gif",
         "height": 28,
         "width": 28
       }
@@ -5195,6 +5195,22 @@
         "name": "6478ccd4561fd.png",
         "mime": "image/png",
         "height": 30,
+        "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "triHarder",
+    "creator": "",
+    "twitch": false,
+    "theme": 4,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.52.0/emotes/665ad15b6eadc.png",
+        "name": "665ad15b6eadc.png",
+        "mime": "image/png",
+        "height": 32,
         "width": 32
       }
     ]

@@ -2150,7 +2150,7 @@
     top: 8px;
 }
 .emote.RapThis {
-    background-image: url("66937d4109172.png");
+    background-image: url("6672a4bf7759b.gif");
     height: 28px;
     width: 28px;
 }
@@ -2922,6 +2922,15 @@
 .msg-chat .emote.PepoComfy {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.triHarder {
+    background-image: url("665ad15b6eadc.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.triHarder {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.ACKSHUALLY {
     width: 47px;
