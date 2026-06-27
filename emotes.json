@@ -1856,6 +1856,22 @@
     ]
   },
   {
+    "prefix": "GSN",
+    "creator": "prsek",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.52.0/emotes/6a3f4852ed9ff.png",
+        "name": "6a3f4852ed9ff.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 43
+      }
+    ]
+  },
+  {
     "prefix": "guh",
     "creator": "",
     "twitch": false,

@@ -1042,6 +1042,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.GSN {
+    background-image: url("6a3f4852ed9ff.png");
+    height: 32px;
+    width: 43px;
+}
+.msg-chat .emote.GSN {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.guh {
     background-image: url("660ab1a309753.png");
     height: 32px;
@@ -5308,6 +5317,42 @@ Firefox supports :has(), so this refactor treats :has() as available.
     animation: none;
 }
 */
+@keyframes GSN-anim {
+    0% { top: -25px; }
+    100% { top: 30px; }
+}
+@keyframes GSN-anim-hover {
+    0% { top: -25px; }
+    100% { top: 30px; }
+}
+.emote.GSN:before{
+    content: "🐬";
+    text-indent: 0;
+    font-size: 18px;
+    position: absolute;
+    line-height: initial;
+    left:-3px;
+    top:-25px;
+    animation: GSN-anim 1s 1;
+}
+.emote.GSN:after{
+    content: "🐬";
+    text-indent: 0;
+    font-size: 18px;
+    position: absolute;
+    line-height: initial;
+    right:-3px;
+    top:-25px;
+    animation: GSN-anim 1s 1;
+    animation-delay: 0.25s;
+}
+.emote.GSN:hover::before {
+    animation: GSN-anim-hover 1s infinite;
+}
+.emote.GSN:hover::after {
+    animation: GSN-anim-hover 1s infinite;
+    animation-delay: 0.25s;
+}
 .emote.HACKERMAN {
   margin-left: -1px;
   margin-right: -1px;
