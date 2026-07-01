@@ -71,13 +71,13 @@
     top: 7.5px;
 }
 .emote.AngelThump {
-    background-image: url("6478bbb1eb8f3.png");
-    height: 32px;
-    width: 7560px;
+    background-image: url("5c2bbb9fa8ab2.png");
+    height: 30px;
+    width: 95px;
 }
 .msg-chat .emote.AngelThump {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.ApeHands {
     background-image: url("66eb86786120d.png");
@@ -188,7 +188,7 @@
     top: 8px;
 }
 .emote.BERN {
-    background-image: url("6482de9f0145f.png");
+    background-image: url("649f768e50a4a.png");
     height: 30px;
     width: 1860px;
 }
@@ -224,13 +224,13 @@
     top: 8px;
 }
 .emote.BLADE {
-    background-image: url("665ad8e5bf4c0.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("5dbc2afb17f2d.png");
+    height: 30px;
+    width: 30px;
 }
 .msg-chat .emote.BLADE {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.BLESSTINY {
     background-image: url("66596baae76d9.png");
@@ -314,22 +314,22 @@
     top: 9px;
 }
 .emote.Cabge {
-    background-image: url("683fb42275520.png");
-    height: 31px;
-    width: 43px;
+    background-image: url("68b45a3ec6fe2.png");
+    height: 30px;
+    width: 84px;
 }
 .msg-chat .emote.Cabge {
-    margin-top: -31px;
-    top: 7.75px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.catJAM {
-    background-image: url("665b06bfcc744.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("65922f34c1da9.png");
+    height: 30px;
+    width: 7144px;
 }
 .msg-chat .emote.catJAM {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.CAUGHT {
     background-image: url("6694ce36ead36.png");
@@ -467,16 +467,16 @@
     top: 8px;
 }
 .emote.ComfYEE {
-    background-image: url("6478ccb69c357.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("66937a7d1fbf0.png");
+    height: 30px;
+    width: 26px;
 }
 .msg-chat .emote.ComfYEE {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.ComfyFerret {
-    background-image: url("6478cca7ebe16.png");
+    background-image: url("5fad983ac8f92.png");
     height: 32px;
     width: 34px;
 }
@@ -485,7 +485,7 @@
     top: 8px;
 }
 .emote.coMMMMfy {
-    background-image: url("6478cc478bb89.png");
+    background-image: url("624e76368b3a9.png");
     height: 28px;
     width: 33px;
 }
@@ -521,7 +521,7 @@
     top: 7px;
 }
 .emote.COPIUM {
-    background-image: url("665ad1b7cfead.png");
+    background-image: url("66596c13917fd.gif");
     height: 32px;
     width: 32px;
 }
@@ -557,13 +557,13 @@
     top: 7.5px;
 }
 .emote.CUTESTINY {
-    background-image: url("647e87ae17eb2.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("649f7adb5746a.png");
+    height: 28px;
+    width: 28px;
 }
 .msg-chat .emote.CUTESTINY {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.CUX {
     background-image: url("6659703237f2a.png");
@@ -611,7 +611,7 @@
     top: 8px;
 }
 .emote.DCOLON {
-    background-image: url("665acf055d7db.png");
+    background-image: url("6002196ce1fcd.png");
     height: 32px;
     width: 32px;
 }
@@ -647,9 +647,9 @@
     top: 7.75px;
 }
 .emote.dggL {
-    background-image: url("647fc7de421b5.png");
+    background-image: url("64e9c8c405428.png");
     height: 35px;
-    width: 32px;
+    width: 2688px;
 }
 .msg-chat .emote.dggL {
     margin-top: -35px;
@@ -809,13 +809,13 @@
     top: 8px;
 }
 .emote.FeelsGoodMan {
-    background-image: url("665a5b44ae46d.png");
-    height: 28px;
-    width: 32px;
+    background-image: url("665add4126d3f.png");
+    height: 30px;
+    width: 30px;
 }
 .msg-chat .emote.FeelsGoodMan {
-    margin-top: -28px;
-    top: 7px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.FeelsOkayMan {
     background-image: url("5fc940888e8d3.png");
@@ -823,6 +823,15 @@
     width: 33px;
 }
 .msg-chat .emote.FeelsOkayMan {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.FeelsOrbMan {
+    background-image: url("6a44c53700471.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.FeelsOrbMan {
     margin-top: -32px;
     top: 8px;
 }
@@ -872,13 +881,13 @@
     top: 7.5px;
 }
 .emote.Fishge {
-    background-image: url("683fb41fadb97.png");
-    height: 29px;
-    width: 38px;
+    background-image: url("67ebd8be81102.png");
+    height: 28px;
+    width: 37px;
 }
 .msg-chat .emote.Fishge {
-    margin-top: -29px;
-    top: 7.25px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.FISHIES {
     background-image: url("660a76abae9df.gif");
@@ -953,13 +962,22 @@
     top: 7.5px;
 }
 .emote.gachiGASM {
-    background-image: url("665ad06167f8c.png");
-    height: 36px;
-    width: 32px;
+    background-image: url("5c2bbc9ac1396.png");
+    height: 30px;
+    width: 30px;
 }
 .msg-chat .emote.gachiGASM {
-    margin-top: -36px;
-    top: 9px;
+    margin-top: -30px;
+    top: 7.5px;
+}
+.emote.GAENGSTALKED-IN-YOUR-ATTIC-OHIO-STATE-STUDENT-MAKES-THOUSANDS-A-MONTH-AS-A-GAMING-STREAMER {
+    background-image: url("6a44c5406c3c8.png");
+    height: 30px;
+    width: 30px;
+}
+.msg-chat .emote.GAENGSTALKED-IN-YOUR-ATTIC-OHIO-STATE-STUDENT-MAKES-THOUSANDS-A-MONTH-AS-A-GAMING-STREAMER {
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.GAGAGA {
     background-image: url("660a7b2d12665.png");
@@ -998,9 +1016,9 @@
     top: 9.5px;
 }
 .emote.GIGACHAD {
-    background-image: url("665ad0fc694bf.png");
+    background-image: url("624bb3cf81ae1.png");
     height: 32px;
-    width: 32px;
+    width: 29px;
 }
 .msg-chat .emote.GIGACHAD {
     margin-top: -32px;
@@ -1016,9 +1034,9 @@
     top: 8px;
 }
 .emote.glorp {
-    background-image: url("6a1d09c42c49f.png");
+    background-image: url("691a4c80becd1.png");
     height: 28px;
-    width: 278px;
+    width: 308px;
 }
 .msg-chat .emote.glorp {
     margin-top: -28px;
@@ -1394,7 +1412,7 @@
     top: 8px;
 }
 .emote.LUL {
-    background-image: url("6672bd5b5f9f5.png");
+    background-image: url("5c2bbcfe2ba44.png");
     height: 30px;
     width: 36px;
 }
@@ -1403,7 +1421,7 @@
     top: 7.5px;
 }
 .emote.LULW {
-    background-image: url("6672bd77ece30.png");
+    background-image: url("5ca69cfac2c36.png");
     height: 32px;
     width: 28px;
 }
@@ -1421,7 +1439,7 @@
     top: 8px;
 }
 .emote.MALARKEY {
-    background-image: url("6482df0fbddce.png");
+    background-image: url("649f772dc1990.png");
     height: 30px;
     width: 1581px;
 }
@@ -1493,9 +1511,9 @@
     top: 8px;
 }
 .emote.MiyanoHype {
-    background-image: url("62baf03bd444a.png");
+    background-image: url("61574db3e31e6.png");
     height: 32px;
-    width: 1200px;
+    width: 320px;
 }
 .msg-chat .emote.MiyanoHype {
     margin-top: -32px;
@@ -1664,13 +1682,13 @@
     top: 7px;
 }
 .emote.nathanW {
-    background-image: url("6672a0cc1f208.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("665b77e859fe5.png");
+    height: 28px;
+    width: 28px;
 }
 .msg-chat .emote.nathanW {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.nathanWeeb {
     background-image: url("nathanWeeb.png");
@@ -1709,13 +1727,13 @@
     top: 7.5px;
 }
 .emote.NODDERS {
-    background-image: url("665ad11c061ad.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("61802e3a5b014.gif");
+    height: 28px;
+    width: 28px;
 }
 .msg-chat .emote.NODDERS {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.NOOOO {
     background-image: url("656857e72aeea.png");
@@ -1727,13 +1745,13 @@
     top: 8.75px;
 }
 .emote.NOPERS {
-    background-image: url("665ad12827234.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("61802e629ca8d.gif");
+    height: 28px;
+    width: 28px;
 }
 .msg-chat .emote.NOPERS {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.Normgasm {
     background-image: url("65f57bb5f161f.png");
@@ -1849,6 +1867,15 @@
     width: 31px;
 }
 .msg-chat .emote.OMEGALUL {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.omgBruh {
+    background-image: url("6a44adee34eae.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.omgBruh {
     margin-top: -32px;
     top: 8px;
 }
@@ -1988,9 +2015,9 @@
     top: 8px;
 }
 .emote.PepeSteer {
-    background-image: url("665ad13735a42.png");
+    background-image: url("5fc5c2f5071e9.png");
     height: 30px;
-    width: 33px;
+    width: 792px;
 }
 .msg-chat .emote.PepeSteer {
     margin-top: -30px;
@@ -2087,13 +2114,13 @@
     top: 7px;
 }
 .emote.POGGERS {
-    background-image: url("665ad149ce166.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("5f9e8d17d1522.png");
+    height: 30px;
+    width: 30px;
 }
 .msg-chat .emote.POGGERS {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.Pointless {
     background-image: url("67248a3d466d6.png");
@@ -2132,13 +2159,13 @@
     top: 8px;
 }
 .emote.POTATO {
-    background-image: url("6478f5eda9e9b.png");
-    height: 32px;
+    background-image: url("649f774ab436f.png");
+    height: 28px;
     width: 32px;
 }
 .msg-chat .emote.POTATO {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -28px;
+    top: 7px;
 }
 .emote.RAGEBAIT {
     background-image: url("698cee041ceb9.png");
@@ -2159,7 +2186,7 @@
     top: 8px;
 }
 .emote.RapThis {
-    background-image: url("6672a4bf7759b.gif");
+    background-image: url("66937d4109172.png");
     height: 28px;
     width: 28px;
 }
@@ -2294,13 +2321,13 @@
     top: 8px;
 }
 .emote.Sippy {
-    background-image: url("665a5ae4dc0dd.png");
-    height: 31px;
-    width: 21px;
+    background-image: url("665aec88d4dda.png");
+    height: 30px;
+    width: 22px;
 }
 .msg-chat .emote.Sippy {
-    margin-top: -31px;
-    top: 7.75px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.Skip {
     background-image: url("69c09e738a64d.gif");
@@ -2402,7 +2429,7 @@
     top: 8px;
 }
 .emote.SOY {
-    background-image: url("666fde327ddc9.png");
+    background-image: url("649f7767585f5.png");
     height: 32px;
     width: 37px;
 }
@@ -2438,13 +2465,13 @@
     top: 7.5px;
 }
 .emote.Stare {
-    background-image: url("665ad1e2d564b.png");
-    height: 30px;
-    width: 35px;
+    background-image: url("68da0d246cbe9.png");
+    height: 32px;
+    width: 37px;
 }
 .msg-chat .emote.Stare {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.SURPRISE {
     background-image: url("5c2bbde674ef2.png");
@@ -2591,7 +2618,7 @@
     top: 8.75px;
 }
 .emote.TRUELOVE {
-    background-image: url("62beeb7f21cdb.png");
+    background-image: url("5cc0cc2a87ca8.png");
     height: 30px;
     width: 51px;
 }
@@ -2663,7 +2690,7 @@
     top: 7.5px;
 }
 .emote.WEOW {
-    background-image: url("650d44d5507aa.png");
+    background-image: url("650f6d1ab6bc2.png");
     height: 28px;
     width: 278px;
 }
@@ -2708,13 +2735,13 @@
     top: 8px;
 }
 .emote.widepeepoHappy {
-    background-image: url("665ad16bca80c.png");
-    height: 19px;
+    background-image: url("65403119bb8fd.png");
+    height: 23px;
     width: 80px;
 }
 .msg-chat .emote.widepeepoHappy {
-    margin-top: -19px;
-    top: 4.75px;
+    margin-top: -23px;
+    top: 5.75px;
 }
 .emote.WOOF {
     background-image: url("5f77ea04722e5.png");
@@ -2744,13 +2771,13 @@
     top: 7.5px;
 }
 .emote.Wowee {
-    background-image: url("665ad17c183ab.png");
-    height: 32px;
-    width: 32px;
+    background-image: url("5c2bbe2e9c2f2.png");
+    height: 30px;
+    width: 30px;
 }
 .msg-chat .emote.Wowee {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.WWWWaiting {
     background-image: url("6918d770809b0.png");
@@ -2870,76 +2897,13 @@
     top: 8px;
 }
 .emote.ZoomerSippy {
-    background-image: url("6a1d086d23ef7.png");
-    height: 32px;
-    width: 26px;
+    background-image: url("684b5b9732d9a.png");
+    height: 30px;
+    width: 22px;
 }
 .msg-chat .emote.ZoomerSippy {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.ComfyCat {
-    background-image: url("6478cc1bed6d8.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.ComfyCat {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.FeelsDankMan {
-    background-image: url("647e375a2c8ba.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.FeelsDankMan {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.FeelsOrbMan {
-    background-image: url("6a1d0cda2dda0.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.FeelsOrbMan {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.GAENGSTALKED-IN-YOUR-ATTIC-OHIO-STATE-STUDENT-MAKES-THOUSANDS-A-MONTH-AS-A-GAMING-STREAMER {
-    background-image: url("665ad37774c39.png");
-    height: 30px;
-    width: 30px;
-}
-.msg-chat .emote.GAENGSTALKED-IN-YOUR-ATTIC-OHIO-STATE-STUDENT-MAKES-THOUSANDS-A-MONTH-AS-A-GAMING-STREAMER {
     margin-top: -30px;
     top: 7.5px;
-}
-.emote.omgBruh {
-    background-image: url("6a1d0d791a8cf.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.omgBruh {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.PepoComfy {
-    background-image: url("6478ccd4561fd.png");
-    height: 30px;
-    width: 32px;
-}
-.msg-chat .emote.PepoComfy {
-    margin-top: -30px;
-    top: 7.5px;
-}
-.emote.triHarder {
-    background-image: url("665ad15b6eadc.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.triHarder {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.ACKSHUALLY {
     width: 47px;
@@ -2986,23 +2950,34 @@
   background-position: 35px;
 }
 
-.emote.AngelThump {
-  height: 32px;
-  width: 84px;
-  animation: AngelThump-anim 1.5s steps(89) 1 forwards;
+/*@keyframes AngelThump-anim {
+  20%  { filter: drop-shadow(0px 8px 1.22px #f9f63b); font-size: 32px; margin-left: 32px; }
+  90%  { filter: drop-shadow(0px 8px 1.22px #f9f63b); font-size: 32px; margin-left: 32px; }
+  100% { filter: drop-shadow(0px 8px 1.22px #f9f63b); font-size: 0px; margin-left: 48px; }
 }
-.emote.AngelThump:hover {
-  height: 32px;
-  width: 84px;
-  animation: AngelThump-anim-hover 1.5s steps(89) 1 forwards;
+.emote.AngelThump:before{
+    content: "―";
+    color: white; 
+    text-indent: 0;
+    font-family: Arial, sans-serif;
+    font-size: 0px;
+    line-height: 1px;
+    filter: drop-shadow(0px 5px 1.5px #f9f63b);
+    height: 10px;
+    width: 10px;
+    display: block;
+    position: absolute;
+    margin-left: 48px;
+    margin-top: -6px;
+    animation: AngelThump-anim 1.5s;
+    transition: all 0.2s;
 }
-@keyframes AngelThump-anim {
-  to { background-position: -7476px; }
-}
-
-@keyframes AngelThump-anim-hover {
-  to { background-position: -7476px; }
-}
+.emote.AngelThump:hover:before{
+  filter: drop-shadow(0px 8px 1.22px #f9f63b);
+  font-size: 32px; 
+  margin-left: 32px;
+  transition: all 0.2s;
+}*/
 .emote.ApeHands {
   margin-left: -2px;
 }
@@ -3353,6 +3328,16 @@ transition:all 2s;
 .emote.BERN:hover {
     animation: BERN-shake-hover infinite 1.55s, BERN-anim-repeat1 1 steps(10) .5s, BERN-anim-repeat2 infinite steps(14) .7s .5s;
 }
+
+.msg-chat:has(.emote.KYSNOW) .emote.BERN::before,
+.msg-chat:has(.emote.RaveDoge) .emote.BERN::before {
+  background-image: url(data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUEAAAGGbWV0YQAAAAAAAAAhaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAAAAAAAOcGl0bQAAAAAAAQAAACxpbG9jAAAAAEQAAAIAAQAAAAEAAAInAAABVAACAAAAAQAAAa4AAAB5AAAAQmlpbmYAAAAAAAIAAAAaaW5mZQIAAAAAAQAAYXYwMUNvbG9yAAAAABppbmZlAgAAAAACAABhdjAxQWxwaGEAAAAAGmlyZWYAAAAAAAAADmF1eGwAAgABAAEAAADDaXBycAAAAJ1pcGNvAAAAFGlzcGUAAAAAAAAAPAAAAB4AAAAQcGl4aQAAAAADCAgIAAAADGF2MUOBIAAAAAAAE2NvbHJuY2x4AAEADQAGgAAAAA5waXhpAAAAAAEIAAAADGF2MUOBABwAAAAAOGF1eEMAAAAAdXJuOm1wZWc6bXBlZ0I6Y2ljcDpzeXN0ZW1zOmF1eGlsaWFyeTphbHBoYQAAAAAeaXBtYQAAAAAAAAACAAEEAQKDBAACBAEFhgcAAAHVbWRhdBIACgYYFTvrCoAybUWQBhhQsuhaSqjZ4pO/CFI4I2jSe6ufRHm7veXC7wbYJ9+tHtxEmJjsddQImEUWQlv8N9a6rbZCp+xMD7zdU9YJ2yJ+VbKtbsfTtcC4TY/ewIwO3+g5cwBHW8uvJJuj7tlgvp44rjJO3SbzFsASAAoGOBU76wSAMscCFkAGGGGFAMlHnU61S+CKzn8kxrX+bnoh1nREUyrfdsUPnMRW62geMXDfHSvk7FQeIiIl+jyNAKJKZov/H+KtxAYCes4OmAomHSZ1Erp62VMc3sq75fr256zEYe/emP9oE8n2nHo10s1Y5qYuELuJM9bA+XoeWICUJh5suo/BLzmBkuoZGHYAow9ZzhPVyRok13eU9qc5QA928l4fYsoQjn424JsQ+grtBBRWD3wbvJV9OjDULRhd2qfLaKEcNjAdAWs1BMGKxVNhANaLRasozU0Fc55whzq9hCDYi293PM0j3zo1XEQLNO/thMHnYoUet9pKNskD0pN9vmu+ueIK57Jj2CVn/NrULgcepmpNZdS/CsL5oAyQ5vAo4YCyYakz6pqJ07Y2FuHPCofjrH3bUWO76pFKZhR62dulGDgu8NqpdsPGEfo4);
+  width: 60px;
+  height: 30px;
+  display: block;
+  content: "";
+  mix-blend-mode: luminosity;
+}
 @keyframes BibleThump-anim {
   0%, 100% {transform: scale(.9) translate(0px, 0px); animation-timing-function: ease;}
   50% {transform: scale(.75) translate(0px, 14px); animation-timing-function: ease-in;}
@@ -3414,8 +3399,8 @@ filter: contrast(1) saturate(1) brightness(1.25);
 }
 /* Halloween version and animation made by Igor */
 @keyframes BLADE-anim-swing {
-  0%, 100% { transform: rotate(0deg); transform-origin: -36px 30px; }
-  30% { transform: rotate(0deg); }
+  0%, 100% { transform: rotate(0deg); transform-origin: -36px 32px; }
+  30% { transform: rotate(20deg); }
   80% { transform: rotate(-10deg); }
 }
 @keyframes BLADE-anim-stab {
@@ -3429,14 +3414,14 @@ filter: contrast(1) saturate(1) brightness(1.25);
   90% { transform: translate(-10px, -10px)  rotate(45deg); }
 }
 @keyframes BLADE-anim-swing-flip {
-  0%, 100% { transform: translate(102px, 0) rotate(0deg) scale(-1,1); transform-origin: -36px 30px; z-index: 0; }
-  30% { transform: translate(102px, 0) rotate(-10deg) scale(-1,1); }
-  80% { transform: translate(102px, 0) rotate(0deg) scale(-1,1); }
+  0%, 100% { transform: translate(102px, 0) rotate(0deg) scale(-1,1); transform-origin: -36px 32px; z-index: 0; }
+  30% { transform: translate(102px, 0) rotate(-20deg) scale(-1,1); }
+  80% { transform: translate(102px, 0) rotate(10deg) scale(-1,1); }
 }
 @keyframes BLADE-anim-stab-flip {
-  0%, 100% { transform: translate(30px, 0px) rotate(0deg) scale(-1,1); transform-origin: left bottom; z-index: 0; }
-  10% { transform: translate(30px, -10px)  rotate(-45deg) scale(-1,1); }
-  20% { transform: translate(30px, -10px)  rotate(-45deg) scale(-1,1); }
+  0%, 100% { transform: translate(32px, 0px) rotate(0deg) scale(-1,1); transform-origin: left bottom; z-index: 0; }
+  10% { transform: translate(32px, -10px)  rotate(-45deg) scale(-1,1); }
+  20% { transform: translate(32px, -10px)  rotate(-45deg) scale(-1,1); }
   25% { transform: translate(14px, -10px)  rotate(-45deg) scale(-1,1); }
   50% { transform: translate(12px, -10px)  rotate(-45deg) scale(-1,1); }
   65% { transform: translate(16px, -10px)  rotate(-45deg) scale(-1,1); }
@@ -3449,47 +3434,71 @@ filter: contrast(1) saturate(1) brightness(1.25);
   85% { clip-path: polygon(-20% 80%, 80% -20%, 120% 20%, 20% 120%); }
 }
 @keyframes BLADE-hold {
-  0% { transform-origin: -16px 30px; }
-  20%, 100% { transform-origin: -16px 30px; transform: rotate(10deg); }
+  0% { transform-origin: -36px 32px; }
+  20%, 100% { transform-origin: -36px 32px; transform: rotate(20deg); }
 }
 @keyframes BLADE-hold-flip {
-  0% { transform: translate(102px, 0) rotate(0deg) scale(-1,1); transform-origin: -36px 30px; z-index: 0; }
-  20%, 100% { transform: translate(102px, 0) rotate(-10deg) scale(-1,1); transform-origin: -36px 30px; z-index: 0; }
+  0% { transform: translate(102px, 0) rotate(0deg) scale(-1,1); transform-origin: -36px 32px; z-index: 0; }
+  20%, 100% { transform: translate(102px, 0) rotate(-20deg) scale(-1,1); transform-origin: -36px 32px; z-index: 0; }
 }
+
+/* Rainbow animation for tier 5 losers */
+@keyframes rainbow-hue {
+  0% { filter: brightness(2.5) hue-rotate(0deg) saturate(2.5); }
+  14.28% { filter: brightness(2.5) hue-rotate(51deg) saturate(2.5); } /* Red to Orange */
+  28.56% { filter: brightness(2.5) hue-rotate(102deg) saturate(2.5); } /* Orange to Yellow */
+  42.84% { filter: brightness(2.5) hue-rotate(153deg) saturate(2.5); } /* Yellow to Green */
+  57.12% { filter: brightness(2.5) hue-rotate(204deg) saturate(2.5); } /* Green to Blue */
+  71.4% { filter: brightness(2.5) hue-rotate(255deg) saturate(2.5); } /* Blue to Indigo */
+  85.68% { filter: brightness(2.5) hue-rotate(306deg) saturate(2.5); } /* Indigo to Violet */
+  100% { filter: brightness(2.5) hue-rotate(360deg) saturate(2.5); } /* Back to Red */
+}
+
 .emote.BLADE {
-  transform-origin: -36px 30px;
-  transition: all .2s; 
     animation: BLADE-anim-swing 0.25s 2 .25s, BLADE-anim-stab 0.75s 1 0.75s linear, BLADE-path 0.325s 1 ease-in, BLADE-hold 0.325s 1 ease-in-out;
 }
 .emote.BLADE + .emote.BLADE, .emote.BLADE:nth-of-type(1), .emote.RapThis + .emote.BLADE, .emote.Clap + .emote.BLADE, .chat-user + .emote.BLADE  {
-  transform: translate(102px) scale(-1,1);
+  transform: scale(-1,1);
   animation: BLADE-anim-swing-flip .25s 2 .25s, BLADE-anim-stab-flip .75s 1 .75s linear, BLADE-path 0.325s 1 ease-in, BLADE-hold-flip 0.325s 1 ease-in-out;
-  transition: all .2s; 
 }
 .emote.BLADE:only-of-type, .emote + .emote.BLADE:last-of-type, .emote.BLADE:last-of-type {
   transform: scale(1);
   animation: BLADE-anim-swing .25s 3, BLADE-anim-stab .75s 1 .75s linear, BLADE-path 0.325s 1 ease-in, BLADE-hold 0.325s 1 ease-in-out;
-  transition: all .2s; 
 }
-.emote.BLADE:hover {
-  transform-origin: -36px 30px;
-  transform: translate(102px) rotate(-10deg) scaleX(-1);
-  animation: none;
-}
-.emote.BLADE + .emote.BLADE:hover{
-  transform-origin: -36px 30px;
-  transform: translate(102px) rotate(-10deg) scaleX(-1);
-  animation: none;
-}
-.emote.BLADE + .emote.BLADE:last-of-type:hover, .emote.BLADE:last-of-type:hover {
-  transform-origin: -36px 30px;
-  transform: rotate(00deg);
+.emote.BLADE:hover, .emote.BLADE + .emote.BLADE:hover, .chat-user + .emote.BLADE:hover, .emote + .emote.BLADE:hover {
   animation: none;
 }
 
+.msg-chat.msg-user .user.flair8 ~ .text .emote.BLADE { 
+  filter: brightness(2) hue-rotate(-90deg) saturate(2);
+}
+.msg-chat.msg-user .user.flair3 ~ .text .emote.BLADE {
+  filter: brightness(2) hue-rotate(80deg) saturate(2);
+}
+.msg-chat.msg-user .user.flair1 ~ .text .emote.BLADE {
+  filter: brightness(2) hue-rotate(160deg) saturate(2);
+}
+.msg-chat.msg-user .user.flair13 ~ .text .emote.BLADE {
+  filter: brightness(2) hue-rotate(210deg) saturate(2);
+}
 
-.msg-chat.msg-user .user.flair42 ~ .text .emote.GIGACHAD + .emote.BLADE:hover {
-  animation: none, GIGABLADE 1.5s 1 ease-out, BLADE-t5 2.975s infinite linear;
+/* Tier 5 subscribers (flair42) get rainbow sword blade */
+.msg-chat.msg-user .user.flair42 ~ .text .emote.BLADE {
+  animation: BLADE-anim-swing 0.25s 2 .25s, BLADE-anim-stab 0.75s 1 0.75s linear, BLADE-path 0.325s 1 ease-in, BLADE-hold 0.325s 1 ease-in-out, rainbow-hue 2s infinite linear;
+}
+
+.msg-chat.msg-user .user.flair42 ~ .text .emote.BLADE + .emote.BLADE, 
+.msg-chat.msg-user .user.flair42 ~ .text .emote.BLADE:nth-of-type(1), 
+.msg-chat.msg-user .user.flair42 ~ .text .emote.RapThis + .emote.BLADE, 
+.msg-chat.msg-user .user.flair42 ~ .text .emote.Clap + .emote.BLADE, 
+.msg-chat.msg-user .user.flair42 ~ .text .chat-user + .emote.BLADE {
+  animation: BLADE-anim-swing-flip .25s 2 .25s, BLADE-anim-stab-flip .75s 1 .75s linear, BLADE-path 0.325s 1 ease-in, BLADE-hold-flip 0.325s 1 ease-in-out, rainbow-hue 2s infinite linear;
+}
+
+.msg-chat.msg-user .user.flair42 ~ .text .emote.BLADE:only-of-type, 
+.msg-chat.msg-user .user.flair42 ~ .text .emote + .emote.BLADE:last-of-type, 
+.msg-chat.msg-user .user.flair42 ~ .text .emote.BLADE:last-of-type {
+  animation: BLADE-anim-swing .25s 3, BLADE-anim-stab .75s 1 .75s linear, BLADE-path 0.325s 1 ease-in, BLADE-hold 0.325s 1 ease-in-out, rainbow-hue 2s infinite linear;
 }
 
 @keyframes GIGABLADE {
@@ -3497,16 +3506,14 @@ filter: contrast(1) saturate(1) brightness(1.25);
   100% { left: 0px; }
 }
 .emote.GIGACHAD + .emote.BLADE {
-  transform-origin: -36px 30px;
+  transform-origin: -36px 32px;
   animation: BLADE-anim-swing .25s 3, BLADE-anim-stab .75s 1 .75s linear, BLADE-path 0.325s 1 ease-out, BLADE-hold 0.325s 1 ease-out, GIGABLADE 1.5s 1 ease-out;
   transition: all .2s; 
 }
 .emote.GIGACHAD + .emote.BLADE:hover {
-  transform-origin: -36px 30px;
-  transform: rotate(0deg);
-  animation: none, GIGABLADE 1.5s 1 ease-out;
+  transform-origin: -36px 32px;
+  transform: rotate(10deg);
 }
-
 @keyframes BLESSTINY-anim{
   0% {transform: rotate(0deg);}
   25% {transform: rotate(-20deg);}
@@ -3747,6 +3754,30 @@ filter: contrast(1) saturate(1) brightness(1.25);
   margin-left: -4px;   
   margin-right: -4px;  
 }
+.emote.Cabge {
+    height: 30px;
+    width: 42px;
+    background-position: 0px;
+    background-repeat: no-repeat;
+}
+
+
+@keyframes catJAM-anim {
+  100% { background-position: -7144px; }
+}
+@keyframes catJAM-hover {
+  100% { background-position: -7144px; }
+}
+
+.emote.catJAM {
+  width: 38px;
+  animation: catJAM-anim 2 steps(188) 6.5s;
+}
+.emote.catJAM:hover {
+  animation: catJAM-hover infinite steps(188) 6.5s;
+}
+
+//fuk u 
 @keyframes CAUGHT-mark {
     5% {
         transform: scale(-1, 0); transform-origin: top;  opacity: 0;
@@ -4834,15 +4865,194 @@ Firefox supports :has(), so this refactor treats :has() as available.
     animation: DANKMEMES-anim-hover 1s infinite;
 }
 /* made by abudhabbi */
+/* ## BASE ## */
 .emote.dggL {
-  animation: dggL-anim 900ms 1;
-  transition: all 400ms;
-} 
-.emote.dggL:hover {
-    filter: drop-shadow(0px 0px 2px #f38bb9) drop-shadow(0px 0px 2px #f38bb9)
-    brightness(1.15);
-    transition: all 150ms;
+  height: 35px;
+  width: 32px;
+  background-position: 0px;
+  transition: all 0.5s;
 }
+
+/* ## UNIQUE FLAIRS ## */
+.msg-chat.msg-user .user.flair42 ~ .text .emote.dggL {
+  /* T5 */
+  background-position: -160px;
+  animation: dggL-T5 5s steps(49) infinite;
+  transition: all 0.5s;
+}
+@keyframes dggL-T5 {
+  to {
+    background-position: -1728px;
+  }
+}
+.msg-chat.msg-user .user.flair8 ~ .text .emote.dggL {
+  /* T4 */
+  background-position: -128px;
+  transition: all 0.5s;
+}
+.msg-chat.msg-user .user.flair3 ~ .text .emote.dggL {
+  /* T3 */
+  background-position: -96px;
+  transition: all 0.5s;
+}
+.msg-chat.msg-user .user.flair1 ~ .text .emote.dggL {
+  /* T2 */
+  background-position: -64px;
+  transition: all 0.5s;
+}
+.msg-chat.msg-user .user.flair13 ~ .text .emote.dggL {
+  /* T1 */
+  background-position: -32px;
+  transition: all 0.5s;
+}
+.msg-chat.msg-user .user.vip ~ .text .emote.dggL {
+  /* VIP */
+  background-position: -1504px;
+  transition: all 0.5s;
+}
+.msg-chat.msg-user .user.moderator ~ .text .emote.dggL {
+  /* MOD */
+  background-position: -1312px;
+  transition: all 0.5s;
+}
+
+/* ## UNIQUE FLAIRS - HOVER ## */
+.emote.dggL:hover {
+  /* Base */
+  background-position: 0px;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 3px #ffffff);
+}
+.msg-chat.msg-user .user.flair42 ~ .text .emote.dggL:hover {
+  /* T5 */
+  background-position: -160px;
+  transition: all 0.5s;
+  animation: dggL-T5 5s steps(49) infinite;
+  filter: brightness(1.25) drop-shadow(0px 0px 1px #ffffff)
+    drop-shadow(0px 0px 1px #ff0000) drop-shadow(0px 0px 1px #ff7f00)
+    drop-shadow(0px 0px 1px #ffff00) drop-shadow(0px 0px 1px #00ff00)
+    drop-shadow(0px 0px 1px #8b00ff) drop-shadow(0px 0px 2px #0000ff);
+}
+.msg-chat.msg-user .user.flair8 ~ .text .emote.dggL:hover {
+  /* T4 */
+  background-position: -128px;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 1px #ffffff)
+    drop-shadow(0px 0px 3px #ff00ef);
+}
+.msg-chat.msg-user .user.flair3 ~ .text .emote.dggL:hover {
+  /* T3 */
+  background-position: -96px;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 1px #ffffff)
+    drop-shadow(0px 0px 3px #49ff00);
+}
+.msg-chat.msg-user .user.flair1 ~ .text .emote.dggL:hover {
+  /* T2 */
+  background-position: -64px;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 1px #ffffff)
+    drop-shadow(0px 0px 3px #00ffe2);
+}
+.msg-chat.msg-user .user.flair13 ~ .text .emote.dggL:hover {
+  /* T1 */
+  background-position: -32px;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 1px #ffffff)
+    drop-shadow(0px 0px 3px #00a6ff);
+}
+.msg-chat.msg-user .user.vip ~ .text .emote.dggL:hover {
+  /* VIP */
+  background-position: -1504px;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 1px #ffffff)
+    drop-shadow(0px 0px 2px #fc8900) drop-shadow(0px 0px 3px #fc8900);
+}
+.msg-chat.msg-user .user.moderator ~ .text .emote.dggL:hover {
+  /* MOD */
+  background-position: -1312px;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 1px #ffffff)
+    drop-shadow(0px 0px 2px #fc8900) drop-shadow(0px 0px 3px #fce100);
+}
+
+/* ## COMBO ## */
+.msg-chat.msg-emote .emote.dggL {
+  animation: dggL-COMBO 1s steps(25) 1 forwards;
+scale: 1.25;  filter: brightness(1.25);
+}
+.msg-chat.msg-emote .emote.dggL:hover {
+  animation: dggL-COMBO-HOVER 1s steps(25) 1 forwards;
+scale: 1.25;}
+
+@keyframes dggL-COMBO {
+  0% {
+    background-position: -1728px;
+  }
+  100% {
+    background-position: -2528px;
+  }
+}
+@keyframes dggL-COMBO-HOVER {
+  0% {
+    background-position: -1728px;
+  }
+  15% {
+    filter: brightness(1.25) drop-shadow(0px 0px 1px #005bbb)
+      drop-shadow(0px 0px 1px #005bbb) drop-shadow(0px 0px 1px #005bbb)
+      drop-shadow(0px 0px 1px #ffd500) drop-shadow(0px 0px 1px #ffd500)
+      drop-shadow(0px 0px 1px #ffd500);
+  }
+  100% {
+    background-position: -2528px;
+    filter: brightness(1.25) drop-shadow(0px 0px 1px #005bbb)
+      drop-shadow(0px 0px 1px #005bbb) drop-shadow(0px 0px 1px #005bbb)
+      drop-shadow(0px 0px 1px #ffd500) drop-shadow(0px 0px 1px #ffd500)
+      drop-shadow(0px 0px 1px #ffd500);
+  }
+}
+
+/* ## SUS ## */
+.msg-chat.msg-user .text .sus .emote.dggL.dggL {
+  background-position: -2560px;
+  animation: none;
+
+}
+.msg-chat.msg-user .text .sus .emote.dggL.dggL:hover {
+  background-position: -2560px;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 1px #ff0000)
+  drop-shadow(0px 0px 3px #ff0000) drop-shadow(0px 0px 5px #ff0000);
+  animation: none;
+}
+
+/* ## UNIQUE USERS ## */
+.msg-chat.msg-user[data-username="righttobeararmslol"] .emote.dggL.dggL.dggL.dggL.dggL.dggL {
+  background-position: -2592px;
+animation:none;
+}
+.msg-chat.msg-user[data-username="melina"] .emote.dggL.dggL.dggL.dggL.dggL.dggL {
+  background-position: -2624px;
+animation:none;
+}
+.msg-chat.msg-user[data-username="destiny"] .emote.dggL.dggL.dggL.dggL.dggL.dggL {
+  background-position: -2656px;
+  transform: scale(1.1);
+animation:none;
+}
+
+/* ## RANDOM ## */
+/*
+time[data-unixtimestamp$="6"] ~ .text .emote.dggL {
+    background-position: -420px;
+}
+time[data-unixtimestamp$="1"] ~ .text .emote.dggL {
+    background-position: -840px;
+}
+time[data-unixtimestamp$="3"] ~ .text .emote.dggL {
+    background-position: -1140px;
+}
+*/
 /* =========================
    Image URLs
    ========================= */
@@ -5113,8 +5323,8 @@ Firefox supports :has(), so this refactor treats :has() as available.
 	  line-height: initial;
     position: absolute;
     opacity: 0;
-    top: 10px;
-    left: 13px;
+    top: 5px;
+    left: 12px;
     transform-origin: 40% 39%;
     animation: gachiGASM-anim-ba 500ms 3 linear, gachiGASM-anim-ba-exit 100ms 1 linear 1.5s;
 }
@@ -5127,8 +5337,8 @@ Firefox supports :has(), so this refactor treats :has() as available.
 	  line-height: initial;
     position: absolute;
     opacity: 0;
-    top: 9px;
-    left: 21px;
+    top: 4px;
+    left: 20px;
     transform-origin: 40% 39%;
     animation: gachiGASM-anim-ba 500ms 3 linear, gachiGASM-anim-ba-exit 100ms 1 linear 1.5s;
 }
@@ -5141,47 +5351,18 @@ Firefox supports :has(), so this refactor treats :has() as available.
 .emote.gachiGASM:hover::after {
     animation: gachiGASM-anim-ba-hover 500ms infinite linear;
 }
-.emote.GIGACHAD{
-  height: 32px;
-  width: 29px;
-  background-position: 0px; 
-  background-repeat: no-repeat;
-  animation: GIGACHAD-anim 1.5s ease-out 1;
-  transition: all 1s;
-}
-[data-username="melina"] .emote.GIGACHAD {
-  height: 32px;
-  width: 40px;
-  background-position: -58px; 
-  background-repeat: no-repeat;
-  animation: GIGAMEL-anim 1.5s ease-out 1;
-  transition: all 1s;
-}
-.emote.GIGACHAD:hover {
-  filter: brightness(1.45) drop-shadow(0px 0px 10px #FFFFFF80);
-  transition: all .5s;
-}
-[data-username="melina"]:hover .emote.GIGACHAD {
-  filter: brightness(1.45) drop-shadow(0px 0px 10px #fb5b59);
-  transition: all .5s;
-}
- 
 @keyframes GIGACHAD-anim {
-  0% { background-position: -29px 10px; }
+  0% { background-position: -28px 10px; }
   100% { background-position: 0px; }
 }
-@keyframes GIGAMEL-anim {   
-  0% { background-position: -109px 10px; }
-  100% { background-position: -58px; }
-}
 @keyframes GIGACHAD-combo {
-  20% { filter: hue-rotate(56deg) brightness(1.3) drop-shadow(0px 0px 15px #FF0000BB); transform: scale(1.05); }
+  20% { filter: brightness(1.45) drop-shadow(0px 0px 10px #FFFFFF80); }
 }
-@keyframes T5-anim {   
+@keyframes GIGACHAD-T5-anim {   
   0% { filter: brightness(1) hue-rotate(0deg) saturate(5) drop-shadow(0px 0px 10px #D436D200); }
   100% { filter: brightness(1) hue-rotate(-360deg) saturate(5) drop-shadow(0px 0px 10px #D436D200); }
 }
-@keyframes T5-hover-first-loop {   
+@keyframes GIGACHAD-T5-hover-first-loop {   
   0% { filter: brightness(1); }
   10% { filter: brightness(1.35) hue-rotate(0deg) saturate(5) drop-shadow(0px 0px 10px #ff0000); }
   30% { filter: brightness(1.35) hue-rotate(-60deg) saturate(5) drop-shadow(0px 0px 10px #ff8000); }
@@ -5190,7 +5371,7 @@ Firefox supports :has(), so this refactor treats :has() as available.
   90% { filter: brightness(1.35) hue-rotate(-240deg) saturate(5) drop-shadow(0px 0px 10px #8000ff); }
   100% { filter: brightness(1.35) hue-rotate(-360deg) saturate(5) drop-shadow(0px 0px 10px #ff0000); }
 }
-@keyframes T5-hover-infinite {   
+@keyframes GIGACHAD-T5-hover-infinite {   
   0% { filter: brightness(1.35) hue-rotate(0deg) saturate(5) drop-shadow(0px 0px 10px #ff0000); }
   20% { filter: brightness(1.35) hue-rotate(-60deg) saturate(5) drop-shadow(0px 0px 10px #ff8000); }
   40% { filter: brightness(1.35) hue-rotate(-120deg) saturate(5) drop-shadow(0px 0px 10px #00ff00); }
@@ -5199,22 +5380,32 @@ Firefox supports :has(), so this refactor treats :has() as available.
   100% { filter: brightness(1.35) hue-rotate(-360deg) saturate(5) drop-shadow(0px 0px 10px #ff0000); }
 }
 
+
+.emote.GIGACHAD {
+  background-repeat: no-repeat;
+  animation: GIGACHAD-anim 1.5s ease-out 1;
+  transition: all 1s;
+}
+.emote.GIGACHAD:hover {
+  filter: brightness(1.45) drop-shadow(0px 0px 10px #FFFFFF80);
+  transition: all .5s;
+}
 .msg-chat.msg-emote .emote.GIGACHAD {
   animation: GIGACHAD-combo 1s 1;
 }
 /* flair colors */
-.msg-chat.msg-user:hover .user.flair42 ~ .text .emote.GIGACHAD{
+.msg-chat.msg-user:hover .user.flair42 ~ .text .emote.GIGACHAD {
   transition: all .5s;  
   animation: GIGACHAD-anim 1.5s ease-out 1, 
-    T5-anim 3s infinite linear, 
-    T5-hover-first-loop 3s 1 linear, 
-    T5-hover-infinite 3s 3s infinite linear;
+    GIGACHAD-T5-anim 3s infinite linear, 
+    GIGACHAD-T5-hover-first-loop 3s 1 linear, 
+    GIGACHAD-T5-hover-infinite 3s 3s infinite linear;
 }
-.msg-chat.msg-user:hover .user.flair8 ~ .text .emote.GIGACHAD{
+.msg-chat.msg-user:hover .user.flair8 ~ .text .emote.GIGACHAD {
   filter: brightness(1.35) hue-rotate(-54deg) saturate(5) drop-shadow(0px 0px 10px #D436D2A0);
   transition: all .5s;
 }
-.msg-chat.msg-user:hover .user.flair3 ~ .text .emote.GIGACHAD{
+.msg-chat.msg-user:hover .user.flair3 ~ .text .emote.GIGACHAD {
   filter: brightness(1.35) hue-rotate(103deg) saturate(5) drop-shadow(0px 0px 10px #7AD53DA0);
   transition: all .5s;
 }
@@ -5223,16 +5414,18 @@ Firefox supports :has(), so this refactor treats :has() as available.
   transition: all .5s;
 }
 
-.msg-chat.msg-user .user.flair42 ~ .text .emote.GIGACHAD{ 
-  animation: GIGACHAD-anim 1.5s ease-out 1, T5-anim 3s infinite linear;
+
+.msg-chat.msg-user .user.flair42 ~ .text .emote.GIGACHAD { 
+   transition: all .5s;
+   animation: GIGACHAD-anim 1.5s ease-out 1, GIGACHAD-T5-anim 3s infinite linear;
 }
-.msg-chat.msg-user .user.flair8 ~ .text .emote.GIGACHAD{ 
+.msg-chat.msg-user .user.flair8 ~ .text .emote.GIGACHAD { 
   filter: brightness(1) hue-rotate(-54deg) saturate(5) drop-shadow(0px 0px 10px #D436D200);
 }
-.msg-chat.msg-user .user.flair3 ~ .text .emote.GIGACHAD{
+.msg-chat.msg-user .user.flair3 ~ .text .emote.GIGACHAD {
   filter: brightness(1) hue-rotate(103deg) saturate(5) drop-shadow(0px 0px 10px #7AD53D00);
 }
-.msg-chat.msg-user .user.flair1 ~ .text .emote.GIGACHAD{
+.msg-chat.msg-user .user.flair1 ~ .text .emote.GIGACHAD {
   filter: brightness(1) hue-rotate(176deg) saturate(5) drop-shadow(0px 0px 10px #2ADDC800);
 }
 /*
@@ -5241,7 +5434,7 @@ Firefox supports :has(), so this refactor treats :has() as available.
 .emote.glorp {
     height: 28px;
     width: 28px;
-    background-position: -110px;
+    background-position: 0px;
     background-repeat: no-repeat;
 }
 
@@ -5932,33 +6125,24 @@ background-position: 0px 10px;
   transform-origin: bottom;
   transform: scale(calc(28/36));
 }
-@keyframes MiyanoHype-anim-1 {
-    100% { background-position: -1200px; }
-}
-@keyframes MiyanoHype-anim-2 {
-    0% { background-position: -400px; }
-    100% { background-position: -1200px; }
-}
-@keyframes MiyanoHype-anim-3 {
-   0% { background-position: -400px; }
-   100% { background-position: -800px; }
+@keyframes MiyanoHype-anim {
+    100% { background-position: -320px }
 }
 
 @keyframes MiyanoHype-hover {
-    100% { background-position: -1200px; }
+    100% { background-position: -320px }
 }
 
 .emote.MiyanoHype {
-    width: 40px;
+    width: 32px;
     height: 32px;
-    animation: MiyanoHype-anim-1 2400ms steps(30) 1;
-}
-.emote.MiyanoHype:nth-of-type(2n) {
-    animation: MiyanoHype-anim-2 1600ms steps(20) 1, MiyanoHype-anim-3 800ms steps(10) 1 1600ms;
+    -webkit-animation: MiyanoHype-anim 800ms steps(10) 3;
+    animation: MiyanoHype-anim 800ms steps(10) 3;
 }
 
 .emote.MiyanoHype:hover {
-    animation: MiyanoHype-hover 2400ms steps(30) infinite;
+    -webkit-animation: MiyanoHype-hover 800ms steps(10) infinite;
+    animation: MiyanoHype-hover 800ms steps(10) infinite;
 }
 @keyframes MLADY-anim {
     0%, 100% { transform: rotate(0deg); }
@@ -6747,6 +6931,22 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
 .emote.PepeLaugh:hover {
     animation: PepeLaugh-anim-hover 200ms infinite;
 }
+@keyframes PepeSteer-anim {
+  100% { background-position: -792px; }
+}
+
+@keyframes PepeSteer-hover {
+  100% { background-position: -792px; }
+}
+
+.emote.PepeSteer {
+  width: 33px;
+  animation: PepeSteer-anim .96s steps(24) 7;
+}
+
+.emote.PepeSteer:hover {
+  animation: PepeSteer-hover .96s steps(24) infinite;
+}
 @keyframes PepoPunch-anim {
   100% { background-position: -448px; }
 }
@@ -7143,7 +7343,7 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
   margin-left: -2px;
   transform-origin: 50% 65%;
   background-repeat: no-repeat;
-  background-position: 0 8px;
+  background-position: 0 5px;
   animation: Sippy-right 1.5s 1;
 }
 .emote.Sippy:hover {
@@ -7658,13 +7858,6 @@ background-repeat:no-repeat;
     animation: TRUELOVE-hover 0.5s infinite;
     animation-delay: 0.25s;
 }
-/* PRIDE HEARTS */
-.emote.TRUELOVE::after, .emote.TRUELOVE::before {
-    background: linear-gradient(90deg, #D12229 25%,  #F68A1E 27%, #F68A1E 36.5%, #FDE01A 36.5%, #FDE01A 48%, #007940 48%, #007940 61.5%, #24408E 61.5%, #24408E 73%,  #732982 73%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .emote.WEEWOO {
     background-position: 0px;
     background-repeat: no-repeat;
@@ -7769,14 +7962,13 @@ background-repeat:no-repeat;
 .emote.WEOW {
     height: 28px;
     width: 28px;
-    background-position: 0;
-    background-repeat: no-repeat;
+    transition: ease-out .1s;
 }
 
 .emote.WEOW:hover {
-    filter: brightness(1.1) drop-shadow(0px 0px 3px #f7f7d7);
-    transition: ease-out .4s;
+    filter: brightness(1.1) drop-shadow(0px 0px 6px #f7f7f780);
 }
+
 
 
 .emote.WICKED {
@@ -7824,10 +8016,37 @@ background-repeat:no-repeat;
   75% {transform: scale3d(1.05, .95, 1);}
   100% {transform: scale3d(1, 1, 1);}
 }
-
 .emote.widepeepoHappy {
-  transform-origin: 50% 100%;
+  transform-origin: bottom;
   animation: widepeepoHappy-anim 1s 1;
+}
+.msg-chat.msg-emote:has(.emote.widepeepoHappy) {
+  --combo-px: 2px;
+}
+.msg-chat.msg-emote[data-combo-group="x5"]:has(.emote.widepeepoHappy) {
+  --combo-px: 5px;
+}
+.msg-chat.msg-emote[data-combo-group$="0"]:has(.emote.widepeepoHappy) {
+  --combo-px: 40px;
+}
+.msg-chat.msg-emote[data-combo-group="x10"]:has(.emote.widepeepoHappy) {
+  --combo-px: 10px;
+}
+.msg-chat.msg-emote[data-combo-group="x20"]:has(.emote.widepeepoHappy) {
+  --combo-px: 20px;
+}
+.msg-chat.msg-emote[data-combo-group="x30"]:has(.emote.widepeepoHappy) {
+  --combo-px: 30px;
+}
+@supports (width: attr(data-test px)) {
+  .msg-chat.msg-emote[data-combo-group]:has(.emote.widepeepoHappy) {
+    --combo-px: attr(data-combo px, 0px);
+  }
+}
+.msg-chat.msg-emote .emote.widepeepoHappy {
+  --width: clamp(80px, calc(80px + var(--combo-px) * 4), 240px);
+  background-size: var(--width) 23px;
+  width: var(--width);
 }
 
 .emote.widepeepoHappy:hover {
