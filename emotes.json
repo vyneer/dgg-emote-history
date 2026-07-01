@@ -1809,17 +1809,17 @@
   },
   {
     "prefix": "GIGACHAD",
-    "creator": "",
+    "creator": "prsek",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.52.0/emotes/624bb3cf81ae1.png",
-        "name": "624bb3cf81ae1.png",
+        "url": "https://cdn.destiny.gg/4.52.0/emotes/6a455967603df.png",
+        "name": "6a455967603df.png",
         "mime": "image/png",
         "height": 32,
-        "width": 29
+        "width": 35
       }
     ]
   },
@@ -3434,6 +3434,22 @@
         "url": "https://cdn.destiny.gg/4.52.0/emotes/660a9045ef9dd.png",
         "name": "660a9045ef9dd.png",
         "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
+    "prefix": "peepoCanada",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.52.0/emotes/6a4559f372573.gif",
+        "name": "6a4559f372573.gif",
+        "mime": "image/gif",
         "height": 32,
         "width": 32
       }

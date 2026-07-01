@@ -1016,9 +1016,9 @@
     top: 9.5px;
 }
 .emote.GIGACHAD {
-    background-image: url("624bb3cf81ae1.png");
+    background-image: url("6a455967603df.png");
     height: 32px;
-    width: 29px;
+    width: 35px;
 }
 .msg-chat .emote.GIGACHAD {
     margin-top: -32px;
@@ -1930,6 +1930,15 @@
     width: 32px;
 }
 .msg-chat .emote.PEEKSTINY {
+    margin-top: -32px;
+    top: 8px;
+}
+.emote.peepoCanada {
+    background-image: url("6a4559f372573.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.peepoCanada {
     margin-top: -32px;
     top: 8px;
 }
