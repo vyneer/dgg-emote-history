@@ -5150,21 +5150,5 @@
         "width": 32
       }
     ]
-  },
-  {
-    "prefix": "ZoomerSippy",
-    "creator": "PRSEK",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.52.1/emotes/684b5b9732d9a.png",
-        "name": "684b5b9732d9a.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 22
-      }
-    ]
   }
 ]
