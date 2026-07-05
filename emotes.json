@@ -401,17 +401,17 @@
   },
   {
     "prefix": "BLADE",
-    "creator": "",
+    "creator": "Igor",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.53.2/emotes/66865111aa66e.png",
-        "name": "66865111aa66e.png",
+        "url": "https://cdn.destiny.gg/4.53.2/emotes/6687a32a80ac9.png",
+        "name": "6687a32a80ac9.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 32
+        "height": 30,
+        "width": 30
       }
     ]
   },
@@ -1297,17 +1297,17 @@
   },
   {
     "prefix": "DuckerZ",
-    "creator": "FizzyLongstockings",
+    "creator": "",
     "twitch": false,
     "theme": 1,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://cdn.destiny.gg/4.53.2/emotes/672aae95cd9c1.png",
-        "name": "672aae95cd9c1.png",
+        "url": "https://cdn.destiny.gg/4.53.2/emotes/5c2bbc5803fc3.png",
+        "name": "5c2bbc5803fc3.png",
         "mime": "image/png",
-        "height": 32,
-        "width": 54
+        "height": 26,
+        "width": 56
       }
     ]
   },
@@ -2252,22 +2252,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 35
-      }
-    ]
-  },
-  {
-    "prefix": "JulyFourth",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.53.2/emotes/66864d6d9b88d.png",
-        "name": "66864d6d9b88d.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
       }
     ]
   },
@@ -3500,22 +3484,6 @@
         "mime": "image/png",
         "height": 30,
         "width": 40
-      }
-    ]
-  },
-  {
-    "prefix": "peepoUSA",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.53.2/emotes/66864d7a1817e.png",
-        "name": "66864d7a1817e.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
       }
     ]
   },
