@@ -832,6 +832,22 @@
     ]
   },
   {
+    "prefix": "ComfyCat",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.53.2/emotes/645e8c248a9d4.png",
+        "name": "645e8c248a9d4.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "ComfYEE",
     "creator": "",
     "twitch": false,

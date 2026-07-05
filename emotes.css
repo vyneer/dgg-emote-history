@@ -466,6 +466,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.ComfyCat {
+    background-image: url("645e8c248a9d4.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.ComfyCat {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.ComfYEE {
     background-image: url("66937a7d1fbf0.png");
     height: 30px;
