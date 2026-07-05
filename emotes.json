@@ -576,6 +576,22 @@
     ]
   },
   {
+    "prefix": "CamOnIngerland",
+    "creator": "",
+    "twitch": false,
+    "theme": 1,
+    "minimumSubTier": 0,
+    "image": [
+      {
+        "url": "https://cdn.destiny.gg/4.53.2/emotes/6a494cdc04634.gif",
+        "name": "6a494cdc04634.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 42
+      }
+    ]
+  },
+  {
     "prefix": "catJAM",
     "creator": "",
     "twitch": false,
