@@ -322,6 +322,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.CamOnIngerland {
+    background-image: url("6a494cdc04634.gif");
+    height: 32px;
+    width: 42px;
+}
+.msg-chat .emote.CamOnIngerland {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.catJAM {
     background-image: url("65922f34c1da9.png");
     height: 30px;
