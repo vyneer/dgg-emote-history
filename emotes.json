@@ -2864,22 +2864,6 @@
     ]
   },
   {
-    "prefix": "MOPPING",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.54.1/emotes/69790f8148049.gif",
-        "name": "69790f8148049.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 36
-      }
-    ]
-  },
-  {
     "prefix": "MotherFuckinGame",
     "creator": "",
     "twitch": false,
@@ -3980,22 +3964,6 @@
         "mime": "image/png",
         "height": 28,
         "width": 28
-      }
-    ]
-  },
-  {
-    "prefix": "RightThere",
-    "creator": "yuniDev",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://cdn.destiny.gg/4.54.1/emotes/69a54639bdb83.png",
-        "name": "69a54639bdb83.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 2160
       }
     ]
   },
