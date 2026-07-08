@@ -665,9 +665,9 @@
     top: 7.75px;
 }
 .emote.dggL {
-    background-image: url("6a4d9eadb1895.png");
+    background-image: url("6a4e93d269835.png");
     height: 35px;
-    width: 33px;
+    width: 825px;
 }
 .msg-chat .emote.dggL {
     margin-top: -35px;
@@ -4883,6 +4883,96 @@ Firefox supports :has(), so this refactor treats :has() as available.
     animation: DANKMEMES-anim-hover 1s infinite;
 }
 /* made by abudhabbi */
+/* ## BASE ## */
+.emote.dggL {
+  height: 35px;
+  width: 33px;
+  background-position: 0px;
+  transition: all 0.5s;
+}
+
+/* ## TIER FLAIRS ## */
+.msg-chat.msg-user .user.flair13 ~ .text .emote.dggL {
+  /* T1 */
+  background-position: -33px;
+  transition: all 0.5s;
+}
+.msg-chat.msg-user .user.flair1 ~ .text .emote.dggL {
+  /* T2 */
+  background-position: -66px;
+  transition: all 0.5s;
+}
+.msg-chat.msg-user .user.flair3 ~ .text .emote.dggL {
+  /* T3 */
+  background-position: -99px;
+  transition: all 0.5s;
+}
+.msg-chat.msg-user .user.flair8 ~ .text .emote.dggL {
+  /* T4 */
+  background-position: -132px;
+  transition: all 0.5s;
+}
+.msg-chat.msg-user .user.flair42 ~ .text .emote.dggL {
+  /* T5 - looping frame 6-25 */
+  background-position: -165px;
+  animation: dggL-T5 3s steps(19) infinite;
+  transition: all 0.5s;
+}
+
+@keyframes dggL-T5 {
+  0% {
+    background-position: -165px;
+  }
+  100% {
+    background-position: -792px;
+  }
+}
+
+/* ## HOVER STATES ## */
+.emote.dggL:hover {
+  /* Base */
+  background-position: 0px;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 3px #ffffff);
+}
+.msg-chat.msg-user .user.flair13 ~ .text .emote.dggL:hover {
+  /* T1 */
+  background-position: -33px;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 1px #ffffff)
+    drop-shadow(0px 0px 3px #00a6ff);
+}
+.msg-chat.msg-user .user.flair1 ~ .text .emote.dggL:hover {
+  /* T2 */
+  background-position: -66px;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 1px #ffffff)
+    drop-shadow(0px 0px 3px #00ffe2);
+}
+.msg-chat.msg-user .user.flair3 ~ .text .emote.dggL:hover {
+  /* T3 */
+  background-position: -99px;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 1px #ffffff)
+    drop-shadow(0px 0px 3px #49ff00);
+}
+.msg-chat.msg-user .user.flair8 ~ .text .emote.dggL:hover {
+  /* T4 */
+  background-position: -132px;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 1px #ffffff)
+    drop-shadow(0px 0px 3px #ff00ef);
+}
+.msg-chat.msg-user .user.flair42 ~ .text .emote.dggL:hover {
+  /* T5 - keeps looping on hover */
+  background-position: -165px;
+  animation: dggL-T5 1.9s steps(19) infinite;
+  transition: all 0.5s;
+  filter: brightness(1.25) drop-shadow(0px 0px 1px #ffffff)
+    drop-shadow(0px 0px 1px #ff0000) drop-shadow(0px 0px 1px #ff7f00)
+    drop-shadow(0px 0px 1px #ffff00) drop-shadow(0px 0px 1px #00ff00)
+    drop-shadow(0px 0px 1px #8b00ff) drop-shadow(0px 0px 2px #0000ff);
+}
 /* =========================
    Image URLs
    ========================= */
