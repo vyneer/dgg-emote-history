@@ -2447,13 +2447,13 @@
     top: 8px;
 }
 .emote.SpeedLaugh {
-    background-image: url("68635c5ddfa12.gif");
-    height: 32px;
-    width: 43px;
+    background-image: url("6a5df0419feb2.gif");
+    height: 34px;
+    width: 60px;
 }
 .msg-chat .emote.SpeedLaugh {
-    margin-top: -32px;
-    top: 8px;
+    margin-top: -34px;
+    top: 8.5px;
 }
 .emote.SpookerZ {
     background-image: url("5c2bbddae0132.png");
