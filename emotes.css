@@ -1348,15 +1348,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.LandlordW {
-    background-image: url("66c58e0937b20.png");
-    height: 30px;
-    width: 31px;
-}
-.msg-chat .emote.LandlordW {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.LeRuse {
     background-image: url("5c2bbcebab235.png");
     height: 30px;
@@ -2230,6 +2221,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.RightThere {
+    background-image: url("69a54639bdb83.png");
+    height: 32px;
+    width: 2160px;
+}
+.msg-chat .emote.RightThere {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.RIPBOZO {
     background-image: url("673dd407542f0.gif");
     height: 35px;
@@ -2400,6 +2400,15 @@
 .msg-chat .emote.SNAP {
     margin-top: -30px;
     top: 7.5px;
+}
+.emote.SNARKMAN {
+    background-image: url("6a5f06b79e250.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.SNARKMAN {
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.SNIFFA {
     background-image: url("68a0c94e9e7fe.gif");
@@ -7000,6 +7009,24 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
 .emote.REE:hover {
     animation: REE-anim-hover 100ms infinite;
 }
+.emote.RightThere {
+  height: 32px;
+  width: 48px;
+  animation: RightThere-anim 1.35s steps(44) forwards;
+}
+.emote.RightThere:hover {
+  height: 32px;
+  width: 48px;
+  animation: RightThere-hover 1.35s steps(44) forwards 1;
+}
+
+@keyframes RightThere-anim {
+  to { background-position: -2112px; }
+}
+@keyframes RightThere-hover {
+  to { background-position: -2112px; }
+}
+
 .emote.SCHEMING {
   height: 36px;
   width: 46px;
