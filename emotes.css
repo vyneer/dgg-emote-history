@@ -7559,7 +7559,8 @@ background-repeat:no-repeat;
 .emote.SpeedLaugh {
   display: inline-block;
   animation: none;
-  transform: scale(0.85) translateY(3px);
+  margin-inline: -7px;
+  transform: scaleX(0.90) scale(0.90) translateY(3px);
   transform-origin: center center;
 }
 @keyframes SpookerZ-anim {
