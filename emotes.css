@@ -4105,7 +4105,7 @@ Firefox supports :has(), so this refactor treats :has() as available.
 }
 
 /* LEFT SIDE — base */
-.emote.Chatting:first-of-type:has(+ .emote.SMASHit):nth-last-of-type(n+2):nth-last-of-type(-n+2),
+.emote.Chatting.Chatting.Chatting.Chatting.Chatting.Chatting.Chatting:first-of-type:has(+ .emote.SMASHit):nth-last-of-type(n+2):nth-last-of-type(-n+2),
 .emote.Chatting.Chatting.Chatting.Chatting.Chatting.Chatting.Chatting.Chatting:has(+ .emote.SMASHit + .emote.Chatting.Chatting.Chatting.Chatting.Chatting.Chatting.Chatting.Chatting.Chatting.Chatting.Chatting.Chatting){
   background-position: -288px;
   transform: scale(-1, 1) translate(-2px, 3px);
