@@ -8003,14 +8003,19 @@ background-repeat:no-repeat;
   width: 36px;
 }
 
-[data-username="jaydrvernanda"] + .msg-chat.msg-user .emote.WWWWaiting {
+[data-username="jaydrvernanda"] + .emote.WWWWaiting {
+  width: 41px;
+  background-position: -38px;
+}
+
+[data-username="mrmouton"] + .msg-chat.msg-user .emote.WWWWaiting {
   width: 41px;
   background-position: -36px;
 }
 
 .msg-chat.msg-user[data-username="jaydrvernanda"] .emote.WWWWaiting {
   width: 36px;
-  background-position: 0px;
+  background-position: -36px;
 }
 .emote.YAM {
     margin-left: 4px;
