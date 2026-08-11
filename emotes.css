@@ -8008,14 +8008,14 @@ background-repeat:no-repeat;
   background-position: -36px;
 }
 
-[data-username="mrmouton"] + .msg-chat.msg-user .emote.WWWWaiting {
+.msg-chat.msg-user[data-username="mrmouton"] .emote.WWWWaiting {
   width: 41px;
   background-position: -36px;
 }
 
 .msg-chat.msg-user[data-username="jaydrvernanda"] .emote.WWWWaiting {
   width: 36px;
-  background-position: -36px;
+  background-position: -0px;
 }
 .emote.YAM {
     margin-left: 4px;
