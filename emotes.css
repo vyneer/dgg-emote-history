@@ -1375,6 +1375,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.LifeIsGreat {
+    background-image: url("6a8d10da9588f.png");
+    height: 30px;
+    width: 50px;
+}
+.msg-chat .emote.LifeIsGreat {
+    margin-top: -30px;
+    top: 7.5px;
+}
 .emote.Listening {
     background-image: url("6689d5ebaca66.png");
     height: 33px;
