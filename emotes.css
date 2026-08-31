@@ -4890,6 +4890,12 @@ Firefox supports :has(), so this refactor treats :has() as available.
   background-position: 0px;
   transition: all 0.5s;
 }
+/* ## USER-SPECIFIC FLAIRS ## */
+
+.msg-chat.msg-user[data-username="peachachoo"] .emote.dggL {
+  background-position: -693px;
+  transition: all 0.5s;
+}
 
 /* ## TIER FLAIRS ## */
 .msg-chat.msg-user .user.flair13 ~ .text .emote.dggL {
@@ -5356,6 +5362,22 @@ Firefox supports :has(), so this refactor treats :has() as available.
     width: 28px;
     background-position: 0px;
     background-repeat: no-repeat;
+}
+
+[data-username="prsek"] .emote.glorp {
+    height: 28px;
+    width: 28px;
+    background-position: -110px;
+    background-repeat: no-repeat;
+    filter: hue-rotate(10deg) brightness(0.9) saturate(1.1);
+}
+
+[data-username="destiny"] .emote.glorp {
+    height: 28px;
+    width: 28px;
+    background-position: -110px;
+    background-repeat: no-repeat;
+    filter: hue-rotate(10deg) brightness(0.9) saturate(1.1);
 }
 
 .emote.glorp:hover {
