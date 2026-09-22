@@ -8053,6 +8053,11 @@ background-repeat:no-repeat;
   width: 36px;
   background-position: -0px;
 }
+
+.msg-chat.msg-user[data-username="inkmoth"] .emote.WWWWaiting {
+  width: 36px;
+  background-position: -0px;
+}
 .emote.YAM {
     margin-left: 4px;
     margin-right: 4px;
