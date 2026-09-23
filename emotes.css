@@ -8034,11 +8034,6 @@ background-repeat:no-repeat;
   width: 36px;
 }
 
-[data-username="jaydrvernanda"] + .msg-chat.msg-user .emote.WWWWaiting {
-  width: 41px;
-  background-position: -36px;
-}
-
 .msg-chat.msg-user[data-username="mrmouton"] .emote.WWWWaiting {
   width: 41px;
   background-position: -36px;
@@ -8047,6 +8042,12 @@ background-repeat:no-repeat;
 .msg-chat.msg-user[data-username="jaydrvernanda"] .emote.WWWWaiting {
   width: 36px;
   background-position: -0px;
+}
+
+/* Watch after Jaydr (+ Exclusions for spammy users)
+[data-username="jaydrvernanda"] + .msg-chat.msg-user .emote.WWWWaiting {
+  width: 41px;
+  background-position: -36px;
 }
 
 .msg-chat.msg-user[data-username="sfb7"] .emote.WWWWaiting {
@@ -8058,6 +8059,7 @@ background-repeat:no-repeat;
   width: 36px;
   background-position: -0px;
 }
+*/
 .emote.YAM {
     margin-left: 4px;
     margin-right: 4px;
