@@ -224,13 +224,13 @@
     top: 8px;
 }
 .emote.BLADE {
-    background-image: url("5f80acd664b04.png");
-    height: 31px;
-    width: 84px;
+    background-image: url("68e405ce032b1.png");
+    height: 30px;
+    width: 6000px;
 }
 .msg-chat .emote.BLADE {
-    margin-top: -31px;
-    top: 7.75px;
+    margin-top: -30px;
+    top: 7.5px;
 }
 .emote.BLESSTINY {
     background-image: url("66596baae76d9.png");
@@ -251,7 +251,7 @@
     top: 8px;
 }
 .emote.BLUBSTINY {
-    background-image: url("66596e1f9e026.png");
+    background-image: url("5d94e95becbab.png");
     height: 32px;
     width: 32px;
 }
@@ -1079,9 +1079,9 @@
     top: 8px;
 }
 .emote.GSN {
-    background-image: url("6abde69f3e8f0.gif");
+    background-image: url("6abe6bd1e8d26.png");
     height: 32px;
-    width: 40px;
+    width: 1800px;
 }
 .msg-chat .emote.GSN {
     margin-top: -32px;
@@ -1862,9 +1862,9 @@
     top: 8px;
 }
 .emote.OkaygeBusiness {
-    background-image: url("67ebd7dd2f263.png");
+    background-image: url("6abe6f34e9212.png");
     height: 32px;
-    width: 39px;
+    width: 32px;
 }
 .msg-chat .emote.OkaygeBusiness {
     margin-top: -32px;
@@ -2042,7 +2042,7 @@
     top: 7.5px;
 }
 .emote.pepoComfy {
-    background-image: url("5fad9970a3544.png");
+    background-image: url("61588772da3f6.png");
     height: 30px;
     width: 32px;
 }
@@ -2096,9 +2096,9 @@
     top: 7px;
 }
 .emote.PepoTurtle {
-    background-image: url("6852dc338f9bf.png");
+    background-image: url("6abe6d933aa07.png");
     height: 32px;
-    width: 43px;
+    width: 32px;
 }
 .msg-chat .emote.PepoTurtle {
     margin-top: -32px;
@@ -2391,15 +2391,6 @@
 .msg-chat .emote.SMASHit {
     margin-top: -29px;
     top: 7.25px;
-}
-.emote.smolguh {
-    background-image: url("690585b25b77c.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.smolguh {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.SNAP {
     background-image: url("5d9f63aa42d56.png");
@@ -2959,15 +2950,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.Blubstiny {
-    background-image: url("5d94e95becbab.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.Blubstiny {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.CheekerZ {
     background-image: url("5d9f61b03d501.png");
     height: 30px;
@@ -3237,15 +3219,6 @@
 .msg-chat .emote.pepeSteer {
     margin-top: -32px;
     top: 8px;
-}
-.emote.PepoComfy {
-    background-image: url("61588772da3f6.png");
-    height: 30px;
-    width: 32px;
-}
-.msg-chat .emote.PepoComfy {
-    margin-top: -30px;
-    top: 7.5px;
 }
 .emote.PICNIC {
     background-image: url("5d9f636c23143.png");
@@ -3704,111 +3677,169 @@ transition:all 2s;
 .emote.BINGQILIN:hover {
   animation: BINGQILIN-hover steps(90) 2.5s infinite;
 }
-/* Halloween version and animation made by Igor */
-.emote.Yoda1 + .emote.BLADE, .emote.YEE + .emote.BLADE, .emote.YEEHAW + .emote.BLADE {
-  filter: hue-rotate(-80deg) saturate(3) brightness(1.7);
-}
-.emote.HACKERMAN + .emote.BLADE, .emote.MALARKEY + .emote.BLADE, .emote.BERN + .emote.BLADE, .emote.catJAM + .emote.BLADE, .emote.YAM + .emote.BLADE, .emote.JAMSTINY + .emoteBLADE {
-  filter: hue-rotate(-191deg) brightness(0.85) saturate(5);
-}
-.emote.BasedGod + .emote.BLADE, .emote.LUL + .emote.BLADE {
-  filter: hue-rotate(80deg) saturate(6);
-}
-.emote.GODSTINY + .emote.BLADE, .emote.Slumlord + .emote.BLADE, .emote.ATAB + .emote.BLADE {
-  filter: hue-rotate(-131deg) saturate(5);
-}
-.emote.Wowee + .emote.BLADE, .emote.WOOF + .emote.BLADE {
-  filter: saturate(0) brightness(2);
-}
-.emote.FerretLOL + .emote.BLADE, .emote.widepeepoHappy + .emote.BLADE, .emote.Cutestiny + .emote.BLADE {
-  filter: hue-rotate(150deg) saturate(3) brightness(1.3);
-}
-@keyframes BLADE-anim {
-  0% { transform: translate(0, 0) rotate(360deg); transform-origin: -10% 100%; animation-timing-function: linear; }
-  10% { transform: translate(-5px, -5px) rotate(30deg); animation-timing-function: ease; }
-  15%, 25% { transform: translate(0, -15px) rotate(45deg); }
-  30% { transform: translate(-10px, -5px) rotate(20deg); }
-  35% { transform: translate(-5px, -5px) rotate(-10deg); }
-  38%, 50% { transform: translate(15px, -5px) rotate(-15deg); animation-timing-function: linear; }
-  61%, 63% { transform: translate(0px, -10px) rotate(-315deg); animation-timing-function: ease; }
-  68% { transform: translate(25px, -10px) rotate(-315deg); }
-  76% { transform: translate(28px, -10px) rotate(-315deg); }
-  82% { transform: translate(-10px, -10px) rotate(-315deg); }
-  90%, 100% { transform: translate(0, 0) rotate(-360deg); transform-origin: -10% 100%; }
-}
-@keyframes BLADE-anim2 {
-  0% { transform: scale(-1, 1) translate(-35px, 0) rotate(-367deg); transform-origin: 0% 100%; animation-timing-function: linear; }
-  10% { transform: scale(-1, 1) translate(-38px, -5px) rotate(-10deg); animation-timing-function: ease; }
-  15%, 25.0001% { transform: scale(-1, 1) translate(-33px, 5px) rotate(5deg); }
-  15.0001%, 25% { transform: scale(-1, 1) translate(-60px, 5px) rotate(5deg); }
-  30% { transform: scale(-1, 1) translate(-52px, -5px) rotate(20deg); }
-  35% { transform: scale(-1, 1) translate(-47px, -5px) rotate(-10deg); }
-  38%, 50.0001% { transform: scale(-1, 1) translate(-22px, -5px) rotate(-15deg); animation-timing-function: linear; }
-  38.0001%, 50% { transform: scale(-1, 1) translate(-49px, -5px) rotate(-15deg); animation-timing-function: linear; }
-  61%, 63% { transform: scale(-1, 1) translate(-32px, -20px) rotate(-320deg); animation-timing-function: ease-in-out; }
-  68% { transform: scale(-1, 1) translate(-7px, -22px) rotate(-320deg); }
-  76% { transform: scale(-1, 1) translate(-4px, -22.5px) rotate(-320deg); }
-  82% { transform: scale(-1, 1) translate(-37px, -20px) rotate(-320deg); }
-  90%, 100% { transform: scale(-1, 1) translate(-37px, 0) rotate(-367deg); transform-origin: 0% 100%; animation-timing-function: ease-in-out; }
-}
-@keyframes BLADE-anim3 {
-  0% { transform: scale(-1, 1) translate(-35px, 0) rotate(-367deg); transform-origin: 0% 100%; animation-timing-function: linear; }
-  10% { transform: scale(-1, 1) translate(-38px, -5px) rotate(-10deg); animation-timing-function: ease; }
-  15%, 25.0001% { transform: scale(-1, 1) translate(-38px, 5px) rotate(5deg); }
-  30% { transform: scale(-1, 1) translate(-52px, -5px) rotate(20deg); }
-  35% { transform: scale(-1, 1) translate(-47px, -5px) rotate(-10deg); }
-  38%, 50.0001% { transform: scale(-1, 1) translate(-27px, -5px) rotate(-15deg); animation-timing-function: linear; }
-  61%, 63% { transform: scale(-1, 1) translate(-32px, -20px) rotate(-320deg); animation-timing-function: ease-in-out; }
-  68% { transform: scale(-1, 1) translate(-7px, -22px) rotate(-320deg); }
-  76% { transform: scale(-1, 1) translate(-4px, -22.5px) rotate(-320deg); }
-  82% { transform: scale(-1, 1) translate(-37px, -20px) rotate(-320deg); }
-  90%, 100% { transform: scale(-1, 1) translate(-37px, 0) rotate(-367deg); transform-origin: 0% 100%; animation-timing-function: ease-in-out; }
-}
-@keyframes BLADE-anim-clash {
-  0%, 15%, 25.0001%, 38%, 50.0001%, 100% { background-position: 0px; width: 31px; margin-left: -6px; }
-  15.0001%, 25%, 38.0001%, 50% { background-position: 53px; width: 53px; margin-left: -28px; }
-  15%, 25.0001%, 38%, 50.0001% { filter: none; }
-  17.5%, 18.5%, 21.5%, 22.5%,  40.5%, 41.5%, 45%, 46.5%  { filter: brightness(0.7); }
-  15.001%, 17%, 19%, 21%, 23%, 25%,  38%, 40%, 42%, 44.5%, 47%, 50% { filter: brightness(1.5) saturate(2); }
-}
-.emote.BLADE {
-  padding-bottom: 0px;
-  width: 31px;
-  margin-left: 0;
-  margin-right: -6px;
-  animation: BLADE-open .3s 1 ease-in .001s, BLADE-anim 2.2s 1 ease .4s;
-}
-.emote.BLADE + .emote.BLADE, .emote.TRIAD + .emote.BLADE {
-  margin-left: -6px;
-  margin-right: 4px;
-  width: 31px;
-  transform-origin: 0 100%;
-  transform: scale(-1, 1) translate(-37px, 0) rotate(-7deg);
-  animation: BLADE-open .3s 1 ease-in .001s, BLADE-anim2 2.2s 1 ease .4s, BLADE-anim-clash 2.2s 1 ease .4s;
-}
-.emote.BLADE:first-of-type {
-  margin-left: -6px;
-  margin-right: 4px;
-  width: 31px;
-  transform-origin: 0 100%;
-  transform: scale(-1, 1) translate(-37px, 0) rotate(-7deg);
-  animation: BLADE-open .3s 1 ease-in .001s, BLADE-anim3 2.2s 1 ease .4s;
-}
-.emote + .emote.BLADE:last-of-type, .emote.BLADE:last-of-type {
-  width: 31px;
-  margin-left: 0;
-  margin-right: -6px;
-  transform-origin: 50% 100%;
-  transform: none;
-  animation: BLADE-open .3s 1 ease-in .001s, BLADE-anim 2.2s 1 ease .4s;
-}
-.emote.BLADE:hover, .emote.BLADE + .emote.BLADE:hover, .emote.BLADE:first-of-type:hover, .emote.BLADE:last-of-type:hover,  .emote.TRIAD + .emote.BLADE:hover {
-  animation: none;
+/* BLADE: 6000x30 sprite = 100 frames of 60px */
+
+@keyframes BLADE {
+  from { background-position: 0 0; }
+  to   { background-position: -6000px 0; }
 }
 
-@keyframes BLADE-open {
-  0%, 25% { clip-path: circle(20% at 0% 100%); }
-  100% { clip-path: circle(150% at 0% 100%); }
+/* frames 30-99 (70 frames), loops on hover */
+@keyframes BLADE-hover {
+  from { background-position: -1800px 0; }
+  to   { background-position: -6000px 0; }
+}
+
+/* The site's auto-generated emote CSS sizes the box to the full image
+   (6000px) and loads after this, so force the single-frame size. */
+.emote.BLADE {
+  width: 60px !important;
+  min-width: 60px !important;
+  max-width: 60px !important;
+  height: 30px !important;
+  background-size: 6000px 30px !important;
+  overflow: hidden;
+}
+
+.emote.BLADE {
+  z-index: 0;
+  background-position: -5940px 0; /* rest on the last frame (works with or without background-repeat) */
+  mix-blend-mode: screen;
+  filter: saturate(2);
+  margin-left: -8px;
+  margin-right: -4px;
+  transform: translate(0, 6px);
+  animation: BLADE 5s steps(100) 1;
+}
+
+/* Mirrored blade */
+.emote.BLADE:first-of-type,
+.emote.BLADE + .emote.BLADE,
+.emote.TRIAD + .emote.BLADE {
+  margin-left: -4px;
+  margin-right: -8px;
+  filter: hue-rotate(200deg) saturate(1.5);
+  transform: translate(0, 6px) scaleX(-1);
+}
+
+/* Last blade faces normally */
+.emote.BLADE:last-of-type,
+.emote + .emote.BLADE:last-of-type,
+.emote.TRIAD + .emote.BLADE:last-of-type {
+  margin-left: -8px;
+  margin-right: -4px;
+  filter: none;
+  transform: translate(0, 6px);
+}
+
+/* Hover: keep BLADE in the list so it doesn't replay when the mouse leaves */
+.emote.BLADE:hover {
+  animation: BLADE 5s steps(100) 1, BLADE-hover 3.5s steps(70) infinite;
+}
+
+/* ===== COLORS ===== */
+
+.user.flair17 ~ .text .emote.BLADE {
+  filter: brightness(.85) sepia(1) contrast(1.2) hue-rotate(-1deg) saturate(5);
+}
+
+.emote.Yoda1 + .emote.BLADE,
+.emote.YEE + .emote.BLADE,
+.emote.YEEHAW + .emote.BLADE,
+.emote.monkaS + .emote.BLADE {
+  filter: hue-rotate(-80deg) saturate(3) brightness(1.7);
+}
+
+.emote.HACKERMAN + .emote.BLADE,
+.emote.MALARKEY + .emote.BLADE,
+.emote.BERN + .emote.BLADE,
+.emote.catJAM + .emote.BLADE,
+.emote.YAM + .emote.BLADE,
+.emote.JAMSTINY + .emote.BLADE {
+  filter: hue-rotate(135deg) saturate(1.5);
+}
+
+.emote.BasedGod + .emote.BLADE,
+.emote.LUL + .emote.BLADE {
+  filter: hue-rotate(55deg) saturate(1.5);
+}
+
+.emote.GODSTINY + .emote.BLADE,
+.emote.Slumlord + .emote.BLADE,
+.emote.ATAB + .emote.BLADE,
+.emote.TRIAD + .emote.BLADE:last-of-type {
+  filter: hue-rotate(200deg) saturate(1.5);
+}
+
+.emote.FerretLOL + .emote.BLADE,
+.emote.widepeepoHappy + .emote.BLADE,
+.emote.Cutestiny + .emote.BLADE {
+  filter: hue-rotate(90deg) saturate(1.5);
+}
+
+.emote.REE + .emote.BLADE {
+  filter: hue-rotate(135deg) saturate(3);
+}
+
+/* ===BYPASSED FOR CUSTOM CSS IN COMFYLILY EMOTE===
+.emote.ComfyLily + .emote.BLADE {
+  filter: hue-rotate(85deg) brightness(.9) saturate(14) contrast(1);
+} */
+
+/* grayscale maxes out at 1, so this renders identically to the old
+   hue-rotate(40deg) saturate(5) grayscale(5) */
+.emote.ApeHands + .emote.BLADE {
+  filter: grayscale(1) brightness(1);
+}
+
+.emote.nathanPepe + .emote.BLADE {
+  filter: invert(.95) saturate(1) brightness(2);
+}
+
+.emote.BLADE:has(+ .emote.nathanYee) {
+  filter: grayscale(1) brightness(1) invert(1) sepia(1) saturate(6) hue-rotate(-180deg);
+}
+
+.emote.GIGACHAD + .emote.BLADE {
+  filter: hue-rotate(40deg) saturate(5) brightness(1);
+}
+
+/* ===== RAINBOW ===== */
+
+/* explicit "from" so the cycle is always a clean -120deg -> 240deg loop,
+   regardless of what other filter rule is applied */
+@keyframes BLADE-rainbow {
+  from { filter: brightness(.95) sepia(1) saturate(3) hue-rotate(-120deg); }
+  to   { filter: brightness(.95) sepia(1) saturate(3) hue-rotate(240deg); }
+}
+@keyframes BLADE-rainbow-hover {
+  from { filter: brightness(.95) sepia(1) saturate(3) hue-rotate(-120deg); }
+  to   { filter: brightness(.95) sepia(1) saturate(3) hue-rotate(240deg); }
+}
+
+.emote.Kappa + .emote.BLADE,
+.emote.OhKrappa + .emote.BLADE,
+.emote.RaveDoge + .emote.BLADE,
+.emote.DANKMEMES + .emote.BLADE,
+.emote.Shroomstiny + .emote.BLADE,
+.emote.DappaKappa + .emote.BLADE,
+.emote.nathanDank + .emote.BLADE {
+  filter: brightness(.95) sepia(1) saturate(3) hue-rotate(-120deg);
+  animation: BLADE 5s steps(100) 1, BLADE-rainbow 1s linear 5;
+}
+
+.emote.Kappa + .emote.BLADE:hover,
+.emote.OhKrappa + .emote.BLADE:hover,
+.emote.RaveDoge + .emote.BLADE:hover,
+.emote.DANKMEMES + .emote.BLADE:hover,
+.emote.Shroomstiny + .emote.BLADE:hover,
+.emote.DappaKappa + .emote.BLADE:hover,
+.emote.nathanDank + .emote.BLADE:hover {
+  animation:
+    BLADE 5s steps(100) 1,
+    BLADE-rainbow 1s linear 5,
+    BLADE-hover 3.5s steps(70) infinite,
+    BLADE-rainbow-hover .85s linear infinite;
 }
 @keyframes BLESSTINY-anim{
   0% {transform: rotate(0deg);}
@@ -6714,6 +6745,21 @@ to   {  rotate: 4deg;}
   animation: GODSTINY-hover steps(21) .875s 1 reverse;
 }
 /* Halloween version made by Igor (v2) */
+.emote.GSN {
+  width: 32px;
+  animation: GSN-anim 1.5s steps(44) forwards;
+}
+.emote.GSN:hover {
+  width: 32px;
+  animation: GSN-hover 1.5s steps(44) forwards 1;
+}
+
+@keyframes GSN-anim {
+  to { background-position: -1760px; }
+}
+@keyframes GSN-hover {
+  to { background-position: -1760px; }
+}
 @keyframes HACKERMAN-anim {
   0% {
     filter: drop-shadow(0 0px 0px rgba(208, 133, 140, 0)) brightness(1);
@@ -10038,43 +10084,6 @@ rotate:3deg;
 }
 
 
-@keyframes Blubstiny-anim {
-  0% { top: 0px; }
-    99% { top: -25px; }
-    100%{ top: 30px; }
-}
-
-.emote.Blubstiny::before {
-  content: "o";
-    opacity: 0.75;
-    text-indent: 0;
-    font-size: 16px;
-    position: absolute;
-    color: white;
-    left:9px;
-    top:-25px;
-    text-align: center;
-    animation: Blubstiny-anim 0.6s 4;
-}
-.emote.Blubstiny:after{
-    content: "o";
-    opacity: 0.95;
-    text-indent: 0;
-    font-size: 20px;
-    position: absolute;
-    color: white;
-    right:10px;
-    top:-25px;
-    animation: Blubstiny-anim 0.8s 4;
-    animation-delay: 0.2s;
-}
-.emote.Blubstiny:hover::before {
-  animation: Blubstiny-anim-hover 0.5s infinite;
-}
-.emote.Blubstiny:hover::after {
-  animation: Blubstiny-anim-hover 0.5s infinite;
-      animation-delay: 0.25s;
-}
 /* Halloween version made by T9Parker */
 /*
 ======= Laser =======

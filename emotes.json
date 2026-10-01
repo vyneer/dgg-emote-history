@@ -401,17 +401,17 @@
   },
   {
     "prefix": "BLADE",
-    "creator": "Igor",
+    "creator": "",
     "twitch": false,
     "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://r2cdn.destiny.gg/emotes/5f80acd664b04.png",
-        "name": "5f80acd664b04.png",
+        "url": "https://r2cdn.destiny.gg/emotes/68e405ce032b1.png",
+        "name": "68e405ce032b1.png",
         "mime": "image/png",
-        "height": 31,
-        "width": 84
+        "height": 30,
+        "width": 6000
       }
     ]
   },
@@ -451,12 +451,12 @@
     "prefix": "BLUBSTINY",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://r2cdn.destiny.gg/emotes/66596e1f9e026.png",
-        "name": "66596e1f9e026.png",
+        "url": "https://r2cdn.destiny.gg/emotes/5d94e95becbab.png",
+        "name": "5d94e95becbab.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
@@ -1927,11 +1927,11 @@
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://r2cdn.destiny.gg/emotes/6abde69f3e8f0.gif",
-        "name": "6abde69f3e8f0.gif",
+        "url": "https://r2cdn.destiny.gg/emotes/6abe6bd1e8d26.png",
+        "name": "6abe6bd1e8d26.png",
         "mime": "image/png",
         "height": 32,
-        "width": 40
+        "width": 1800
       }
     ]
   },
@@ -3315,15 +3315,15 @@
     "prefix": "OkaygeBusiness",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://r2cdn.destiny.gg/emotes/67ebd7dd2f263.png",
-        "name": "67ebd7dd2f263.png",
+        "url": "https://r2cdn.destiny.gg/emotes/6abe6f34e9212.png",
+        "name": "6abe6f34e9212.png",
         "mime": "image/png",
         "height": 32,
-        "width": 39
+        "width": 32
       }
     ]
   },
@@ -3635,12 +3635,12 @@
     "prefix": "pepoComfy",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://r2cdn.destiny.gg/emotes/5fad9970a3544.png",
-        "name": "5fad9970a3544.png",
+        "url": "https://r2cdn.destiny.gg/emotes/61588772da3f6.png",
+        "name": "61588772da3f6.png",
         "mime": "image/png",
         "height": 30,
         "width": 32
@@ -3731,15 +3731,15 @@
     "prefix": "PepoTurtle",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://r2cdn.destiny.gg/emotes/6852dc338f9bf.png",
-        "name": "6852dc338f9bf.png",
+        "url": "https://r2cdn.destiny.gg/emotes/6abe6d933aa07.png",
+        "name": "6abe6d933aa07.png",
         "mime": "image/png",
         "height": 32,
-        "width": 43
+        "width": 32
       }
     ]
   },
@@ -4252,22 +4252,6 @@
         "mime": "image/png",
         "height": 29,
         "width": 2856
-      }
-    ]
-  },
-  {
-    "prefix": "smolguh",
-    "creator": "",
-    "twitch": false,
-    "theme": 1,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://r2cdn.destiny.gg/emotes/690585b25b77c.png",
-        "name": "690585b25b77c.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
       }
     ]
   },
@@ -5264,22 +5248,6 @@
     ]
   },
   {
-    "prefix": "Blubstiny",
-    "creator": null,
-    "twitch": false,
-    "theme": 3,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://r2cdn.destiny.gg/emotes/5d94e95becbab.png",
-        "name": "5d94e95becbab.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "CheekerZ",
     "creator": "T9Parker ",
     "twitch": false,
@@ -5756,22 +5724,6 @@
         "mime": "image/png",
         "height": 32,
         "width": 35
-      }
-    ]
-  },
-  {
-    "prefix": "PepoComfy",
-    "creator": null,
-    "twitch": false,
-    "theme": 3,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://r2cdn.destiny.gg/emotes/61588772da3f6.png",
-        "name": "61588772da3f6.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 32
       }
     ]
   },
