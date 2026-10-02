@@ -1505,14 +1505,14 @@
   },
   {
     "prefix": "FeelsOrbMan",
-    "creator": "",
+    "creator": "eaze",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://r2cdn.destiny.gg/emotes/6a44c53700471.png",
-        "name": "6a44c53700471.png",
+        "url": "https://r2cdn.destiny.gg/emotes/6abf5381846ef.png",
+        "name": "6abf5381846ef.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
@@ -2131,12 +2131,12 @@
     "prefix": "IKnowWhatYouAre",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://r2cdn.destiny.gg/emotes/6a1d0e0fb7651.png",
-        "name": "6a1d0e0fb7651.png",
+        "url": "https://r2cdn.destiny.gg/emotes/6abf505cde516.png",
+        "name": "6abf505cde516.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
@@ -2193,17 +2193,17 @@
   },
   {
     "prefix": "INREALLIFE",
-    "creator": "cybervegan",
+    "creator": "Nettspendyahu",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://r2cdn.destiny.gg/emotes/66f330bdd4448.png",
-        "name": "66f330bdd4448.png",
+        "url": "https://r2cdn.destiny.gg/emotes/6abf512822db3.png",
+        "name": "6abf512822db3.png",
         "mime": "image/png",
         "height": 32,
-        "width": 58
+        "width": 57
       }
     ]
   },
@@ -4769,14 +4769,14 @@
   },
   {
     "prefix": "wcat",
-    "creator": "tag @hamster_hawk for removal!",
+    "creator": "Jureon",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://r2cdn.destiny.gg/emotes/6a269b07ba1db.png",
-        "name": "6a269b07ba1db.png",
+        "url": "https://r2cdn.destiny.gg/emotes/6abf4ff78bcd7.png",
+        "name": "6abf4ff78bcd7.png",
         "mime": "image/png",
         "height": 32,
         "width": 32
