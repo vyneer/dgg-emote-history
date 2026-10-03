@@ -3347,12 +3347,12 @@
     "prefix": "omgBruh",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://r2cdn.destiny.gg/emotes/6a44adee34eae.gif",
-        "name": "6a44adee34eae.gif",
+        "url": "https://r2cdn.destiny.gg/emotes/6ac06456a91c2.gif",
+        "name": "6ac06456a91c2.gif",
         "mime": "image/gif",
         "height": 32,
         "width": 32

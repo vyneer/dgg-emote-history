@@ -1880,7 +1880,7 @@
     top: 8px;
 }
 .emote.omgBruh {
-    background-image: url("6a44adee34eae.gif");
+    background-image: url("6ac06456a91c2.gif");
     height: 32px;
     width: 32px;
 }
@@ -3652,6 +3652,11 @@ transition:all 2s;
     BLADE-rainbow 1s linear 5,
     BLADE-hover 3.5s steps(70) infinite,
     BLADE-rainbow-hover .85s linear infinite;
+}
+
+.emote.FeelsOrbMan + .emote.BLADE {
+  filter: brightness(.95) sepia(1) saturate(3) hue-rotate(30deg);
+  animation: BLADE 5s steps(100) 1, BLADE-rainbow 1s linear 5;
 }
 /* Halloween version made by Toblakai_ */
 @keyframes BLESSTINY-anim{
