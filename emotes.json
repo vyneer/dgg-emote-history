@@ -4803,15 +4803,15 @@
     "prefix": "WEOW",
     "creator": "",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://r2cdn.destiny.gg/emotes/650f6d1ab6bc2.png",
-        "name": "650f6d1ab6bc2.png",
+        "url": "https://r2cdn.destiny.gg/emotes/617fd8c1e86da.png",
+        "name": "617fd8c1e86da.png",
         "mime": "image/png",
-        "height": 28,
-        "width": 278
+        "height": 32,
+        "width": 59
       }
     ]
   },

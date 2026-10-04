@@ -2699,13 +2699,13 @@
     top: 8px;
 }
 .emote.WEOW {
-    background-image: url("650f6d1ab6bc2.png");
-    height: 28px;
-    width: 278px;
+    background-image: url("617fd8c1e86da.png");
+    height: 32px;
+    width: 59px;
 }
 .msg-chat .emote.WEOW {
-    margin-top: -28px;
-    top: 7px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.WHAAAAT {
     background-image: url("66fba5b75f366.png");
@@ -9342,18 +9342,6 @@ rotate:3deg;
     91% {
         filter: hue-rotate(0deg);
     }
-}
-/*
-    BASE
-*/
-.emote.WEOW {
-    height: 28px;
-    width: 28px;
-    transition: ease-out .1s;
-}
-
-.emote.WEOW:hover {
-    filter: brightness(1.1) drop-shadow(0px 0px 6px #f7f7f780);
 }
 .emote.WICKED {
     width: 70px;
