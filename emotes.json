@@ -3569,17 +3569,17 @@
   },
   {
     "prefix": "pepeMODS",
-    "creator": "",
+    "creator": "Kogasa / Igor ",
     "twitch": false,
-    "theme": 1,
+    "theme": 3,
     "minimumSubTier": 0,
     "image": [
       {
-        "url": "https://r2cdn.destiny.gg/emotes/5d3661812359a.png",
-        "name": "5d3661812359a.png",
+        "url": "https://r2cdn.destiny.gg/emotes/5d9c1be64a17f.png",
+        "name": "5d9c1be64a17f.png",
         "mime": "image/png",
-        "height": 30,
-        "width": 30
+        "height": 32,
+        "width": 32
       }
     ]
   },
@@ -5417,22 +5417,6 @@
       {
         "url": "https://r2cdn.destiny.gg/emotes/66fbd2423e636.png",
         "name": "66fbd2423e636.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
-    "prefix": "pepeMods",
-    "creator": "Kogasa / Igor ",
-    "twitch": false,
-    "theme": 3,
-    "minimumSubTier": 0,
-    "image": [
-      {
-        "url": "https://r2cdn.destiny.gg/emotes/5d9c1be64a17f.png",
-        "name": "5d9c1be64a17f.png",
         "mime": "image/png",
         "height": 32,
         "width": 32

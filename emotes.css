@@ -2006,13 +2006,13 @@
     top: 8px;
 }
 .emote.pepeMODS {
-    background-image: url("5d3661812359a.png");
-    height: 30px;
-    width: 30px;
+    background-image: url("5d9c1be64a17f.png");
+    height: 32px;
+    width: 32px;
 }
 .msg-chat .emote.pepeMODS {
-    margin-top: -30px;
-    top: 7.5px;
+    margin-top: -32px;
+    top: 8px;
 }
 .emote.pepeSmug {
     background-image: url("66ad4e3292fd6.png");
@@ -3046,15 +3046,6 @@
     width: 32px;
 }
 .msg-chat .emote.peepoStop {
-    margin-top: -32px;
-    top: 8px;
-}
-.emote.pepeMods {
-    background-image: url("5d9c1be64a17f.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.pepeMods {
     margin-top: -32px;
     top: 8px;
 }
@@ -8077,6 +8068,8 @@ rotate:3deg;
 .emote.PepeLaugh:hover {
     animation: PepeLaugh-anim-hover 200ms infinite;
 }
+/* Halloween version made by Kogasa (v5) */
+/* Minor modification made by Igor (v6) */
 @keyframes PepoPunch-anim {
   100% { background-position: -448px; }
 }
@@ -10011,8 +10004,6 @@ rotate:3deg;
 .emote.OhMyDog:hover {
     animation: OhMyDog-anim-hover 2s infinite;
 }
-/* Halloween version made by Kogasa (v5) */
-/* Minor modification made by Igor (v6) */
 /* Halloween version made by T9Parker */
 @keyframes PICNIC-anim {
     0%, 100% { transform: scale(1); }
