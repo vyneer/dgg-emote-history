@@ -3163,55 +3163,31 @@
     animation: AngelThump-hover steps(119) 1.25s 1 forwards;
 }
 .emote.ApeHands {
-  height: 26px;
-  width: 29px;
-  filter: brightness(1.15);
+  margin-left: -2px;
 }
-
-.emote.ApeHands+.emote.ApeHands,
-.emote.ApeHands:nth-child(1),
-.emote.Clap+.emote.ApeHands,
-.emote.BLADE+.emote.ApeHands{
+.emote.ApeHands + .emote.ApeHands, .emote.ApeHands:nth-child(1), .emote.Clap + .emote.ApeHands, .emote.BLADE + .emote.ApeHands {
   margin-right: -2px;
   margin-left: 0;
   transform: scaleX(-1);
 }
-
-.emote.ApeHands:only-child,
-.emote+.emote.ApeHands:last-of-type,
-.emote.ApeHands:last-of-type {
+.emote.ApeHands:only-child, .emote + .emote.ApeHands:last-of-type, .emote.ApeHands:last-of-type {
   margin-right: 0;
   transform: scaleX(1);
 }
-
-.emote.ApeHands:only-child {
-  transform: scaleX(-1);
-}
-
 @keyframes GIGAHANDS-anim {
-  0% {
-    transform: translate(-28px, 0);
-  }
-
-  100% {
-    transform: translate(0, 0);
-  }
+  0% { transform: translate(-28px, 0); }
+  100% { transform: translate(0, 0); }
 }
-
-.emote.GIGACHAD+.emote.ApeHands {
+.emote.GIGACHAD + .emote.ApeHands {
   animation: GIGAHANDS-anim 1.5s ease-out 1;
 }
 
-.chat-user+.emote.ApeHands,
-.emote.ApeHands:has(+.externallink),
-.emote.ApeHands:has(+.chat-user) {
+.emote.ApeHands + .emote.ApeHands, .emote.ApeHands:nth-child(1), .emote.Clap + .emote.ApeHands, .emote.BLADE + .emote.ApeHands, .chat-user + .emote.ApeHands {
+  margin-right: -2px;
+  margin-left: 0;
   transform: scaleX(-1);
 }
-
-.chat-user+.emote.ApeHands:last-child {
-  transform: scaleX(1);
-}
-
+  
 .emote.ASLAN {
   height: 32px;
   width: 32px;
