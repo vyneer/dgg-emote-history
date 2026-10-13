@@ -8343,7 +8343,7 @@ rotate:3deg;
     position: absolute;
     opacity: 1;
     top: -14px;
-    left: 38px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
+    left: 26px; text-shadow: -2px 2px 2px rgba(0,0,0,0.3);
     transform: scale(0, 0);
     animation: SHOCKSTINY-mark 1.3s 1 ease;
 }
@@ -8869,7 +8869,7 @@ rotate:3deg;
     position: absolute;
     opacity: 1;
     top: -16px;
-    left: 26px;
+    left: 19px;
     transform: scale(0, 0);
     animation: THATNINJA-Mark-anim 2s 1;
 }
