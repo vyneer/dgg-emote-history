@@ -3851,10 +3851,7 @@ transition:all 2s;
     background-position: -42px;
     background-repeat: no-repeat;
 }
-[data-username="prsek"] .emote.Cabge {
-       background-position: -42px;
-       animation: RARE-GOLD-PULSATE 3s infinite linear;
-}
+
 
 @keyframes RARE-GOLD-PULSATE {
     0% {
