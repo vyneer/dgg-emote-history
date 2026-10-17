@@ -259,6 +259,15 @@
     margin-top: -32px;
     top: 8px;
 }
+.emote.BlueWave {
+    background-image: url("6ad2ff796e599.gif");
+    height: 500px;
+    width: 500px;
+}
+.msg-chat .emote.BlueWave {
+    margin-top: -500px;
+    top: 125px;
+}
 .emote.BOGGED {
     background-image: url("5d9bbb3c8e46b.png");
     height: 32px;
@@ -3739,6 +3748,31 @@ transition:all 2s;
 .emote.BLUBSTINY:hover::after {
   animation: BLUBSTINY-anim-hover 0.5s infinite;
       animation-delay: 0.25s;
+}
+.emote.BlueWave {
+  --size: 32px;
+  width: var(--size);
+  height: var(--size);
+  background-size: var(--size) var(--size);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: none;
+  animation: none;
+  transform: none;
+}
+
+.msg-chat .emote.BlueWave,
+.msg-chat .emote.BlueWave:hover,
+.msg-chat.msg-emote .emote.BlueWave,
+.msg-chat.msg-emote[data-combo] .emote.BlueWave {
+  --size: 32px;
+  transition: none;
+  animation: none;
+  transform: none;
+}
+
+.msg-chat .emote.BlueWave {
+  top: calc(var(--size) / 4);
 }
 /* Halloween version made by Vindelici */
 @keyframes BoomerSippy-right {
