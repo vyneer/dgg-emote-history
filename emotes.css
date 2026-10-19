@@ -6612,6 +6612,30 @@ to   {  rotate: 4deg;}
   animation: HACKERMAN-anim-hover 25s infinite linear;
 }
 /* Halloween version made by CharlieZOuO */
+
+.msg-chat.msg-emote .emote.HEIMERDONGER {
+  --base-img: url("https://r2cdn.destiny.gg/emotes/5d9be1e3747d5.png");
+  --cane-img: url("https://r2cdn.destiny.gg/emotes/665add97421dc.png");
+}
+
+.msg-chat.msg-emote .emote.HEIMERDONGER {
+  background-color: transparent;
+  background-image: var(--base-img);
+  width: 37px;
+  height: 30px;
+  background-size: 37px 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+[data-username="cane"] .emote.HEIMERDONGER {
+    background-image: url("https://r2cdn.destiny.gg/emotes/665add97421dc.png");
+    height: 30px;
+    width: 37px;
+    background-size: 37px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 @keyframes hhhehhehe-anim {
     0% { transform: translate(0px, 0px) rotate(-0deg); }
     20% { transform: translate(0px, 3px) rotate(-6deg); }
