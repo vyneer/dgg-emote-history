@@ -4720,6 +4720,22 @@
     ]
   },
   {
+    "prefix": "TRUTHED",
+    "creator": "PRSEK",
+    "theme": 1,
+    "minimumSubTier": 0,
+    "patreonOnly": false,
+    "image": [
+      {
+        "url": "https://r2cdn.destiny.gg/emotes/69dd65aaec8a6.png",
+        "name": "69dd65aaec8a6.png",
+        "mime": "image/png",
+        "height": 32,
+        "width": 26
+      }
+    ]
+  },
+  {
     "prefix": "UWOTM8",
     "creator": "",
     "theme": 3,
@@ -5276,22 +5292,6 @@
         "mime": "image/png",
         "height": 35,
         "width": 42
-      }
-    ]
-  },
-  {
-    "prefix": "DRAMA",
-    "creator": "",
-    "theme": 3,
-    "minimumSubTier": 0,
-    "patreonOnly": false,
-    "image": [
-      {
-        "url": "https://r2cdn.destiny.gg/emotes/6adeb6ccdc976.gif",
-        "name": "6adeb6ccdc976.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 32
       }
     ]
   },

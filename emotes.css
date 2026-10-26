@@ -2653,6 +2653,15 @@
     margin-top: -28px;
     top: 7px;
 }
+.emote.TRUTHED {
+    background-image: url("69dd65aaec8a6.png");
+    height: 32px;
+    width: 26px;
+}
+.msg-chat .emote.TRUTHED {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.UWOTM8 {
     background-image: url("66fba65c52489.png");
     height: 32px;
@@ -2967,15 +2976,6 @@
 .msg-chat .emote.Dentge {
     margin-top: -35px;
     top: 8.75px;
-}
-.emote.DRAMA {
-    background-image: url("6adeb6ccdc976.gif");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.DRAMA {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.GRUGingOverIt {
     background-image: url("5fcd82224b419.png");
