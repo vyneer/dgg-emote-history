@@ -5280,6 +5280,22 @@
     ]
   },
   {
+    "prefix": "DRAMA",
+    "creator": "",
+    "theme": 3,
+    "minimumSubTier": 0,
+    "patreonOnly": false,
+    "image": [
+      {
+        "url": "https://r2cdn.destiny.gg/emotes/6adeb6ccdc976.gif",
+        "name": "6adeb6ccdc976.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "GRUGingOverIt",
     "creator": "",
     "theme": 3,

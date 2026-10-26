@@ -2968,6 +2968,15 @@
     margin-top: -35px;
     top: 8.75px;
 }
+.emote.DRAMA {
+    background-image: url("6adeb6ccdc976.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.DRAMA {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.GRUGingOverIt {
     background-image: url("5fcd82224b419.png");
     height: 40px;
@@ -7305,6 +7314,13 @@ to{filter: contrast(1) saturate(5) drop-shadow(-2px 0px 3px rgba(255, 35, 35, .2
 /* T1 */
 .msg-chat.msg-user .user.flair13~.text .emote.NOOOO {
   background-position: -41px;
+}
+
+[data-username="prsek"] .emote.NOOOO {
+    height: 35px;
+    width: 41px;
+    background-position: -1107px;
+    background-repeat: no-repeat;
 }
 
 
