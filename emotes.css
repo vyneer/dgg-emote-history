@@ -2401,6 +2401,15 @@
     margin-top: -29px;
     top: 7.25px;
 }
+.emote.smolguh {
+    background-image: url("690585b25b77c.png");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.smolguh {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.SNAP {
     background-image: url("5c5b9c9ba430a.png");
     height: 30px;
