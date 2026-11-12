@@ -583,6 +583,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.Cucked {
+    background-image: url("6af524fb3534d.gif");
+    height: 28px;
+    width: 28px;
+}
+.msg-chat .emote.Cucked {
+    margin-top: -28px;
+    top: 7px;
+}
 .emote.CUTESTINY {
     background-image: url("649f7adb5746a.png");
     height: 28px;

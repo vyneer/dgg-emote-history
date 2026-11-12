@@ -1040,6 +1040,22 @@
     ]
   },
   {
+    "prefix": "Cucked",
+    "creator": "",
+    "theme": 1,
+    "minimumSubTier": 0,
+    "patreonOnly": false,
+    "image": [
+      {
+        "url": "https://r2cdn.destiny.gg/emotes/6af524fb3534d.gif",
+        "name": "6af524fb3534d.gif",
+        "mime": "image/gif",
+        "height": 28,
+        "width": 28
+      }
+    ]
+  },
+  {
     "prefix": "CUTESTINY",
     "creator": "LilyPichu",
     "theme": 1,
