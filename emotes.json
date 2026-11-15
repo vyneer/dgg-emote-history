@@ -2912,22 +2912,6 @@
     ]
   },
   {
-    "prefix": "mrmaga",
-    "creator": "",
-    "theme": 1,
-    "minimumSubTier": 0,
-    "patreonOnly": false,
-    "image": [
-      {
-        "url": "https://r2cdn.destiny.gg/emotes/6af92021265bd.png",
-        "name": "6af92021265bd.png",
-        "mime": "image/png",
-        "height": 30,
-        "width": 29
-      }
-    ]
-  },
-  {
     "prefix": "NAHH",
     "creator": "",
     "theme": 1,
@@ -4320,22 +4304,6 @@
     ]
   },
   {
-    "prefix": "SMOrc",
-    "creator": "",
-    "theme": 1,
-    "minimumSubTier": 0,
-    "patreonOnly": false,
-    "image": [
-      {
-        "url": "https://r2cdn.destiny.gg/emotes/6af920a0c1529.png",
-        "name": "6af920a0c1529.png",
-        "mime": "image/png",
-        "height": 32,
-        "width": 32
-      }
-    ]
-  },
-  {
     "prefix": "SNAP",
     "creator": null,
     "theme": 1,
@@ -4556,22 +4524,6 @@
         "mime": "image/gif",
         "height": 30,
         "width": 90
-      }
-    ]
-  },
-  {
-    "prefix": "TDS",
-    "creator": "",
-    "theme": 1,
-    "minimumSubTier": 0,
-    "patreonOnly": false,
-    "image": [
-      {
-        "url": "https://r2cdn.destiny.gg/emotes/6af92312af48d.gif",
-        "name": "6af92312af48d.gif",
-        "mime": "image/gif",
-        "height": 32,
-        "width": 22
       }
     ]
   },

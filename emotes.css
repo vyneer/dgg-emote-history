@@ -1636,15 +1636,6 @@
     margin-top: -30px;
     top: 7.5px;
 }
-.emote.mrmaga {
-    background-image: url("6af92021265bd.png");
-    height: 30px;
-    width: 29px;
-}
-.msg-chat .emote.mrmaga {
-    margin-top: -30px;
-    top: 7.5px;
-}
 .emote.NAHH {
     background-image: url("653c2d4502fcb.png");
     height: 32px;
@@ -2428,15 +2419,6 @@
     margin-top: -32px;
     top: 8px;
 }
-.emote.SMOrc {
-    background-image: url("6af920a0c1529.png");
-    height: 32px;
-    width: 32px;
-}
-.msg-chat .emote.SMOrc {
-    margin-top: -32px;
-    top: 8px;
-}
 .emote.SNAP {
     background-image: url("5c5b9c9ba430a.png");
     height: 30px;
@@ -2562,15 +2544,6 @@
 .msg-chat .emote.SWEEPING {
     margin-top: -30px;
     top: 7.5px;
-}
-.emote.TDS {
-    background-image: url("6af92312af48d.gif");
-    height: 32px;
-    width: 22px;
-}
-.msg-chat .emote.TDS {
-    margin-top: -32px;
-    top: 8px;
 }
 .emote.TeaTime {
     background-image: url("6905e74d3f414.gif");
