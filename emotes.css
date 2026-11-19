@@ -628,6 +628,15 @@
     margin-top: -30px;
     top: 7.5px;
 }
+.emote.Dancer {
+    background-image: url("6af58a1b45da3.gif");
+    height: 32px;
+    width: 32px;
+}
+.msg-chat .emote.Dancer {
+    margin-top: -32px;
+    top: 8px;
+}
 .emote.DANKMEMES {
     background-image: url("66596f55973e2.png");
     height: 30px;

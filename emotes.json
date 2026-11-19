@@ -1120,6 +1120,22 @@
     ]
   },
   {
+    "prefix": "Dancer",
+    "creator": "",
+    "theme": 1,
+    "minimumSubTier": 0,
+    "patreonOnly": false,
+    "image": [
+      {
+        "url": "https://r2cdn.destiny.gg/emotes/6af58a1b45da3.gif",
+        "name": "6af58a1b45da3.gif",
+        "mime": "image/gif",
+        "height": 32,
+        "width": 32
+      }
+    ]
+  },
+  {
     "prefix": "DANKMEMES",
     "creator": "",
     "theme": 1,
